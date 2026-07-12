@@ -1,0 +1,50 @@
+=== Battle started: Aaa vs InTheLight (2026-07-12 11:31:54) ===
+-- Aaa's Team --
+1. Suicune (SUICUNE) Lv.50 [Pressure]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Imprison, Extrasensory, Charm, Psychic
+3. Crobat (CROBAT) Lv.39 [Inner Focus]
+   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
+4. Mesprit (MESPRIT) Lv.56 [Levitate]
+   Moves: Extrasensory, Charm, Psychic, Flatter
+5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+   Moves: String Shot, Absorb, Infestation, Heal Order
+-- InTheLight's Team --
+1. Suicune (SUICUNE) Lv.50 [Pressure]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Imprison, Extrasensory, Charm, Psychic
+3. Crobat (CROBAT) Lv.39 [Inner Focus]
+   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
+4. Mesprit (MESPRIT) Lv.56 [Levitate]
+   Moves: Extrasensory, Charm, Psychic, Flatter
+5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+   Moves: String Shot, Absorb, Infestation, Heal Order
+Skull Kid InTheLight wants to battle!
+Skull Kid InTheLight sent out Suicune!
+Go! Suicune!
+Mist swirls about the battlefield!
+Suicune is exerting its pressure!
+Enemy Suicune is exerting its pressure!
+Suicune used Crunch!
+Enemy Suicune used Ice Fang!
+Enemy Suicune's attack missed!
+Mist is swirling about the battlefield.
+-- End of round: Suicune 119/175HP [OK] | Suicune 95/175HP [OK]
+Enemy Suicune used Ice Fang!
+It's not very effective...
+Suicune used Crunch!
+Mist is swirling about the battlefield.
+-- End of round: Suicune 109/175HP [OK] | Suicune 70/175HP [OK]
+Enemy Suicune used Ice Fang!
+It's not very effective...
+Suicune used Crunch!
+Enemy Suicune's Defense fell!
+Mist is swirling about the battlefield.
+-- End of round: Suicune 99/175HP [OK] | Suicune 44/175HP [OK]
+Suicune used Crunch!
+Enemy Suicune used Ice Fang!
+Enemy Suicune's attack missed!
+Mist is swirling about the battlefield.
+-- End of round: Suicune 99/175HP [OK] | Suicune 11/175HP [OK]

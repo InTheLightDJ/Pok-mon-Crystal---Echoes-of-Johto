@@ -1,0 +1,85 @@
+#===============================================================================
+# Ruins of Alph – Unown gating (Map 212 spawns, switches 97–100)
+# Essentials v21+
+# By InTheLight
+#===============================================================================
+module RuinsUnown
+  RUINS_MAP_IDS   = [212]                # where the Unown appear make sure the encounter is set like normal
+  PUZZLE_SWITCHES = [97, 98, 99, 100]    # turn 1 of these ON, when each puzzle is solved
+
+  # Unown forms: 0..25 = A..Z   (we’ll ignore punctuation)
+  FORM_BUCKETS = [
+    (0..10).to_a,   # A..K after 1 puzzle
+    (11..17).to_a,  # L..R after 2 puzzles
+    (18..23).to_a,  # S..W after 3 puzzles
+    (24..27).to_a   # X..Z!? after 4 puzzles -> full set
+  ]
+  LETTER_FORMS = (0..27).to_a
+
+  def self.in_ruins?
+    RUINS_MAP_IDS.include?($game_map.map_id)
+  end
+
+  def self.solved_count
+    PUZZLE_SWITCHES.count { |sw| $game_switches[sw] }
+  end
+
+  def self.allowed_forms
+    sc = solved_count
+    return [] if sc <= 0
+    return LETTER_FORMS if sc >= PUZZLE_SWITCHES.length
+    pool = []
+    FORM_BUCKETS.each_with_index { |bucket, i| pool.concat(bucket) if i < sc }
+    pool.uniq
+  end
+
+  # Replace Unown with another species if no puzzles solved
+  def self.disallow_unown_if_none_solved!(encounter_arr)
+    return unless in_ruins?
+    return unless encounter_arr && encounter_arr[0] == :UNOWN
+    return if solved_count > 0
+
+    # Re-roll within the same encounter type to avoid Unown
+    enc_type = $game_temp.encounter_type || $PokemonEncounters.encounter_type
+    tries = 20
+    new_enc = nil
+    while tries > 0
+      cand = $PokemonEncounters.choose_wild_pokemon(enc_type)
+      if cand && cand[0] != :UNOWN
+        new_enc = cand
+        break
+      end
+      tries -= 1
+    end
+    # Fallback: just switch to Rattata at a sane level if table is only Unown
+    new_enc ||= [:RATTATA, [10, 15].sample]
+    encounter_arr[0] = new_enc[0]
+    encounter_arr[1] = new_enc[1]
+  end
+
+  # Force Unown’s form into the unlocked pool (letters only)
+  def self.force_unown_form!(pkmn)
+    return unless in_ruins?
+    return unless pkmn.species == :UNOWN
+    pool = allowed_forms
+    return if pool.empty?      # before any puzzle, we already prevented Unown above
+    pkmn.form = pool.sample
+    pkmn.reset_moves
+    pkmn.calc_stats
+  end
+end
+
+# 1) Filter at species-choosing time (works for normal + overworld spawns)
+EventHandlers.add(:on_wild_species_chosen, :ruins_unown_filter,
+  proc { |enc_arr| RuinsUnown.disallow_unown_if_none_solved!(enc_arr) }
+)
+
+# 2) After the Pokémon object is created, clamp Unown’s form to allowed bucket
+EventHandlers.add(:on_wild_pokemon_created, :ruins_unown_form_gate,
+  proc { |pkmn| RuinsUnown.force_unown_form!(pkmn) }
+)
+
+# 3) Also apply to Visible Overworld spawns (your plugin fires this event)
+EventHandlers.add(:on_wild_pokemon_created_for_spawning, :ruins_unown_form_gate_ow,
+  proc { |pkmn| RuinsUnown.force_unown_form!(pkmn) }
+)

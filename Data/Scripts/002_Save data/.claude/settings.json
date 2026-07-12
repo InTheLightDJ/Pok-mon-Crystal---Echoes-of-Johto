@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/created games/Pokemon-game/v21/Pokémon Crystal - Echoes of Johto/Data/Scripts/**)",
+      "PowerShell(code \"D:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pok�mon Crystal - Echoes of Johto\\\\Data\\\\Scripts\")"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+
+=================
+
+[2026-06-20 07:20:42 -0500]
+[Pokémon Essentials version 21.1]
+
+Script error in event 15 (coords 21,10), map 425 (Hidden area!)
+Exception: NoMethodError
+Message: undefined method `species' for nil:NilClass
+
+***Full script:
+pkmn = SpeciesIntro.new(:CATERPI)
+pkmn.show
+
+Backtrace:
+001_Show_Species_Box.rb:140:in `species_and_form'
+001_Show_Species_Box.rb:75:in `initialize'
+(eval):1:in `new'
+(eval):1:in `execute_script'
+003_Interpreter.rb:140:in `eval'
+003_Interpreter.rb:140:in `execute_script'
+004_Interpreter_Commands.rb:1191:in `command_355'
+004_Interpreter_Commands.rb:116:in `execute_command'
+003_Interpreter.rb:132:in `block in update'
+003_Interpreter.rb:86:in `loop'
+
+=================
+
+[2026-06-27 13:51:37 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: Errno::ENOENT
+Message: File Data/Map000.rxdata not found.
+
+Backtrace:
+002_Scene_Map.rb:61:in `load_data'
+002_Scene_Map.rb:61:in `autofade'
+002_Scene_Map.rb:77:in `transfer_player'
+Refresh.rb:213:in `transfer_player'
+002_Scene_Map.rb:175:in `block in update'
+002_Scene_Map.rb:168:in `loop'
+002_Scene_Map.rb:168:in `update'
+004_UnrealTime.rb:235:in `update'
+Refresh.rb:178:in `update'
+002_Scene_Map.rb:267:in `block in main'
+
+=================
+
+[2026-06-27 14:19:00 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: Errno::ENOENT
+Message: File Data/Map000.rxdata not found.
+
+Backtrace:
+002_Scene_Map.rb:61:in `load_data'
+002_Scene_Map.rb:61:in `autofade'
+002_Scene_Map.rb:77:in `transfer_player'
+Refresh.rb:213:in `transfer_player'
+002_Scene_Map.rb:175:in `block in update'
+002_Scene_Map.rb:168:in `loop'
+002_Scene_Map.rb:168:in `update'
+004_UnrealTime.rb:235:in `update'
+Refresh.rb:178:in `update'
+002_Scene_Map.rb:267:in `block in main'
+
+=================
+
+[2026-07-12 10:29:18 -0500]
+[Pokémon Essentials version 21.1]
+
+Script error in event 2 (coords 12,45), map 479 (MAP479)
+Exception: Encoding::CompatibilityError
+Message: incompatible character encodings: UTF-8 and ASCII-8BIT
+
+***Full script:
+pbMythicalHintNPC
+
+Backtrace:
+003_Intl_Messages.rb:782:in `gsub!'
+003_Intl_Messages.rb:782:in `block in _INTL'
+003_Intl_Messages.rb:781:in `each'
+003_Intl_Messages.rb:781:in `_INTL'
+013_NetworkMythical.rb:96:in `pbMythicalHintNPC'
+(eval):1:in `execute_script'
+003_Interpreter.rb:140:in `eval'
+003_Interpreter.rb:140:in `execute_script'
+004_Interpreter_Commands.rb:1191:in `command_355'
+004_Interpreter_Commands.rb:116:in `execute_command'

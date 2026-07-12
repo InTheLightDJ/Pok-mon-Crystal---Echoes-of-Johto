@@ -1,0 +1,5 @@
+def pbCheckInTheLightRadio
+  return $PokemonGlobal && $PokemonGlobal.radioStation == (:in_the_light || :rocket_takeover)
+end
+
+

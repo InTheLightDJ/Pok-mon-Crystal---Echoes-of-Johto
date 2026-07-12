@@ -1,0 +1,2631 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONTRAINER_Ethan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Kris]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[RIVAL1]
+Name = Rival
+Gender = Male
+BaseMoney = 16
+IntroBGM = Rival Encounter
+BattleBGM = vs Rival
+#-------------------------------
+[RIVAL2]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+IntroBGM = Rival Encounter
+BattleBGM = vs Rival
+#-------------------------------
+[BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 56
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[BIKER]
+Name = Biker
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+PokeBall = ULTRABALL
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[BOARDER]
+Name = Boarder
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Boy 2)
+#-------------------------------
+[BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[BURGLAR]
+Name = Burglar
+Gender = Male
+BaseMoney = 88
+SkillLevel = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[COOLTRAINER_F]
+Name = Cool Trainer
+Gender = Female
+BaseMoney = 60
+PokeBall = ULTRABALL
+IntroBGM = Trainers' Eyes Meet (Girl 1)
+#-------------------------------
+[COOLTRAINER_M]
+Name = Cool Trainer
+Gender = Male
+BaseMoney = 60
+PokeBall = ULTRABALL
+IntroBGM = Trainers' Eyes Meet (Boy 2)
+#-------------------------------
+[FIREBREATHER]
+Name = Firebreather
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 32
+PokeBall = LUREBALL
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 72
+PokeBall = LUXURYBALL
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[GUITARIST]
+Name = Guitarist
+Gender = Male
+BaseMoney = 24
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[JUGGLER]
+Name = Gambler
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Boy 2)
+#-------------------------------
+[KIMONOGIRL]
+Name = Kimono Girl
+Gender = Female
+BaseMoney = 80
+SkillLevel = 72
+IntroBGM = Trainers' Eyes Meet (Kimono Girl)
+#-------------------------------
+[LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[MEDIUM]
+Name = Medium
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[OFFICER]
+Name = Officer
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Boy 2)
+#-------------------------------
+[PICNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Girl 1)
+#-------------------------------
+[PICKNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Girl 1)
+#-------------------------------
+[POKEFAN_F]
+Name = Pokéfan
+Gender = Female
+BaseMoney = 48
+PokeBall = FRIENDBALL
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[POKEFAN_M]
+Name = Pokéfan
+Gender = Male
+BaseMoney = 48
+PokeBall = FRIENDBALL
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[POKEMANIAC]
+Name = Poké Maniac
+Gender = Male
+BaseMoney = 64
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[PSYCHIC]
+Name = Psychic
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[SAGE]
+Name = Sage
+Gender = Male
+BaseMoney = 80
+SkillLevel = 72
+IntroBGM = Trainers' Eyes Meet (Sage)
+#-------------------------------
+[SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[SCHOOLBOY]
+Name = School Boy
+Gender = Male
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[SCIENTIST]
+Name = Scientist
+Gender = Male
+BaseMoney = 48
+PokeBall = REPEATBALL
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[SKIER]
+Name = Skier
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[SUPERNERD]
+Name = Super Nerd
+Gender = Male
+BaseMoney = 48
+IntroBGM = Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+PokeBall = DIVEBALL
+IntroBGM = Trainers' Eyes Meet (Girl 1)
+#-------------------------------
+[SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+PokeBall = DIVEBALL
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[SCUBA_DIVER]
+Name = Scuba Diver
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = Trainers' Eyes Meet (Boy 2)
+#-------------------------------
+[FREE_DIVER]
+Name = Free Diver
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[TEACHER]
+Name = Teacher
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[TWINS]
+Name = Twins
+Gender = Unknown
+BaseMoney = 24
+PokeBall = LOVEBALL
+IntroBGM = Trainers' Eyes Meet (Girl 2)
+#-------------------------------
+[YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+IntroBGM = Trainers' Eyes Meet (Boy 1)
+#-------------------------------
+[ROCKETGRUNT_F]
+Name = Team Rocket
+Gender = Female
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Team Rocket)
+BattleBGM = vs Team Rocket
+#-------------------------------
+[ROCKETGRUNT_M]
+Name = Team Rocket
+Gender = Male
+BaseMoney = 32
+IntroBGM = Trainers' Eyes Meet (Team Rocket)
+BattleBGM = vs Team Rocket
+#-------------------------------
+[ROCKETEXEC_F]
+Name = Rocket Exec.
+Gender = Female
+BaseMoney = 100
+IntroBGM = Trainers' Eyes Meet (Team Rocket)
+BattleBGM = vs Team Rocket
+#-------------------------------
+[ROCKETEXEC_M]
+Name = Rocket Exec.
+Gender = Male
+BaseMoney = 100
+IntroBGM = Trainers' Eyes Meet (Team Rocket)
+BattleBGM = vs Team Rocket
+#-------------------------------
+[LEADER_Falkner]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Bugsy]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Whitney]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Morty]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Chuck]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Jasmine]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Pryce]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Clair]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Brock]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Misty]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_LtSurge]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Erika]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Janine]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Sabrina]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Blaine]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Blue]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Will]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+PokeBall = ULTRABALL
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Bruno]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+PokeBall = ULTRABALL
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Koga]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+PokeBall = ULTRABALL
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Karen]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+PokeBall = ULTRABALL
+BattleBGM = vs Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[CHAMPION_Lance]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+PokeBall = ULTRABALL
+BattleBGM = vs Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[MYSTICALMAN]
+Name = Mystical Man
+Gender = Male
+BaseMoney = 80
+PokeBall = PLIPBALL
+#-------------------------------
+[POKEMONTRAINER_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = vs Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[PROFESSOR]
+Name = Professor
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[INTHELIGHT]
+Name = Champ
+Gender = Male
+BaseMoney = 500
+BattleBGM = vs Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[DETECTIVE_F]
+Name = Detective
+Gender = Female
+BaseMoney = 200
+BattleBGM = detective song
+VictoryBGM = Battle victory leader
+#-------------------------------
+[GIOVANNI]
+Name = Rocket Leader
+Gender = Male
+BaseMoney = 300
+BattleBGM = vs Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[POKEMONTRAINER_1]
+Name = 2B
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_2]
+Name = Adeleine
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_3]
+Name = Ansem
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_4]
+Name = Baby Luigi
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_5]
+Name = Baby Mario
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_6]
+Name = Chiaki
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_7]
+Name = Chun-Li
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_8]
+Name = Bandana Dee
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_9]
+Name = Dante
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_10]
+Name = Darth Vader
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_11]
+Name = Diana
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_12]
+Name = Donald Duck
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_13]
+Name = Eggman
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_14]
+Name = Eusine
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_15]
+Name = Flygon
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_16]
+Name = Ganondorf
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_17]
+Name = Gehenna
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = Team Rockets Radio Tower
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_18]
+Name = Goofy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_19]
+Name = Grovyle
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_20]
+Name = Heihachi
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_21]
+Name = Homura
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_22]
+Name = Honoka
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_23]
+Name = Jenny
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_24]
+Name = Jin
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_25]
+Name = Jirachi
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_26]
+Name = Joker
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_27]
+Name = Kairi
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_28]
+Name = KOS-MOS
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_29]
+Name = Birdo
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_30]
+Name = Lear
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_31]
+Name = Link
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_32]
+Name = Lucario
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_33]
+Name = Luffy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_34]
+Name = Lum
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_35]
+Name = Boo
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_36]
+Name = Marisa
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_37]
+Name = Megumin
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_38]
+Name = Meowth
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = Team Rockets Radio Tower
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_39]
+Name = Meta Knight
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_40]
+Name = Mewtwo
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = The MewTwo Heart
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_41]
+Name = Mickey Mouse
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_42]
+Name = Miku
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_43]
+Name = Monika
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_44]
+Name = Morrigan
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_45]
+Name = Nakoruru
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_46]
+Name = Namine
+Gender = Female
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_47]
+Name = Natsuki
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_48]
+Name = Omega
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_49]
+Name = Polka
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_50]
+Name = Pyra
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_51]
+Name = Rimururu
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_52]
+Name = Rouge
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_53]
+Name = Roxas
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_54]
+Name = Ruby Rose
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_55]
+Name = Sakuya
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_56]
+Name = Sayori
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_57]
+Name = Sephiroth
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_58]
+Name = Shadow
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_59]
+Name = Skull Kid
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_60]
+Name = Sonar
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_61]
+Name = Sonic
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_62]
+Name = Sora
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_63]
+Name = Teto
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_64]
+Name = Tifa
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_65]
+Name = Venti
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_66]
+Name = Vivi
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_67]
+Name = Xion
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_68]
+Name = Yuri
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_69]
+Name = Waluigi
+Gender = Male
+BaseMoney = 60
+BattleBGM = FaceMyFears
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_70]
+Name = Bowser Jr
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_71]
+Name = CC Template
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_72]
+Name = Unknown_72
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_73]
+Name = Agumon
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_74]
+Name = Amy
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_75]
+Name = Artoria
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_76]
+Name = Ash
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_77]
+Name = Ash V4
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_78]
+Name = Blaze
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_79]
+Name = Bowser
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_80]
+Name = Cloud
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_81]
+Name = Dante
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_82]
+Name = Gammamon
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_83]
+Name = Gohan Teen
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_84]
+Name = Goku
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_85]
+Name = Greninja
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_86]
+Name = Guilmon
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_87]
+Name = Ichigo
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_88]
+Name = Kirei
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_89]
+Name = Lara Croft
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_90]
+Name = Leaf
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_91]
+Name = Lich King
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_92]
+Name = Looker
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_93]
+Name = Madoka
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_94]
+Name = Master Chief
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_95]
+Name = Megumin
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_96]
+Name = Morrigan
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_97]
+Name = Naruto
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_98]
+Name = Neku
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_99]
+Name = Palutena
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_100]
+Name = Peach
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_101]
+Name = Reimu
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_102]
+Name = Riku
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_103]
+Name = Rosalina
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_104]
+Name = Roy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_105]
+Name = Sabrina
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_106]
+Name = Sailor Moon
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_107]
+Name = Sakuya
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_108]
+Name = Takato
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_109]
+Name = The Knight
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_110]
+Name = Veemon
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_111]
+Name = Wario
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_112]
+Name = Wingull
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_113]
+Name = Yugi
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_114]
+Name = Zelda ALTTP
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_115]
+Name = Zelda TP
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_116]
+Name = Zero Suit Samus
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_117]
+Name = Daisy
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_118]
+Name = Dark Samus
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_119]
+Name = Dedede
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_120]
+Name = Bugs
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_121]
+Name = Youngster
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_122]
+Name = Pokemon
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_123]
+Name = Diddy Kong
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_124]
+Name = Red
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_125]
+Name = Sygna Red
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_126]
+Name = Picclo
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_127]
+Name = Unknown_127
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_128]
+Name = Dixie Kong
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_129]
+Name = Donkey Kong Jr
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_130]
+Name = Unknown_130
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_131]
+Name = Vegeta
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_132]
+Name = Wes
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_133]
+Name = Dawn
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_134]
+Name = Donkey Kong
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_135]
+Name = Dry Bones
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_136]
+Name = Geno
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_137]
+Name = Iggy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_138]
+Name = King Bob-omb
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_139]
+Name = King Boo
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_140]
+Name = King K. Rool
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_141]
+Name = Kirby
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_142]
+Name = Koopa
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_143]
+Name = Larry Koopa
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_144]
+Name = Lemmy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_145]
+Name = Link (Time)
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_146]
+Name = Toon Link
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_147]
+Name = Link (Twilight)
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_148]
+Name = Link (Wild)
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_149]
+Name = Ludwig
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_150]
+Name = Luigi
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_151]
+Name = Mallow
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_152]
+Name = Mario
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_153]
+Name = Marx
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_154]
+Name = Morton
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_155]
+Name = Paratroopa
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_156]
+Name = Pauline
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_157]
+Name = Petey Piranha
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_158]
+Name = Piranha Plant
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_159]
+Name = Ridley
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_160]
+Name = Roy Koopa
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_161]
+Name = Samus
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_162]
+Name = Sheik
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_163]
+Name = Shy Guy
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_164]
+Name = Toad
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_165]
+Name = Toadette
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_166]
+Name = Waddle Doo
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_167]
+Name = Wendy
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_168]
+Name = Yoshi
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_169]
+Name = Blastoise
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_170]
+Name = Captain Falcon
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_171]
+Name = Charizard
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_172]
+Name = Claus
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_173]
+Name = Falco
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_174]
+Name = Fox
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_175]
+Name = Mr. Game and Watch
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_176]
+Name = Popo
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_177]
+Name = Nana
+Gender = Female
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_178]
+Name = Incineroar
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_179]
+Name = Lucas
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_180]
+Name = Ness
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_181]
+Name = Ninten
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_182]
+Name = Raichu
+Gender = Unknown
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_183]
+Name = Wolf
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_184]
+Name = AI
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_185]
+Name = ALEX
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_186]
+Name = ASRIEL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_187]
+Name = BANJO KAZOOIE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_188]
+Name = BARK
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_189]
+Name = BART
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_190]
+Name = BASS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_191]
+Name = BEAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_192]
+Name = BIG
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_193]
+Name = BOMBERMAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_194]
+Name = BYLETH
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_195]
+Name = CHAOS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_196]
+Name = CHARMY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_197]
+Name = CHROM
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_198]
+Name = CLASSIC SONIC
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_199]
+Name = CONAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_200]
+Name = CONKER
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_201]
+Name = CORRIN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_202]
+Name = CRASH
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_203]
+Name = CREAM
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_204]
+Name = CRONO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_205]
+Name = CUPHEAD
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_206]
+Name = DAFFY DUCK
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_207]
+Name = DARWIN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_208]
+Name = DAVIS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_209]
+Name = DEKU
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_210]
+Name = DOOMGUY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_211]
+Name = DORAEMON
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_212]
+Name = DUCK HUNT
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_213]
+Name = EDWARD
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_214]
+Name = EIGHT
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_215]
+Name = ENDERMAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_216]
+Name = ERDRICK
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_217]
+Name = ESPIO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_218]
+Name = FANG
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_219]
+Name = FINN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_220]
+Name = FREDDY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_221]
+Name = GANGLE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_222]
+Name = GHOST BLINKY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_223]
+Name = GHOST CLYDE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_224]
+Name = GHOST INKY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_225]
+Name = GHOST PINKY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_226]
+Name = GUMBALL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_227]
+Name = IKE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_228]
+Name = INKLING BOY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_229]
+Name = INKLING GIRL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_230]
+Name = ISAAC
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_231]
+Name = ISABELLE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_232]
+Name = JACK FROST
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_233]
+Name = JAKE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_234]
+Name = JAX
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_235]
+Name = JET
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_236]
+Name = KAZUYA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_237]
+Name = KEN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_238]
+Name = KINGER
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_239]
+Name = KIRYU
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_240]
+Name = KLONOA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_241]
+Name = LIP
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_242]
+Name = LITTLE MAC
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_243]
+Name = LUCINA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_244]
+Name = LUMINARY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_245]
+Name = LUZ
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_246]
+Name = MARTH
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_247]
+Name = MEGA MAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_248]
+Name = METABEE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_249]
+Name = METAL SONIC
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_250]
+Name = MIGHTY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_251]
+Name = MIN MIN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_252]
+Name = MORGANA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_253]
+Name = MUGMAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_254]
+Name = MYTHRA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_255]
+Name = NIGHTS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_256]
+Name = NINTENDOG
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_257]
+Name = OLIMAR
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_258]
+Name = PAC-MAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_259]
+Name = PHOENIX
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_260]
+Name = PIT
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_261]
+Name = PITTOO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_262]
+Name = POMNI
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_263]
+Name = PROTO MAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_264]
+Name = RAGATHA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_265]
+Name = RAY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_266]
+Name = RAYMAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_267]
+Name = RENA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_268]
+Name = ROB
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_269]
+Name = ROBIN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_270]
+Name = ROLL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_271]
+Name = ROY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_272]
+Name = RYU
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_273]
+Name = SAKURA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_274]
+Name = SANTA CLAUS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_275]
+Name = SEVERA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_276]
+Name = SHANTAE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_277]
+Name = SHOVEL KNIGHT
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_278]
+Name = SHULK
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_279]
+Name = SIMON TTGL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_280]
+Name = SNAKE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_281]
+Name = SOLO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_282]
+Name = SPIDER-MAN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_283]
+Name = SPIKE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_284]
+Name = SPYRO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_285]
+Name = STEVE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_286]
+Name = STEVEN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_287]
+Name = TAI
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_288]
+Name = TAILS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_289]
+Name = TERRY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_290]
+Name = TIKAL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_291]
+Name = TOMBA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_292]
+Name = VECTOR
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_293]
+Name = VERGIL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_294]
+Name = VILLAGER BOY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_295]
+Name = VILLAGER GIRL
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_296]
+Name = WII FIT TRAINER
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_297]
+Name = X
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_298]
+Name = ZERO
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_299]
+Name = ZOMBIE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_300]
+Name = ZOOBLE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_301]
+Name = LEAF SYGNA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_302]
+Name = FEM RANGER
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_303]
+Name = KAREN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_304]
+Name = WHITNEY
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_305]
+Name = GhostGuy
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare

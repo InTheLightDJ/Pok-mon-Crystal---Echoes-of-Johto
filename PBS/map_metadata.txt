@@ -1,0 +1,1285 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # INTRO
+Name = Intro
+#-------------------------------
+[002]   # NEW BARK TOWN
+Name = New Bark Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,20,12
+BattleBack = general
+#-------------------------------
+[003]   # \PN'S HOUSE
+Name = \PN's House
+MapPosition = 0,20,12
+BattleBack = general
+#-------------------------------
+[004]   # \PN'S ROOM
+Name = \PN's Room
+MapPosition = 0,20,12
+BattleBack = general
+#-------------------------------
+[005]   # HOUSE 1
+Name = House 1
+MapPosition = 0,20,12
+#-------------------------------
+[006]   # HOUSE 2
+Name = House 2
+MapPosition = 0,20,12
+#-------------------------------
+[007]   # ELM'S POKéMON LAB
+Name = Elm's Pokémon Lab
+MapPosition = 0,20,12
+BattleBack = general
+#-------------------------------
+[008]   # ROUTE 29
+Name = Route 29
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,12
+BattleBack = general
+#-------------------------------
+[009]   # KURT'S HOUSE
+Name = Kurt's House
+MapPosition = 0,18,12
+#-------------------------------
+[010]   # GOLDENROD CITY
+Name = Goldenrod City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,11
+BattleBack = general
+#-------------------------------
+[011]   # POKéCOM CENTER
+Name = PokéCom Center
+MapPosition = 0,18,11
+BattleBack = general
+#-------------------------------
+[012]   # GYM EXAMPLE
+Name = Pokémon Gym
+MapPosition = 0,18,11
+BattleBack = general
+#-------------------------------
+[013]   # POKéMON INSTITUTE
+Name = Pokémon Institute
+MapPosition = 0,18,11
+BattleBack = general
+#-------------------------------
+[014]   # UNDERGROUND PATH
+Name = Underground Path
+MapPosition = 0,18,11
+BattleBack = general
+#-------------------------------
+[015]   # UNDERGROUND NORTH ENTRANCE
+Name = Underground North Entrance
+MapPosition = 0,18,11
+#-------------------------------
+[016]   # UNDERGROUND SOUTH ENTRANCE
+Name = Underground South Entrance
+MapPosition = 0,18,11
+#-------------------------------
+[017]   # GAME CORNER
+Name = Game Corner
+MapPosition = 0,18,11
+#-------------------------------
+[018]   # GOLDENROD DEPT. 1F
+Name = Goldenrod Dept. 1F
+MapPosition = 0,18,11
+#-------------------------------
+[019]   # GOLDENROD DEPT. 2F
+Name = Goldenrod Dept. 2F
+MapPosition = 0,18,11
+#-------------------------------
+[020]   # GOLDENROD DEPT. 3F
+Name = Goldenrod Dept. 3F
+MapPosition = 0,18,11
+#-------------------------------
+[021]   # GOLDENROD DEPT. 4F
+Name = Goldenrod Dept. 4F
+MapPosition = 0,18,11
+#-------------------------------
+[022]   # GOLDENROD DEPT. 5F
+Name = Goldenrod Dept. 5F
+MapPosition = 0,18,11
+#-------------------------------
+[023]   # GOLDENROD DEPT. 6F
+Name = Goldenrod Dept. 6F
+MapPosition = 0,18,11
+#-------------------------------
+[024]   # GOLDENROD DEPT. ELEVATOR
+Name = Goldenrod Dept. Elevator
+MapPosition = 0,18,11
+#-------------------------------
+[025]   # BIKE SHOP
+Name = Bike Shop
+MapPosition = 0,18,11
+#-------------------------------
+[026]   # GOLDENROD STATION
+Name = Goldenrod Station
+MapPosition = 0,18,11
+#-------------------------------
+[027]   # EXIL FOREST SOUTH ENTRANCE
+Name = Radio Tower
+MapPosition = 0,18,11
+#-------------------------------
+[028]   # EXIL FOREST
+Name = Radio Tower 2F
+MapPosition = 0,18,11
+#-------------------------------
+[029]   # GANYMAHO TOWN
+Name = Ilex Forest
+ShowArea = true
+MapPosition = 0,18,10
+BattleBack = general
+#-------------------------------
+[030]   # EXIL FOREST NORTH ENTRANCE
+Name = Ilex Forest South. Ent.
+MapPosition = 0,18,10
+#-------------------------------
+[031]   # GANYMAHO TOWN POKé CENTER
+Name = Ilex Forest North Ent.
+MapPosition = 0,18,10
+#-------------------------------
+[032]   # GANYMAHO TOWN MART
+Name = Mahogany Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,9
+BattleBack = general
+#-------------------------------
+[033]   # POKéMON FAN CLUB
+Name = Mahogany Poké Center
+MapPosition = 0,18,9
+#-------------------------------
+[034]   # POKéMON DAY CARE
+Name = Mahogany Poké Mart
+MapPosition = 0,18,9
+#-------------------------------
+[035]   # PARK NATIONAL
+Name = Mahogany Fan Club
+MapPosition = 0,18,9
+#-------------------------------
+[036]   # PARK NATIONAL ENTRANCE
+Name = Pokémon Day Care
+MapPosition = 0,18,9
+#-------------------------------
+[037]   # PARK NATIONAL PAVILLION
+Name = National Park
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,8
+BattleBack = general
+#-------------------------------
+[038]   # ROUTE 30
+Name = Park Entrance
+MapPosition = 0,18,8
+#-------------------------------
+[039]   # ICE PATH
+Name = Park Pavillion
+MapPosition = 0,18,8
+#-------------------------------
+[040]   # ROUTE 31
+Name = Route 30
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,9
+BattleBack = general
+#-------------------------------
+[041]   # UNION CAVE
+Name = Ice Path
+ShowArea = true
+MapPosition = 0,21,8
+BattleBack = general
+#-------------------------------
+[042]   # UNION CAVE
+Name = Route 31
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,10
+BattleBack = general
+#-------------------------------
+[043]   # DUNGEON
+Name = Union Cave
+ShowArea = true
+MapPosition = 0,20,10
+BattleBack = general
+#-------------------------------
+[044]   # ROUTE 28
+Name = Union Cave -1F
+MapPosition = 0,20,10
+DarkMap = true
+BattleBack = general
+#-------------------------------
+[045]   # UNDERWATER
+Name = Dungeon
+MapPosition = 0,20,10
+Dungeon = true
+BattleBack = general
+#-------------------------------
+[046]   # VERLD FALLS
+Name = Route 28
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,22,12
+DiveMap = 47
+BattleBack = general
+#-------------------------------
+[047]   # INDIGO PLATEAU ENTRANCE
+Name = Underwater
+ShowArea = true
+MapPosition = 0,22,12
+DiveMap = 46
+BattleBack = general
+#-------------------------------
+[048]   # INDIGO PLATEAU
+Name = Verd Falls
+ShowArea = true
+MapPosition = 1,7,11
+BattleBack = general
+#-------------------------------
+[049]   # POKéMON LEAGUE
+Name = Indigo Plateau Entrance
+MapPosition = 1,9,8
+BattleBack = general
+#-------------------------------
+[050]   # POKéMON LEAGUE
+Name = Indigo Plateau
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 1,9,7
+BattleBack = general
+#-------------------------------
+[051]   # HALL OF FAME
+Name = Pokémon League
+MapPosition = 1,9,7
+#-------------------------------
+[052]   # BATTLE FRONTIER
+Name = Champion's Room
+MapPosition = 1,9,7
+BattleBack = general
+#-------------------------------
+[053]   # BATTLE FRONTIER POKé CENTER
+Name = Hall of Fame
+MapPosition = 1,9,7
+#-------------------------------
+[054]   # BATTLE FRONTIER MART
+Name = Battle Frontier
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[055]   # BATTLE TOWER
+Name = Frontier Poké Center
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[056]   # BATTLE TOWER ARENA
+Name = Frontier Mart
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[057]   # STADIUM CUP LOBBY
+Name = Battle Tower
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[058]   # BATTLE PALACE
+Name = Battle Tower Arena
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[059]   # BATTLE PALACE ARENA
+Name = Stadium Cup Lobby
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[060]   # BATTLE ARENA
+Name = Battle Palace
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[061]   # BATTLE ARENA ARENA
+Name = Battle Palace Arena
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[062]   # BATTLE FACTORY
+Name = Battle Arena
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[063]   # BATTLE FACTORY INTRO CORRIDOR
+Name = Battle Arena Arena
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[064]   # BATTLE FACTORY ARENA
+Name = Battle Factory
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[065]   # BATTLE FACTORY CORRIDOR
+Name = Battle Factory Corridor
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[066]   # BATTLE FRONTIER ENTRANCE
+Name = Battle Factory Arena
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[067]   # FRONSAF CITY
+Name = Battle Factory Corridor 2
+MapPosition = 0,16,9
+BattleBack = general
+#-------------------------------
+[068]   # FRONSAF CITY POKé CENTER
+Name = Battle Frontier Entrance
+MapPosition = 0,17,9
+BattleBack = general
+#-------------------------------
+[069]   # FRONSAF CITY MART
+Name = Saffron City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 1,11,8
+BattleBack = general
+#-------------------------------
+[070]   # FRONSAF CITY STATION
+Name = Saffron Poké Center
+MapPosition = 1,11,8
+#-------------------------------
+[071]   # ROUTE 24
+Name = Saffron Mart
+MapPosition = 1,11,8
+#-------------------------------
+[072]   # ROUTE 24
+Name = Saffron Station
+MapPosition = 1,11,8
+#-------------------------------
+[073]   # CYCLING ROAD GATE
+Name = Route 24
+MapPosition = 1,13,8
+#-------------------------------
+[074]   # ROUTE 25
+Name = Route 24
+MapPosition = 1,13,8
+#-------------------------------
+[075]   # ROUTE 26
+Name = Cycling Road Gate
+MapPosition = 1,12,8
+#-------------------------------
+[076]   # ROUTE 26
+Name = Route 25
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 1,13,9
+BattleBack = general
+#-------------------------------
+[077]   # CYCLING ROAD GATE
+Name = Route 26
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 1,13,11
+BattleBack = general
+#-------------------------------
+[078]   # LLIONVERMI CITY
+Name = Route 26
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 1,13,11
+BattleBack = general
+#-------------------------------
+[079]   # LLIONVERMI CITY POKé CENTER
+Name = Cycling Road Gate
+MapPosition = 1,12,11
+#-------------------------------
+[080]   # LLIONVERMI CITY MART
+Name = Vermillion City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 1,11,11
+BattleBack = general
+#-------------------------------
+[081]   # OAK'S POKÉMON LAB
+Name = Vermillion Poké Center
+MapPosition = 1,11,11
+#-------------------------------
+[082]   # SAFARI ZONE
+Name = Vermillion Mart
+MapPosition = 1,11,11
+#-------------------------------
+[083]   # SAFARY ZONE GATE
+Name = Oak's Pokémon Lab
+MapPosition = 1,11,11
+#-------------------------------
+[084]   # HARBOUR
+Name = Harbour
+Outdoor = true
+ShowArea = true
+MapPosition = 1,11,11
+BattleBack = general
+#-------------------------------
+[085]   # ROUTE 27
+Name = Safari Zone
+Outdoor = true
+ShowArea = true
+MapPosition = 1,11,10
+SafariMap = true
+BattleBack = general
+#-------------------------------
+[086]   # DAROXY ISLAND
+Name = Safari Zone Gate
+MapPosition = 1,11,11
+#-------------------------------
+[087]   # FARADAY ISLAND
+Name = Route 27
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 1,10,11
+BattleBack = general
+#-------------------------------
+[088]   # RADIO TOWER
+Name = Daroxy Island
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BattleBack = general
+#-------------------------------
+[089]   # RADIO TOWER 2F
+Name = Faraday Island
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BattleBack = general
+#-------------------------------
+[092]   # NEW BARK TOWN
+Name = NEW BARK TOWN
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,22,13
+#-------------------------------
+[097]   # ROUTE 29
+Name = ROUTE 29
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,20,13
+#-------------------------------
+[098]   # CHERRYGROVE CITY
+Name = CHERRYGROVE CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,17,13
+#-------------------------------
+[103]   # ROUTE 30
+Name = ROUTE 30
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[106]   # ROUTE 31
+Name = ROUTE 31
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[108]   # VIOLET CITY
+Name = VIOLET CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,15,8
+#-------------------------------
+[115]   # ROUTE 32
+Name = ROUTE 32
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[117]   # ROUTE 33
+Name = ROUTE 33
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[118]   # AZALEA TOWN
+Name = AZALEA TOWN
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,13,16
+#-------------------------------
+[124]   # ROUTE 34
+Name = ROUTE 34
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[126]   # ROUTE 34
+Name = ROUTE 34
+Outdoor = true
+#-------------------------------
+[127]   # GOLDENROD CITY
+Name = GOLDENROD CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,11,12
+#-------------------------------
+[128]   # GTS
+Name = GTS
+Outdoor = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[131]   # ROUTE 35
+Name = ROUTE 35
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[132]   # ROUTE 36
+Name = ROUTE 36
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[133]   # ROUTE 37
+Name = ROUTE 37
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[134]   # ECRUTEAK CITY
+Name = ECRUTEAK CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+MapPosition = 0,13,6
+#-------------------------------
+[135]   # ROUTE 38
+Name = ROUTE 38
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[136]   # ROUTE 39
+Name = ROUTE 39
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[137]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+MapPosition = 0,9,8
+#-------------------------------
+[138]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+#-------------------------------
+[140]   # ROUTE 40
+Name = ROUTE 40
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[141]   # BATTLE TOWER
+Name = BATTLE TOWER
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[142]   # ROUTE 41
+Name = ROUTE 41
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[143]   # CIANWOOD CITY
+Name = CIANWOOD CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+MapPosition = 0,7,13
+#-------------------------------
+[144]   # ROUTE 42
+Name = ROUTE 42
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[145]   # MAHOGANY TOWN
+Name = MAHOGANY TOWN
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+MapPosition = 0,18,6
+#-------------------------------
+[146]   # ROUTE 43
+Name = ROUTE 43
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[147]   # LAKE OF RAGE
+Name = LAKE OF RAGE
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Blizzard,10
+#-------------------------------
+[148]   # ROUTE 44
+Name = ROUTE 44
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[149]   # BLACKTHORN CITY
+Name = BLACKTHORN CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+MapPosition = 0,21,6
+#-------------------------------
+[150]   # ROUTE 45
+Name = ROUTE 45
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[151]   # ROUTE 46
+Name = ROUTE 46
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[153]   # ROUTE 27
+Name = ROUTE 27
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[154]   # ROUTE 26
+Name = ROUTE 26
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+DiveMap = 466
+#-------------------------------
+[156]   # VIRIDIAN CITY
+Name = VIRIDIAN CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[157]   # ROUTE 1
+Name = ROUTE 1
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[158]   # ROUTE 22
+Name = ROUTE 22
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[159]   # PALLET TOWN
+Name = PALLET TOWN
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,20
+#-------------------------------
+[160]   # ROUTE 2
+Name = ROUTE 2
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[161]   # VIRIDIAN FOREST
+Name = VIRIDIAN FOREST
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,20
+#-------------------------------
+[162]   # PEWTER CITY
+Name = PEWTER CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[164]   # ROUTE 3
+Name = ROUTE 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Blizzard,10
+#-------------------------------
+[165]   # ROUTE 4
+Name = ROUTE 4
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[166]   # CERULEAN CITY
+Name = CERULEAN CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[167]   # ROUTE 24
+Name = ROUTE 24
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[168]   # ROUTE 25
+Name = ROUTE 25
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Blizzard,10
+#-------------------------------
+[169]   # ROUTE 9
+Name = ROUTE 9
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[170]   # ROUTE 10
+Name = ROUTE 10
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[171]   # LAVENDER TOWN
+Name = LAVENDER TOWN
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[172]   # ROUTE 8
+Name = ROUTE 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[173]   # ROUTE 5
+Name = ROUTE 5
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[174]   # SAFFRON CITY
+Name = SAFFRON CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[175]   # ROUTE 7
+Name = ROUTE 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[176]   # CELADON CITY
+Name = CELADON CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,10
+#-------------------------------
+[177]   # ROUTE 16
+Name = ROUTE 16
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[178]   # ROUTE 12
+Name = ROUTE 12
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,30
+#-------------------------------
+[179]   # ROUTE 13
+Name = ROUTE 13
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[180]   # ROUTE 6
+Name = ROUTE 6
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,30
+#-------------------------------
+[181]   # VERMILION CITY
+Name = VERMILION CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[182]   # ROUTE 11
+Name = ROUTE 11
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+#-------------------------------
+[183]   # ROUTE 14
+Name = ROUTE 14
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[184]   # ROUTE 15
+Name = ROUTE 15
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[185]   # FUCHSIA CITY
+Name = FUCHSIA CITY
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[186]   # ROUTE 18
+Name = ROUTE 18
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[187]   # ROUTE 17
+Name = ROUTE 17
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BicycleAlways = true
+Weather = Sun,20
+#-------------------------------
+[189]   # ALTERNATE
+Name = ALTERNATE
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,20
+#-------------------------------
+[190]   # ROUTE 21
+Name = ROUTE 21
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,30
+DiveMap = 467
+#-------------------------------
+[191]   # ROUTE 19
+Name = ROUTE 19
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,20
+#-------------------------------
+[192]   # ROUTE 19
+Name = ROUTE 19
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[193]   # RUINS OF ALPH
+Name = RUINS OF ALPH
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[209]   # DARK CAVE
+Name = DARK CAVE
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[210]   # DARK CAVE
+Name = DARK CAVE
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[211]   # RUINS OF ALPH
+Name = RUINS OF ALPH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[215]   # RUINS OF ALPH
+Name = RUINS OF ALPH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[216]   # UNION CAVE
+Name = UNION CAVE
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[217]   # UNION CAVE
+Name = UNION CAVE
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[218]   # UNION CAVE
+Name = UNION CAVE
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[219]   # SLOWPOKE WELL
+Name = SLOWPOKE WELL
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[221]   # ILEX FOREST
+Name = ILEX FOREST
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,10
+#-------------------------------
+[222]   # ILEX FOREST
+Name = ILEX FOREST
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[223]   # ILEX FOREST
+Name = ILEX FOREST
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[231]   # GOLDENROD CITY
+Name = GOLDENROD CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[232]   # NATIONAL PARK
+Name = NATIONAL PARK
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[233]   # NATIONAL PARK
+Name = NATIONAL PARK
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Sun,10
+#-------------------------------
+[234]   # NATIONAL PARK
+Name = NATIONAL PARK
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[242]   # ROUTE 38
+Name = ROUTE 38
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[243]   # ROUTE 39
+Name = ROUTE 39
+Outdoor = true
+#-------------------------------
+[260]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[261]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[262]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[263]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[264]   # OLIVINE CITY
+Name = OLIVINE CITY
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[279]   # BATTLE TOWER
+Name = BATTLE TOWER
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[298]   # ROUTE 42
+Name = ROUTE 42
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[306]   # MAHOGANY TOWN
+Name = MAHOGANY TOWN
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[307]   # ROUTE 43
+Name = ROUTE 43
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[309]   # ICE PATH
+Name = ICE PATH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[310]   # ICE PATH
+Name = ICE PATH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[311]   # ICE PATH
+Name = ICE PATH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[312]   # ICE PATH
+Name = ICE PATH
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[317]   # DRAGON'S DEN
+Name = DRAGON'S DEN
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[318]   # DRAGON'S DEN
+Name = DRAGON'S DEN
+Outdoor = true
+Bicycle = true
+#-------------------------------
+[319]   # DRAGON'S DEN
+Name = DRAGON'S DEN
+#-------------------------------
+[323]   # ROUTE 28
+Name = ROUTE 28
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,10
+#-------------------------------
+[324]   # MT. SILVER
+Name = MT. SILVER
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[327]   # MT. SILVER
+Name = MT. SILVER
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[328]   # MT. SILVER
+Name = MT. SILVER
+Bicycle = true
+#-------------------------------
+[329]   # MT. SILVER
+Name = MT. SILVER
+Bicycle = true
+#-------------------------------
+[330]   # MT. SILVER
+Name = MT. SILVER
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[331]   # MT. SILVER
+Name = MT. SILVER
+Bicycle = true
+#-------------------------------
+[335]   # INDIGO PLATEAU
+Name = INDIGO PLATEAU
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Blizzard,10
+#-------------------------------
+[353]   # DIGLETT'S CAVE
+Name = DIGLETT'S CAVE
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[358]   # MT. MOON
+Name = MT. MOON
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[367]   # CERULEAN CAVE
+Name = CERULEAN CAVE
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[368]   # CERULEAN CAVE
+Name = CERULEAN CAVE
+Bicycle = true
+#-------------------------------
+[369]   # CERULEAN CAVE
+Name = CERULEAN CAVE
+Bicycle = true
+#-------------------------------
+[371]   # ROCK TUNNEL
+Name = ROCK TUNNEL
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[372]   # ROCK TUNNEL
+Name = ROCK TUNNEL
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[416]   # SAFARI ZONE
+Name = SAFARI ZONE
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,10
+SafariMap = true
+#-------------------------------
+[425]   # Hidden area!
+Name = Hidden area!
+Outdoor = true
+Bicycle = true
+Weather = Sun,10
+#-------------------------------
+[427]   # UNION CAVE
+Name = UNION CAVE
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[429]   # NATIONAL PARK
+Name = NATIONAL PARK
+Outdoor = true
+Bicycle = true
+Weather = Fog,10
+#-------------------------------
+[433]   # Calling Grotto
+Name = Calling Grotto
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[449]   # WaterWay
+Name = Wa Wa WaterWay
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,10
+#-------------------------------
+[450]   # Secret Area
+Name = Secret Area
+Outdoor = true
+Bicycle = true
+Weather = Fog,10
+#-------------------------------
+[466]   # Between map
+Name = Between map
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,20
+#-------------------------------
+[477]   # MAP477
+Name = MAP477
+Outdoor = true
+Bicycle = true
+Weather = Rain,10
+#-------------------------------
+[479]   # MAP479
+Outdoor = true
+Bicycle = true
+Weather = Fog,20

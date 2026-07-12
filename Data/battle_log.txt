@@ -1,0 +1,63 @@
+=== Battle started: Aaa vs InTheLight (2026-07-12 11:25:41) ===
+=== Battle started: InTheLight vs Aaa (2026-07-12 11:25:41) ===
+-- InTheLight's Team --
+0 [Pressure]
+1. Suicune (SUICUNE) Lv.50 [Pressure]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+   Moves: Imprison, Extrasensory, Charm, Psychic
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Imprison, Extrasensory, Charm, Psychic
+   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
+3. Crobat (CROBAT) Lv.39 [Inner Focus]
+4. Mesprit (MESPRIT) Lv.56 [Levitate]
+d, Air Cutter
+   Moves: Extrasensory, Charm, Psychic, Flatter
+4. Mesprit (MESPRIT) Lv.56 [Levitate]
+5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+   Moves: Extrasensory, Charm, Psychic, Flatter
+   Moves: String Shot, Absorb, Infestation, Heal Order
+5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+   Moves: String Shot, Absorb, Infestation, Heal Order
+-- InTheLight's Team --
+-- Aaa's Team --
+1. Suicune (SUICUNE) Lv.50 [Pressure]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
+2. Mesprit (MESPRIT) Lv.51 [Levitate]
+   Moves: Imprison, Extrasensory, Charm, Psychic
+   Moves: Imprison, Extrasensory, Charm, Psychic
+3. Crobat (CROBAT) Lv.39 [Inner Focus]
+   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
+3. Crobat (CROBAT) Lv.39 [Inner Focus]
+   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
+4. Mesprit (MESPRIT) Lv.56 [Levitate]
+   Moves: Extrasensory, Charm, Psychic, Flatter
+5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+   Moves: String Shot, Absorb, Infestation, Heal Order
+
+   Moves: String Shot, Absorb, Infestation, Heal Order
+Skull Kid InTheLight wants to battle!
+Skull Kid Aaa wants to battle!
+Skull Kid InTheLight sent out Suicune!
+Skull Kid Aaa sent out Suicune!
+Go! Suicune!
+Go! Suicune!
+Mist swirls about the battlefield!
+Mist swirls about the battlefield!
+Enemy Suicune is exerting its pressure!
+Enemy Suicune is exerting its pressure!
+Suicune is exerting its pressure!
+Suicune is exerting its pressure!
+Suicune used Ice Fang!
+Enemy Suicune used Ice Fang!
+It's not very effective...
+It's not very effective...
+Enemy Suicune used Crunch!
+Suicune used Crunch!
+Mist is swirling about the battlefield.
+Mist is swirling about the battlefield.
+-- End of round: Suicune 94/175HP [OK] | Suicune 109/175HP [OK]
+-- End of round: Suicune 109/175HP [OK] | Suicune 94/175HP [OK]

@@ -1,0 +1,222 @@
+#===============================================================================
+# v21.1 Rescue/Evolution Chain + Shiny Catch Combo
+# - Compatible with Visible Overworld Wild Encounters (spawn/instant)
+# - Uses v21 EventHandlers (no v18 Events[] API)
+# - Safe with roamers/Pokeradar (optional)
+#===============================================================================
+
+module ChainSettings
+  # ---------- Evolution/Rescue chain ----------
+  EVO_CHAIN_LEN       = 4    # Every multiple adds another "roll" to upgrade
+  EVO_ROLL_OUTOF      = 3    # 1 / this chance per roll to upgrade species
+  EVO_LEVEL_WOBBLE    = 10   # Add 0..this to chosen level floor
+  EVO_DISABLE_WITH_RADAR = true
+  EVO_MAPS_WHITELIST  = []   # [] = anywhere
+  EVO_MAPS_BLACKLIST  = []   # map IDs to block outright
+  EVO_DISABLE_SWITCH  = -1   # >0 means "if this switch ON: disable evo chain"
+
+  # ---------- Shiny catch combo ----------
+  SHINY_CHAIN_LEN     = 10   # minimum combo for boosted shiny chance
+  SHINY_ROLL_OUTOF    = 80   # rand(outof) < combo  (so higher combo → more)
+  # Bonus: “force same species while comboing” (Let’s Go flavor)
+  SAME_SPECIES_NUDGE = {
+    low:   0.10,  # combo < 10 : 10% nudge to current combo species
+    mid:   0.20,  # combo = 10 : 20%
+    high:  0.50   # combo > 10 : 50%
+  }
+end
+
+# Keep state on Game_Temp in v21
+class Game_Temp
+  attr_accessor :rescue_chain   # [length, baby_family_symbol]
+  attr_accessor :catch_combo    # [length, target_species_symbol]
+end
+
+# ----------------- helpers -----------------
+def legendary_species?(species)
+  data = GameData::Species.get(species) rescue nil
+  return false unless data
+  return true if (data.has_flag?("Legendary") rescue false)
+  return true if (data.has_flag?("Mythical") rescue false)
+  cat = (data.real_category rescue "").downcase
+  return cat.include?("legendary") || cat.include?("mythical")
+end
+
+def chain_radar_active?
+  (ChainSettings::EVO_DISABLE_WITH_RADAR &&
+   defined?(pbPokeRadarOnShakingGrass) && pbPokeRadarOnShakingGrass)
+end
+
+def chain_blocked_map?
+  id = $game_map.map_id
+  wl = ChainSettings::EVO_MAPS_WHITELIST
+  bl = ChainSettings::EVO_MAPS_BLACKLIST
+  return true  if bl.include?(id)
+  return true  if wl.any? && !wl.include?(id)
+  return false
+end
+
+def chain_disabled_switch?
+  sw = ChainSettings::EVO_DISABLE_SWITCH
+  return (sw > 0 && $game_switches[sw])
+end
+
+def baby_family_of(species)
+  # Works for base species and alts; falls back safely
+  sp = GameData::Species.get(species)
+  return sp.get_baby_species
+rescue
+  return species
+end
+
+def evo_targets_from(species)
+  # Returns an array of evolved species symbols reachable from +species+
+  sp = GameData::Species.get(species)
+  evos = sp.get_evolutions # [[:SPECIES2, :METHOD, param, ...], ...] in v21
+  return evos.map { |e| e[0] }
+rescue
+  return []
+end
+
+LEVEL_METHODS = [
+  :Level, :LevelMale, :LevelFemale, :LevelDay, :LevelNight,
+  :LevelMorning, :LevelAfternoon, :LevelEvening, :LocationLevel
+]
+
+def min_level_to_be(species_to, fallback = 2)
+  # Best effort: scan all prevo links that lead to species_to and
+  # take any numeric level requirement found. Otherwise return fallback.
+  level = nil
+  # Walk all species and check their evos (cheap enough once)
+  GameData::Species.each do |sp|
+    sp.get_evolutions.each do |e|
+      next unless e[0] == species_to
+      meth = e[1]; param = e[2]
+      if LEVEL_METHODS.include?(meth) && param.is_a?(Integer)
+        level = level ? [level, param].min : param
+      end
+    end
+  end
+  return (level || fallback)
+end
+
+def upgrade_species_for_chain!(pokemon)
+  return if legendary_species?(pokemon.species)
+  # Multiple "rolls" based on chain length
+  chain = $game_temp.rescue_chain || [0, nil]
+  length, fam = chain
+  return if length < ChainSettings::EVO_CHAIN_LEN
+  return if fam && baby_family_of(pokemon.species) != fam
+
+  rolls = (length / ChainSettings::EVO_CHAIN_LEN).floor
+  rolls.times do
+    break if rand(ChainSettings::EVO_ROLL_OUTOF) != 0
+    candidates = evo_targets_from(pokemon.species)
+    break if candidates.empty?
+    target = candidates.sample
+    # Level floor: at least a plausible minimum for this species
+    lvl_floor = min_level_to_be(target, pokemon.level)
+    new_level = [pokemon.level, lvl_floor].max + rand(ChainSettings::EVO_LEVEL_WOBBLE + 1)
+    pokemon.species = target
+    pokemon.level   = new_level
+    # Recalc
+    pokemon.calc_stats
+    pokemon.reset_moves
+    # You can keep rolling into third stage, etc.
+  end
+end
+
+def maybe_make_shiny_for_combo!(pokemon)
+  return if legendary_species?(pokemon.species)
+  return if $PokemonGlobal&.roamEncounter  # never touch roamers
+  combo = $game_temp.catch_combo || [0, nil]
+  len, target = combo
+  # Species nudge: only fire during overworld spawn creation, never during battle init.
+  # This prevents the nudge from changing roaming/legendary overworld events (like Entei)
+  # when WildBattle.start re-fires on_wild_pokemon_created for the battle encounter.
+  if target && baby_family_of(pokemon.species) != target && $PokemonGlobal&.creatingSpawningPokemon
+    n = (len > 10) ? ChainSettings::SAME_SPECIES_NUDGE[:high] :
+        (len == 10) ? ChainSettings::SAME_SPECIES_NUDGE[:mid]  :
+                      ChainSettings::SAME_SPECIES_NUDGE[:low]
+    if rand < n
+      pokemon.species = target
+      pokemon.calc_stats
+      pokemon.reset_moves
+    end
+  end
+  # Shiny chance boost
+  return if len < ChainSettings::SHINY_CHAIN_LEN
+  if rand(ChainSettings::SHINY_ROLL_OUTOF) < len
+    pokemon.shiny = true
+  end
+end
+
+# ----------------- creation handlers -----------------
+# Fires for ALL wild mons (instant + your overworld spawns).
+EventHandlers.add(:on_wild_pokemon_created, :chain_upgrades,
+  proc { |pokemon|
+    next if chain_blocked_map? || chain_disabled_switch? || chain_radar_active?
+    next if $PokemonGlobal&.roamEncounter   # don’t touch roamers
+
+    # Evolution rescue upgrade (same-family chaining)
+    $game_temp.rescue_chain ||= [0, nil]
+    upgrade_species_for_chain!(pokemon)
+
+    # Shiny catch-combo boost
+    $game_temp.catch_combo ||= [0, nil]
+    maybe_make_shiny_for_combo!(pokemon)
+  }
+)
+
+# If you also want it during your custom spawn-only hook, keep this too:
+EventHandlers.add(:on_wild_pokemon_created_for_spawning, :chain_upgrades_spawn_only,
+  proc { |pokemon|
+    next if chain_blocked_map? || chain_disabled_switch? || chain_radar_active?
+    next if $PokemonGlobal&.roamEncounter
+    $game_temp.rescue_chain ||= [0, nil]
+    upgrade_species_for_chain!(pokemon)
+    $game_temp.catch_combo ||= [0, nil]
+    maybe_make_shiny_for_combo!(pokemon)
+  }
+)
+
+# ----------------- battle-end handler -----------------
+# v21: :on_wild_battle_end passes (species, level, decision)
+# decision: 1=Win, 2=Lose, 3=Draw/Run, 4=Capture
+EventHandlers.add(:on_wild_battle_end, :update_chains,
+  proc { |species, _level, decision|
+    next if chain_blocked_map? || chain_disabled_switch? || chain_radar_active?
+    next if legendary_species?(species)   # legendaries are chain-neutral
+
+    # ----- Rescue/Evolution chain -----
+    fam = baby_family_of(species)
+    $game_temp.rescue_chain ||= [0, nil]
+    len, cur_fam = $game_temp.rescue_chain
+    if cur_fam != fam
+      $game_temp.rescue_chain = [0, fam]
+      len = 0
+    end
+    if decision == 1 || decision == 4     # win or capture continues the streak
+      $game_temp.rescue_chain[0] = len + 1
+    end
+    # Debug vars (comment out if not needed)
+    # $game_variables[200] = $game_temp.rescue_chain[0]
+    # $game_variables[199] = ($game_temp.rescue_chain[1] || :NONE)
+
+    # ----- Shiny catch combo (family-based: Zubat/Golbat/Crobat all share a chain) -----
+    fam = baby_family_of(species)
+    $game_temp.catch_combo ||= [0, nil]
+    clen, tgt = $game_temp.catch_combo
+
+    case decision
+    when 1, 4  # win or capture
+      if tgt == fam
+        $game_temp.catch_combo[0] = clen + 1  # extend chain
+      else
+        $game_temp.catch_combo = [1, fam]  # different family resets and starts fresh
+      end
+    when 2, 3  # lose or run
+      $game_temp.catch_combo = [0, nil]
+    end
+  }
+)

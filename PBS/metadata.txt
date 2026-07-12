@@ -1,0 +1,3085 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 3000
+StartItemStorage = POTION
+Home = 96,14,8,8
+StorageCreator = Bill
+WildBattleBGM = vs Wild Pokemon
+TrainerBattleBGM = vs Trainer
+WildVictoryBGM = Victory wild
+TrainerVictoryBGM = Victory trainer
+SurfBGM = Surf
+BicycleBGM = Bicycle
+#-------------------------------
+[1]
+TrainerType = POKEMONTRAINER_Ethan
+WalkCharset = trainer_POKEMONTRAINER_Ethan
+RunCharset = boy_run
+CycleCharset = boy_bike
+SurfCharset = boy_surf
+DiveCharset = boy_dive
+FishCharset = boy_fish_offset
+SurfFishCharset = boy_surf_fish
+#-------------------------------
+[2]
+TrainerType = POKEMONTRAINER_Kris
+WalkCharset = trainer_POKEMONTRAINER_Kris
+RunCharset = girl_run
+CycleCharset = girl_bike
+SurfCharset = girl_surf
+DiveCharset = girl_dive
+FishCharset = girl_fish_offset
+SurfFishCharset = girl_surf_fish
+
+#-------------------------------
+[3]
+TrainerType = POKEMONTRAINER_1
+WalkCharset = trainer_POKEMONTRAINER_1
+RunCharset = trainer_POKEMONTRAINER_1
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_1_surf
+DiveCharset = trainer_POKEMONTRAINER_1_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_1_surf
+#-------------------------------
+[4]
+TrainerType = POKEMONTRAINER_2
+WalkCharset = trainer_POKEMONTRAINER_2
+RunCharset = trainer_POKEMONTRAINER_2
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_2_surf
+DiveCharset = trainer_POKEMONTRAINER_2_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_2_surf
+#-------------------------------
+[5]
+TrainerType = POKEMONTRAINER_3
+WalkCharset = trainer_POKEMONTRAINER_3
+RunCharset = trainer_POKEMONTRAINER_3
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_3_surf
+DiveCharset = trainer_POKEMONTRAINER_3_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_3_surf
+#-------------------------------
+[6]
+TrainerType = POKEMONTRAINER_4
+WalkCharset = trainer_POKEMONTRAINER_4
+RunCharset = trainer_POKEMONTRAINER_4
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_4_surf
+DiveCharset = trainer_POKEMONTRAINER_4_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_4_surf
+#-------------------------------
+[7]
+TrainerType = POKEMONTRAINER_5
+WalkCharset = trainer_POKEMONTRAINER_5
+RunCharset = trainer_POKEMONTRAINER_5
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_5_surf
+DiveCharset = trainer_POKEMONTRAINER_5_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_5_surf
+#-------------------------------
+[8]
+TrainerType = POKEMONTRAINER_6
+WalkCharset = trainer_POKEMONTRAINER_6
+RunCharset = trainer_POKEMONTRAINER_6
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_6_surf
+DiveCharset = trainer_POKEMONTRAINER_6_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_6_surf
+#-------------------------------
+[9]
+TrainerType = POKEMONTRAINER_7
+WalkCharset = trainer_POKEMONTRAINER_7
+RunCharset = trainer_POKEMONTRAINER_7
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_7_surf
+DiveCharset = trainer_POKEMONTRAINER_7_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_7_surf
+#-------------------------------
+[10]
+TrainerType = POKEMONTRAINER_8
+WalkCharset = trainer_POKEMONTRAINER_8
+RunCharset = trainer_POKEMONTRAINER_8
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_8_surf
+DiveCharset = trainer_POKEMONTRAINER_8_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_8_surf
+#-------------------------------
+[11]
+TrainerType = POKEMONTRAINER_9
+WalkCharset = trainer_POKEMONTRAINER_9
+RunCharset = trainer_POKEMONTRAINER_9
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_9_surf
+DiveCharset = trainer_POKEMONTRAINER_9_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_9_surf
+#-------------------------------
+[12]
+TrainerType = POKEMONTRAINER_10
+WalkCharset = trainer_POKEMONTRAINER_10
+RunCharset = trainer_POKEMONTRAINER_10
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_10_surf
+DiveCharset = trainer_POKEMONTRAINER_10_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_10_surf
+#-------------------------------
+[13]
+TrainerType = POKEMONTRAINER_11
+WalkCharset = trainer_POKEMONTRAINER_11
+RunCharset = trainer_POKEMONTRAINER_11
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_11_surf
+DiveCharset = trainer_POKEMONTRAINER_11_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_11_surf
+#-------------------------------
+[14]
+TrainerType = POKEMONTRAINER_12
+WalkCharset = trainer_POKEMONTRAINER_12
+RunCharset = trainer_POKEMONTRAINER_12
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_12_surf
+DiveCharset = trainer_POKEMONTRAINER_12_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_12_surf
+#-------------------------------
+[15]
+TrainerType = POKEMONTRAINER_13
+WalkCharset = trainer_POKEMONTRAINER_13
+RunCharset = trainer_POKEMONTRAINER_13
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_13_surf
+DiveCharset = trainer_POKEMONTRAINER_13_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_13_surf
+#-------------------------------
+[16]
+TrainerType = POKEMONTRAINER_14
+WalkCharset = trainer_POKEMONTRAINER_14
+RunCharset = trainer_POKEMONTRAINER_14
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_14_surf
+DiveCharset = trainer_POKEMONTRAINER_14_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_14_surf
+#-------------------------------
+[17]
+TrainerType = POKEMONTRAINER_15
+WalkCharset = trainer_POKEMONTRAINER_15
+RunCharset = trainer_POKEMONTRAINER_15
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_15_surf
+DiveCharset = trainer_POKEMONTRAINER_15_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_15_surf
+#-------------------------------
+[18]
+TrainerType = POKEMONTRAINER_16
+WalkCharset = trainer_POKEMONTRAINER_16
+RunCharset = trainer_POKEMONTRAINER_16
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_16_surf
+DiveCharset = trainer_POKEMONTRAINER_16_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_16_surf
+#-------------------------------
+[19]
+TrainerType = POKEMONTRAINER_17
+WalkCharset = trainer_POKEMONTRAINER_17
+RunCharset = trainer_POKEMONTRAINER_17
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_17_surf
+DiveCharset = trainer_POKEMONTRAINER_17_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_17_surf
+#-------------------------------
+[20]
+TrainerType = POKEMONTRAINER_18
+WalkCharset = trainer_POKEMONTRAINER_18
+RunCharset = trainer_POKEMONTRAINER_18
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_18_surf
+DiveCharset = trainer_POKEMONTRAINER_18_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_18_surf
+#-------------------------------
+[21]
+TrainerType = POKEMONTRAINER_19
+WalkCharset = trainer_POKEMONTRAINER_19
+RunCharset = trainer_POKEMONTRAINER_19
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_19_surf
+DiveCharset = trainer_POKEMONTRAINER_19_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_19_surf
+#-------------------------------
+[22]
+TrainerType = POKEMONTRAINER_20
+WalkCharset = trainer_POKEMONTRAINER_20
+RunCharset = trainer_POKEMONTRAINER_20
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_20_surf
+DiveCharset = trainer_POKEMONTRAINER_20_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_20_surf
+#-------------------------------
+[23]
+TrainerType = POKEMONTRAINER_21
+WalkCharset = trainer_POKEMONTRAINER_21
+RunCharset = trainer_POKEMONTRAINER_21
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_21_surf
+DiveCharset = trainer_POKEMONTRAINER_21_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_21_surf
+#-------------------------------
+[24]
+TrainerType = POKEMONTRAINER_22
+WalkCharset = trainer_POKEMONTRAINER_22
+RunCharset = trainer_POKEMONTRAINER_22
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_22_surf
+DiveCharset = trainer_POKEMONTRAINER_22_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_22_surf
+#-------------------------------
+[25]
+TrainerType = POKEMONTRAINER_23
+WalkCharset = trainer_POKEMONTRAINER_23
+RunCharset = trainer_POKEMONTRAINER_23
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_23_surf
+DiveCharset = trainer_POKEMONTRAINER_23_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_23_surf
+#-------------------------------
+[26]
+TrainerType = POKEMONTRAINER_24
+WalkCharset = trainer_POKEMONTRAINER_24
+RunCharset = trainer_POKEMONTRAINER_24
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_24_surf
+DiveCharset = trainer_POKEMONTRAINER_24_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_24_surf
+#-------------------------------
+[27]
+TrainerType = POKEMONTRAINER_25
+WalkCharset = trainer_POKEMONTRAINER_25
+RunCharset = trainer_POKEMONTRAINER_25
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_25_surf
+DiveCharset = trainer_POKEMONTRAINER_25_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_25_surf
+#-------------------------------
+[28]
+TrainerType = POKEMONTRAINER_26
+WalkCharset = trainer_POKEMONTRAINER_26
+RunCharset = trainer_POKEMONTRAINER_26
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_26_surf
+DiveCharset = trainer_POKEMONTRAINER_26_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_26_surf
+#-------------------------------
+[29]
+TrainerType = POKEMONTRAINER_27
+WalkCharset = trainer_POKEMONTRAINER_27
+RunCharset = trainer_POKEMONTRAINER_27
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_27_surf
+DiveCharset = trainer_POKEMONTRAINER_27_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_27_surf
+#-------------------------------
+[30]
+TrainerType = POKEMONTRAINER_28
+WalkCharset = trainer_POKEMONTRAINER_28
+RunCharset = trainer_POKEMONTRAINER_28
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_28_surf
+DiveCharset = trainer_POKEMONTRAINER_28_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_28_surf
+#-------------------------------
+[31]
+TrainerType = POKEMONTRAINER_29
+WalkCharset = trainer_POKEMONTRAINER_29
+RunCharset = trainer_POKEMONTRAINER_29
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_29_surf
+DiveCharset = trainer_POKEMONTRAINER_29_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_29_surf
+#-------------------------------
+[32]
+TrainerType = POKEMONTRAINER_30
+WalkCharset = trainer_POKEMONTRAINER_30
+RunCharset = trainer_POKEMONTRAINER_30
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_30_surf
+DiveCharset = trainer_POKEMONTRAINER_30_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_30_surf
+#-------------------------------
+[33]
+TrainerType = POKEMONTRAINER_31
+WalkCharset = trainer_POKEMONTRAINER_31
+RunCharset = trainer_POKEMONTRAINER_31
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_31_surf
+DiveCharset = trainer_POKEMONTRAINER_31_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_31_surf
+#-------------------------------
+[34]
+TrainerType = POKEMONTRAINER_32
+WalkCharset = trainer_POKEMONTRAINER_32
+RunCharset = trainer_POKEMONTRAINER_32
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_32_surf
+DiveCharset = trainer_POKEMONTRAINER_32_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_32_surf
+#-------------------------------
+[35]
+TrainerType = POKEMONTRAINER_33
+WalkCharset = trainer_POKEMONTRAINER_33
+RunCharset = trainer_POKEMONTRAINER_33
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_33_surf
+DiveCharset = trainer_POKEMONTRAINER_33_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_33_surf
+#-------------------------------
+[36]
+TrainerType = POKEMONTRAINER_34
+WalkCharset = trainer_POKEMONTRAINER_34
+RunCharset = trainer_POKEMONTRAINER_34
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_34_surf
+DiveCharset = trainer_POKEMONTRAINER_34_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_34_surf
+#-------------------------------
+[37]
+TrainerType = POKEMONTRAINER_35
+WalkCharset = trainer_POKEMONTRAINER_35
+RunCharset = trainer_POKEMONTRAINER_35
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_35_surf
+DiveCharset = trainer_POKEMONTRAINER_35_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_35_surf
+#-------------------------------
+[38]
+TrainerType = POKEMONTRAINER_36
+WalkCharset = trainer_POKEMONTRAINER_36
+RunCharset = trainer_POKEMONTRAINER_36
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_36_surf
+DiveCharset = trainer_POKEMONTRAINER_36_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_36_surf
+#-------------------------------
+[39]
+TrainerType = POKEMONTRAINER_37
+WalkCharset = trainer_POKEMONTRAINER_37
+RunCharset = trainer_POKEMONTRAINER_37
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_37_surf
+DiveCharset = trainer_POKEMONTRAINER_37_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_37_surf
+#-------------------------------
+[40]
+TrainerType = POKEMONTRAINER_38
+WalkCharset = trainer_POKEMONTRAINER_38
+RunCharset = trainer_POKEMONTRAINER_38
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_38_surf
+DiveCharset = trainer_POKEMONTRAINER_38_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_38_surf
+#-------------------------------
+[41]
+TrainerType = POKEMONTRAINER_39
+WalkCharset = trainer_POKEMONTRAINER_39
+RunCharset = trainer_POKEMONTRAINER_39
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_39_surf
+DiveCharset = trainer_POKEMONTRAINER_39_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_39_surf
+#-------------------------------
+[42]
+TrainerType = POKEMONTRAINER_40
+WalkCharset = trainer_POKEMONTRAINER_40
+RunCharset = trainer_POKEMONTRAINER_40
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_40_surf
+DiveCharset = trainer_POKEMONTRAINER_40_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_40_surf
+#-------------------------------
+[43]
+TrainerType = POKEMONTRAINER_41
+WalkCharset = trainer_POKEMONTRAINER_41
+RunCharset = trainer_POKEMONTRAINER_41
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_41_surf
+DiveCharset = trainer_POKEMONTRAINER_41_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_41_surf
+#-------------------------------
+[44]
+TrainerType = POKEMONTRAINER_42
+WalkCharset = trainer_POKEMONTRAINER_42
+RunCharset = trainer_POKEMONTRAINER_42
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_42_surf
+DiveCharset = trainer_POKEMONTRAINER_42_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_42_surf
+#-------------------------------
+[45]
+TrainerType = POKEMONTRAINER_43
+WalkCharset = trainer_POKEMONTRAINER_43
+RunCharset = trainer_POKEMONTRAINER_43
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_43_surf
+DiveCharset = trainer_POKEMONTRAINER_43_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_43_surf
+#-------------------------------
+[46]
+TrainerType = POKEMONTRAINER_44
+WalkCharset = trainer_POKEMONTRAINER_44
+RunCharset = trainer_POKEMONTRAINER_44
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_44_surf
+DiveCharset = trainer_POKEMONTRAINER_44_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_44_surf
+#-------------------------------
+[47]
+TrainerType = POKEMONTRAINER_45
+WalkCharset = trainer_POKEMONTRAINER_45
+RunCharset = trainer_POKEMONTRAINER_45
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_45_surf
+DiveCharset = trainer_POKEMONTRAINER_45_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_45_surf
+#-------------------------------
+[48]
+TrainerType = POKEMONTRAINER_46
+WalkCharset = trainer_POKEMONTRAINER_46
+RunCharset = trainer_POKEMONTRAINER_46
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_46_surf
+DiveCharset = trainer_POKEMONTRAINER_46_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_46_surf
+#-------------------------------
+[49]
+TrainerType = POKEMONTRAINER_47
+WalkCharset = trainer_POKEMONTRAINER_47
+RunCharset = trainer_POKEMONTRAINER_47
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_47_surf
+DiveCharset = trainer_POKEMONTRAINER_47_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_47_surf
+#-------------------------------
+[50]
+TrainerType = POKEMONTRAINER_48
+WalkCharset = trainer_POKEMONTRAINER_48
+RunCharset = trainer_POKEMONTRAINER_48
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_48_surf
+DiveCharset = trainer_POKEMONTRAINER_48_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_48_surf
+#-------------------------------
+[51]
+TrainerType = POKEMONTRAINER_49
+WalkCharset = trainer_POKEMONTRAINER_49
+RunCharset = trainer_POKEMONTRAINER_49
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_49_surf
+DiveCharset = trainer_POKEMONTRAINER_49_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_49_surf
+#-------------------------------
+[52]
+TrainerType = POKEMONTRAINER_50
+WalkCharset = trainer_POKEMONTRAINER_50
+RunCharset = trainer_POKEMONTRAINER_50
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_50_surf
+DiveCharset = trainer_POKEMONTRAINER_50_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_50_surf
+#-------------------------------
+[53]
+TrainerType = POKEMONTRAINER_51
+WalkCharset = trainer_POKEMONTRAINER_51
+RunCharset = trainer_POKEMONTRAINER_51
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_51_surf
+DiveCharset = trainer_POKEMONTRAINER_51_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_51_surf
+#-------------------------------
+[54]
+TrainerType = POKEMONTRAINER_52
+WalkCharset = trainer_POKEMONTRAINER_52
+RunCharset = trainer_POKEMONTRAINER_52
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_52_surf
+DiveCharset = trainer_POKEMONTRAINER_52_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_52_surf
+#-------------------------------
+[55]
+TrainerType = POKEMONTRAINER_53
+WalkCharset = trainer_POKEMONTRAINER_53
+RunCharset = trainer_POKEMONTRAINER_53
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_53_surf
+DiveCharset = trainer_POKEMONTRAINER_53_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_53_surf
+#-------------------------------
+[56]
+TrainerType = POKEMONTRAINER_54
+WalkCharset = trainer_POKEMONTRAINER_54
+RunCharset = trainer_POKEMONTRAINER_54
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_54_surf
+DiveCharset = trainer_POKEMONTRAINER_54_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_54_surf
+#-------------------------------
+[57]
+TrainerType = POKEMONTRAINER_55
+WalkCharset = trainer_POKEMONTRAINER_55
+RunCharset = trainer_POKEMONTRAINER_55
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_55_surf
+DiveCharset = trainer_POKEMONTRAINER_55_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_55_surf
+#-------------------------------
+[58]
+TrainerType = POKEMONTRAINER_56
+WalkCharset = trainer_POKEMONTRAINER_56
+RunCharset = trainer_POKEMONTRAINER_56
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_56_surf
+DiveCharset = trainer_POKEMONTRAINER_56_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_56_surf
+#-------------------------------
+[59]
+TrainerType = POKEMONTRAINER_57
+WalkCharset = trainer_POKEMONTRAINER_57
+RunCharset = trainer_POKEMONTRAINER_57
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_57_surf
+DiveCharset = trainer_POKEMONTRAINER_57_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_57_surf
+#-------------------------------
+[60]
+TrainerType = POKEMONTRAINER_58
+WalkCharset = trainer_POKEMONTRAINER_58
+RunCharset = trainer_POKEMONTRAINER_58
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_58_surf
+DiveCharset = trainer_POKEMONTRAINER_58_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_58_surf
+#-------------------------------
+[61]
+TrainerType = POKEMONTRAINER_59
+WalkCharset = trainer_POKEMONTRAINER_59
+RunCharset = trainer_POKEMONTRAINER_59
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_59_surf
+DiveCharset = trainer_POKEMONTRAINER_59_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_59_surf
+#-------------------------------
+[62]
+TrainerType = POKEMONTRAINER_60
+WalkCharset = trainer_POKEMONTRAINER_60
+RunCharset = trainer_POKEMONTRAINER_60
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_60_surf
+DiveCharset = trainer_POKEMONTRAINER_60_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_60_surf
+#-------------------------------
+[63]
+TrainerType = POKEMONTRAINER_61
+WalkCharset = trainer_POKEMONTRAINER_61
+RunCharset = trainer_POKEMONTRAINER_61
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_61_surf
+DiveCharset = trainer_POKEMONTRAINER_61_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_61_surf
+#-------------------------------
+[64]
+TrainerType = POKEMONTRAINER_62
+WalkCharset = trainer_POKEMONTRAINER_62
+RunCharset = trainer_POKEMONTRAINER_62
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_62_surf
+DiveCharset = trainer_POKEMONTRAINER_62_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_62_surf
+#-------------------------------
+[65]
+TrainerType = POKEMONTRAINER_63
+WalkCharset = trainer_POKEMONTRAINER_63
+RunCharset = trainer_POKEMONTRAINER_63
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_63_surf
+DiveCharset = trainer_POKEMONTRAINER_63_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_63_surf
+#-------------------------------
+[66]
+TrainerType = POKEMONTRAINER_64
+WalkCharset = trainer_POKEMONTRAINER_64
+RunCharset = trainer_POKEMONTRAINER_64
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_64_surf
+DiveCharset = trainer_POKEMONTRAINER_64_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_64_surf
+#-------------------------------
+[67]
+TrainerType = POKEMONTRAINER_65
+WalkCharset = trainer_POKEMONTRAINER_65
+RunCharset = trainer_POKEMONTRAINER_65
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_65_surf
+DiveCharset = trainer_POKEMONTRAINER_65_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_65_surf
+#-------------------------------
+[68]
+TrainerType = POKEMONTRAINER_66
+WalkCharset = trainer_POKEMONTRAINER_66
+RunCharset = trainer_POKEMONTRAINER_66
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_66_surf
+DiveCharset = trainer_POKEMONTRAINER_66_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_66_surf
+#-------------------------------
+[69]
+TrainerType = POKEMONTRAINER_67
+WalkCharset = trainer_POKEMONTRAINER_67
+RunCharset = trainer_POKEMONTRAINER_67
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_67_surf
+DiveCharset = trainer_POKEMONTRAINER_67_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_67_surf
+#-------------------------------
+[70]
+TrainerType = POKEMONTRAINER_68
+WalkCharset = trainer_POKEMONTRAINER_68
+RunCharset = trainer_POKEMONTRAINER_68
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_68_surf
+DiveCharset = trainer_POKEMONTRAINER_68_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_68_surf
+#-------------------------------
+[71]
+TrainerType = POKEMONTRAINER_69
+WalkCharset = trainer_POKEMONTRAINER_69
+RunCharset = trainer_POKEMONTRAINER_69
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_69_surf
+DiveCharset = trainer_POKEMONTRAINER_69_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_69_surf
+#-------------------------------
+[72]
+TrainerType = POKEMONTRAINER_70
+WalkCharset = trainer_POKEMONTRAINER_70
+RunCharset = trainer_POKEMONTRAINER_70
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_70_surf
+DiveCharset = trainer_POKEMONTRAINER_70_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_70_surf
+#-------------------------------
+[73]
+TrainerType = POKEMONTRAINER_71
+WalkCharset = trainer_POKEMONTRAINER_71
+RunCharset = trainer_POKEMONTRAINER_71
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_71_surf
+DiveCharset = trainer_POKEMONTRAINER_71_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_71_surf
+#-------------------------------
+[74]
+TrainerType = POKEMONTRAINER_72
+WalkCharset = trainer_POKEMONTRAINER_72
+RunCharset = trainer_POKEMONTRAINER_72
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_72_surf
+DiveCharset = trainer_POKEMONTRAINER_72_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_72_surf
+#-------------------------------
+[75]
+TrainerType = POKEMONTRAINER_73
+WalkCharset = trainer_POKEMONTRAINER_73
+RunCharset = trainer_POKEMONTRAINER_73
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_73_surf
+DiveCharset = trainer_POKEMONTRAINER_73_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_73_surf
+#-------------------------------
+[76]
+TrainerType = POKEMONTRAINER_74
+WalkCharset = trainer_POKEMONTRAINER_74
+RunCharset = trainer_POKEMONTRAINER_74
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_74_surf
+DiveCharset = trainer_POKEMONTRAINER_74_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_74_surf
+#-------------------------------
+[77]
+TrainerType = POKEMONTRAINER_75
+WalkCharset = trainer_POKEMONTRAINER_75
+RunCharset = trainer_POKEMONTRAINER_75
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_75_surf
+DiveCharset = trainer_POKEMONTRAINER_75_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_75_surf
+#-------------------------------
+[78]
+TrainerType = POKEMONTRAINER_76
+WalkCharset = trainer_POKEMONTRAINER_76
+RunCharset = trainer_POKEMONTRAINER_76
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_76_surf
+DiveCharset = trainer_POKEMONTRAINER_76_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_76_surf
+#-------------------------------
+[79]
+TrainerType = POKEMONTRAINER_77
+WalkCharset = trainer_POKEMONTRAINER_77
+RunCharset = trainer_POKEMONTRAINER_77
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_77_surf
+DiveCharset = trainer_POKEMONTRAINER_77_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_77_surf
+#-------------------------------
+[80]
+TrainerType = POKEMONTRAINER_78
+WalkCharset = trainer_POKEMONTRAINER_78
+RunCharset = trainer_POKEMONTRAINER_78
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_78_surf
+DiveCharset = trainer_POKEMONTRAINER_78_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_78_surf
+#-------------------------------
+[81]
+TrainerType = POKEMONTRAINER_79
+WalkCharset = trainer_POKEMONTRAINER_79
+RunCharset = trainer_POKEMONTRAINER_79
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_79_surf
+DiveCharset = trainer_POKEMONTRAINER_79_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_79_surf
+#-------------------------------
+[82]
+TrainerType = POKEMONTRAINER_80
+WalkCharset = trainer_POKEMONTRAINER_80
+RunCharset = trainer_POKEMONTRAINER_80
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_80_surf
+DiveCharset = trainer_POKEMONTRAINER_80_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_80_surf
+#-------------------------------
+[83]
+TrainerType = POKEMONTRAINER_81
+WalkCharset = trainer_POKEMONTRAINER_81
+RunCharset = trainer_POKEMONTRAINER_81
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_81_surf
+DiveCharset = trainer_POKEMONTRAINER_81_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_81_surf
+#-------------------------------
+[84]
+TrainerType = POKEMONTRAINER_82
+WalkCharset = trainer_POKEMONTRAINER_82
+RunCharset = trainer_POKEMONTRAINER_82
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_82_surf
+DiveCharset = trainer_POKEMONTRAINER_82_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_82_surf
+#-------------------------------
+[85]
+TrainerType = POKEMONTRAINER_83
+WalkCharset = trainer_POKEMONTRAINER_83
+RunCharset = trainer_POKEMONTRAINER_83
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_83_surf
+DiveCharset = trainer_POKEMONTRAINER_83_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_83_surf
+#-------------------------------
+[86]
+TrainerType = POKEMONTRAINER_84
+WalkCharset = trainer_POKEMONTRAINER_84
+RunCharset = trainer_POKEMONTRAINER_84
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_84_surf
+DiveCharset = trainer_POKEMONTRAINER_84_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_84_surf
+#-------------------------------
+[87]
+TrainerType = POKEMONTRAINER_85
+WalkCharset = trainer_POKEMONTRAINER_85
+RunCharset = trainer_POKEMONTRAINER_85
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_85_surf
+DiveCharset = trainer_POKEMONTRAINER_85_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_85_surf
+#-------------------------------
+[88]
+TrainerType = POKEMONTRAINER_86
+WalkCharset = trainer_POKEMONTRAINER_86
+RunCharset = trainer_POKEMONTRAINER_86
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_86_surf
+DiveCharset = trainer_POKEMONTRAINER_86_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_86_surf
+#-------------------------------
+[89]
+TrainerType = POKEMONTRAINER_87
+WalkCharset = trainer_POKEMONTRAINER_87
+RunCharset = trainer_POKEMONTRAINER_87
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_87_surf
+DiveCharset = trainer_POKEMONTRAINER_87_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_87_surf
+#-------------------------------
+[90]
+TrainerType = POKEMONTRAINER_88
+WalkCharset = trainer_POKEMONTRAINER_88
+RunCharset = trainer_POKEMONTRAINER_88
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_88_surf
+DiveCharset = trainer_POKEMONTRAINER_88_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_88_surf
+#-------------------------------
+[91]
+TrainerType = POKEMONTRAINER_89
+WalkCharset = trainer_POKEMONTRAINER_89
+RunCharset = trainer_POKEMONTRAINER_89
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_89_surf
+DiveCharset = trainer_POKEMONTRAINER_89_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_89_surf
+#-------------------------------
+[92]
+TrainerType = POKEMONTRAINER_90
+WalkCharset = trainer_POKEMONTRAINER_90
+RunCharset = trainer_POKEMONTRAINER_90
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_90_surf
+DiveCharset = trainer_POKEMONTRAINER_90_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_90_surf
+#-------------------------------
+[93]
+TrainerType = POKEMONTRAINER_91
+WalkCharset = trainer_POKEMONTRAINER_91
+RunCharset = trainer_POKEMONTRAINER_91
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_91_surf
+DiveCharset = trainer_POKEMONTRAINER_91_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_91_surf
+#-------------------------------
+[94]
+TrainerType = POKEMONTRAINER_92
+WalkCharset = trainer_POKEMONTRAINER_92
+RunCharset = trainer_POKEMONTRAINER_92
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_92_surf
+DiveCharset = trainer_POKEMONTRAINER_92_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_92_surf
+#-------------------------------
+[95]
+TrainerType = POKEMONTRAINER_93
+WalkCharset = trainer_POKEMONTRAINER_93
+RunCharset = trainer_POKEMONTRAINER_93
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_93_surf
+DiveCharset = trainer_POKEMONTRAINER_93_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_93_surf
+#-------------------------------
+[96]
+TrainerType = POKEMONTRAINER_94
+WalkCharset = trainer_POKEMONTRAINER_94
+RunCharset = trainer_POKEMONTRAINER_94
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_94_surf
+DiveCharset = trainer_POKEMONTRAINER_94_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_94_surf
+#-------------------------------
+[97]
+TrainerType = POKEMONTRAINER_95
+WalkCharset = trainer_POKEMONTRAINER_95
+RunCharset = trainer_POKEMONTRAINER_95
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_95_surf
+DiveCharset = trainer_POKEMONTRAINER_95_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_95_surf
+#-------------------------------
+[98]
+TrainerType = POKEMONTRAINER_96
+WalkCharset = trainer_POKEMONTRAINER_96
+RunCharset = trainer_POKEMONTRAINER_96
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_96_surf
+DiveCharset = trainer_POKEMONTRAINER_96_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_96_surf
+#-------------------------------
+[99]
+TrainerType = POKEMONTRAINER_97
+WalkCharset = trainer_POKEMONTRAINER_97
+RunCharset = trainer_POKEMONTRAINER_97
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_97_surf
+DiveCharset = trainer_POKEMONTRAINER_97_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_97_surf
+#-------------------------------
+[100]
+TrainerType = POKEMONTRAINER_98
+WalkCharset = trainer_POKEMONTRAINER_98
+RunCharset = trainer_POKEMONTRAINER_98
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_98_surf
+DiveCharset = trainer_POKEMONTRAINER_98_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_98_surf
+#-------------------------------
+[101]
+TrainerType = POKEMONTRAINER_99
+WalkCharset = trainer_POKEMONTRAINER_99
+RunCharset = trainer_POKEMONTRAINER_99
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_99_surf
+DiveCharset = trainer_POKEMONTRAINER_99_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_99_surf
+#-------------------------------
+[102]
+TrainerType = POKEMONTRAINER_100
+WalkCharset = trainer_POKEMONTRAINER_100
+RunCharset = trainer_POKEMONTRAINER_100
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_100_surf
+DiveCharset = trainer_POKEMONTRAINER_100_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_100_surf
+#-------------------------------
+[103]
+TrainerType = POKEMONTRAINER_101
+WalkCharset = trainer_POKEMONTRAINER_101
+RunCharset = trainer_POKEMONTRAINER_101
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_101_surf
+DiveCharset = trainer_POKEMONTRAINER_101_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_101_surf
+#-------------------------------
+[104]
+TrainerType = POKEMONTRAINER_102
+WalkCharset = trainer_POKEMONTRAINER_102
+RunCharset = trainer_POKEMONTRAINER_102
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_102_surf
+DiveCharset = trainer_POKEMONTRAINER_102_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_102_surf
+#-------------------------------
+[105]
+TrainerType = POKEMONTRAINER_103
+WalkCharset = trainer_POKEMONTRAINER_103
+RunCharset = trainer_POKEMONTRAINER_103
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_103_surf
+DiveCharset = trainer_POKEMONTRAINER_103_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_103_surf
+#-------------------------------
+[106]
+TrainerType = POKEMONTRAINER_104
+WalkCharset = trainer_POKEMONTRAINER_104
+RunCharset = trainer_POKEMONTRAINER_104
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_104_surf
+DiveCharset = trainer_POKEMONTRAINER_104_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_104_surf
+#-------------------------------
+[107]
+TrainerType = POKEMONTRAINER_105
+WalkCharset = trainer_POKEMONTRAINER_105
+RunCharset = trainer_POKEMONTRAINER_105
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_105_surf
+DiveCharset = trainer_POKEMONTRAINER_105_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_105_surf
+#-------------------------------
+[108]
+TrainerType = POKEMONTRAINER_106
+WalkCharset = trainer_POKEMONTRAINER_106
+RunCharset = trainer_POKEMONTRAINER_106
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_106_surf
+DiveCharset = trainer_POKEMONTRAINER_106_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_106_surf
+#-------------------------------
+[109]
+TrainerType = POKEMONTRAINER_107
+WalkCharset = trainer_POKEMONTRAINER_107
+RunCharset = trainer_POKEMONTRAINER_107
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_107_surf
+DiveCharset = trainer_POKEMONTRAINER_107_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_107_surf
+#-------------------------------
+[110]
+TrainerType = POKEMONTRAINER_108
+WalkCharset = trainer_POKEMONTRAINER_108
+RunCharset = trainer_POKEMONTRAINER_108
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_108_surf
+DiveCharset = trainer_POKEMONTRAINER_108_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_108_surf
+#-------------------------------
+[111]
+TrainerType = POKEMONTRAINER_109
+WalkCharset = trainer_POKEMONTRAINER_109
+RunCharset = trainer_POKEMONTRAINER_109
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_109_surf
+DiveCharset = trainer_POKEMONTRAINER_109_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_109_surf
+#-------------------------------
+[112]
+TrainerType = POKEMONTRAINER_110
+WalkCharset = trainer_POKEMONTRAINER_110
+RunCharset = trainer_POKEMONTRAINER_110
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_110_surf
+DiveCharset = trainer_POKEMONTRAINER_110_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_110_surf
+#-------------------------------
+[113]
+TrainerType = POKEMONTRAINER_111
+WalkCharset = trainer_POKEMONTRAINER_111
+RunCharset = trainer_POKEMONTRAINER_111
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_111_surf
+DiveCharset = trainer_POKEMONTRAINER_111_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_111_surf
+#-------------------------------
+[114]
+TrainerType = POKEMONTRAINER_112
+WalkCharset = trainer_POKEMONTRAINER_112
+RunCharset = trainer_POKEMONTRAINER_112
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_112_surf
+DiveCharset = trainer_POKEMONTRAINER_112_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_112_surf
+#-------------------------------
+[115]
+TrainerType = POKEMONTRAINER_113
+WalkCharset = trainer_POKEMONTRAINER_113
+RunCharset = trainer_POKEMONTRAINER_113
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_113_surf
+DiveCharset = trainer_POKEMONTRAINER_113_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_113_surf
+#-------------------------------
+[116]
+TrainerType = POKEMONTRAINER_114
+WalkCharset = trainer_POKEMONTRAINER_114
+RunCharset = trainer_POKEMONTRAINER_114
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_114_surf
+DiveCharset = trainer_POKEMONTRAINER_114_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_114_surf
+#-------------------------------
+[117]
+TrainerType = POKEMONTRAINER_115
+WalkCharset = trainer_POKEMONTRAINER_115
+RunCharset = trainer_POKEMONTRAINER_115
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_115_surf
+DiveCharset = trainer_POKEMONTRAINER_115_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_115_surf
+#-------------------------------
+[118]
+TrainerType = POKEMONTRAINER_116
+WalkCharset = trainer_POKEMONTRAINER_116
+RunCharset = trainer_POKEMONTRAINER_116
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_116_surf
+DiveCharset = trainer_POKEMONTRAINER_116_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_116_surf
+#-------------------------------
+[119]
+TrainerType = POKEMONTRAINER_117
+WalkCharset = trainer_POKEMONTRAINER_117
+RunCharset = trainer_POKEMONTRAINER_117
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_117_surf
+DiveCharset = trainer_POKEMONTRAINER_117_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_117_surf
+#-------------------------------
+[120]
+TrainerType = POKEMONTRAINER_118
+WalkCharset = trainer_POKEMONTRAINER_118
+RunCharset = trainer_POKEMONTRAINER_118
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_118_surf
+DiveCharset = trainer_POKEMONTRAINER_118_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_118_surf
+#-------------------------------
+[121]
+TrainerType = POKEMONTRAINER_119
+WalkCharset = trainer_POKEMONTRAINER_119
+RunCharset = trainer_POKEMONTRAINER_119
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_119_surf
+DiveCharset = trainer_POKEMONTRAINER_119_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_119_surf
+#-------------------------------
+[122]
+TrainerType = POKEMONTRAINER_120
+WalkCharset = trainer_POKEMONTRAINER_120
+RunCharset = trainer_POKEMONTRAINER_120
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_120_surf
+DiveCharset = trainer_POKEMONTRAINER_120_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_120_surf
+#-------------------------------
+[123]
+TrainerType = POKEMONTRAINER_121
+WalkCharset = trainer_POKEMONTRAINER_121
+RunCharset = trainer_POKEMONTRAINER_121
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_121_surf
+DiveCharset = trainer_POKEMONTRAINER_121_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_121_surf
+#-------------------------------
+[124]
+TrainerType = POKEMONTRAINER_122
+WalkCharset = trainer_POKEMONTRAINER_122
+RunCharset = trainer_POKEMONTRAINER_122
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_122_surf
+DiveCharset = trainer_POKEMONTRAINER_122_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_122_surf
+#-------------------------------
+[125]
+TrainerType = POKEMONTRAINER_123
+WalkCharset = trainer_POKEMONTRAINER_123
+RunCharset = trainer_POKEMONTRAINER_123
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_123_surf
+DiveCharset = trainer_POKEMONTRAINER_123_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_123_surf
+#-------------------------------
+[126]
+TrainerType = POKEMONTRAINER_124
+WalkCharset = trainer_POKEMONTRAINER_124
+RunCharset = trainer_POKEMONTRAINER_124
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_124_surf
+DiveCharset = trainer_POKEMONTRAINER_124_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_124_surf
+#-------------------------------
+[127]
+TrainerType = POKEMONTRAINER_125
+WalkCharset = trainer_POKEMONTRAINER_125
+RunCharset = trainer_POKEMONTRAINER_125
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_125_surf
+DiveCharset = trainer_POKEMONTRAINER_125_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_125_surf
+#-------------------------------
+[128]
+TrainerType = POKEMONTRAINER_126
+WalkCharset = trainer_POKEMONTRAINER_126
+RunCharset = trainer_POKEMONTRAINER_126
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_126_surf
+DiveCharset = trainer_POKEMONTRAINER_126_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_126_surf
+#-------------------------------
+[129]
+TrainerType = POKEMONTRAINER_127
+WalkCharset = trainer_POKEMONTRAINER_127
+RunCharset = trainer_POKEMONTRAINER_127
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_127_surf
+DiveCharset = trainer_POKEMONTRAINER_127_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_127_surf
+#-------------------------------
+[130]
+TrainerType = POKEMONTRAINER_128
+WalkCharset = trainer_POKEMONTRAINER_128
+RunCharset = trainer_POKEMONTRAINER_128
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_128_surf
+DiveCharset = trainer_POKEMONTRAINER_128_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_128_surf
+#-------------------------------
+[131]
+TrainerType = POKEMONTRAINER_129
+WalkCharset = trainer_POKEMONTRAINER_129
+RunCharset = trainer_POKEMONTRAINER_129
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_129_surf
+DiveCharset = trainer_POKEMONTRAINER_129_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_129_surf
+#-------------------------------
+[132]
+TrainerType = POKEMONTRAINER_130
+WalkCharset = trainer_POKEMONTRAINER_130
+RunCharset = trainer_POKEMONTRAINER_130
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_130_surf
+DiveCharset = trainer_POKEMONTRAINER_130_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_130_surf
+#-------------------------------
+[133]
+TrainerType = POKEMONTRAINER_131
+WalkCharset = trainer_POKEMONTRAINER_131
+RunCharset = trainer_POKEMONTRAINER_131
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_131_surf
+DiveCharset = trainer_POKEMONTRAINER_131_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_131_surf
+#-------------------------------
+[134]
+TrainerType = POKEMONTRAINER_132
+WalkCharset = trainer_POKEMONTRAINER_132
+RunCharset = trainer_POKEMONTRAINER_132
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_132_surf
+DiveCharset = trainer_POKEMONTRAINER_132_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_132_surf
+#-------------------------------
+[135]
+TrainerType = POKEMONTRAINER_133
+WalkCharset = trainer_POKEMONTRAINER_133
+RunCharset = trainer_POKEMONTRAINER_133
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_133_surf
+DiveCharset = trainer_POKEMONTRAINER_133_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_133_surf
+
+#-------------------------------
+[136]
+TrainerType = POKEMONTRAINER_134
+WalkCharset = trainer_POKEMONTRAINER_134
+RunCharset = trainer_POKEMONTRAINER_134
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_134_surf
+DiveCharset = trainer_POKEMONTRAINER_134_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_134_surf
+#-------------------------------
+[137]
+TrainerType = POKEMONTRAINER_135
+WalkCharset = trainer_POKEMONTRAINER_135
+RunCharset = trainer_POKEMONTRAINER_135
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_135_surf
+DiveCharset = trainer_POKEMONTRAINER_135_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_135_surf
+#-------------------------------
+[138]
+TrainerType = POKEMONTRAINER_136
+WalkCharset = trainer_POKEMONTRAINER_136
+RunCharset = trainer_POKEMONTRAINER_136
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_136_surf
+DiveCharset = trainer_POKEMONTRAINER_136_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_136_surf
+#-------------------------------
+[139]
+TrainerType = POKEMONTRAINER_137
+WalkCharset = trainer_POKEMONTRAINER_137
+RunCharset = trainer_POKEMONTRAINER_137
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_137_surf
+DiveCharset = trainer_POKEMONTRAINER_137_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_137_surf
+#-------------------------------
+[140]
+TrainerType = POKEMONTRAINER_138
+WalkCharset = trainer_POKEMONTRAINER_138
+RunCharset = trainer_POKEMONTRAINER_138
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_138_surf
+DiveCharset = trainer_POKEMONTRAINER_138_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_138_surf
+#-------------------------------
+[141]
+TrainerType = POKEMONTRAINER_139
+WalkCharset = trainer_POKEMONTRAINER_139
+RunCharset = trainer_POKEMONTRAINER_139
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_139_surf
+DiveCharset = trainer_POKEMONTRAINER_139_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_139_surf
+#-------------------------------
+[142]
+TrainerType = POKEMONTRAINER_140
+WalkCharset = trainer_POKEMONTRAINER_140
+RunCharset = trainer_POKEMONTRAINER_140
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_140_surf
+DiveCharset = trainer_POKEMONTRAINER_140_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_140_surf
+#-------------------------------
+[143]
+TrainerType = POKEMONTRAINER_141
+WalkCharset = trainer_POKEMONTRAINER_141
+RunCharset = trainer_POKEMONTRAINER_141
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_141_surf
+DiveCharset = trainer_POKEMONTRAINER_141_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_141_surf
+#-------------------------------
+[144]
+TrainerType = POKEMONTRAINER_142
+WalkCharset = trainer_POKEMONTRAINER_142
+RunCharset = trainer_POKEMONTRAINER_142
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_142_surf
+DiveCharset = trainer_POKEMONTRAINER_142_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_142_surf
+#-------------------------------
+[145]
+TrainerType = POKEMONTRAINER_143
+WalkCharset = trainer_POKEMONTRAINER_143
+RunCharset = trainer_POKEMONTRAINER_143
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_143_surf
+DiveCharset = trainer_POKEMONTRAINER_143_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_143_surf
+#-------------------------------
+[146]
+TrainerType = POKEMONTRAINER_144
+WalkCharset = trainer_POKEMONTRAINER_144
+RunCharset = trainer_POKEMONTRAINER_144
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_144_surf
+DiveCharset = trainer_POKEMONTRAINER_144_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_144_surf
+#-------------------------------
+[147]
+TrainerType = POKEMONTRAINER_145
+WalkCharset = trainer_POKEMONTRAINER_145
+RunCharset = trainer_POKEMONTRAINER_145
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_145_surf
+DiveCharset = trainer_POKEMONTRAINER_145_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_145_surf
+#-------------------------------
+[148]
+TrainerType = POKEMONTRAINER_146
+WalkCharset = trainer_POKEMONTRAINER_146
+RunCharset = trainer_POKEMONTRAINER_146
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_146_surf
+DiveCharset = trainer_POKEMONTRAINER_146_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_146_surf
+#-------------------------------
+[149]
+TrainerType = POKEMONTRAINER_147
+WalkCharset = trainer_POKEMONTRAINER_147
+RunCharset = trainer_POKEMONTRAINER_147
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_147_surf
+DiveCharset = trainer_POKEMONTRAINER_147_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_147_surf
+#-------------------------------
+[150]
+TrainerType = POKEMONTRAINER_148
+WalkCharset = trainer_POKEMONTRAINER_148
+RunCharset = trainer_POKEMONTRAINER_148
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_148_surf
+DiveCharset = trainer_POKEMONTRAINER_148_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_148_surf
+#-------------------------------
+[151]
+TrainerType = POKEMONTRAINER_149
+WalkCharset = trainer_POKEMONTRAINER_149
+RunCharset = trainer_POKEMONTRAINER_149
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_149_surf
+DiveCharset = trainer_POKEMONTRAINER_149_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_149_surf
+#-------------------------------
+[152]
+TrainerType = POKEMONTRAINER_150
+WalkCharset = trainer_POKEMONTRAINER_150
+RunCharset = trainer_POKEMONTRAINER_150
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_150_surf
+DiveCharset = trainer_POKEMONTRAINER_150_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_150_surf
+#-------------------------------
+[153]
+TrainerType = POKEMONTRAINER_151
+WalkCharset = trainer_POKEMONTRAINER_151
+RunCharset = trainer_POKEMONTRAINER_151
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_151_surf
+DiveCharset = trainer_POKEMONTRAINER_151_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_151_surf
+#-------------------------------
+[154]
+TrainerType = POKEMONTRAINER_152
+WalkCharset = trainer_POKEMONTRAINER_152
+RunCharset = trainer_POKEMONTRAINER_152
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_152_surf
+DiveCharset = trainer_POKEMONTRAINER_152_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_152_surf
+#-------------------------------
+[155]
+TrainerType = POKEMONTRAINER_153
+WalkCharset = trainer_POKEMONTRAINER_153
+RunCharset = trainer_POKEMONTRAINER_153
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_153_surf
+DiveCharset = trainer_POKEMONTRAINER_153_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_153_surf
+#-------------------------------
+[156]
+TrainerType = POKEMONTRAINER_154
+WalkCharset = trainer_POKEMONTRAINER_154
+RunCharset = trainer_POKEMONTRAINER_154
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_154_surf
+DiveCharset = trainer_POKEMONTRAINER_154_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_154_surf
+#-------------------------------
+[157]
+TrainerType = POKEMONTRAINER_155
+WalkCharset = trainer_POKEMONTRAINER_155
+RunCharset = trainer_POKEMONTRAINER_155
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_155_surf
+DiveCharset = trainer_POKEMONTRAINER_155_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_155_surf
+#-------------------------------
+[158]
+TrainerType = POKEMONTRAINER_156
+WalkCharset = trainer_POKEMONTRAINER_156
+RunCharset = trainer_POKEMONTRAINER_156
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_156_surf
+DiveCharset = trainer_POKEMONTRAINER_156_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_156_surf
+#-------------------------------
+[159]
+TrainerType = POKEMONTRAINER_157
+WalkCharset = trainer_POKEMONTRAINER_157
+RunCharset = trainer_POKEMONTRAINER_157
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_157_surf
+DiveCharset = trainer_POKEMONTRAINER_157_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_157_surf
+#-------------------------------
+[160]
+TrainerType = POKEMONTRAINER_158
+WalkCharset = trainer_POKEMONTRAINER_158
+RunCharset = trainer_POKEMONTRAINER_158
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_158_surf
+DiveCharset = trainer_POKEMONTRAINER_158_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_158_surf
+#-------------------------------
+[161]
+TrainerType = POKEMONTRAINER_159
+WalkCharset = trainer_POKEMONTRAINER_159
+RunCharset = trainer_POKEMONTRAINER_159
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_159_surf
+DiveCharset = trainer_POKEMONTRAINER_159_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_159_surf
+#-------------------------------
+[162]
+TrainerType = POKEMONTRAINER_160
+WalkCharset = trainer_POKEMONTRAINER_160
+RunCharset = trainer_POKEMONTRAINER_160
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_160_surf
+DiveCharset = trainer_POKEMONTRAINER_160_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_160_surf
+#-------------------------------
+[163]
+TrainerType = POKEMONTRAINER_161
+WalkCharset = trainer_POKEMONTRAINER_161
+RunCharset = trainer_POKEMONTRAINER_161
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_161_surf
+DiveCharset = trainer_POKEMONTRAINER_161_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_161_surf
+#-------------------------------
+[164]
+TrainerType = POKEMONTRAINER_162
+WalkCharset = trainer_POKEMONTRAINER_162
+RunCharset = trainer_POKEMONTRAINER_162
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_162_surf
+DiveCharset = trainer_POKEMONTRAINER_162_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_162_surf
+#-------------------------------
+[165]
+TrainerType = POKEMONTRAINER_163
+WalkCharset = trainer_POKEMONTRAINER_163
+RunCharset = trainer_POKEMONTRAINER_163
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_163_surf
+DiveCharset = trainer_POKEMONTRAINER_163_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_163_surf
+#-------------------------------
+[166]
+TrainerType = POKEMONTRAINER_164
+WalkCharset = trainer_POKEMONTRAINER_164
+RunCharset = trainer_POKEMONTRAINER_164
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_164_surf
+DiveCharset = trainer_POKEMONTRAINER_164_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_164_surf
+#-------------------------------
+[167]
+TrainerType = POKEMONTRAINER_165
+WalkCharset = trainer_POKEMONTRAINER_165
+RunCharset = trainer_POKEMONTRAINER_165
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_165_surf
+DiveCharset = trainer_POKEMONTRAINER_165_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_165_surf
+#-------------------------------
+[168]
+TrainerType = POKEMONTRAINER_166
+WalkCharset = trainer_POKEMONTRAINER_166
+RunCharset = trainer_POKEMONTRAINER_166
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_166_surf
+DiveCharset = trainer_POKEMONTRAINER_166_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_166_surf
+#-------------------------------
+[169]
+TrainerType = POKEMONTRAINER_167
+WalkCharset = trainer_POKEMONTRAINER_167
+RunCharset = trainer_POKEMONTRAINER_167
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_167_surf
+DiveCharset = trainer_POKEMONTRAINER_167_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_167_surf
+#-------------------------------
+[170]
+TrainerType = POKEMONTRAINER_168
+WalkCharset = trainer_POKEMONTRAINER_168
+RunCharset = trainer_POKEMONTRAINER_168
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_168_surf
+DiveCharset = trainer_POKEMONTRAINER_168_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_168_surf#-------------------------------
+[171]
+TrainerType = POKEMONTRAINER_169
+WalkCharset = trainer_POKEMONTRAINER_169
+RunCharset = trainer_POKEMONTRAINER_169
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_169_surf
+DiveCharset = trainer_POKEMONTRAINER_169_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_169_surf
+#-------------------------------
+[172]
+TrainerType = POKEMONTRAINER_170
+WalkCharset = trainer_POKEMONTRAINER_170
+RunCharset = trainer_POKEMONTRAINER_170
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_170_surf
+DiveCharset = trainer_POKEMONTRAINER_170_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_170_surf
+#-------------------------------
+[173]
+TrainerType = POKEMONTRAINER_171
+WalkCharset = trainer_POKEMONTRAINER_171
+RunCharset = trainer_POKEMONTRAINER_171
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_171_surf
+DiveCharset = trainer_POKEMONTRAINER_171_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_171_surf
+#-------------------------------
+[174]
+TrainerType = POKEMONTRAINER_172
+WalkCharset = trainer_POKEMONTRAINER_172
+RunCharset = trainer_POKEMONTRAINER_172
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_172_surf
+DiveCharset = trainer_POKEMONTRAINER_172_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_172_surf
+#-------------------------------
+[175]
+TrainerType = POKEMONTRAINER_173
+WalkCharset = trainer_POKEMONTRAINER_173
+RunCharset = trainer_POKEMONTRAINER_173
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_173_surf
+DiveCharset = trainer_POKEMONTRAINER_173_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_173_surf
+#-------------------------------
+[176]
+TrainerType = POKEMONTRAINER_174
+WalkCharset = trainer_POKEMONTRAINER_174
+RunCharset = trainer_POKEMONTRAINER_174
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_174_surf
+DiveCharset = trainer_POKEMONTRAINER_174_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_174_surf
+#-------------------------------
+[177]
+TrainerType = POKEMONTRAINER_175
+WalkCharset = trainer_POKEMONTRAINER_175
+RunCharset = trainer_POKEMONTRAINER_175
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_175_surf
+DiveCharset = trainer_POKEMONTRAINER_175_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_175_surf
+#-------------------------------
+[178]
+TrainerType = POKEMONTRAINER_176
+WalkCharset = trainer_POKEMONTRAINER_176
+RunCharset = trainer_POKEMONTRAINER_176
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_176_surf
+DiveCharset = trainer_POKEMONTRAINER_176_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_176_surf
+#-------------------------------
+[179]
+TrainerType = POKEMONTRAINER_177
+WalkCharset = trainer_POKEMONTRAINER_177
+RunCharset = trainer_POKEMONTRAINER_177
+CycleCharset = girl_bike
+SurfCharset = trainer_POKEMONTRAINER_177_surf
+DiveCharset = trainer_POKEMONTRAINER_177_surf
+FishCharset = girl_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_177_surf
+#-------------------------------
+[180]
+TrainerType = POKEMONTRAINER_178
+WalkCharset = trainer_POKEMONTRAINER_178
+RunCharset = trainer_POKEMONTRAINER_178
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_178_surf
+DiveCharset = trainer_POKEMONTRAINER_178_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_178_surf
+#-------------------------------
+[181]
+TrainerType = POKEMONTRAINER_179
+WalkCharset = trainer_POKEMONTRAINER_179
+RunCharset = trainer_POKEMONTRAINER_179
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_179_surf
+DiveCharset = trainer_POKEMONTRAINER_179_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_179_surf
+#-------------------------------
+[182]
+TrainerType = POKEMONTRAINER_180
+WalkCharset = trainer_POKEMONTRAINER_180
+RunCharset = trainer_POKEMONTRAINER_180
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_180_surf
+DiveCharset = trainer_POKEMONTRAINER_180_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_180_surf
+#-------------------------------
+[183]
+TrainerType = POKEMONTRAINER_181
+WalkCharset = trainer_POKEMONTRAINER_181
+RunCharset = trainer_POKEMONTRAINER_181
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_181_surf
+DiveCharset = trainer_POKEMONTRAINER_181_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_181_surf
+#-------------------------------
+[184]
+TrainerType = POKEMONTRAINER_182
+WalkCharset = trainer_POKEMONTRAINER_182
+RunCharset = trainer_POKEMONTRAINER_182
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_182_surf
+DiveCharset = trainer_POKEMONTRAINER_182_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_182_surf
+#-------------------------------
+[185]
+TrainerType = POKEMONTRAINER_183
+WalkCharset = trainer_POKEMONTRAINER_183
+RunCharset = trainer_POKEMONTRAINER_183
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_183_surf
+DiveCharset = trainer_POKEMONTRAINER_183_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_183_surf
+
+#-------------------------------
+[186]
+TrainerType = POKEMONTRAINER_184
+WalkCharset = trainer_POKEMONTRAINER_184
+RunCharset = trainer_POKEMONTRAINER_184
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_184_surf
+DiveCharset = trainer_POKEMONTRAINER_184_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_184_surf
+#-------------------------------
+[187]
+TrainerType = POKEMONTRAINER_185
+WalkCharset = trainer_POKEMONTRAINER_185
+RunCharset = trainer_POKEMONTRAINER_185
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_185_surf
+DiveCharset = trainer_POKEMONTRAINER_185_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_185_surf
+#-------------------------------
+[188]
+TrainerType = POKEMONTRAINER_186
+WalkCharset = trainer_POKEMONTRAINER_186
+RunCharset = trainer_POKEMONTRAINER_186
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_186_surf
+DiveCharset = trainer_POKEMONTRAINER_186_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_186_surf
+#-------------------------------
+[189]
+TrainerType = POKEMONTRAINER_187
+WalkCharset = trainer_POKEMONTRAINER_187
+RunCharset = trainer_POKEMONTRAINER_187
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_187_surf
+DiveCharset = trainer_POKEMONTRAINER_187_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_187_surf
+#-------------------------------
+[190]
+TrainerType = POKEMONTRAINER_188
+WalkCharset = trainer_POKEMONTRAINER_188
+RunCharset = trainer_POKEMONTRAINER_188
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_188_surf
+DiveCharset = trainer_POKEMONTRAINER_188_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_188_surf
+#-------------------------------
+[191]
+TrainerType = POKEMONTRAINER_189
+WalkCharset = trainer_POKEMONTRAINER_189
+RunCharset = trainer_POKEMONTRAINER_189
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_189_surf
+DiveCharset = trainer_POKEMONTRAINER_189_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_189_surf
+#-------------------------------
+[192]
+TrainerType = POKEMONTRAINER_190
+WalkCharset = trainer_POKEMONTRAINER_190
+RunCharset = trainer_POKEMONTRAINER_190
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_190_surf
+DiveCharset = trainer_POKEMONTRAINER_190_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_190_surf
+#-------------------------------
+[193]
+TrainerType = POKEMONTRAINER_191
+WalkCharset = trainer_POKEMONTRAINER_191
+RunCharset = trainer_POKEMONTRAINER_191
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_191_surf
+DiveCharset = trainer_POKEMONTRAINER_191_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_191_surf
+#-------------------------------
+[194]
+TrainerType = POKEMONTRAINER_192
+WalkCharset = trainer_POKEMONTRAINER_192
+RunCharset = trainer_POKEMONTRAINER_192
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_192_surf
+DiveCharset = trainer_POKEMONTRAINER_192_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_192_surf
+#-------------------------------
+[195]
+TrainerType = POKEMONTRAINER_193
+WalkCharset = trainer_POKEMONTRAINER_193
+RunCharset = trainer_POKEMONTRAINER_193
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_193_surf
+DiveCharset = trainer_POKEMONTRAINER_193_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_193_surf
+#-------------------------------
+[196]
+TrainerType = POKEMONTRAINER_194
+WalkCharset = trainer_POKEMONTRAINER_194
+RunCharset = trainer_POKEMONTRAINER_194
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_194_surf
+DiveCharset = trainer_POKEMONTRAINER_194_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_194_surf
+#-------------------------------
+[197]
+TrainerType = POKEMONTRAINER_195
+WalkCharset = trainer_POKEMONTRAINER_195
+RunCharset = trainer_POKEMONTRAINER_195
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_195_surf
+DiveCharset = trainer_POKEMONTRAINER_195_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_195_surf
+#-------------------------------
+[198]
+TrainerType = POKEMONTRAINER_196
+WalkCharset = trainer_POKEMONTRAINER_196
+RunCharset = trainer_POKEMONTRAINER_196
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_196_surf
+DiveCharset = trainer_POKEMONTRAINER_196_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_196_surf
+#-------------------------------
+[199]
+TrainerType = POKEMONTRAINER_197
+WalkCharset = trainer_POKEMONTRAINER_197
+RunCharset = trainer_POKEMONTRAINER_197
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_197_surf
+DiveCharset = trainer_POKEMONTRAINER_197_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_197_surf
+#-------------------------------
+[200]
+TrainerType = POKEMONTRAINER_198
+WalkCharset = trainer_POKEMONTRAINER_198
+RunCharset = trainer_POKEMONTRAINER_198
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_198_surf
+DiveCharset = trainer_POKEMONTRAINER_198_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_198_surf
+#-------------------------------
+[201]
+TrainerType = POKEMONTRAINER_199
+WalkCharset = trainer_POKEMONTRAINER_199
+RunCharset = trainer_POKEMONTRAINER_199
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_199_surf
+DiveCharset = trainer_POKEMONTRAINER_199_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_199_surf
+#-------------------------------
+[202]
+TrainerType = POKEMONTRAINER_200
+WalkCharset = trainer_POKEMONTRAINER_200
+RunCharset = trainer_POKEMONTRAINER_200
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_200_surf
+DiveCharset = trainer_POKEMONTRAINER_200_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_200_surf
+#-------------------------------
+[203]
+TrainerType = POKEMONTRAINER_201
+WalkCharset = trainer_POKEMONTRAINER_201
+RunCharset = trainer_POKEMONTRAINER_201
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_201_surf
+DiveCharset = trainer_POKEMONTRAINER_201_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_201_surf
+#-------------------------------
+[204]
+TrainerType = POKEMONTRAINER_202
+WalkCharset = trainer_POKEMONTRAINER_202
+RunCharset = trainer_POKEMONTRAINER_202
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_202_surf
+DiveCharset = trainer_POKEMONTRAINER_202_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_202_surf
+#-------------------------------
+[205]
+TrainerType = POKEMONTRAINER_203
+WalkCharset = trainer_POKEMONTRAINER_203
+RunCharset = trainer_POKEMONTRAINER_203
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_203_surf
+DiveCharset = trainer_POKEMONTRAINER_203_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_203_surf
+#-------------------------------
+[206]
+TrainerType = POKEMONTRAINER_204
+WalkCharset = trainer_POKEMONTRAINER_204
+RunCharset = trainer_POKEMONTRAINER_204
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_204_surf
+DiveCharset = trainer_POKEMONTRAINER_204_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_204_surf
+#-------------------------------
+[207]
+TrainerType = POKEMONTRAINER_205
+WalkCharset = trainer_POKEMONTRAINER_205
+RunCharset = trainer_POKEMONTRAINER_205
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_205_surf
+DiveCharset = trainer_POKEMONTRAINER_205_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_205_surf
+#-------------------------------
+[208]
+TrainerType = POKEMONTRAINER_206
+WalkCharset = trainer_POKEMONTRAINER_206
+RunCharset = trainer_POKEMONTRAINER_206
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_206_surf
+DiveCharset = trainer_POKEMONTRAINER_206_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_206_surf
+#-------------------------------
+[209]
+TrainerType = POKEMONTRAINER_207
+WalkCharset = trainer_POKEMONTRAINER_207
+RunCharset = trainer_POKEMONTRAINER_207
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_207_surf
+DiveCharset = trainer_POKEMONTRAINER_207_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_207_surf
+#-------------------------------
+[210]
+TrainerType = POKEMONTRAINER_208
+WalkCharset = trainer_POKEMONTRAINER_208
+RunCharset = trainer_POKEMONTRAINER_208
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_208_surf
+DiveCharset = trainer_POKEMONTRAINER_208_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_208_surf
+#-------------------------------
+[211]
+TrainerType = POKEMONTRAINER_209
+WalkCharset = trainer_POKEMONTRAINER_209
+RunCharset = trainer_POKEMONTRAINER_209
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_209_surf
+DiveCharset = trainer_POKEMONTRAINER_209_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_209_surf
+#-------------------------------
+[212]
+TrainerType = POKEMONTRAINER_210
+WalkCharset = trainer_POKEMONTRAINER_210
+RunCharset = trainer_POKEMONTRAINER_210
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_210_surf
+DiveCharset = trainer_POKEMONTRAINER_210_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_210_surf
+#-------------------------------
+[213]
+TrainerType = POKEMONTRAINER_211
+WalkCharset = trainer_POKEMONTRAINER_211
+RunCharset = trainer_POKEMONTRAINER_211
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_211_surf
+DiveCharset = trainer_POKEMONTRAINER_211_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_211_surf
+#-------------------------------
+[214]
+TrainerType = POKEMONTRAINER_212
+WalkCharset = trainer_POKEMONTRAINER_212
+RunCharset = trainer_POKEMONTRAINER_212
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_212_surf
+DiveCharset = trainer_POKEMONTRAINER_212_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_212_surf
+#-------------------------------
+[215]
+TrainerType = POKEMONTRAINER_213
+WalkCharset = trainer_POKEMONTRAINER_213
+RunCharset = trainer_POKEMONTRAINER_213
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_213_surf
+DiveCharset = trainer_POKEMONTRAINER_213_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_213_surf
+#-------------------------------
+[216]
+TrainerType = POKEMONTRAINER_214
+WalkCharset = trainer_POKEMONTRAINER_214
+RunCharset = trainer_POKEMONTRAINER_214
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_214_surf
+DiveCharset = trainer_POKEMONTRAINER_214_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_214_surf
+#-------------------------------
+[217]
+TrainerType = POKEMONTRAINER_215
+WalkCharset = trainer_POKEMONTRAINER_215
+RunCharset = trainer_POKEMONTRAINER_215
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_215_surf
+DiveCharset = trainer_POKEMONTRAINER_215_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_215_surf
+#-------------------------------
+[218]
+TrainerType = POKEMONTRAINER_216
+WalkCharset = trainer_POKEMONTRAINER_216
+RunCharset = trainer_POKEMONTRAINER_216
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_216_surf
+DiveCharset = trainer_POKEMONTRAINER_216_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_216_surf
+#-------------------------------
+[219]
+TrainerType = POKEMONTRAINER_217
+WalkCharset = trainer_POKEMONTRAINER_217
+RunCharset = trainer_POKEMONTRAINER_217
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_217_surf
+DiveCharset = trainer_POKEMONTRAINER_217_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_217_surf
+#-------------------------------
+[220]
+TrainerType = POKEMONTRAINER_218
+WalkCharset = trainer_POKEMONTRAINER_218
+RunCharset = trainer_POKEMONTRAINER_218
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_218_surf
+DiveCharset = trainer_POKEMONTRAINER_218_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_218_surf
+#-------------------------------
+[221]
+TrainerType = POKEMONTRAINER_219
+WalkCharset = trainer_POKEMONTRAINER_219
+RunCharset = trainer_POKEMONTRAINER_219
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_219_surf
+DiveCharset = trainer_POKEMONTRAINER_219_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_219_surf
+#-------------------------------
+[222]
+TrainerType = POKEMONTRAINER_220
+WalkCharset = trainer_POKEMONTRAINER_220
+RunCharset = trainer_POKEMONTRAINER_220
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_220_surf
+DiveCharset = trainer_POKEMONTRAINER_220_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_220_surf
+#-------------------------------
+[223]
+TrainerType = POKEMONTRAINER_221
+WalkCharset = trainer_POKEMONTRAINER_221
+RunCharset = trainer_POKEMONTRAINER_221
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_221_surf
+DiveCharset = trainer_POKEMONTRAINER_221_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_221_surf
+#-------------------------------
+[224]
+TrainerType = POKEMONTRAINER_222
+WalkCharset = trainer_POKEMONTRAINER_222
+RunCharset = trainer_POKEMONTRAINER_222
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_222_surf
+DiveCharset = trainer_POKEMONTRAINER_222_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_222_surf
+#-------------------------------
+[225]
+TrainerType = POKEMONTRAINER_223
+WalkCharset = trainer_POKEMONTRAINER_223
+RunCharset = trainer_POKEMONTRAINER_223
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_223_surf
+DiveCharset = trainer_POKEMONTRAINER_223_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_223_surf
+#-------------------------------
+[226]
+TrainerType = POKEMONTRAINER_224
+WalkCharset = trainer_POKEMONTRAINER_224
+RunCharset = trainer_POKEMONTRAINER_224
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_224_surf
+DiveCharset = trainer_POKEMONTRAINER_224_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_224_surf
+#-------------------------------
+[227]
+TrainerType = POKEMONTRAINER_225
+WalkCharset = trainer_POKEMONTRAINER_225
+RunCharset = trainer_POKEMONTRAINER_225
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_225_surf
+DiveCharset = trainer_POKEMONTRAINER_225_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_225_surf
+#-------------------------------
+[228]
+TrainerType = POKEMONTRAINER_226
+WalkCharset = trainer_POKEMONTRAINER_226
+RunCharset = trainer_POKEMONTRAINER_226
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_226_surf
+DiveCharset = trainer_POKEMONTRAINER_226_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_226_surf
+#-------------------------------
+[229]
+TrainerType = POKEMONTRAINER_227
+WalkCharset = trainer_POKEMONTRAINER_227
+RunCharset = trainer_POKEMONTRAINER_227
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_227_surf
+DiveCharset = trainer_POKEMONTRAINER_227_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_227_surf
+#-------------------------------
+[230]
+TrainerType = POKEMONTRAINER_228
+WalkCharset = trainer_POKEMONTRAINER_228
+RunCharset = trainer_POKEMONTRAINER_228
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_228_surf
+DiveCharset = trainer_POKEMONTRAINER_228_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_228_surf
+#-------------------------------
+[231]
+TrainerType = POKEMONTRAINER_229
+WalkCharset = trainer_POKEMONTRAINER_229
+RunCharset = trainer_POKEMONTRAINER_229
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_229_surf
+DiveCharset = trainer_POKEMONTRAINER_229_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_229_surf
+#-------------------------------
+[232]
+TrainerType = POKEMONTRAINER_230
+WalkCharset = trainer_POKEMONTRAINER_230
+RunCharset = trainer_POKEMONTRAINER_230
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_230_surf
+DiveCharset = trainer_POKEMONTRAINER_230_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_230_surf
+#-------------------------------
+[233]
+TrainerType = POKEMONTRAINER_231
+WalkCharset = trainer_POKEMONTRAINER_231
+RunCharset = trainer_POKEMONTRAINER_231
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_231_surf
+DiveCharset = trainer_POKEMONTRAINER_231_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_231_surf
+#-------------------------------
+[234]
+TrainerType = POKEMONTRAINER_232
+WalkCharset = trainer_POKEMONTRAINER_232
+RunCharset = trainer_POKEMONTRAINER_232
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_232_surf
+DiveCharset = trainer_POKEMONTRAINER_232_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_232_surf
+#-------------------------------
+[235]
+TrainerType = POKEMONTRAINER_233
+WalkCharset = trainer_POKEMONTRAINER_233
+RunCharset = trainer_POKEMONTRAINER_233
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_233_surf
+DiveCharset = trainer_POKEMONTRAINER_233_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_233_surf
+#-------------------------------
+[236]
+TrainerType = POKEMONTRAINER_234
+WalkCharset = trainer_POKEMONTRAINER_234
+RunCharset = trainer_POKEMONTRAINER_234
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_234_surf
+DiveCharset = trainer_POKEMONTRAINER_234_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_234_surf
+#-------------------------------
+[237]
+TrainerType = POKEMONTRAINER_235
+WalkCharset = trainer_POKEMONTRAINER_235
+RunCharset = trainer_POKEMONTRAINER_235
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_235_surf
+DiveCharset = trainer_POKEMONTRAINER_235_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_235_surf
+#-------------------------------
+[238]
+TrainerType = POKEMONTRAINER_236
+WalkCharset = trainer_POKEMONTRAINER_236
+RunCharset = trainer_POKEMONTRAINER_236
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_236_surf
+DiveCharset = trainer_POKEMONTRAINER_236_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_236_surf
+#-------------------------------
+[239]
+TrainerType = POKEMONTRAINER_237
+WalkCharset = trainer_POKEMONTRAINER_237
+RunCharset = trainer_POKEMONTRAINER_237
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_237_surf
+DiveCharset = trainer_POKEMONTRAINER_237_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_237_surf
+#-------------------------------
+[240]
+TrainerType = POKEMONTRAINER_238
+WalkCharset = trainer_POKEMONTRAINER_238
+RunCharset = trainer_POKEMONTRAINER_238
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_238_surf
+DiveCharset = trainer_POKEMONTRAINER_238_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_238_surf
+#-------------------------------
+[241]
+TrainerType = POKEMONTRAINER_239
+WalkCharset = trainer_POKEMONTRAINER_239
+RunCharset = trainer_POKEMONTRAINER_239
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_239_surf
+DiveCharset = trainer_POKEMONTRAINER_239_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_239_surf
+#-------------------------------
+[242]
+TrainerType = POKEMONTRAINER_240
+WalkCharset = trainer_POKEMONTRAINER_240
+RunCharset = trainer_POKEMONTRAINER_240
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_240_surf
+DiveCharset = trainer_POKEMONTRAINER_240_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_240_surf
+#-------------------------------
+[243]
+TrainerType = POKEMONTRAINER_241
+WalkCharset = trainer_POKEMONTRAINER_241
+RunCharset = trainer_POKEMONTRAINER_241
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_241_surf
+DiveCharset = trainer_POKEMONTRAINER_241_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_241_surf
+#-------------------------------
+[244]
+TrainerType = POKEMONTRAINER_242
+WalkCharset = trainer_POKEMONTRAINER_242
+RunCharset = trainer_POKEMONTRAINER_242
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_242_surf
+DiveCharset = trainer_POKEMONTRAINER_242_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_242_surf
+#-------------------------------
+[245]
+TrainerType = POKEMONTRAINER_243
+WalkCharset = trainer_POKEMONTRAINER_243
+RunCharset = trainer_POKEMONTRAINER_243
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_243_surf
+DiveCharset = trainer_POKEMONTRAINER_243_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_243_surf
+#-------------------------------
+[246]
+TrainerType = POKEMONTRAINER_244
+WalkCharset = trainer_POKEMONTRAINER_244
+RunCharset = trainer_POKEMONTRAINER_244
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_244_surf
+DiveCharset = trainer_POKEMONTRAINER_244_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_244_surf
+#-------------------------------
+[247]
+TrainerType = POKEMONTRAINER_245
+WalkCharset = trainer_POKEMONTRAINER_245
+RunCharset = trainer_POKEMONTRAINER_245
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_245_surf
+DiveCharset = trainer_POKEMONTRAINER_245_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_245_surf
+#-------------------------------
+[248]
+TrainerType = POKEMONTRAINER_246
+WalkCharset = trainer_POKEMONTRAINER_246
+RunCharset = trainer_POKEMONTRAINER_246
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_246_surf
+DiveCharset = trainer_POKEMONTRAINER_246_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_246_surf
+#-------------------------------
+[249]
+TrainerType = POKEMONTRAINER_247
+WalkCharset = trainer_POKEMONTRAINER_247
+RunCharset = trainer_POKEMONTRAINER_247
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_247_surf
+DiveCharset = trainer_POKEMONTRAINER_247_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_247_surf
+#-------------------------------
+[250]
+TrainerType = POKEMONTRAINER_248
+WalkCharset = trainer_POKEMONTRAINER_248
+RunCharset = trainer_POKEMONTRAINER_248
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_248_surf
+DiveCharset = trainer_POKEMONTRAINER_248_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_248_surf
+#-------------------------------
+[251]
+TrainerType = POKEMONTRAINER_249
+WalkCharset = trainer_POKEMONTRAINER_249
+RunCharset = trainer_POKEMONTRAINER_249
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_249_surf
+DiveCharset = trainer_POKEMONTRAINER_249_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_249_surf
+#-------------------------------
+[252]
+TrainerType = POKEMONTRAINER_250
+WalkCharset = trainer_POKEMONTRAINER_250
+RunCharset = trainer_POKEMONTRAINER_250
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_250_surf
+DiveCharset = trainer_POKEMONTRAINER_250_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_250_surf
+#-------------------------------
+[253]
+TrainerType = POKEMONTRAINER_251
+WalkCharset = trainer_POKEMONTRAINER_251
+RunCharset = trainer_POKEMONTRAINER_251
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_251_surf
+DiveCharset = trainer_POKEMONTRAINER_251_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_251_surf
+#-------------------------------
+[254]
+TrainerType = POKEMONTRAINER_252
+WalkCharset = trainer_POKEMONTRAINER_252
+RunCharset = trainer_POKEMONTRAINER_252
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_252_surf
+DiveCharset = trainer_POKEMONTRAINER_252_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_252_surf
+#-------------------------------
+[255]
+TrainerType = POKEMONTRAINER_253
+WalkCharset = trainer_POKEMONTRAINER_253
+RunCharset = trainer_POKEMONTRAINER_253
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_253_surf
+DiveCharset = trainer_POKEMONTRAINER_253_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_253_surf
+#-------------------------------
+[256]
+TrainerType = POKEMONTRAINER_254
+WalkCharset = trainer_POKEMONTRAINER_254
+RunCharset = trainer_POKEMONTRAINER_254
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_254_surf
+DiveCharset = trainer_POKEMONTRAINER_254_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_254_surf
+#-------------------------------
+[257]
+TrainerType = POKEMONTRAINER_255
+WalkCharset = trainer_POKEMONTRAINER_255
+RunCharset = trainer_POKEMONTRAINER_255
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_255_surf
+DiveCharset = trainer_POKEMONTRAINER_255_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_255_surf
+#-------------------------------
+[258]
+TrainerType = POKEMONTRAINER_256
+WalkCharset = trainer_POKEMONTRAINER_256
+RunCharset = trainer_POKEMONTRAINER_256
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_256_surf
+DiveCharset = trainer_POKEMONTRAINER_256_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_256_surf
+#-------------------------------
+[259]
+TrainerType = POKEMONTRAINER_257
+WalkCharset = trainer_POKEMONTRAINER_257
+RunCharset = trainer_POKEMONTRAINER_257
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_257_surf
+DiveCharset = trainer_POKEMONTRAINER_257_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_257_surf
+#-------------------------------
+[260]
+TrainerType = POKEMONTRAINER_258
+WalkCharset = trainer_POKEMONTRAINER_258
+RunCharset = trainer_POKEMONTRAINER_258
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_258_surf
+DiveCharset = trainer_POKEMONTRAINER_258_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_258_surf
+#-------------------------------
+[261]
+TrainerType = POKEMONTRAINER_259
+WalkCharset = trainer_POKEMONTRAINER_259
+RunCharset = trainer_POKEMONTRAINER_259
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_259_surf
+DiveCharset = trainer_POKEMONTRAINER_259_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_259_surf
+#-------------------------------
+[262]
+TrainerType = POKEMONTRAINER_260
+WalkCharset = trainer_POKEMONTRAINER_260
+RunCharset = trainer_POKEMONTRAINER_260
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_260_surf
+DiveCharset = trainer_POKEMONTRAINER_260_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_260_surf
+#-------------------------------
+[263]
+TrainerType = POKEMONTRAINER_261
+WalkCharset = trainer_POKEMONTRAINER_261
+RunCharset = trainer_POKEMONTRAINER_261
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_261_surf
+DiveCharset = trainer_POKEMONTRAINER_261_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_261_surf
+#-------------------------------
+[264]
+TrainerType = POKEMONTRAINER_262
+WalkCharset = trainer_POKEMONTRAINER_262
+RunCharset = trainer_POKEMONTRAINER_262
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_262_surf
+DiveCharset = trainer_POKEMONTRAINER_262_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_262_surf
+#-------------------------------
+[265]
+TrainerType = POKEMONTRAINER_263
+WalkCharset = trainer_POKEMONTRAINER_263
+RunCharset = trainer_POKEMONTRAINER_263
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_263_surf
+DiveCharset = trainer_POKEMONTRAINER_263_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_263_surf
+#-------------------------------
+[266]
+TrainerType = POKEMONTRAINER_264
+WalkCharset = trainer_POKEMONTRAINER_264
+RunCharset = trainer_POKEMONTRAINER_264
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_264_surf
+DiveCharset = trainer_POKEMONTRAINER_264_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_264_surf
+#-------------------------------
+[267]
+TrainerType = POKEMONTRAINER_265
+WalkCharset = trainer_POKEMONTRAINER_265
+RunCharset = trainer_POKEMONTRAINER_265
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_265_surf
+DiveCharset = trainer_POKEMONTRAINER_265_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_265_surf
+#-------------------------------
+[268]
+TrainerType = POKEMONTRAINER_266
+WalkCharset = trainer_POKEMONTRAINER_266
+RunCharset = trainer_POKEMONTRAINER_266
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_266_surf
+DiveCharset = trainer_POKEMONTRAINER_266_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_266_surf
+#-------------------------------
+[269]
+TrainerType = POKEMONTRAINER_267
+WalkCharset = trainer_POKEMONTRAINER_267
+RunCharset = trainer_POKEMONTRAINER_267
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_267_surf
+DiveCharset = trainer_POKEMONTRAINER_267_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_267_surf
+#-------------------------------
+[270]
+TrainerType = POKEMONTRAINER_268
+WalkCharset = trainer_POKEMONTRAINER_268
+RunCharset = trainer_POKEMONTRAINER_268
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_268_surf
+DiveCharset = trainer_POKEMONTRAINER_268_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_268_surf
+#-------------------------------
+[271]
+TrainerType = POKEMONTRAINER_269
+WalkCharset = trainer_POKEMONTRAINER_269
+RunCharset = trainer_POKEMONTRAINER_269
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_269_surf
+DiveCharset = trainer_POKEMONTRAINER_269_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_269_surf
+#-------------------------------
+[272]
+TrainerType = POKEMONTRAINER_270
+WalkCharset = trainer_POKEMONTRAINER_270
+RunCharset = trainer_POKEMONTRAINER_270
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_270_surf
+DiveCharset = trainer_POKEMONTRAINER_270_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_270_surf
+#-------------------------------
+[273]
+TrainerType = POKEMONTRAINER_271
+WalkCharset = trainer_POKEMONTRAINER_271
+RunCharset = trainer_POKEMONTRAINER_271
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_271_surf
+DiveCharset = trainer_POKEMONTRAINER_271_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_271_surf
+#-------------------------------
+[274]
+TrainerType = POKEMONTRAINER_272
+WalkCharset = trainer_POKEMONTRAINER_272
+RunCharset = trainer_POKEMONTRAINER_272
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_272_surf
+DiveCharset = trainer_POKEMONTRAINER_272_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_272_surf
+#-------------------------------
+[275]
+TrainerType = POKEMONTRAINER_273
+WalkCharset = trainer_POKEMONTRAINER_273
+RunCharset = trainer_POKEMONTRAINER_273
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_273_surf
+DiveCharset = trainer_POKEMONTRAINER_273_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_273_surf
+#-------------------------------
+[276]
+TrainerType = POKEMONTRAINER_274
+WalkCharset = trainer_POKEMONTRAINER_274
+RunCharset = trainer_POKEMONTRAINER_274
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_274_surf
+DiveCharset = trainer_POKEMONTRAINER_274_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_274_surf
+#-------------------------------
+[277]
+TrainerType = POKEMONTRAINER_275
+WalkCharset = trainer_POKEMONTRAINER_275
+RunCharset = trainer_POKEMONTRAINER_275
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_275_surf
+DiveCharset = trainer_POKEMONTRAINER_275_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_275_surf
+#-------------------------------
+[278]
+TrainerType = POKEMONTRAINER_276
+WalkCharset = trainer_POKEMONTRAINER_276
+RunCharset = trainer_POKEMONTRAINER_276
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_276_surf
+DiveCharset = trainer_POKEMONTRAINER_276_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_276_surf
+#-------------------------------
+[279]
+TrainerType = POKEMONTRAINER_277
+WalkCharset = trainer_POKEMONTRAINER_277
+RunCharset = trainer_POKEMONTRAINER_277
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_277_surf
+DiveCharset = trainer_POKEMONTRAINER_277_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_277_surf
+#-------------------------------
+[280]
+TrainerType = POKEMONTRAINER_278
+WalkCharset = trainer_POKEMONTRAINER_278
+RunCharset = trainer_POKEMONTRAINER_278
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_278_surf
+DiveCharset = trainer_POKEMONTRAINER_278_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_278_surf
+#-------------------------------
+[281]
+TrainerType = POKEMONTRAINER_279
+WalkCharset = trainer_POKEMONTRAINER_279
+RunCharset = trainer_POKEMONTRAINER_279
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_279_surf
+DiveCharset = trainer_POKEMONTRAINER_279_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_279_surf
+#-------------------------------
+[282]
+TrainerType = POKEMONTRAINER_280
+WalkCharset = trainer_POKEMONTRAINER_280
+RunCharset = trainer_POKEMONTRAINER_280
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_280_surf
+DiveCharset = trainer_POKEMONTRAINER_280_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_280_surf
+#-------------------------------
+[283]
+TrainerType = POKEMONTRAINER_281
+WalkCharset = trainer_POKEMONTRAINER_281
+RunCharset = trainer_POKEMONTRAINER_281
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_281_surf
+DiveCharset = trainer_POKEMONTRAINER_281_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_281_surf
+#-------------------------------
+[284]
+TrainerType = POKEMONTRAINER_282
+WalkCharset = trainer_POKEMONTRAINER_282
+RunCharset = trainer_POKEMONTRAINER_282
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_282_surf
+DiveCharset = trainer_POKEMONTRAINER_282_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_282_surf
+#-------------------------------
+[285]
+TrainerType = POKEMONTRAINER_283
+WalkCharset = trainer_POKEMONTRAINER_283
+RunCharset = trainer_POKEMONTRAINER_283
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_283_surf
+DiveCharset = trainer_POKEMONTRAINER_283_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_283_surf
+#-------------------------------
+[286]
+TrainerType = POKEMONTRAINER_284
+WalkCharset = trainer_POKEMONTRAINER_284
+RunCharset = trainer_POKEMONTRAINER_284
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_284_surf
+DiveCharset = trainer_POKEMONTRAINER_284_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_284_surf
+#-------------------------------
+[287]
+TrainerType = POKEMONTRAINER_285
+WalkCharset = trainer_POKEMONTRAINER_285
+RunCharset = trainer_POKEMONTRAINER_285
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_285_surf
+DiveCharset = trainer_POKEMONTRAINER_285_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_285_surf
+#-------------------------------
+[288]
+TrainerType = POKEMONTRAINER_286
+WalkCharset = trainer_POKEMONTRAINER_286
+RunCharset = trainer_POKEMONTRAINER_286
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_286_surf
+DiveCharset = trainer_POKEMONTRAINER_286_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_286_surf
+#-------------------------------
+[289]
+TrainerType = POKEMONTRAINER_287
+WalkCharset = trainer_POKEMONTRAINER_287
+RunCharset = trainer_POKEMONTRAINER_287
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_287_surf
+DiveCharset = trainer_POKEMONTRAINER_287_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_287_surf
+#-------------------------------
+[290]
+TrainerType = POKEMONTRAINER_288
+WalkCharset = trainer_POKEMONTRAINER_288
+RunCharset = trainer_POKEMONTRAINER_288
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_288_surf
+DiveCharset = trainer_POKEMONTRAINER_288_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_288_surf
+#-------------------------------
+[291]
+TrainerType = POKEMONTRAINER_289
+WalkCharset = trainer_POKEMONTRAINER_289
+RunCharset = trainer_POKEMONTRAINER_289
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_289_surf
+DiveCharset = trainer_POKEMONTRAINER_289_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_289_surf
+#-------------------------------
+[292]
+TrainerType = POKEMONTRAINER_290
+WalkCharset = trainer_POKEMONTRAINER_290
+RunCharset = trainer_POKEMONTRAINER_290
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_290_surf
+DiveCharset = trainer_POKEMONTRAINER_290_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_290_surf
+#-------------------------------
+[293]
+TrainerType = POKEMONTRAINER_291
+WalkCharset = trainer_POKEMONTRAINER_291
+RunCharset = trainer_POKEMONTRAINER_291
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_291_surf
+DiveCharset = trainer_POKEMONTRAINER_291_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_291_surf
+#-------------------------------
+[294]
+TrainerType = POKEMONTRAINER_292
+WalkCharset = trainer_POKEMONTRAINER_292
+RunCharset = trainer_POKEMONTRAINER_292
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_292_surf
+DiveCharset = trainer_POKEMONTRAINER_292_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_292_surf
+#-------------------------------
+[295]
+TrainerType = POKEMONTRAINER_293
+WalkCharset = trainer_POKEMONTRAINER_293
+RunCharset = trainer_POKEMONTRAINER_293
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_293_surf
+DiveCharset = trainer_POKEMONTRAINER_293_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_293_surf
+#-------------------------------
+[296]
+TrainerType = POKEMONTRAINER_294
+WalkCharset = trainer_POKEMONTRAINER_294
+RunCharset = trainer_POKEMONTRAINER_294
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_294_surf
+DiveCharset = trainer_POKEMONTRAINER_294_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_294_surf
+#-------------------------------
+[297]
+TrainerType = POKEMONTRAINER_295
+WalkCharset = trainer_POKEMONTRAINER_295
+RunCharset = trainer_POKEMONTRAINER_295
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_295_surf
+DiveCharset = trainer_POKEMONTRAINER_295_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_295_surf
+#-------------------------------
+[298]
+TrainerType = POKEMONTRAINER_296
+WalkCharset = trainer_POKEMONTRAINER_296
+RunCharset = trainer_POKEMONTRAINER_296
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_296_surf
+DiveCharset = trainer_POKEMONTRAINER_296_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_296_surf
+#-------------------------------
+[299]
+TrainerType = POKEMONTRAINER_297
+WalkCharset = trainer_POKEMONTRAINER_297
+RunCharset = trainer_POKEMONTRAINER_297
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_297_surf
+DiveCharset = trainer_POKEMONTRAINER_297_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_297_surf
+#-------------------------------
+[300]
+TrainerType = POKEMONTRAINER_298
+WalkCharset = trainer_POKEMONTRAINER_298
+RunCharset = trainer_POKEMONTRAINER_298
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_298_surf
+DiveCharset = trainer_POKEMONTRAINER_298_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_298_surf
+#-------------------------------
+[301]
+TrainerType = POKEMONTRAINER_299
+WalkCharset = trainer_POKEMONTRAINER_299
+RunCharset = trainer_POKEMONTRAINER_299
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_299_surf
+DiveCharset = trainer_POKEMONTRAINER_299_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_299_surf
+#-------------------------------
+[302]
+TrainerType = POKEMONTRAINER_300
+WalkCharset = trainer_POKEMONTRAINER_300
+RunCharset = trainer_POKEMONTRAINER_300
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_300_surf
+DiveCharset = trainer_POKEMONTRAINER_300_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_300_surf
+#-------------------------------
+[303]
+TrainerType = POKEMONTRAINER_301
+WalkCharset = trainer_POKEMONTRAINER_301
+RunCharset = trainer_POKEMONTRAINER_301
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_301_surf
+DiveCharset = trainer_POKEMONTRAINER_301_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_301_surf
+#-------------------------------
+[304]
+TrainerType = POKEMONTRAINER_302
+WalkCharset = trainer_POKEMONTRAINER_302
+RunCharset = trainer_POKEMONTRAINER_302
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_302_surf
+DiveCharset = trainer_POKEMONTRAINER_302_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_302_surf
+#-------------------------------
+[305]
+TrainerType = POKEMONTRAINER_303
+WalkCharset = trainer_POKEMONTRAINER_303
+RunCharset = trainer_POKEMONTRAINER_303
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_303_surf
+DiveCharset = trainer_POKEMONTRAINER_303_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_303_surf
+#-------------------------------
+[306]
+TrainerType = POKEMONTRAINER_304
+WalkCharset = trainer_POKEMONTRAINER_304
+RunCharset = trainer_POKEMONTRAINER_304
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_304_surf
+DiveCharset = trainer_POKEMONTRAINER_304_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_304_surf
+#-------------------------------
+[307]
+TrainerType = POKEMONTRAINER_305
+WalkCharset = trainer_POKEMONTRAINER_305
+RunCharset = trainer_POKEMONTRAINER_305
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_305_surf
+DiveCharset = trainer_POKEMONTRAINER_305_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_305_surf

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/created games/Pokemon-game/v21/Pok�mon Crystal - Echoes of Johto/PBS/**)",
+      "Read(//d/created games/Pokemon-game/v21/Pok�mon Crystal - Echoes of Johto/Data/**)",
+      "WebFetch(domain:eeveeexpo.com)",
+      "PowerShell(\\(Get-Content \"d:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pokémon Crystal - Echoes of Johto\\\\PBS\\\\items.txt\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(Select-String -Path \"d:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pokémon Crystal - Echoes of Johto\\\\PBS\\\\pokemon.txt\" -Pattern \"Beauty\" -Context 1,1 | ForEach-Object { $_.LineNumber, $_.Line })",
+      "Read(//d/created games/Pokemon-game/v21/Pokémon Crystal - Echoes of Johto/Graphics/**)",
+      "PowerShell(python -c \"from PIL import Image; img = Image.open\\(r'd:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pok�mon Crystal - Echoes of Johto\\\\Graphics\\\\Characters\\\\Followers\\\\GYARADOS.png'\\); print\\('Size:', img.size\\); print\\('Mode:', img.mode\\)\")",
+      "PowerShell(py -3 -c \"from PIL import Image; img = Image.open\\(r'd:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pok�mon Crystal - Echoes of Johto\\\\Graphics\\\\Characters\\\\Followers\\\\GYARADOS.png'\\); print\\('Size:', img.size\\); print\\('Mode:', img.mode\\)\")",
+      "Read(//c//**)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\lemih\\\\AppData\\\\Local\\\\\" | Where-Object { $_.Name -match 'Python|Conda|Miniconda' })",
+      "PowerShell(node --version)",
+      "PowerShell(npm list -g sharp 2>$null)",
+      "PowerShell(npm list -g jimp 2>$null)",
+      "PowerShell(node -e \"console.log\\(process.version\\)\")",
+      "PowerShell(node -e \"const fs = require\\('fs'\\); const path = require\\('path'\\); const imgPath = String.raw`d:\\\\created games\\\\Pokemon-game\\\\v21\\\\Pok�mon Crystal - Echoes of Johto\\\\Graphics\\\\Characters\\\\Followers\\\\GYARADOS.png`; const buf = fs.readFileSync\\(imgPath\\); const sig = buf.slice\\(0,8\\); console.log\\('PNG sig:', sig\\); const ihdr = buf.slice\\(8,33\\); const w = buf.readUInt32BE\\(16\\); const h = buf.readUInt32BE\\(20\\); console.log\\('Width:', w, 'Height:', h\\);\")",
+      "PowerShell(node -e $script)",
+      "PowerShell(node -e \"try { require\\('jimp'\\); console.log\\('jimp OK'\\); } catch\\(e\\) { console.log\\('no jimp'\\); }\")",
+      "PowerShell(node -e \"try { require\\('pngjs'\\); console.log\\('pngjs OK'\\); } catch\\(e\\) { console.log\\('no pngjs'\\); }\")",
+      "PowerShell(node -e \"try { require\\('canvas'\\); console.log\\('canvas OK'\\); } catch\\(e\\) { console.log\\('no canvas'\\); }\")",
+      "Read(//d/created games/Pokemon-game/v21/Pokémon Crystal - Echoes of Johto/Screenshots/**)",
+      "PowerShell($items = [System.IO.Directory]::GetFileSystemEntries\\(\"C:\\\\Users\\\\lemih\\\\Downloads\"\\); $items | ForEach-Object { Write-Output $_ })"
+    ],
+    "additionalDirectories": [
+      "d:\\created games\\Pokemon-game\\v21\\Pokémon Crystal - Echoes of Johto\\PBS",
+      "d:\\created games\\Pokemon-game\\v21\\Pok�mon Crystal - Echoes of Johto\\PBS"
+    ]
+  }
+}

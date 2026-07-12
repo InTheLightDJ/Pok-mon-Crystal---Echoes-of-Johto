@@ -1,0 +1,4449 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = DIGLETT,10
+    Form = 1
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Falkner,Falkner]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = PIDGEY,7
+    Moves = TACKLE,SANDATTACK,GUST,QUICKATTACK
+    AbilityIndex = 0
+    Gender = male
+    IV = 20,20,20,20,20,20
+Pokemon = PIDGEOTTO,9
+    Moves = TACKLE,SANDATTACK,GUST,SWAGGER
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = female
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[ROCKETGRUNT_M,Grunt]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,21
+    Shadow = true
+#-------------------------------
+[ROCKETGRUNT_F,Grunt]
+LoseText = You're too good for me!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = Aww, I lost.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,18
+    Form = 1
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,32
+    Form = 1
+#-------------------------------
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[TWINS,May & Sue]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[MYSTICALMAN,Eusine]
+LoseText = ...
+Pokemon = DROWZEE,19
+#-------------------------------
+[SWIMMER_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[SCUBA_DIVER,Samuel]
+LoseText = Washed out!
+Pokemon = CHINCHOU,14
+#-------------------------------
+[FREE_DIVER,Tina]
+LoseText = Washed out!
+Pokemon = CORSOLA,14
+#-------------------------------
+[RIVAL1,Silver]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHIKORITA,18
+#-------------------------------
+[RIVAL1,Silver,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CYNDAQUIL,18
+#-------------------------------
+[RIVAL1,Silver,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = TOTODILE,18
+#-------------------------------
+[RIVAL2,Silver]
+LoseText = Not again!
+Pokemon = PIDGEOT,36
+Pokemon = RATICATE,34
+Pokemon = MEGANIUM,38
+#-------------------------------
+[RIVAL2,Silver,1]
+LoseText = Not Again!
+Pokemon = PIDGEOT,36
+Pokemon = RATICATE,34
+Pokemon = TYPHLOSION,38
+#-------------------------------
+[RIVAL2,Silver,2]
+LoseText = Not again!
+Pokemon = PIDGEOT,36
+Pokemon = RATICATE,34
+Pokemon = FERALIGATR,38
+#-------------------------------
+[CHAMPION_Lance,Lance]
+LoseText = A good battle indeed!
+Pokemon = DRATINI,45
+Pokemon = DRAGONAIR,50
+Pokemon = DRAGONITE,55
+    Item = SITRUSBERRY
+#-------------------------------
+[RIVAL1,?????,1]
+LoseText = ...
+Pokemon = CYNDAQUIL,5
+#-------------------------------
+[RIVAL1,?????,2]
+LoseText = ...
+Pokemon = TOTODILE,5
+#-------------------------------
+[RIVAL1,?????]
+LoseText = ...
+Pokemon = CHIKORITA,5
+#-------------------------------
+[YOUNGSTER,RALPH]
+LoseText = ...
+Pokemon = RATTATA,4
+#-------------------------------
+[YOUNGSTER,BEN]
+LoseText = ...
+Pokemon = PIDGEY,2
+Pokemon = RATTATA,4
+#-------------------------------
+[LASS,Kim]
+LoseText = ...
+Pokemon = PIDGEY,3
+Pokemon = JIGGLYPUFF,5
+#-------------------------------
+[BUGCATCHER,Don]
+LoseText = ...
+Pokemon = CATERPIE,3
+Pokemon = WEEDLE,3
+#-------------------------------
+[BUGCATCHER,Wade]
+LoseText = ...
+Pokemon = CATERPIE,2
+Pokemon = CATERPIE,3
+Pokemon = CATERPIE,3
+Pokemon = WEEDLE,4
+#-------------------------------
+[BIRDKEEPER,ABE]
+LoseText = ...
+Pokemon = SPEAROW,9
+#-------------------------------
+[BIRDKEEPER,Rod]
+LoseText = ...
+Pokemon = PIDGEY,7
+Pokemon = PIDGEY,7
+#-------------------------------
+[LEADER_Falkner,Falkner,1]
+LoseText = ...
+Pokemon = SPEAROW,13
+Pokemon = PIDGEOTTO,15
+#-------------------------------
+[LEADER_Falkner,Falkner,2]
+LoseText = ...
+Pokemon = DODUO,17
+Pokemon = PIDGEOTTO,20
+#-------------------------------
+[LEADER_Falkner,Falkner,3]
+LoseText = ...
+Pokemon = HOOTHOOT,22
+Pokemon = FEAROW,24
+Pokemon = MURKROW,25
+#-------------------------------
+[LEADER_Falkner,Falkner,4]
+LoseText = ...
+Pokemon = NOCTOWL,27
+Pokemon = FARFETCHD,29
+Pokemon = DODRIO,30
+#-------------------------------
+[LEADER_Falkner,Falkner,5]
+LoseText = ...
+Pokemon = SCYTHER,30
+Pokemon = FEAROW,31
+Pokemon = MURKROW,31
+Pokemon = PIDGEOT,32
+#-------------------------------
+[LEADER_Falkner,Falkner,6]
+LoseText = ...
+Pokemon = NOCTOWL,33
+Pokemon = DODRIO,33
+Pokemon = FARFETCHD,34
+Pokemon = SKARMORY,35
+#-------------------------------
+[LEADER_Falkner,Falkner,7]
+LoseText = ...
+Pokemon = SCYTHER,36
+Pokemon = PIDGEOT,38
+Pokemon = SKARMORY,39
+Pokemon = XATU,40
+#-------------------------------
+[LEADER_Falkner,Falkner,8]
+LoseText = ...
+Pokemon = DODRIO,42
+Pokemon = MURKROW,43
+Pokemon = NOCTOWL,43
+Pokemon = SKARMORY,44
+Pokemon = PIDGEOT,45
+#-------------------------------
+[LEADER_Falkner,Falkner,9]
+LoseText = ...
+Pokemon = FEAROW,46
+Pokemon = XATU,47
+Pokemon = SCYTHER,48
+Pokemon = SKARMORY,49
+Pokemon = PIDGEOT,50
+#-------------------------------
+[LEADER_Falkner,Falkner,10]
+LoseText = ...
+Pokemon = NOCTOWL,50
+Pokemon = DODRIO,52
+Pokemon = SCYTHER,53
+Pokemon = SKARMORY,54
+Pokemon = PIDGEOT,55
+#-------------------------------
+[LEADER_Falkner,Falkner,11]
+LoseText = ...
+Pokemon = XATU,55
+Pokemon = MURKROW,56
+Pokemon = FEAROW,57
+Pokemon = SCYTHER,58
+Pokemon = SKARMORY,59
+Pokemon = PIDGEOT,60
+#-------------------------------
+[LEADER_Falkner,Falkner,12]
+LoseText = ...
+Pokemon = DODRIO,60
+Pokemon = NOCTOWL,61
+Pokemon = SCYTHER,62
+Pokemon = SKARMORY,63
+Pokemon = XATU,64
+Pokemon = PIDGEOT,65
+#-------------------------------
+[LEADER_Falkner,Falkner,13]
+LoseText = ...
+Pokemon = MURKROW,65
+Pokemon = FEAROW,66
+Pokemon = SKARMORY,67
+Pokemon = SCYTHER,68
+Pokemon = PIDGEOT,69
+Pokemon = XATU,70
+#-------------------------------
+[LEADER_Falkner,Falkner,14]
+LoseText = ...
+Pokemon = NOCTOWL,67
+Pokemon = SCYTHER,68
+Pokemon = SKARMORY,69
+Pokemon = DODRIO,70
+Pokemon = PIDGEOT,71
+Pokemon = XATU,72
+#-------------------------------
+[LEADER_Falkner,Falkner,15]
+LoseText = ...
+Pokemon = NOCTOWL,70
+Pokemon = SCYTHER,71
+Pokemon = SKARMORY,72
+Pokemon = PIDGEOT,73
+Pokemon = XATU,74
+Pokemon = HOOH,75
+#-------------------------------
+[SAGE,Nico]
+LoseText = ...
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[SAGE,Edmond]
+LoseText = ...
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[SAGE,Chow]
+LoseText = ...
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[SAGE,Jin]
+LoseText = ...
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[SAGE,Neal]
+LoseText = ...
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[SAGE,Troy]
+LoseText = ...
+Pokemon = BELLSPROUT,7
+Pokemon = HOOTHOOT,8
+#-------------------------------
+[SAGE,Li]
+LoseText = ...
+Pokemon = BELLSPROUT,7
+Pokemon = BELLSPROUT,7
+Pokemon = HOOTHOOT,10
+#-------------------------------
+[YOUNGSTER,Albert]
+LoseText = ...
+Pokemon = RATTATA,6
+Pokemon = ZUBAT,8
+#-------------------------------
+[PICNICKER,Liz]
+LoseText = ...
+Pokemon = NIDORANfE,9
+#-------------------------------
+[CAMPER,Roland]
+LoseText = ...
+Pokemon = NIDORANmA,9
+#-------------------------------
+[FISHERMAN,Henry]
+LoseText = ...
+Pokemon = POLIWAG,8
+Pokemon = POLIWAG,8
+#-------------------------------
+[FISHERMAN,Justin]
+LoseText = ...
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,10
+Pokemon = MAGIKARP,5
+#-------------------------------
+[FISHERMAN,Ralph]
+LoseText = ...
+Pokemon = GOLDEEN,10
+#-------------------------------
+[YOUNGSTER,Gordon]
+LoseText = ...
+Pokemon = WOOPER,10
+#-------------------------------
+[BIRDKEEPER,Peter]
+LoseText = ...
+Pokemon = PIDGEY,6
+Pokemon = PIDGEY,6
+Pokemon = SPEAROW,8
+#-------------------------------
+[HIKER,Daniel]
+LoseText = ...
+Pokemon = ONIX,11
+#-------------------------------
+[HIKER,Russell]
+LoseText = ...
+Pokemon = GEODUDE,4
+Pokemon = GEODUDE,6
+Pokemon = GEODUDE,8
+#-------------------------------
+[FIREBREATHER,Russell]
+LoseText = ...
+Pokemon = KOFFING,6
+Pokemon = KOFFING,6
+#-------------------------------
+[POKEMANIAC,Larry]
+LoseText = ...
+Pokemon = SLOWPOKE,10
+#-------------------------------
+[FIREBREATHER,Ray]
+LoseText = ...
+Pokemon = VULPIX,9
+#-------------------------------
+[HIKER,Anthony]
+LoseText = ...
+Pokemon = GEODUDE,11
+Pokemon = MACHOP,11
+#-------------------------------
+[RIVAL1,?????,4]
+LoseText = ...
+Pokemon = GASTLY,12
+Pokemon = ZUBAT,14
+Pokemon = QUILAVA,16
+#-------------------------------
+[RIVAL1,?????,5]
+LoseText = ...
+Pokemon = GASTLY,12
+Pokemon = ZUBAT,14
+Pokemon = CROCONAW,16
+#-------------------------------
+[RIVAL1,?????,6]
+LoseText = ...
+Pokemon = GASTLY,12
+Pokemon = ZUBAT,14
+Pokemon = BAYLEEF,16
+#-------------------------------
+[TWINS,May AND Amy]
+LoseText = ...
+Pokemon = LEDYBA,10
+Pokemon = SPINARAK,10
+#-------------------------------
+[BUGCATCHER,Al]
+LoseText = ...
+Pokemon = CATERPIE,12
+Pokemon = WEEDLE,12
+#-------------------------------
+[BUGCATCHER,Benny]
+LoseText = ...
+Pokemon = WEEDLE,7
+Pokemon = KAKUNA,9
+Pokemon = BEEDRILL,12
+#-------------------------------
+[BUGCATCHER,Josh]
+LoseText = ...
+Pokemon = PARAS,13
+#-------------------------------
+[LEADER_Bugsy,Bugsy]
+LoseText = ...
+Pokemon = CATERPIE,9
+Pokemon = WEEDLE,9
+Pokemon = PARAS,10
+#-------------------------------
+[LEADER_Bugsy,Bugsy,1]
+LoseText = ...
+Pokemon = SPINARAK,12
+    Moves = POISONSTING,STRINGSHOT,ABSORB,BUGBITE
+Pokemon = YANMA,12
+    Moves = TACKLE,AIRCUTTER,LEECHLIFE,SWEETKISS
+Pokemon = SCYTHER,15
+#-------------------------------
+[LEADER_Bugsy,Bugsy,2]
+LoseText = ...
+Pokemon = BEEDRILL,17
+Pokemon = BUTTERFREE,17
+Pokemon = SCYTHER,20
+#-------------------------------
+[LEADER_Bugsy,Bugsy,3]
+LoseText = ...
+Pokemon = VENONAT,21
+Pokemon = ARIADOS,22
+Pokemon = SCYTHER,25
+#-------------------------------
+[LEADER_Bugsy,Bugsy,4]
+LoseText = ...
+Pokemon = LEDIAN,26
+Pokemon = PINSIR,27
+Pokemon = VENOMOTH,30
+#-------------------------------
+[LEADER_Bugsy,Bugsy,5]
+LoseText = ...
+Pokemon = BUTTERFREE,30
+Pokemon = FORRETRESS,31
+Pokemon = HERACROSS,32
+Pokemon = SCYTHER,32
+#-------------------------------
+[LEADER_Bugsy,Bugsy,6]
+LoseText = ...
+Pokemon = VENOMOTH,33
+Pokemon = PINSIR,34
+Pokemon = HERACROSS,34
+Pokemon = SCIZOR,35
+#-------------------------------
+[LEADER_Bugsy,Bugsy,7]
+LoseText = ...
+Pokemon = ARIADOS,36
+Pokemon = FORRETRESS,37
+Pokemon = VENOMOTH,38
+Pokemon = HERACROSS,40
+#-------------------------------
+[LEADER_Bugsy,Bugsy,8]
+LoseText = ...
+Pokemon = PINSIR,41
+Pokemon = LEDIAN,42
+Pokemon = SCIZOR,43
+Pokemon = HERACROSS,44
+Pokemon = VENOMOTH,45
+#-------------------------------
+[LEADER_Bugsy,Bugsy,9]
+LoseText = ...
+Pokemon = ARIADOS,46
+Pokemon = VENOMOTH,47
+Pokemon = HERACROSS,48
+Pokemon = SCIZOR,49
+Pokemon = FORRETRESS,50
+#-------------------------------
+[LEADER_Bugsy,Bugsy,10]
+LoseText = ...
+Pokemon = LEDIAN,51
+Pokemon = PINSIR,52
+Pokemon = HERACROSS,53
+Pokemon = FORRETRESS,54
+Pokemon = SCIZOR,55
+#-------------------------------
+[LEADER_Bugsy,Bugsy,11]
+LoseText = ...
+Pokemon = ARIADOS,56
+Pokemon = BUTTERFREE,57
+Pokemon = FORRETRESS,58
+Pokemon = HERACROSS,59
+Pokemon = SCIZOR,60
+#-------------------------------
+[LEADER_Bugsy,Bugsy,12]
+LoseText = ...
+Pokemon = LEDIAN,61
+Pokemon = ARIADOS,62
+Pokemon = VENOMOTH,63
+Pokemon = PINSIR,64
+Pokemon = SCIZOR,65
+Pokemon = HERACROSS,65
+#-------------------------------
+[LEADER_Bugsy,Bugsy,13]
+LoseText = ...
+Pokemon = BUTTERFREE,66
+Pokemon = HERACROSS,67
+Pokemon = PINSIR,68
+Pokemon = FORRETRESS,69
+Pokemon = VENOMOTH,70
+Pokemon = SCIZOR,70
+#-------------------------------
+[LEADER_Bugsy,Bugsy,14]
+LoseText = ...
+Pokemon = ARIADOS,70
+Pokemon = PINSIR,71
+Pokemon = VENOMOTH,72
+Pokemon = FORRETRESS,73
+Pokemon = HERACROSS,74
+Pokemon = SCIZOR,74
+#-------------------------------
+[LEADER_Bugsy,Bugsy,15]
+LoseText = ...
+Pokemon = ARIADOS,72
+Pokemon = VENOMOTH,73
+Pokemon = PINSIR,74
+Pokemon = HERACROSS,75
+Pokemon = SCIZOR,75
+Pokemon = CELEBI,75
+#-------------------------------
+[ROCKETGRUNT_M,One]
+LoseText = ...
+Pokemon = RATTATA,9
+Pokemon = RATTATA,9
+#-------------------------------
+[ROCKETGRUNT_F,Two]
+LoseText = ...
+Pokemon = ZUBAT,9
+Pokemon = EKANS,11
+#-------------------------------
+[ROCKETGRUNT_M,Three]
+LoseText = ...
+Pokemon = RATTATA,7
+Pokemon = ZUBAT,9
+Pokemon = ZUBAT,9
+#-------------------------------
+[ROCKETGRUNT_M,Four]
+LoseText = ...
+Pokemon = KOFFING,14
+#-------------------------------
+[INTHELIGHT,Light]
+LoseText = You did it! you waisted this much of your life!
+Pokemon = SCEPTILE,70
+    Name = Scratches
+    Moves = EARTHQUAKE,GIGADRAIN,LEAFBLADE,SPIKES
+Pokemon = GARDEVOIR,70
+    Name = Princess
+    Moves = DESTINYBOND,FIREPUNCH,HEADBUTT,CONFUSION
+    Gender = female
+Pokemon = WAILORD,70
+    Name = chubbs
+    Moves = HEADBUTT,HYDROPUMP,MIMIC,ROLLOUT
+Pokemon = SALAMENCE,70
+    Name = Palamance
+    Moves = AERIALACE,CRUNCH,ENDURE,GIGAIMPACT
+Pokemon = DUSCLOPS,70
+    Name = Coffee
+    Moves = TRICKROOM,CURSE,DESTINYBOND,DISABLE
+Pokemon = METAGROSS,70
+    Name = Whitey
+    Moves = ROLLOUT,HIDDENPOWER,DIG,MUDSLAP
+    Shiny = true
+#-------------------------------
+[YOUNGSTER,Samuel]
+LoseText = ...
+Pokemon = RATTATA,7
+Pokemon = SANDSHREW,10
+Pokemon = SPEAROW,8
+Pokemon = SPEAROW,8
+#-------------------------------
+[POKEFAN_M,Brandon]
+LoseText = ...
+Pokemon = SNUBBULL,13
+#-------------------------------
+[PICNICKER,Gina]
+LoseText = ...
+Pokemon = HOPPIP,9
+Pokemon = HOPPIP,9
+Pokemon = BULBASAUR,12
+#-------------------------------
+[OFFICER,Keith]
+LoseText = ...
+Pokemon = GROWLITHE,17
+#-------------------------------
+[CAMPER,Todd]
+LoseText = ...
+Pokemon = MANKEY,10
+Pokemon = DIGLETT,12
+#-------------------------------
+[DETECTIVE_F,Kelly]
+LoseText = ...
+Pokemon = CLEFAIRY,6
+Pokemon = VULPIX,6
+#-------------------------------
+[YOUNGSTER,Ian]
+LoseText = ...
+Pokemon = PSYDUCK,14
+#-------------------------------
+[COOLTRAINER_F,Irene]
+LoseText = ...
+Pokemon = GOLDEEN,22
+Pokemon = SEAKING,24
+#-------------------------------
+[COOLTRAINER_F,Kate]
+LoseText = ...
+Pokemon = SHELLDER,26
+Pokemon = CLOYSTER,28
+#-------------------------------
+[COOLTRAINER_F,Jenn]
+LoseText = ...
+Pokemon = STARYU,24
+Pokemon = STARMIE,26
+#-------------------------------
+[BEAUTY,Victoria]
+LoseText = ...
+Pokemon = SENTRET,9
+Pokemon = SENTRET,13
+Pokemon = SENTRET,17
+#-------------------------------
+[BEAUTY,Samantha]
+LoseText = ...
+Pokemon = MEOWTH,16
+Pokemon = MEOWTH,16
+#-------------------------------
+[LASS,Carrie]
+LoseText = ...
+Pokemon = SNUBBULL,18
+#-------------------------------
+[LASS,Bridget]
+LoseText = ...
+Pokemon = JIGGLYPUFF,15
+Pokemon = JIGGLYPUFF,15
+Pokemon = JIGGLYPUFF,15
+#-------------------------------
+[LEADER_Whitney,Whitney]
+LoseText = ...
+Pokemon = IGGLYBUFF,10
+Pokemon = SNUBBULL,12
+#-------------------------------
+[LEADER_Whitney,Whitney,1]
+LoseText = ...
+Pokemon = SNUBBULL,14
+Pokemon = CLEFAIRY,15
+Pokemon = MILTANK,16
+#-------------------------------
+[LEADER_Whitney,Whitney,2]
+LoseText = ...
+Pokemon = CLEFAIRY,18
+Pokemon = MILTANK,20
+#-------------------------------
+[LEADER_Whitney,Whitney,3]
+LoseText = ...
+Pokemon = DELCATTY,21
+Pokemon = MILTANK,22
+Pokemon = GIRAFARIG,25
+#-------------------------------
+[LEADER_Whitney,Whitney,4]
+LoseText = ...
+Pokemon = LICKITUNG,26
+Pokemon = WIGGLYTUFF,27
+Pokemon = MILTANK,30
+#-------------------------------
+[LEADER_Whitney,Whitney,5]
+LoseText = ...
+Pokemon = TOGETIC,30
+Pokemon = MILTANK,31
+Pokemon = DUNSPARCE,32
+Pokemon = GIRAFARIG,32
+#-------------------------------
+[LEADER_Whitney,Whitney,6]
+LoseText = ...
+Pokemon = STANTLER,33
+Pokemon = WIGGLYTUFF,34
+Pokemon = MILTANK,34
+Pokemon = LICKITUNG,35
+#-------------------------------
+[LEADER_Whitney,Whitney,7]
+LoseText = ...
+Pokemon = GRANBULL,36
+Pokemon = DUNSPARCE,37
+Pokemon = TOGETIC,38
+Pokemon = MILTANK,40
+#-------------------------------
+[LEADER_Whitney,Whitney,8]
+LoseText = ...
+Pokemon = STANTLER,41
+Pokemon = WIGGLYTUFF,42
+Pokemon = LICKITUNG,43
+Pokemon = MILTANK,44
+Pokemon = GIRAFARIG,45
+#-------------------------------
+[LEADER_Whitney,Whitney,9]
+LoseText = ...
+Pokemon = DUNSPARCE,46
+Pokemon = WIGGLYTUFF,47
+Pokemon = TOGETIC,48
+Pokemon = MILTANK,49
+Pokemon = GRANBULL,50
+#-------------------------------
+[LEADER_Whitney,Whitney,10]
+LoseText = ...
+Pokemon = STANTLER,51
+Pokemon = LICKITUNG,52
+Pokemon = WIGGLYTUFF,53
+Pokemon = MILTANK,54
+Pokemon = GIRAFARIG,55
+#-------------------------------
+[LEADER_Whitney,Whitney,11]
+LoseText = ...
+Pokemon = CLEFABLE,56
+Pokemon = TOGETIC,57
+Pokemon = LICKITUNG,58
+Pokemon = MILTANK,59
+Pokemon = GRANBULL,60
+#-------------------------------
+[LEADER_Whitney,Whitney,12]
+LoseText = ...
+Pokemon = DUNSPARCE,61
+Pokemon = GIRAFARIG,62
+Pokemon = MILTANK,63
+Pokemon = STANTLER,64
+Pokemon = CLEFABLE,65
+Pokemon = WIGGLYTUFF,65
+#-------------------------------
+[LEADER_Whitney,Whitney,13]
+LoseText = ...
+Pokemon = TOGETIC,66
+Pokemon = MILTANK,67
+Pokemon = LICKITUNG,68
+Pokemon = STANTLER,69
+Pokemon = GRANBULL,70
+Pokemon = CLEFABLE,70
+#-------------------------------
+[LEADER_Whitney,Whitney,14]
+LoseText = ...
+Pokemon = GIRAFARIG,70
+Pokemon = DUNSPARCE,71
+Pokemon = MILTANK,72
+Pokemon = CLEFABLE,73
+Pokemon = WIGGLYTUFF,74
+Pokemon = STANTLER,74
+#-------------------------------
+[LEADER_Whitney,Whitney,15]
+LoseText = ...
+Pokemon = LICKILICKY,72
+Pokemon = GIRAFARIG,73
+Pokemon = GRANBULL,74
+Pokemon = MILTANK,75
+Pokemon = MEW,75
+Pokemon = BLISSEY,75
+#-------------------------------
+[PICNICKER,Kim]
+LoseText = ...
+Pokemon = VULPIX,15
+#-------------------------------
+[CAMPER,Elliot]
+LoseText = ...
+Pokemon = SANDSHREW,13
+Pokemon = MARILL,15
+#-------------------------------
+[PICNICKER,Brooke]
+LoseText = ...
+Pokemon = PIKACHU,16
+#-------------------------------
+[CAMPER,Ivan]
+LoseText = ...
+Pokemon = DIGLETT,10
+Pokemon = ZUBAT,10
+Pokemon = DIGLETT,14
+#-------------------------------
+[JUGGLER,Irwin]
+LoseText = ...
+Pokemon = VOLTORB,3
+Pokemon = VOLTORB,6
+Pokemon = VOLTORB,10
+Pokemon = VOLTORB,14
+#-------------------------------
+[FIREBREATHER,Wait]
+LoseText = ...
+Pokemon = MAGMAR,11
+Pokemon = MAGMAR,13
+#-------------------------------
+[BIRDKEEPER,Bryan]
+LoseText = ...
+Pokemon = PIDGEY,12
+Pokemon = PIDGEOTTO,14
+#-------------------------------
+[BUGCATCHER,Arnie]
+LoseText = ...
+Pokemon = VENONAT,15
+#-------------------------------
+[OFFICER,Dirk]
+LoseText = ...
+Pokemon = GROWLITHE,14
+Pokemon = GROWLITHE,14
+#-------------------------------
+[POKEFAN_F,Beverly]
+LoseText = ...
+Pokemon = SNUBBULL,14
+    Item = ORANBERRY
+#-------------------------------
+[POKEFAN_M,William]
+LoseText = ...
+Pokemon = RAICHU,14
+    Item = ORANBERRY
+#-------------------------------
+[LASS,Krise]
+LoseText = ...
+Pokemon = ODDISH,12
+Pokemon = CUBONE,15
+#-------------------------------
+[SCHOOLBOY,Jack]
+LoseText = ...
+Pokemon = ODDISH,12
+Pokemon = VOLTORB,15
+#-------------------------------
+[PSYCHIC,Mark]
+LoseText = ...
+Pokemon = ABRA,13
+    Moves = CONFUSION
+Pokemon = ABRA,13
+    Moves = PSYSHOCK
+Pokemon = KADABRA,15
+#-------------------------------
+[SCHOOLBOY,Alan]
+LoseText = ...
+Pokemon = TANGELA,16
+#-------------------------------
+[TWINS,Ann & Anne]
+LoseText = ...
+Pokemon = CLEFAIRY,16
+Pokemon = JIGGLYPUFF,16
+#-------------------------------
+[PSYCHIC,Greg]
+LoseText = ...
+Pokemon = DROWZEE,17
+#-------------------------------
+[SAGE,Ping]
+LoseText = ...
+Pokemon = GASTLY,16
+Pokemon = GASTLY,16
+Pokemon = GASTLY,16
+Pokemon = GASTLY,16
+#-------------------------------
+[MEDIUM,Grace]
+LoseText = ...
+Pokemon = HAUNTER,20
+Pokemon = HAUNTER,20
+#-------------------------------
+[MEDIUM,Martha]
+LoseText = ...
+Pokemon = GASTLY,18
+Pokemon = HAUNTER,20
+Pokemon = GASTLY,20
+#-------------------------------
+[SAGE,Jeffrey]
+LoseText = ...
+Pokemon = HAUNTER,22
+#-------------------------------
+[LEADER_Morty,Morty]
+LoseText = ...
+Pokemon = GASTLY,7
+Pokemon = GASTLY,8
+Pokemon = HAUNTER,10
+#-------------------------------
+[LEADER_Morty,Morty,1]
+LoseText = ...
+Pokemon = GASTLY,10
+Pokemon = HAUNTER,12
+Pokemon = MURKROW,12
+#-------------------------------
+[LEADER_Morty,Morty,2]
+LoseText = ...
+Pokemon = HAUNTER,20
+Pokemon = MISDREAVUS,21
+Pokemon = GENGAR,23
+#-------------------------------
+[LEADER_Morty,Morty,3]
+LoseText = ...
+Pokemon = GASTLY,21
+Pokemon = HAUNTER,21
+Pokemon = GENGAR,23
+Pokemon = HAUNTER,25
+#-------------------------------
+[LEADER_Morty,Morty,4]
+LoseText = ...
+Pokemon = HAUNTER,26
+Pokemon = GENGAR,28
+Pokemon = MISDREAVUS,27
+Pokemon = MURKROW,26
+#-------------------------------
+[LEADER_Morty,Morty,5]
+LoseText = ...
+Pokemon = GENGAR,30
+Pokemon = MISDREAVUS,30
+Pokemon = ARIADOS,29
+Pokemon = HAUNTER,28
+#-------------------------------
+[LEADER_Morty,Morty,6]
+LoseText = ...
+Pokemon = GENGAR,32
+Pokemon = MISDREAVUS,31
+Pokemon = VENOMOTH,31
+Pokemon = MURKROW,32
+#-------------------------------
+[LEADER_Morty,Morty,7]
+LoseText = ...
+Pokemon = GENGAR,36
+Pokemon = MISDREAVUS,35
+Pokemon = VENOMOTH,34
+Pokemon = MURKROW,35
+Pokemon = HAUNTER,34
+#-------------------------------
+[LEADER_Morty,Morty,8]
+LoseText = ...
+Pokemon = GENGAR,40
+Pokemon = MISDREAVUS,38
+Pokemon = VENOMOTH,37
+Pokemon = MURKROW,39
+Pokemon = ARIADOS,37
+#-------------------------------
+[LEADER_Morty,Morty,9]
+LoseText = ...
+Pokemon = GENGAR,45
+Pokemon = MISDREAVUS,44
+Pokemon = VENOMOTH,43
+Pokemon = MURKROW,43
+Pokemon = ARIADOS,42
+#-------------------------------
+[LEADER_Morty,Morty,10]
+LoseText = ...
+Pokemon = GENGAR,50
+Pokemon = MISMAGIUS,48
+Pokemon = VENOMOTH,47
+Pokemon = MURKROW,48
+Pokemon = ARIADOS,47
+#-------------------------------
+[LEADER_Morty,Morty,11]
+LoseText = ...
+Pokemon = GENGAR,55
+Pokemon = MISMAGIUS,54
+Pokemon = VENOMOTH,53
+Pokemon = MURKROW,53
+Pokemon = MISDREAVUS,52
+#-------------------------------
+[LEADER_Morty,Morty,12]
+LoseText = ...
+Pokemon = GENGAR,60
+Pokemon = MISMAGIUS,59
+Pokemon = VENOMOTH,58
+Pokemon = HONCHKROW,59
+Pokemon = MISDREAVUS,58
+#-------------------------------
+[LEADER_Morty,Morty,13]
+LoseText = ...
+Pokemon = GENGAR,65
+Pokemon = MISMAGIUS,64
+Pokemon = HONCHKROW,63
+Pokemon = VENOMOTH,63
+Pokemon = DUSCLOPS,62
+#-------------------------------
+[LEADER_Morty,Morty,14]
+LoseText = ...
+Pokemon = GENGAR,70
+Pokemon = MISMAGIUS,68
+Pokemon = HONCHKROW,68
+Pokemon = VENOMOTH,67
+Pokemon = MUK,67
+#-------------------------------
+[LEADER_Morty,Morty,15]
+LoseText = ...
+Pokemon = GENGAR,75
+Pokemon = MISMAGIUS,74
+Pokemon = HONCHKROW,73
+Pokemon = VENOMOTH,73
+Pokemon = MUK,72
+Pokemon = SUICUNE,75
+#-------------------------------
+[KIMONOGIRL,Naoko]
+LoseText = ...
+Pokemon = FLAREON,17
+#-------------------------------
+[KIMONOGIRL,Sayo]
+LoseText = ...
+Pokemon = ESPEON,17
+#-------------------------------
+[KIMONOGIRL,Zuki]
+LoseText = ...
+Pokemon = UMBREON,17
+#-------------------------------
+[KIMONOGIRL,Kuni]
+LoseText = ...
+Pokemon = VAPOREON,17
+#-------------------------------
+[KIMONOGIRL,Miki]
+LoseText = ...
+Pokemon = JOLTEON,17
+#-------------------------------
+[RIVAL1,?????,8]
+LoseText = ...
+Pokemon = HAUNTER,20
+Pokemon = ZUBAT,20
+Pokemon = MAGNEMITE,18
+Pokemon = CROCONAW,22
+#-------------------------------
+[RIVAL1,?????,7]
+LoseText = ...
+Pokemon = HAUNTER,20
+Pokemon = ZUBAT,20
+Pokemon = MAGNEMITE,18
+Pokemon = QUILAVA,22
+#-------------------------------
+[RIVAL1,?????,9]
+LoseText = ...
+Pokemon = HAUNTER,18
+Pokemon = ZUBAT,20
+Pokemon = MAGNEMITE,20
+Pokemon = BAYLEEF,22
+#-------------------------------
+[SAILOR,Harry]
+LoseText = ...
+Pokemon = WOOPER,19
+#-------------------------------
+[LASS,Dana]
+LoseText = ...
+Pokemon = FLAAFFY,18
+Pokemon = PSYDUCK,18
+#-------------------------------
+[BEAUTY,Valerie]
+LoseText = ...
+Pokemon = HOPPIP,17
+Pokemon = SKIPLOOM,17
+#-------------------------------
+[BIRDKEEPER,Toby]
+LoseText = ...
+Pokemon = DODUO,15
+Pokemon = DODUO,16
+Pokemon = DODUO,17
+#-------------------------------
+[SCHOOLBOY,Chad]
+LoseText = ...
+Pokemon = MRMIME,19
+#-------------------------------
+[BEAUTY,Olivia]
+LoseText = ...
+Pokemon = CORSOLA,19
+#-------------------------------
+[PSYCHIC,Norman]
+LoseText = ...
+Pokemon = SLOWPOKE,17
+Pokemon = SLOWPOKE,20
+#-------------------------------
+[POKEFAN_M,Derek]
+LoseText = ...
+Pokemon = PIKACHU,17
+    Item = ORANBERRY
+#-------------------------------
+[POKEFAN_F,Ruth]
+LoseText = ...
+Pokemon = PIKACHU,17
+    Item = ORANBERRY
+#-------------------------------
+[POKEFAN_F,Jaime]
+LoseText = ...
+Pokemon = MEOWTH,16
+#-------------------------------
+[SAILOR,Eugene]
+LoseText = ...
+Pokemon = POLIWHIRL,17
+Pokemon = KRABBY,19
+Pokemon = RATICATE,17
+#-------------------------------
+[GENTLEMAN,Alfred]
+LoseText = ...
+Pokemon = NOCTOWL,20
+#-------------------------------
+[SAILOR,Huey]
+LoseText = ...
+Pokemon = POLIWAG,18
+Pokemon = POLIWHIRL,18
+#-------------------------------
+[BIRDKEEPER,Theo]
+LoseText = ...
+Pokemon = PIDGEY,17
+Pokemon = PIDGEY,19
+Pokemon = PIDGEY,15
+Pokemon = PIDGEY,15
+Pokemon = PIDGEY,15
+#-------------------------------
+[GENTLEMAN,Preston]
+LoseText = ...
+Pokemon = GROWLITHE,18
+Pokemon = GROWLITHE,18
+#-------------------------------
+[SAILOR,Terrell]
+LoseText = ...
+Pokemon = POLIWHIRL,20
+#-------------------------------
+[SAILOR,Kent]
+LoseText = ...
+Pokemon = KRABBY,18
+Pokemon = KRABBY,20
+#-------------------------------
+[LASS,Connie]
+LoseText = ...
+Pokemon = MARILL,21
+#-------------------------------
+[BIRDKEEPER,Denis]
+LoseText = ...
+Pokemon = SPEAROW,18
+Pokemon = SPEAROW,18
+Pokemon = FEAROW,20
+#-------------------------------
+[SAILOR,Ernest]
+LoseText = ...
+Pokemon = MACHOP,18
+Pokemon = MACHOP,18
+Pokemon = POLIWHIRL,18
+#-------------------------------
+[SWIMMER_F,Elaine]
+LoseText = ...
+Pokemon = STARYU,21
+#-------------------------------
+[SWIMMER_F,Paula]
+LoseText = ...
+Pokemon = STARYU,19
+Pokemon = SHELLDER,19
+#-------------------------------
+[SWIMMER_M,Randall]
+LoseText = ...
+Pokemon = SHELLDER,18
+Pokemon = SHELLDER,18
+Pokemon = WARTORTLE,20
+#-------------------------------
+[SWIMMER_M,Simon]
+LoseText = ...
+Pokemon = TENTACOOL,20
+Pokemon = TENTACOOL,20
+#-------------------------------
+[SWIMMER_M,Mathew]
+LoseText = ...
+Pokemon = KRABBY,23
+#-------------------------------
+[SWIMMER_F,Denise]
+LoseText = ...
+Pokemon = SEEL,22
+#-------------------------------
+[SWIMMER_F,Susie]
+LoseText = ...
+Pokemon = PSYDUCK,20
+Pokemon = GOLDEEN,22
+#-------------------------------
+[SWIMMER_F,Kaylee]
+LoseText = ...
+Pokemon = GOLDEEN,18
+Pokemon = GOLDEEN,20
+Pokemon = SEAKING,20
+#-------------------------------
+[SWIMMER_F,Wendy]
+LoseText = ...
+Pokemon = HORSEA,21
+Pokemon = HORSEA,21
+#-------------------------------
+[SWIMMER_F,Kara]
+LoseText = ...
+Pokemon = STARYU,20
+Pokemon = STARMIE,20
+#-------------------------------
+[SWIMMER_M,George]
+LoseText = ...
+Pokemon = TENTACOOL,16
+Pokemon = TENTACOOL,16
+Pokemon = TENTACOOL,17
+Pokemon = TENTACOOL,17
+Pokemon = REMORAID,19
+Pokemon = STARYU,19
+#-------------------------------
+[SWIMMER_M,Kirk]
+LoseText = ...
+Pokemon = GYARADOS,20
+Pokemon = GYARADOS,20
+#-------------------------------
+[SWIMMER_M,Berke]
+LoseText = ...
+Pokemon = QWILFISH,23
+#-------------------------------
+[SWIMMER_M,Charlie]
+LoseText = ...
+Pokemon = TENTACOOL,19
+Pokemon = SHELLDER,21
+Pokemon = TENTACRUEL,19
+#-------------------------------
+[BLACKBELT,Yoshi]
+LoseText = ...
+Pokemon = HITMONLEE,27
+#-------------------------------
+[BLACKBELT,Lao]
+LoseText = ...
+Pokemon = HITMONCHAN,27
+#-------------------------------
+[BLACKBELT,Nob]
+LoseText = ...
+Pokemon = MACHOP,25
+Pokemon = MACHOKE,25
+#-------------------------------
+[BLACKBELT,Lung]
+LoseText = ...
+Pokemon = MANKEY,23
+Pokemon = MANKEY,23
+Pokemon = PRIMEAPE,25
+#-------------------------------
+[LEADER_Chuck,Chuck]
+LoseText = ...
+Pokemon = MACHOP,10
+Pokemon = POLIWAG,12
+#-------------------------------
+[LEADER_Chuck,Chuck,1]
+LoseText = ...
+Pokemon = MACHOP,15
+Pokemon = POLIWAG,17
+Pokemon = MANKEY,18
+#-------------------------------
+[LEADER_Chuck,Chuck,2]
+LoseText = ...
+Pokemon = MACHOKE,20
+Pokemon = POLIWAG,21
+Pokemon = MANKEY,22
+#-------------------------------
+[LEADER_Chuck,Chuck,3]
+LoseText = ...
+Pokemon = MACHOKE,25
+Pokemon = POLIWHIRL,26
+Pokemon = HITMONLEE,27
+#-------------------------------
+[LEADER_Chuck,Chuck,4]
+LoseText = ...
+Pokemon = MACHOKE,30
+Pokemon = POLIWHIRL,31
+Pokemon = HITMONCHAN,32
+Pokemon = HITMONLEE,32
+#-------------------------------
+[LEADER_Chuck,Chuck,5]
+LoseText = ...
+Pokemon = MACHOKE,35
+Pokemon = POLIWHIRL,36
+Pokemon = HITMONTOP,36
+Pokemon = HERACROSS,37
+#-------------------------------
+[LEADER_Chuck,Chuck,6]
+LoseText = ...
+Pokemon = MACHAMP,40
+Pokemon = POLIWRATH,40
+Pokemon = HITMONCHAN,41
+Pokemon = HITMONLEE,41
+#-------------------------------
+[LEADER_Chuck,Chuck,7]
+LoseText = ...
+Pokemon = MACHAMP,45
+Pokemon = POLIWRATH,45
+Pokemon = HITMONLEE,46
+Pokemon = HITMONCHAN,46
+Pokemon = PRIMEAPE,46
+#-------------------------------
+[LEADER_Chuck,Chuck,8]
+LoseText = ...
+Pokemon = MACHAMP,50
+Pokemon = POLIWRATH,50
+Pokemon = HERACROSS,51
+Pokemon = HITMONTOP,51
+Pokemon = PRIMEAPE,51
+#-------------------------------
+[LEADER_Chuck,Chuck,9]
+LoseText = ...
+Pokemon = MACHAMP,55
+Pokemon = POLIWRATH,55
+Pokemon = HERACROSS,56
+Pokemon = HITMONLEE,56
+Pokemon = HITMONCHAN,56
+Pokemon = HITMONTOP,56
+#-------------------------------
+[LEADER_Chuck,Chuck,10]
+LoseText = ...
+Pokemon = MACHAMP,60
+Pokemon = POLIWRATH,60
+Pokemon = HITMONCHAN,61
+Pokemon = HITMONTOP,61
+Pokemon = PRIMEAPE,61
+Pokemon = HITMONLEE,61
+#-------------------------------
+[LEADER_Chuck,Chuck,11]
+LoseText = ...
+Pokemon = MACHAMP,63
+Pokemon = POLIWRATH,63
+Pokemon = HERACROSS,64
+Pokemon = HITMONLEE,64
+Pokemon = HITMONCHAN,64
+Pokemon = HITMONTOP,64
+#-------------------------------
+[LEADER_Chuck,Chuck,12]
+LoseText = ...
+Pokemon = MACHAMP,66
+Pokemon = POLIWRATH,66
+Pokemon = HITMONLEE,67
+Pokemon = HITMONTOP,67
+Pokemon = PRIMEAPE,67
+Pokemon = HITMONCHAN,67
+#-------------------------------
+[LEADER_Chuck,Chuck,13]
+LoseText = ...
+Pokemon = MACHAMP,69
+Pokemon = POLIWRATH,69
+Pokemon = HERACROSS,70
+Pokemon = HITMONLEE,70
+Pokemon = HITMONCHAN,70
+Pokemon = HITMONTOP,70
+#-------------------------------
+[LEADER_Chuck,Chuck,14]
+LoseText = ...
+Pokemon = MACHAMP,72
+Pokemon = POLIWRATH,72
+Pokemon = HITMONLEE,73
+Pokemon = HITMONTOP,73
+Pokemon = PRIMEAPE,73
+Pokemon = HITMONCHAN,73
+#-------------------------------
+[LEADER_Chuck,Chuck,15]
+LoseText = ...
+Pokemon = MACHAMP,75
+Pokemon = HITMONTOP,74
+Pokemon = HITMONLEE,74
+Pokemon = HITMONTOP,73
+Pokemon = POLIWRATH,73
+Pokemon = ZAPDOS,75
+#-------------------------------
+[DETECTIVE_F,Kelly,1]
+LoseText = ...
+Pokemon = NIDORANfE,10
+Pokemon = CLEFAIRY,9
+Pokemon = PIKACHU,12
+Pokemon = CLEFAIRY,10
+#-------------------------------
+[SKIER,Roxanne]
+LoseText = ...
+Pokemon = JYNX,28
+#-------------------------------
+[SKIER,Clarissa]
+LoseText = ...
+Pokemon = DEWGONG,28
+#-------------------------------
+[BOARDER,Brad]
+LoseText = ...
+Pokemon = SWINUB,26
+Pokemon = SWINUB,26
+#-------------------------------
+[BOARDER,Douglas]
+LoseText = ...
+Pokemon = SHELLDER,24
+Pokemon = SHELLDER,24
+Pokemon = CLOYSTER,25
+#-------------------------------
+[BOARDER,Ronald]
+LoseText = ...
+Pokemon = SEEL,24
+Pokemon = SEEL,24
+Pokemon = DEWGONG,25
+#-------------------------------
+[LEADER_Pryce,Pryce]
+LoseText = ...
+Pokemon = SEEL,10
+Pokemon = SWINUB,10
+#-------------------------------
+[LEADER_Pryce,Pryce,1]
+LoseText = ...
+Pokemon = SEEL,12
+Pokemon = SWINUB,12
+#-------------------------------
+[LEADER_Pryce,Pryce,2]
+LoseText = ...
+Pokemon = DEWGONG,15
+Pokemon = SWINUB,14
+Pokemon = SHELLDER,15
+#-------------------------------
+[LEADER_Pryce,Pryce,3]
+LoseText = ...
+Pokemon = DEWGONG,20
+Pokemon = SHELLDER,19
+Pokemon = CLOYSTER,20
+#-------------------------------
+[LEADER_Pryce,Pryce,4]
+LoseText = ...
+Pokemon = DEWGONG,25
+Pokemon = CLOYSTER,24
+Pokemon = SNEASEL,25
+Pokemon = PILOSWINE,25
+#-------------------------------
+[LEADER_Pryce,Pryce,5]
+LoseText = ...
+Pokemon = DEWGONG,30
+Pokemon = CLOYSTER,29
+Pokemon = SNEASEL,30
+Pokemon = JYNX,30
+#-------------------------------
+[LEADER_Pryce,Pryce,6]
+LoseText = ...
+Pokemon = DEWGONG,32
+Pokemon = CLOYSTER,32
+Pokemon = SNEASEL,32
+Pokemon = JYNX,32
+Pokemon = PILOSWINE,32
+#-------------------------------
+[LEADER_Pryce,Pryce,7]
+LoseText = ...
+Pokemon = DEWGONG,35
+Pokemon = CLOYSTER,35
+Pokemon = SNEASEL,35
+Pokemon = JYNX,35
+Pokemon = PILOSWINE,35
+#-------------------------------
+[LEADER_Pryce,Pryce,8]
+LoseText = ...
+Pokemon = DEWGONG,40
+Pokemon = CLOYSTER,39
+Pokemon = SNEASEL,39
+Pokemon = JYNX,39
+Pokemon = PILOSWINE,40
+#-------------------------------
+[LEADER_Pryce,Pryce,9]
+LoseText = ...
+Pokemon = DEWGONG,45
+Pokemon = CLOYSTER,44
+Pokemon = SNEASEL,44
+Pokemon = JYNX,44
+Pokemon = PILOSWINE,45
+#-------------------------------
+[LEADER_Pryce,Pryce,10]
+LoseText = ...
+Pokemon = DEWGONG,50
+Pokemon = CLOYSTER,49
+Pokemon = SNEASEL,49
+Pokemon = JYNX,49
+Pokemon = PILOSWINE,50
+#-------------------------------
+[LEADER_Pryce,Pryce,11]
+LoseText = ...
+Pokemon = DEWGONG,55
+Pokemon = CLOYSTER,54
+Pokemon = SNEASEL,54
+Pokemon = JYNX,54
+Pokemon = PILOSWINE,55
+#-------------------------------
+[LEADER_Pryce,Pryce,12]
+LoseText = ...
+Pokemon = DEWGONG,60
+Pokemon = CLOYSTER,59
+Pokemon = SNEASEL,59
+Pokemon = JYNX,59
+Pokemon = PILOSWINE,60
+#-------------------------------
+[LEADER_Pryce,Pryce,13]
+LoseText = ...
+Pokemon = DEWGONG,65
+Pokemon = CLOYSTER,64
+Pokemon = SNEASEL,64
+Pokemon = JYNX,64
+Pokemon = PILOSWINE,65
+#-------------------------------
+[LEADER_Pryce,Pryce,14]
+LoseText = ...
+Pokemon = DEWGONG,70
+Pokemon = CLOYSTER,69
+Pokemon = SNEASEL,69
+Pokemon = JYNX,69
+Pokemon = PILOSWINE,70
+#-------------------------------
+[LEADER_Pryce,Pryce,15]
+LoseText = ...
+Pokemon = DEWGONG,75
+Pokemon = CLOYSTER,74
+Pokemon = SNEASEL,74
+Pokemon = JYNX,74
+Pokemon = PILOSWINE,75
+Pokemon = ARTICUNO,75
+#-------------------------------
+[LEADER_Jasmine,Jasmine]
+LoseText = ...
+Pokemon = MAGNEMITE,10
+Pokemon = MAGNEMITE,10
+#-------------------------------
+[LEADER_Jasmine,Jasmine,1]
+LoseText = ...
+Pokemon = MAGNEMITE,12
+Pokemon = MAGNEMITE,12
+#-------------------------------
+[LEADER_Jasmine,Jasmine,2]
+LoseText = ...
+Pokemon = MAGNEMITE,15
+Pokemon = MAGNEMITE,15
+Pokemon = ONIX,15
+#-------------------------------
+[LEADER_Jasmine,Jasmine,3]
+LoseText = ...
+Pokemon = MAGNEMITE,20
+Pokemon = MAGNETON,20
+Pokemon = ONIX,20
+#-------------------------------
+[LEADER_Jasmine,Jasmine,4]
+LoseText = ...
+Pokemon = MAGNEMITE,25
+Pokemon = MAGNETON,25
+Pokemon = STEELIX,25
+#-------------------------------
+[LEADER_Jasmine,Jasmine,5]
+LoseText = ...
+Pokemon = MAGNETON,30
+Pokemon = FORRETRESS,30
+Pokemon = STEELIX,30
+#-------------------------------
+[LEADER_Jasmine,Jasmine,6]
+LoseText = ...
+Pokemon = MAGNETON,32
+Pokemon = FORRETRESS,32
+Pokemon = SKARMORY,32
+Pokemon = STEELIX,32
+#-------------------------------
+[LEADER_Jasmine,Jasmine,7]
+LoseText = ...
+Pokemon = MAGNETON,35
+Pokemon = FORRETRESS,35
+Pokemon = SKARMORY,35
+Pokemon = STEELIX,35
+#-------------------------------
+[LEADER_Jasmine,Jasmine,8]
+LoseText = ...
+Pokemon = MAGNETON,40
+Pokemon = FORRETRESS,40
+Pokemon = SKARMORY,40
+Pokemon = SCIZOR,40
+Pokemon = STEELIX,40
+#-------------------------------
+[LEADER_Jasmine,Jasmine,9]
+LoseText = ...
+Pokemon = MAGNETON,45
+Pokemon = FORRETRESS,45
+Pokemon = SKARMORY,45
+Pokemon = SCIZOR,45
+Pokemon = STEELIX,45
+#-------------------------------
+[LEADER_Jasmine,Jasmine,10]
+LoseText = ...
+Pokemon = MAGNETON,50
+Pokemon = FORRETRESS,50
+Pokemon = SKARMORY,50
+Pokemon = SCIZOR,50
+Pokemon = STEELIX,50
+#-------------------------------
+[LEADER_Jasmine,Jasmine,11]
+LoseText = ...
+Pokemon = MAGNETON,55
+Pokemon = FORRETRESS,55
+Pokemon = SKARMORY,55
+Pokemon = SCIZOR,55
+Pokemon = STEELIX,55
+#-------------------------------
+[LEADER_Jasmine,Jasmine,12]
+LoseText = ...
+Pokemon = MAGNETON,60
+Pokemon = FORRETRESS,60
+Pokemon = SKARMORY,60
+Pokemon = SCIZOR,60
+Pokemon = STEELIX,60
+#-------------------------------
+[LEADER_Jasmine,Jasmine,13]
+LoseText = ...
+Pokemon = MAGNETON,65
+Pokemon = FORRETRESS,65
+Pokemon = SKARMORY,65
+Pokemon = SCIZOR,65
+Pokemon = STEELIX,65
+#-------------------------------
+[LEADER_Jasmine,Jasmine,14]
+LoseText = ...
+Pokemon = MAGNETON,70
+Pokemon = FORRETRESS,70
+Pokemon = SKARMORY,70
+Pokemon = SCIZOR,70
+Pokemon = STEELIX,70
+#-------------------------------
+[LEADER_Jasmine,Jasmine,15]
+LoseText = ...
+Pokemon = MAGNETON,75
+Pokemon = FORRETRESS,75
+Pokemon = SKARMORY,75
+Pokemon = SCIZOR,75
+Pokemon = STEELIX,75
+Pokemon = ENTEI,75
+#-------------------------------
+[LEADER_Clair,Clair]
+LoseText = ...
+Pokemon = HORSEA,10
+Pokemon = HORSEA,10
+Pokemon = SEADRA,12
+#-------------------------------
+[LEADER_Clair,Clair,1]
+LoseText = ...
+Pokemon = HORSEA,12
+Pokemon = SEADRA,14
+Pokemon = DRATINI,14
+#-------------------------------
+[LEADER_Clair,Clair,2]
+LoseText = ...
+Pokemon = HORSEA,15
+Pokemon = SEADRA,17
+Pokemon = DRAGONAIR,17
+#-------------------------------
+[LEADER_Clair,Clair,3]
+LoseText = ...
+Pokemon = SEADRA,20
+Pokemon = DRAGONAIR,20
+Pokemon = GYARADOS,22
+#-------------------------------
+[LEADER_Clair,Clair,4]
+LoseText = ...
+Pokemon = SEADRA,25
+Pokemon = DRAGONAIR,25
+Pokemon = KINGDRA,27
+#-------------------------------
+[LEADER_Clair,Clair,5]
+LoseText = ...
+Pokemon = DRAGONAIR,28
+Pokemon = KINGDRA,30
+Pokemon = GYARADOS,30
+#-------------------------------
+[LEADER_Clair,Clair,6]
+LoseText = ...
+Pokemon = DRAGONAIR,32
+Pokemon = KINGDRA,32
+Pokemon = CHARIZARD,33
+Pokemon = GYARADOS,33
+#-------------------------------
+[LEADER_Clair,Clair,7]
+LoseText = ...
+Pokemon = DRAGONAIR,40
+Pokemon = KINGDRA,42
+Pokemon = GYARADOS,42
+Pokemon = AERODACTYL,44
+#-------------------------------
+[LEADER_Clair,Clair,8]
+LoseText = ...
+Pokemon = DRAGONAIR,45
+Pokemon = KINGDRA,45
+Pokemon = GYARADOS,47
+Pokemon = AERODACTYL,46
+Pokemon = CHARIZARD,48
+#-------------------------------
+[LEADER_Clair,Clair,9]
+LoseText = ...
+Pokemon = DRAGONAIR,49
+Pokemon = KINGDRA,50
+Pokemon = GYARADOS,50
+Pokemon = AERODACTYL,52
+Pokemon = CHARIZARD,52
+#-------------------------------
+[LEADER_Clair,Clair,10]
+LoseText = ...
+Pokemon = DRAGONAIR,50
+Pokemon = KINGDRA,52
+Pokemon = GYARADOS,52
+Pokemon = AERODACTYL,54
+Pokemon = CHARIZARD,54
+#-------------------------------
+[LEADER_Clair,Clair,11]
+LoseText = ...
+Pokemon = DRAGONITE,55
+Pokemon = KINGDRA,55
+Pokemon = GYARADOS,57
+Pokemon = AERODACTYL,59
+Pokemon = CHARIZARD,59
+#-------------------------------
+[LEADER_Clair,Clair,12]
+LoseText = ...
+Pokemon = DRAGONITE,60
+Pokemon = KINGDRA,60
+Pokemon = GYARADOS,62
+Pokemon = AERODACTYL,63
+Pokemon = CHARIZARD,64
+#-------------------------------
+[LEADER_Clair,Clair,13]
+LoseText = ...
+Pokemon = DRAGONITE,68
+Pokemon = KINGDRA,65
+Pokemon = GYARADOS,65
+Pokemon = AERODACTYL,66
+Pokemon = CHARIZARD,66
+#-------------------------------
+[LEADER_Clair,Clair,14]
+LoseText = ...
+Pokemon = DRAGONITE,68
+Pokemon = KINGDRA,70
+Pokemon = GYARADOS,70
+Pokemon = AERODACTYL,71
+Pokemon = CHARIZARD,71
+#-------------------------------
+[LEADER_Clair,Clair,15]
+LoseText = ...
+Pokemon = KINGDRA,75
+Pokemon = DRAGONITE,75
+Pokemon = GYARADOS,74
+Pokemon = CHARIZARD,74
+Pokemon = AERODACTYL,74
+Pokemon = RAYQUAZA,75
+#-------------------------------
+[POKEMANIAC,Miller]
+LoseText = ...
+Pokemon = NIDOKING,17
+Pokemon = NIDOQUEEN,17
+#-------------------------------
+[SUPERNERD,Markus]
+LoseText = ...
+Pokemon = SLOWPOKE,19
+#-------------------------------
+[SUPERNERD,Hugh]
+LoseText = ...
+Pokemon = SEADRA,39
+#-------------------------------
+[BLACKBELT,Kiyo]
+LoseText = ...
+Pokemon = HITMONCHAN,38
+Pokemon = HITMONLEE,38
+#-------------------------------
+[CAMPER,Spencer]
+LoseText = ...
+Pokemon = SANDSHREW,17
+Pokemon = SANDSLASH,17
+Pokemon = ZUBAT,19
+#-------------------------------
+[POKEMANIAC,Ben]
+LoseText = ...
+Pokemon = SLOWBRO,19
+#-------------------------------
+[POKEMANIAC,Brent]
+LoseText = ...
+Pokemon = LICKITUNG,19
+#-------------------------------
+[POKEMANIAC,Ron]
+LoseText = ...
+Pokemon = NIDOKING,19
+#-------------------------------
+[FISHERMAN,Marvin]
+LoseText = ...
+Pokemon = MAGIKARP,10
+Pokemon = GYARADOS,15
+Pokemon = MAGIKARP,15
+Pokemon = GYARADOS,15
+#-------------------------------
+[PICNICKER,Tiffany]
+LoseText = ...
+Pokemon = CLEFAIRY,20
+#-------------------------------
+[COOLTRAINER_F,Lois]
+LoseText = ...
+Pokemon = SKIPLOOM,25
+Pokemon = NINETALES,25
+#-------------------------------
+[FISHERMAN,Raymond]
+LoseText = ...
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+#-------------------------------
+[FISHERMAN,Andre]
+LoseText = ...
+Pokemon = GYARADOS,27
+#-------------------------------
+[COOLTRAINER_M,Aaron]
+LoseText = ...
+Pokemon = IVYSAUR,24
+Pokemon = CHARMELEON,24
+Pokemon = WARTORTLE,24
+#-------------------------------
+[ROCKETGRUNT_M,Five]
+LoseText = ...
+Pokemon = RATTATA,26
+Pokemon = RATTATA,26
+Pokemon = RATTATA,26
+Pokemon = RATICATE,26
+#-------------------------------
+[SCIENTIST,Jed]
+LoseText = ...
+Pokemon = MAGNEMITE,30
+Pokemon = MAGNEMITE,30
+Pokemon = MAGNETON,30
+#-------------------------------
+[ROCKETGRUNT_M,Gaurd 1]
+LoseText = ...
+Pokemon = DROWZEE,21
+Pokemon = ZUBAT,21
+#-------------------------------
+[ROCKETGRUNT_M,Gaurd 2]
+LoseText = ...
+Pokemon = ZUBAT,21
+Pokemon = GRIMER,22
+Pokemon = RATTATA,22
+#-------------------------------
+[ROCKETGRUNT_M,Seven]
+LoseText = ...
+Pokemon = VENONAT,22
+Pokemon = VENOMOTH,26
+#-------------------------------
+[ROCKETGRUNT_M,Eight]
+LoseText = ...
+Pokemon = GOLBAT,26
+#-------------------------------
+[ROCKETGRUNT_M,Six]
+LoseText = ...
+Pokemon = RATTATA,24
+Pokemon = ZUBAT,24
+Pokemon = BEEDRILL,28
+#-------------------------------
+[ROCKETGRUNT_F,Nine]
+LoseText = ...
+Pokemon = EKANS,26
+Pokemon = GLOOM,28
+#-------------------------------
+[ROCKETGRUNT_M,Ten]
+LoseText = ...
+Pokemon = RATICATE,28
+#-------------------------------
+[SCIENTIST,Mitch]
+LoseText = ...
+Pokemon = DITTO,30
+#-------------------------------
+[SCIENTIST,Ross]
+LoseText = ...
+Pokemon = KOFFING,24
+Pokemon = WEEZING,28
+#-------------------------------
+[ROCKETEXEC_M,Petrel]
+LoseText = ...
+Pokemon = ZUBAT,28
+Pokemon = WEEZING,28
+Pokemon = RATICATE,30
+#-------------------------------
+[ROCKETEXEC_F,Ariana]
+LoseText = ...
+Pokemon = ARBOK,30
+Pokemon = GLOOM,32
+Pokemon = MURKROW,35
+#-------------------------------
+[PSYCHIC,Phil]
+LoseText = ...
+Pokemon = NATU,25
+Pokemon = KADABRA,26
+#-------------------------------
+[FISHERMAN,Edgar]
+LoseText = ...
+Pokemon = REMORAID,25
+Pokemon = REMORAID,26
+#-------------------------------
+[COOLTRAINER_F,Cybil]
+LoseText = ...
+Pokemon = BUTTERFREE,28
+Pokemon = BELLOSSOM,28
+#-------------------------------
+[COOLTRAINER_M,Allen]
+LoseText = ...
+Pokemon = CHARMELEON,30
+#-------------------------------
+[FISHERMAN,Wilton]
+LoseText = ...
+Pokemon = GOLDEEN,27
+Pokemon = GOLDEEN,27
+Pokemon = SEAKING,30
+#-------------------------------
+[POKEMANIAC,Zach]
+LoseText = ...
+Pokemon = RHYHORN,28
+#-------------------------------
+[BIRDKEEPER,Vance]
+LoseText = ...
+Pokemon = PIDGEOTTO,27
+Pokemon = PIDGEOT,32
+#-------------------------------
+[DETECTIVE_F,Kelly,2]
+LoseText = ...
+Pokemon = NIDOQUEEN,26
+Pokemon = CLEFABLE,26
+Pokemon = RAICHU,28
+Pokemon = WIGGLYTUFF,30
+#-------------------------------
+[ROCKETGRUNT_M,Eleven]
+LoseText = ...
+Pokemon = RATICATE,34
+Pokemon = RATICATE,34
+#-------------------------------
+[ROCKETGRUNT_F,Twelve]
+LoseText = ...
+Pokemon = ARBOK,36
+#-------------------------------
+[ROCKETGRUNT_M,Thirteen]
+LoseText = ...
+Pokemon = RATTATA,29
+Pokemon = RATTATA,29
+Pokemon = RATTATA,31
+Pokemon = RATTATA,33
+Pokemon = RATICATE,33
+#-------------------------------
+[ROCKETGRUNT_M,Fourteen]
+LoseText = ...
+Pokemon = ZUBAT,36
+Pokemon = ZUBAT,36
+#-------------------------------
+[ROCKETGRUNT_M,Fifteen]
+LoseText = ...
+Pokemon = GRIMER,32
+Pokemon = GRIMER,32
+Pokemon = MUK,35
+#-------------------------------
+[ROCKETGRUNT_M,Sixteen]
+LoseText = ...
+Pokemon = WEEZING,36
+#-------------------------------
+[ROCKETGRUNT_M,Seventeen]
+LoseText = ...
+Pokemon = KOFFING,30
+Pokemon = ZUBAT,30
+Pokemon = RATTATA,33
+Pokemon = GRIMER,33
+#-------------------------------
+[ROCKETGRUNT_M,Eighteen]
+LoseText = ...
+Pokemon = RATICATE,34
+Pokemon = WEEZING,34
+#-------------------------------
+[ROCKETGRUNT_M,Nineteen]
+LoseText = ...
+Pokemon = ZUBAT,30
+Pokemon = GOLBAT,34
+Pokemon = MUK,32
+#-------------------------------
+[ROCKETGRUNT_F,Twenty]
+LoseText = ...
+Pokemon = ARBOK,31
+Pokemon = GLOOM,33
+Pokemon = ARBOK,31
+Pokemon = VILEPLUME,34
+#-------------------------------
+[SCIENTIST,Marc]
+LoseText = ...
+Pokemon = MAGNEMITE,27
+Pokemon = MAGNETON,30
+Pokemon = MAGNETON,32
+#-------------------------------
+[SCIENTIST,Rich]
+LoseText = ...
+Pokemon = PORYGON,35
+#-------------------------------
+[ROCKETEXEC_F,Cassidy]
+LoseText = ...
+Pokemon = KOFFING,32
+Pokemon = KOFFING,32
+Pokemon = KOFFING,32
+Pokemon = WEEZING,32
+Pokemon = WEEZING,35
+Pokemon = WEEZING,36
+#-------------------------------
+[ROCKETEXEC_M,Butch]
+LoseText = ...
+Pokemon = GOLBAT,36
+Pokemon = RATICATE,36
+#-------------------------------
+[ROCKETEXEC_F,Ariana,2]
+LoseText = ...
+Pokemon = ARBOK,36
+Pokemon = VILEPLUME,36
+Pokemon = MURKROW,40
+#-------------------------------
+[ROCKETEXEC_M,Petrel,2]
+LoseText = ...
+Pokemon = HOUNDOUR,40
+Pokemon = WEEZING,40
+Pokemon = HOUNDOOM,45
+#-------------------------------
+[RIVAL1,?????,10]
+LoseText = ...
+Pokemon = GOLBAT,32
+Pokemon = MAGNETON,32
+Pokemon = HAUNTER,34
+Pokemon = SNEASEL,35
+Pokemon = QUILAVA,35
+#-------------------------------
+[RIVAL1,?????,11]
+LoseText = ...
+Pokemon = GOLBAT,32
+Pokemon = MAGNETON,32
+Pokemon = HAUNTER,34
+Pokemon = SNEASEL,35
+Pokemon = FERALIGATR,35
+#-------------------------------
+[RIVAL1,?????,12]
+LoseText = ...
+Pokemon = GOLBAT,32
+Pokemon = MAGNETON,32
+Pokemon = HAUNTER,34
+Pokemon = SNEASEL,35
+Pokemon = MEGANIUM,35
+#-------------------------------
+[ROCKETGRUNT_M,Twenty]
+LoseText = ...
+Pokemon = RATICATE,27
+#-------------------------------
+[ROCKETGRUNT_M,Twentyone]
+LoseText = ...
+Pokemon = MUK,30
+Pokemon = WEEZING,30
+Pokemon = RATICATE,32
+#-------------------------------
+[ROCKETGRUNT_M,Twentytwo]
+LoseText = ...
+Pokemon = KOFFING,32
+Pokemon = MUK,32
+#-------------------------------
+[BURGLAR,Eddie]
+LoseText = ...
+Pokemon = GROWLITHE,28
+Pokemon = KOFFING,26
+#-------------------------------
+[BURGLAR,Duncan]
+LoseText = ...
+Pokemon = KOFFING,28
+Pokemon = MAGMAR,30
+Pokemon = WEEZING,32
+#-------------------------------
+[ROCKETGRUNT_F,Twentythree]
+LoseText = ...
+Pokemon = VILEPLUME,35
+Pokemon = BELLOSSOM,35
+#-------------------------------
+[ROCKETGRUNT_M,Twentyfour]
+LoseText = ...
+Pokemon = RATICATE,30
+Pokemon = GOLBAT,30
+#-------------------------------
+[ROCKETGRUNT_M,Twentyfive]
+LoseText = ...
+Pokemon = GRIMER,30
+Pokemon = WEEZING,32
+#-------------------------------
+[ROCKETGRUNT_M,Twentyseven]
+LoseText = ...
+Pokemon = KOFFING,30
+Pokemon = WEEZING,34
+#-------------------------------
+[ROCKETGRUNT_F,Twentysix]
+LoseText = ...
+Pokemon = VENUSAUR,30
+Pokemon = CHARIZARD,30
+Pokemon = BLASTOISE,30
+#-------------------------------
+[COOLTRAINER_M,Paul]
+LoseText = ...
+Pokemon = DRAGONAIR,34
+Pokemon = DRAGONAIR,34
+Pokemon = DRAGONAIR,34
+#-------------------------------
+[COOLTRAINER_M,Cody]
+LoseText = ...
+Pokemon = SEADRA,36
+Pokemon = SEADRA,36
+#-------------------------------
+[COOLTRAINER_M,Mike]
+LoseText = ...
+Pokemon = DRAGONAIR,36
+Pokemon = LAPRAS,38
+#-------------------------------
+[COOLTRAINER_F,Fran]
+LoseText = ...
+Pokemon = SEADRA,37
+Pokemon = OMASTAR,36
+#-------------------------------
+[COOLTRAINER_M,Darin]
+LoseText = ...
+Pokemon = DRAGONAIR,38
+#-------------------------------
+[COOLTRAINER_F,Cara]
+LoseText = ...
+Pokemon = HORSEA,33
+Pokemon = SEADRA,35
+Pokemon = KINGDRA,38
+#-------------------------------
+[TWINS,Lea & Pia]
+LoseText = ...
+Pokemon = DRAGONAIR,35
+Pokemon = LAPRAS,35
+#-------------------------------
+[HIKER,Erik]
+LoseText = ...
+Pokemon = MACHOP,32
+Pokemon = GRAVELER,32
+Pokemon = MACHOKE,34
+#-------------------------------
+[COOLTRAINER_M,Ryan]
+LoseText = ...
+Pokemon = PIDGEOT,35
+Pokemon = ELECTABUZZ,37
+#-------------------------------
+[COOLTRAINER_F,Kelly]
+LoseText = ...
+Pokemon = AZUMARILL,35
+Pokemon = WARTORTLE,32
+Pokemon = BLASTOISE,38
+#-------------------------------
+[BLACKBELT,Kenji]
+LoseText = ...
+Pokemon = STEELIX,39
+#-------------------------------
+[HIKER,Timothy]
+LoseText = ...
+Pokemon = DUGTRIO,35
+Pokemon = DUGTRIO,38
+#-------------------------------
+[HIKER,Parry]
+LoseText = ...
+Pokemon = MACHAMP,39
+#-------------------------------
+[HIKER,Michael]
+LoseText = ...
+Pokemon = GEODUDE,30
+Pokemon = GRAVELER,35
+Pokemon = GOLEM,40
+#-------------------------------
+[CAMPER,Quentin]
+LoseText = ...
+Pokemon = FEAROW,40
+Pokemon = PRIMEAPE,40
+Pokemon = TAUROS,40
+#-------------------------------
+[MYSTICALMAN,Eusine,1]
+LoseText = ...
+Pokemon = HYPNO,26
+Pokemon = HAUNTER,25
+Pokemon = ELECTRODE,28
+#-------------------------------
+[SAGE,Gaku]
+LoseText = ...
+Pokemon = NOCTOWL,35
+Pokemon = FLAREON,35
+#-------------------------------
+[SAGE,Masa]
+LoseText = ...
+Pokemon = NOCTOWL,35
+Pokemon = JOLTEON,35
+#-------------------------------
+[SAGE,Koji]
+LoseText = ...
+Pokemon = NOCTOWL,35
+Pokemon = VAPOREON,35
+#-------------------------------
+[COOLTRAINER_F,Megan]
+LoseText = ...
+Pokemon = BULBASAUR,35
+Pokemon = IVYSAUR,35
+Pokemon = VENUSAUR,35
+#-------------------------------
+[COOLTRAINER_M,Blake]
+LoseText = ...
+Pokemon = MAGNETON,35
+Pokemon = QUAGSIRE,36
+Pokemon = EXEGGCUTE,36
+#-------------------------------
+[COOLTRAINER_F,Reena]
+LoseText = ...
+Pokemon = STARMIE,38
+Pokemon = NIDOQUEEN,35
+Pokemon = STARMIE,38
+#-------------------------------
+[COOLTRAINER_M,Brian]
+LoseText = ...
+Pokemon = SANDSLASH,40
+#-------------------------------
+[BIRDKEEPER,Jose]
+LoseText = ...
+Pokemon = FARFETCHD,38
+#-------------------------------
+[PSYCHIC,Gilbert]
+LoseText = ...
+Pokemon = STARMIE,39
+Pokemon = EXEGGCUTE,40
+Pokemon = GIRAFARIG,38
+#-------------------------------
+[GIOVANNI,Giovanni]
+LoseText = ...
+Pokemon = NIDOKING,45
+Pokemon = MISDREAVUS,47
+Pokemon = NIDOQUEEN,48
+Pokemon = RHYDON,50
+#-------------------------------
+[FISHERMAN,Scott]
+LoseText = ...
+Pokemon = QWILFISH,35
+Pokemon = QWILFISH,35
+Pokemon = SEAKING,34
+#-------------------------------
+[PSYCHIC,Richard]
+LoseText = ...
+Pokemon = ESPEON,36
+#-------------------------------
+[COOLTRAINER_F,Joyce]
+LoseText = ...
+Pokemon = BLASTOISE,32
+Pokemon = PIKACHU,36
+#-------------------------------
+[COOLTRAINER_M,Gaven]
+LoseText = ...
+Pokemon = VICTREEBEL,32
+Pokemon = KINGLER,34
+Pokemon = FLAREON,36
+#-------------------------------
+[COOLTRAINER_M,Jake]
+LoseText = ...
+Pokemon = PARASECT,38
+Pokemon = GOLDUCK,40
+#-------------------------------
+[COOLTRAINER_F,Beth]
+LoseText = ...
+Pokemon = RAPIDASH,42
+#-------------------------------
+[RIVAL1,?????,14]
+LoseText = ...
+Pokemon = SNEASEL,34
+Pokemon = GOLBAT,36
+Pokemon = MAGNETON,35
+Pokemon = HAUNTER,35
+Pokemon = KADABRA,35
+Pokemon = FERALIGATR,40
+#-------------------------------
+[RIVAL1,?????,13]
+LoseText = ...
+Pokemon = SNEASEL,34
+Pokemon = GOLBAT,36
+Pokemon = MAGNETON,35
+Pokemon = HAUNTER,35
+Pokemon = KADABRA,35
+Pokemon = TYPHLOSION,40
+#-------------------------------
+[RIVAL1,?????,15]
+LoseText = ...
+Pokemon = SNEASEL,34
+Pokemon = GOLBAT,36
+Pokemon = MAGNETON,35
+Pokemon = HAUNTER,35
+Pokemon = KADABRA,35
+Pokemon = MEGANIUM,40
+#-------------------------------
+[ELITEFOUR_Will,Will]
+LoseText = ...
+Pokemon = XATU,45
+Pokemon = EXEGGUTOR,46
+Pokemon = SLOWBRO,46
+Pokemon = JYNX,46
+Pokemon = XATU,47
+#-------------------------------
+[ELITEFOUR_Koga,Koga]
+LoseText = ...
+Pokemon = ARIADOS,45
+Pokemon = VENOMOTH,46
+Pokemon = FORRETRESS,48
+Pokemon = MUK,47
+Pokemon = CROBAT,49
+#-------------------------------
+[ELITEFOUR_Bruno,Bruno]
+LoseText = ...
+Pokemon = HITMONTOP,47
+Pokemon = HITMONLEE,47
+Pokemon = HITMONCHAN,47
+Pokemon = ONIX,48
+Pokemon = MACHAMP,51
+#-------------------------------
+[ELITEFOUR_Karen,Karen]
+LoseText = ...
+Pokemon = UMBREON,47
+Pokemon = VILEPLUME,47
+Pokemon = MURKROW,49
+Pokemon = GENGAR,50
+Pokemon = HOUNDOOM,52
+#-------------------------------
+[CHAMPION_Lance,Lance,1]
+LoseText = ...
+Pokemon = GYARADOS,49
+Pokemon = LAPRAS,52
+Pokemon = CHARIZARD,51
+Pokemon = AERODACTYL,51
+Pokemon = KINGDRA,52
+Pokemon = DRAGONITE,55
+#-------------------------------
+[LEADER_LtSurge,Surge]
+LoseText = ...
+Pokemon = VOLTORB,8
+Pokemon = MAGNEMITE,10
+#-------------------------------
+[LEADER_LtSurge,Surge,1]
+LoseText = ...
+Pokemon = VOLTORB,13
+Pokemon = MAGNEMITE,14
+Pokemon = PIKACHU,15
+#-------------------------------
+[LEADER_LtSurge,Surge,2]
+LoseText = ...
+Pokemon = ELECTRODE,18
+Pokemon = MAGNETON,19
+Pokemon = RAICHU,20
+#-------------------------------
+[LEADER_LtSurge,Surge,3]
+LoseText = ...
+Pokemon = ELECTRODE,21
+Pokemon = MAGNETON,22
+Pokemon = RAICHU,23
+Pokemon = JOLTEON,24
+#-------------------------------
+[LEADER_LtSurge,Surge,4]
+LoseText = ...
+Pokemon = ELECTRODE,26
+Pokemon = MAGNETON,27
+Pokemon = RAICHU,28
+Pokemon = JOLTEON,29
+#-------------------------------
+[LEADER_LtSurge,Surge,5]
+LoseText = ...
+Pokemon = ELECTRODE,30
+Pokemon = MAGNETON,31
+Pokemon = ELECTABUZZ,31
+Pokemon = RAICHU,32
+#-------------------------------
+[LEADER_LtSurge,Surge,6]
+LoseText = ...
+Pokemon = ELECTRODE,33
+Pokemon = MAGNETON,34
+Pokemon = ELECTABUZZ,34
+Pokemon = JOLTEON,35
+Pokemon = LANTURN,33
+#-------------------------------
+[LEADER_LtSurge,Surge,7]
+LoseText = ...
+Pokemon = ELECTRODE,36
+Pokemon = MAGNETON,37
+Pokemon = ELECTABUZZ,38
+Pokemon = JOLTEON,39
+Pokemon = LANTURN,37
+#-------------------------------
+[LEADER_LtSurge,Surge,8]
+LoseText = ...
+Pokemon = ELECTRODE,41
+Pokemon = MAGNETON,42
+Pokemon = ELECTABUZZ,42
+Pokemon = RAICHU,43
+Pokemon = AMPHAROS,43
+#-------------------------------
+[LEADER_LtSurge,Surge,9]
+LoseText = ...
+Pokemon = ELECTRODE,46
+Pokemon = MAGNETON,47
+Pokemon = ELECTABUZZ,47
+Pokemon = JOLTEON,48
+Pokemon = AMPHAROS,48
+#-------------------------------
+[LEADER_LtSurge,Surge,10]
+LoseText = ...
+Pokemon = ELECTRODE,51
+Pokemon = MAGNETON,52
+Pokemon = ELECTABUZZ,52
+Pokemon = RAICHU,53
+Pokemon = AMPHAROS,53
+#-------------------------------
+[LEADER_LtSurge,Surge,11]
+LoseText = ...
+Pokemon = ELECTRODE,56
+Pokemon = MAGNETON,57
+Pokemon = ELECTABUZZ,57
+Pokemon = JOLTEON,58
+Pokemon = AMPHAROS,58
+Pokemon = LANTURN,56
+#-------------------------------
+[LEADER_LtSurge,Surge,12]
+LoseText = ...
+Pokemon = ELECTRODE,61
+Pokemon = MAGNETON,62
+Pokemon = ELECTABUZZ,62
+Pokemon = RAICHU,63
+Pokemon = AMPHAROS,63
+Pokemon = LANTURN,61
+#-------------------------------
+[LEADER_LtSurge,Surge,13]
+LoseText = ...
+Pokemon = ELECTRODE,65
+Pokemon = MAGNETON,66
+Pokemon = ELECTABUZZ,66
+Pokemon = JOLTEON,67
+Pokemon = AMPHAROS,67
+Pokemon = LANTURN,65
+#-------------------------------
+[LEADER_LtSurge,Surge,14]
+LoseText = ...
+Pokemon = ELECTRODE,70
+Pokemon = MAGNETON,71
+Pokemon = ELECTABUZZ,71
+Pokemon = RAICHU,72
+Pokemon = AMPHAROS,72
+Pokemon = LANTURN,70
+#-------------------------------
+[LEADER_LtSurge,Surge,15]
+LoseText = ...
+Pokemon = ELECTRODE,72
+Pokemon = MAGNETON,73
+Pokemon = ELECTABUZZ,73
+Pokemon = JOLTEON,74
+Pokemon = AMPHAROS,74
+Pokemon = RAIKOU,75
+#-------------------------------
+[LEADER_Sabrina,Sabrina]
+LoseText = ...
+Pokemon = ABRA,8
+Pokemon = DROWZEE,10
+#-------------------------------
+[LEADER_Sabrina,Sabrina,1]
+LoseText = ...
+Pokemon = KADABRA,13
+Pokemon = DROWZEE,14
+Pokemon = ABRA,14
+#-------------------------------
+[LEADER_Sabrina,Sabrina,2]
+LoseText = ...
+Pokemon = KADABRA,18
+Pokemon = HYPNO,19
+Pokemon = NATU,18
+#-------------------------------
+[LEADER_Sabrina,Sabrina,3]
+LoseText = ...
+Pokemon = KADABRA,21
+Pokemon = HYPNO,22
+Pokemon = XATU,23
+Pokemon = JYNX,22
+#-------------------------------
+[LEADER_Sabrina,Sabrina,4]
+LoseText = ...
+Pokemon = KADABRA,26
+Pokemon = HYPNO,27
+Pokemon = XATU,28
+Pokemon = MRMIME,27
+#-------------------------------
+[LEADER_Sabrina,Sabrina,5]
+LoseText = ...
+Pokemon = ALAKAZAM,30
+Pokemon = HYPNO,30
+Pokemon = XATU,31
+Pokemon = MRMIME,31
+#-------------------------------
+[LEADER_Sabrina,Sabrina,6]
+LoseText = ...
+Pokemon = ALAKAZAM,33
+Pokemon = HYPNO,34
+Pokemon = XATU,34
+Pokemon = MRMIME,34
+Pokemon = JYNX,33
+#-------------------------------
+[LEADER_Sabrina,Sabrina,7]
+LoseText = ...
+Pokemon = ALAKAZAM,36
+Pokemon = HYPNO,37
+Pokemon = XATU,38
+Pokemon = MRMIME,37
+Pokemon = JYNX,36
+#-------------------------------
+[LEADER_Sabrina,Sabrina,8]
+LoseText = ...
+Pokemon = ALAKAZAM,41
+Pokemon = HYPNO,42
+Pokemon = XATU,42
+Pokemon = MRMIME,42
+Pokemon = ESPEON,41
+#-------------------------------
+[LEADER_Sabrina,Sabrina,9]
+LoseText = ...
+Pokemon = ALAKAZAM,46
+Pokemon = HYPNO,47
+Pokemon = XATU,47
+Pokemon = MRMIME,47
+Pokemon = ESPEON,46
+#-------------------------------
+[LEADER_Sabrina,Sabrina,10]
+LoseText = ...
+Pokemon = ALAKAZAM,51
+Pokemon = HYPNO,52
+Pokemon = XATU,52
+Pokemon = MRMIME,52
+Pokemon = ESPEON,51
+#-------------------------------
+[LEADER_Sabrina,Sabrina,11]
+LoseText = ...
+Pokemon = ALAKAZAM,56
+Pokemon = HYPNO,57
+Pokemon = XATU,57
+Pokemon = MRMIME,57
+Pokemon = ESPEON,56
+Pokemon = JYNX,55
+#-------------------------------
+[LEADER_Sabrina,Sabrina,12]
+LoseText = ...
+Pokemon = ALAKAZAM,61
+Pokemon = HYPNO,62
+Pokemon = XATU,62
+Pokemon = MRMIME,62
+Pokemon = ESPEON,61
+Pokemon = JYNX,60
+#-------------------------------
+[LEADER_Sabrina,Sabrina,13]
+LoseText = ...
+Pokemon = ALAKAZAM,65
+Pokemon = HYPNO,66
+Pokemon = XATU,66
+Pokemon = MRMIME,66
+Pokemon = ESPEON,65
+Pokemon = JYNX,64
+#-------------------------------
+[LEADER_Sabrina,Sabrina,14]
+LoseText = ...
+Pokemon = ALAKAZAM,70
+Pokemon = HYPNO,71
+Pokemon = XATU,71
+Pokemon = MRMIME,71
+Pokemon = ESPEON,70
+Pokemon = JYNX,69
+#-------------------------------
+[LEADER_Sabrina,Sabrina,15]
+LoseText = ...
+Pokemon = ALAKAZAM,73
+Pokemon = HYPNO,73
+Pokemon = XATU,74
+Pokemon = MRMIME,74
+Pokemon = ESPEON,73
+Pokemon = MEWTWO,75
+#-------------------------------
+[LEADER_Erika,Erika]
+LoseText = ...
+Pokemon = ODDISH,9
+Pokemon = BELLSPROUT,10
+#-------------------------------
+[LEADER_Erika,Erika,1]
+LoseText = ...
+Pokemon = GLOOM,13
+Pokemon = WEEPINBELL,14
+Pokemon = HOPPIP,14
+#-------------------------------
+[LEADER_Erika,Erika,2]
+LoseText = ...
+Pokemon = GLOOM,17
+Pokemon = WEEPINBELL,18
+Pokemon = SKIPLOOM,18
+#-------------------------------
+[LEADER_Erika,Erika,3]
+LoseText = ...
+Pokemon = GLOOM,21
+Pokemon = WEEPINBELL,22
+Pokemon = TANGELA,22
+Pokemon = PARASECT,23
+#-------------------------------
+[LEADER_Erika,Erika,4]
+LoseText = ...
+Pokemon = VILEPLUME,26
+Pokemon = VICTREEBEL,27
+Pokemon = TANGELA,27
+Pokemon = JUMPLUFF,27
+#-------------------------------
+[LEADER_Erika,Erika,5]
+LoseText = ...
+Pokemon = VILEPLUME,30
+Pokemon = VICTREEBEL,31
+Pokemon = TANGELA,31
+Pokemon = JUMPLUFF,30
+Pokemon = BELLOSSOM,31
+#-------------------------------
+[LEADER_Erika,Erika,6]
+LoseText = ...
+Pokemon = VILEPLUME,33
+Pokemon = VICTREEBEL,34
+Pokemon = TANGELA,34
+Pokemon = JUMPLUFF,33
+Pokemon = BELLOSSOM,34
+#-------------------------------
+[LEADER_Erika,Erika,7]
+LoseText = ...
+Pokemon = VILEPLUME,36
+Pokemon = VICTREEBEL,37
+Pokemon = TANGELA,37
+Pokemon = JUMPLUFF,36
+Pokemon = BELLOSSOM,37
+#-------------------------------
+[LEADER_Erika,Erika,8]
+LoseText = ...
+Pokemon = VILEPLUME,41
+Pokemon = VICTREEBEL,42
+Pokemon = MEGANIUM,41
+Pokemon = JUMPLUFF,41
+Pokemon = BELLOSSOM,42
+#-------------------------------
+[LEADER_Erika,Erika,9]
+LoseText = ...
+Pokemon = VILEPLUME,46
+Pokemon = VICTREEBEL,47
+Pokemon = MEGANIUM,46
+Pokemon = JUMPLUFF,46
+Pokemon = BELLOSSOM,47
+#-------------------------------
+[LEADER_Erika,Erika,10]
+LoseText = ...
+Pokemon = VILEPLUME,51
+Pokemon = VICTREEBEL,52
+Pokemon = MEGANIUM,51
+Pokemon = JUMPLUFF,51
+Pokemon = BELLOSSOM,52
+#-------------------------------
+[LEADER_Erika,Erika,11]
+LoseText = ...
+Pokemon = VILEPLUME,56
+Pokemon = VICTREEBEL,57
+Pokemon = MEGANIUM,56
+Pokemon = JUMPLUFF,56
+Pokemon = BELLOSSOM,57
+Pokemon = EXEGGUTOR,55
+#-------------------------------
+[LEADER_Erika,Erika,12]
+LoseText = ...
+Pokemon = VILEPLUME,61
+Pokemon = VICTREEBEL,62
+Pokemon = MEGANIUM,61
+Pokemon = JUMPLUFF,61
+Pokemon = BELLOSSOM,62
+Pokemon = EXEGGUTOR,60
+#-------------------------------
+[LEADER_Erika,Erika,13]
+LoseText = ...
+Pokemon = VILEPLUME,65
+Pokemon = VICTREEBEL,66
+Pokemon = MEGANIUM,65
+Pokemon = JUMPLUFF,65
+Pokemon = BELLOSSOM,66
+Pokemon = EXEGGUTOR,64
+#-------------------------------
+[LEADER_Erika,Erika,14]
+LoseText = ...
+Pokemon = VILEPLUME,70
+Pokemon = VICTREEBEL,71
+Pokemon = MEGANIUM,70
+Pokemon = JUMPLUFF,70
+Pokemon = BELLOSSOM,71
+Pokemon = EXEGGUTOR,69
+#-------------------------------
+[LEADER_Erika,Erika,15]
+LoseText = ...
+Pokemon = VILEPLUME,72
+Pokemon = VICTREEBEL,73
+Pokemon = MEGANIUM,72
+Pokemon = BELLOSSOM,73
+Pokemon = EXEGGUTOR,72
+Pokemon = FLYGON,75
+#-------------------------------
+[LEADER_Janine,Janine]
+LoseText = ...
+Pokemon = EKANS,9
+Pokemon = ZUBAT,10
+#-------------------------------
+[LEADER_Janine,Janine,1]
+LoseText = ...
+Pokemon = EKANS,13
+Pokemon = ZUBAT,14
+Pokemon = KOFFING,14
+#-------------------------------
+[LEADER_Janine,Janine,2]
+LoseText = ...
+Pokemon = ARBOK,18
+Pokemon = GOLBAT,18
+Pokemon = KOFFING,19
+#-------------------------------
+[LEADER_Janine,Janine,3]
+LoseText = ...
+Pokemon = ARBOK,21
+Pokemon = GOLBAT,22
+Pokemon = WEEZING,22
+Pokemon = GRIMER,22
+#-------------------------------
+[LEADER_Janine,Janine,4]
+LoseText = ...
+Pokemon = ARBOK,26
+Pokemon = GOLBAT,27
+Pokemon = WEEZING,27
+Pokemon = MUK,27
+#-------------------------------
+[LEADER_Janine,Janine,5]
+LoseText = ...
+Pokemon = ARBOK,30
+Pokemon = WEEZING,31
+Pokemon = MUK,31
+Pokemon = TENTACRUEL,30
+#-------------------------------
+[LEADER_Janine,Janine,6]
+LoseText = ...
+Pokemon = ARBOK,33
+Pokemon = WEEZING,34
+Pokemon = MUK,34
+Pokemon = TENTACRUEL,33
+Pokemon = CROBAT,34
+#-------------------------------
+[LEADER_Janine,Janine,7]
+LoseText = ...
+Pokemon = ARBOK,36
+Pokemon = WEEZING,37
+Pokemon = MUK,37
+Pokemon = TENTACRUEL,36
+Pokemon = CROBAT,37
+#-------------------------------
+[LEADER_Janine,Janine,8]
+LoseText = ...
+Pokemon = ARBOK,41
+Pokemon = WEEZING,42
+Pokemon = MUK,42
+Pokemon = TENTACRUEL,41
+Pokemon = CROBAT,42
+#-------------------------------
+[LEADER_Janine,Janine,9]
+LoseText = ...
+Pokemon = ARBOK,46
+Pokemon = WEEZING,47
+Pokemon = MUK,47
+Pokemon = TENTACRUEL,46
+Pokemon = CROBAT,47
+#-------------------------------
+[LEADER_Janine,Janine,10]
+LoseText = ...
+Pokemon = ARBOK,51
+Pokemon = WEEZING,52
+Pokemon = MUK,52
+Pokemon = TENTACRUEL,51
+Pokemon = CROBAT,52
+#-------------------------------
+[LEADER_Janine,Janine,11]
+LoseText = ...
+Pokemon = ARBOK,56
+Pokemon = WEEZING,57
+Pokemon = MUK,57
+Pokemon = TENTACRUEL,56
+Pokemon = CROBAT,57
+Pokemon = VENOMOTH,55
+#-------------------------------
+[LEADER_Janine,Janine,12]
+LoseText = ...
+Pokemon = ARBOK,61
+Pokemon = WEEZING,62
+Pokemon = MUK,62
+Pokemon = TENTACRUEL,61
+Pokemon = CROBAT,62
+Pokemon = VENOMOTH,60
+#-------------------------------
+[LEADER_Janine,Janine,13]
+LoseText = ...
+Pokemon = ARBOK,65
+Pokemon = WEEZING,66
+Pokemon = MUK,66
+Pokemon = TENTACRUEL,65
+Pokemon = CROBAT,66
+Pokemon = VENOMOTH,64
+#-------------------------------
+[LEADER_Janine,Janine,14]
+LoseText = ...
+Pokemon = ARBOK,70
+Pokemon = WEEZING,71
+Pokemon = MUK,71
+Pokemon = TENTACRUEL,70
+Pokemon = CROBAT,71
+Pokemon = VENOMOTH,69
+#-------------------------------
+[LEADER_Janine,Janine,15]
+LoseText = ...
+Pokemon = ARBOK,72
+Pokemon = WEEZING,73
+Pokemon = MUK,73
+Pokemon = TENTACRUEL,72
+Pokemon = CROBAT,73
+Pokemon = LATIOS,75
+#-------------------------------
+[LEADER_Misty,Misty]
+LoseText = ...
+Pokemon = STARYU,9
+Pokemon = PSYDUCK,10
+#-------------------------------
+[LEADER_Misty,Misty,1]
+LoseText = ...
+Pokemon = STARYU,13
+Pokemon = GOLDUCK,14
+Pokemon = POLIWAG,14
+#-------------------------------
+[LEADER_Misty,Misty,2]
+LoseText = ...
+Pokemon = STARMIE,18
+Pokemon = GOLDUCK,18
+Pokemon = POLIWHIRL,19
+#-------------------------------
+[LEADER_Misty,Misty,3]
+LoseText = ...
+Pokemon = STARMIE,21
+Pokemon = GOLDUCK,22
+Pokemon = POLIWRATH,23
+Pokemon = MARILL,22
+#-------------------------------
+[LEADER_Misty,Misty,4]
+LoseText = ...
+Pokemon = STARMIE,26
+Pokemon = GOLDUCK,27
+Pokemon = SLOWBRO,27
+Pokemon = AZUMARILL,27
+#-------------------------------
+[LEADER_Misty,Misty,5]
+LoseText = ...
+Pokemon = STARMIE,30
+Pokemon = GOLDUCK,31
+Pokemon = SLOWBRO,31
+Pokemon = AZUMARILL,30
+Pokemon = LAPRAS,31
+#-------------------------------
+[LEADER_Misty,Misty,6]
+LoseText = ...
+Pokemon = STARMIE,33
+Pokemon = GOLDUCK,34
+Pokemon = VAPOREON,33
+Pokemon = AZUMARILL,33
+Pokemon = LAPRAS,34
+#-------------------------------
+[LEADER_Misty,Misty,7]
+LoseText = ...
+Pokemon = STARMIE,36
+Pokemon = GOLDUCK,37
+Pokemon = VAPOREON,36
+Pokemon = AZUMARILL,36
+Pokemon = POLITOED,37
+#-------------------------------
+[LEADER_Misty,Misty,8]
+LoseText = ...
+Pokemon = STARMIE,41
+Pokemon = GOLDUCK,42
+Pokemon = VAPOREON,41
+Pokemon = LAPRAS,41
+Pokemon = POLITOED,42
+#-------------------------------
+[LEADER_Misty,Misty,9]
+LoseText = ...
+Pokemon = STARMIE,46
+Pokemon = GOLDUCK,47
+Pokemon = VAPOREON,46
+Pokemon = LAPRAS,46
+Pokemon = POLITOED,47
+#-------------------------------
+[LEADER_Misty,Misty,10]
+LoseText = ...
+Pokemon = STARMIE,51
+Pokemon = GOLDUCK,52
+Pokemon = VAPOREON,51
+Pokemon = LAPRAS,51
+Pokemon = POLITOED,52
+#-------------------------------
+[LEADER_Misty,Misty,11]
+LoseText = ...
+Pokemon = STARMIE,56
+Pokemon = GOLDUCK,57
+Pokemon = VAPOREON,56
+Pokemon = LAPRAS,56
+Pokemon = POLITOED,57
+Pokemon = TENTACRUEL,55
+#-------------------------------
+[LEADER_Misty,Misty,12]
+LoseText = ...
+Pokemon = STARMIE,61
+Pokemon = GOLDUCK,62
+Pokemon = VAPOREON,61
+Pokemon = LAPRAS,61
+Pokemon = POLITOED,62
+Pokemon = TENTACRUEL,60
+#-------------------------------
+[LEADER_Misty,Misty,13]
+LoseText = ...
+Pokemon = STARMIE,65
+Pokemon = GOLDUCK,66
+Pokemon = VAPOREON,65
+Pokemon = LAPRAS,65
+Pokemon = POLITOED,66
+Pokemon = TENTACRUEL,64
+#-------------------------------
+[LEADER_Misty,Misty,14]
+LoseText = ...
+Pokemon = STARMIE,70
+Pokemon = GOLDUCK,71
+Pokemon = VAPOREON,70
+Pokemon = LAPRAS,70
+Pokemon = POLITOED,71
+Pokemon = TENTACRUEL,69
+#-------------------------------
+[LEADER_Misty,Misty,15]
+LoseText = ...
+Pokemon = STARMIE,72
+Pokemon = GOLDUCK,73
+Pokemon = VAPOREON,72
+Pokemon = LAPRAS,72
+Pokemon = POLITOED,73
+Pokemon = KYOGRE,75
+#-------------------------------
+[LEADER_Brock,Brock]
+LoseText = ...
+Pokemon = GEODUDE,9
+Pokemon = ONIX,10
+#-------------------------------
+[LEADER_Brock,Brock,1]
+LoseText = ...
+Pokemon = GEODUDE,13
+Pokemon = GRAVELER,14
+Pokemon = SANDSHREW,14
+#-------------------------------
+[LEADER_Brock,Brock,2]
+LoseText = ...
+Pokemon = GRAVELER,17
+Pokemon = ONIX,18
+Pokemon = RHYHORN,18
+#-------------------------------
+[LEADER_Brock,Brock,3]
+LoseText = ...
+Pokemon = GRAVELER,21
+Pokemon = ONIX,22
+Pokemon = RHYHORN,23
+Pokemon = SANDSLASH,22
+#-------------------------------
+[LEADER_Brock,Brock,4]
+LoseText = ...
+Pokemon = GOLEM,26
+Pokemon = RHYDON,27
+Pokemon = SANDSLASH,27
+Pokemon = MAROWAK,27
+#-------------------------------
+[LEADER_Brock,Brock,5]
+LoseText = ...
+Pokemon = GOLEM,30
+Pokemon = RHYDON,31
+Pokemon = SANDSLASH,31
+Pokemon = MAROWAK,30
+Pokemon = SUDOWOODO,31
+#-------------------------------
+[LEADER_Brock,Brock,6]
+LoseText = ...
+Pokemon = GOLEM,33
+Pokemon = RHYDON,34
+Pokemon = SANDSLASH,34
+Pokemon = MAROWAK,33
+Pokemon = SUDOWOODO,34
+#-------------------------------
+[LEADER_Brock,Brock,7]
+LoseText = ...
+Pokemon = GOLEM,36
+Pokemon = RHYDON,37
+Pokemon = SANDSLASH,37
+Pokemon = MAROWAK,36
+Pokemon = SUDOWOODO,37
+#-------------------------------
+[LEADER_Brock,Brock,8]
+LoseText = ...
+Pokemon = GOLEM,41
+Pokemon = RHYDON,42
+Pokemon = SANDSLASH,42
+Pokemon = MAROWAK,41
+Pokemon = DONPHAN,41
+#-------------------------------
+[LEADER_Brock,Brock,9]
+LoseText = ...
+Pokemon = GOLEM,46
+Pokemon = RHYDON,47
+Pokemon = SANDSLASH,47
+Pokemon = MAROWAK,46
+Pokemon = DONPHAN,46
+#-------------------------------
+[LEADER_Brock,Brock,10]
+LoseText = ...
+Pokemon = GOLEM,51
+Pokemon = RHYDON,52
+Pokemon = SANDSLASH,52
+Pokemon = MAROWAK,51
+Pokemon = DONPHAN,51
+#-------------------------------
+[LEADER_Brock,Brock,11]
+LoseText = ...
+Pokemon = GOLEM,56
+Pokemon = RHYDON,57
+Pokemon = SANDSLASH,57
+Pokemon = MAROWAK,56
+Pokemon = DONPHAN,56
+Pokemon = DUGTRIO,55
+#-------------------------------
+[LEADER_Brock,Brock,12]
+LoseText = ...
+Pokemon = GOLEM,61
+Pokemon = RHYDON,62
+Pokemon = SANDSLASH,62
+Pokemon = MAROWAK,61
+Pokemon = DONPHAN,61
+Pokemon = DUGTRIO,60
+#-------------------------------
+[LEADER_Brock,Brock,13]
+LoseText = ...
+Pokemon = GOLEM,65
+Pokemon = RHYDON,66
+Pokemon = SANDSLASH,66
+Pokemon = MAROWAK,65
+Pokemon = DONPHAN,65
+Pokemon = DUGTRIO,64
+#-------------------------------
+[LEADER_Brock,Brock,14]
+LoseText = ...
+Pokemon = GOLEM,70
+Pokemon = RHYDON,71
+Pokemon = SANDSLASH,71
+Pokemon = MAROWAK,70
+Pokemon = DONPHAN,70
+Pokemon = DUGTRIO,69
+#-------------------------------
+[LEADER_Brock,Brock,15]
+LoseText = ...
+Pokemon = GOLEM,72
+Pokemon = RHYDON,73
+Pokemon = SANDSLASH,73
+Pokemon = MAROWAK,72
+Pokemon = DONPHAN,72
+Pokemon = GROUDON,75
+#-------------------------------
+[LEADER_Blaine,Blaine]
+LoseText = ...
+Pokemon = GROWLITHE,9
+Pokemon = PONYTA,10
+#-------------------------------
+[LEADER_Blaine,Blaine,1]
+LoseText = ...
+Pokemon = GROWLITHE,13
+Pokemon = PONYTA,14
+Pokemon = VULPIX,14
+#-------------------------------
+[LEADER_Blaine,Blaine,2]
+LoseText = ...
+Pokemon = ARCANINE,18
+Pokemon = RAPIDASH,18
+Pokemon = VULPIX,19
+#-------------------------------
+[LEADER_Blaine,Blaine,3]
+LoseText = ...
+Pokemon = ARCANINE,21
+Pokemon = RAPIDASH,22
+Pokemon = NINETALES,22
+Pokemon = MAGMAR,22
+#-------------------------------
+[LEADER_Blaine,Blaine,4]
+LoseText = ...
+Pokemon = ARCANINE,26
+Pokemon = RAPIDASH,27
+Pokemon = NINETALES,27
+Pokemon = MAGMAR,27
+#-------------------------------
+[LEADER_Blaine,Blaine,5]
+LoseText = ...
+Pokemon = ARCANINE,30
+Pokemon = RAPIDASH,31
+Pokemon = NINETALES,31
+Pokemon = MAGMAR,30
+Pokemon = FLAREON,31
+#-------------------------------
+[LEADER_Blaine,Blaine,6]
+LoseText = ...
+Pokemon = ARCANINE,33
+Pokemon = RAPIDASH,34
+Pokemon = NINETALES,34
+Pokemon = MAGMAR,33
+Pokemon = FLAREON,34
+#-------------------------------
+[LEADER_Blaine,Blaine,7]
+LoseText = ...
+Pokemon = ARCANINE,36
+Pokemon = RAPIDASH,37
+Pokemon = NINETALES,37
+Pokemon = MAGMAR,36
+Pokemon = FLAREON,37
+#-------------------------------
+[LEADER_Blaine,Blaine,8]
+LoseText = ...
+Pokemon = ARCANINE,41
+Pokemon = RAPIDASH,42
+Pokemon = NINETALES,42
+Pokemon = MAGMAR,41
+Pokemon = HOUNDOOM,41
+#-------------------------------
+[LEADER_Blaine,Blaine,9]
+LoseText = ...
+Pokemon = ARCANINE,46
+Pokemon = RAPIDASH,47
+Pokemon = NINETALES,47
+Pokemon = MAGMAR,46
+Pokemon = HOUNDOOM,46
+#-------------------------------
+[LEADER_Blaine,Blaine,10]
+LoseText = ...
+Pokemon = ARCANINE,51
+Pokemon = RAPIDASH,52
+Pokemon = NINETALES,52
+Pokemon = MAGMAR,51
+Pokemon = HOUNDOOM,51
+#-------------------------------
+[LEADER_Blaine,Blaine,11]
+LoseText = ...
+Pokemon = ARCANINE,56
+Pokemon = RAPIDASH,57
+Pokemon = NINETALES,57
+Pokemon = MAGMAR,56
+Pokemon = HOUNDOOM,56
+Pokemon = TYPHLOSION,55
+#-------------------------------
+[LEADER_Blaine,Blaine,12]
+LoseText = ...
+Pokemon = ARCANINE,61
+Pokemon = RAPIDASH,62
+Pokemon = NINETALES,62
+Pokemon = MAGMAR,61
+Pokemon = HOUNDOOM,61
+Pokemon = TYPHLOSION,60
+#-------------------------------
+[LEADER_Blaine,Blaine,13]
+LoseText = ...
+Pokemon = ARCANINE,65
+Pokemon = RAPIDASH,66
+Pokemon = NINETALES,66
+Pokemon = MAGMAR,65
+Pokemon = HOUNDOOM,65
+Pokemon = TYPHLOSION,64
+#-------------------------------
+[LEADER_Blaine,Blaine,14]
+LoseText = ...
+Pokemon = ARCANINE,70
+Pokemon = RAPIDASH,71
+Pokemon = NINETALES,71
+Pokemon = MAGMAR,70
+Pokemon = HOUNDOOM,70
+Pokemon = TYPHLOSION,69
+#-------------------------------
+[LEADER_Blaine,Blaine,15]
+LoseText = ...
+Pokemon = ARCANINE,72
+Pokemon = RAPIDASH,73
+Pokemon = NINETALES,73
+Pokemon = MAGMAR,72
+Pokemon = HOUNDOOM,72
+Pokemon = MOLTRES,75
+#-------------------------------
+[LEADER_Blue,Blue]
+LoseText = ...
+Pokemon = PIDGEY,9
+Pokemon = SQUIRTLE,10
+#-------------------------------
+[LEADER_Blue,Blue,1]
+LoseText = ...
+Pokemon = PIDGEOTTO,13
+Pokemon = WARTORTLE,14
+Pokemon = GROWLITHE,14
+#-------------------------------
+[LEADER_Blue,Blue,2]
+LoseText = ...
+Pokemon = PIDGEOTTO,17
+Pokemon = WARTORTLE,18
+Pokemon = ARCANINE,18
+Pokemon = GRAVELER,18
+#-------------------------------
+[LEADER_Blue,Blue,3]
+LoseText = ...
+Pokemon = PIDGEOT,21
+Pokemon = ARCANINE,22
+Pokemon = POLIWRATH,22
+Pokemon = GOLEM,23
+#-------------------------------
+[LEADER_Blue,Blue,4]
+LoseText = ...
+Pokemon = PIDGEOT,26
+Pokemon = ARCANINE,27
+Pokemon = GYARADOS,27
+Pokemon = ALAKAZAM,27
+#-------------------------------
+[LEADER_Blue,Blue,5]
+LoseText = ...
+Pokemon = PIDGEOT,30
+Pokemon = ARCANINE,31
+Pokemon = GYARADOS,31
+Pokemon = ALAKAZAM,30
+Pokemon = RHYDON,31
+#-------------------------------
+[LEADER_Blue,Blue,6]
+LoseText = ...
+Pokemon = PIDGEOT,33
+Pokemon = ARCANINE,34
+Pokemon = GYARADOS,34
+Pokemon = ALAKAZAM,33
+Pokemon = RHYDON,34
+#-------------------------------
+[LEADER_Blue,Blue,7]
+LoseText = ...
+Pokemon = PIDGEOT,36
+Pokemon = ARCANINE,37
+Pokemon = GYARADOS,37
+Pokemon = ALAKAZAM,36
+Pokemon = RHYDON,37
+#-------------------------------
+[LEADER_Blue,Blue,8]
+LoseText = ...
+Pokemon = PIDGEOT,41
+Pokemon = ARCANINE,42
+Pokemon = GYARADOS,42
+Pokemon = ALAKAZAM,41
+Pokemon = RHYDON,41
+Pokemon = MACHAMP,41
+#-------------------------------
+[LEADER_Blue,Blue,9]
+LoseText = ...
+Pokemon = PIDGEOT,46
+Pokemon = ARCANINE,47
+Pokemon = GYARADOS,47
+Pokemon = ALAKAZAM,46
+Pokemon = RHYDON,46
+Pokemon = MACHAMP,46
+#-------------------------------
+[LEADER_Blue,Blue,10]
+LoseText = ...
+Pokemon = PIDGEOT,51
+Pokemon = ARCANINE,52
+Pokemon = GYARADOS,52
+Pokemon = ALAKAZAM,51
+Pokemon = RHYDON,51
+Pokemon = MACHAMP,51
+#-------------------------------
+[LEADER_Blue,Blue,11]
+LoseText = ...
+Pokemon = PIDGEOT,56
+Pokemon = ARCANINE,57
+Pokemon = GYARADOS,57
+Pokemon = ALAKAZAM,56
+Pokemon = RHYDON,56
+Pokemon = MACHAMP,56
+#-------------------------------
+[LEADER_Blue,Blue,12]
+LoseText = ...
+Pokemon = PIDGEOT,61
+Pokemon = ARCANINE,62
+Pokemon = GYARADOS,62
+Pokemon = ALAKAZAM,61
+Pokemon = RHYDON,61
+Pokemon = MACHAMP,61
+#-------------------------------
+[LEADER_Blue,Blue,13]
+LoseText = ...
+Pokemon = PIDGEOT,65
+Pokemon = ARCANINE,66
+Pokemon = GYARADOS,66
+Pokemon = ALAKAZAM,65
+Pokemon = RHYDON,65
+Pokemon = MACHAMP,65
+#-------------------------------
+[LEADER_Blue,Blue,14]
+LoseText = ...
+Pokemon = PIDGEOT,70
+Pokemon = ARCANINE,71
+Pokemon = GYARADOS,71
+Pokemon = ALAKAZAM,70
+Pokemon = RHYDON,70
+Pokemon = MACHAMP,70
+#-------------------------------
+[LEADER_Blue,Blue,15]
+LoseText = ...
+Pokemon = PIDGEOT,72
+Pokemon = ARCANINE,73
+Pokemon = GYARADOS,73
+Pokemon = ALAKAZAM,72
+Pokemon = RHYDON,72
+Pokemon = LATIAS,75
+#-------------------------------
+[POKEMONTRAINER_1,????]
+LoseText = ...
+Pokemon = CHARIZARD,40
+Pokemon = BUTTERFREE,42
+#-------------------------------
+[POKEMONTRAINER_2,????]
+LoseText = ...
+Pokemon = VENUSAUR,40
+Pokemon = RATICATE,41
+#-------------------------------
+[POKEMONTRAINER_3,????]
+LoseText = ...
+Pokemon = BLASTOISE,40
+Pokemon = ARBOK,44
+#-------------------------------
+[POKEMONTRAINER_4,????]
+LoseText = ...
+Pokemon = RAICHU,40
+Pokemon = NIDOKING,43
+#-------------------------------
+[POKEMONTRAINER_5,????]
+LoseText = ...
+Pokemon = NINETALES,45
+Pokemon = BEEDRILL,46
+Pokemon = FEAROW,44
+#-------------------------------
+[POKEMONTRAINER_6,????]
+LoseText = ...
+Pokemon = CLEFABLE,45
+Pokemon = POLIWRATH,45
+Pokemon = RAPIDASH,45
+#-------------------------------
+[POKEMONTRAINER_7,????]
+LoseText = ...
+Pokemon = HITMONLEE,45
+Pokemon = HITMONCHAN,46
+Pokemon = MACHAMP,48
+#-------------------------------
+[POKEMONTRAINER_8,????]
+LoseText = ...
+Pokemon = CLOYSTER,50
+Pokemon = GENGAR,50
+Pokemon = KABUTOPS,50
+#-------------------------------
+[POKEMONTRAINER_9,????]
+LoseText = ...
+Pokemon = LANTURN,50
+Pokemon = GIRAFARIG,50
+Pokemon = SEAKING,50
+#-------------------------------
+[POKEMONTRAINER_10,????]
+LoseText = ...
+Pokemon = BEEDRILL,55
+Pokemon = SNEASEL,55
+Pokemon = FORRETRESS,55
+Pokemon = HERACROSS,60
+#-------------------------------
+[POKEMONTRAINER_11,????]
+LoseText = ...
+Pokemon = VAPOREON,50
+Pokemon = GOLDUCK,50
+Pokemon = MANTINE,50
+Pokemon = AZUMARILL,50
+#-------------------------------
+[POKEMONTRAINER_12,????]
+LoseText = ...
+Pokemon = PSYDUCK,50
+Pokemon = GOLDUCK,50
+Pokemon = DODRIO,50
+Pokemon = NOCTOWL,50
+#-------------------------------
+[POKEMONTRAINER_13,????]
+LoseText = ...
+Pokemon = NIDORANfE,50
+Pokemon = KRABBY,50
+Pokemon = SENTRET,50
+Pokemon = PICHU,50
+Pokemon = NATU,50
+Pokemon = RHYDON,50
+#-------------------------------
+[POKEMONTRAINER_15,????]
+LoseText = ...
+Pokemon = CHATOT,60
+Pokemon = SPIRITOMB,60
+Pokemon = SABLEYE,62
+Pokemon = DUSKNOIR,65
+#-------------------------------
+[POKEMONTRAINER_16,????]
+LoseText = ...
+Pokemon = ELECTRODE,60
+Pokemon = GYARADOS,60
+Pokemon = DONPHAN,60
+Pokemon = SKARMORY,60
+Pokemon = RHYDON,60
+#-------------------------------
+[POKEMONTRAINER_17,????]
+LoseText = ...
+Pokemon = RAICHU,60
+Pokemon = VICTREEBEL,60
+Pokemon = HOUNDOOM,60
+Pokemon = UMBREON,60
+#-------------------------------
+[POKEMONTRAINER_18,????]
+LoseText = ...
+Pokemon = SUNFLORA,60
+Pokemon = YANMA,60
+Pokemon = MILTANK,60
+Pokemon = SHUCKLE,60
+#-------------------------------
+[POKEMONTRAINER_19,????]
+LoseText = ...
+Pokemon = CELEBI,60
+    Ability = STURDY
+    Item = LEFTOVERS
+    Shiny = true
+#-------------------------------
+[POKEMONTRAINER_20,????]
+LoseText = ...
+Pokemon = GOLEM,60
+Pokemon = SUDOWOODO,60
+Pokemon = GRANBULL,60
+Pokemon = AIPOM,60
+Pokemon = PRIMEAPE,60
+#-------------------------------
+[POKEMONTRAINER_21,????]
+LoseText = ...
+Pokemon = CLEFABLE,60
+Pokemon = TOGETIC,60
+Pokemon = PORYGON2,60
+Pokemon = ALAKAZAM,60
+#-------------------------------
+[POKEMONTRAINER_22,????]
+LoseText = ...
+Pokemon = LEDIAN,62
+Pokemon = EXEGGUTOR,61
+Pokemon = QUAGSIRE,65
+Pokemon = TYRANITAR,63
+#-------------------------------
+[POKEMONTRAINER_24,????]
+LoseText = ...
+Pokemon = VENOMOTH,62
+Pokemon = KANGASKHAN,64
+Pokemon = HYPNO,61
+Pokemon = OCTILLERY,63
+#-------------------------------
+[POKEMONTRAINER_25,????]
+LoseText = ...
+Pokemon = BULBASAUR,60
+Pokemon = CHARMANDER,60
+Pokemon = SQUIRTLE,60
+Pokemon = CHIKORITA,60
+Pokemon = CYNDAQUIL,60
+Pokemon = TOTODILE,60
+#-------------------------------
+[POKEMONTRAINER_26,????]
+LoseText = ...
+Pokemon = NIDOQUEEN,65
+Pokemon = NIDOKING,65
+#-------------------------------
+[POKEMONTRAINER_27,????]
+LoseText = ...
+Pokemon = MUK,62
+Pokemon = GENGAR,62
+Pokemon = AMPHAROS,65
+#-------------------------------
+[POKEMONTRAINER_28,????]
+LoseText = ...
+Pokemon = BLASTOISE,65
+Pokemon = FERALIGATR,65
+Pokemon = TANGELA,68
+Pokemon = POLITOED,66
+#-------------------------------
+[POKEMONTRAINER_29,????]
+LoseText = ...
+Pokemon = DRATINI,65
+Pokemon = DRAGONAIR,68
+Pokemon = GYARADOS,69
+Pokemon = DRAGONITE,70
+Pokemon = LAPRAS,66
+#-------------------------------
+[POKEMONTRAINER_30,????]
+LoseText = ...
+Pokemon = GIRAFARIG,70
+Pokemon = STANTLER,70
+Pokemon = SMEARGLE,70
+#-------------------------------
+[POKEMONTRAINER_31,????]
+LoseText = ...
+Pokemon = METAPOD,70
+Pokemon = WEEPINBELL,70
+Pokemon = SCYTHER,70
+Pokemon = BAYLEEF,70
+Pokemon = POLITOED,70
+Pokemon = SKIPLOOM,70
+#-------------------------------
+[POKEMONTRAINER_32,????]
+LoseText = ...
+Pokemon = WIGGLYTUFF,70
+Pokemon = SUNFLORA,65
+Pokemon = LOUDRED,62
+Pokemon = CORPHISH,64
+Pokemon = BIDOOF,69
+Pokemon = CHATOT,60
+#-------------------------------
+[POKEMONTRAINER_33,????]
+LoseText = ...
+Pokemon = STEELIX,70
+Pokemon = POLITOED,70
+Pokemon = YANMA,70
+#-------------------------------
+[POKEMONTRAINER_34,????]
+LoseText = ...
+Pokemon = HOUNDOOM,75
+Pokemon = GRANBULL,75
+Pokemon = JOLTEON,75
+Pokemon = ARCANINE,75
+#-------------------------------
+[POKEMONTRAINER_35,????]
+LoseText = ...
+Pokemon = PARASECT,75
+Pokemon = GENGAR,76
+Pokemon = MAGNETON,77
+Pokemon = MAROWAK,78
+Pokemon = NOCTOWL,79
+Pokemon = QWILFISH,80
+#-------------------------------
+[POKEMONTRAINER_36,????]
+LoseText = ...
+Pokemon = NOCTOWL,80
+Pokemon = XATU,80
+Pokemon = SKARMORY,80
+Pokemon = MURKROW,80
+Pokemon = UNOWN,99
+#-------------------------------
+[POKEMONTRAINER_37,????]
+LoseText = ...
+Pokemon = BUTTERFREE,90
+Pokemon = BEEDRILL,90
+Pokemon = SNEASEL,90
+Pokemon = YANMA,90
+#-------------------------------
+[POKEMONTRAINER_38,????]
+LoseText = ...
+Pokemon = ARBOK,80
+Pokemon = WEEZING,80
+#-------------------------------
+[POKEMONTRAINER_41,????]
+LoseText = ...
+Pokemon = MARILL,80
+Pokemon = RATICATE,80
+Pokemon = RAICHU,80
+#-------------------------------
+[POKEMONTRAINER_42,????]
+LoseText = ...
+Pokemon = VENUSAUR,80
+Pokemon = CHARIZARD,80
+Pokemon = BLASTOISE,80
+#-------------------------------
+[POKEMONTRAINER_43,????]
+LoseText = ...
+Pokemon = EEVEE,80
+Pokemon = VAPOREON,80
+Pokemon = JOLTEON,80
+Pokemon = FLAREON,80
+#-------------------------------
+[POKEMONTRAINER_44,????]
+LoseText = ...
+Pokemon = AMPHAROS,80
+Pokemon = RAICHU,80
+Pokemon = ELECTRODE,80
+#-------------------------------
+[POKEMONTRAINER_45,????]
+LoseText = ...
+Pokemon = CHARIZARD,80
+Pokemon = ARCANINE,80
+Pokemon = MAGMAR,80
+Pokemon = TYPHLOSION,80
+#-------------------------------
+[POKEMONTRAINER_46,????]
+LoseText = ...
+Pokemon = RATTATA,80
+Pokemon = KADABRA,80
+Pokemon = MACHOKE,80
+Pokemon = HAUNTER,80
+#-------------------------------
+[POKEMONTRAINER_47,????]
+LoseText = ...
+Pokemon = DUGTRIO,80
+Pokemon = HYPNO,80
+Pokemon = MISDREAVUS,80
+#-------------------------------
+[POKEMONTRAINER_48,????]
+LoseText = ...
+Pokemon = PORYGON2,80
+Pokemon = SKARMORY,80
+Pokemon = STEELIX,80
+Pokemon = SCIZOR,80
+#-------------------------------
+[POKEMONTRAINER_49,????]
+LoseText = ...
+Pokemon = ZUBAT,90
+Pokemon = ZUBAT,90
+Pokemon = ZUBAT,90
+Pokemon = ZUBAT,90
+Pokemon = ZUBAT,90
+Pokemon = CROBAT,90
+#-------------------------------
+[POKEMONTRAINER_50,????]
+LoseText = ...
+Pokemon = SANDSLASH,90
+Pokemon = PRIMEAPE,90
+Pokemon = MRMIME,90
+Pokemon = BLASTOISE,90
+#-------------------------------
+[POKEMONTRAINER_51,????]
+LoseText = ...
+Pokemon = VILEPLUME,90
+Pokemon = PARASECT,90
+Pokemon = MEGANIUM,90
+Pokemon = BELLOSSOM,90
+#-------------------------------
+[POKEMONTRAINER_52,????]
+LoseText = ...
+Pokemon = MAGNETON,90
+Pokemon = STARMIE,90
+Pokemon = SABLEYE,90
+Pokemon = SPOINK,90
+#-------------------------------
+[POKEMONTRAINER_53,????]
+LoseText = ...
+Pokemon = TYRANITAR,90
+Pokemon = CHARIZARD,90
+Pokemon = RHYDON,90
+#-------------------------------
+[POKEMONTRAINER_54,????]
+LoseText = ...
+Pokemon = KABUTOPS,90
+Pokemon = OMASTAR,90
+Pokemon = AERODACTYL,90
+Pokemon = SNORLAX,90
+#-------------------------------
+[POKEMONTRAINER_55,????]
+LoseText = ...
+Pokemon = PERSIAN,90
+Pokemon = FURRET,90
+Pokemon = GIRAFARIG,90
+Pokemon = DEWGONG,90
+#-------------------------------
+[POKEMONTRAINER_56,????]
+LoseText = ...
+Pokemon = FERALIGATR,80
+Pokemon = TANGELA,80
+Pokemon = JUMPLUFF,80
+Pokemon = CORSOLA,80
+#-------------------------------
+[POKEMONTRAINER_57,????]
+LoseText = ...
+Pokemon = FEAROW,90
+Pokemon = PIDGEOT,90
+Pokemon = FARFETCHD,90
+Pokemon = DODRIO,90
+Pokemon = AERODACTYL,90
+#-------------------------------
+[POKEMONTRAINER_58,????]
+LoseText = ...
+Pokemon = SNEASEL,100
+Pokemon = SNEASEL,100
+Pokemon = SNEASEL,100
+Pokemon = SNEASEL,100
+Pokemon = SNEASEL,100
+Pokemon = SNEASEL,100
+#-------------------------------
+[POKEMONTRAINER_60,????]
+LoseText = ...
+Pokemon = NINETALES,85
+Pokemon = PERSIAN,85
+Pokemon = TAUROS,85
+Pokemon = FLAREON,85
+Pokemon = VAPOREON,85
+Pokemon = JOLTEON,85
+#-------------------------------
+[POKEMONTRAINER_61,????]
+LoseText = ...
+Pokemon = POLIWRATH,90
+Pokemon = JYNX,90
+Pokemon = NINETALES,90
+#-------------------------------
+[POKEMONTRAINER_62,????]
+LoseText = ...
+Pokemon = SALAMENCE,90
+Pokemon = METAGROSS,90
+Pokemon = MILOTIC,90
+Pokemon = ABSOL,90
+#-------------------------------
+[POKEMONTRAINER_63,????]
+LoseText = ...
+Pokemon = CHARIZARD,90
+Pokemon = ARCANINE,90
+Pokemon = BULBASAUR,10
+Pokemon = NINETALES,90
+#-------------------------------
+[POKEMONTRAINER_59,????]
+LoseText = ...
+Pokemon = MRMIME,100
+Pokemon = JYNX,100
+#-------------------------------
+[POKEMONTRAINER_65,????]
+LoseText = ...
+Pokemon = MAGCARGO,90
+Pokemon = MURKROW,90
+Pokemon = UNOWN,90
+#-------------------------------
+[POKEMONTRAINER_64,????]
+LoseText = ...
+Pokemon = ARCANINE,90
+Pokemon = DONPHAN,90
+#-------------------------------
+[POKEMONTRAINER_66,????]
+LoseText = ...
+Pokemon = RAPIDASH,90
+#-------------------------------
+[POKEMONTRAINER_67,????]
+LoseText = ...
+Pokemon = ALAKAZAM,90
+Pokemon = QUAGSIRE,90
+Pokemon = GLIGAR,90
+#-------------------------------
+[POKEMONTRAINER_68,????]
+LoseText = ...
+Pokemon = BEAUTIFLY,90
+Pokemon = DUSTOX,90
+Pokemon = BUTTERFREE,90
+Pokemon = VENOMOTH,90
+#-------------------------------
+[CAMPER,Jerry]
+LoseText = ...
+Pokemon = SANDSLASH,37
+#-------------------------------
+[SWIMMER_F,Briana]
+LoseText = ...
+Pokemon = SEAKING,35
+Pokemon = SEAKING,35
+#-------------------------------
+[SWIMMER_M,Parker]
+LoseText = ...
+Pokemon = HORSEA,32
+Pokemon = HORSEA,32
+Pokemon = SEADRA,35
+#-------------------------------
+[SWIMMER_F,Diana]
+LoseText = ...
+Pokemon = GOLDUCK,37
+#-------------------------------
+[MEDIUM,Rebecca]
+LoseText = ...
+Pokemon = DROWZEE,35
+Pokemon = HYPNO,35
+#-------------------------------
+[MEDIUM,Diana]
+LoseText = ...
+Pokemon = MRMIME,32
+Pokemon = EXEGGCUTE,32
+Pokemon = EXEGGCUTE,35
+#-------------------------------
+[MEDIUM,Doris]
+LoseText = ...
+Pokemon = SLOWPOKE,34
+Pokemon = SLOWBRO,36
+#-------------------------------
+[MEDIUM,Dolly]
+LoseText = ...
+Pokemon = KADABRA,37
+#-------------------------------
+[JUGGLER,Gregory]
+LoseText = ...
+Pokemon = PIKACHU,37
+Pokemon = FLAAFFY,33
+#-------------------------------
+[JUGGLER,Horton]
+LoseText = ...
+Pokemon = ELECTRODE,33
+Pokemon = ELECTRODE,33
+Pokemon = ELECTRODE,33
+Pokemon = ELECTRODE,33
+#-------------------------------
+[JUGGLER,Vincent]
+LoseText = ...
+Pokemon = MAGNEMITE,27
+Pokemon = VOLTORB,33
+Pokemon = MAGNEMITE,32
+#-------------------------------
+[TWINS,Jo AND Zoe]
+LoseText = ...
+Pokemon = VILEPLUME,35
+Pokemon = VICTREEBEL,35
+#-------------------------------
+[BEAUTY,Julia]
+LoseText = ...
+Pokemon = EXEGGCUTE,32
+Pokemon = PARASECT,35
+#-------------------------------
+[LASS,Michelle]
+LoseText = ...
+Pokemon = SKIPLOOM,32
+Pokemon = HOPPIP,33
+Pokemon = JUMPLUFF,34
+#-------------------------------
+[PICKNICKER,Tanya]
+LoseText = ...
+Pokemon = EXEGGUTOR,37
+#-------------------------------
+[PICNICKER,Tanya]
+LoseText = ...
+Pokemon = EXEGGUTOR,37
+#-------------------------------
+[COOLTRAINER_F,Nalla]
+LoseText = ...
+Pokemon = DROWZEE,34
+Pokemon = KADABRA,34
+#-------------------------------
+[COOLTRAINER_F,Kay]
+LoseText = ...
+Pokemon = HYPNO,38
+#-------------------------------
+[COOLTRAINER_F,Kella]
+LoseText = ...
+Pokemon = DROWZEE,31
+Pokemon = DROWZEE,31
+Pokemon = DROWZEE,31
+Pokemon = DROWZEE,31
+#-------------------------------
+[COOLTRAINER_F,Kayger]
+LoseText = ...
+Pokemon = ARBOK,33
+Pokemon = ARBOK,33
+Pokemon = SANDSLASH,33
+#-------------------------------
+[COOLTRAINER_F,Shell]
+LoseText = ...
+Pokemon = SANDSLASH,34
+Pokemon = ARBOK,34
+Pokemon = DROWZEE,34
+Pokemon = HYPNO,34
+#-------------------------------
+[SCIENTIST,Knows]
+LoseText = ...
+Pokemon = NINETALES,38
+Pokemon = ARCANINE,38
+#-------------------------------
+[SCIENTIST,Tut]
+LoseText = ...
+Pokemon = CHARMELEON,34
+Pokemon = GROWLITHE,34
+#-------------------------------
+[SCIENTIST,Roy]
+LoseText = ...
+Pokemon = KOFFING,34
+Pokemon = ELECTRODE,34
+#-------------------------------
+[SCIENTIST,Kenneth]
+LoseText = ...
+Pokemon = KOFFING,34
+Pokemon = KOFFING,35
+Pokemon = WEEZING,38
+#-------------------------------
+[SCIENTIST,Josh]
+LoseText = ...
+Pokemon = QUILAVA,38
+#-------------------------------
+[SCIENTIST,Patrick]
+LoseText = ...
+Pokemon = MAGCARGO,36
+Pokemon = HOUNDOOM,36
+#-------------------------------
+[POKEMONTRAINER_69,????]
+LoseText = ...
+Pokemon = ARBOK,85
+Pokemon = NIDOKING,85
+Pokemon = GENGAR,85
+#-------------------------------
+[POKEMONTRAINER_70,????]
+LoseText = ...
+Pokemon = NIDORANfE,100
+Pokemon = NIDORANmA,100
+Pokemon = NIDORINO,90
+Pokemon = NIDORINA,90
+#-------------------------------
+[POKEMONTRAINER_71,????]
+LoseText = ...
+Pokemon = CHARIZARD,100
+#-------------------------------
+[POKEMONTRAINER_72,????]
+LoseText = ...
+Pokemon = GOLDUCK,90
+Pokemon = ALAKAZAM,90
+#-------------------------------
+[POKEMONTRAINER_73,????]
+LoseText = ...
+Pokemon = CHARMELEON,90
+Pokemon = CHARMELEON,90
+Pokemon = CHARMELEON,90
+#-------------------------------
+[POKEMONTRAINER_74,????]
+LoseText = ...
+Pokemon = NIDORANfE,85
+Pokemon = NIDORINO,86
+Pokemon = NIDOQUEEN,88
+#-------------------------------
+[POKEMONTRAINER_75,????]
+LoseText = ...
+Pokemon = BUTTERFREE,100
+Pokemon = BEEDRILL,100
+Pokemon = SCYTHER,100
+#-------------------------------
+[POKEMONTRAINER_78,????]
+LoseText = ...
+Pokemon = GLIGAR,90
+#-------------------------------
+[POKEMONTRAINER_79,????]
+LoseText = ...
+Pokemon = BLASTOISE,100
+#-------------------------------
+[POKEMONTRAINER_80,????]
+LoseText = ...
+Pokemon = SNEASEL,90
+Pokemon = FARFETCHD,90
+Pokemon = MAROWAK,90
+#-------------------------------
+[POKEMONTRAINER_81,????]
+LoseText = ...
+Pokemon = HOUNDOOM,85
+Pokemon = MAGCARGO,85
+Pokemon = TYPHLOSION,85
+#-------------------------------
+[POKEMONTRAINER_82,????]
+LoseText = ...
+Pokemon = SANDSLASH,90
+#-------------------------------
+[POKEMONTRAINER_83,????]
+LoseText = ...
+Pokemon = MACHAMP,85
+Pokemon = GOLEM,85
+Pokemon = RHYDON,85
+Pokemon = DONPHAN,85
+Pokemon = HITMONTOP,85
+#-------------------------------
+[POKEMONTRAINER_84,????]
+LoseText = ...
+Pokemon = HITMONCHAN,90
+Pokemon = HITMONLEE,90
+Pokemon = MAROWAK,90
+Pokemon = STEELIX,90
+#-------------------------------
+[POKEMONTRAINER_85,????]
+LoseText = ...
+Pokemon = POLITOED,90
+Pokemon = AZUMARILL,90
+#-------------------------------
+[POKEMONTRAINER_86,????]
+LoseText = ...
+Pokemon = CHARMELEON,85
+Pokemon = CHARIZARD,90
+#-------------------------------
+[POKEMONTRAINER_87,????]
+LoseText = ...
+Pokemon = GENGAR,85
+Pokemon = UNOWN,85
+Pokemon = MISDREAVUS,85
+#-------------------------------
+[POKEMONTRAINER_88,????]
+LoseText = ...
+Pokemon = VENUSAUR,85
+Pokemon = CHARIZARD,85
+Pokemon = BLASTOISE,85
+Pokemon = MEGANIUM,85
+Pokemon = TYPHLOSION,85
+Pokemon = FERALIGATR,85
+#-------------------------------
+[POKEMONTRAINER_89,????]
+LoseText = ...
+Pokemon = KABUTOPS,85
+Pokemon = OMASTAR,85
+Pokemon = AERODACTYL,85
+#-------------------------------
+[POKEMONTRAINER_91,????]
+LoseText = ...
+Pokemon = SLOWKING,100
+#-------------------------------
+[POKEMONTRAINER_92,????]
+LoseText = ...
+Pokemon = FEAROW,85
+Pokemon = PIDGEOT,85
+Pokemon = XATU,85
+#-------------------------------
+[POKEMONTRAINER_93,????]
+LoseText = ...
+Pokemon = WIGGLYTUFF,100
+#-------------------------------
+[POKEMONTRAINER_94,????]
+LoseText = ...
+Pokemon = VENUSAUR,100
+#-------------------------------
+[POKEMONTRAINER_95,????]
+LoseText = ...
+Pokemon = ELECTRODE,90
+Pokemon = ELECTRODE,90
+Pokemon = ELECTRODE,90
+Pokemon = ELECTRODE,90
+#-------------------------------
+[POKEMONTRAINER_96,????]
+LoseText = ...
+Pokemon = VENOMOTH,100
+Pokemon = BUTTERFREE,100
+#-------------------------------
+[POKEMONTRAINER_97,????]
+LoseText = ...
+Pokemon = FARFETCHD,100
+Pokemon = LOPUNNY,100
+#-------------------------------
+[POKEMONTRAINER_98,????]
+LoseText = ...
+Pokemon = LUDICOLO,100
+Pokemon = LOUDRED,100
+#-------------------------------
+[POKEMONTRAINER_99,????]
+LoseText = ...
+Pokemon = VICTREEBEL,100
+#-------------------------------
+[POKEMONTRAINER_100,????]
+LoseText = ...
+Pokemon = SQUIRTLE,100
+Pokemon = SQUIRTLE,100
+Pokemon = BLASTOISE,100
+#-------------------------------
+[POKEMONTRAINER_101,????]
+LoseText = ...
+Pokemon = TENTACRUEL,100
+#-------------------------------
+[POKEMONTRAINER_102,????]
+LoseText = ...
+Pokemon = GLOOM,90
+Pokemon = GOLEM,90
+Pokemon = AIPOM,90
+#-------------------------------
+[POKEMONTRAINER_103,????]
+LoseText = ...
+Pokemon = OMASTAR,90
+Pokemon = STARYU,90
+Pokemon = STARMIE,90
+#-------------------------------
+[POKEMONTRAINER_104,????]
+LoseText = ...
+Pokemon = PORYGON2,100
+#-------------------------------
+[POKEMONTRAINER_106,????]
+LoseText = ...
+Pokemon = LUNATONE,90
+Pokemon = SOLROCK,90
+#-------------------------------
+[POKEMONTRAINER_108,????]
+LoseText = ...
+Pokemon = CHARMELEON,75
+Pokemon = SANDSLASH,75
+Pokemon = GOLDUCK,75
+#-------------------------------
+[POKEMONTRAINER_109,????]
+LoseText = ...
+Pokemon = PINSIR,80
+Pokemon = HERACROSS,80
+Pokemon = SNEASEL,80
+#-------------------------------
+[POKEMONTRAINER_110,????]
+LoseText = ...
+Pokemon = GOLDUCK,100
+#-------------------------------
+[POKEMONTRAINER_111,????]
+LoseText = ...
+Pokemon = DUGTRIO,80
+Pokemon = MAGNETON,80
+Pokemon = DODRIO,80
+#-------------------------------
+[POKEMONTRAINER_112,????]
+LoseText = ...
+Pokemon = PELIPPER,100
+#-------------------------------
+[POKEMONTRAINER_113,????]
+LoseText = ...
+Pokemon = CHARIZARD,90
+Pokemon = GYARADOS,90
+Pokemon = ALAKAZAM,90
+Pokemon = DONPHAN,90
+#-------------------------------
+[POKEMONTRAINER_114,????]
+LoseText = ...
+Pokemon = NIDOQUEEN,90
+Pokemon = RAPIDASH,90
+Pokemon = SNEASEL,90
+Pokemon = TYRANITAR,90
+#-------------------------------
+[POKEMONTRAINER_115,????]
+LoseText = ...
+Pokemon = FARFETCHD,85
+Pokemon = SCYTHER,85
+Pokemon = BAYLEEF,85
+Pokemon = POLITOED,85
+#-------------------------------
+[POKEMONTRAINER_116,????]
+LoseText = ...
+Pokemon = MAGMORTAR,100
+#-------------------------------
+[POKEMONTRAINER_117,????]
+LoseText = ...
+Pokemon = FEAROW,100
+#-------------------------------
+[POKEMONTRAINER_118,????]
+LoseText = ...
+Pokemon = PERSIAN,90
+Pokemon = HOUNDOOM,90
+#-------------------------------
+[POKEMONTRAINER_119,????]
+LoseText = ...
+Pokemon = HAUNTER,100
+Pokemon = MAROWAK,100
+#-------------------------------
+[POKEMONTRAINER_120,????]
+LoseText = ...
+Pokemon = NIDOQUEEN,100
+Pokemon = TANGELA,100
+#-------------------------------
+[POKEMONTRAINER_121,????]
+LoseText = ...
+Pokemon = ALAKAZAM,100
+Pokemon = POLIWRATH,100
+Pokemon = GENGAR,100
+Pokemon = SNORLAX,100
+Pokemon = PORYGON2,100
+#-------------------------------
+[POKEMONTRAINER_122,????]
+LoseText = ...
+Pokemon = IVYSAUR,90
+Pokemon = CHARIZARD,90
+Pokemon = SQUIRTLE,90
+#-------------------------------
+[POKEMONTRAINER_123,????]
+LoseText = ...
+Pokemon = WIGGLYTUFF,100
+Pokemon = LAPRAS,100
+Pokemon = CLEFABLE,90
+#-------------------------------
+[POKEMONTRAINER_126,????]
+LoseText = ...
+Pokemon = SCYTHER,100
+Pokemon = MEGANIUM,100
+Pokemon = SUDOWOODO,100
+#-------------------------------
+[POKEMONTRAINER_127,????]
+LoseText = ...
+Pokemon = VICTREEBEL,100
+Pokemon = MAGNETON,100
+Pokemon = ALAKAZAM,100
+#-------------------------------
+[POKEMONTRAINER_128,????]
+LoseText = ...
+Pokemon = ELECTRODE,100
+Pokemon = GIRAFARIG,100
+Pokemon = ARCEUS,100
+#-------------------------------
+[POKEMONTRAINER_129,????]
+LoseText = ...
+Pokemon = UNOWN,100
+Pokemon = UNOWN,100
+Pokemon = UNOWN,100
+Pokemon = UNOWN,100
+Pokemon = UNOWN,100
+Pokemon = UNOWN,100
+#-------------------------------
+[POKEMONTRAINER_130,????]
+LoseText = ...
+Pokemon = ARCANINE,100
+#-------------------------------
+[POKEMONTRAINER_131,????]
+LoseText = ...
+Pokemon = GRANBULL,100
+Pokemon = HOUNDOOM,100
+Pokemon = TYRANITAR,100
+#-------------------------------
+[POKEMONTRAINER_133,????]
+LoseText = ...
+Pokemon = RAICHU,100
+Pokemon = LANTURN,100
+#-------------------------------
+[POKEFAN_M,Rex]
+LoseText = ...
+Pokemon = PHANPY,35
+#-------------------------------
+[POKEFAN_M,Allen]
+LoseText = ...
+Pokemon = TEDDIURSA,35
+#-------------------------------
+[SUPERNERD,Tom]
+LoseText = ...
+Pokemon = MAGNEMITE,32
+Pokemon = MAGNEMITE,32
+Pokemon = MAGNEMITE,32
+#-------------------------------
+[BIKER,Sam]
+LoseText = ...
+Pokemon = GRIMER,34
+Pokemon = MUK,34
+#-------------------------------
+[BIKER,Harris]
+LoseText = ...
+Pokemon = KOFFING,34
+Pokemon = KOFFING,34
+#-------------------------------
+[BIKER,Zeke]
+LoseText = ...
+Pokemon = FLAREON,34
+#-------------------------------
+[BIKER,Dwayne]
+LoseText = ...
+Pokemon = KOFFING,27
+Pokemon = KOFFING,28
+Pokemon = KOFFING,29
+Pokemon = KOFFING,30
+#-------------------------------
+[YOUNGSTER,Danny]
+LoseText = ...
+Pokemon = JYNX,31
+Pokemon = ELECTABUZZ,31
+Pokemon = MAGMAR,31
+#-------------------------------
+[COOLTRAINER_F,Quinn]
+LoseText = ...
+Pokemon = IVYSAUR,38
+Pokemon = STARMIE,38
+#-------------------------------
+[BUGCATCHER,Rob]
+LoseText = ...
+Pokemon = BEEDRILL,32
+Pokemon = BUTTERFREE,32
+#-------------------------------
+[BUGCATCHER,Doug]
+LoseText = ...
+Pokemon = ARIADOS,34
+#-------------------------------
+[BUGCATCHER,Ed]
+LoseText = ...
+Pokemon = BEEDRILL,30
+Pokemon = BEEDRILL,30
+Pokemon = BEEDRILL,30
+#-------------------------------
+[FIREBREATHER,Otis]
+LoseText = ...
+Pokemon = MAGMAR,29
+Pokemon = WEEZING,32
+Pokemon = MAGMAR,29
+#-------------------------------
+[FIREBREATHER,Burt]
+LoseText = ...
+Pokemon = KOFFING,32
+Pokemon = SLUGMA,32
+#-------------------------------
+[YOUNGSTER,Warren]
+LoseText = ...
+Pokemon = FEAROW,35
+#-------------------------------
+[YOUNGSTER,Jimmy]
+LoseText = ...
+Pokemon = RATICATE,33
+Pokemon = ARBOK,33
+#-------------------------------
+[HIKER,Benjamin]
+LoseText = ...
+Pokemon = DIGLETT,22
+Pokemon = GEODUDE,22
+Pokemon = DUGTRIO,25
+#-------------------------------
+[POKEMANIAC,Shane]
+LoseText = ...
+Pokemon = NIDORINA,22
+Pokemon = NIDORINO,22
+#-------------------------------
+[FISHERMAN,Tully]
+LoseText = ...
+Pokemon = QWILFISH,25
+#-------------------------------
+[POKEMONTRAINER_23,????]
+LoseText = ...
+Pokemon = ARCANINE,100
+#-------------------------------
+[POKEMONTRAINER_71,Mama Red]
+LoseText = ...
+Pokemon = MRMIME,78
+Pokemon = KANGASKHAN,76
+Pokemon = BLISSEY,75
+Pokemon = CLEFABLE,74
+Pokemon = TOGEKISS,74
+Pokemon = GARDEVOIR,75
+#-------------------------------
+[POKEMONTRAINER_77,Red]
+LoseText = ...
+Pokemon = PIKACHU,88
+Pokemon = SNORLAX,84
+Pokemon = LAPRAS,85
+Pokemon = MEW,83
+Pokemon = PIDGEOT,87
+Pokemon = KINGLER,90
+#-------------------------------
+[ELITEFOUR_Will,Will,1]
+LoseText = ...
+Pokemon = XATU,80
+Pokemon = EXEGGUTOR,82
+Pokemon = SLOWBRO,81
+Pokemon = JYNX,82
+Pokemon = DEWGONG,84
+Pokemon = BLASTOISE,85
+#-------------------------------
+[ELITEFOUR_Koga,Koga,1]
+LoseText = ...
+Pokemon = ARIADOS,80
+Pokemon = VENOMOTH,82
+Pokemon = WEEZING,82
+Pokemon = MUK,84
+Pokemon = QWILFISH,84
+Pokemon = CROBAT,85
+#-------------------------------
+[ELITEFOUR_Bruno,Bruno,1]
+LoseText = ...
+Pokemon = HITMONCHAN,83
+Pokemon = HITMONLEE,83
+Pokemon = HITMONTOP,83
+Pokemon = MACHAMP,84
+Pokemon = DONPHAN,85
+Pokemon = PRIMEAPE,85
+#-------------------------------
+[ELITEFOUR_Karen,Karen,1]
+LoseText = ...
+Pokemon = ESPEON,85
+Pokemon = UMBREON,85
+Pokemon = FURRET,85
+Pokemon = MURKROW,85
+Pokemon = GENGAR,85
+Pokemon = ALAKAZAM,85
+#-------------------------------
+[CHAMPION_Lance,Lance,2]
+LoseText = ...
+Pokemon = GYARADOS,85
+Pokemon = LAPRAS,85
+Pokemon = CHARIZARD,86
+Pokemon = AERODACTYL,86
+Pokemon = DRAGONITE,87
+Pokemon = TYRANITAR,88
+#-------------------------------
+[POKEMONTRAINER_132,Light]
+LoseText = ...
+Pokemon = POLIWRATH,85
+Pokemon = RAPIDASH,86
+Pokemon = RAICHU,87
+Pokemon = HOUNDOOM,87
+Pokemon = METAGROSS,88
+Pokemon = SUICUNE,89
+#-------------------------------
+[HIKER,Speedy]
+LoseText = ...
+Pokemon = GOLBAT,22
+Pokemon = GOLBAT,22
+Pokemon = GOLBAT,22
+Pokemon = GOLBAT,22
+Pokemon = GOLBAT,22
+Pokemon = GOLBAT,22
+#-------------------------------
+[HIKER,Spade]
+LoseText = ...
+Pokemon = POLIWHIRL,22
+Pokemon = POLIWHIRL,22
+Pokemon = POLIWHIRL,22
+Pokemon = POLIWHIRL,22
+Pokemon = POLIWHIRL,22
+Pokemon = POLIWHIRL,22
+#-------------------------------
+[HIKER,Dukey]
+LoseText = ...
+Pokemon = GRAVELER,22
+Pokemon = GRAVELER,22
+Pokemon = GRAVELER,22
+Pokemon = GRAVELER,22
+Pokemon = GRAVELER,22
+Pokemon = GRAVELER,22
+#-------------------------------
+[HIKER,Anton]
+LoseText = ...
+Pokemon = MACHOKE,22
+Pokemon = MACHOKE,22
+Pokemon = MACHOKE,22
+Pokemon = MACHOKE,22
+Pokemon = MACHOKE,22
+Pokemon = MACHOKE,22
+#-------------------------------
+[HIKER,Hektor]
+LoseText = ...
+Pokemon = CHANSEY,22
+Pokemon = CHANSEY,22
+Pokemon = CHANSEY,22
+Pokemon = CHANSEY,22
+Pokemon = CHANSEY,22
+Pokemon = CHANSEY,22
+#-------------------------------
+[HIKER,Span]
+LoseText = ...
+Pokemon = HAUNTER,22
+Pokemon = HAUNTER,22
+Pokemon = HAUNTER,22
+Pokemon = HAUNTER,22
+Pokemon = HAUNTER,22
+Pokemon = HAUNTER,22

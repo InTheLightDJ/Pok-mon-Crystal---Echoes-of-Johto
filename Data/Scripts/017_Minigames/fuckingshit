@@ -1,0 +1,184 @@
+#===============================================================================
+# Helper: Day tracking
+#===============================================================================
+def pbGetDay
+  return pbGetTimeNow.wday   # 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+end
+
+#===============================================================================
+# Helper: Coin betting UI
+#===============================================================================
+def pbChooseCoinAmount(prompt, max, init = 1)
+  viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
+  viewport.z = 99999
+
+  helpwindow = Window_AdvancedTextPokemon.new(prompt)
+  helpwindow.viewport = viewport
+  helpwindow.visible = true
+  helpwindow.z = 99999
+  pbSetSystemFont(helpwindow.contents)
+
+  amount = UIHelper.pbChooseNumber(helpwindow, prompt, max, init) { Graphics.update }
+
+  helpwindow.dispose
+  viewport.dispose
+  return amount
+end
+
+#===============================================================================
+# Battle Wager Arena Main Module
+#===============================================================================
+module BattleWagerArena
+  TrainerProfile = Struct.new(:name, :species, :level, :trainer_type)
+  Match = Struct.new(:trainer1, :trainer2, :odds1, :odds2, :winner)
+
+  MATCH_THEMES = [
+    "Bug Battle Blitz", "Johto Throwdown", "Weather Wars",
+    "Flying Frenzy", "Tiny Titans", "Evolved Encounter"
+  ]
+
+  TRAINER_POOL = [
+    TrainerProfile.new("Bug Maniac Eli", :CATERPIE, 18, :BUGCATCHER),
+    TrainerProfile.new("Bird Keeper Ray", :PIDGEOTTO, 20, :BIRDKEEPER),
+    TrainerProfile.new("Youngster Timmy", :RATTATA, 19, :YOUNGSTER),
+    TrainerProfile.new("Lass Sarah", :JIGGLYPUFF, 19, :LASS),
+    TrainerProfile.new("Cooltrainer Rick", :EEVEE, 20, :COOLTRAINER_M),
+    TrainerProfile.new("Picnicker Mia", :SKITTY, 19, :PICNICKER),
+    TrainerProfile.new("Camper Drew", :SANDSHREW, 18, :CAMPER),
+    TrainerProfile.new("Hiker Ben", :ONIX, 21, :HIKER)
+  ]
+
+  def self.generate_daily_matches(count = 3)
+    matches = []
+    count.times do
+      t1 = TRAINER_POOL.sample
+      t2 = TRAINER_POOL.sample
+      next if t1 == t2
+
+      odds1 = [1.5, 1.8, 2.0, 2.5].sample
+      odds2 = [1.5, 1.8, 2.0, 2.5].sample
+      odds1, odds2 = odds2, odds1 if rand < 0.5
+
+      winner = rand < (1.0 / (odds1 + odds2)) * odds1 ? 1 : 2
+      matches << Match.new(t1, t2, odds1, odds2, winner)
+    end
+    $PokemonGlobal.daily_wager_matches = matches
+    $PokemonGlobal.wager_match_theme = MATCH_THEMES.sample
+  end
+
+  def self.get_matches
+    $PokemonGlobal.daily_wager_matches ||= []
+    generate_daily_matches if $PokemonGlobal.daily_wager_matches.empty?
+    return $PokemonGlobal.daily_wager_matches
+  end
+
+  def self.theme
+    $PokemonGlobal.wager_match_theme ||= MATCH_THEMES.sample
+    return $PokemonGlobal.wager_match_theme
+  end
+
+  def self.show_vs_screen(name1, name2)
+    viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
+    viewport.z = 99999
+    bg = Sprite.new(viewport)
+    bg.bitmap = Bitmap.new(Graphics.width, Graphics.height)
+    bg.bitmap.fill_rect(0, 0, Graphics.width, Graphics.height, Color.new(0, 0, 0, 200))
+
+    vs_text = Sprite.new(viewport)
+    vs_text.bitmap = Bitmap.new(Graphics.width, 64)
+    vs_text.bitmap.font.size = 36
+    vs_text.bitmap.draw_text(0, 0, Graphics.width, 64, "#{name1}  VS  #{name2}", 1)
+    vs_text.y = Graphics.height / 2 - 32
+
+    2.times do
+      Graphics.update
+      Input.update
+      pbWait(1)
+    end
+
+    bg.dispose
+    vs_text.dispose
+    viewport.dispose
+  end
+
+  def self.simulate_battle(trainer1, trainer2)
+    t1 = NPCTrainer.new(trainer1.name, trainer1.trainer_type)
+    t2 = NPCTrainer.new(trainer2.name, trainer2.trainer_type)
+
+    t1.party.clear
+    t2.party.clear
+
+    t1.party.push(Pokemon.new(trainer1.species, trainer1.level))
+    t2.party.push(Pokemon.new(trainer2.species, trainer2.level))
+
+    scene = Battle::Scene.new
+    battle = Battle.new(scene, t1, t1.party, t2, t2.party)
+    battle.internalBattle = false
+    battle.canRun = false
+    battle.endsSpeech = false
+    battle.controlPlayer = true
+    battle.controlEnemy = true
+
+    scene.pbStartBattle(battle)
+    return battle.decision
+  end
+
+  def self.play_interface
+    pbMessage(_INTL("\ts[]Welcome to the Battle Wager Arena!\nToday's theme is: {1}!", theme))
+    matches = get_matches
+    cmds = matches.map.with_index do |m, i|
+      _INTL("#{i + 1}. {1} vs {2}  | Odds: {3}x / {4}x", m.trainer1.name, m.trainer2.name, m.odds1, m.odds2)
+    end
+    cmds << "Exit"
+
+    loop do
+      choice = pbMessage("Which match would you like to bet on?", cmds, cmds.length)
+      break if choice.nil? || choice >= matches.length
+
+      match = matches[choice]
+      bet_side = pbMessage("Who do you bet on?", [match.trainer1.name, match.trainer2.name])
+      next if bet_side.nil?
+
+      amount = pbChooseCoinAmount(
+        _INTL("Enter amount (Max: {1})", [$player.coins, 999].min),
+        [$player.coins, 999].min
+      )
+
+      if amount <= 0 || amount > $player.coins
+        pbMessage("You decided not to place a bet.")
+        next
+      end
+
+      $player.coins -= amount
+      pbMessage(_INTL("The battle begins between {1} and {2}!", match.trainer1.name, match.trainer2.name))
+      pbWait(1)
+      show_vs_screen(match.trainer1.name, match.trainer2.name)
+
+      winner = simulate_battle(match.trainer1, match.trainer2)
+      chosen_winner = (bet_side == 0 ? 1 : 2)
+
+      if chosen_winner == winner
+        multiplier = (bet_side == 0) ? match.odds1 : match.odds2
+        winnings = (amount * multiplier).to_i
+        $player.coins += winnings
+        pbSEPlay("Item get")
+        pbMessage(_INTL("You won! You earned {1} coins!", winnings))
+      else
+        pbMessage("You lost the bet. Better luck next time!")
+      end
+    end
+  end
+end
+
+#===============================================================================
+# Resets wagers once a day
+#===============================================================================
+EventHandlers.add(:on_enter_map, :daily_wager_reset,
+  proc {
+    if !$PokemonGlobal.last_wager_day || $PokemonGlobal.last_wager_day != pbGetDay
+      $PokemonGlobal.daily_wager_matches = nil  # Force regenerate in case of corrupt parties
+      BattleWagerArena.generate_daily_matches
+      $PokemonGlobal.last_wager_day = pbGetDay
+    end
+  }
+)
