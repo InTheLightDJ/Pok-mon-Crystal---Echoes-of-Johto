@@ -288,6 +288,8 @@ class Battle::Battler
         @battle.pbDisplay(_INTL("{1} was frozen solid!", pbThis))
       when :FROSTBITE
         @battle.pbDisplay(_INTL("{1} was frostbitten!", pbThis))
+      when :ZMB
+        @battle.pbDisplay(_INTL("{1} was turned into a shambling zombie!", pbThis))
       end
     end
     PBDebug.log("[Status change] #{pbThis}'s sleep count is #{newStatusCount}") if newStatus == :SLEEP
@@ -523,6 +525,7 @@ class Battle::Battler
       when :PARALYSIS then @battle.pbDisplay(_INTL("{1} was cured of paralysis.", pbThis))
       when :FROZEN    then @battle.pbDisplay(_INTL("{1} thawed out!", pbThis))
       when :FROSTBITE then @battle.pbDisplay(_INTL("{1}'s frostbite was healed.", pbThis))
+      when :ZMB       then @battle.pbDisplay(_INTL("{1} is no longer a zombie.", pbThis))
       end
     end
     PBDebug.log("[Status change] #{pbThis}'s status was cured") if !showMessages

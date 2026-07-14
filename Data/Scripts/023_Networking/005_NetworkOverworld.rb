@@ -359,13 +359,15 @@ module NetworkOverworld
   end
 
   # Create a small name-tag sprite above the peer.
-  # role: 'admin' => purple, 'mod' => pink, 'king' => yellow, anything else => white
+  # role: 'admin' => purple, 'mod' => pink, 'king' => yellow, 'tag_it' => red
+  # (currently "It" in the Tag minigame), anything else => white
   def self._make_name_sprite(username, role, viewport)
     text_color = case role
-                 when 'admin' then Color.new(180, 80, 255, 255)
-                 when 'mod'   then Color.new(255, 105, 180, 255)
-                 when 'king'  then Color.new(255, 215, 0, 255)
-                 else              Color.new(255, 255, 255, 255)
+                 when 'admin'  then Color.new(180, 80, 255, 255)
+                 when 'mod'    then Color.new(255, 105, 180, 255)
+                 when 'king'   then Color.new(255, 215, 0, 255)
+                 when 'tag_it' then Color.new(255, 60, 60, 255)
+                 else               Color.new(255, 255, 255, 255)
                  end
     font_size = 16
     padding   = 4

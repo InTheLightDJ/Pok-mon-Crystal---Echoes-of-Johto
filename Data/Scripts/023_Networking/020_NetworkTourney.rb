@@ -203,6 +203,12 @@ module NetworkTourney
     battle.moneyGain      = false
 
     setBattleRule("single") if $game_temp.battle_rules["size"].nil?
+    # Same fix as Battle::NetworkPvP#_run_battle (004_NetworkBattle.rb) — force
+    # neutral weather/terrain/environment so two players standing on different
+    # maps can't silently simulate the same moves under different conditions.
+    setBattleRule("weather", :None)      if $game_temp.battle_rules["defaultWeather"].nil?
+    setBattleRule("terrain", :None)      if $game_temp.battle_rules["defaultTerrain"].nil?
+    setBattleRule("environment", :None)  if $game_temp.battle_rules["environment"].nil?
     BattleCreationHelperMethods.prepare_battle(battle)
     battle.switchStyle = false
     $game_temp.clear_battle_rules

@@ -615,6 +615,10 @@ class Battle::Battler
         return move.hitsDivingTargets?
       elsif target.inTwoTurnAttack?("TwoTurnAttackInvulnerableRemoveProtections")
         return false
+      elsif target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInVoid")
+        # Secret Lair (014_MoveEffects_CreepyBoss.rb) — only Psychic-type moves
+        # can reach the user while it's hidden, unlike Dig/Fly's fixed move list.
+        return move.calcType == :PSYCHIC
       end
     end
     if target.effects[PBEffects::SkyDrop] >= 0 &&

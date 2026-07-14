@@ -3,9 +3,11 @@
 #
 # NPC script command:  pbShowLeaderboard
 #
-# Score (computed server-side, see handlers/leaderboard.js on the server):
+# Score (computed server-side, see handlers/leaderboard.js and db/database.js's
+# SCORE_EXPR on the server):
 #   +1 per Server Token, +1 per Pokédex species seen, +1 per species caught,
-#   +2 per PvP win, -1 per PvP loss.
+#   +2 per PvP win, -1 per PvP loss, +3 per Mythical battle entered,
+#   +1 per World Boss defeated.
 #
 # The server is authoritative — it returns the full board already sorted
 # highest-to-lowest. Players who haven't logged in with a leaderboard-aware
@@ -41,8 +43,15 @@ end
 class Scene_Leaderboard
   ROW_H   = 20
   VISIBLE = 14
-  PANEL_W = 280
+  PANEL_W = 310
   PANEL_H = 34 + ROW_H * VISIBLE + 24
+
+  # Row layout (within rows_bmp, which is PANEL_W - 12 wide):
+  RANK_X    = 4
+  RANK_W    = 30
+  NAME_X    = 36
+  WL_W      = 46  # win/loss column, e.g. "12/7"
+  SCORE_W   = 40
 
   GOLD       = Color.new(255, 215, 0)
   SELF_BG    = Color.new(70, 55, 15)
@@ -50,6 +59,8 @@ class Scene_Leaderboard
   ROW_BG_B   = Color.new(18, 18, 50)
   TEXT_COLOR = Color.new(220, 220, 235)
   DIM_COLOR  = Color.new(150, 150, 175)
+  LOSS_COLOR = Color.new(235, 90, 90)
+  WIN_COLOR  = Color.new(100, 220, 110)
 
   def initialize(entries)
     @entries = entries
@@ -139,6 +150,10 @@ class Scene_Leaderboard
 
   def _draw_rows
     @rows_bmp.clear
+    score_x = @rows_bmp.width - SCORE_W
+    wl_x    = score_x - WL_W
+    name_w  = wl_x - NAME_X
+
     VISIBLE.times do |i|
       idx = @top + i
       next if idx >= @entries.length
@@ -151,9 +166,21 @@ class Scene_Leaderboard
       @rows_bmp.font.size  = 13
       @rows_bmp.font.bold  = is_me
       @rows_bmp.font.color = is_me ? GOLD : TEXT_COLOR
-      @rows_bmp.draw_text(4, y + 2, 36, ROW_H - 4, "##{idx + 1}", 0)
-      @rows_bmp.draw_text(44, y + 2, @rows_bmp.width - 44 - 44, ROW_H - 4, e['username'].to_s, 0)
-      @rows_bmp.draw_text(@rows_bmp.width - 44, y + 2, 40, ROW_H - 4, e['score'].to_s, 2)
+      @rows_bmp.draw_text(RANK_X, y + 2, RANK_W, ROW_H - 4, "##{idx + 1}", 0)
+      @rows_bmp.draw_text(NAME_X, y + 2, name_w, ROW_H - 4, e['username'].to_s, 0)
+      @rows_bmp.draw_text(score_x, y + 2, SCORE_W, ROW_H - 4, e['score'].to_s, 2)
+
+      # Win/loss counter, e.g. "12/7" — losses in red, wins in green.
+      losses  = e['pvp_losses'].to_i
+      wins    = e['pvp_wins'].to_i
+      num_w   = (WL_W - 8) / 2
+      @rows_bmp.font.size = 11
+      @rows_bmp.font.color = LOSS_COLOR
+      @rows_bmp.draw_text(wl_x, y + 3, num_w, ROW_H - 4, losses.to_s, 2)
+      @rows_bmp.font.color = is_me ? GOLD : DIM_COLOR
+      @rows_bmp.draw_text(wl_x + num_w, y + 3, 8, ROW_H - 4, "/", 1)
+      @rows_bmp.font.color = WIN_COLOR
+      @rows_bmp.draw_text(wl_x + num_w + 8, y + 3, num_w, ROW_H - 4, wins.to_s, 0)
     end
   end
 

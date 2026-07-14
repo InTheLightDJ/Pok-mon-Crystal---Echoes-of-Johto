@@ -202,7 +202,7 @@ class Battle::AI
     return true if @battle.field.terrain == :Psychic && @target.battler.affectedByTerrain? &&
                    @target.opposes?(@user) && @move.rough_priority(@user) > 0
     # Immunity because of ability
-    if @target.has_active_ability?(:WONDERGUARD) && !@target.being_mold_broken?
+    if @target.has_active_ability?(:WONDERGUARD) && !@battle.moldBreaker
       # NOTE: The Battle::AbilityEffects::MoveImmunity for Wonder Guard makes
       #       use of target.damageState.typeMod, which isn't set by the AI, so
       #       its triggering needs to be checked here instead of via

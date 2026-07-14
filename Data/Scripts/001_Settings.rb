@@ -75,9 +75,12 @@ module Settings
        "( @Bani )",
       "",
       _INTL("Special thanks to:"),
-      "Pizza", "Neoxaivus",
+      "Pizza", "Neoxaivus","Genosii","Genosii",
       "Bani", "Majicus", "Shockslayer","MegamanOmega",
       "and any sprite artists I missed",
+      "",
+      _INTL("Missigno and creepy pastas:"),
+      "Genosii","leafall",
       "",
       _INTL("ADDED RESOURCES:"),
       "Delta Speed Up - Mashirosakura",
@@ -316,6 +319,10 @@ module Settings
   # Server Token cost for the Mythical Hint NPC to reveal the current
   # Mythical Pokémon's map and time left before its spawn cycle ends.
   MYTHICAL_HINT_TOKEN_COST = 50
+  # Server Token cost for each chat effect sold by the Chat Effect Shop NPC
+  # (see NetworkChatShop). Must match CHAT_EFFECT_COST in the server's
+  # handlers/rank.js.
+  CHAT_EFFECT_TOKEN_COST = 20
   # Whether putting a Pokémon into Pokémon storage will heal it. If false, they
   # are healed by the Recover All: Entire Party event command (at Poké Centers).
   HEAL_STORED_POKEMON = (MECHANICS_GENERATION <= 7)

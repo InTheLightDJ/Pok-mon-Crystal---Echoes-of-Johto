@@ -1,50 +1,66 @@
-=== Battle started: InTheLight vs Aaa (2026-07-12 11:31:54) ===
+=== Battle started: InTheLight vs DeltaRay (2026-07-12 19:07:25) ===
 -- InTheLight's Team --
-1. Suicune (SUICUNE) Lv.50 [Pressure]
-   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
-2. Mesprit (MESPRIT) Lv.51 [Levitate]
-   Moves: Imprison, Extrasensory, Charm, Psychic
-3. Crobat (CROBAT) Lv.39 [Inner Focus]
-   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
-4. Mesprit (MESPRIT) Lv.56 [Levitate]
+1. Boss Venomoth (VENOMOTH) Lv.81 @ Silver Powder [Tinted Lens]
+   Moves: Mega Drain, Sleep Powder, Leech Life, Heal Order
+2. Mesprit (MESPRIT) Lv.56 [Levitate]
    Moves: Extrasensory, Charm, Psychic, Flatter
-5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
-   Moves: String Shot, Absorb, Infestation, Heal Order
--- Aaa's Team --
-1. Suicune (SUICUNE) Lv.50 [Pressure]
+3. Suicune (SUICUNE) Lv.50 [Pressure]
    Moves: Ice Fang, Tailwind, Crunch, Extrasensory
-2. Mesprit (MESPRIT) Lv.51 [Levitate]
+4. Mesprit (MESPRIT) Lv.51 [Levitate]
    Moves: Imprison, Extrasensory, Charm, Psychic
-3. Crobat (CROBAT) Lv.39 [Inner Focus]
+5. Crobat (CROBAT) Lv.39 [Inner Focus]
    Moves: Bite, Poison Fang, Quick Guard, Air Cutter
-4. Mesprit (MESPRIT) Lv.56 [Levitate]
-   Moves: Extrasensory, Charm, Psychic, Flatter
-5. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
+6. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
    Moves: String Shot, Absorb, Infestation, Heal Order
-Skull Kid Aaa wants to battle!
-Skull Kid Aaa sent out Suicune!
-Go! Suicune!
-Mist swirls about the battlefield!
-Enemy Suicune is exerting its pressure!
+-- DeltaRay's Team --
+1. Entei (ENTEI) Lv.78 @ Lum Berry [Pressure]
+   Moves: Sacred Fire, Extreme Speed, Sunny Day, Fire Blast
+2. Gengar (GENGAR) Lv.81 @ Spooky Plate [Cursed Body]
+   Moves: Dark Pulse, Shadow Ball, Hypnosis, Curse
+3. Mismagius (MISMAGIUS) Lv.80 @ Silver Powder [Levitate]
+   Moves: Shadow Ball, Pain Split, Thief, Power Gem
+4. Mimikyu (MIMIKYU) Lv.97 @ Lum Berry [Disguise]
+   Moves: Hone Claws, Shadow Sneak, Shadow Claw, Play Rough
+5. Feraligatr (FERALIGATR) Lv.86 @ Amulet Coin [Torrent]
+   Moves: Strength, Crunch, Waterfall, Ice Fang
+6. Mew (MEW) Lv.85 @ Sitrus Berry [Synchronize]
+   Moves: Cut, Rock Smash, Fly, Flash
+Boo DeltaRay wants to battle!
+Boo DeltaRay sent out Entei!
+Go! Boss Venomoth!
+Enemy Entei is exerting its pressure!
+Enemy Entei used Sacred Fire!
+A critical hit!
+It's super- effective!
+Boss Venomoth fainted!
+You're in charge, Mesprit!
+-- End of round: Mesprit 172/172HP [OK] | Entei 292/292HP [OK]
+Enemy Entei used Extreme Speed!
+Mesprit used Psychic!
+A critical hit!
+-- End of round: Mesprit 76/172HP [OK] | Entei 209/292HP [OK]
+Enemy Entei used Extreme Speed!
+Mesprit fainted!
+Go for it, Mesprit!
+-- End of round: Mesprit 28/151HP [OK] | Entei 209/292HP [OK]
+Enemy Entei used Extreme Speed!
+Mesprit fainted!
+Go for it, Suicune!
 Suicune is exerting its pressure!
-Enemy Suicune used Crunch!
-Suicune used Ice Fang!
-Suicune's attack missed!
-Mist is swirling about the battlefield.
--- End of round: Suicune 95/175HP [OK] | Suicune 119/175HP [OK]
+-- End of round: Suicune 119/175HP [OK] | Entei 209/292HP [OK]
+Enemy Entei used Sacred Fire!
+It's not very effective...
 Suicune used Ice Fang!
 It's not very effective...
-Enemy Suicune used Crunch!
-Mist is swirling about the battlefield.
--- End of round: Suicune 70/175HP [OK] | Suicune 109/175HP [OK]
-Suicune used Ice Fang!
-It's not very effective...
-Enemy Suicune used Crunch!
-Suicune's Defense fell!
-Mist is swirling about the battlefield.
--- End of round: Suicune 44/175HP [OK] | Suicune 99/175HP [OK]
-Enemy Suicune used Crunch!
-Suicune used Ice Fang!
-Suicune's attack missed!
-Mist is swirling about the battlefield.
--- End of round: Suicune 11/175HP [OK] | Suicune 99/175HP [OK]
+*** HP desync corrected: Suicune 30 -> 0
+*** Suicune fainted on the other screen but not locally — forcing faint now.
+Suicune fainted!
+Go for it, Boss Ariados!
+-- End of round: Boss Ariados 94/94HP [OK] | Entei 201/292HP [OK]
+Enemy Entei used Fire Blast!
+It's super- effective!
+Boss Ariados fainted!
+You have no more Pokémon that can fight!
+You lost against Boo DeltaRay!
+You blacked out!
+=== Battle ended: lost ===

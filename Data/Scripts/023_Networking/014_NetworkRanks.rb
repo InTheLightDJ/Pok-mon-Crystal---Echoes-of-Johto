@@ -29,7 +29,12 @@ class PokemonGlobalMetadata
 end
 
 RANK_NAMES = { 1 => "Glow", 2 => "Shimmer", 3 => "Pop", 4 => "Paint Wave",
-               5 => "Violet Wave", 6 => "Solar Wave", 7 => "Ocean Wave", 8 => "Shadow Wave" }
+               5 => "Violet Wave", 6 => "Solar Wave", 7 => "Ocean Wave", 8 => "Shadow Wave",
+               # Bits 9-15 are sold (not free-granted) by the Chat Effect Shop —
+               # see 030_NetworkChatShop.rb. Listed here too since RANK_NAMES is
+               # also used to label them in "you already have..." messages.
+               9 => "Glitch", 10 => "Blur & Clear", 11 => "Letter Shake", 12 => "Warp",
+               13 => "Pastel Rainbow", 14 => "Squish", 15 => "Ripple" }
 
 # Called from NPC events:  pbGiveRank(1) through pbGiveRank(8)
 def pbGiveRank(n)

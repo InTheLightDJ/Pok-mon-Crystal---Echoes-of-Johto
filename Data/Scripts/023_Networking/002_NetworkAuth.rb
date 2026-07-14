@@ -156,10 +156,6 @@ module NetworkAuth
       NetworkClient.on('time_sync') { |d|
         NetworkTimeSync.apply(d['hour'].to_i, d['min'].to_i, d['wday'].to_i)
       }
-      # Server checks our client_version against the latest GitHub release and
-      # sends this once, shortly after login_ok, if we're behind.
-      NetworkClient.off('update_available')
-      NetworkClient.on('update_available') { |d| pbShowUpdateNotice(d) rescue nil }
       NetworkOverworld.on_map_enter($game_map.map_id, $game_player.x, $game_player.y)
       # Refresh our world-leaderboard Pokédex totals on the server every login.
       NetworkClient.send_msg({ action: 'dex_sync', seen: $player.pokedex.seen_count, caught: $player.pokedex.owned_count }) rescue nil
@@ -186,6 +182,16 @@ module NetworkAuth
           end
         end
       end
+      # Server checks our client_version against the latest GitHub release and
+      # sends this once, shortly after login_ok, if we're behind. Registered
+      # LAST — after the daily wheel and its reward dialog are fully done —
+      # so this can never fire its own blocking pbMessage reentrantly from
+      # inside another still-open blocking dialog. If the server's message
+      # happens to arrive earlier (mid-wheel), it just waits harmlessly in
+      # the queue since no callback is registered yet, and gets handled by
+      # the very next ordinary frame update once we're back in the overworld.
+      NetworkClient.off('update_available')
+      NetworkClient.on('update_available') { |d| pbShowUpdateNotice(d) rescue nil }
       return true
     end
 

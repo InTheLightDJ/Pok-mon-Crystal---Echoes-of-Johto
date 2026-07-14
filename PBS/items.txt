@@ -3808,6 +3808,33 @@ FieldUse = OnPokemon
 Flags = Fling_30
 Description = Raises level of a Pokémon by one.
 #-------------------------------
+[BATTLECANDYS]
+Name = Battle Candy S
+NamePlural = Battle Candy Ss
+Pocket = 2
+Price = 3000
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Temporarily raises a Pokémon's level by 1 for the rest of the battle.
+#-------------------------------
+[BATTLECANDYM]
+Name = Battle Candy M
+NamePlural = Battle Candy Ms
+Pocket = 2
+Price = 8000
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Temporarily raises a Pokémon's level by 3 for the rest of the battle.
+#-------------------------------
+[BATTLECANDYL]
+Name = Battle Candy L
+NamePlural = Battle Candy Ls
+Pocket = 2
+Price = 15000
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Temporarily raises a Pokémon's level by 5 for the rest of the battle.
+#-------------------------------
 [MASTERBALL]
 Name = Master Ball
 NamePlural = Master Balls

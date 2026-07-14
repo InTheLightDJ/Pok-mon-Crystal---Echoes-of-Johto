@@ -12,6 +12,14 @@ class Battle::Battler
         Battle::AbilityEffects.triggerOnBeingHit(target.ability, user, target, move, @battle)
         user.pbItemHPHealCheck if user.hp < oldHP
       end
+      # Zombify (014_MoveEffects_CreepyBoss.rb) — a Zombified battler's suffering
+      # feeds Ghost-type attackers and the creepy-boss species specifically,
+      # regardless of which move was used against it.
+      if target.status == :ZMB &&
+         (user.pbHasType?(:GHOST) ||
+          [:BURRIEDALIVE, :DARKMEW, :FOSSEL, :FOSSIL, :MISSIGNO, :GHOST].include?(user.species))
+        user.pbRecoverHPFromDrain(target.damageState.hpLost, target)
+      end
       # Cramorant - Gulp Missile
       if target.isSpecies?(:CRAMORANT) && target.ability == :GULPMISSILE &&
          target.form > 0 && !target.effects[PBEffects::Transform]

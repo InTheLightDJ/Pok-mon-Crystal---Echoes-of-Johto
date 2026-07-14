@@ -265,6 +265,27 @@ module NetworkAuction
       pbMessage(_INTL(msg))
     end
   end
+
+  # ── Standalone prize-claim NPC — no auction bidding, just delivers any
+  # prizes already sitting in the queue (World Boss / Creepy Pasta / Tournament
+  # / Auction wins all share the same prize queue server-side). Use this for a
+  # plain "claim your items" NPC placed anywhere, with no Auction House tie-in.
+  #
+  # NPC event script box (one call handles everything):
+  #   NetworkAuction.show_prize_claim_dialog
+  def self.show_prize_claim_dialog
+    request_claim
+    data = wait_claim
+    unless data
+      pbMessage(_INTL("Couldn't reach the server. Try again in a moment."))
+      return
+    end
+    unless data['success'] && data['prizes'] && !data['prizes'].empty?
+      pbMessage(_INTL("You have no prizes waiting to be claimed."))
+      return
+    end
+    _deliver_prizes(data['prizes'])
+  end
 end
 
 #===============================================================================

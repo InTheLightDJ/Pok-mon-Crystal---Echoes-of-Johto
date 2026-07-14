@@ -146,7 +146,7 @@ end
 
 module NetworkClient
   # Flip to true to connect to localhost instead of the live server (local testing only).
-  LOCAL_TEST = false
+  LOCAL_TEST = true
 
   # Change for upload
 

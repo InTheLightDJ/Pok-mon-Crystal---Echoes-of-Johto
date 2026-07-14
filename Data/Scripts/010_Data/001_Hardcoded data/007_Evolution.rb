@@ -673,6 +673,11 @@ GameData::Evolution.register({
 # event numbers are:
 #   1: Kubfu -> Urshifu
 #   2: Galarian Yamask -> Runerigus
+#   900: Ghost -> Ghostly (only triggered directly on a specific Pokémon
+#        object via trigger_event_evolution — see 027_NetworkCreepyBoss.rb —
+#        when that Pokémon was this player's own active battler and their own
+#        hit landed the finishing blow on a Creepy Pasta boss. Not swept via
+#        pbEvolutionEvent, since that would check every Ghost in the party.)
 # These used event numbers are only used in pokemon.txt/pokemon_forms.txt and in
 # map events that call pbEvolutionEvent, so they are relatively easy to change
 # if you need to (no script changes are required). However, you could just

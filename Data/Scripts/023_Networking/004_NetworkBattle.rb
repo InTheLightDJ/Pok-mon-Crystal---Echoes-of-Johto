@@ -7,6 +7,16 @@
 #   srand(turn_seed) before attack phase so speed-tie resolution, damage rolls,
 #   accuracy, and crits are calculated identically on both screens.
 #
+#   Sharing a seed only works if both clients start from identical battle
+#   conditions, though — prepare_battle (Overworld_BattleStarting.rb) otherwise
+#   pulls defaultWeather/defaultTerrain/environment from each player's OWN
+#   current map. Two players in different places (e.g. one standing on a
+#   permanently sunny route) would silently simulate every move under
+#   different conditions from turn one, with nothing ever flagging it as a
+#   "desync" since both screens are self-consistent. _run_battle forces
+#   weather/terrain/environment to :None before calling prepare_battle so
+#   map location can never be a source of divergence.
+#
 #   After each round BOTH clients send their own view of HP/status to the
 #   server (battle_turn_sync) from Battle::NetworkPvP#pbEORSwitch — BEFORE the
 #   base engine's pbJudge/fainted-battler switch-in loop runs (see pbEORSwitch
@@ -351,7 +361,13 @@ class Battle::NetworkPvP < Battle
   def _net_check_ext_end
     return false unless @battle_ended_ext
     return false if decided?  # already handled (e.g. we initiated the abandon)
-    if @battle_ended_outcome
+    if @battle_ended_outcome == 'void'
+      # Sent by the admin ForceBattleEnd(name) command — Battle::Outcome::DRAW
+      # so _run_battle's win/lose check below is skipped and neither side's
+      # pvp_result gets sent; this must stay neutral for both recipients.
+      pbDisplayPaused(_INTL(@battle_ended_reason || "This battle has been ended."))
+      @decision = Battle::Outcome::DRAW
+    elsif @battle_ended_outcome
       # Sent only by the server's per-turn timeout path (King of the Hill
       # forced fights) — reason text is already worded for this recipient.
       pbDisplayPaused(_INTL(@battle_ended_reason || "The battle has ended."))
@@ -687,6 +703,19 @@ module NetworkBattle
     battle.moneyGain      = false
 
     setBattleRule("single") if $game_temp.battle_rules["size"].nil?
+    # PvP battles must simulate identically on both clients, but prepare_battle
+    # (called below) otherwise pulls defaultWeather/defaultTerrain/environment
+    # from THIS player's own current map (see Overworld_BattleStarting.rb) —
+    # each client sets these independently from wherever it happens to be
+    # standing. Two players on different maps (e.g. one on a permanently
+    # sunny route, one not) would then silently simulate the same moves under
+    # different conditions forever after (Fire moves boosted on only one
+    # screen, etc.), with no round ever flagging as a "desync" since both
+    # sides genuinely believe their own calculation is correct. Forcing
+    # neutral conditions here removes map location as a source of divergence.
+    setBattleRule("weather", :None)      if $game_temp.battle_rules["defaultWeather"].nil?
+    setBattleRule("terrain", :None)      if $game_temp.battle_rules["defaultTerrain"].nil?
+    setBattleRule("environment", :None)  if $game_temp.battle_rules["environment"].nil?
     BattleCreationHelperMethods.prepare_battle(battle)
     battle.switchStyle = false  # prepare_battle overwrites from player Options; force Set mode for PvP
     $game_temp.clear_battle_rules

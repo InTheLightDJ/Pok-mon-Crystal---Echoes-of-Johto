@@ -6389,3 +6389,45 @@ BackSprite = 0,-8
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[BURRIEDALIVE]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[DARKMEW]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[FOSSEL]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[FOSSIL]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[MISSIGNO]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[GHOST]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[GHOSTLY]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0

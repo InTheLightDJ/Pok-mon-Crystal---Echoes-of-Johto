@@ -111,3 +111,26 @@ GameData::Status.register({
   :animation     => "Frostbite",
   :icon_position => 6
 })
+
+#-------------------------------------------------------------------------------
+# Zombify (ZMB)
+#-------------------------------------------------------------------------------
+# This status has the following effects:
+#  -Purely cosmetic/flavor by itself — it does not restrict actions or deal
+#   end-of-round damage.
+#  -Its actual mechanic lives in 010_Battler_UseMoveTriggerEffects.rb: whenever
+#   a Zombified battler takes damage from a Ghost-type attacker (or one of the
+#   creepy-boss species), that attacker is healed by the damage dealt.
+#  -Is cured by the same items/moves as every other status (Full Heal, Lum
+#   Berry, Heal Bell, etc.) automatically, since those all just check for
+#   "status != :NONE" rather than a fixed status list.
+# NOTE: needs one more 32x14 icon frame appended to the bottom of
+#       Graphics/UI/statuses.png and Graphics/UI/Battle/icon_statuses.png to
+#       display properly — falls back to a blank/missing icon until then.
+#-------------------------------------------------------------------------------
+GameData::Status.register({
+  :id            => :ZMB,
+  :name          => _INTL("Zombified"),
+  :animation     => "Frostbite",
+  :icon_position => 7
+})

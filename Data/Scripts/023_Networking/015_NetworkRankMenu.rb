@@ -44,3 +44,12 @@ pbRegisterChatEffect(5)
 pbRegisterChatEffect(6)
 pbRegisterChatEffect(7)
 pbRegisterChatEffect(8)
+# Bits 9-15: paid effects sold by the Chat Effect Shop (030_NetworkChatShop.rb).
+# Same toggle mechanism — only shown once owned.
+pbRegisterChatEffect(9)
+pbRegisterChatEffect(10)
+pbRegisterChatEffect(11)
+pbRegisterChatEffect(12)
+pbRegisterChatEffect(13)
+pbRegisterChatEffect(14)
+pbRegisterChatEffect(15)

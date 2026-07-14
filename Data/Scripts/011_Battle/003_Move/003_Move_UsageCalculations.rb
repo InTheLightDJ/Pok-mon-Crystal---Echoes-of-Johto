@@ -292,6 +292,16 @@ class Battle::Move
   end
 
   def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers)
+    # Vast Void (014_MoveEffects_CreepyBoss.rb) — applies to whichever move the
+    # affected battler uses next, regardless of which move that is.
+    if user.effects[PBEffects::VastVoidBoost]
+      multipliers[:power_multiplier] *= 2
+      user.effects[PBEffects::VastVoidBoost] = false
+    end
+    if user.effects[PBEffects::VastVoidWeaken] && user.effects[PBEffects::VastVoidWeaken] > 0
+      multipliers[:power_multiplier] *= 0.5
+      user.effects[PBEffects::VastVoidWeaken] -= 1
+    end
     # "of Ruin" abilities
     [:TABLETSOFRUIN, :SWORDOFRUIN, :VESSELOFRUIN, :BEADSOFRUIN].each_with_index do |abil, i|
       category = (i < 2) ? physicalMove? : specialMove?

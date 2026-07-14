@@ -192,4 +192,10 @@ module PBEffects
   TrickRoom       = 910
   WaterSportField = 911
   WonderRoom      = 912
+
+  #===========================================================================
+  # These effects apply to a battler (Vast Void, see 014_MoveEffects_CreepyBoss.rb)
+  #===========================================================================
+  VastVoidBoost  = 913   # Set true on self; doubles power of this battler's next move.
+  VastVoidWeaken = 914   # Count of this battler's next moves that have halved power.
 end

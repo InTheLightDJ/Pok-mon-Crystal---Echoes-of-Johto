@@ -87,3 +87,126 @@ Backtrace:
 003_Interpreter.rb:140:in `execute_script'
 004_Interpreter_Commands.rb:1191:in `command_355'
 004_Interpreter_Commands.rb:116:in `execute_command'
+
+=================
+
+[2026-07-13 21:32:14 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `being_mold_broken?' for #<Battle::AI::AIBattler>
+
+Backtrace:
+005_AI_ChooseMove.rb:205:in `pbPredictMoveFailureAgainstTarget'
+005_AI_ChooseMove.rb:309:in `pbGetMoveScoreAgainstTarget'
+005_AI_ChooseMove.rb:258:in `block in pbGetMoveScore'
+005_AI_ChooseMove.rb:255:in `each'
+005_AI_ChooseMove.rb:255:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:67:in `block (3 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:67:in `block (2 levels) in pbGetMoveScores'
+005_AI_ChooseMove.rb:61:in `each'
+005_AI_ChooseMove.rb:61:in `block in pbGetMoveScores'
+
+=================
+
+[2026-07-13 21:32:18 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `being_mold_broken?' for #<Battle::AI::AIBattler>
+
+Backtrace:
+005_AI_ChooseMove.rb:205:in `pbPredictMoveFailureAgainstTarget'
+005_AI_ChooseMove.rb:309:in `pbGetMoveScoreAgainstTarget'
+005_AI_ChooseMove.rb:258:in `block in pbGetMoveScore'
+005_AI_ChooseMove.rb:255:in `each'
+005_AI_ChooseMove.rb:255:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:512:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:512:in `each'
+
+=================
+
+[2026-07-13 21:32:22 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `being_mold_broken?' for #<Battle::AI::AIBattler>
+
+Backtrace:
+005_AI_ChooseMove.rb:205:in `pbPredictMoveFailureAgainstTarget'
+005_AI_ChooseMove.rb:309:in `pbGetMoveScoreAgainstTarget'
+005_AI_ChooseMove.rb:258:in `block in pbGetMoveScore'
+005_AI_ChooseMove.rb:255:in `each'
+005_AI_ChooseMove.rb:255:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:67:in `block (3 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:67:in `block (2 levels) in pbGetMoveScores'
+005_AI_ChooseMove.rb:61:in `each'
+005_AI_ChooseMove.rb:61:in `block in pbGetMoveScores'
+
+=================
+
+[2026-07-13 21:35:10 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `being_mold_broken?' for #<Battle::AI::AIBattler>
+
+Backtrace:
+005_AI_ChooseMove.rb:205:in `pbPredictMoveFailureAgainstTarget'
+005_AI_ChooseMove.rb:309:in `pbGetMoveScoreAgainstTarget'
+005_AI_ChooseMove.rb:258:in `block in pbGetMoveScore'
+005_AI_ChooseMove.rb:255:in `each'
+005_AI_ChooseMove.rb:255:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:67:in `block (3 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:67:in `block (2 levels) in pbGetMoveScores'
+005_AI_ChooseMove.rb:61:in `each'
+005_AI_ChooseMove.rb:61:in `block in pbGetMoveScores'
+
+=================
+
+[2026-07-13 21:35:12 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `being_mold_broken?' for #<Battle::AI::AIBattler>
+
+Backtrace:
+005_AI_ChooseMove.rb:205:in `pbPredictMoveFailureAgainstTarget'
+005_AI_ChooseMove.rb:309:in `pbGetMoveScoreAgainstTarget'
+005_AI_ChooseMove.rb:258:in `block in pbGetMoveScore'
+005_AI_ChooseMove.rb:255:in `each'
+005_AI_ChooseMove.rb:255:in `pbGetMoveScore'
+005_AI_ChooseMove.rb:81:in `block (2 levels) in pbGetMoveScores'
+001_PBDebug.rb:6:in `logonerr'
+005_AI_ChooseMove.rb:81:in `block in pbGetMoveScores'
+001_Battle_Battler.rb:512:in `block in eachMoveWithIndex'
+001_Battle_Battler.rb:512:in `each'
+
+=================
+
+[2026-07-14 13:42:42 -0500]
+[Pokémon Essentials version 21.1]
+
+Script error in event 3 (coords 11,6), map 404 (VERMILION CITY)
+Exception: RuntimeError
+Message: Trainer for data 'LEADER_LtSurge, Surge, 24' is not defined.
+
+***Full script:
+TrainerBattle.start(:LEADER_LtSurge, "Surge", $player.badge_count)
+Backtrace:
+001_Overworld_BattleStarting.rb:569:in `block in generate_foes'
+001_Overworld_BattleStarting.rb:541:in `each'
+001_Overworld_BattleStarting.rb:541:in `each_with_index'
+001_Overworld_BattleStarting.rb:541:in `generate_foes'
+001_Overworld_BattleStarting.rb:507:in `start_core'
+001_Overworld_BattleStarting.rb:490:in `start'
+(eval):1:in `execute_script'
+003_Interpreter.rb:140:in `eval'
+003_Interpreter.rb:140:in `execute_script'
+004_Interpreter_Commands.rb:448:in `command_111'
