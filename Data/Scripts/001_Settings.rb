@@ -12,7 +12,7 @@ module Settings
   # Bump this to match the tag_name of each new GitHub release (e.g. "1.8.0"
   # for release tag "v1.8.0") — the server compares this against the latest
   # GitHub release to decide whether to show a player an update notice.
-  GAME_VERSION = "1.7.1"
+  GAME_VERSION = "1.8.0"
 
   # The generation that the battle system follows. Used throughout the battle
   # scripts, and also by some other settings which are used in and out of battle
