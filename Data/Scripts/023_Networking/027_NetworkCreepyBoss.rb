@@ -46,6 +46,7 @@ class Battle::CreepyBossEncounter < Battle
     @sync_data      = nil
     @boss_cleared_ext     = false
     @kill_evolution_pkmn  = nil
+    @_boss_faint_guard    = false
     _register_callbacks
   end
 
@@ -130,6 +131,36 @@ class Battle::CreepyBossEncounter < Battle
     damage_global = damage_local > 0 ? [(damage_local * @scale).round, 1].max : 0
     _sync_with_server(damage_global, boss_bat)
     @hp_before_turn = boss_bat.hp
+  end
+
+  # Read by the shared Battle::Battler#pbReduceHP patch in 012_NetworkBoss.rb.
+  def boss_hit_cap
+    CREEPY_BOSS_MAX_DAMAGE_PER_HIT
+  end
+
+  # Read by the shared Battle::Battler#pbFaint patch in 012_NetworkBoss.rb.
+  def _boss_faint_guard_active?
+    @_boss_faint_guard == true
+  end
+
+  # See the matching method on Battle::BossEncounter (012_NetworkBoss.rb) for
+  # the full rationale — verifies with the server before letting the boss
+  # actually be declared fainted, reviving its local hp if the shared pool
+  # (kept in sync across every player currently fighting it) disagrees.
+  def _boss_verify_before_faint(boss_bat)
+    damage_local = [(@hp_before_turn || 0) - boss_bat.hp, 0].max
+    damage_local = [damage_local, CREEPY_BOSS_MAX_DAMAGE_PER_HIT].min
+    damage_local = 1 if damage_local < 1 && (@hp_before_turn || 0) > 0
+    damage_global = damage_local > 0 ? [(damage_local * @scale).round, 1].max : 0
+
+    @_boss_faint_guard = true
+    _sync_with_server(damage_global, boss_bat)
+    @_boss_faint_guard = false
+
+    if boss_bat.hp > 0
+      @hp_before_turn = boss_bat.hp
+      pbDisplay(_INTL("The boss shrugs off the blow and remains standing!"))
+    end
   end
 
   def net_cleanup

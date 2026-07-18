@@ -85,6 +85,7 @@ class Battle::BossEncounter < Battle
     @boss_was_caught = false
     @boss_cleared_ext = false
     @struggle_warned = false
+    @_boss_faint_guard = false
     _register_callbacks
   end
 
@@ -234,6 +235,45 @@ class Battle::BossEncounter < Battle
     super(pkmn)
   end
 
+  # Read by the shared Battle::Battler#pbReduceHP patch below.
+  def boss_hit_cap
+    BOSS_MAX_DAMAGE_PER_ROUND
+  end
+
+  # Read by the shared Battle::Battler#pbFaint patch below.
+  def _boss_faint_guard_active?
+    @_boss_faint_guard == true
+  end
+
+  #-----------------------------------------------------------------------------
+  # Called by the shared Battle::Battler#pbFaint patch the instant the boss's
+  # local hp would otherwise be declared fainted (hp <= 0), from WHEREVER that
+  # happened this round — a direct hit, a multi-hit move, or (the reported
+  # case) the boss's own Struggle recoil finishing itself off once its real hp
+  # was already below the per-round cap. Every one of those paths still funnels
+  # through this single choke point, so instead of chasing down each possible
+  # trigger individually, just verify with the server before the battle is
+  # allowed to actually end: report this round's (capped) damage and block for
+  # the real answer. If the shared HP pool is still alive server-side (other
+  # participants, or a stale local cache), revive the boss's local hp to the
+  # authoritative value instead of letting the fight end early.
+  #-----------------------------------------------------------------------------
+  def _boss_verify_before_faint(boss_bat)
+    damage_local = [(@hp_before_turn || 0) - boss_bat.hp, 0].max
+    damage_local = [damage_local, BOSS_MAX_DAMAGE_PER_ROUND].min
+    damage_local = 1 if damage_local < 1 && (@hp_before_turn || 0) > 0
+    damage_global = damage_local > 0 ? [(damage_local * @scale).round, 1].max : 0
+
+    @_boss_faint_guard = true
+    _sync_with_server(damage_global, boss_bat)
+    @_boss_faint_guard = false
+
+    if boss_bat.hp > 0
+      @hp_before_turn = boss_bat.hp
+      pbDisplay(_INTL("The boss shrugs off the blow and remains standing!"))
+    end
+  end
+
   def net_cleanup
     NetworkClient.remove('boss_hp_update', @_hp_cb)
     NetworkClient.remove('boss_cleared',   @_cl_cb)
@@ -311,6 +351,59 @@ class Battle::BossEncounter < Battle
 
     # Show simultaneous damage from other players.
     pbDisplay(_INTL("Other trainers dealt {1} damage to the boss!", others)) if others > 0
+  end
+end
+
+#===============================================================================
+# Shared fix for World Boss / Creepy Boss / Mini Boss: a single overcapped hit
+# (Struggle is the common trigger — a PP-exhausted boss forces the player to
+# Struggle, and its damage routinely dwarfs a mini/creepy boss's tiny per-hit
+# cap) could drop the boss's LOCAL hp to 0 in one blow. The per-round
+# corrections in each Encounter's pbAttackPhase/pbEndOfRoundPhase run only
+# *after* `super`, but the battle engine's own fainted-check (and "It
+# fainted!"/victory handling) already fires the instant hp hits 0 inside
+# `super` — by then it's too late, the battle has already locally ended even
+# though the real, capped damage report hasn't reached the server yet and the
+# shared HP pool is still very much alive.
+#
+# Fixed at the source: Battle::Battler#pbReduceHP is the single choke point
+# every damage source funnels through. When the target is the boss battler
+# (index 1) in one of these three encounter types, and it still has more HP
+# than the cap, a single call can never remove more than the cap — so hp can
+# only ever reach 0 here when it was already at or below the cap going in,
+# which is exactly when the server would allow a real kill too.
+#===============================================================================
+class Battle::Battler
+  alias_method :pbReduceHP_before_shared_boss_cap, :pbReduceHP
+  def pbReduceHP(amt, anim = true, registerDamage = true, anyAnim = true)
+    if index == 1 && @battle.respond_to?(:boss_hit_cap)
+      cap = @battle.boss_hit_cap
+      amt = cap if cap && @hp > cap && amt > cap
+    end
+    pbReduceHP_before_shared_boss_cap(amt, anim, registerDamage, anyAnim)
+  end
+
+  #-----------------------------------------------------------------------------
+  # Belt-and-suspenders for the same class of bug: even with the pbReduceHP cap
+  # above, the boss's local hp can still legitimately reach 0 within a single
+  # round (its remaining hp was already at/below the cap, a multi-hit move
+  # chipped it down cumulatively, or — the actually-reported case — the boss's
+  # own forced Struggle recoils on ITSELF once its true hp was already low).
+  # Whatever the trigger, every one of those paths still has to call pbFaint
+  # before the battle engine will treat the boss as dead. Intercept there:
+  # verify with the server FIRST (the shared hp pool may still be very much
+  # alive — other participants may have healed the gap, or our local cache is
+  # simply stale) and only let the real pbFaint/battle-end logic run once the
+  # server actually confirms it. If the server disagrees, the boss's hp is
+  # revived to the authoritative value and the fight continues.
+  #-----------------------------------------------------------------------------
+  alias_method :pbFaint_before_shared_boss_check, :pbFaint
+  def pbFaint(showMessage = true)
+    if index == 1 && @battle.respond_to?(:_boss_verify_before_faint) && !@battle._boss_faint_guard_active?
+      @battle._boss_verify_before_faint(self)
+      return
+    end
+    pbFaint_before_shared_boss_check(showMessage)
   end
 end
 

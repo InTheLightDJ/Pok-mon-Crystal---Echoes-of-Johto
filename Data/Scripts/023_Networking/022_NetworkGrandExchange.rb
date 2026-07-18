@@ -134,12 +134,18 @@ class Scene_GrandExchange
   VK_Z_KEY    = 90
   VK_LBUTTON  = 0x01
 
-  CLOSE_BTN_X = Graphics.width - 58
+  # NOTE: uses the fixed Settings::SCREEN_WIDTH, not Graphics.width — this is a
+  # class-body constant evaluated at script-load time, before pbSetResizeFactor
+  # (001_Technical/001_MKXP_Compatibility.rb) has resized the window from RGSS's
+  # default resolution to the real 320x288. Graphics.width here would silently
+  # place the button far off the right edge of the actual game window.
+  CLOSE_BTN_X = Settings::SCREEN_WIDTH - 58
   CLOSE_BTN_Y = 5
   CLOSE_BTN_W = 52
   CLOSE_BTN_H = 18
 
-  TABS = [[:search, "Search"], [:my_orders, "My Orders"]].freeze
+  TABS = [[:search, "Search"], [:my_orders, "My Orders"], [:cancel, "Cancel Orders"]].freeze
+  CANCEL_X_W = 16
 
   def initialize
     @tab            = :search
@@ -154,6 +160,9 @@ class Scene_GrandExchange
     @order_list     = []
     @order_idx      = 0
     @order_top      = 0
+    @cancel_list    = []
+    @cancel_idx     = 0
+    @cancel_top     = 0
     @running        = true
     @icon_cache     = {}
     @key_curr       = {}
@@ -416,7 +425,7 @@ class Scene_GrandExchange
 
   def _update_search_field
     b = @search_bmp.bitmap; b.clear
-    if @tab == :my_orders
+    if @tab == :my_orders || @tab == :cancel
       b.fill_rect(0, 0, LIST_W, 26, Color.new(12, 12, 32))
       return
     end
@@ -444,7 +453,11 @@ class Scene_GrandExchange
 
   def _update_list
     b = @list_bmp.bitmap; b.clear
-    @tab == :my_orders ? _draw_orders_list(b) : _draw_results_list(b)
+    case @tab
+    when :my_orders then _draw_orders_list(b)
+    when :cancel     then _draw_cancel_list(b)
+    else                  _draw_results_list(b)
+    end
   end
 
   def _draw_results_list(b)
@@ -537,6 +550,68 @@ class Scene_GrandExchange
     _draw_scrollbar(b, all.length, @order_top)
   end
 
+  # Dedicated cancel-only view: just the player's still-open (unfilled) buy/sell
+  # orders, each with a red X so it's obvious at a glance these rows close the
+  # order rather than just showing status. Deliberately excludes the claim box
+  # (nothing to cancel there — that's collected, not cancelled) and fully-filled
+  # orders (nothing left to cancel).
+  def _draw_cancel_list(b)
+    o = NetworkGrandExchange.my_orders
+    all = []
+    (o['buy_orders']  || []).each { |x| all << x.merge('otype' => 'buy') }
+    (o['sell_orders'] || []).each { |x| all << x.merge('otype' => 'sell') }
+    all.select! { |x| x['qty'].to_i - x['filled'].to_i > 0 }
+    all.sort_by! { |x| -(x['ts'].to_i) }
+    @cancel_list = all
+    @cancel_idx  = @cancel_list.empty? ? 0 : @cancel_idx.clamp(0, @cancel_list.length - 1)
+    @cancel_top  = @cancel_top.clamp(0, [@cancel_list.length - @max_vis, 0].max)
+
+    if all.empty?
+      b.font.size = 12
+      pbDrawShadowText(b, 4, 6, LIST_W - 8, 18,
+                       "No cancellable orders.", Color.new(90, 90, 120), Color.new(0, 0, 0))
+      return
+    end
+
+    row_w = LIST_W - CANCEL_X_W
+    all.each_with_index do |x, i|
+      next if i < @cancel_top || i >= @cancel_top + @max_vis
+      row = i - @cancel_top; y = row * ICON_H
+
+      if i == @cancel_idx
+        b.fill_rect(0, y, LIST_W, ICON_H - 1, Color.new(42, 42, 96))
+      elsif row.odd?
+        b.fill_rect(0, y, LIST_W, ICON_H - 1, Color.new(16, 16, 38))
+      end
+
+      lbl   = x['otype'] == 'buy' ? "BUY" : "SELL"
+      lclr  = x['otype'] == 'buy' ? Color.new(80, 200, 80) : Color.new(200, 90, 90)
+      sym   = x['item_id'].to_s.upcase.to_sym
+      iname = GameData::Item.exists?(sym) ? GameData::Item.get(sym).name : x['item_id'].to_s
+      short = iname.length > 12 ? iname[0..11] + "." : iname
+      b.font.size = 11; b.font.bold = true
+      pbDrawShadowText(b, 3, y + 3, 30, 12, lbl, lclr, Color.new(0, 0, 0))
+      b.font.bold = false
+      pbDrawShadowText(b, 35, y + 3, row_w - 40, 12,
+                       "#{x['qty'].to_i}x #{short}", Color.new(205, 205, 225), Color.new(0, 0, 0))
+      pbDrawShadowText(b, 35, y + 15, row_w - 40, 11,
+                       "@#{x['price_each'].to_i}T  #{x['filled'].to_i}/#{x['qty'].to_i} filled",
+                       Color.new(140, 140, 165), Color.new(0, 0, 0))
+
+      # Red X — click (or select + Enter) cancels this order.
+      xb_x = LIST_W - CANCEL_X_W + 1; xb_y = y + 2; xb_s = ICON_H - 5
+      b.fill_rect(xb_x, xb_y, xb_s, xb_s, Color.new(110, 25, 25))
+      b.fill_rect(xb_x, xb_y, xb_s, 1, Color.new(200, 60, 60))
+      b.fill_rect(xb_x, xb_y + xb_s - 1, xb_s, 1, Color.new(200, 60, 60))
+      b.fill_rect(xb_x, xb_y, 1, xb_s, Color.new(200, 60, 60))
+      b.fill_rect(xb_x + xb_s - 1, xb_y, 1, xb_s, Color.new(200, 60, 60))
+      b.font.size = 12; b.font.bold = true
+      pbDrawShadowText(b, xb_x, xb_y - 1, xb_s, xb_s, "X",
+                       Color.new(255, 170, 170), Color.new(0, 0, 0), 1)
+    end
+    _draw_scrollbar(b, all.length, @cancel_top)
+  end
+
   def _draw_scrollbar(bmp, total, top)
     return unless total > @max_vis
     th = bmp.height
@@ -552,7 +627,11 @@ class Scene_GrandExchange
   def _update_detail
     b = @detail_bmp.bitmap; b.clear
     pw = b.width
-    @tab == :my_orders ? _draw_order_detail(b, pw) : _draw_item_detail(b, pw)
+    case @tab
+    when :my_orders then _draw_order_detail(b, pw)
+    when :cancel     then _draw_cancel_detail(b, pw)
+    else                  _draw_item_detail(b, pw)
+    end
   end
 
   def _draw_item_detail(b, pw)
@@ -592,7 +671,16 @@ class Scene_GrandExchange
       _draw_claim_detail(b, pw, x)
       return
     end
+    _draw_single_order_detail(b, pw, x)
+  end
 
+  def _draw_cancel_detail(b, pw)
+    cl = @cancel_list || []
+    return if cl.empty? || @cancel_idx >= cl.length
+    _draw_single_order_detail(b, pw, cl[@cancel_idx])
+  end
+
+  def _draw_single_order_detail(b, pw, x)
     ot     = x['otype']
     sym    = x['item_id'].to_s.upcase.to_sym
     iname  = GameData::Item.exists?(sym) ? GameData::Item.get(sym).name : x['item_id'].to_s
@@ -614,7 +702,7 @@ class Scene_GrandExchange
       b.font.size = 11
       b.fill_rect(4, b.height - 22, pw - 8, 1, Color.new(50, 50, 85))
       pbDrawShadowText(b, 4, b.height - 18, pw - 8, 14,
-                       "Enter: Cancel Order", Color.new(130, 130, 155), Color.new(0, 0, 0))
+                       "Enter (or click the X): Cancel Order", Color.new(130, 130, 155), Color.new(0, 0, 0))
     end
   end
 
@@ -778,8 +866,23 @@ class Scene_GrandExchange
 
   def _cancel_selected_order
     ol = @order_list || []; return if ol.empty? || @order_idx >= ol.length
-    x      = ol[@order_idx]
+    x = ol[@order_idx]
     return if x['otype'] == 'claim'
+    _cancel_order(x)
+    @order_idx = [@order_idx - 1, 0].max
+  end
+
+  def _cancel_selected_from_cancel_tab
+    cl = @cancel_list || []; return if cl.empty? || @cancel_idx >= cl.length
+    _cancel_order(cl[@cancel_idx])
+    @cancel_idx = [@cancel_idx - 1, 0].max
+  end
+
+  # Shared by both the "My Orders" tab's quick-cancel and the dedicated
+  # "Cancel Orders" tab. Always returns the offer rather than fulfilling it —
+  # tokens back for an unfilled buy order, items back for an unfilled sell
+  # order — never the other way around, regardless of which tab triggered it.
+  def _cancel_order(x)
     remain = x['qty'].to_i - x['filled'].to_i
     return if remain <= 0
 
@@ -806,7 +909,6 @@ class Scene_GrandExchange
       msg = x['otype'] == 'buy' ? "Order cancelled. Tokens refunded." : "Order cancelled. Items returned."
       pbMessage(_INTL(msg))
       NetworkClient.send_msg({ action: 'ge_my_orders' })
-      @order_idx = [@order_idx - 1, 0].max
     else
       pbMessage(_INTL("Failed: {1}", result.is_a?(String) ? result : "No response."))
     end
@@ -928,6 +1030,22 @@ class Scene_GrandExchange
         break
       end
 
+      # Mouse click on a row in the Cancel Orders tab — select it and
+      # immediately bring up the same confirm dialog Enter would.
+      if @tab == :cancel && !@search_focused
+        list_y = HEADER_H + TAB_H + 29
+        if _click_in?(0, list_y, LIST_W, @list_bmp.bitmap.height)
+          mx, my = _mouse_game_pos
+          row = (my - list_y) / ICON_H
+          idx = @cancel_top + row
+          if idx >= 0 && idx < (@cancel_list || []).length
+            @cancel_idx = idx
+            _update_list; _update_detail
+            _cancel_selected_from_cancel_tab
+          end
+        end
+      end
+
       if @search_focused
         changed = _process_search_keys
         if changed
@@ -958,7 +1076,11 @@ class Scene_GrandExchange
       _switch_tab(TABS[(idx + 1) % TABS.length][0])
       return
     end
-    @tab == :my_orders ? _handle_orders_nav : _handle_search_nav
+    case @tab
+    when :my_orders then _handle_orders_nav
+    when :cancel     then _handle_cancel_nav
+    else                  _handle_search_nav
+    end
     @running = false if Input.trigger?(Input::BACK)
   end
 
@@ -998,6 +1120,21 @@ class Scene_GrandExchange
       else
         _cancel_selected_order
       end
+    end
+  end
+
+  def _handle_cancel_nav
+    list = @cancel_list || []
+    if Input.repeat?(Input::UP) && @cancel_idx > 0
+      @cancel_idx -= 1
+      @cancel_top  = @cancel_idx if @cancel_idx < @cancel_top
+      _update_list; _update_detail
+    elsif Input.repeat?(Input::DOWN) && @cancel_idx < list.length - 1
+      @cancel_idx += 1
+      @cancel_top  = @cancel_idx - @max_vis + 1 if @cancel_idx >= @cancel_top + @max_vis
+      _update_list; _update_detail
+    elsif Input.trigger?(Input::USE) && !list.empty?
+      _cancel_selected_from_cancel_tab
     end
   end
 

@@ -1,66 +1,182 @@
-=== Battle started: InTheLight vs DeltaRay (2026-07-12 19:07:25) ===
+=== Battle started: InTheLight vs Dioylieta (2026-07-14 19:12:14) ===
 -- InTheLight's Team --
-1. Boss Venomoth (VENOMOTH) Lv.81 @ Silver Powder [Tinted Lens]
-   Moves: Mega Drain, Sleep Powder, Leech Life, Heal Order
-2. Mesprit (MESPRIT) Lv.56 [Levitate]
-   Moves: Extrasensory, Charm, Psychic, Flatter
-3. Suicune (SUICUNE) Lv.50 [Pressure]
-   Moves: Ice Fang, Tailwind, Crunch, Extrasensory
-4. Mesprit (MESPRIT) Lv.51 [Levitate]
-   Moves: Imprison, Extrasensory, Charm, Psychic
-5. Crobat (CROBAT) Lv.39 [Inner Focus]
-   Moves: Bite, Poison Fang, Quick Guard, Air Cutter
-6. Boss Ariados (ARIADOS) Lv.31 @ Silver Powder [Swarm]
-   Moves: String Shot, Absorb, Infestation, Heal Order
--- DeltaRay's Team --
-1. Entei (ENTEI) Lv.78 @ Lum Berry [Pressure]
-   Moves: Sacred Fire, Extreme Speed, Sunny Day, Fire Blast
-2. Gengar (GENGAR) Lv.81 @ Spooky Plate [Cursed Body]
-   Moves: Dark Pulse, Shadow Ball, Hypnosis, Curse
-3. Mismagius (MISMAGIUS) Lv.80 @ Silver Powder [Levitate]
-   Moves: Shadow Ball, Pain Split, Thief, Power Gem
-4. Mimikyu (MIMIKYU) Lv.97 @ Lum Berry [Disguise]
-   Moves: Hone Claws, Shadow Sneak, Shadow Claw, Play Rough
-5. Feraligatr (FERALIGATR) Lv.86 @ Amulet Coin [Torrent]
-   Moves: Strength, Crunch, Waterfall, Ice Fang
-6. Mew (MEW) Lv.85 @ Sitrus Berry [Synchronize]
-   Moves: Cut, Rock Smash, Fly, Flash
-Boo DeltaRay wants to battle!
-Boo DeltaRay sent out Entei!
-Go! Boss Venomoth!
-Enemy Entei is exerting its pressure!
-Enemy Entei used Sacred Fire!
-A critical hit!
-It's super- effective!
-Boss Venomoth fainted!
-You're in charge, Mesprit!
--- End of round: Mesprit 172/172HP [OK] | Entei 292/292HP [OK]
-Enemy Entei used Extreme Speed!
-Mesprit used Psychic!
-A critical hit!
--- End of round: Mesprit 76/172HP [OK] | Entei 209/292HP [OK]
-Enemy Entei used Extreme Speed!
-Mesprit fainted!
-Go for it, Mesprit!
--- End of round: Mesprit 28/151HP [OK] | Entei 209/292HP [OK]
-Enemy Entei used Extreme Speed!
-Mesprit fainted!
-Go for it, Suicune!
-Suicune is exerting its pressure!
--- End of round: Suicune 119/175HP [OK] | Entei 209/292HP [OK]
-Enemy Entei used Sacred Fire!
+1. Ghost (GHOST) Lv.100 [Pressure]
+   Moves: Lick, Slaphappy, Zombify, Creepy Crawl
+2. Buried Alive (BURRIEDALIVE) Lv.100 [Pressure]
+   Moves: Scratch, Zombify, Slaphappy, Creepy Crawl
+3. Dark Mew (DARKMEW) Lv.100 [Pressure]
+   Moves: Pound, Zombify, Perfect Dark, Slaphappy
+4. Fossel (FOSSEL) Lv.100 [Pressure]
+   Moves: Tackle, Slaphappy, Zombify, Creepy Crawl
+5. Fossil (FOSSIL) Lv.100 [Pressure]
+   Moves: Metal Claw, Creepy Crawl, Zombify, End Times
+6. Missigno (MISSIGNO) Lv.100 [Pressure]
+   Moves: Tackle, Zombify, Secret Lair, Perfect Dark
+-- Dioylieta's Team --
+1. Beedrill (BEEDRILL) Lv.100 @ Beedrillite [Swarm]
+   Moves: U-turn, Poison Jab, Drill Run, Knock Off
+2. Nidoking (NIDOKING) Lv.100 @ Life Orb [Sheer Force]
+   Moves: Earth Power, Sludge Wave, Power Gem, Ice Beam
+3. Venusaur (VENUSAUR) Lv.100 @ Black Sludge [Overgrow]
+   Moves: Giga Drain, Sludge Bomb, Earth Power, Growth
+4. Crobat (CROBAT) Lv.100 @ Heavy-Duty Boots [Infiltrator]
+   Moves: Brave Bird, Cross Poison, U-turn, Quick Attack
+5. Weezing (WEEZING) Lv.100 @ Black Sludge [Levitate]
+   Moves: Toxic Spikes, Thunderbolt, Recover, Strange Steam
+6. Toxicroak (TOXICROAK) Lv.100 @ Black Sludge [Dry Skin]
+   Moves: Sucker Punch, Gunk Shot, Close Combat, Swords Dance
+Pokémon Trainer Dioylieta wants to battle!
+Pokémon Trainer Dioylieta sent out Beedrill!
+Go! Ghost!
+Ghost is exerting its pressure!
+Ghost used Creepy Crawl!
 It's not very effective...
-Suicune used Ice Fang!
+Enemy Beedrill was trapped in the vortex!
+Enemy Beedrill used U-turn!
 It's not very effective...
-*** HP desync corrected: Suicune 30 -> 0
-*** Suicune fainted on the other screen but not locally — forcing faint now.
-Suicune fainted!
-Go for it, Boss Ariados!
--- End of round: Boss Ariados 94/94HP [OK] | Entei 201/292HP [OK]
-Enemy Entei used Fire Blast!
-It's super- effective!
-Boss Ariados fainted!
-You have no more Pokémon that can fight!
-You lost against Boo DeltaRay!
-You blacked out!
+Enemy Beedrill went back to Pokémon Trainer Dioylieta!
+Pokémon Trainer Dioylieta sent out Weezing!
+-- End of round: Ghost 421/454HP [OK] | Weezing 334/334HP [OK]
+Ghost used Creepy Crawl!
+It's not very effective...
+Enemy Weezing was trapped in the vortex!
+Enemy Weezing used Toxic Spikes!
+Poison spikes were scattered all around your team's feet!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing is hurt by Creepy Crawl!
+-- End of round: Ghost 421/454HP [OK] | Weezing 293/334HP [OK]
+Ghost used Lick!
+Enemy Weezing used Thunderbolt!
+A critical hit!
+Ghost is paralyzed! It may be unable to move!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing is hurt by Creepy Crawl!
+*** HP desync corrected: Ghost 342 -> 421
+*** Status desync corrected: Ghost PARALYSIS -> NONE
+*** HP desync corrected: Weezing 243 -> 293
+-- End of round: Ghost 421/454HP [OK] | Weezing 293/334HP [OK]
+Ghost used Slaphappy!
+Hit 6 times!
+Enemy Weezing used Strange Steam!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing is hurt by Creepy Crawl!
+*** HP desync corrected: Ghost 344 -> 342
+*** Status desync corrected: Ghost NONE -> PARALYSIS
+*** HP desync corrected: Weezing 209 -> 243
+-- End of round: Ghost 342/454HP [PARALYSIS] | Weezing 243/334HP [OK]
+Ghost is paralyzed! It can't move!
+Enemy Weezing used Strange Steam!
+Enemy Weezing's attack missed!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing is hurt by Creepy Crawl!
+-- End of round: Ghost 342/454HP [PARALYSIS] | Weezing 222/334HP [OK]
+Ghost is paralyzed! It can't move!
+Enemy Weezing used Thunderbolt!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing is hurt by Creepy Crawl!
+-- End of round: Ghost 296/454HP [PARALYSIS] | Weezing 201/334HP [OK]
+Ghost is paralyzed! It can't move!
+Enemy Weezing used Strange Steam!
+Enemy Weezing restored a little HP using its Black Sludge!
+Enemy Weezing was freed from Creepy Crawl!
+-- End of round: Ghost 215/454HP [PARALYSIS] | Weezing 221/334HP [OK]
+Ghost used Slaphappy!
+Enemy Weezing fainted!
+Hit 7 times!
+Pokémon Trainer Dioylieta sent out Nidoking!
+-- End of round: Ghost 215/454HP [PARALYSIS] | Nidoking 304/304HP [OK]
+Enemy Nidoking used Ice Beam!
+Ghost used Lick!
+-- End of round: Ghost 113/454HP [PARALYSIS] | Nidoking 242/304HP [OK]
+Enemy Nidoking used Ice Beam!
+Ghost fainted!
+*** Status desync corrected: Ghost NONE -> PARALYSIS
+Go for it, Missigno!
+Missigno was poisoned by the poison spikes!
+Missigno is exerting its pressure!
+-- End of round: Missigno 490/490HP [POISON] | Nidoking 242/304HP [OK]
+Missigno used Perfect Dark!
+Missigno restored some HP!
+Enemy Nidoking's accuracy fell!
+Enemy Nidoking used Sludge Wave!
+It's not very effective...
+Missigno was hurt by poison!
+-- End of round: Missigno 330/490HP [POISON] | Nidoking 222/304HP [OK]
+Missigno used Perfect Dark!
+Missigno restored some HP!
+Enemy Nidoking's accuracy fell!
+Enemy Nidoking used Earth Power!
+Missigno was hurt by poison!
+*** HP desync corrected: Missigno 130 -> 330
+*** HP desync corrected: Nidoking 202 -> 222
+-- End of round: Missigno 330/490HP [POISON] | Nidoking 222/304HP [OK]
+Missigno used Perfect Dark!
+Missigno restored some HP!
+Enemy Nidoking's accuracy fell!
+Enemy Nidoking used Earth Power!
+Enemy Nidoking's attack missed!
+Missigno was hurt by poison!
+*** HP desync corrected: Missigno 299 -> 130
+-- End of round: Missigno 130/490HP [POISON] | Nidoking 202/304HP [OK]
+Missigno used Perfect Dark!
+Missigno restored some HP!
+Enemy Nidoking's accuracy fell!
+Enemy Nidoking used Earth Power!
+Enemy Nidoking's attack missed!
+Missigno was hurt by poison!
+-- End of round: Missigno 99/490HP [POISON] | Nidoking 182/304HP [OK]
+Missigno used Tackle!
+Enemy Nidoking used Sludge Wave!
+Missigno avoided the attack!
+Missigno was hurt by poison!
+*** HP desync corrected: Missigno 38 -> 99
+*** HP desync corrected: Nidoking 96 -> 182
+-- End of round: Missigno 99/490HP [POISON] | Nidoking 182/304HP [OK]
+Missigno used Tackle!
+Enemy Nidoking used Sludge Wave!
+Missigno avoided the attack!
+Missigno was hurt by poison!
+-- End of round: Missigno 38/490HP [POISON] | Nidoking 104/304HP [OK]
+Missigno used Tackle!
+Enemy Nidoking used Ice Beam!
+Enemy Nidoking's attack missed!
+Missigno was hurt by poison!
+Missigno fainted!
+Your opponent's weak! Get 'em, Fossel!
+Fossel was poisoned by the poison spikes!
+Fossel is exerting its pressure!
+-- End of round: Fossel 575/575HP [POISON] | Nidoking 30/304HP [OK]
+Fossel used Slaphappy!
+Hit 3 times!
+Enemy Nidoking used Ice Beam!
+Enemy Nidoking's attack missed!
+Fossel was hurt by poison!
+-- End of round: Fossel 504/575HP [POISON] | Nidoking 16/304HP [OK]
+Fossel, come back!
+Your opponent's weak! Get 'em, Fossil!
+Fossil is exerting its pressure!
+Enemy Nidoking used Sludge Wave!
+It doesn't affect Fossil...
+-- End of round: Fossil 529/529HP [OK] | Nidoking 16/304HP [OK]
+Fossil, switch out! Come back!
+Your opponent's weak! Get 'em, Buried Alive!
+Buried Alive was poisoned by the poison spikes!
+Buried Alive is exerting its pressure!
+Enemy Nidoking used Earth Power!
+Enemy Nidoking's attack missed!
+Buried Alive was hurt by poison!
+-- End of round: Buried Alive 549/627HP [POISON] | Nidoking 16/304HP [OK]
+Buried Alive used Slaphappy!
+Enemy Nidoking fainted!
+Hit 5 times!
+Buried Alive was hurt by poison!
+Pokémon Trainer Dioylieta sent out Venusaur!
+-- End of round: Buried Alive 471/627HP [POISON] | Venusaur 302/302HP [OK]
+Buried Alive, come back!
+You're in charge, Dark Mew!
+Dark Mew was poisoned by the poison spikes!
+Dark Mew is exerting its pressure!
+Enemy Venusaur used Earth Power!
+Dark Mew was hurt by poison!
+-- End of round: Dark Mew 488/631HP [POISON] | Venusaur 302/302HP [OK]
 === Battle ended: lost ===

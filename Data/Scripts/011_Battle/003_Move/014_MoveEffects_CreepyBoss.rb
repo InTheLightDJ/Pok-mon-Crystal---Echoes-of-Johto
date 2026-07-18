@@ -21,7 +21,7 @@ class Battle::Move::InflictZombie < Battle::Move
 
   def pbEffectAgainstTarget(user, target)
     return if target.damageState.substitute
-    chance = pbAdditionalEffectChance(user, target, @effectChance)
+    chance = pbAdditionalEffectChance(user, target, @addlEffect)
     return if @battle.pbRandom(100) >= chance
     target.pbInflictStatus(:ZMB, 0, nil, user) if target.pbCanInflictStatus?(:ZMB, user, false, self)
   end

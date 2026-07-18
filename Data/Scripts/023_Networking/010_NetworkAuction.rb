@@ -143,6 +143,7 @@ module NetworkAuction
         species_sym = prize['item_id'].to_sym
         begin
           egg = Pokemon.new(species_sym, 1)
+          egg.form = prize['form'].to_i if prize['form'].to_i > 0
           egg.name           = "Egg"
           egg.steps_to_hatch = (GameData::Species.get(species_sym).hatch_steps rescue 5120)
           egg.steps_to_hatch = 5120 if egg.steps_to_hatch <= 0

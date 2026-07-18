@@ -33,9 +33,15 @@ MenuHandlers.add(:pause_menu, :server, {
       menu.pbEndScene
       next true
     elsif cmd == 1
-      menu.pbHideMenu
-      NetworkBattle.request_battle
-      menu.pbEndScene
+      size_cmd = pbMessage(
+        _INTL("Single or Double battle?"),
+        [_INTL("Single"), _INTL("Double"), _INTL("Cancel")], 3
+      )
+      if size_cmd == 0 || size_cmd == 1
+        menu.pbHideMenu
+        NetworkBattle.request_battle(nil, size_cmd == 1 ? 'double' : 'single')
+        menu.pbEndScene
+      end
       next true
     elsif cmd == 2
       menu.pbHideMenu

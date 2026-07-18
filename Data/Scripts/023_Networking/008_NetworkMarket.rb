@@ -147,6 +147,15 @@ class Scene_NetworkMarket
                 :POISON, :GROUND, :FLYING, :PSYCHIC, :BUG, :ROCK, :GHOST,
                 :DRAGON, :DARK, :STEEL, :FAIRY].freeze
 
+  VK_LBUTTON  = 0x01
+  CLOSE_BTN_W = 52
+  CLOSE_BTN_H = 18
+  # NOTE: uses the fixed Settings::SCREEN_WIDTH, not Graphics.width — see the
+  # matching comment in Scene_GrandExchange (022_NetworkGrandExchange.rb) for
+  # why Graphics.width can't be trusted at class-body load time here.
+  CLOSE_BTN_X = Settings::SCREEN_WIDTH - 58
+  CLOSE_BTN_Y = 5
+
   def initialize
     @listings      = nil   # nil = still fetching
     @index         = 0
@@ -156,6 +165,7 @@ class Scene_NetworkMarket
     @tabs          = []
     @filtered      = []
     @tab_scroll    = 0
+    _setup_mouse
   end
 
   def main
@@ -171,6 +181,53 @@ class Scene_NetworkMarket
   end
 
   private
+
+  #-----------------------------------------------------------------------------
+  # Mouse click detection (same raw Win32API approach as Scene_GrandExchange,
+  # 022_NetworkGrandExchange.rb) — just enough for a clickable close button,
+  # no keyboard tracking needed since this scene has no text search field.
+  #-----------------------------------------------------------------------------
+  def _setup_mouse
+    @lbutton_api      = Win32API.new('user32', 'GetAsyncKeyState', ['i'], 'i') rescue nil
+    @cursor_pos_api   = Win32API.new('user32', 'GetCursorPos',     'P',  'L') rescue nil
+    @screen_to_client = Win32API.new('user32', 'ScreenToClient',   'LP', 'L') rescue nil
+    @get_client_rect  = Win32API.new('user32', 'GetClientRect',    'LP', 'L') rescue nil
+    @get_fg_window    = Win32API.new('user32', 'GetForegroundWindow', '', 'L') rescue nil
+    @mouse_down_prev  = false
+    @mouse_clicked    = false
+  end
+
+  def _mouse_game_pos
+    return [-1, -1] unless @cursor_pos_api && @screen_to_client && @get_client_rect && @get_fg_window
+    hwnd = @get_fg_window.call
+    return [-1, -1] if hwnd == 0
+    pt = [0, 0].pack('l2')
+    @cursor_pos_api.call(pt)
+    @screen_to_client.call(hwnd, pt)
+    raw_x, raw_y = pt.unpack('l2')
+    cr = "\0" * 16
+    @get_client_rect.call(hwnd, cr)
+    _l, _t, cw, ch = cr.unpack('l4')
+    return [-1, -1] if cw <= 0 || ch <= 0
+    gx = (raw_x.to_f / cw * Graphics.width).to_i
+    gy = (raw_y.to_f / ch * Graphics.height).to_i
+    [gx, gy]
+  rescue
+    [-1, -1]
+  end
+
+  # Call once per frame before any _click_in? checks — edge-detects the click.
+  def _update_mouse_click
+    down = @lbutton_api && (@lbutton_api.call(VK_LBUTTON) & 0x8000) != 0
+    @mouse_clicked   = down && !@mouse_down_prev
+    @mouse_down_prev = down
+  end
+
+  def _click_in?(rx, ry, rw, rh)
+    return false unless @mouse_clicked
+    mx, my = _mouse_game_pos
+    mx >= rx && mx < rx + rw && my >= ry && my < ry + rh
+  end
 
   #-----------------------------------------------------------------------------
   # Sprite setup
@@ -225,8 +282,23 @@ class Scene_NetworkMarket
     b = @static_bmp.bitmap; w = Graphics.width
     b.fill_rect(w / 2, 0, w / 2, HEADER_H, Color.new(25, 25, 70))
     b.font.size = 18; b.font.bold = true
-    pbDrawShadowText(b, 0, 4, w - 8, HEADER_H - 4,
+    pbDrawShadowText(b, 0, 4, CLOSE_BTN_X - 8, HEADER_H - 4,
                      "Tokens: #{NetworkTokens.balance}", Color.new(255, 200, 50), Color.new(0, 0, 0), 2)
+    _draw_close_button
+  end
+
+  # Clickable exit — matches Scene_GrandExchange's close button style/position
+  # (022_NetworkGrandExchange.rb) so both markets close the same way.
+  def _draw_close_button
+    b = @static_bmp.bitmap
+    b.fill_rect(CLOSE_BTN_X, CLOSE_BTN_Y, CLOSE_BTN_W, CLOSE_BTN_H, Color.new(120, 30, 30))
+    b.fill_rect(CLOSE_BTN_X, CLOSE_BTN_Y, CLOSE_BTN_W, 1, Color.new(200, 60, 60))
+    b.fill_rect(CLOSE_BTN_X, CLOSE_BTN_Y + CLOSE_BTN_H - 1, CLOSE_BTN_W, 1, Color.new(200, 60, 60))
+    b.fill_rect(CLOSE_BTN_X, CLOSE_BTN_Y, 1, CLOSE_BTN_H, Color.new(200, 60, 60))
+    b.fill_rect(CLOSE_BTN_X + CLOSE_BTN_W - 1, CLOSE_BTN_Y, 1, CLOSE_BTN_H, Color.new(200, 60, 60))
+    b.font.size = 12; b.font.bold = true
+    pbDrawShadowText(b, CLOSE_BTN_X + 2, CLOSE_BTN_Y + 2, CLOSE_BTN_W - 4, CLOSE_BTN_H - 4,
+                     "CLOSE", Color.new(255, 150, 150), Color.new(0, 0, 0), 1)
   end
 
   #-----------------------------------------------------------------------------
@@ -476,6 +548,11 @@ class Scene_NetworkMarket
     loop do
       Graphics.update; Input.update
       NetworkClient.update if NetworkClient.connected?
+      _update_mouse_click
+
+      if _click_in?(CLOSE_BTN_X, CLOSE_BTN_Y, CLOSE_BTN_W, CLOSE_BTN_H)
+        break
+      end
 
       tabs_ready = !@tabs.empty?
       list_ready = !@filtered.empty?

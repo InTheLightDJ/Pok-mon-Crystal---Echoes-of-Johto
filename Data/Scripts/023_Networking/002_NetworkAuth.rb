@@ -20,9 +20,18 @@ module NetworkAuth
 
   @username  = nil
   @device_id = nil  # cached in memory — survives new-game without file I/O
+  @pending_update_notice = nil  # set by 'update_available', shown on the next safe frame
 
   def self.username
     @username
+  end
+
+  def self.pending_update_notice
+    @pending_update_notice
+  end
+
+  def self.pending_update_notice=(v)
+    @pending_update_notice = v
   end
 
   def self.logged_in?
@@ -162,6 +171,8 @@ module NetworkAuth
       pbCheckDexCompletionAchievements rescue nil
       # Ask server if a world boss is currently active.
       NetworkClient.send_msg({ action: 'boss_status' })
+      # Ask server which Mini Bosses (early-route Gen 1-2 wild bosses) are currently active.
+      NetworkClient.send_msg({ action: 'mini_boss_status' })
       # Fetch current professor requests so NPC cache is ready.
       NetworkClient.send_msg({ action: 'professor_status', who: 'oak' })
       NetworkClient.send_msg({ action: 'professor_status', who: 'elm' })
@@ -183,15 +194,19 @@ module NetworkAuth
         end
       end
       # Server checks our client_version against the latest GitHub release and
-      # sends this once, shortly after login_ok, if we're behind. Registered
-      # LAST — after the daily wheel and its reward dialog are fully done —
-      # so this can never fire its own blocking pbMessage reentrantly from
-      # inside another still-open blocking dialog. If the server's message
-      # happens to arrive earlier (mid-wheel), it just waits harmlessly in
-      # the queue since no callback is registered yet, and gets handled by
-      # the very next ordinary frame update once we're back in the overworld.
+      # sends this once, shortly after login_ok, if we're behind. This can
+      # arrive at literally any moment afterward (mid-fade, mid another custom
+      # full-screen scene like Scene_FishingBar/Scene_DailyWheel, etc.), and
+      # calling pbMessage directly from here used to do exactly that — the
+      # message window would open while something else with higher z-order
+      # (e.g. a fade overlay or another blocking scene's viewport) was still
+      # covering the screen, so the player heard the confirm sound but saw a
+      # black screen. Instead, just stash it — see the on_frame_update hook
+      # below, which only shows it once we're back in normal, uninterrupted
+      # overworld control (same guard conditions used by the Lake Fishing
+      # Contest's timer-expiry check).
       NetworkClient.off('update_available')
-      NetworkClient.on('update_available') { |d| pbShowUpdateNotice(d) rescue nil }
+      NetworkClient.on('update_available') { |d| NetworkAuth.pending_update_notice = d }
       return true
     end
 
@@ -223,3 +238,16 @@ def pbShowUpdateNotice(d)
     system("start \"\" \"#{url}\"")
   end
 end
+
+# Shows the queued update notice (if any) only once normal overworld control
+# has full control of the screen — not mid-fade, not mid-message, not mid an
+# event, and not mid some other blocking custom scene (those don't route
+# through Scene_Map's update loop at all while active, so this hook simply
+# can't fire until they've finished on their own).
+EventHandlers.add(:on_frame_update, :show_pending_update_notice, proc {
+  next unless NetworkAuth.pending_update_notice
+  next if $game_player.move_route_forcing || pbMapInterpreterRunning? || $game_temp.message_window_showing
+  data = NetworkAuth.pending_update_notice
+  NetworkAuth.pending_update_notice = nil
+  pbShowUpdateNotice(data) rescue nil
+})

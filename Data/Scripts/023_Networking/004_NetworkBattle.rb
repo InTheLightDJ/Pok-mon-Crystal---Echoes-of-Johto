@@ -41,21 +41,35 @@
 #
 # FLOW:
 #   Challenger: NetworkBattle.request_battle
-#     1. Pick target from online list
-#     2. Send battle_request with own team + trainer sprite
-#     3. Wait for battle_start (contains seed, opp team, opp sprite)
+#     1. Pick target from online list, and Single/Double from the SERVER menu
+#     2. Send battle_request with own team + trainer sprite + size
+#     3. Wait for battle_start (contains seed, opp team, opp sprite, size)
 #     4. Run Battle::NetworkPvP (is_challenger = true)
 #
 #   Accepter (passive — no action needed beyond overworld):
-#     battle_request arrives → "X wants to battle!" dialog
+#     battle_request arrives → "X wants to battle!" dialog (mentions size)
 #     Accept → send battle_accept with own team + trainer sprite
 #     Wait for battle_start → run Battle::NetworkPvP (is_challenger = false)
 #
+#   Battle size (single/double) is chosen only by the challenger and carried
+#   through battle_request -> battle_start by the server so both clients call
+#   setBattleRule("single"/"double") identically before the battle starts.
+#   Doubles is just the challenger's own party vs the opponent's own party at
+#   sideSizes [2,2] — no partner NPC involved.
+#
+# BATTLER INDEXING (why the ^1 translations below are correct for doubles too):
+#   The core engine interleaves battler indices by side: index 0/2 are always
+#   "my side" on MY screen, 1/3 are always "my side" on the opponent's screen.
+#   Side = index & 1, column/position = index >> 1. So idx ^ 1 always flips
+#   side while preserving column — exactly "the same position, the other
+#   player's screen" — for both singles (0<->1) and doubles (0<->1, 2<->3).
+#
 # PROTOCOL MESSAGES (client → server):
-#   battle_request      { target_username, trainer_sprite, team }
+#   battle_request      { target_username, trainer_sprite, team, size }  size: 'single'|'double'
 #   battle_accept       { battle_id, trainer_sprite, team }
 #   battle_decline      { battle_id }
-#   battle_move         { battle_id, move: { action, move_index, target_index } }
+#   battle_move         { battle_id, move: [{ idx, action, move_index, target_index }, ...] }
+#                          one entry per battler the sender owns (1 for singles, 2 for doubles)
 #   battle_faint_switch { battle_id, party_slot }
 #   battle_turn_sync    { battle_id, hp: [{hp,totalhp,status,name,species,level}, ...] }  ← both sides
 #   battle_forfeit      { battle_id }
@@ -63,10 +77,10 @@
 #   battle_log_upload   { battle_id, text }  ← reply to battle_log_request, see NetworkBattleLog
 #
 # PROTOCOL MESSAGES (server → client):
-#   battle_request       { from, battle_id, trainer_sprite, team }
+#   battle_request       { from, battle_id, trainer_sprite, team, size }
 #   battle_pending       { battle_id }
-#   battle_start         { battle_id, seed, my_team, opp_team, my_sprite, opp_sprite, opp_name }
-#   battle_moves_ready   { my_move, opp_move, turn_seed }
+#   battle_start         { battle_id, seed, my_team, opp_team, my_sprite, opp_sprite, opp_name, size }
+#   battle_moves_ready   { my_move, opp_move, turn_seed }  ← my_move/opp_move are arrays, see battle_move above
 #   battle_opp_switch_result { party_slot }
 #   battle_hp_sync       { hp: [{hp,status,...}, ...] } ← both sides; server-reconciled truth,
 #                                                          indexed in the recipient's own battler order
@@ -97,10 +111,10 @@ class Battle::NetworkAI < Battle::AI
   # Called by pbCommandPhaseLoop(false) for each opponent battler.
   # The received move is pre-stored in @battle.net_opp_move_pending.
   def pbDefaultChooseEnemyCommand(idxBattler)
-    opp = @battle.net_opp_move_pending
+    opp = @battle.net_opp_move_pending[idxBattler]
     return if opp.nil?
     @battle.net_register_opp_action(idxBattler, opp)
-    @battle.net_opp_move_pending = nil
+    @battle.net_opp_move_pending.delete(idxBattler)
   end
 
   # After a faint the engine calls this for the opponent side.
@@ -122,7 +136,7 @@ class Battle::NetworkPvP < Battle
     @switchStyle          = false  # Set mode: no free switch after KO (ivar used directly by engine)
     @battle_id            = battle_id
     @net_moves_ready      = false
-    @net_opp_move_pending = nil
+    @net_opp_move_pending = {}   # local battler idx => move data, see _register_net_callbacks
     @current_turn_seed    = nil
     @opp_switch_queue     = []   # queue of party slots from opponent faint-switches
     @battle_ended_ext     = false
@@ -148,9 +162,9 @@ class Battle::NetworkPvP < Battle
       idx = move_data['move_index'].to_i
       pbRegisterMove(idxBattler, idx, false)
       raw = (move_data['target_index'] || -1).to_i
-      # The sender's battler layout is the mirror of ours: their battler[0] is their
-      # Pokémon (our battler[1]) and vice versa.  XOR 1 maps 0↔1 and 2↔3 so the
-      # target resolves to the correct battler on our side.
+      # Translate the sender's battler index into ours (see the file's
+      # top-of-file BATTLER INDEXING note): XOR 1 flips side while keeping
+      # column, so 0<->1 and 2<->3 both resolve to the correct battler.
       @choices[idxBattler][3] = raw >= 0 ? (raw ^ 1) : raw
     when 'switch'
       pbRegisterSwitch(idxBattler, move_data['party_slot'].to_i)
@@ -253,16 +267,19 @@ class Battle::NetworkPvP < Battle
   # screen battler[0] is the accepter's Pokémon.  Both clients get the same RNG
   # shuffle, so the same Pokémon would "win" on both screens — but it's battler[0]
   # on each, meaning a different Pokémon each time.  Fix: on the accepter's screen,
-  # swap the tiebreaker values for battlers 0 and 1 so the canonical assignment
-  # (challenger's Pokémon always gets randomOrder[0]) is honoured on both screens.
+  # swap the tiebreaker values within each column pair (0<->1, 2<->3, ...) so the
+  # canonical assignment (challenger's Pokémon always gets the lower randomOrder
+  # value in its column) is honoured on both screens — for both singles and doubles.
   #-----------------------------------------------------------------------------
   def pbCalculatePriority(fullCalc = false, indexArray = nil)
     super(fullCalc, indexArray)
     return unless fullCalc && !@is_challenger
-    e0 = @priority.find { |e| e[0].index == 0 }
-    e1 = @priority.find { |e| e[0].index == 1 }
-    return unless e0 && e1
-    e0[6], e1[6] = e1[6], e0[6]
+    (0...@battlers.length).step(2) do |i|
+      e0 = @priority.find { |e| e[0].index == i }
+      e1 = @priority.find { |e| e[0].index == i + 1 }
+      next unless e0 && e1
+      e0[6], e1[6] = e1[6], e0[6]
+    end
     @priority.sort! do |a, b|
       if    a[5] != b[5] then b[5] <=> a[5]
       elsif a[4] != b[4] then b[4] <=> a[4]
@@ -346,9 +363,17 @@ class Battle::NetworkPvP < Battle
 
   def _register_net_callbacks
     NetworkClient.on('battle_moves_ready') do |d|
-      @current_turn_seed    = d['turn_seed']
-      @net_opp_move_pending = d['opp_move']
-      @net_moves_ready      = true
+      @current_turn_seed = d['turn_seed']
+      # d['opp_move'] is an array of { 'idx' => <sender's own battler idx>, ... }
+      # entries — one per battler the opponent owns. Translate each into our
+      # own battler-index space (side flips, column stays — see the file's
+      # top-of-file BATTLER INDEXING note) so pbDefaultChooseEnemyCommand can
+      # look moves up by local idxBattler.
+      (d['opp_move'] || []).each do |entry|
+        local_idx = entry['idx'].to_i ^ 1
+        @net_opp_move_pending[local_idx] = entry
+      end
+      @net_moves_ready = true
     end
     NetworkClient.on('battle_opp_switch_result') { |d| @opp_switch_queue << d['party_slot'].to_i }
     NetworkClient.on('battle_ended')             { |d| @battle_ended_reason = d['reason']; @battle_ended_outcome = d['outcome']; @battle_ended_ext = true }
@@ -386,16 +411,23 @@ class Battle::NetworkPvP < Battle
     true
   end
 
-  # Serialise @choices[0] into a compact hash for the network.
+  # Serialise every battler we own (@choices[i]) into an array of compact
+  # hashes for the network — one entry per battler (1 for singles, 2 for
+  # doubles), each tagged with its own local idx so the recipient can
+  # translate it into their own battler-index space (see BATTLER INDEXING).
   def _net_send_my_choice
-    c = @choices[0]
-    data = case c[0]
-    when :UseMove   then { 'action' => 'fight',  'move_index'  => c[1], 'target_index' => c[3] }
-    when :SwitchOut then { 'action' => 'switch', 'party_slot'  => c[1] }
-    when :Run       then { 'action' => 'run' }
-    else                 { 'action' => 'forced' }
+    moves = (0...@battlers.length).select { |i| pbOwnedByPlayer?(i) }.map do |i|
+      c = @choices[i]
+      data = case c[0]
+      when :UseMove   then { 'action' => 'fight',  'move_index'  => c[1], 'target_index' => c[3] }
+      when :SwitchOut then { 'action' => 'switch', 'party_slot'  => c[1] }
+      when :Run       then { 'action' => 'run' }
+      else                 { 'action' => 'forced' }
+      end
+      data['idx'] = i
+      data
     end
-    NetworkClient.send_msg({ action: 'battle_move', battle_id: @battle_id, move: data })
+    NetworkClient.send_msg({ action: 'battle_move', battle_id: @battle_id, move: moves })
   end
 
   # Send our own view of HP/status to the server after each round for
@@ -518,9 +550,14 @@ module NetworkBattle
   #-----------------------------------------------------------------------------
   # Challenger side: pick target → wait for accept → run battle
   #-----------------------------------------------------------------------------
-  def self.request_battle(target_username = nil)
+  def self.request_battle(target_username = nil, size = 'single')
     unless NetworkAuth.logged_in?
       pbMessage(_INTL("You need to be connected online to battle."))
+      return
+    end
+
+    if size == 'double' && $player.able_pokemon_count < 2
+      pbMessage(_INTL("You need at least 2 able Pokémon in your party for a Double battle."))
       return
     end
 
@@ -539,7 +576,8 @@ module NetworkBattle
       action:          'battle_request',
       target_username: target_username,
       trainer_sprite:  $player.trainer_type.to_s,
-      team:            _serialize_team($player.party)
+      team:            _serialize_team($player.party),
+      size:            size
     })
 
     # Wait for server ack
@@ -614,12 +652,13 @@ module NetworkBattle
   # Accepter flow: show dialog, accept/decline, then wait for battle_start
   #-----------------------------------------------------------------------------
   def self._handle_incoming(req)
+    is_double = req['size'] == 'double'
     if req['forced']
       # King of the Hill title challenge — the reigning king cannot decline.
       pbMessage(_INTL("{1} challenges you for the King of the Hill title!\nYou must defend the crown!", req['from']))
     else
       response = pbMessage(
-        _INTL("{1} wants to battle!", req['from']),
+        is_double ? _INTL("{1} wants to have a Double battle!", req['from']) : _INTL("{1} wants to battle!", req['from']),
         [_INTL("Accept"), _INTL("Decline")], 2
       )
 
@@ -702,7 +741,7 @@ module NetworkBattle
     battle.expGain        = false
     battle.moneyGain      = false
 
-    setBattleRule("single") if $game_temp.battle_rules["size"].nil?
+    setBattleRule(data['size'] == 'double' ? "double" : "single") if $game_temp.battle_rules["size"].nil?
     # PvP battles must simulate identically on both clients, but prepare_battle
     # (called below) otherwise pulls defaultWeather/defaultTerrain/environment
     # from THIS player's own current map (see Overworld_BattleStarting.rb) —
