@@ -150,9 +150,22 @@ module NetworkClient
 
   # Change for upload
 
-  HOST    = LOCAL_TEST ? '127.0.0.1' : 'pokemonechosofjhoto.duckdns.org'
-  PORT    = 5051
-  TIMEOUT = 10  # seconds for initial connect
+  # The live server sits behind ISP carrier-grade NAT, so it can't be reached
+  # directly. Instead it's published through a Cloudflare Tunnel: the game
+  # launches the bundled cloudflared.exe (hidden) which listens on localhost
+  # and forwards to the tunnel hostname. We then just connect to localhost.
+  USE_TUNNEL        = !LOCAL_TEST
+  TUNNEL_EXE        = 'cloudflared.exe'   # must sit next to Game.exe
+  TUNNEL_HOSTNAME   = 'eoj-game.lightino.online'
+  TUNNEL_LOCAL_PORT = 15051
+
+  HOST     = '127.0.0.1'
+  PORT     = USE_TUNNEL ? TUNNEL_LOCAL_PORT : 5051
+  CHAT_URL = LOCAL_TEST ? 'http://127.0.0.1:5052' : 'https://eoj-chat.lightino.online'
+  TIMEOUT  = 10  # seconds for initial connect
+
+  @tunnel_launched = false
+  @tunnel_pid      = nil
 
   @socket     = nil
   @recv_queue = Queue.new
@@ -169,7 +182,7 @@ module NetworkClient
   def self.connect(host = HOST, port = PORT)
     return true if @connected
     begin
-      @socket = TCPSocket.new(host, port)
+      @socket = USE_TUNNEL ? _connect_via_tunnel : TCPSocket.new(host, port)
       @socket.setsockopt(Socket::IPPROTO_TCP, Socket::TCP_NODELAY, 1)
       @connected = true
       _start_recv_thread
@@ -242,6 +255,53 @@ module NetworkClient
       end
       @callbacks[event].each { |cb| cb.call(msg) }
     end
+  end
+
+  # Start the cloudflared helper (once per session) and connect to its local
+  # listener, retrying until it's up. If a helper from an earlier session is
+  # still running, the new one just fails to bind and we connect to the old one.
+  def self._connect_via_tunnel
+    _launch_tunnel unless @tunnel_launched
+    deadline = Time.now + TIMEOUT
+    begin
+      TCPSocket.new(HOST, TUNNEL_LOCAL_PORT)
+    rescue SystemCallError => e
+      raise "tunnel helper not reachable (#{e.message})" if Time.now > deadline
+      sleep 0.25
+      retry
+    end
+  end
+
+  def self._launch_tunnel
+    unless File.exist?(TUNNEL_EXE)
+      raise "#{TUNNEL_EXE} is missing from the game folder"
+    end
+    @tunnel_launched = true
+    args = "access tcp --hostname #{TUNNEL_HOSTNAME} --url #{HOST}:#{TUNNEL_LOCAL_PORT} --loglevel error"
+    @tunnel_pid = _spawn_hidden("#{TUNNEL_EXE} #{args}")
+    if @tunnel_pid
+      at_exit { Process.kill(:KILL, @tunnel_pid) rescue nil }
+    else
+      # FFI unavailable — fall back to a minimized console window.
+      system("start \"\" /min #{TUNNEL_EXE} #{args}")
+    end
+  end
+
+  # CreateProcessW with CREATE_NO_WINDOW so no console pops up. Returns the
+  # child's PID, or nil if the FFI call isn't available/failed.
+  def self._spawn_hidden(cmdline)
+    ffi = defined?(MiniFFI) ? MiniFFI : (defined?(Win32API) ? Win32API : nil)
+    return nil unless ffi
+    create = ffi.new('kernel32', 'CreateProcessW', 'ipiiiiippp', 'i')
+    cmd = (cmdline + "\0").encode('UTF-16LE')      # must be a writable buffer
+    si  = [104].pack('L') + ("\0" * 100)            # STARTUPINFOW (x64), cb = 104
+    pi  = "\0" * 24                                 # PROCESS_INFORMATION (x64)
+    ok  = create.call(0, cmd, 0, 0, 0, 0x08000000, 0, 0, si, pi)
+    return nil if ok == 0
+    pi.unpack('QQL')[2]
+  rescue StandardError, NotImplementedError => e
+    puts "[Network] Hidden spawn failed: #{e.message}"
+    nil
   end
 
   private

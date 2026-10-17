@@ -301,7 +301,7 @@ end
           # longer at risk of rendering invisibly behind/beneath other windows.
           begin
             if NetworkAuth.auto_connect(silent: true)
-              system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"http://#{NetworkClient::HOST}:5052?name=#{NetworkAuth.username}\" --window-size=320,580 --window-position=1270,80")
+              system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"#{NetworkClient::CHAT_URL}/?name=#{NetworkAuth.username}\" --window-size=320,580 --window-position=1270,80")
             end
           rescue => e
             puts "[AutoConnect] #{e.message}"

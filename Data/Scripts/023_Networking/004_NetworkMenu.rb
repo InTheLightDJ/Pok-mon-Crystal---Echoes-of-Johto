@@ -19,7 +19,7 @@ MenuHandlers.add(:pause_menu, :server, {
       end
       pbMessage(_INTL("Connected to the server!"))
       File.delete(File.join(ENV['LOCALAPPDATA'] || '', 'EojChatData', 'Default', 'Preferences')) rescue nil
-      system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"http://#{NetworkClient::HOST}:5052?name=#{NetworkAuth.username}\" --window-size=420,580 --window-position=1170,80")
+      system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"#{NetworkClient::CHAT_URL}/?name=#{NetworkAuth.username}\" --window-size=420,580 --window-position=1170,80")
     end
 
     cmd = pbMessage(
@@ -62,7 +62,7 @@ MenuHandlers.add(:pause_menu, :server, {
         puts "[Chat] Could not kill old window: #{e.message}"
       end
       File.delete(File.join(ENV['LOCALAPPDATA'] || '', 'EojChatData', 'Default', 'Preferences')) rescue nil
-      system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"http://#{NetworkClient::HOST}:5052?name=#{NetworkAuth.username}\" --window-size=420,580 --window-position=1170,80")
+      system("start \"\" msedge --user-data-dir=\"%LOCALAPPDATA%\\EojChatData\" --app=\"#{NetworkClient::CHAT_URL}/?name=#{NetworkAuth.username}\" --window-size=420,580 --window-position=1170,80")
       next false
     end
 
