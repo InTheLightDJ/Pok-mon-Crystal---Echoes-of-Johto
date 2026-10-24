@@ -127,4 +127,23 @@ module TCG
       tcg_ai_start_effect_choice(duel, kind, purpose, options, cancellable)
     end
   end
+
+  # A question asked in the middle of an attack (Whirlwind's forced switch, a
+  # Knock Out replacement, an effect prompt) must not change the attack being
+  # resolved: the AI's estimates (attack_unusable?, CheckIfDefendingPokemon-
+  # CanKnockOut...) load other attacks into duel.atk. Without this, Butterfree's
+  # Whirlwind against the AI finished as Mega Drain.
+  module AIKeepsLoadedAttack
+    %i[effect_choice choose_ko_replacement choose_prize].each do |m|
+      define_method(m) do |duel, *args|
+        saved = duel.atk
+        begin
+          super(duel, *args)
+        ensure
+          duel.atk = saved
+        end
+      end
+    end
+  end
+  AIController.prepend(AIKeepsLoadedAttack)
 end
