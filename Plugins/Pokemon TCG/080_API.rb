@@ -64,7 +64,7 @@ module TCG
   end
 
   # duel music (Audio/BGM): [file, volume, pitch]; nil = keep the map music
-  DUEL_BGM = ["Simple and Clean", 100, 150]
+  DUEL_BGM = ["CardBattle", 100, 100]
   WIN_BGM  = ["Islands", 100, 100]           # result screen after a win
   LOSS_BGM = ["GSC 123 The End", 100, 100]   # result screen after a loss
 

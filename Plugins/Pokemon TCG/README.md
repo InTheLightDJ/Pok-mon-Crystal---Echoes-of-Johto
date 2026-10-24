@@ -330,7 +330,7 @@ custom cards, only come out as the chosen card; change `TCG.destiny_pokemon` for
 
 ## Music
 
-Duels play `TCG::DUEL_BGM` (default "Simple and Clean" at 150% pitch), the
+Duels play `TCG::DUEL_BGM` (default "CardBattle"), the
 result screen plays `WIN_BGM` ("Islands") or `LOSS_BGM` ("GSC 123 The End"),
 and the map music comes back after the duel and its rewards. Change the
 `[file, volume, pitch]` entries at the top of `080_API.rb`; `nil` keeps the
