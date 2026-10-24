@@ -1,0 +1,5 @@
+Name       = Pokemon TCG
+Version    = 0.1.0
+Essentials = 21.1
+Link       = https://github.com/pret/poketcg
+Credits    = pret (poketcg disassembly),InTheLight,Pokemon TCG Neo: Sprites by Cataclyptic

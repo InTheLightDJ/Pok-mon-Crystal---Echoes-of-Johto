@@ -22,6 +22,8 @@ class PokemonSystem
   def show_online_players; @show_online_players ||= 0; end
   attr_writer :chat_sounds
   def chat_sounds; @chat_sounds ||= 0; end
+  attr_writer :enemy_hp_numbers
+  def enemy_hp_numbers; @enemy_hp_numbers ||= 1; end
 
   def initialize
     @textspeed     = 1     # Text speed (0=slow, 1=medium, 2=fast, 3=instant)
@@ -42,6 +44,7 @@ class PokemonSystem
     @contestanimations   = Settings::CONTEST_ANIMATIONS ? 0 : 1   # Contest effects (0=on, 1=off)
     @show_online_players = 0   # Online players (0=show, 1=hide)
     @chat_sounds         = 0   # Chat sounds (0=on, 1=off)
+    @enemy_hp_numbers    = 1   # Enemy HP numbers in battle (0=on, 1=off)
   end
 end
 
@@ -397,6 +400,16 @@ MenuHandlers.add(:options_menu, :battle_animations, {
   "description" => _INTL("Choose whether you wish to see move animations in battle."),
   "get_proc"    => proc { next $PokemonSystem.battlescene },
   "set_proc"    => proc { |value, _scene| $PokemonSystem.battlescene = value }
+})
+
+MenuHandlers.add(:options_menu, :enemy_hp_numbers, {
+  "name"        => _INTL("Enemy HP"),
+  "order"       => 42,
+  "type"        => EnumOption,
+  "parameters"  => [_INTL("On"), _INTL("Off")],
+  "description" => _INTL("Show the enemy Pokémon's HP numbers below its HP bar in battle."),
+  "get_proc"    => proc { next $PokemonSystem.enemy_hp_numbers },
+  "set_proc"    => proc { |value, _scene| $PokemonSystem.enemy_hp_numbers = value }
 })
 
 MenuHandlers.add(:options_menu, :contest_animations, {

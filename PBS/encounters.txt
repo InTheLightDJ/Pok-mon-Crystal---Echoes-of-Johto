@@ -37,8 +37,8 @@ LandNight,21
 Land,21
     50,RATTATA,12,15
     30,POOCHYENA,11,15
-    10,SHINX,10,12
     10,SHINX,10,11
+    10,SHINX,10,12
 Water,2
     60,MAGIKARP,7,10
     30,GOLDEEN,11,14
@@ -70,8 +70,8 @@ Land,21
     20,CATERPIE,10
     20,SUNKERN,12
     20,WEEDLE,10
-    15,PIDGEY,10,14
     15,PIDGEY,12,14
+    15,PIDGEY,10,14
     5,KAKUNA,10
     5,METAPOD,10
 LandNight,21
@@ -152,19 +152,19 @@ Land,21
 #-------------------------------
 [043] # DUNGEON
 Cave,5
-    20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,15
+    20,MAGNETON,14,16
     20,NOSEPASS,13,14
+    20,NOSEPASS,14,15
     10,GEODUDE,13,15
     10,MAWILE,14,16
 #-------------------------------
 [044] # ROUTE 28
 Cave,5
-    20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,15
+    20,MAGNETON,14,16
     20,NOSEPASS,13,14
+    20,NOSEPASS,14,15
     10,BURMY,14,16
     10,GEODUDE,13,15
 #-------------------------------
@@ -219,26 +219,26 @@ Land,21
     20,MAREEP,16,18
     20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,15,17
     10,DITTO,16,18
+    10,DITTO,15,17
     10,LOTAD,15,18
     10,LOTAD,15,17
     5,BONSLY,14,17
-    1,BONSLY,15,16
     1,BONSLY,15
+    1,BONSLY,15,16
 #-------------------------------
 [077] # CYCLING ROAD GATE
 Land,21
     20,MAREEP,16,18
     20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,15,17
     10,DITTO,16,18
+    10,DITTO,15,17
     10,LOTAD,15,18
     10,LOTAD,15,17
     5,BONSLY,14,17
-    1,BONSLY,15,16
     1,BONSLY,15
+    1,BONSLY,15,16
 #-------------------------------
 [085] # ROUTE 27
 Land,21
@@ -2108,8 +2108,8 @@ SuperRod
 CaveMorning,5
     20,CATERPIE,5,6
     20,METAPOD,7
-    20,WEEDLE,7
     20,WEEDLE,5,6
+    20,WEEDLE,7
     10,PIDGEY,6,7
     5,PARAS,6
     5,ZUBAT,5,6
@@ -2909,3 +2909,12 @@ Land,21
 [469] # Ruins Of Blackthorn
 Cave,5
     100,UNOWN,20,40
+#-------------------------------
+[488] # Wonder Walkway
+Cave,5
+    20,SANDSHREW,5,15
+    20,ZUBAT,5,15
+    20,MAGNEMITE,5,15
+    10,CLEFAIRY,5,15
+    10,CUBONE,5,15
+    20,SPINARAK,5,15

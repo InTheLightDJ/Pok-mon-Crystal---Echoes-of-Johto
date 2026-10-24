@@ -55,6 +55,9 @@ class Battle::Scene::PokemonDataBox < Sprite
       if onPlayerSide
         @show_hp_numbers = true
         @show_exp_bar    = true
+      else
+        # "Enemy HP" option (0=on, 1=off)
+        @show_hp_numbers = ($PokemonSystem&.enemy_hp_numbers == 0)
       end
     end
     @databoxBitmap&.dispose
@@ -125,7 +128,7 @@ class Battle::Scene::PokemonDataBox < Sprite
     super
     @hpBar.x     = value + @spriteBaseX + (@battler.index.even? ? 32 : 46)
     @expBar.x    = value + @spriteBaseX
-    @hpNumbers.x = value + @spriteBaseX + 10
+    @hpNumbers.x = value + @spriteBaseX + (@battler.index.even? ? 10 : 24)   # foe bar sits 14px further right
   end
 
   def y=(value)
