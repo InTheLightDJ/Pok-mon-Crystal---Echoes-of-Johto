@@ -22,10 +22,13 @@ module TCG
                   :last_turn_change_weak, :last_turn_effect,
                   :rng   # seeded Random in an online duel (089i_NetDuel.rb)
 
-    # deck_ids: array of 60 card ids (symbols), in deck-index order
+    # deck_ids: array of 60 card ids (symbols), in deck-index order. Holo
+    # versions (011b_HoloCards.rb) are stored as their normal card, with the
+    # tier kept in @holo for the screens.
     def initialize(name, deck_ids, duelist_type)
       @name         = name
-      @deck_ids     = deck_ids
+      @holo         = deck_ids.map { |id| TCG.holo_tier(id) }
+      @deck_ids     = deck_ids.map { |id| TCG.base_id(id) }
       @duelist_type = duelist_type
       reset
     end
@@ -33,7 +36,7 @@ module TCG
     def reset
       @card_locations = Array.new(DECK_SIZE, CARD_LOCATION_DECK)
       @deck_cards     = (0...DECK_SIZE).to_a
-      @prize_cards    = Array.new(6)
+      @prize_cards    = Array.new(MAX_PRIZES)
       @hand           = []
       @not_in_deck    = 0
       @discard_count  = 0
@@ -51,7 +54,12 @@ module TCG
 
     def player?; @duelist_type == DUELIST_TYPE_PLAYER; end
     def card_id(deck_index); @deck_ids[deck_index]; end
-    def card(deck_index);    TCG.card(@deck_ids[deck_index]); end
+    # the card as shown (its holo version for a holo card)
+    def display_id(deck_index)
+      t = @holo[deck_index]
+      (t && TCG.holo_id(@deck_ids[deck_index], t)) || @deck_ids[deck_index]
+    end
+    def card(deck_index);    TCG.card(display_id(deck_index)); end
 
     def arena;              @play_area[PLAY_AREA_ARENA]; end
     def num_in_play_area;   @play_area.count { |c| !c.nil? }; end
@@ -61,7 +69,7 @@ module TCG
     def bench;              @play_area[1..].compact; end
 
     # CountPrizes: prizes not yet drawn
-    def count_prizes; (0...6).count { |i| @prizes[i] == 1 }; end
+    def count_prizes; (0...MAX_PRIZES).count { |i| @prizes[i] == 1 }; end
 
     #--------------------------------------------------------------------------
     # deck / hand / discard (home/duel.asm L107-L346)

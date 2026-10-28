@@ -22,7 +22,7 @@ module TCG
   effect(:ImposterProfessorOakEffect) do |du|
     du.as_non_turn do
       d = du.turn_duelist
-      d.hand.sort_by { |i| CARD_ORDER.index(d.card_id(i)) || 0 }.each do |i|
+      d.hand.sort_by { |i| TCG.card_order_index(d.card_id(i)) || 0 }.each do |i|
         d.remove_card_from_hand(i)
         d.return_card_to_deck(i)
       end
@@ -58,7 +58,7 @@ module TCG
   # Fire Spin: discard 2 energy cards (any), cancellable
   effect(:FireSpin_PlayerSelectEffect) do |du|
     d = du.turn_duelist
-    list = d.energy_cards_in_slot(PLAY_AREA_ARENA).sort_by { |i| CARD_ORDER.index(d.card_id(i)) || 0 }
+    list = d.energy_cards_in_slot(PLAY_AREA_ARENA).sort_by { |i| TCG.card_order_index(d.card_id(i)) || 0 }
     picked = du.pick_up_to(:FireSpin, list, 2)
     next true if picked.size < 2
     du.set_temp(:list, picked); false

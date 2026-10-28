@@ -179,7 +179,7 @@ module TCG
       d = turn_duelist
       n.times do
         break if d.prizes == 0
-        avail = (0...6).select { |i| d.prizes[i] == 1 }
+        avail = (0...MAX_PRIZES).select { |i| d.prizes[i] == 1 }
         slot = turn_controller.choose_prize(self, avail)
         slot = avail.first unless avail.include?(slot)
         d.prizes &= ~(1 << slot)

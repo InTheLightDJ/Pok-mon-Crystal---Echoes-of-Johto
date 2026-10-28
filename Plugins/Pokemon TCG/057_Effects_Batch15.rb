@@ -107,7 +107,7 @@ module TCG
   effect(:MixUpEffect) do |du|
     du.as_non_turn do
       d = du.turn_duelist
-      mons = d.hand.select { |i| d.card(i).pokemon? }.sort_by { |i| CARD_ORDER.index(d.card_id(i)) || 0 }
+      mons = d.hand.select { |i| d.card(i).pokemon? }.sort_by { |i| TCG.card_order_index(d.card_id(i)) || 0 }
       mons.each { |i| d.remove_card_from_hand(i); d.return_card_to_deck(i) }
       du.shuffle_cards_in_deck
       d.deck_list.select { |i| d.card(i).pokemon? }.first(mons.size).each do |i|

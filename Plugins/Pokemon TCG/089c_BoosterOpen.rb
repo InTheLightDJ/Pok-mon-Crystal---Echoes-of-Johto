@@ -21,6 +21,7 @@ module TCG
     def initialize(ids); @ids = ids; end
     def card(i); TCG.card(@ids[i]); end
     def card_id(i); @ids[i]; end
+    def display_id(i); @ids[i]; end
     def name; ""; end
   end
 

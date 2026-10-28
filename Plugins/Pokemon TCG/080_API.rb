@@ -3,6 +3,7 @@
 #
 #   pbTCGDuel(opponent_name, opponent_deck, player_deck = nil,
 #             prizes: 6, id: nil, reward: nil, portrait: nil, ai: nil, medal: nil)
+#     prizes:   1-9 Prize cards (more than 6 shows them in 3 columns)
 #     opponent_deck / player_deck: a deck constant from TCG::DECKS
 #       (e.g. :CHARMANDER_AND_FRIENDS_DECK) or an array of 60 card ids.
 #     player_deck nil -> the player's active saved deck, or

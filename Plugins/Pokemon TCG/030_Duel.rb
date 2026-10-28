@@ -43,7 +43,7 @@ module TCG
       @duelists = [Duelist.new(player_name, player_deck, DUELIST_TYPE_PLAYER),
                    Duelist.new(opp_name, opp_deck, DUELIST_TYPE_AI_OPP)]
       @controllers = [player_ctrl, opp_ctrl]
-      @initial_prizes = prizes
+      @initial_prizes = prizes.to_i.clamp(1, MAX_PRIZES)
       @ui = ui
       @turn = PLAYER
     end

@@ -6,14 +6,17 @@
 #   REVELATION, 4 cards:
 #     1 custom card (set NEO, 001b_NeoCards.rb) that isn't a legendary
 #     1 Evolution card (Stage 1 or Stage 2) from every card
-#     1 legendary from every card (custom ones included)
+#     1 legendary from every card (custom ones included) - swapped for
+#       another rare card now: legendaries come only from Card Slots and
+#       trades (087b_ReservedCards.rb)
 #     1 Energy: a basic Energy or a Double Colorless Energy
 #   DISCOVERY, 10 different cards: Basic Pokémon from the custom cards,
 #     no legendaries
 #==============================================================================
 module TCG
   # species counted as legendary
-  LEGENDARY_NAMES = ["Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew", "Shining Celebi"]
+  LEGENDARY_NAMES = ["Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew", "Shining Celebi",
+                     "Entei", "Raikou", "Suicune", "Ho-Oh", "Celebi", "Shining Mew", "Shining Mewtwo"]
   DISCOVERY_SIZE  = 10
 
   BOOSTER_PACKS[:REVELATION] = { :set => :REVELATION, :generator => :generate_revelation_booster,

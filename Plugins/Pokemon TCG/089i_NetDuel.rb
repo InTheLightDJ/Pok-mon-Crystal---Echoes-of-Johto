@@ -4,6 +4,7 @@
 # Lockstep: both games run the same duel. Each game drives its own player
 # with the normal duel menu (NetLocalController) and replays the other
 # player's moves as they arrive (NetRemoteController). What is relayed:
+#   ["hello", build id]     first: both games must run the same build
 #   ["act", method, args]   a turn action (play a card, attack, retreat...)
 #   ["dec", method, value]  an answer to a question the engine asked
 #   ["end"]                 the turn is over
@@ -37,6 +38,24 @@ module TCG
   end
 
   def self.net_duel=(duel); @net_duel = duel; end
+
+  # this build of the card game (game version + a checksum of the plugin's
+  # code, or of the card data when there's no compiled plugin file). Both
+  # games of an online duel must match or they can't stay in sync.
+  def self.net_build_id
+    @net_build_id ||= begin
+      crc = 0
+      if File.exist?("Data/PluginScripts.rxdata")
+        load_data("Data/PluginScripts.rxdata").each do |name, _meta, scripts|
+          next unless name == "Pokemon TCG"
+          scripts.each { |s| crc = Zlib.crc32(Zlib::Inflate.inflate(s[1]).delete("\r"), crc) }
+        end
+      end
+      crc = Zlib.crc32(CARDS.inspect) if crc == 0
+      ver = defined?(Settings::GAME_VERSION) ? Settings::GAME_VERSION : "?"
+      "#{ver}-#{crc.to_s(16)}"
+    end
+  end
 
   class NetAbort < StandardError; end
 
@@ -86,11 +105,11 @@ module TCG
       case event
       when "tcg_move_relay"
         @in_seq += 1
-        @ended ||= "The duel went out of sync." if d["seq"].to_i != @in_seq
+        @desync = true if d["seq"].to_i != @in_seq
         @inbox << d["data"]
       when "tcg_seed"   then @seeds[d["round"].to_i] = d["seed"].to_i
       when "tcg_ended"  then @ended ||= d["reason"].to_s
-      when "tcg_desync" then @ended ||= "The duel went out of sync."
+      when "tcg_desync" then @desync = true
       end
     end
 
@@ -110,10 +129,12 @@ module TCG
     end
 
     # pumps the game until the block returns non-nil; shows "Waiting for..."
-    # after a moment
+    # after a moment. A desync stops the duel right away, even with moves
+    # still queued.
     def wait
       frames = 0
       loop do
+        raise NetAbort, _INTL("The duel went out of sync.") if @desync
         v = yield
         return v unless v.nil?
         raise NetAbort, @ended if @ended
@@ -165,6 +186,17 @@ module TCG
       @round      = 0
       @act_depth  = 0
       @recording  = false
+    end
+
+    # the games first swap their build ids (TCG.net_build_id)
+    def start
+      @session.send_event(["hello", TCG.net_build_id])
+      ev = @session.pull
+      unless ev.is_a?(Array) && ev[0] == "hello" && ev[1] == TCG.net_build_id
+        raise NetAbort, _INTL("{1} has a different version of the game. Both players need the same update.",
+                              @duelists[OPPONENT].name)
+      end
+      super
     end
 
     def reseed

@@ -82,7 +82,8 @@ module TCG
     end
 
     # PrintDeckBuildingCardList: 6 cards from 1,7, "X/Y" at 14,
-    # arrows at 19,6 / 19,17
+    # arrows at 19,6 / 19,17. One row per card: X and Y count all its
+    # versions (normal + holos, 011b_HoloCards.rb)
     def deck_build_list(map, ids, offset, cards, owned)
       map.sym(19, 6, offset > 0 ? SYM_CURSOR_U : SYM_SPACE)
       NUM_FILTERED_LIST_VISIBLE_CARDS.times do |n|
@@ -90,10 +91,11 @@ module TCG
         map.fill(1, y, 18, 1)
         id = ids[offset + n]
         next unless id
-        map.text(1, y, padded_name(TCG.card(id), 13))
-        num2(map, 14, y, cards.count(id))
+        card_text(map, 1, y, TCG.card(id), padded_name(TCG.card(id), 13))
+        vs = TCG.versions(id)
+        num2(map, 14, y, cards.count { |c| vs.include?(c) })
         map.sym(16, y, SYM_SLASH)
-        num2(map, 17, y, owned[id])
+        num2(map, 17, y, vs.sum { |v| owned[v] })
       end
       more = offset + NUM_FILTERED_LIST_VISIBLE_CARDS < ids.size
       map.sym(19, 17, more ? SYM_CURSOR_D : SYM_SPACE)
@@ -137,7 +139,7 @@ module TCG
         next unless id
         card = TCG.card(id)
         card_symbol(map, 1, y - 1, card)
-        map.text(3, y, padded_name(card, 13))
+        card_text(map, 3, y, card, padded_name(card, 13))
         map.sym(16, y, SYM_CROSS)
         num2(map, 17, y, cards.count(id))
       end
@@ -166,7 +168,7 @@ module TCG
         map.fill(2, y, 17, 1)
         id = ids[offset + n]
         next unless id
-        map.text(2, y, padded_name(TCG.card(id), 14))
+        card_text(map, 2, y, TCG.card(id), padded_name(TCG.card(id), 14))
         num2(map, 16, y, TCG.card_count(id))
       end
       more = offset + NUM_DECK_CONFIRMATION_VISIBLE_CARDS < ids.size
@@ -311,18 +313,25 @@ module TCG
             i = browse_card_pages(st[:ids], st[:off] + st[:cur])
             keep_in_view(st, i, Screens::NUM_FILTERED_LIST_VISIBLE_CARDS)
           when :right
-            # TryAddCardToDeck (no message when it can't)
+            # TryAddCardToDeck (no message when it can't); with holo copies
+            # to spare, a menu picks the version
             id = st[:ids][st[:off] + st[:cur]]
-            if id && st[:cards].size < DECK_SIZE && st[:cards].count(id) < st[:owned][id] &&
+            if id && st[:cards].size < DECK_SIZE &&
                (TCG.basic_energy_card?(id) ||
                 st[:cards].count { |c| TCG.card_name(c) == TCG.card_name(id) } < MAX_NUM_SAME_NAME_CARDS)
-              st[:cards] << id
-              pbPlayCursorSE
+              spare = TCG.versions(id).select { |v| st[:cards].count(v) < st[:owned][v] }
+              v = spare.size > 1 ? version_menu(st, spare, :add) : spare.first
+              if v
+                st[:cards] << v
+                pbPlayCursorSE
+              end
             end
           when :left
             id = st[:ids][st[:off] + st[:cur]]
-            if id && (i = st[:cards].index(id))
-              st[:cards].delete_at(i)
+            inside = id ? TCG.versions(id).select { |v| st[:cards].include?(v) } : []
+            v = inside.size > 1 ? version_menu(st, inside, :remove) : inside.first
+            if v
+              st[:cards].delete_at(st[:cards].index(v))
               pbPlayCursorSE
             end
           end
@@ -337,10 +346,45 @@ module TCG
       st[:owned] = Hash.new { |h, id| h[id] = TCG.available_for_deck(id, st[:index]) }
       st[:ids] = CARD_ORDER.select do |id|
         Screens.filter_match?(id, f) &&
-          (st[:owned][id] > 0 || st[:cards].include?(id) || decks.any? { |d| d[:cards].include?(id) })
+          TCG.versions(id).any? do |v|
+            st[:owned][v] > 0 || st[:cards].include?(v) || decks.any? { |d| d[:cards].include?(v) }
+          end
       end
       Screens.deck_build_header(@map, st[:cards])
       Screens.deck_build_list(@map, st[:ids], st[:off], st[:cards], st[:owned])
+    end
+
+    # which version of a card to add or remove (not in the original): a box
+    # over the list, "Normal" or "<tier> Holo" (gold) and "in deck/spare";
+    # returns the id or nil (B)
+    def version_menu(st, ids, mode)
+      vis = 4
+      menu = { :ids => ids, :off => 0, :cur => 0 }
+      loop do
+        @map.box(0, 6, 20, 12)
+        @map.text(1, 7, mode == :add ? "Add which card?" : "Remove which card?")
+        vis.times do |n|
+          v = ids[menu[:off] + n]
+          next unless v
+          y = 9 + n * 2
+          card = TCG.card(v)
+          label = card.holo? ? _INTL("{1} Holo", TCG.holo_name(card.holo_tier)) : _INTL("Normal")
+          Screens.card_text(@map, 2, y, card, label)
+          Screens.num2(@map, 14, y, st[:cards].count(v))
+          @map.sym(16, y, SYM_SLASH)
+          Screens.num2(@map, 17, y, st[:owned][v])
+        end
+        @map.sym(19, 8, menu[:off] > 0 ? SYM_CURSOR_U : SYM_BOX_RIGHT)
+        @map.sym(19, 16, menu[:off] + vis < ids.size ? SYM_CURSOR_D : SYM_BOX_RIGHT)
+        case list_input(menu, 1, 9, vis)
+        when :use
+          pbPlayDecisionSE
+          return ids[menu[:off] + menu[:cur]]
+        when :back
+          pbPlayCancelSE
+          return nil
+        end
+      end
     end
 
     # HandleDeckConfigurationMenu: returns :continue (back to the screen),
@@ -444,7 +488,7 @@ module TCG
       mode = :filters
       loop do
         f = Screens::CARD_TYPE_FILTERS[st[:filter]][0]
-        st[:ids] = CARD_ORDER.select { |id| Screens.filter_match?(id, f) && TCG.card_count(id) > 0 }
+        st[:ids] = TCG.listing_order.select { |id| Screens.filter_match?(id, f) && TCG.card_count(id) > 0 }
         Screens.players_cards_header(@map, player, TCG.collection.values.sum(&:to_i))
         Screens.players_cards_list(@map, st[:ids], st[:off])
         if mode == :filters

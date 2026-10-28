@@ -5,6 +5,7 @@
 module TCG
   MAX_BENCH_POKEMON     = 5
   MAX_PLAY_AREA_POKEMON = 6
+  MAX_PRIZES            = 9   # the original has 6 (more than 6 uses the 3-column layouts)
   MAX_HP                = 120
   STARTING_HAND_SIZE    = 7
   DECK_SIZE             = 60

@@ -655,7 +655,7 @@ module TCG
   end
   effect(:NeoFlowerDance_MultiplierEffect) do |du|
     d = du.turn_duelist
-    n = (0...d.num_in_play_area).count { |e| d.card(d.play_area[e]).name.include?("Bellossom") }
+    n = d.play_area.each_index.select { |e| d.play_area[e] }.count { |e| d.card(d.play_area[e]).name.include?("Bellossom") }
     du.set_definite_damage(30 * n); false
   end
 
@@ -1164,7 +1164,7 @@ module TCG
   end
   effect(:NeoPoundDownEffect) do |du|
     d = du.turn_duelist
-    powers = (0...d.num_in_play_area).any? { |e| d.card(d.play_area[e]).has_pkmn_power? }
+    powers = d.play_area.each_index.select { |e| d.play_area[e] }.any? { |e| d.card(d.play_area[e]).has_pkmn_power? }
     du.atk.damage += 30 unless powers
     false
   end

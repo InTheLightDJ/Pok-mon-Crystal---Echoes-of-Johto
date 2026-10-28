@@ -83,7 +83,7 @@ module TCG
       c = du.card(du.arena)
       name = name_and_level(c)
       nx = COLS - text_tiles(name) if ny == 0
-      map.text(nx, ny, name)
+      card_text(map, nx, ny, c, name)
       map.sym(nx - 1, ny, SYM_FIRE + duel.play_area_card_color(du, 0))
       attached_energies(map, du, 0, bx, by)
       hp_bar(map, bx, by + 1, c.hp, du.slot_hp[0])
@@ -108,10 +108,12 @@ module TCG
       row.each_with_index { |s, i| map.sym(x + i, y, s) }
     end
 
-    # DrawHPBar: 12 tiles of 10 HP in two rows of 6
+    # DrawHPBar: 12 tiles of 10 HP in two rows of 6 (over 120 HP, as Shadow
+    # Lugia's 300, each tile is a twelfth of the HP)
     def hp_bar(map, x, y, max_hp, cur_hp)
+      step = max_hp > 120 ? max_hp / 12.0 : 10
       bar = Array.new(12) do |i|
-        hp = (i + 1) * 10
+        hp = ((i + 1) * step).round
         hp > max_hp ? SYM_SPACE : (hp > cur_hp ? SYM_HP_NOK : SYM_HP_OK)
       end
       bar.each_with_index { |s, i| map.sym(x + i % 6, y + i / 6, s) }
@@ -192,7 +194,7 @@ module TCG
     def play_area_card_information(map, duel, du, e, y)
       c = du.card(du.play_area[e])
       # PrintPlayAreaCardHeader
-      map.text(4, y, c.name[0, 10])
+      card_text(map, 4, y, c, c.name[0, 10])
       map.sym(18, y, SYM_FIRE + duel.play_area_card_color(du, e))
       if c.level.to_i > 0   # custom cards with a single art have no level
         map.sym(14, y, SYM_LV)
@@ -271,7 +273,7 @@ module TCG
         y = 3 + n * 2
         c = du.card(i)
         card_symbol(map, 2, y - 1, c)
-        map.text(4, y, padded_name(c, 14))
+        card_text(map, 4, y, c, padded_name(c, 14))
       end
       map.box(0, 12, 12, 6)
       map.text(1, 14, info, line_step: 2)
@@ -324,7 +326,7 @@ module TCG
     # PrintPokemonCardPageGenericInformation
     def card_page_generic(map, card, color)
       card_page_frame(map, card)
-      map.text(5, 1, card.name)
+      card_text(map, 5, 1, card, card.name)
       map.sym(18, 1, SYM_FIRE + color)
       rarity_icon(map, card)
     end
@@ -417,7 +419,7 @@ module TCG
         lines.first(5).each_with_index { |l, n| map.text(1, y + n, l) }
       when :energy, :trainer
         map.box(0, 0, 20, 18)
-        map.text(4, 3, card.name)
+        card_text(map, 4, 3, card, card.name)
         map.picture(6, 4, card.gfx)
         row = HEADER_ROWS[page[0] == :energy ? :energy : :trainer]
         16.times { |i| map.header(6 + i % 8, 1 + i / 8, row * 8 + i) }
@@ -458,6 +460,53 @@ module TCG
       map.sym(x + 2, y, SYM_0 + n % 10)
     end
 
+    # 7-9 Prizes (not in the original): 3 columns 13 pixels apart, the own
+    # side moved 8 pixels left and the opponent's mirrored, so they fit
+    # beside the Active Pokemon's picture. Rows stay on the original tiles.
+    PRIZE_COLS_PX_OWN = [0, 13, 26]
+    PRIZE_COLS_PX_OPP = [145, 132, 119]
+
+    def three_column_prizes?(duel); duel.initial_prizes > 6; end
+
+    # prize i's top-left pixel in the 3-column layout (coords: the side's
+    # original 6-prize table, whose rows it keeps)
+    def prize_px(coords, i, own)
+      rows = [coords[0][1], coords[2][1], coords[4][1]]
+      [(own ? PRIZE_COLS_PX_OWN : PRIZE_COLS_PX_OPP)[i % 3], rows[i / 3] * 8]
+    end
+
+    # DrawPlayArea_PrizeCards; px tiles are tagged [:prize, i] so a
+    # selection can blink (TileMap#hidden_tag)
+    def draw_prizes(map, duel, du, coords, own)
+      duel.initial_prizes.times do |i|
+        t = du.prize_taken?(i) ? ICON_NO_PRIZE : ICON_PRIZE
+        if three_column_prizes?(duel)
+          map.px_cgb_rect(*prize_px(coords, i, own), t, 2, [:prize, i])
+        else
+          cgb_rect(map, *coords[i], t, 2)
+        end
+      end
+    end
+
+    # 3-column prize cursor: the prize reached from i by key (:up / :down /
+    # :left / :right, as seen on screen), or nil past the left / right edge
+    def prize_grid_move(i, n, key, own)
+      col, row = i % 3, i / 3
+      rows = (n + 2) / 3
+      cols_in = ->(r) { [n - r * 3, 3].min }
+      # the opponent's prizes are mirrored: index 0 is bottom right
+      dir = own ? 1 : -1
+      case key
+      when :up, :down
+        row = (row + (key == :down ? dir : -dir)) % rows
+        col = [col, cols_in.call(row) - 1].min
+      when :left, :right
+        col += (key == :right ? dir : -dir)
+        return nil if col < 0 || col >= cols_in.call(row)
+      end
+      row * 3 + col
+    end
+
     # own: the screen of the duelist whose turn it is (player layout)
     def your_or_opp_play_area(map, duel, du, own)
       map.clear
@@ -465,10 +514,7 @@ module TCG
       # tiles wraps the title off screen; clamped here so it stays visible
       x = (6 - text_tiles(du.name)) / 2 + 4
       map.text(x.clamp(0, 19), 0, "#{du.name}'s Play Area")
-      coords = own ? PRIZE_COORDS_OWN : PRIZE_COORDS_OPP
-      duel.initial_prizes.times do |i|
-        cgb_rect(map, *coords[i], du.prize_taken?(i) ? ICON_NO_PRIZE : ICON_PRIZE, 2)
-      end
+      draw_prizes(map, duel, du, own ? PRIZE_COORDS_OWN : PRIZE_COORDS_OPP, own)
       map.picture(6, own ? 2 : 5, du.card(du.arena).gfx) if du.arena
       bx, by, step = own ? [1, 9, 4] : [17, 2, -4]
       (1...MAX_PLAY_AREA_POKEMON).each do |e|
@@ -519,11 +565,8 @@ module TCG
     def in_play_area(map, duel)
       map.clear
       pl, op = duel.duelists
-      [[pl, PRIZE_COORDS_IN_PLAY_AREA_OWN], [op, PRIZE_COORDS_IN_PLAY_AREA_OPP]].each do |du, coords|
-        duel.initial_prizes.times do |i|
-          cgb_rect(map, *coords[i], du.prize_taken?(i) ? ICON_NO_PRIZE : ICON_PRIZE, 2)
-        end
-      end
+      draw_prizes(map, duel, pl, PRIZE_COORDS_IN_PLAY_AREA_OWN, true)
+      draw_prizes(map, duel, op, PRIZE_COORDS_IN_PLAY_AREA_OPP, false)
       [[pl, 3, 15, 3], [op, 15, 0, -3]].each do |du, bx, by, step|
         (1...MAX_PLAY_AREA_POKEMON).each do |e|
           if e < du.num_in_play_area
@@ -560,7 +603,7 @@ module TCG
                  end
       if du
         idx = du.play_area[slot]
-        map.text(1, 17, name_and_level(du.card(idx))) if idx
+        card_text(map, 1, 17, du.card(idx)) if idx
       else
         du = pos <= IPA_PLAYER_DISCARD ? pl : op
         map.text(1, 17, [IPA_PLAYER_HAND, IPA_OPP_HAND].include?(pos) ? "#{du.name}'s Hand" : "#{du.name}'s Discard Pile")
@@ -578,7 +621,7 @@ module TCG
       map.clear
       c = du.card(du.play_area[slot])
       map.picture(9, 2, c.gfx)
-      map.text(7, 0, name_and_level(c))
+      card_text(map, 7, 0, c)
       COLOR_ICONS.each_with_index { |(t, pal), i| cgb_rect(map, 2, i * 2, t, pal) }
       COLOR_NAMES_TEXT.each_with_index { |n, i| map.text(4, 1 + i * 2, n) }
       map.text(10, 9, "Type"); map.text(10, 10, "Weakness"); map.text(10, 11, "Resistance")
@@ -686,6 +729,10 @@ module TCG
     PRIZE_PLACE_COORDS = [[5, 6, 14, 5], [6, 6, 13, 5], [5, 7, 14, 4],
                           [6, 7, 13, 4], [5, 8, 14, 3], [6, 8, 13, 3]]
     PRIZE_TILE = [:other, 0x0c]   # $ac
+    # 7-9 Prizes: 3 columns (player 4-6, opponent 15-13), same rows
+    PRIZE_PLACE_COORDS_9 = (0...MAX_PRIZES).map do |i|
+      [4 + i % 3, 6 + i / 3, 15 - i % 3, 5 - i / 3]
+    end
 
     def placing_prizes(map, duel, decks)
       map.clear
@@ -714,7 +761,7 @@ module TCG
       du.hand.first(7).each_with_index do |i, n|
         c = du.card(i)
         card_symbol(map, 2, 2 + n * 2, c)
-        map.text(4, 3 + n * 2, padded_name(c, 14))
+        card_text(map, 4, 3 + n * 2, c, padded_name(c, 14))
       end
       map.text(1, 1, "#{du.name}'s Hand")
     end
@@ -853,7 +900,7 @@ module TCG
         # while the player's Omanyte has Clairvoyance
         du = @duel.duelists.find { |x| x.name == args[0] }
         if du && args[2] == :turn && (du.player? || @duel.clairvoyance_active?(@duel.duelists[0]))
-          card_detail(du.card_id(args[1]), du.player? ? "You drew <RAMTEXT>." : "#{du.name} drew <RAMTEXT>.")
+          card_detail(du.display_id(args[1]), du.player? ? "You drew <RAMTEXT>." : "#{du.name} drew <RAMTEXT>.")
         end
       when :play_pokemon
         # OppAction_PlayBasicPokemonCard (large picture) / PlayPokemonCard (text box)
@@ -862,7 +909,7 @@ module TCG
         if du.player?
           message("Placed #{Screens.name_and_level(du.card(args[1]))}\non the Bench.")
         else
-          card_detail(du.card_id(args[1]), "Placed <RAMTEXT>\non the Bench.")
+          card_detail(du.display_id(args[1]), "Placed <RAMTEXT>\non the Bench.")
         end
       when :attach_energy
         # PrintAttachedEnergyToPokemon: over the play area list (player) or
@@ -874,7 +921,7 @@ module TCG
           Screens.play_area_card_list(@map, @duel, du)
           message(text, keep: true)
         else
-          card_detail(du.card_id(args[1]), text)
+          card_detail(du.display_id(args[1]), text)
         end
       when :evolve
         # PrintPokemonEvolvedIntoPokemon
@@ -886,18 +933,18 @@ module TCG
           Screens.play_area_card_list(@map, @duel, du)
           message(text, keep: true)
         else
-          card_detail(du.card_id(args[1]), text)
+          card_detail(du.display_id(args[1]), text)
         end
       when :trainer_used
         # DisplayUsedTrainerCardDetailScreen (+ PrintUsedTrainerCardDescription
         # for the opponent: name at 1,1 and the card text from 1,3)
         du = @duel.duelists.find { |x| x.name == args[0] }
         return unless du
-        id = du.card_id(args[1])
+        id = du.display_id(args[1])
         card_detail(id, "Used <RAMTEXT>.")
         unless du.player?
           @map.clear
-          @map.text(1, 1, TCG.card(id).name)
+          Screens.card_text(@map, 1, 1, TCG.card(id), TCG.card(id).name)
           GB.wrap(TCG.card(id).desc.to_s).first(8).each_with_index { |l, n| @map.text(1, 3 + n, l) }
           message("Used #{TCG.card(id).name}.", keep: true)
         end
@@ -1010,7 +1057,7 @@ module TCG
       render
       n.times do |i|
         anim_delay(20)
-        px, py, ox, oy = Screens::PRIZE_PLACE_COORDS[i]
+        px, py, ox, oy = (n > 6 ? Screens::PRIZE_PLACE_COORDS_9 : Screens::PRIZE_PLACE_COORDS)[i]
         @map.put(px, py, Screens::PRIZE_TILE)
         @map.put(ox, oy, Screens::PRIZE_TILE)
         # the original always counts down from DECK_SIZE - 7 - 1 for both
@@ -1110,12 +1157,12 @@ module TCG
           when Input::BACK
             return nil if cancellable
           when Input::ACTION
-            show_card_page(du.card_id(du.play_area[slots[idx]]), du, slots[idx])
+            show_card_page(du.display_id(du.play_area[slots[idx]]), du, slots[idx])
             break
           when Input::USE
             e = slots[idx]
             if view_only
-              show_card_page(du.card_id(du.play_area[e]), du, e)
+              show_card_page(du.display_id(du.play_area[e]), du, e)
               break
             end
             next if du.slot_hp[e] == 0
@@ -1142,7 +1189,7 @@ module TCG
           when Input::LEFT  then item = (item - 1) % 3; pbPlayCursorSE
           when Input::RIGHT then item = (item + 1) % 3; pbPlayCursorSE
           when Input::ACTION
-            show_card_page(du.card_id(du.arena), du, 0) if du.arena
+            show_card_page(du.display_id(du.arena), du, 0) if du.arena
             break
           when Input::SPECIAL
             in_play_area_screen(duel)
@@ -1180,7 +1227,7 @@ module TCG
         when Input::SPECIAL
           # DisplayCardList.select_pressed: sort by card ID once, back to the top
           next if sorted
-          cards = cards.sort_by.with_index { |i, n| [CARD_ORDER.index(du.card_id(i)) || 0, n] }
+          cards = cards.sort_by.with_index { |i, n| [TCG.card_order_index(du.display_id(i)) || 0, n] }
           sorted = true
           cur = 0
           scroll = 0
@@ -1199,17 +1246,17 @@ module TCG
         when Input::BACK
           return nil if cancellable
         when Input::ACTION
-          show_card_page(du.card_id(cards[cur]))
+          show_card_page(du.display_id(cards[cur]))
         when Input::USE
           case menu
           when nil then return cards[cur]
-          when :view then show_card_page(du.card_id(cards[cur]))
+          when :view then show_card_page(du.display_id(cards[cur]))
           else
             case item_selection_menu(menu == :play ? "  Play
   Check" : "  Select
   Check")
             when 0 then return cards[cur]
-            when 1 then show_card_page(du.card_id(cards[cur]))
+            when 1 then show_card_page(du.display_id(cards[cur]))
             end
           end
         end
@@ -1329,6 +1376,7 @@ module TCG
       Screens.your_or_opp_play_area(@map, duel, du, true)
       @map.wide_text_box
       @map.text(1, 14, "Please choose a Prize.")
+      return prize_select_grid(duel, avail, pos) if Screens.three_column_prizes?(duel)
       counter = 0
       loop do
         x, y, flip, up, down, right, left = Screens::PRIZE_CURSOR[pos]
@@ -1349,6 +1397,92 @@ module TCG
         elsif Input.trigger?(Input::USE) && avail.include?(pos)
           @map.sprites.clear
           return pos
+        end
+      end
+    end
+
+    # 7-9 Prizes: no room for the arrow between the columns, so the chosen
+    # prize blinks instead
+    def prize_select_grid(duel, avail, pos)
+      n = duel.initial_prizes
+      pos = avail.first unless pos && pos < n
+      counter = 0
+      loop do
+        @map.hidden_tag = (counter / 16).odd? ? [:prize, pos] : nil
+        render if counter % 16 == 0
+        counter += 1
+        frame
+        key = if Input.trigger?(Input::UP) then :up
+              elsif Input.trigger?(Input::DOWN) then :down
+              elsif Input.trigger?(Input::RIGHT) then :right
+              elsif Input.trigger?(Input::LEFT) then :left
+              end
+        np = key && Screens.prize_grid_move(pos, n, key, true)
+        if np && np != pos
+          pos = np
+          counter = 0
+          pbPlayCursorSE
+        elsif Input.trigger?(Input::USE) && avail.include?(pos)
+          @map.hidden_tag = nil
+          return pos
+        end
+      end
+    end
+
+    # Peek with 7-9 Prizes: the chosen prize blinks; the hand and the deck
+    # keep their arrows (table rows 6 and 7). Returns what was seen, or nil
+    # for B.
+    def peek_grid(duel, du, own, table)
+      n = duel.initial_prizes
+      hand, deck = n, n + 1
+      pos = 0
+      counter = 0
+      loop do
+        blink_off = (counter / 16).odd?
+        @map.sprites.clear
+        @map.hidden_tag = nil
+        if pos < n
+          @map.hidden_tag = [:prize, pos] if blink_off
+        elsif !blink_off
+          x, y, flip = table[pos == hand ? 6 : 7]
+          @map.sprites << [x, y, flip]
+        end
+        render if counter % 16 == 0
+        counter += 1
+        frame
+        key = if Input.trigger?(Input::UP) then :up
+              elsif Input.trigger?(Input::DOWN) then :down
+              elsif Input.trigger?(Input::RIGHT) then :right
+              elsif Input.trigger?(Input::LEFT) then :left
+              end
+        np = if key.nil? then nil
+             elsif pos < n
+               # past the side of the prizes: the hand / deck column
+               Screens.prize_grid_move(pos, n, key, own) || (!own && key == :left ? hand : deck)
+             elsif key == :up || key == :down then pos == hand ? deck : hand
+             else 0
+             end
+        if np && np != pos
+          pos = np
+          counter = 0
+          pbPlayCursorSE
+        elsif Input.trigger?(Input::BACK)
+          @map.sprites.clear
+          @map.hidden_tag = nil
+          return nil
+        elsif Input.trigger?(Input::USE)
+          card, seen = if pos < n
+                         du.prize_taken?(pos) ? nil : [du.prize_cards[pos], :prize]
+                       elsif pos == hand
+                         du.hand.empty? ? nil : [du.hand.sample, own ? :own_hand : :opp_hand]
+                       else
+                         du.deck_list.empty? ? nil : [du.deck_list.first, own ? :own_deck : :opp_deck]
+                       end
+          next unless card
+          @map.sprites.clear
+          @map.hidden_tag = nil
+          show_card_page(du.display_id(card))
+          return seen
         end
       end
     end
@@ -1417,10 +1551,10 @@ module TCG
         when Screens::IPA_OPP_PLAY_AREA then play_area_screen(duel, op, view_only: true)
         when 0..4, Screens::IPA_PLAYER_ACTIVE
           slot = target == Screens::IPA_PLAYER_ACTIVE ? 0 : target + 1
-          show_card_page(pl.card_id(pl.play_area[slot]), pl, slot) if pl.play_area[slot]
+          show_card_page(pl.display_id(pl.play_area[slot]), pl, slot) if pl.play_area[slot]
         when Screens::IPA_OPP_ACTIVE, 11..15
           slot = target == Screens::IPA_OPP_ACTIVE ? 0 : target - 10
-          show_card_page(op.card_id(op.play_area[slot]), op, slot) if op.play_area[slot]
+          show_card_page(op.display_id(op.play_area[slot]), op, slot) if op.play_area[slot]
         when Screens::IPA_PLAYER_HAND
           card_list_screen(pl, pl.hand.dup, "#{pl.name}'s Hand", "Choose the card\nyou wish to examine.", menu: :view)
         when Screens::IPA_OPP_HAND
@@ -1580,6 +1714,11 @@ module TCG
         @map.wide_text_box
         @map.text(1, 14, "Which card would you like to see?")
         table = own ? Screens::PEEK_OWN : Screens::PEEK_OPP
+        if Screens.three_column_prizes?(duel)
+          seen = peek_grid(duel, du, own, table)
+          return seen if seen
+          next
+        end
         pos = 0
         counter = 0
         loop do
@@ -1612,7 +1751,7 @@ module TCG
                          end
             next unless card
             @map.sprites.clear
-            show_card_page(du.card_id(card))
+            show_card_page(du.display_id(card))
             return seen
           end
         end

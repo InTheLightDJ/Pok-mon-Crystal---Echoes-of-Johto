@@ -131,10 +131,13 @@ module TCG
       # [:other, tile]; pals[y][x]: CGB palette; pictures: [x, y, gfx];
       # sprites: OAM cursors [x, y, flipped] in pixels (LoadCursorTile);
       # objs: animation OBJ tiles [x, y, tile, xflip, yflip, sheet] of
-      # UI/<sheet>.png (default "coin"), made by tools/make_obj_sheets.py
-      attr_reader :cells, :pals, :pictures, :sprites, :objs
+      # UI/<sheet>.png (default "coin"), made by tools/make_obj_sheets.py;
+      # px_tiles: cgb_symbols tiles off the tile grid [x, y, tile, pal, tag]
+      # in pixels (not from the original: the 7-9 Prize layouts), skipped
+      # while their tag is hidden_tag (a blinking selection)
+      attr_reader :cells, :pals, :pictures, :sprites, :objs, :px_tiles
       # BG scroll (hSCX / hSCY, screen shakes) and the white flash (DUEL_ANIM_FLASH)
-      attr_accessor :scroll_x, :scroll_y, :flash
+      attr_accessor :scroll_x, :scroll_y, :flash, :hidden_tag
 
       def initialize; clear; end
 
@@ -144,6 +147,8 @@ module TCG
         @pictures = []
         @sprites  = []
         @objs     = []
+        @px_tiles = []
+        @hidden_tag = nil
         @scroll_x = @scroll_y = 0
         @flash    = false
       end
@@ -241,7 +246,16 @@ module TCG
       def wide_text_box; box(0, 12, 20, 6); end
 
       # for the headless preview tool
-      def to_h; { "cells" => @cells, "pals" => @pals, "pictures" => @pictures, "sprites" => @sprites, "objs" => @objs }; end
+      # a 2x2 cgb_symbols block at pixel x, y (like cgb + palette on the grid)
+      def px_cgb_rect(x, y, tile, pal, tag = nil)
+        @px_tiles << [x, y, tile, pal, tag] << [x + 8, y, tile + 1, pal, tag] <<
+          [x, y + 8, tile + 2, pal, tag] << [x + 8, y + 8, tile + 3, pal, tag]
+      end
+
+      def to_h
+        { "cells" => @cells, "pals" => @pals, "pictures" => @pictures, "sprites" => @sprites, "objs" => @objs,
+          "px" => @px_tiles.reject { |t| !t[4].nil? && t[4] == @hidden_tag } }
+      end
     end
 
     #--------------------------------------------------------------------------
@@ -335,6 +349,13 @@ module TCG
               end
             end
           end
+        end
+        # left to right: a tile's white margin may overlap its right neighbour's
+        # slot, so the neighbour has to be drawn after it
+        map.px_tiles.sort_by { |t| t[0] }.each do |x, y, tile, pal, tag|
+          break if map.flash
+          next if !tag.nil? && tag == map.hidden_tag
+          tile_from(x - sx, y - sy, sheet("cgb_symbols", pal), tile)
         end
         map.pictures.each do |x, y, gfx|
           break if map.flash

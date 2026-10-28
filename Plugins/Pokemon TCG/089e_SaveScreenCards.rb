@@ -18,7 +18,7 @@ if defined?(pbDisplayPlayerDataWindow)
     return win unless player && $player && player.equal?($player) && $PokemonGlobal
     sw = TCG::SAVE_SCREEN_SWITCH
     return win if sw && !($game_switches && $game_switches[sw])
-    owned = TCG.collection.count { |_id, n| n.to_i > 0 }
+    owned = TCG.collection.select { |_id, n| n.to_i > 0 }.keys.map { |id| TCG.base_id(id) }.uniq.size
     time = _INTL("Time") + "<r>"
     i = win.text.index(time) or return win
     text = win.text.dup.insert(i, _INTL("Cards") + "<r>" + owned.to_s + "<br>")

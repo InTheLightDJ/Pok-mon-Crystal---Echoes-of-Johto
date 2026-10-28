@@ -76,7 +76,7 @@ module TCG
       bg.bitmap.fill_rect(0, 0, Graphics.width, Graphics.height, Color.new(248, 248, 232))
       pbSetSmallFont(bg.bitmap)
       art = Sprite.new(vp)
-      art.bitmap = RPG::Cache.load_bitmap(GFX + "Cards/", CARDS[@id][:gfx].to_s) rescue nil
+      art.bitmap = RPG::Cache.load_bitmap(GFX + "Cards/", CARDS[@id][:gfx].to_s.split("*", 2)[0]) rescue nil
       x0 = 8
       if art.bitmap
         art.zoom_x = art.zoom_y = [(Graphics.height - 16).to_f / art.bitmap.height, 2.0].min
@@ -126,28 +126,78 @@ ensure
 end
 
 def pbTCGCardAlbum
+  owned = ->(id) { TCG.versions(id).any? { |v| TCG.card_count(v) > 0 } }
   loop do
     sets = TCG::ALBUM_SETS.map do |set, label|
       ids = TCG.cards_in_set(set)
-      _INTL("{1}  {2}/{3}", label, ids.count { |i| TCG.card_count(i) > 0 }, ids.size)
+      _INTL("{1}  {2}/{3}", label, ids.count { |i| owned.call(i) }, ids.size)
     end
     s = pbShowCommands(nil, sets + [_INTL("Exit")], sets.size + 1)
     return if s < 0 || s >= sets.size
     ids = TCG.cards_in_set(TCG::ALBUM_SETS[s][0])
     idx = 0
     loop do
-      cmds = ids.each_with_index.map do |id, n|
+      # one line per card, then a gold line per holo version owned
+      # (011b_HoloCards.rb)
+      rows = []
+      ids.each_with_index do |id, n|
         cnt = TCG.card_count(id)
-        cnt > 0 ? _INTL("{1}. {2} x{3}", n + 1, TCG.card_name(id), cnt) : _INTL("{1}. ?????", n + 1)
+        if owned.call(id)
+          rows << [id, _INTL("{1}. {2} x{3}", n + 1, TCG.card_name(id), cnt)]
+          TCG.versions(id).drop(1).each do |v|
+            next if TCG.card_count(v) == 0
+            text = _INTL("{1} Holo x{2}", TCG.holo_name(TCG.holo_tier(v)), TCG.card_count(v))
+            rows << [v, "      " + shadowc3tag(TCG::HOLO_NAME_BASE, TCG::HOLO_NAME_SHADOW) + text]
+          end
+        else
+          rows << [nil, _INTL("{1}. ?????", n + 1)]
+        end
       end
-      idx = pbShowCommands(nil, cmds, -1, idx)
+      idx = TCG.show_formatted_commands(rows.map { |r| r[1] }, idx)
       break if idx < 0
-      if TCG.card_count(ids[idx]) > 0
-        pbTCGShowCard(ids[idx])
+      id = rows[idx][0]
+      if id && TCG.card_count(id) > 0
+        pbTCGShowCard(id)
+      elsif id
+        pbMessage(_INTL("You don't have the normal version of this card."))
       else
         pbMessage(_INTL("You don't have this card yet."))
       end
     end
+  end
+end
+
+module TCG
+  HOLO_NAME_BASE   = Color.new(200, 140, 0) if defined?(Color)
+  HOLO_NAME_SHADOW = Color.new(248, 216, 128) if defined?(Color)
+
+  # pbShowCommands with formatted lines (<c3=...> colors); -1 for B
+  def self.show_formatted_commands(commands, index = 0)
+    win = Window_AdvancedCommandPokemonEx.new(commands)
+    win.z = 99_999
+    win.resizeToFit(commands)
+    win.width = Graphics.width if win.width > Graphics.width
+    win.height = Graphics.height if win.height > Graphics.height
+    win.x = Graphics.width - win.width
+    win.index = index.clamp(0, commands.size - 1)
+    ret = -1
+    loop do
+      Graphics.update
+      Input.update
+      win.update
+      if Input.trigger?(Input::BACK)
+        ret = -1
+        break
+      elsif Input.trigger?(Input::USE)
+        ret = win.index
+        break
+      end
+      pbUpdateSceneMap
+    end
+    ret
+  ensure
+    win&.dispose
+    Input.update
   end
 end
 

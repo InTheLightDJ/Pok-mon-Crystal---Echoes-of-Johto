@@ -70,7 +70,7 @@ module TCG
         @level      = h[:level]
         @weight     = h[:weight]
         @ai_info    = h[:ai_info]
-      elsif id == :MYSTERIOUS_FOSSIL || id == :CLEFAIRY_DOLL
+      elsif special_trainer_pokemon?
         # ConvertSpecialTrainerCardToPokemon: in play these act as a 10 HP
         # Colorless Basic with the "Discard" Pkmn Power and can't retreat
         # (it is still a Trainer card for every other check).
@@ -88,7 +88,7 @@ module TCG
       @attacks ||= []
     end
 
-    def special_trainer_pokemon?; @id == :MYSTERIOUS_FOSSIL || @id == :CLEFAIRY_DOLL; end
+    def special_trainer_pokemon?; [:MYSTERIOUS_FOSSIL, :CLEFAIRY_DOLL].include?(@raw[:base] || @id); end   # holos too (011b)
 
     def pokemon?;  @type < TYPE_ENERGY; end
     def energy?;   @type >= TYPE_ENERGY && @type < TYPE_TRAINER; end

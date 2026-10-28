@@ -43,7 +43,7 @@ module TCG
     du.ui.event(:show_hand, du.non_turn_duelist.name)
     shuffle_trainers = lambda do
       x = du.turn_duelist
-      trainers = x.hand.select { |i| x.card(i).trainer? }.sort_by { |i| CARD_ORDER.index(x.card_id(i)) || 0 }
+      trainers = x.hand.select { |i| x.card(i).trainer? }.sort_by { |i| TCG.card_order_index(x.card_id(i)) || 0 }
       trainers.each { |i| x.remove_card_from_hand(i); x.return_card_to_deck(i) }
       du.shuffle_cards_in_deck if trainers.any?
     end

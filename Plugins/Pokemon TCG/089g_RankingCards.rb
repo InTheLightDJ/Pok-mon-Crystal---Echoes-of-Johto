@@ -19,7 +19,7 @@ module TCG
   def self.cards_seen
     return {} unless global
     seen = global.tcg_cards_seen
-    collection.each { |id, n| seen[id] = true if n.to_i > 0 && !seen[id] }
+    collection.each { |id, n| seen[base_id(id)] = true if n.to_i > 0 && !seen[base_id(id)] }
     seen
   end
 
@@ -35,10 +35,10 @@ module TCG
   class << self
     alias ranking_add_card add_card unless method_defined?(:ranking_add_card)
     def add_card(id, n = 1)
-      new_card = global && !cards_seen[id.to_sym]
+      new_card = global && !cards_seen[base_id(id)]
       r = ranking_add_card(id, n)
       if new_card
-        global.tcg_cards_seen[id.to_sym] = true
+        global.tcg_cards_seen[base_id(id)] = true
         sync_ranking_cards
       end
       r

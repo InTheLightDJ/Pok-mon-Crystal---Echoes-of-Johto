@@ -2,6 +2,7 @@
 # Pokemon TCG - deck building rules (engine/menus/deck_configuration.asm):
 #  - a deck has exactly 60 cards (SaveDeckConfiguration);
 #  - at most MAX_NUM_SAME_NAME_CARDS (4) cards sharing a NAME
+#    (Shining Pokemon: 1),
 #    (.CheckIfCanAddCardWithSameName), basic Energy unlimited, Double
 #    Colorless Energy limited;
 #  - at least one Basic Pokemon (CheckIfThereAreAnyBasicCardsInDeck; Clefairy
@@ -39,6 +40,8 @@ module TCG
     unless basic_energy_card?(id)
       name = card_name(id)
       return :same_name_limit if cards.count { |c| card_name(c) == name } >= MAX_NUM_SAME_NAME_CARDS
+      # Shining Pokemon (custom cards): 1 per deck
+      return :shining_limit if name.start_with?("Shining ") && cards.any? { |c| card_name(c) == name }
     end
     nil
   end
@@ -54,13 +57,14 @@ module TCG
     :deck_full        => "The deck already has 60 cards.",
     :no_more_copies   => "You have no more copies of that card.",
     :same_name_limit  => "You can only include 4 cards with the same name.",
+    :shining_limit    => "You can only include 1 of each Shining Pokémon.",
     :not_60_cards     => "The deck must include 60 cards.",
     :no_basic_pokemon => "You must include a Basic Pokémon in the deck."
   }
   def self.deck_rule_text(reason); _INTL(DECK_RULE_TEXT[reason]); end
 
   # deck ordering used for display (card id order, like the original lists)
-  def self.sort_cards(cards); cards.sort_by { |c| CARD_ORDER.index(c) || 999 }; end
+  def self.sort_cards(cards); cards.sort_by { |c| card_order_index(c) || 99_999 }; end
 
   def self.save_deck(cards, name, index = nil)
     raise ArgumentError, deck_rule_text(invalid_deck_reason(cards)) if invalid_deck_reason(cards)

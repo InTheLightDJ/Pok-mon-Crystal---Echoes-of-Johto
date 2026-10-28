@@ -104,6 +104,7 @@ module TCG
         vp.z = 100_001
         renderer = Renderer.new(vp)
         renderer.sprite.visible = false
+        renderer.holo = false   # still pictures: no sparkle (089j_HoloSparkle.rb)
         cards.uniq.each { |id| pics[id] = DeckView.card_bitmap(renderer, id) }
         renderer.dispose
         grid = Sprite.new(vp)

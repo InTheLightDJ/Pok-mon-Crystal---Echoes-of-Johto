@@ -31,7 +31,7 @@ module TCG
   # Professor Oak: discard hand (sorted by card ID), draw 7
   effect(:ProfessorOakEffect) do |du|
     d = du.turn_duelist
-    d.hand.sort_by { |i| CARD_ORDER.index(d.card_id(i)) || 0 }.each do |i|
+    d.hand.sort_by { |i| TCG.card_order_index(d.card_id(i)) || 0 }.each do |i|
       d.remove_card_from_hand(i)
       d.put_card_in_discard_pile(i)
     end

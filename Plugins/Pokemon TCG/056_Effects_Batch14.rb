@@ -111,7 +111,7 @@ module TCG
     r = du.toss_coin
     d.remove_card_from_hand(du.atk.card_index)
     d.put_card_in_discard_pile(du.atk.card_index)
-    d.hand.sort_by { |i| CARD_ORDER.index(d.card_id(i)) || 0 }.each { |i| d.remove_card_from_hand(i); d.return_card_to_deck(i) }
+    d.hand.sort_by { |i| TCG.card_order_index(d.card_id(i)) || 0 }.each { |i| d.remove_card_from_hand(i); d.return_card_to_deck(i) }
     du.shuffle_cards_in_deck
     du.display_draw_n_cards(d, r == HEADS ? 8 : 1)
     (r == HEADS ? 8 : 1).times do

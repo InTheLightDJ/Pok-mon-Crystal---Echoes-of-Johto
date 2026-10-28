@@ -115,7 +115,7 @@ Bench Pokémon."), true)
       i = @scene.prize_select_screen(duel, d, avail, start)
       @prize_pos = i
       # OpenCardPage_FromHand for the card taken
-      @scene.show_card_page(d.card_id(d.prize_cards[i]))
+      @scene.show_card_page(d.display_id(d.prize_cards[i]))
       i
     end
 
