@@ -24,7 +24,9 @@
 module Seasons
   # tileset pictures that have seasonal versions
   TILESETS = ["GSC overworld johto day", "GSC overworld johto morning",
-              "GSC overworld johto nite"]
+              "GSC overworld johto nite",
+              "GSC overworld kanto day", "GSC overworld kanto morning",
+              "GSC overworld kanto nite"]
 
   # month => season (northern hemisphere)
   MONTHS = { 3 => :spring, 4 => :spring, 5 => :spring,
