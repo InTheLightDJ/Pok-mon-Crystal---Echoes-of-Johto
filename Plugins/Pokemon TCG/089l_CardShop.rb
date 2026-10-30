@@ -1,12 +1,22 @@
 #==============================================================================
 # Pokemon TCG - Card Shop (not in the original; server: handlers/tcg_shop.js)
 #
-# Buy (online): 10 cards a day, one of them a holo, and a booster pack. Every
-# player sees the same stock; each can buy each item once a day. Cards cost
-# game money (3x their selling price), the pack costs Server Tokens.
+# Buy (online): 10 cards a day, one of them a holo, one more holo that's
+# already graded (PSA 3-10, appraised; priced by its grade like a sold one)
+# and a booster pack. Every player sees the same stock; each can buy each item
+# once a day. Cards cost game money (3x their selling price), the pack costs
+# Server Tokens.
 # Sell (also offline): any card you have to spare (cards in saved decks
-# can't be sold) for its HP x its holo level: a normal card is level 1, Blue
-# 2, Yellow 3 ... Black & Red 12. Trainer and Energy cards: 5 x the level.
+# can't be sold) for its HP x its holo level x its stage boost: a normal card
+# is level 1, Blue 2, Yellow 3 ... Black & Red 12. Trainer and Energy cards:
+# 5 x the level.
+# Card prices both ways go with the server's price multiplier (x1.0-x5.0,
+# changes every hour; mult); offline the last one seen counts.
+# The day's card types (hidden, never shown): one Pokémon type's cards
+# buy and sell for x1.1-2.5 more, another type's for /1.1-2.5 (type_factor;
+# the server's types, kept until the shop's next restock).
+# Each spare holo copy is its own entry; an appraised one sells for its
+# grade (x0.05 at PSA 1 up to x10 at PSA 10, 089o_CardGrades.rb).
 # Market (online): players sell holo cards to each other for Server Tokens
 # (089m_PlayerMarket.rb).
 #
@@ -18,6 +28,12 @@
 # cards as small pictures in a grid below (holo sparkles, sold out ones
 # dimmed); 089k_CardTrader.rb draws the small pictures.
 #==============================================================================
+class PokemonGlobalMetadata
+  attr_writer :tcg_shop_mult, :tcg_shop_types
+  def tcg_shop_mult; @tcg_shop_mult || 1.0; end
+  def tcg_shop_types; @tcg_shop_types; end   # { boost:, cut:, until: (Time) }
+end
+
 module TCG
   module CardShop
     BUY_MULTIPLIER  = 3
@@ -34,13 +50,81 @@ module TCG
       t ? CardTrader.tier_index(t) + 2 : 1
     end
 
-    def sell_price(id)
-      card = TCG.card(id.to_sym)
-      base = card.pokemon? ? CARDS[id.to_sym][:hp].to_i : NO_HP_PRICE
-      base * holo_level(id)
+    # Pokémon by stage: a Basic that evolves x1, a Basic with no evolution
+    # card (Pinsir, Sneasel) x1.5, Stage 1 x2, Stage 2 x3; legendaries and
+    # special cards (087b) x5
+    STAGE_BOOST = { "BASIC" => 1, "STAGE1" => 2, "STAGE2" => 3 }
+    LONE_BASIC_BOOST = 1.5
+    LEGENDARY_BOOST = 5
+
+    # names that something evolves from
+    def evolves?(name)
+      @preevos ||= CARDS.each_value.map { |h| h[:preevo] }.compact.uniq
+      @preevos.include?(name)
     end
 
-    def buy_price(id); sell_price(id) * BUY_MULTIPLIER; end
+    def stage_boost(id)
+      h = CARDS[TCG.base_id(id)]
+      return 1 unless h && h[:type].to_s.start_with?("TYPE_PKMN")
+      return LEGENDARY_BOOST if TCG.reserved_card?(id)
+      return LONE_BASIC_BOOST if h[:stage] == "BASIC" && !evolves?(h[:name])
+      STAGE_BOOST[h[:stage]] || 1
+    end
+
+    # the server's hourly price multiplier (x1.0-x5.0), the last one seen
+    # (selling also works offline)
+    def mult; TCG.global ? TCG.global.tcg_shop_mult : (@test_mult ||= 1.0); end
+
+    def mult=(v)
+      v = v.to_f.clamp(1.0, 5.0)
+      TCG.global ? TCG.global.tcg_shop_mult = v : @test_mult = v
+    end
+
+    def mult_text; format("x%.1f", mult); end
+
+    # HP (Trainer / Energy: NO_HP_PRICE) x holo level x stage boost
+    def base_price(id)
+      card = TCG.card(id.to_sym)
+      (card.pokemon? ? CARDS[id.to_sym][:hp].to_i : NO_HP_PRICE) * holo_level(id) * stage_boost(id)
+    end
+
+    # the day's boosted / cut card types from the server (hidden):
+    # { :boost => ["FIRE", 1.7], :cut => ["WATER", 1.4], :until => Time }
+    def types; TCG.global ? TCG.global.tcg_shop_types : @test_types; end
+
+    def types=(v); TCG.global ? TCG.global.tcg_shop_types = v : @test_types = v; end
+
+    def import_types(d, restock_in)
+      return unless d.is_a?(Hash) && d["boost"].is_a?(Array) && d["cut"].is_a?(Array)
+      pair = ->(x) { [x[0].to_s, x[1].to_f.clamp(1.0, 2.5)] }
+      self.types = { :boost => pair.(d["boost"]), :cut => pair.(d["cut"]),
+                     :until => Time.now + restock_in.to_i }
+    end
+
+    # x the boost for the boosted type's Pokémon, / the cut for the cut one's,
+    # else 1 (and 1 once the day is over)
+    def type_factor(id)
+      t = types
+      return 1.0 unless t && Time.now < t[:until]
+      type = CARDS[TCG.base_id(id)] && CARDS[TCG.base_id(id)][:type].to_s
+      return 1.0 unless type && type.start_with?("TYPE_PKMN_")
+      type = type.sub("TYPE_PKMN_", "")
+      return t[:boost][1] if t[:boost][0] == type
+      return 1.0 / t[:cut][1] if t[:cut][0] == type
+      1.0
+    end
+
+    # copy: which holo copy (an appraised one sells for its grade, 089o;
+    # an unappraised one for the normal price)
+    def sell_price(id, copy = nil)
+      [(base_price(id) * Grades.price_factor(id, copy) * type_factor(id) * mult).round, 1].max
+    end
+
+    # grade: a graded card in the stock
+    def buy_price(id, grade = nil)
+      factor = grade ? Grades::PRICE[grade.to_i] || 1.0 : 1.0
+      [(base_price(id) * BUY_MULTIPLIER * factor * type_factor(id) * mult).round, 1].max
+    end
 
     def money; $player ? $player.money : (@test_money ||= 0); end
 
@@ -68,16 +152,21 @@ module TCG
     def import(d)
       return nil unless d
       bought = Array(d["bought"]).map(&:to_i)
+      graded = d["graded"].is_a?(Hash) ? d["graded"] : {}
       items = Array(d["cards"]).each_with_index.map do |id, i|
-        { :kind => :card, :id => id.to_s, :slot => i, :sold => bought.include?(i) }
+        grade = graded["slot"].to_i == i && graded["grade"].to_i.between?(1, 10) ? graded["grade"].to_i : nil
+        { :kind => :card, :id => id.to_s, :slot => i, :sold => bought.include?(i), :grade => grade }
       end
+      self.mult = d["mult"] if d["mult"]
+      import_types(d["types"], d["restock_in"])
       if d["pack"]
         n = items.size
         items << { :kind => :pack, :pack => d["pack"].to_s, :slot => n, :cost => d["pack_cost"].to_i,
                    :sold => bought.include?(n) }
       end
       NetworkTokens.set(d["tokens"]) if defined?(NetworkTokens) && d["tokens"]
-      { :date => d["date"].to_s, :items => items, :restock_at => System.uptime + d["restock_in"].to_i }
+      { :date => d["date"].to_s, :items => items, :restock_at => System.uptime + d["restock_in"].to_i,
+        :mult_at => d["mult_in"] ? System.uptime + d["mult_in"].to_i : nil }
     end
 
     def open
@@ -168,9 +257,14 @@ module TCG
       end
       @map.text(8, 6, _INTL("Money: {1}", CardShop.money))
       @map.text(8, 7, _INTL("Tokens: {1}", CardShop.tokens)) if stock
+      @map.text(1, 9, _INTL("Card prices: {1}", CardShop.mult_text))
       if stock
+        if stock[:mult_at]
+          m = ((stock[:mult_at] - System.uptime) / 60.0).ceil.clamp(0, 60)
+          @map.text(1, 10, _INTL("Prices change in {1}m", m))
+        end
         mins = ((stock[:restock_at] - System.uptime) / 60.0).ceil.clamp(0, 99_999)
-        @map.text(1, 10, _INTL("New stock in {1}h {2}m", mins / 60, mins % 60))
+        @map.text(1, 11, _INTL("New stock in {1}h {2}m", mins / 60, mins % 60))
       else
         @map.text(1, 10, _INTL("Offline: you can only sell."))
       end
@@ -218,8 +312,12 @@ module TCG
       else
         id = it[:id].to_sym
         shop_draw_big_card(id)
-        @map.text(10, 4, _INTL("Price: {1}", CardShop.buy_price(id)))
-        @map.text(10, 5, _INTL("You have {1}", TCG.card_count(id)))
+        @map.text(10, 4, _INTL("Price: {1}", CardShop.buy_price(id, it[:grade])))
+        if it[:grade]
+          @map.text(10, 5, _INTL("PSA {1} {2}", it[:grade], Grades.name(it[:grade]))[0, 18])
+        else
+          @map.text(10, 5, _INTL("You have {1}", TCG.card_count(id)))
+        end
       end
       @map.text(10, 6, _INTL("SOLD OUT")) if it[:sold]
       @map.box(0, 7, 20, 11)
@@ -229,7 +327,8 @@ module TCG
         if x[:kind] == :pack
           shop_pic(cx, cy, :pack => x[:pack], :sold => x[:sold], :sel => i == cur)
         else
-          shop_pic(cx, cy, :gfx => TCG.card(x[:id].to_sym).gfx, :sold => x[:sold], :sel => i == cur)
+          shop_pic(cx, cy, :gfx => TCG.card(x[:id].to_sym).gfx, :sold => x[:sold], :sel => i == cur,
+                   :label => x[:grade] ? _INTL("PSA {1}", x[:grade]) : nil)
         end
       end
       render
@@ -249,7 +348,7 @@ module TCG
         return unless shop_yes_no(_INTL("Buy the {1} pack for {2} Server Tokens?", CardShop.pack_name(it[:pack]), it[:cost]))
       else
         id = it[:id].to_sym
-        price = CardShop.buy_price(id)
+        price = CardShop.buy_price(id, it[:grade])
         if CardShop.money < price
           shop_say(_INTL("You don't have enough money. It costs {1}.", price))
           return
@@ -275,41 +374,55 @@ module TCG
         @shop_spr.visible = false
         booster_pack_screen(pack, cards, false)
         @shop_spr.visible = true
+        pts = TCG.pack_pulled(cards)   # rare holo: World Rankings points (089g)
+        shop_say(_INTL("A rare pull! +{1} World Rankings points!", pts)) if pts > 0
       else
         id = it[:id].to_sym
-        CardShop.money -= CardShop.buy_price(id)
+        CardShop.money -= price
         TCG.add_card(id)
+        # the graded one comes appraised; an ungraded holo's hidden grade is
+        # 4-10 (from a pack: 6-10, 089o)
+        if it[:grade]
+          Grades.import_record(id, [it[:grade], 0, true])
+        elsif TCG.holo?(id)
+          Grades.import_record(id, [Grades.new_grade(rand(Grades::SHOP_GRADES)), 0, false])
+        end
         CardShop.changed!
-        shop_say(_INTL("You bought {1}!", TCG.card(id).name))
+        if it[:grade]
+          shop_say(_INTL("You bought {1}, graded PSA {2}!", TCG.card(id).name, it[:grade]))
+        else
+          shop_say(_INTL("You bought {1}!", TCG.card(id).name))
+        end
       end
     end
 
     #--------------------------------------------------------------------------
     # Sell: the picked card large on top, your spare cards in pages of 12
     #--------------------------------------------------------------------------
+    # one entry per spare holo copy ([id, copy], 089o), [id, nil] for the rest
     def shop_sell_screen
       cur = 0
       loop do
-        ids = CardShop.sellable
-        if ids.empty?
+        entries = Grades.spare_entries(CardShop.sellable)
+        if entries.empty?
           shop_say(_INTL("You have no cards to sell. Cards in your decks can't be sold."))
           return
         end
-        cur = cur.clamp(0, ids.size - 1)
-        shop_draw_sell(ids, cur)
+        cur = cur.clamp(0, entries.size - 1)
+        shop_draw_sell(entries, cur)
         key = shop_wait_key
         case key
         when Input::BACK then pbPlayCancelSE; return
         when Input::USE
           pbPlayDecisionSE
-          id = ids[cur]
-          price = CardShop.sell_price(id)
+          id, copy = entries[cur]
+          price = CardShop.sell_price(id, copy)
           next unless shop_yes_no(_INTL("Sell 1 {1} for {2}?", TCG.card(id).name, price))
-          TCG.remove_card(id)
+          copy ? Grades.remove_copy(id, copy) : TCG.remove_card(id)
           CardShop.money += price
           CardShop.changed!
         else
-          n = shop_move(cur, key, ids.size)
+          n = shop_move(cur, key, entries.size)
           if n != cur
             cur = n
             pbPlayCursorSE
@@ -318,25 +431,30 @@ module TCG
       end
     end
 
-    def shop_draw_sell(ids, cur)
+    def shop_draw_sell(entries, cur)
       @map.clear
       @shop[:pics] = []
       page = cur / CardShop::GRID_CELLS
-      pages = (ids.size + CardShop::GRID_CELLS - 1) / CardShop::GRID_CELLS
+      pages = (entries.size + CardShop::GRID_CELLS - 1) / CardShop::GRID_CELLS
       @map.text(1, 0, _INTL("Sell {1}/{2}", page + 1, pages))
       shop_money_header
-      id = ids[cur]
+      id, copy = entries[cur]
       shop_draw_big_card(id)
-      @map.text(10, 4, _INTL("Sell for {1}", CardShop.sell_price(id)))
+      @map.text(10, 4, _INTL("Sell for {1}", CardShop.sell_price(id, copy)))
       spare = TCG.available_for_deck(id)
-      @map.text(10, 5, _INTL("Spare: {1}", spare))
+      if copy
+        @map.text(10, 5, Grades.label(id, copy) || _INTL("Not appraised"))
+      else
+        @map.text(10, 5, _INTL("Spare: {1}", spare))
+      end
       in_decks = TCG.card_count(id) - spare
       @map.text(10, 6, _INTL("In decks: {1}", in_decks)) if in_decks > 0
       @map.box(0, 7, 20, 11)
       first = page * CardShop::GRID_CELLS
-      ids[first, CardShop::GRID_CELLS].each_with_index do |x, i|
+      entries[first, CardShop::GRID_CELLS].each_with_index do |(x, c), i|
         shop_pic(CardShop::GRID_X[i % 4], CardShop::GRID_Y[i / 4], :gfx => TCG.card(x).gfx,
-                 :sel => first + i == cur, :count => TCG.available_for_deck(x))
+                 :sel => first + i == cur, :count => c ? 0 : TCG.available_for_deck(x),
+                 :label => c ? Grades.label(x, c) : nil)
       end
       render
       shop_draw_pics

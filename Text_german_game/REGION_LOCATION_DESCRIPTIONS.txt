@@ -1,0 +1,24 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_DESCRIPTIONS]
+Pokemon Lab
+Pokémon-Labor
+Poke Center
+Pokémon-Center
+Sprout Tower
+Knofensa-Turm
+Kurts Balls
+Kurts Bälle
+Radio Tower
+Radioturm
+Burned Tower
+Turmruine
+Light House
+Leuchtturm
+Herb Shop
+Kräuterladen
+Special Shop
+Spezialladen
+Dragon Cave
+Drachenhöhle

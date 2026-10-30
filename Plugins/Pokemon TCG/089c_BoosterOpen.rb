@@ -54,7 +54,7 @@ module TCG
 end
 
 def pbTCGOpenBooster(pack, another = false)
-  pack = pack.to_sym unless pack.is_a?(TCG::DestinyPack)
+  pack = TCG.random_pack(pack.is_a?(TCG::DestinyPack) ? pack : pack.to_sym)
   cards = TCG.generate_booster(pack)
   TCG.add_cards(cards)
   pbFadeOutIn do
@@ -65,5 +65,6 @@ def pbTCGOpenBooster(pack, another = false)
       scene.dispose
     end
   end
+  TCG.pull_message(TCG.pack_pulled(cards))
   cards
 end

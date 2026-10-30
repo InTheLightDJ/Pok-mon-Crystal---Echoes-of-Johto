@@ -1,0 +1,34 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_SPEECHES_LOSE]
+A very good battle, indeed!
+¡Un combate muy bueno, sin duda!
+Very good.
+Muy bien.
+You're too good for me!
+¡Eres demasiado bueno para mí!
+Aww, I lost.
+Jo, he perdido.
+You beat me again!
+¡Me has vuelto a ganar!
+Defeated! Oh my!
+¡Derrotado! ¡Madre mía!
+Washed out!
+¡Me han barrido!
+My Skitty!
+¡Mi Skitty!
+You didn't have to win so convincingly!
+¡No hacía falta que ganaras de forma tan aplastante!
+Our teamwork failed!
+¡Nuestro trabajo en equipo ha fallado!
+Not too shabby.
+Nada mal.
+Not again!
+¡Otra vez no!
+Not Again!
+¡Otra vez no!
+A good battle indeed!
+¡Un buen combate, sin duda!
+You did it! you waisted this much of your life!
+¡Lo has conseguido! ¡Has desperdiciado todo este tiempo de tu vida!

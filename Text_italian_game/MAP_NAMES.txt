@@ -1,0 +1,356 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+Introduzione
+New Bark Town
+Borgo Foglianova
+\PN's House
+Casa di \PN
+\PN's Room
+Stanza di \PN
+House 1
+Casa 1
+House 2
+Casa 2
+Elm's Pokémon Lab
+Laboratorio Pokémon di Elm
+Route 29
+Percorso 29
+Kurt's House
+Casa di Franz
+Goldenrod City
+Fiordoropoli
+PokéCom Center
+Centro PokéCom
+Pokémon Gym
+Palestra Pokémon
+Pokémon Institute
+Istituto Pokémon
+Underground Path
+Sotterraneo
+Underground North Entrance
+Ingresso Nord del Sotterraneo
+Underground South Entrance
+Ingresso Sud del Sotterraneo
+Game Corner
+Sala Giochi
+Goldenrod Dept. 1F
+Centro Comm. di Fiordoropoli 1° P
+Goldenrod Dept. 2F
+Centro Comm. di Fiordoropoli 2° P
+Goldenrod Dept. 3F
+Centro Comm. di Fiordoropoli 3° P
+Goldenrod Dept. 4F
+Centro Comm. di Fiordoropoli 4° P
+Goldenrod Dept. 5F
+Centro Comm. di Fiordoropoli 5° P
+Goldenrod Dept. 6F
+Centro Comm. di Fiordoropoli 6° P
+Goldenrod Dept. Elevator
+Ascensore Centro Comm. di Fiordoropoli
+Bike Shop
+Negozio di Bici
+Goldenrod Station
+Stazione di Fiordoropoli
+Radio Tower
+Torre Radio
+Radio Tower 2F
+Torre Radio 2° P
+Ilex Forest
+Bosco di Lecci
+Ilex Forest South. Ent.
+Ingresso Sud del Bosco di Lecci
+Ilex Forest North Ent.
+Ingresso Nord del Bosco di Lecci
+Mahogany Town
+Mogania
+Mahogany Poké Center
+Centro Pokémon di Mogania
+Mahogany Poké Mart
+Pokémon Market di Mogania
+Mahogany Fan Club
+Fan Club di Mogania
+Pokémon Day Care
+Pensione Pokémon
+National Park
+Parco Nazionale
+Park Entrance
+Ingresso del Parco
+Park Pavillion
+Padiglione del Parco
+Route 30
+Percorso 30
+Ice Path
+Via Gelata
+Route 31
+Percorso 31
+Union Cave
+Grotta di Mezzo
+Union Cave -1F
+Grotta di Mezzo P-1
+Dungeon
+Dungeon
+Route 28
+Percorso 28
+Underwater
+Sott'acqua
+Verd Falls
+Cascate Verd
+Indigo Plateau Entrance
+Ingresso dell'Altopiano Blu
+Indigo Plateau
+Altopiano Blu
+Pokémon League
+Lega Pokémon
+Champion's Room
+Stanza del Campione
+Hall of Fame
+Sala d'Onore
+Battle Frontier
+Parco Lotta
+Frontier Poké Center
+Centro Pokémon del Parco
+Frontier Mart
+Market del Parco
+Battle Tower
+Torre Lotta
+Battle Tower Arena
+Arena della Torre Lotta
+Stadium Cup Lobby
+Atrio Coppe Stadium
+Battle Palace
+Palazzo Lotta
+Battle Palace Arena
+Arena del Palazzo Lotta
+Battle Arena
+Arena Lotta
+Battle Arena Arena
+Campo dell'Arena Lotta
+Battle Factory
+Industria Lotta
+Battle Factory Corridor
+Corridoio dell'Industria Lotta
+Battle Factory Arena
+Arena dell'Industria Lotta
+Battle Factory Corridor 2
+Corridoio dell'Industria Lotta 2
+Battle Frontier Entrance
+Ingresso del Parco Lotta
+Saffron City
+Zafferanopoli
+Saffron Poké Center
+Centro Pokémon di Zafferanopoli
+Saffron Mart
+Market di Zafferanopoli
+Saffron Station
+Stazione di Zafferanopoli
+Route 24
+Percorso 24
+Cycling Road Gate
+Cancello della Pista Ciclabile
+Route 25
+Percorso 25
+Route 26
+Percorso 26
+Vermillion City
+Aranciopoli
+Vermillion Poké Center
+Centro Pokémon di Aranciopoli
+Vermillion Mart
+Market di Aranciopoli
+Oak's Pokémon Lab
+Laboratorio Pokémon di Oak
+Harbour
+Porto
+Safari Zone
+Zona Safari
+Safari Zone Gate
+Cancello della Zona Safari
+Route 27
+Percorso 27
+Daroxy Island
+Daroxy Island
+Faraday Island
+Faraday Island
+NEW BARK TOWN
+BORGO FOGLIANOVA
+ROUTE 29
+PERCORSO 29
+CHERRYGROVE CITY
+FIORPESCOPOLI
+ROUTE 30
+PERCORSO 30
+ROUTE 31
+PERCORSO 31
+VIOLET CITY
+VIOLAPOLI
+ROUTE 32
+PERCORSO 32
+ROUTE 33
+PERCORSO 33
+AZALEA TOWN
+AZALINA
+ROUTE 34
+PERCORSO 34
+GOLDENROD CITY
+FIORDOROPOLI
+GTS
+GTS
+ROUTE 35
+PERCORSO 35
+ROUTE 36
+PERCORSO 36
+ROUTE 37
+PERCORSO 37
+ECRUTEAK CITY
+AMARANTOPOLI
+ROUTE 38
+PERCORSO 38
+ROUTE 39
+PERCORSO 39
+OLIVINE CITY
+OLIVINOPOLI
+ROUTE 40
+PERCORSO 40
+BATTLE TOWER
+TORRE LOTTA
+ROUTE 41
+PERCORSO 41
+CIANWOOD CITY
+FIORLISOPOLI
+ROUTE 42
+PERCORSO 42
+MAHOGANY TOWN
+MOGANIA
+ROUTE 43
+PERCORSO 43
+LAKE OF RAGE
+LAGO D'IRA
+ROUTE 44
+PERCORSO 44
+BLACKTHORN CITY
+EBANOPOLI
+ROUTE 45
+PERCORSO 45
+ROUTE 46
+PERCORSO 46
+ROUTE 27
+PERCORSO 27
+ROUTE 26
+PERCORSO 26
+VIRIDIAN CITY
+SMERALDOPOLI
+ROUTE 1
+PERCORSO 1
+ROUTE 22
+PERCORSO 22
+PALLET TOWN
+BIANCAVILLA
+ROUTE 2
+PERCORSO 2
+VIRIDIAN FOREST
+BOSCO SMERALDO
+PEWTER CITY
+PLUMBEOPOLI
+ROUTE 3
+PERCORSO 3
+ROUTE 4
+PERCORSO 4
+CERULEAN CITY
+CELESTOPOLI
+ROUTE 24
+PERCORSO 24
+ROUTE 25
+PERCORSO 25
+ROUTE 9
+PERCORSO 9
+ROUTE 10
+PERCORSO 10
+LAVENDER TOWN
+LAVANDONIA
+ROUTE 8
+PERCORSO 8
+ROUTE 5
+PERCORSO 5
+SAFFRON CITY
+ZAFFERANOPOLI
+ROUTE 7
+PERCORSO 7
+CELADON CITY
+AZZURROPOLI
+ROUTE 16
+PERCORSO 16
+ROUTE 12
+PERCORSO 12
+ROUTE 13
+PERCORSO 13
+ROUTE 6
+PERCORSO 6
+VERMILION CITY
+ARANCIOPOLI
+ROUTE 11
+PERCORSO 11
+ROUTE 14
+PERCORSO 14
+ROUTE 15
+PERCORSO 15
+FUCHSIA CITY
+FUCSIAPOLI
+ROUTE 18
+PERCORSO 18
+ROUTE 17
+PERCORSO 17
+ALTERNATE
+ALTERNATIVO
+ROUTE 21
+PERCORSO 21
+ROUTE 19
+PERCORSO 19
+RUINS OF ALPH
+ROVINE D'ALFA
+DARK CAVE
+GROTTA SCURA
+UNION CAVE
+GROTTA DI MEZZO
+SLOWPOKE WELL
+POZZO SLOWPOKE
+ILEX FOREST
+BOSCO DI LECCI
+NATIONAL PARK
+PARCO NAZIONALE
+ICE PATH
+VIA GELATA
+DRAGON'S DEN
+TANA DEL DRAGO
+ROUTE 28
+PERCORSO 28
+MT. SILVER
+MONTE ARGENTO
+INDIGO PLATEAU
+ALTOPIANO BLU
+DIGLETT'S CAVE
+GROTTA DIGLETT
+MT. MOON
+MONTE LUNA
+CERULEAN CAVE
+GROTTA CELESTE
+ROCK TUNNEL
+TUNNEL ROCCIOSO
+SAFARI ZONE
+ZONA SAFARI
+Hidden area!
+Area nascosta!
+Calling Grotto
+Grotta del Richiamo
+Wa Wa WaterWay
+Wa Wa WaterWay
+Secret Area
+Area segreta
+Between map
+Tra le mappe
+MAP477
+MAP477
+MAP479
+MAP479

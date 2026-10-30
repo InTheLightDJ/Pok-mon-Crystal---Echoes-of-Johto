@@ -1,0 +1,150 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_NAMES]
+New Bark Town
+Cidade de New Bark
+CHERRYGROVE CITY
+CIDADE DE CHERRYGROVE
+VIOLET CITY
+CIDADE DE VIOLET
+AZALEA TOWN
+CIDADE DE AZALEA
+GOLDENROD CITY
+CIDADE DE GOLDENROD
+ECRUTEAK CITY
+CIDADE DE ECRUTEAK
+OLIVINE CITY
+CIDADE DE OLIVINE
+CIANWOOD CITY
+CIDADE DE CIANWOOD
+MAHOGANY TOWN
+CIDADE DE MAHOGANY
+BLACKTHORN CITY
+CIDADE DE BLACKTHORN
+Route 29
+Rota 29
+Route 30
+Rota 30
+Route 31
+Rota 31
+Ruins Of Alph
+Ruínas de Alph
+Route 32
+Rota 32
+Union Cave
+Caverna União
+Route 33
+Rota 33
+Ilex Forrest
+Floresta de Ilex
+Route 34
+Rota 34
+Route 35
+Rota 35
+National Park
+Parque Nacional
+Route 37
+Rota 37
+Route 36
+Rota 36
+Route 38
+Rota 38
+Route 39
+Rota 39
+Route 40
+Rota 40
+Route 41
+Rota 41
+Seafoam Islands
+Ilhas Seafoam
+Route 42
+Rota 42
+Route 43
+Rota 43
+Route 44
+Rota 44
+Route 45
+Rota 45
+Route 46
+Rota 46
+Route 22
+Rota 22
+Viridian City
+Cidade de Viridian
+Route 1
+Rota 1
+Pallet Town
+Cidade de Pallet
+Route 2
+Rota 2
+Viridian Forrest
+Floresta de Viridian
+Pewter City
+Cidade de Pewter
+Route 3
+Rota 3
+Mt Moon
+Monte Lua
+Route 4
+Rota 4
+Cerulean City
+Cidade de Cerulean
+Route 24
+Rota 24
+Route 25
+Rota 25
+Route 5
+Rota 5
+Route 6
+Rota 6
+Vermillion City
+Cidade de Vermilion
+Route 9
+Rota 9
+Rock Tunnel
+Túnel de Pedra
+Route 10
+Rota 10
+Lavender Town
+Cidade de Lavender
+Route 8
+Rota 8
+Saffron City
+Cidade de Saffron
+Route 7
+Rota 7
+Celadon City
+Cidade de Celadon
+Route 16
+Rota 16
+Route 17
+Rota 17
+Route 18
+Rota 18
+Fuchsia City
+Cidade de Fuchsia
+Route 12
+Rota 12
+Route 11
+Rota 11
+Route 13
+Rota 13
+Route 14
+Rota 14
+Route 15
+Rota 15
+Route 19
+Rota 19
+Cinnabar Island
+Ilha Cinnabar
+Route 21
+Rota 21
+Pokemon League
+Liga Pokémon
+Mt Silver
+Monte Silver
+Victory Road
+Estrada Vitória
+Route 27
+Rota 27

@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+Käferboss-Band
+Bug Boss Beater
+Käferboss-Bezwinger-Band
+Bug Collection Ribbon
+Käfersammlungs-Band
+Cool Performance Ribbon
+Coolness-Vorführungsband
+Cool Performance Ribbon Super
+Coolness-Vorführungsband Super
+Cool Performance Ribbon Hyper
+Coolness-Vorführungsband Hyper
+Cool Performance Ribbon Master
+Coolness-Vorführungsband Master
+Beauty Performance Ribbon
+Schönheit-Vorführungsband
+Beauty Performance Ribbon Super
+Schönheit-Vorführungsband Super
+Beauty Performance Ribbon Hyper
+Schönheit-Vorführungsband Hyper
+Beauty Performance Ribbon Master
+Schönheit-Vorführungsband Master
+Cute Performance Ribbon
+Anmut-Vorführungsband
+Cute Performance Ribbon Super
+Anmut-Vorführungsband Super
+Cute Performance Ribbon Hyper
+Anmut-Vorführungsband Hyper
+Cute Performance Ribbon Master
+Anmut-Vorführungsband Master
+Smart Performance Ribbon
+Klugheit-Vorführungsband
+Smart Performance Ribbon Super
+Klugheit-Vorführungsband Super
+Smart Performance Ribbon Hyper
+Klugheit-Vorführungsband Hyper
+Smart Performance Ribbon Master
+Klugheit-Vorführungsband Master
+Tough Performance Ribbon
+Stärke-Vorführungsband
+Tough Performance Ribbon Super
+Stärke-Vorführungsband Super
+Tough Performance Ribbon Hyper
+Stärke-Vorführungsband Hyper
+Tough Performance Ribbon Master
+Stärke-Vorführungsband Master
+Cool Ribbon
+Coolnessband
+Cool Ribbon Super
+Coolnessband Super
+Cool Ribbon Hyper
+Coolnessband Hyper
+Cool Ribbon Master
+Coolnessband Master
+Beauty Ribbon
+Schönheitband
+Beauty Ribbon Super
+Schönheitband Super
+Beauty Ribbon Hyper
+Schönheitband Hyper
+Beauty Ribbon Master
+Schönheitband Master
+Cute Ribbon
+Anmutband
+Cute Ribbon Super
+Anmutband Super
+Cute Ribbon Hyper
+Anmutband Hyper
+Cute Ribbon Master
+Anmutband Master
+Smart Ribbon
+Klugheitband
+Smart Ribbon Super
+Klugheitband Super
+Smart Ribbon Hyper
+Klugheitband Hyper
+Tough Ribbon
+Stärkeband
+Tough Ribbon Super
+Stärkeband Super
+Tough Ribbon Hyper
+Stärkeband Hyper
+Tough Ribbon Master
+Stärkeband Master
+Cool Ribbon Great
+Coolnessband Groß
+Cool Ribbon Ultra
+Coolnessband Ultra
+Beauty Ribbon Great
+Schönheitband Groß
+Beauty Ribbon Ultra
+Schönheitband Ultra
+Cute Ribbon Great
+Anmutband Groß
+Cute Ribbon Ultra
+Anmutband Ultra
+Smart Ribbon Great
+Klugheitband Groß
+Smart Ribbon Ultra
+Klugheitband Ultra
+Tough Ribbon Great
+Stärkeband Groß
+Tough Ribbon Ultra
+Stärkeband Ultra
+Winning Ribbon
+Siegerband
+Victory Ribbon
+Erfolgsband
+Ability Ribbon
+Fähigkeitsband
+Great Ability Ribbon
+Großfähigkeitsband
+Double Ability Ribbon
+Doppelfähigkeitsband
+Multi Ability Ribbon
+Multifähigkeitsband
+Pair Ability Ribbon
+Paarfähigkeitsband
+World Ability Ribbon
+Weltfähigkeitsband
+Champion Ribbon
+Championband
+Sinnoh Champ Ribbon
+Sinnoh-Championband
+Record Ribbon
+Rekordband
+Event Ribbon
+Eventband
+Legend Ribbon
+Legendenband
+Gorgeous Ribbon
+Prachtband
+Royal Ribbon
+Königsband
+Gorgeous Royal Ribbon
+Prachtkönigsband
+Alert Ribbon
+Alarmband
+Shock Ribbon
+Schockband
+Downcast Ribbon
+Trübsalband
+Careless Ribbon
+Leichtsinnband
+Relax Ribbon
+Entspannungsband
+Snooze Ribbon
+Schlummerband
+Smile Ribbon
+Lächelband
+Footprint Ribbon
+Spurenband
+Artist Ribbon
+Künstlerband
+Effort Ribbon
+Fleißband
+Special Ribbon
+Spezialband
+Classic Ribbon
+Klassikband
+Premier Ribbon
+Premiumband
+Souvenir Ribbon
+Andenkenband
+Wishing Ribbon
+Wunschband
+National Ribbon
+Nationalband
+Country Ribbon
+Landesband
+Battle Champion Ribbon
+Kampf-Championband
+Regional Champion Ribbon
+Regional-Championband
+Earth Ribbon
+Erdenband
+World Ribbon
+Weltband
+National Champion Ribbon
+National-Championband
+World Champion Ribbon
+Welt-Championband

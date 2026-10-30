@@ -1,0 +1,24 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_DESCRIPTIONS]
+Pokemon Lab
+Laboratorio Pokémon
+Poke Center
+Centro Pokémon
+Sprout Tower
+Torre Bellsprout
+Kurts Balls
+Balls de Kurt
+Radio Tower
+Torre Radio
+Burned Tower
+Torre Quemada
+Light House
+Faro
+Herb Shop
+Herbolario
+Special Shop
+Tienda Especial
+Dragon Cave
+Cueva Dragón

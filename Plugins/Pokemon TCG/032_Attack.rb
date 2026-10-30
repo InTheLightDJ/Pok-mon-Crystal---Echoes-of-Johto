@@ -79,7 +79,7 @@ module TCG
       return false if atk.nil? || atk.pokemon_power?
       en, total = attached_energies_with_energy_burn(d, e)
       accum = 0
-      NUM_COLORED_TYPES.times do |col|
+      COLORED_TYPES.each do |col|
         need = atk.cost[col]
         accum += need
         return false if need > en[col]

@@ -113,7 +113,7 @@ module TCG
     d = du.turn_duelist
     next true if du.incapable_of_using_pkmn_power?(d, slot)
     grass = TYPE_NAMES["TYPE_ENERGY_GRASS"]
-    (0...DECK_SIZE).any? { |i| (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) != 0 && d.card(i).type == grass } ? false : true
+    (0...d.deck_size).any? { |i| (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) != 0 && d.card(i).type == grass } ? false : true
   end
 
   effect(:SolarPower_CheckUse) do |du|

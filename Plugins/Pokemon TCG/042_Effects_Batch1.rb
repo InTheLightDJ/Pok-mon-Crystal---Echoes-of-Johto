@@ -157,7 +157,7 @@ module TCG
 
   # CheckIfDeckIsEmpty
   effect(:EnergySpike_DeckCheck) do |du|
-    du.turn_duelist.not_in_deck >= DECK_SIZE ? _INTL("There are no cards left in the Deck.") : false
+    du.turn_duelist.cards_in_deck <= 0 ? _INTL("There are no cards left in the Deck.") : false
   end
 
   #----------------------------------------------------------------------------

@@ -3,7 +3,9 @@
 # (Data/Scripts/017_Minigames/003_Minigame_SlotMachine.rb).
 # Hold A (Enter): after AUTO_HOLD seconds the machine bets 3 Coins, spins,
 # and stops each reel at a random moment in a short window. Let go of A to
-# play normally again. Messages (Green 7s etc.) still need a press.
+# play normally again. Messages (Green 7s etc.) still need a press, except
+# the ones a machine shows inside SlotAutoPlay.advancing (the Jackpot
+# Machines' prize messages): holding A presses A every ADVANCE_EVERY seconds.
 # It works by giving the machine the button presses a player would make:
 # the scene's update (run every frame after Input.update) picks this frame's
 # press, and Input.trigger? reports it until the next Input.update.
@@ -12,10 +14,27 @@ module SlotAutoPlay
   AUTO_HOLD = 0.5   # seconds A is held before auto play starts
   STOP_MIN  = 0.4   # each reel stops STOP_MIN..STOP_MAX seconds after the last
   STOP_MAX  = 1.0
+  ADVANCE_EVERY = 0.5   # seconds between presses on messages, see advancing
 
   @press = nil
   class << self
     attr_accessor :press
+
+    # while the block runs, holding A presses it on messages
+    def advancing
+      @advancing = true
+      @next_advance = System.uptime + ADVANCE_EVERY
+      yield
+    ensure
+      @advancing = false
+    end
+
+    def advance?(button)
+      return false unless @advancing && button == Input::USE && Input.press?(Input::USE)
+      return false if System.uptime < @next_advance
+      @next_advance = System.uptime + ADVANCE_EVERY
+      true
+    end
   end
 end
 
@@ -30,6 +49,7 @@ module Input
     alias _slot_auto_trigger? trigger?
     def trigger?(button)
       return true if SlotAutoPlay.press && button == SlotAutoPlay.press
+      return true if SlotAutoPlay.advance?(button)
       _slot_auto_trigger?(button)
     end
   end
@@ -40,6 +60,11 @@ class SlotMachineScene
   def update
     _slot_auto_scene_update
     slot_auto_play
+  end
+
+  # A has been held long enough for auto play
+  def slot_auto_active?
+    !!@auto_held_since && System.uptime - @auto_held_since >= SlotAutoPlay::AUTO_HOLD && Input.press?(Input::USE)
   end
 
   def slot_auto_play

@@ -25,6 +25,7 @@
 #   tcg_seed    { duel_id, round, hash }   tcg_seed      { round, seed }
 #   tcg_move    { duel_id, seq, data }     tcg_move_relay{ seq, data }
 #   tcg_result  { duel_id, result }        tcg_declined  { from }
+#   tcg_ai_result { result } (AI duel)
 #                                          tcg_ended     { reason }
 #                                          tcg_desync    { round }
 #                                          tcg_error     { message }
@@ -334,18 +335,18 @@ module TCG
       defined?(NetworkAuth) && NetworkAuth.logged_in?
     end
 
-    # the dueling deck as 60 card id strings, or nil (with a message)
+    # the dueling deck as 55-65 card id strings, or nil (with a message)
     def my_deck
       cards = TCG.active_deck_cards
-      if cards.nil? || cards.size != DECK_SIZE
-        pbMessage(_INTL("You need a 60-card dueling deck. Choose one in the card menu's Deck screen."))
+      if !TCG.deck_size_ok?(cards)
+        pbMessage(_INTL("You need a dueling deck of 55 to 65 cards. Choose one in the card menu's Deck screen."))
         return nil
       end
       cards.map(&:to_s)
     end
 
     def valid_deck?(list)
-      list.is_a?(Array) && list.size == DECK_SIZE && list.all? { |id| CARDS.key?(id.to_s.to_sym) }
+      list.is_a?(Array) && TCG.deck_size_ok?(list) && list.all? { |id| CARDS.key?(id.to_s.to_sym) }
     end
 
     # pumps the game until the block returns non-nil or `frames` pass
@@ -486,8 +487,12 @@ module TCG
       end
       portrait = data["portrait"].to_s
       portrait = nil if portrait.empty?
+      TCG.last_duel_result = nil
       pbTCGDuel(name, data["deck"].map(&:to_sym), prizes: 6, id: :"online_#{name.downcase}",
                 portrait: portrait, reward: AI_DUEL_REWARD)
+      # the PvP win streak (server: tcg_prizes.js; counts only while under 5)
+      outcome = { DUEL_WIN => "win", DUEL_LOSS => "loss" }[TCG.last_duel_result]
+      NetworkClient.send_msg({ action: "tcg_ai_result", result: outcome }) if outcome && online?
     end
 
     # an AI duelist's game keeps the server's copy of their dueling deck
@@ -499,7 +504,7 @@ module TCG
       return if @upload_timer < 300
       @upload_timer = 0
       cards = TCG.active_deck_cards
-      return if cards.nil? || cards.size != DECK_SIZE || cards == @uploaded_deck
+      return if !TCG.deck_size_ok?(cards) || cards == @uploaded_deck
       NetworkClient.send_msg({ action: "tcg_ai_deck", deck: cards.map(&:to_s) })
       @uploaded_deck = cards.dup
     end

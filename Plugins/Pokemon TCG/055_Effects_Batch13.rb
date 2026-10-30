@@ -27,8 +27,8 @@ module TCG
   # Prophecy: :list = [deck choice (0 own / 1 opp), order...]
   effect(:Prophecy_PlayerSelectEffect) do |du|
     opts = []
-    opts << 0 if du.turn_duelist.not_in_deck < DECK_SIZE
-    opts << 1 if du.non_turn_duelist.not_in_deck < DECK_SIZE
+    opts << 0 if du.turn_duelist.cards_in_deck > 0
+    opts << 1 if du.non_turn_duelist.cards_in_deck > 0
     which = du.effect_choice(:yes_no, :ProphecyDeck, opts, false)
     which = opts.first unless opts.include?(which)
     order = which == 1 ? du.as_non_turn { du.choose_deck_top_order(:Prophecy) } : du.choose_deck_top_order(:Prophecy)

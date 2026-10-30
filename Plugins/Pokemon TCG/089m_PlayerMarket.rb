@@ -14,6 +14,9 @@
 #   Browse        everyone's listings (yours marked); A buys / takes back
 #   Sell a holo   your spare holo cards; A sets a price (Up/Down 1,
 #                 Left/Right 10) and lists it
+# Each holo copy's grade (089o_CardGrades.rb) goes with it: the server
+# keeps it with the listing and hands it on to whoever gets the card, and
+# listings show the grade of appraised copies.
 #==============================================================================
 class PokemonGlobalMetadata
   attr_writer :tcg_market_received
@@ -49,6 +52,7 @@ module TCG
         got << id
         next if received.include?(id) || !CardTrader.known?(card)
         TCG.add_card(card.to_sym)
+        Grades.import_record(card.to_sym, x["grade"])   # the copy's grade comes with it (089o)
         received << id
         name = TCG.card(card.to_sym).name
         lines << case x["why"]
@@ -70,7 +74,8 @@ module TCG
       me = (NetworkAuth.username rescue nil).to_s.downcase
       listings = Array(d["listings"]).select { |l| CardTrader.known?(l["card"].to_s) }.map do |l|
         { :id => l["id"].to_i, :seller => l["seller"].to_s, :card => l["card"].to_s.to_sym, :price => l["price"].to_i,
-          :ends_at => System.uptime + l["ends_in"].to_i, :mine => l["seller"].to_s.downcase == me }
+          :ends_at => System.uptime + l["ends_in"].to_i, :mine => l["seller"].to_s.downcase == me,
+          :psa => l["psa"] ? l["psa"].to_i : nil }
       end
       { :listings => listings, :lines => lines, :max_listings => d["max_listings"].to_i,
         :max_price => [d["max_price"].to_i, 1].max }
@@ -187,14 +192,17 @@ module TCG
       @map.text(19 - Screens.text_tiles(t), 0, t)
       l = list[cur]
       shop_draw_big_card(l[:card])
-      @map.text(10, 4, _INTL("{1} Tokens", l[:price]))
+      t = _INTL("{1} Tokens", l[:price])
+      t += "  " + _INTL("PSA {1}", l[:psa]) if l[:psa]
+      @map.text(10, 4, t)
       @map.text(10, 5, l[:mine] ? _INTL("Your card") : l[:seller][0, 16])
       @map.text(10, 6, _INTL("Ends {1}", PlayerMarket.time_left(l[:ends_at])))
       @map.box(0, 7, 20, 11)
       first = page * CardShop::GRID_CELLS
       list[first, CardShop::GRID_CELLS].each_with_index do |x, i|
         shop_pic(CardShop::GRID_X[i % 4], CardShop::GRID_Y[i / 4], :gfx => TCG.card(x[:card]).gfx,
-                 :sel => first + i == cur, :label => x[:mine] ? _INTL("YOURS") : nil)
+                 :sel => first + i == cur,
+                 :label => x[:mine] ? _INTL("YOURS") : (x[:psa] ? _INTL("PSA {1}", x[:psa]) : nil))
       end
       render
       shop_draw_pics
@@ -220,24 +228,25 @@ module TCG
     #--------------------------------------------------------------------------
     # Sell a holo: your spare holo cards; A -> price -> list it
     #--------------------------------------------------------------------------
+    # one entry per spare holo copy: [id, copy] (089o)
     def market_sell
       cur = 0
       loop do
-        ids = PlayerMarket.sellable
-        if ids.empty?
+        entries = Grades.spare_entries(PlayerMarket.sellable)
+        if entries.empty?
           shop_say(_INTL("You have no spare holo cards. Only holo cards can be sold on the market."))
           return
         end
-        cur = cur.clamp(0, ids.size - 1)
-        market_draw_sell(ids, cur)
+        cur = cur.clamp(0, entries.size - 1)
+        market_draw_sell(entries, cur)
         key = shop_wait_key
         case key
         when Input::BACK then pbPlayCancelSE; return
         when Input::USE
           pbPlayDecisionSE
-          market_post(ids, cur)
+          market_post(entries, cur)
         else
-          n = shop_move(cur, key, ids.size)
+          n = shop_move(cur, key, entries.size)
           if n != cur
             cur = n
             pbPlayCursorSE
@@ -247,38 +256,38 @@ module TCG
     end
 
     # price: the line under the card's tier while picking one
-    def market_draw_sell(ids, cur, price = nil)
+    def market_draw_sell(entries, cur, price = nil)
       @map.clear
       @shop[:pics] = []
       page = cur / CardShop::GRID_CELLS
-      pages = (ids.size + CardShop::GRID_CELLS - 1) / CardShop::GRID_CELLS
+      pages = (entries.size + CardShop::GRID_CELLS - 1) / CardShop::GRID_CELLS
       @map.text(1, 0, _INTL("Sell holo {1}/{2}", page + 1, pages))
-      id = ids[cur]
+      id, copy = entries[cur]
       shop_draw_big_card(id)
       if price
         @map.text(10, 4, _INTL("Price: {1}", price))
         @map.text(10, 5, _INTL("Up/Down: 1"))
         @map.text(10, 6, _INTL("L/R: 10"))
       else
-        @map.text(10, 4, _INTL("Spare: {1}", TCG.available_for_deck(id)))
+        @map.text(10, 4, Grades.label(id, copy) || _INTL("Not appraised"))
         @map.text(10, 5, _INTL("A: set price"))
       end
       @map.box(0, 7, 20, 11)
       first = page * CardShop::GRID_CELLS
-      ids[first, CardShop::GRID_CELLS].each_with_index do |x, i|
+      entries[first, CardShop::GRID_CELLS].each_with_index do |(x, c), i|
         shop_pic(CardShop::GRID_X[i % 4], CardShop::GRID_Y[i / 4], :gfx => TCG.card(x).gfx,
-                 :sel => first + i == cur, :count => TCG.available_for_deck(x))
+                 :sel => first + i == cur, :label => Grades.label(x, c))
       end
       render
       shop_draw_pics
     end
 
-    def market_post(ids, cur)
-      id = ids[cur]
+    def market_post(entries, cur)
+      id, copy = entries[cur]
       max = @market[:max_price]
       price = (@market_last_price || 10).clamp(1, max)
       loop do
-        market_draw_sell(ids, cur, price)
+        market_draw_sell(entries, cur, price)
         key = shop_wait_key
         case key
         when Input::BACK then pbPlayCancelSE; return
@@ -295,8 +304,9 @@ module TCG
       @market_last_price = price
       name = TCG.card(id).name
       return unless shop_yes_no(_INTL("List {1} for {2} Server Tokens for 5 days?", name, price))
-      return unless PlayerMarket.act(self, { action: "tcg_market_post", card: id.to_s, price: price })
-      TCG.remove_card(id)
+      grade = Grades.record(id, copy)
+      return unless PlayerMarket.act(self, { action: "tcg_market_post", card: id.to_s, price: price, grade: grade })
+      Grades.remove_copy(id, copy)
       PlayerMarket.save_game
       shop_say(_INTL("{1} is on the market!", name))
       market_refresh

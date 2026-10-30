@@ -11,7 +11,7 @@ module TCG
       en, total = d.attached_energies(e)
       return [en, total] unless e == PLAY_AREA_ARENA && d.card_id(d.arena) == :CHARIZARD
       return [en, total] if incapable_of_using_pkmn_power?(d, PLAY_AREA_ARENA)
-      en = Array.new(7, 0)
+      en = Array.new(NUM_COLORS, 0)
       en[COLORLESS] = 0
       en[FIRE] = total
       [en, total]

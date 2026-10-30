@@ -33,7 +33,7 @@ module TCG
     custom    = CARD_ORDER.select { |id| custom_card?(id) && !legendary_card?(id) }
     evolution = CARD_ORDER.select { |id| pokemon_card?(id) && %w[STAGE1 STAGE2].include?(CARDS[id][:stage].to_s) }
     legendary = CARD_ORDER.select { |id| pokemon_card?(id) && legendary_card?(id) }
-    energy    = BASIC_ENERGY_IDS.first(NUM_COLORED_TYPES) + [:DOUBLE_COLORLESS_ENERGY]
+    energy    = BASIC_ENERGY_IDS + [:DOUBLE_COLORLESS_ENERGY]
     [custom.sample, evolution.sample, legendary.sample, energy.sample]
   end
 

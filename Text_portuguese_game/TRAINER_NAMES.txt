@@ -1,0 +1,70 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_NAMES]
+Falkner
+Falkner
+Grunt
+Recruta
+Eusine
+Eusine
+Lance
+Lance
+Jin
+Jin
+Bugsy
+Bugsy
+Whitney
+Whitney
+Mark
+Marcar
+Morty
+Morty
+Wendy
+Wendy
+Yoshi
+Yoshi
+Chuck
+Chuck
+Pryce
+Pryce
+Jasmine
+Jasmine
+Clair
+Clair
+Kiyo
+Kiyo
+Gaurd 1
+Guarda 1
+Gaurd 2
+Guarda 2
+Petrel
+Petrel
+Ariana
+Ariana
+Will
+Will
+Karen
+Karen
+Surge
+Surge
+Sabrina
+Sabrina
+Janine
+Janine
+Misty
+Névoa
+Brock
+Brock
+Blaine
+Blaine
+Blue
+Blue
+Diana
+Diana
+Roy
+Roy
+Mama Red
+Mãe do Red
+Red
+Red

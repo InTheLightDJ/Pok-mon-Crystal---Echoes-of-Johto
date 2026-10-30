@@ -1,0 +1,60 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_NAMES]
+Falkner
+Pegaso
+Grunt
+Recluta
+Eusine
+Eusine
+Jin
+Jin
+Bugsy
+Antón
+Whitney
+Blanca
+Mark
+Marcar
+Morty
+Morti
+Wendy
+Wendy
+Yoshi
+Yoshi
+Chuck
+Aníbal
+Pryce
+Fredo
+Jasmine
+Yasmina
+Clair
+Débora
+Kiyo
+Kiyo
+Gaurd 1
+Guardia 1
+Gaurd 2
+Guardia 2
+Petrel
+Protón
+Ariana
+Atenea
+Will
+Mento
+Sabrina
+Sabrina
+Janine
+Sachiko
+Misty
+Campo de Niebla
+Blue
+Azul
+Diana
+Diana
+Roy
+Roy
+Mama Red
+Mamá de Rojo
+Red
+Rojo

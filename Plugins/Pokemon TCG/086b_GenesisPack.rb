@@ -23,6 +23,6 @@ module TCG
         !GENESIS_PROMOS.include?(id) && id != :DITTO
     end
     cards = [GENESIS_PROMOS.sample, :DITTO, commons.sample]
-    cards + Array.new(NUM_CARDS_IN_BOOSTER - cards.size) { BASIC_ENERGY_IDS[rand(NUM_COLORED_TYPES)] }
+    cards + Array.new(NUM_CARDS_IN_BOOSTER - cards.size) { BASIC_ENERGY_IDS[rand(BASIC_ENERGY_IDS.size)] }
   end
 end

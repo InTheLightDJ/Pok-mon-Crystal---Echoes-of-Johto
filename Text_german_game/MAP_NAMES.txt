@@ -1,0 +1,356 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+Intro
+New Bark Town
+Neuborkia
+\PN's House
+Haus von \PN
+\PN's Room
+Zimmer von \PN
+House 1
+Haus 1
+House 2
+Haus 2
+Elm's Pokémon Lab
+Linds Pokémon-Labor
+Route 29
+Route 29
+Kurt's House
+Kurts Haus
+Goldenrod City
+Dukatia City
+PokéCom Center
+PokéCom-Center
+Pokémon Gym
+Pokémon-Arena
+Pokémon Institute
+Pokémon-Institut
+Underground Path
+Untergrundweg
+Underground North Entrance
+Untergrundweg Nordeingang
+Underground South Entrance
+Untergrundweg Südeingang
+Game Corner
+Spielhalle
+Goldenrod Dept. 1F
+Kaufhaus Dukatia EG
+Goldenrod Dept. 2F
+Kaufhaus Dukatia 1. OG
+Goldenrod Dept. 3F
+Kaufhaus Dukatia 2. OG
+Goldenrod Dept. 4F
+Kaufhaus Dukatia 3. OG
+Goldenrod Dept. 5F
+Kaufhaus Dukatia 4. OG
+Goldenrod Dept. 6F
+Kaufhaus Dukatia 5. OG
+Goldenrod Dept. Elevator
+Kaufhaus Dukatia Aufzug
+Bike Shop
+Fahrradladen
+Goldenrod Station
+Bahnhof Dukatia City
+Radio Tower
+Radioturm
+Radio Tower 2F
+Radioturm 1. OG
+Ilex Forest
+Steineichenwald
+Ilex Forest South. Ent.
+Steineichenwald Südeing.
+Ilex Forest North Ent.
+Steineichenwald Nordeing.
+Mahogany Town
+Mahagonia City
+Mahogany Poké Center
+Pokémon-Center Mahagonia
+Mahogany Poké Mart
+Supermarkt Mahagonia
+Mahogany Fan Club
+Fanclub Mahagonia
+Pokémon Day Care
+Pokémon-Pension
+National Park
+Nationalpark
+Park Entrance
+Parkeingang
+Park Pavillion
+Parkpavillon
+Route 30
+Route 30
+Ice Path
+Eispfad
+Route 31
+Route 31
+Union Cave
+Einheitstunnel
+Union Cave -1F
+Einheitstunnel UG
+Dungeon
+Dungeon
+Route 28
+Route 28
+Underwater
+Unterwasser
+Verd Falls
+Verd Falls
+Indigo Plateau Entrance
+Eingang Indigo Plateau
+Indigo Plateau
+Indigo Plateau
+Pokémon League
+Pokémon-Liga
+Champion's Room
+Raum des Champs
+Hall of Fame
+Ruhmeshalle
+Battle Frontier
+Kampfzone
+Frontier Poké Center
+Pokémon-Center Kampfzone
+Frontier Mart
+Supermarkt Kampfzone
+Battle Tower
+Duellturm
+Battle Tower Arena
+Duellturm-Arena
+Stadium Cup Lobby
+Stadion-Cup-Lobby
+Battle Palace
+Kampfpalast
+Battle Palace Arena
+Kampfpalast-Arena
+Battle Arena
+Kampfdojo
+Battle Arena Arena
+Kampfdojo-Arena
+Battle Factory
+Kampffabrik
+Battle Factory Corridor
+Kampffabrik-Korridor
+Battle Factory Arena
+Kampffabrik-Arena
+Battle Factory Corridor 2
+Kampffabrik-Korridor 2
+Battle Frontier Entrance
+Eingang Kampfzone
+Saffron City
+Saffronia City
+Saffron Poké Center
+Pokémon-Center Saffronia
+Saffron Mart
+Supermarkt Saffronia
+Saffron Station
+Bahnhof Saffronia
+Route 24
+Route 24
+Cycling Road Gate
+Radweg-Tor
+Route 25
+Route 25
+Route 26
+Route 26
+Vermillion City
+Orania City
+Vermillion Poké Center
+Pokémon-Center Orania
+Vermillion Mart
+Supermarkt Orania
+Oak's Pokémon Lab
+Eichs Pokémon-Labor
+Harbour
+Hafen
+Safari Zone
+Safari-Zone
+Safari Zone Gate
+Safari-Zone-Tor
+Route 27
+Route 27
+Daroxy Island
+Daroxy Island
+Faraday Island
+Faraday Island
+NEW BARK TOWN
+NEUBORKIA
+ROUTE 29
+ROUTE 29
+CHERRYGROVE CITY
+ROSALIA CITY
+ROUTE 30
+ROUTE 30
+ROUTE 31
+ROUTE 31
+VIOLET CITY
+VIOLA CITY
+ROUTE 32
+ROUTE 32
+ROUTE 33
+ROUTE 33
+AZALEA TOWN
+AZALEA CITY
+ROUTE 34
+ROUTE 34
+GOLDENROD CITY
+DUKATIA CITY
+GTS
+GTS
+ROUTE 35
+ROUTE 35
+ROUTE 36
+ROUTE 36
+ROUTE 37
+ROUTE 37
+ECRUTEAK CITY
+TEAK CITY
+ROUTE 38
+ROUTE 38
+ROUTE 39
+ROUTE 39
+OLIVINE CITY
+OLIVIANA CITY
+ROUTE 40
+ROUTE 40
+BATTLE TOWER
+DUELLTURM
+ROUTE 41
+ROUTE 41
+CIANWOOD CITY
+ANEMONIA CITY
+ROUTE 42
+ROUTE 42
+MAHOGANY TOWN
+MAHAGONIA CITY
+ROUTE 43
+ROUTE 43
+LAKE OF RAGE
+SEE DES ZORNS
+ROUTE 44
+ROUTE 44
+BLACKTHORN CITY
+EBENHOLZ CITY
+ROUTE 45
+ROUTE 45
+ROUTE 46
+ROUTE 46
+ROUTE 27
+ROUTE 27
+ROUTE 26
+ROUTE 26
+VIRIDIAN CITY
+VERTANIA CITY
+ROUTE 1
+ROUTE 1
+ROUTE 22
+ROUTE 22
+PALLET TOWN
+ALABASTIA
+ROUTE 2
+ROUTE 2
+VIRIDIAN FOREST
+VERTANIA-WALD
+PEWTER CITY
+MARMORIA CITY
+ROUTE 3
+ROUTE 3
+ROUTE 4
+ROUTE 4
+CERULEAN CITY
+AZURIA CITY
+ROUTE 24
+ROUTE 24
+ROUTE 25
+ROUTE 25
+ROUTE 9
+ROUTE 9
+ROUTE 10
+ROUTE 10
+LAVENDER TOWN
+LAVANDIA
+ROUTE 8
+ROUTE 8
+ROUTE 5
+ROUTE 5
+SAFFRON CITY
+SAFFRONIA CITY
+ROUTE 7
+ROUTE 7
+CELADON CITY
+PRISMANIA CITY
+ROUTE 16
+ROUTE 16
+ROUTE 12
+ROUTE 12
+ROUTE 13
+ROUTE 13
+ROUTE 6
+ROUTE 6
+VERMILION CITY
+ORANIA CITY
+ROUTE 11
+ROUTE 11
+ROUTE 14
+ROUTE 14
+ROUTE 15
+ROUTE 15
+FUCHSIA CITY
+FUCHSANIA CITY
+ROUTE 18
+ROUTE 18
+ROUTE 17
+ROUTE 17
+ALTERNATE
+ALTERNATIV
+ROUTE 21
+ROUTE 21
+ROUTE 19
+ROUTE 19
+RUINS OF ALPH
+ALPH-RUINEN
+DARK CAVE
+DUNKELHÖHLE
+UNION CAVE
+EINHEITSTUNNEL
+SLOWPOKE WELL
+FLEGMON-BRUNNEN
+ILEX FOREST
+STEINEICHENWALD
+NATIONAL PARK
+NATIONALPARK
+ICE PATH
+EISPFAD
+DRAGON'S DEN
+DRACHENHÖHLE
+ROUTE 28
+ROUTE 28
+MT. SILVER
+SILBERBERG
+INDIGO PLATEAU
+INDIGO PLATEAU
+DIGLETT'S CAVE
+DIGDA-HÖHLE
+MT. MOON
+MONDBERG
+CERULEAN CAVE
+AZURIA-HÖHLE
+ROCK TUNNEL
+FELSTUNNEL
+SAFARI ZONE
+SAFARI-ZONE
+Hidden area!
+Versteckter Bereich!
+Calling Grotto
+Rufende Grotte
+Wa Wa WaterWay
+Wa Wa WaterWay
+Secret Area
+Geheimer Bereich
+Between map
+Zwischenkarte
+MAP477
+MAP477
+MAP479
+MAP479

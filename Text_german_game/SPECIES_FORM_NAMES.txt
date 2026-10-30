@@ -1,0 +1,614 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[SPECIES_FORM_NAMES]
+Family of Four
+Viererfamilie
+Green Plumage
+Grünes Gefieder
+Zero Form
+Alltagsform
+Curly Form
+Gebogene Form
+Two-Segment Form
+Zweisegmentform
+Chest Form
+Truhenform
+Counterfeit Form
+Imitationsform
+Unremarkable Form
+Mittelmäßige Form
+Teal Mask
+Türkisgrüne Maske
+Hisuian
+Hisui-Form
+Paldean (Combat Breed)
+Paldea-Form (Gefechtsrasse)
+Paldean (Blaze Breed)
+Paldea-Form (Flammenrasse)
+Paldean (Aqua Breed)
+Paldea-Form (Flutenrasse)
+Paldean
+Paldea-Form
+White-Striped
+Weißlinien-Form
+Bloodmoon Ursaluna
+Blutmond-Ursaluna
+Therian Form
+Tiergeistform
+Three-Segment Form
+Dreisegmentform
+Hero Form
+Heldenform
+Family of Three
+Dreierfamilie
+Droopy Form
+Hängende Form
+Stretchy Form
+Gestreckte Form
+Blue Plumage
+Blaues Gefieder
+Yellow Plumage
+Gelbes Gefieder
+White Plumage
+Weißes Gefieder
+Roaming Form
+Wanderform
+Artisan Form
+Kunstform
+Masterpiece Form
+Meisterwerkform
+Wellspring Mask
+Brunnenmaske
+Hearthflame Mask
+Ofenmaske
+Cornerstone Mask
+Fundamentmaske
+Terastal Teal Mask
+Türkisgrüne Maske (Terakristall)
+Terastal Wellspring Mask
+Brunnenmaske (Terakristall)
+Terastal Hearthflame Mask
+Ofenmaske (Terakristall)
+Terastal Cornerstone Mask
+Fundamentmaske (Terakristall)
+Terastal Form
+Terakristallform
+Stellar Form
+Stellarform
+A
+A
+Normal Form
+Normalform
+Normal Forme
+Normalform
+Plant Cloak
+Pflanzenumhang
+Overcast Form
+Wolkenform
+West Sea
+Westliches Meer
+Rotom
+Rotom
+Altered Forme
+Wandelform
+Land Forme
+Landform
+Normal Type
+Typ Normal
+Red-Striped
+Rotlinien-Form
+Standard Mode
+Normalmodus
+Spring Form
+Frühlingsform
+Incarnate Forme
+Inkarnationsform
+Ordinary Form
+Standardform
+Aria Forme
+Gesangsform
+Normal
+Normal
+Archipelago Pattern
+Inselreichmuster
+Red Flower
+Rote Blüte
+Natural Form
+Zottelform
+Male
+Männlich
+Shield Forme
+Schildform
+Small Size
+Kleine Größe
+Neutral Mode
+Neutralmodus
+50% Forme
+50%-Form
+Hoopa Confined
+Gebanntes Hoopa
+Baile Style
+Flamenco-Stil
+Midday Form
+Tagform
+Solo Form
+Einzelform
+Type: Normal
+Typ:Normal
+Meteor Form
+Meteorform
+Disguised Form
+Verkleidete Form
+Amped Form
+Hoch-Form
+Phony Form
+Fälschungsform
+Vanilla Cream
+Vanille-Creme
+Ice Face
+Tiefkühlkopf
+Full Belly Mode
+Pappsattmuster
+Hero of Many Battles
+Heldenhafter Krieger
+Single Strike Style
+Fokussierter Stil
+Mega Venusaur
+Mega-Bisaflor
+Mega Charizard X
+Mega-Glurak X
+Mega Charizard Y
+Mega-Glurak Y
+Mega Blastoise
+Mega-Turtok
+Mega Beedrill
+Mega-Bibor
+Mega Pidgeot
+Mega-Tauboss
+Alolan
+Alola-Form
+Galarian
+Galar-Form
+Mega Alakazam
+Mega-Simsala
+Mega Slowbro
+Mega-Lahmus
+Mega Gengar
+Mega-Gengar
+Mega Kangaskhan
+Mega-Kangama
+Mega Pinsir
+Mega-Pinsir
+Mega Gyarados
+Mega-Garados
+Mega Aerodactyl
+Mega-Aerodactyl
+Mega Mewtwo X
+Mega-Mewtu X
+Mega Mewtwo Y
+Mega-Mewtu Y
+Spiky-Eared
+Strubbelohr
+Mega Ampharos
+Mega-Ampharos
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+I
+I
+J
+J
+K
+K
+L
+L
+M
+M
+N
+N
+O
+O
+P
+P
+Q
+Q
+R
+R
+S
+S
+T
+T
+U
+U
+V
+V
+W
+W
+X
+X
+Y
+Y
+Z
+Z
+?
+?
+!
+!
+Mega Steelix
+Mega-Stahlos
+Mega Scizor
+Mega-Scherox
+Mega Heracross
+Mega-Skaraborn
+Mega Houndoom
+Mega-Hundemon
+Mega Tyranitar
+Mega-Despotar
+Mega Sceptile
+Mega-Gewaldro
+Mega Blaziken
+Mega-Lohgock
+Mega Swampert
+Mega-Sumpex
+Mega Gardevoir
+Mega-Guardevoir
+Mega Sableye
+Mega-Zobiris
+Mega Mawile
+Mega-Flunkifer
+Mega Aggron
+Mega-Stolloss
+Mega Medicham
+Mega-Meditalis
+Mega Manectric
+Mega-Voltenso
+Mega Sharpedo
+Mega-Tohaido
+Mega Camerupt
+Mega-Camerupt
+Mega Altaria
+Mega-Altaria
+Sunny Form
+Sonnenform
+Rainy Form
+Regenform
+Snowy Form
+Schneeform
+Mega Banette
+Mega-Banette
+Mega Absol
+Mega-Absol
+Mega Glalie
+Mega-Firnontor
+Mega Salamence
+Mega-Brutalanda
+Mega Metagross
+Mega-Metagross
+Mega Latias
+Mega-Latias
+Mega Latios
+Mega-Latios
+Primal Kyogre
+Proto-Kyogre
+Primal Groudon
+Proto-Groudon
+Mega Rayquaza
+Mega-Rayquaza
+Attack Forme
+Angriffsform
+Defense Forme
+Verteidigungsform
+Speed Forme
+Initiativeform
+Sandy Cloak
+Sandumhang
+Trash Cloak
+Lumpenumhang
+Sunshine Form
+Sonnenform
+East Sea
+Östliches Meer
+Mega Lopunny
+Mega-Schlapor
+Mega Garchomp
+Mega-Knakrack
+Mega Lucario
+Mega-Lucario
+Mega Abomasnow
+Mega-Rexblisar
+Mega Gallade
+Mega-Galagladi
+Heat Rotom
+Hitze-Rotom
+Wash Rotom
+Wasch-Rotom
+Frost Rotom
+Frost-Rotom
+Fan Rotom
+Wirbel-Rotom
+Mow Rotom
+Schneid-Rotom
+Origin Forme
+Urform
+Sky Forme
+Zenitform
+Fighting Type
+Typ Kampf
+Flying Type
+Typ Flug
+Poison Type
+Typ Gift
+Ground Type
+Typ Boden
+Rock Type
+Typ Gestein
+Bug Type
+Typ Käfer
+Ghost Type
+Typ Geist
+Steel Type
+Typ Stahl
+Unknown Type
+Typ Unbekannt
+Fire Type
+Typ Feuer
+Water Type
+Typ Wasser
+Grass Type
+Typ Pflanze
+Electric Type
+Typ Elektro
+Psychic Type
+Typ Psycho
+Ice Type
+Typ Eis
+Dragon Type
+Typ Drache
+Dark Type
+Typ Unlicht
+Fairy Type
+Typ Fee
+Mega Audino
+Mega-Ohrdoch
+Blue-Striped
+Blaulinien-Form
+Zen Mode
+Trance-Modus
+Galarian Standard Mode
+Galar-Normalmodus
+Galarian Zen Mode
+Galar-Trance-Modus
+Summer Form
+Sommerform
+Autumn Form
+Herbstform
+Winter Form
+Winterform
+Therian Forme
+Tiergeistform
+White Kyurem
+Weißes Kyurem
+Black Kyurem
+Schwarzes Kyurem
+Resolute Form
+Resolutform
+Pirouette Forme
+Tanzform
+Shock Drive
+Blitzmodul
+Burn Drive
+Flammenmodul
+Chill Drive
+Gefriermodul
+Douse Drive
+Aquamodul
+Ash-Greninja
+Ash-Quajutsu
+Continental Pattern
+Kontinentalmuster
+Elegant Pattern
+Prunkmuster
+Garden Pattern
+Blumenmeermuster
+High Plains Pattern
+Dünenmuster
+Icy Snow Pattern
+Frostmuster
+Jungle Pattern
+Dschungelmuster
+Marine Pattern
+Ozeanmuster
+Meadow Pattern
+Gartenmuster
+Modern Pattern
+Modernmuster
+Monsoon Pattern
+Monsunmuster
+Ocean Pattern
+Tropenmuster
+Polar Pattern
+Schneefeldmuster
+River Pattern
+Flussmuster
+Sandstorm Pattern
+Sandsturmmuster
+Savanna Pattern
+Savannenmuster
+Sun Pattern
+Sonnenmuster
+Tundra Pattern
+Polarmuster
+Fancy Pattern
+Fantasiemuster
+Poké Ball Pattern
+Pokéballmuster
+Yellow Flower
+Gelbe Blüte
+Orange Flower
+Orange Blüte
+Blue Flower
+Blaue Blüte
+White Flower
+Weiße Blüte
+Eternal Flower
+Ewige Blüte
+Heart Trim
+Herzchenschnitt
+Star Trim
+Sternchenschnitt
+Diamond Trim
+Diamantenschnitt
+Debutante Trim
+Damenschnitt
+Matron Trim
+Damenschnitt
+Dandy Trim
+Kavaliersschnitt
+La Reine Trim
+Königinnenschnitt
+Kabuki Trim
+Kabuki-Schnitt
+Pharaoh Trim
+Herrscherschnitt
+Female
+Weiblich
+Blade Forme
+Klingenform
+Average Size
+Normale Größe
+Large Size
+Große Größe
+Super Size
+Riesengröße
+Active Mode
+Aktivmodus
+10% Forme
+10%-Form
+Complete Forme
+Optimumform
+Mega Diancie
+Mega-Diancie
+Hoopa Unbound
+Entfesseltes Hoopa
+Pom-Pom Style
+Cheerleading-Stil
+Pa'u Style
+Hula-Stil
+Sensu Style
+Buyo-Stil
+Midnight Form
+Nachtform
+Dusk Form
+Zwielichtform
+School Form
+Schwarmform
+Type: Fighting
+Typ:Kampf
+Type: Flying
+Typ:Flug
+Type: Poison
+Typ:Gift
+Type: Ground
+Typ:Boden
+Type: Rock
+Typ:Gestein
+Type: Bug
+Typ:Käfer
+Type: Ghost
+Typ:Geist
+Type: Steel
+Typ:Stahl
+Type: Unknown
+Typ:Unbekannt
+Type: Fire
+Typ:Feuer
+Type: Water
+Typ:Wasser
+Type: Grass
+Typ:Pflanze
+Type: Electric
+Typ:Elektro
+Type: Psychic
+Typ:Psycho
+Type: Ice
+Typ:Eis
+Type: Dragon
+Typ:Drache
+Type: Dark
+Typ:Unlicht
+Type: Fairy
+Typ:Fee
+Red Core
+Roter Kern
+Orange Core
+Oranger Kern
+Yellow Core
+Gelber Kern
+Green Core
+Grüner Kern
+Blue Core
+Blauer Kern
+Indigo Core
+Indigoblauer Kern
+Violet Core
+Violetter Kern
+Busted Form
+Entlarvte Form
+Dusk Mane
+Abendmähne
+Dawn Wings
+Morgenschwingen
+Ultra Necrozma
+Ultra-Necrozma
+Original Color
+Originalfarbe
+Gulping Form
+Schlingform
+Gorging Form
+Stopfform
+Low Key Form
+Tief-Form
+Antique Form
+Originalform
+Ruby Cream
+Ruby-Creme
+Matcha Cream
+Matcha-Creme
+Mint Cream
+Minz-Creme
+Lemon Cream
+Zitronen-Creme
+Salted Cream
+Salz-Creme
+Ruby Swirl
+Ruby-Mix
+Caramel Swirl
+Karamell-Mix
+Rainbow Swirl
+Trio-Mix
+Noice Face
+Wohlfühlkopf
+Hangry Mode
+Kohldampfmuster
+Crowned Sword
+König des Schwertes
+Crowned Shield
+König des Schildes
+Rapid Strike Style
+Fließender Stil
+Ice Rider
+Schimmelreiter
+Shadow Rider
+Rappenreiter

@@ -43,6 +43,8 @@ module TCG
     :ENERGY_LIGHTNING_FIRE => { :set => :COLOSSEUM, :energy => :GenerateEnergyBoosterLightningFire, :chances => [0, 0, 0, 0, 0, 0, 0, 0, 0] },
     :ENERGY_WATER_FIGHTING => { :set => :COLOSSEUM, :energy => :GenerateEnergyBoosterWaterFighting, :chances => [0, 0, 0, 0, 0, 0, 0, 0, 0] },
     :ENERGY_GRASS_PSYCHIC => { :set => :COLOSSEUM, :energy => :GenerateEnergyBoosterGrassPsychic, :chances => [0, 0, 0, 0, 0, 0, 0, 0, 0] },
+    # not in the original: 5 Darkness + 5 Metal Energy (001d_DarknessMetalEnergy.rb)
+    :ENERGY_DARKNESS_METAL => { :set => :COLOSSEUM, :energy => :GenerateEnergyBoosterDarknessMetal, :chances => [0, 0, 0, 0, 0, 0, 0, 0, 0] },
     :RANDOM_ENERGIES => { :set => :COLOSSEUM, :energy => :GenerateRandomEnergyBooster, :chances => [0, 0, 0, 0, 0, 0, 0, 0, 0] },
   }
 end

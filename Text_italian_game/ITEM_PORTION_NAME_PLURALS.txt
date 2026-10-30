@@ -1,0 +1,206 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAME_PLURALS]
+sets of Auspicious Armor
+set di Armatura fausta
+sets of Malicious Armor
+set di Armatura infausta
+capsules of Booster Energy
+capsule di Capsula energetica
+hunks of Metal Alloy
+pezzi di Metallo composito
+jars of Honey
+vasetti di Miele
+bags of Stardust
+sacchetti di Polvostella
+Relic Copper coins
+monete di Soldantico
+Relic Silver coins
+monete di Ducatantico
+Relic Gold coins
+monete di Doblonantico
+bags of Growth Mulch
+sacchetti di Fertilrapido
+bags of Damp Mulch
+sacchetti di Fertilidro
+bags of Stable Mulch
+sacchetti di Fertilsaldo
+bags of Gooey Mulch
+sacchetti di Fertilcolla
+piles of Shoal Salt
+mucchi di Sale Ondoso
+jars of Red Nectar
+vasetti di Nettare rosso
+jars of Yellow Nectar
+vasetti di Nettare giallo
+jars of Pink Nectar
+vasetti di Nettare rosa
+jars of Purple Nectar
+vasetti di Nettare viola
+bags of Bright Powder
+sacchetti di Luminpolvere
+pairs of Safety Goggles
+paia di Visierantisabbia
+sets of Protective Pads
+set di Smorzaurti
+pairs of Heavy-Duty Boots
+paia di Scarponi robusti
+pairs of Choice Specs
+paia di Lentiscelta
+lumps of Light Clay
+zolle di Creta Luce
+blobs of Black Sludge
+gocce di Fangopece
+servings of Leftovers
+porzioni di Avanzi
+clumps of Luminous Moss
+ciuffi di Muschioluce
+bottles of Throat Spray
+bottiglie di Spray gola
+vouchers for Room Service
+buoni per Distorservizio
+pairs of Wise Glasses
+paia di Saviocchiali
+jars of Lax Incense
+vasetti di Distraroma
+jars of Full Incense
+vasetti di Gonfioaroma
+jars of Luck Incense
+vasetti di Fortunaroma
+jars of Pure Incense
+vasetti di Puroaroma
+jars of Sea Incense
+vasetti di Marearoma
+jars of Wave Incense
+vasetti di Ondaroma
+jars of Rose Incense
+vasetti di Rosaroma
+jars of Odd Incense
+vasetti di Bizzoaroma
+jars of Rock Incense
+vasetti di Roccioaroma
+pieces of Charcoal
+pezzi di Carbonella
+pieces of Never-Melt Ice
+pezzi di Gelomai
+bags of Soft Sand
+sacchetti di Sabbia Soffice
+piles of Silver Powder
+mucchi di Argenpolvere
+pairs of Black Glasses
+paia di Occhialineri
+bags of Metal Powder
+sacchetti di Metalpolvere
+bags of Quick Powder
+sacchetti di Velopolvere
+scraps of Reaper Cloth
+ritagli di Terrorpanno
+dollops of Whipped Dream
+cucchiaiate di Dolcespuma
+bags of Sacred Ash
+sacchetti di Ceneremagica
+bags of Pewter Crunchies
+sacchetti di Plumbeosalatini
+cups of Berry Juice
+tazze di Succodibacca
+bottles of Fresh Water
+bottiglie di Acqua fresca
+bottles of Soda Pop
+bottiglie di Gassosa
+cans of Lemonade
+lattine di Lemonsucco
+bottles of Moomoo Milk
+bottiglie di Latte Mumu
+doses of Energy Powder
+dosi di Polvenergia
+doses of Heal Powder
+dosi di Polvocura
+combs of Max Honey
+favi di Mielemax
+bottles of PP Up
+bottiglie di PP-Su
+bottles of PP Max
+bottiglie di PP-Max
+bottles of HP Up
+bottiglie di PS-Su
+bottles of Protein
+bottiglie di Proteina
+bottles of Iron
+bottiglie di Ferro
+bottles of Calcium
+bottiglie di Calcio
+bottles of Zinc
+bottiglie di Zinco
+bottles of Carbos
+bottiglie di Carburante
+sprigs of Lonely Mint
+rametti di Menta Schiva
+sprigs of Adamant Mint
+rametti di Menta Decisa
+sprigs of Naughty Mint
+rametti di Menta Birbona
+sprigs of Brave Mint
+rametti di Menta Audace
+sprigs of Bold Mint
+rametti di Menta Sicura
+sprigs of Impish Mint
+rametti di Menta Scaltra
+sprigs of Lax Mint
+rametti di Menta Fiacca
+sprigs of Relaxed Mint
+rametti di Menta Placida
+sprigs of Modest Mint
+rametti di Menta Modesta
+sprigs of Mild Mint
+rametti di Menta Mite
+sprigs of Rash Mint
+rametti di Menta Ardente
+sprigs of Quiet Mint
+rametti di Menta Quieta
+sprigs of Calm Mint
+rametti di Menta Calma
+sprigs of Gentle Mint
+rametti di Menta Gentile
+sprigs of Careful Mint
+rametti di Menta Cauta
+sprigs of Sassy Mint
+rametti di Menta Vivace
+sprigs of Timid Mint
+rametti di Menta Timida
+sprigs of Hasty Mint
+rametti di Menta Lesta
+sprigs of Jolly Mint
+rametti di Menta Allegra
+sprigs of Naive Mint
+rametti di Menta Ingenua
+sprigs of Serious Mint
+rametti di Menta Seria
+pieces of Grass Mail
+pezzi di Mess. Erba
+pieces of Flame Mail
+pezzi di Mess. Fiamma
+pieces of Bubble Mail
+pezzi di Mess. Bolla
+pieces of Bloom Mail
+pezzi di Mess. Petalo
+pieces of Tunnel Mail
+pezzi di Mess. Tunnel
+pieces of Steel Mail
+pezzi di Mess. Lega
+pieces of Heart Mail
+pezzi di Mess. Cuore
+pieces of Snow Mail
+pezzi di Mess. Neve
+pieces of Space Mail
+pezzi di Mess. Spazio
+pieces of Air Mail
+pezzi di Mess. Aereo
+pieces of Mosaic Mail
+pezzi di Mess. Iride
+pieces of Brick Mail
+pezzi di Mess. Muro
+clusters of Max Mushrooms
+grappoli di Fungomax
+sets of Reins of Unity
+set di Briglie legame

@@ -1,0 +1,614 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[SPECIES_FORM_NAMES]
+Family of Four
+Famiglia di quattro
+Green Plumage
+Piumaggio Verde
+Zero Form
+Forma Zero
+Curly Form
+Forma Arricciata
+Two-Segment Form
+Forma Due Segmenti
+Chest Form
+Forma Scrigno
+Counterfeit Form
+Forma Contraffatta
+Unremarkable Form
+Forma Dozzinale
+Teal Mask
+Maschera Turchese
+Hisuian
+di Hisui
+Paldean (Combat Breed)
+di Paldea (Razza Combattiva)
+Paldean (Blaze Breed)
+di Paldea (Razza Infuocata)
+Paldean (Aqua Breed)
+di Paldea (Razza Acquatica)
+Paldean
+di Paldea
+White-Striped
+Forma Lineabianca
+Bloodmoon Ursaluna
+Ursaluna Lunacruenta
+Therian Form
+Forma Totem
+Three-Segment Form
+Forma Tre Segmenti
+Hero Form
+Forma Eroica
+Family of Three
+Famiglia di tre
+Droopy Form
+Forma Spiovente
+Stretchy Form
+Forma Distesa
+Blue Plumage
+Piumaggio Blu
+Yellow Plumage
+Piumaggio Giallo
+White Plumage
+Piumaggio Bianco
+Roaming Form
+Forma Ambulante
+Artisan Form
+Forma Artigianale
+Masterpiece Form
+Forma Pregiata
+Wellspring Mask
+Maschera Pozzo
+Hearthflame Mask
+Maschera Focolare
+Cornerstone Mask
+Maschera Fondamenta
+Terastal Teal Mask
+Maschera Turchese Teracristal
+Terastal Wellspring Mask
+Maschera Pozzo Teracristal
+Terastal Hearthflame Mask
+Maschera Focolare Teracristal
+Terastal Cornerstone Mask
+Maschera Fondamenta Teracristal
+Terastal Form
+Forma Teracristal
+Stellar Form
+Forma Astrale
+A
+A
+Normal Form
+Forma Normale
+Normal Forme
+Forma Normale
+Plant Cloak
+Manto Pianta
+Overcast Form
+Forma Nuvola
+West Sea
+Mare Ovest
+Rotom
+Rotom
+Altered Forme
+Forma Alterata
+Land Forme
+Forma Terrestre
+Normal Type
+Tipo Normale
+Red-Striped
+Forma Linearossa
+Standard Mode
+Stato Normale
+Spring Form
+Forma Primavera
+Incarnate Forme
+Forma Incarnazione
+Ordinary Form
+Forma Normale
+Aria Forme
+Forma Canto
+Normal
+Normale
+Archipelago Pattern
+Motivo Arcipelago
+Red Flower
+Fiore Rosso
+Natural Form
+Forma Selvatica
+Male
+Maschio
+Shield Forme
+Forma Scudo
+Small Size
+Taglia Mini
+Neutral Mode
+Stato Neutro
+50% Forme
+Forma 50%
+Hoopa Confined
+Hoopa Vincolato
+Baile Style
+Stile Flamenco
+Midday Form
+Forma Giorno
+Solo Form
+Forma Individuale
+Type: Normal
+Tipo: Normale
+Meteor Form
+Forma Meteora
+Disguised Form
+Forma Mascherata
+Amped Form
+Forma Melodia
+Phony Form
+Forma Contraffatta
+Vanilla Cream
+Crema Vaniglia
+Ice Face
+Gelofaccia
+Full Belly Mode
+Stato Panciapiena
+Hero of Many Battles
+Eroe di Mille Lotte
+Single Strike Style
+Stile Singolcolpo
+Mega Venusaur
+Mega Venusaur
+Mega Charizard X
+Mega Charizard X
+Mega Charizard Y
+Mega Charizard Y
+Mega Blastoise
+Mega Blastoise
+Mega Beedrill
+Mega Beedrill
+Mega Pidgeot
+Mega Pidgeot
+Alolan
+di Alola
+Galarian
+di Galar
+Mega Alakazam
+Mega Alakazam
+Mega Slowbro
+Mega Slowbro
+Mega Gengar
+Mega Gengar
+Mega Kangaskhan
+Mega Kangaskhan
+Mega Pinsir
+Mega Pinsir
+Mega Gyarados
+Mega Gyarados
+Mega Aerodactyl
+Mega Aerodactyl
+Mega Mewtwo X
+Mega Mewtwo X
+Mega Mewtwo Y
+Mega Mewtwo Y
+Spiky-Eared
+Orecchio a Punta
+Mega Ampharos
+Mega Ampharos
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+I
+I
+J
+J
+K
+K
+L
+L
+M
+M
+N
+N
+O
+O
+P
+P
+Q
+Q
+R
+R
+S
+S
+T
+T
+U
+U
+V
+V
+W
+W
+X
+X
+Y
+Y
+Z
+Z
+?
+?
+!
+!
+Mega Steelix
+Mega Steelix
+Mega Scizor
+Mega Scizor
+Mega Heracross
+Mega Heracross
+Mega Houndoom
+Mega Houndoom
+Mega Tyranitar
+Mega Tyranitar
+Mega Sceptile
+Mega Sceptile
+Mega Blaziken
+Mega Blaziken
+Mega Swampert
+Mega Swampert
+Mega Gardevoir
+Mega Gardevoir
+Mega Sableye
+Mega Sableye
+Mega Mawile
+Mega Mawile
+Mega Aggron
+Mega Aggron
+Mega Medicham
+Mega Medicham
+Mega Manectric
+Mega Manectric
+Mega Sharpedo
+Mega Sharpedo
+Mega Camerupt
+Mega Camerupt
+Mega Altaria
+Mega Altaria
+Sunny Form
+Forma Sole
+Rainy Form
+Forma Pioggia
+Snowy Form
+Forma Neve
+Mega Banette
+Mega Banette
+Mega Absol
+Mega Absol
+Mega Glalie
+Mega Glalie
+Mega Salamence
+Mega Salamence
+Mega Metagross
+Mega Metagross
+Mega Latias
+Mega Latias
+Mega Latios
+Mega Latios
+Primal Kyogre
+Archeo Kyogre
+Primal Groudon
+Archeo Groudon
+Mega Rayquaza
+Mega Rayquaza
+Attack Forme
+Forma Attacco
+Defense Forme
+Forma Difesa
+Speed Forme
+Forma Velocità
+Sandy Cloak
+Manto Sabbia
+Trash Cloak
+Manto Scarti
+Sunshine Form
+Forma Splendore
+East Sea
+Mare Est
+Mega Lopunny
+Mega Lopunny
+Mega Garchomp
+Mega Garchomp
+Mega Lucario
+Mega Lucario
+Mega Abomasnow
+Mega Abomasnow
+Mega Gallade
+Mega Gallade
+Heat Rotom
+Rotom Calore
+Wash Rotom
+Rotom Lavaggio
+Frost Rotom
+Rotom Gelo
+Fan Rotom
+Rotom Vortice
+Mow Rotom
+Rotom Taglio
+Origin Forme
+Forma Origine
+Sky Forme
+Forma Cielo
+Fighting Type
+Tipo Lotta
+Flying Type
+Tipo Volante
+Poison Type
+Tipo Veleno
+Ground Type
+Tipo Terra
+Rock Type
+Tipo Roccia
+Bug Type
+Tipo Coleottero
+Ghost Type
+Tipo Spettro
+Steel Type
+Tipo Acciaio
+Unknown Type
+Tipo Sconosciuto
+Fire Type
+Tipo Fuoco
+Water Type
+Tipo Acqua
+Grass Type
+Tipo Erba
+Electric Type
+Tipo Elettro
+Psychic Type
+Tipo Psico
+Ice Type
+Tipo Ghiaccio
+Dragon Type
+Tipo Drago
+Dark Type
+Tipo Buio
+Fairy Type
+Tipo Folletto
+Mega Audino
+Mega Audino
+Blue-Striped
+Forma Lineablu
+Zen Mode
+Stato Zen
+Galarian Standard Mode
+Stato Normale di Galar
+Galarian Zen Mode
+Stato Zen di Galar
+Summer Form
+Forma Estate
+Autumn Form
+Forma Autunno
+Winter Form
+Forma Inverno
+Therian Forme
+Forma Totem
+White Kyurem
+Kyurem Bianco
+Black Kyurem
+Kyurem Nero
+Resolute Form
+Forma Risoluta
+Pirouette Forme
+Forma Danza
+Shock Drive
+Voltmodulo
+Burn Drive
+Piromodulo
+Chill Drive
+Gelomodulo
+Douse Drive
+Idromodulo
+Ash-Greninja
+Greninja-Ash
+Continental Pattern
+Motivo Continentale
+Elegant Pattern
+Motivo Eleganza
+Garden Pattern
+Motivo Giardinfiore
+High Plains Pattern
+Motivo Deserto
+Icy Snow Pattern
+Motivo Nevi perenni
+Jungle Pattern
+Motivo Giungla
+Marine Pattern
+Motivo Marino
+Meadow Pattern
+Motivo Floreale
+Modern Pattern
+Motivo Moderno
+Monsoon Pattern
+Motivo Monsone
+Ocean Pattern
+Motivo Oceanico
+Polar Pattern
+Motivo Nordico
+River Pattern
+Motivo Fluviale
+Sandstorm Pattern
+Motivo Sabbia
+Savanna Pattern
+Motivo Savana
+Sun Pattern
+Motivo Solare
+Tundra Pattern
+Motivo Gelido
+Fancy Pattern
+Motivo Sbarazzino
+Poké Ball Pattern
+Motivo Poké Ball
+Yellow Flower
+Fiore Giallo
+Orange Flower
+Fiore Arancione
+Blue Flower
+Fiore Blu
+White Flower
+Fiore Bianco
+Eternal Flower
+Fiore Eterno
+Heart Trim
+Taglio Cuore
+Star Trim
+Taglio Stella
+Diamond Trim
+Taglio Diamante
+Debutante Trim
+Taglio Signorina
+Matron Trim
+Taglio Gran Dama
+Dandy Trim
+Taglio Gentiluomo
+La Reine Trim
+Taglio Regina
+Kabuki Trim
+Taglio Kabuki
+Pharaoh Trim
+Taglio Faraone
+Female
+Femmina
+Blade Forme
+Forma Spada
+Average Size
+Taglia Media
+Large Size
+Taglia Grande
+Super Size
+Taglia Maxi
+Active Mode
+Stato Attivo
+10% Forme
+Forma 10%
+Complete Forme
+Forma Perfetta
+Mega Diancie
+Mega Diancie
+Hoopa Unbound
+Hoopa Libero
+Pom-Pom Style
+Stile Cheerdance
+Pa'u Style
+Stile Hula
+Sensu Style
+Stile Buyo
+Midnight Form
+Forma Notte
+Dusk Form
+Forma Crepuscolo
+School Form
+Forma Banco
+Type: Fighting
+Tipo: Lotta
+Type: Flying
+Tipo: Volante
+Type: Poison
+Tipo: Veleno
+Type: Ground
+Tipo: Terra
+Type: Rock
+Tipo: Roccia
+Type: Bug
+Tipo: Coleottero
+Type: Ghost
+Tipo: Spettro
+Type: Steel
+Tipo: Acciaio
+Type: Unknown
+Tipo: Sconosciuto
+Type: Fire
+Tipo: Fuoco
+Type: Water
+Tipo: Acqua
+Type: Grass
+Tipo: Erba
+Type: Electric
+Tipo: Elettro
+Type: Psychic
+Tipo: Psico
+Type: Ice
+Tipo: Ghiaccio
+Type: Dragon
+Tipo: Drago
+Type: Dark
+Tipo: Buio
+Type: Fairy
+Tipo: Folletto
+Red Core
+Nucleo Rosso
+Orange Core
+Nucleo Arancione
+Yellow Core
+Nucleo Giallo
+Green Core
+Nucleo Verde
+Blue Core
+Nucleo Blu
+Indigo Core
+Nucleo Indaco
+Violet Core
+Nucleo Violetto
+Busted Form
+Forma Smascherata
+Dusk Mane
+Necrozma Criniera del Vespro
+Dawn Wings
+Necrozma Ali dell'Aurora
+Ultra Necrozma
+Ultra Necrozma
+Original Color
+Colore Originale
+Gulping Form
+Forma Inghiottitutto
+Gorging Form
+Forma Inghiottintero
+Low Key Form
+Forma Basso
+Antique Form
+Forma Autentica
+Ruby Cream
+Crema Rubino
+Matcha Cream
+Crema Matcha
+Mint Cream
+Crema Menta
+Lemon Cream
+Crema Limone
+Salted Cream
+Crema Salata
+Ruby Swirl
+Glassa Rubino
+Caramel Swirl
+Glassa Caramello
+Rainbow Swirl
+Glassa Arcobaleno
+Noice Face
+Liquefaccia
+Hangry Mode
+Stato Panciavuota
+Crowned Sword
+Re delle Spade
+Crowned Shield
+Re degli Scudi
+Rapid Strike Style
+Stile Pluricolpo
+Ice Rider
+Cavaliere Glaciale
+Shadow Rider
+Cavaliere Spettrale

@@ -1,6 +1,7 @@
 #==============================================================================
 # Pokemon TCG - deck building rules (engine/menus/deck_configuration.asm):
-#  - a deck has exactly 60 cards (SaveDeckConfiguration);
+#  - a deck has 55-65 cards (DECK_MIN_SIZE-DECK_MAX_SIZE; the original:
+#    exactly 60, SaveDeckConfiguration);
 #  - at most MAX_NUM_SAME_NAME_CARDS (4) cards sharing a NAME
 #    (Shining Pokemon: 1),
 #    (.CheckIfCanAddCardWithSameName), basic Energy unlimited, Double
@@ -35,7 +36,7 @@ module TCG
 
   # can one more `id` be added to `cards` (array of ids)? -> nil or reason
   def self.cant_add_reason(cards, id, deck_index = nil)
-    return :deck_full if cards.size >= DECK_SIZE
+    return :deck_full if cards.size >= DECK_MAX_SIZE
     return :no_more_copies if cards.count(id) >= available_for_deck(id, deck_index)
     unless basic_energy_card?(id)
       name = card_name(id)
@@ -48,17 +49,19 @@ module TCG
 
   # SaveDeckConfiguration checks -> nil or reason
   def self.invalid_deck_reason(cards)
-    return :not_60_cards unless cards.size == DECK_SIZE
+    return :wrong_size unless deck_size_ok?(cards)
     return :no_basic_pokemon unless cards.any? { |c| basic_pokemon_card?(c) }
     nil
   end
 
+  def self.deck_size_ok?(cards); cards && cards.size.between?(DECK_MIN_SIZE, DECK_MAX_SIZE); end
+
   DECK_RULE_TEXT = {
-    :deck_full        => "The deck already has 60 cards.",
+    :deck_full        => "The deck already has 65 cards.",
     :no_more_copies   => "You have no more copies of that card.",
     :same_name_limit  => "You can only include 4 cards with the same name.",
     :shining_limit    => "You can only include 1 of each Shining Pokémon.",
-    :not_60_cards     => "The deck must include 60 cards.",
+    :wrong_size       => "The deck must include 55 to 65 cards.",
     :no_basic_pokemon => "You must include a Basic Pokémon in the deck."
   }
   def self.deck_rule_text(reason); _INTL(DECK_RULE_TEXT[reason]); end

@@ -14,7 +14,7 @@
 #     DESTINY(:ABRA).open
 #
 #   10 cards: 4 commons + 2 uncommons from destiny_pokemon (no Stage 2, no
-#   legendaries, no custom cards), the rare slot (the chosen card at 1/rate, otherwise a rare
+#   legendaries, no custom or Gen 3 cards), the rare slot (the chosen card at 1/rate, otherwise a rare
 #   from destiny_pokemon), and
 #   3 Energy cards (basic, each 1 in DESTINY_DCE_RATE a Double Colorless).
 #   The chosen card is kept out of the other slots, so its odds are exact.
@@ -29,8 +29,9 @@ module TCG
   DESTINY_LEGENDARY_NAMES = ["Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew"]
 
   # sets never in the random slots: promos and the custom cards
-  # (001b_NeoCards.rb), which are given out on purpose
-  DESTINY_EXCLUDED_SETS = ["PROMOTIONAL", "NEO"]
+  # (001b_NeoCards.rb), which are given out on purpose, and the Gen 3 cards
+  # (001c_AdvCards.rb), which only Card Slots gives
+  DESTINY_EXCLUDED_SETS = ["PROMOTIONAL", "NEO", "ADV"]
 
   # Pokémon the pack can drop: every original non-promo Pokémon except
   # Stage 2 Pokémon and legendaries. Replace with your own list if you like.
@@ -75,7 +76,7 @@ module TCG
       rare = rand(@rate) == 0 ? @card : (by_rarity.call(2) - cards).sample
       cards << rare
       DESTINY_ENERGIES.times do
-        cards << (rand(DESTINY_DCE_RATE) == 0 ? :DOUBLE_COLORLESS_ENERGY : BASIC_ENERGY_IDS[rand(NUM_COLORED_TYPES)])
+        cards << (rand(DESTINY_DCE_RATE) == 0 ? :DOUBLE_COLORLESS_ENERGY : BASIC_ENERGY_IDS[rand(BASIC_ENERGY_IDS.size)])
       end
       cards.compact
     end

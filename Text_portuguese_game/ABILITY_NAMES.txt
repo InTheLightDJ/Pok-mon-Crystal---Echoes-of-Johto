@@ -1,0 +1,616 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ABILITY_NAMES]
+Anger Shell
+Casco da Raiva
+Armor Tail
+Cauda Blindada
+Beads of Ruin
+Contas da Ruína
+Commander
+Comandante
+Costar
+Coestrela
+Cud Chew
+Ruminar
+Earth Eater
+Come-terra
+Electromorphosis
+Eletromorfose
+Good as Gold
+Puro Ouro
+Guard Dog
+Cão de Guarda
+Hadron Engine
+Motor de Hádrons
+Lingering Aroma
+Aroma Persistente
+Mycelium Might
+Força do Micélio
+Opportunist
+Oportunista
+Orichalcum Pulse
+Pulso de Oricalco
+Protosynthesis
+Protossíntese
+Purifying Salt
+Sal Purificador
+Quark Drive
+Impulso Quark
+Rocky Payload
+Carga Rochosa
+Seed Sower
+Semeador
+Sharpness
+Afiado
+Supreme Overlord
+Senhor Supremo
+Sword of Ruin
+Espada da Ruína
+Tablets of Ruin
+Tábuas da Ruína
+Thermal Exchange
+Troca Térmica
+Toxic Debris
+Detritos Tóxicos
+Vessel of Ruin
+Vaso da Ruína
+Well-Baked Body
+Corpo Bem Assado
+Wind Power
+Poder do Vento
+Wind Rider
+Cavaleiro do Vento
+Zero to Hero
+De Zero a Herói
+Supersweet Syrup
+Xarope Superdoce
+Hospitality
+Hospitalidade
+Toxic Chain
+Corrente Tóxica
+Mind's Eye
+Olho da Mente
+Embody Aspect
+Encarnar Aspecto
+Poison Puppeteer
+Titereiro Venenoso
+Tera Shift
+Mudança Tera
+Tera Shell
+Casco Tera
+Teraform Zero
+Teraforma Zero
+Stench
+Fedor
+Drizzle
+Garoa
+Speed Boost
+Aceleração
+Battle Armor
+Armadura de Batalha
+Sturdy
+Robustez
+Damp
+Umidade
+Limber
+Flexibilidade
+Sand Veil
+Véu de Areia
+Static
+Estática
+Volt Absorb
+Absorção de Volts
+Water Absorb
+Absorção de Água
+Oblivious
+Desatento
+Cloud Nine
+Nove Nuvens
+Compound Eyes
+Olhos Compostos
+Insomnia
+Insônia
+Color Change
+Mudança de Cor
+Immunity
+Imunidade
+Flash Fire
+Fogo Repentino
+Shield Dust
+Pó Escudo
+Own Tempo
+Ritmo Próprio
+Suction Cups
+Ventosas
+Intimidate
+Intimidação
+Shadow Tag
+Sombra Presa
+Rough Skin
+Pele Áspera
+Wonder Guard
+Guarda Maravilha
+Levitate
+Levitação
+Effect Spore
+Esporo Efetivo
+Synchronize
+Sincronizar
+Clear Body
+Corpo Limpo
+Natural Cure
+Cura Natural
+Lightning Rod
+Para-raios
+Serene Grace
+Graça Serena
+Swift Swim
+Nado Rápido
+Chlorophyll
+Clorofila
+Illuminate
+Iluminar
+Trace
+Rastrear
+Huge Power
+Força Enorme
+Poison Point
+Ponta Venenosa
+Inner Focus
+Foco Interior
+Magma Armor
+Armadura de Magma
+Water Veil
+Véu d'Água
+Magnet Pull
+Atração Magnética
+Soundproof
+À Prova de Som
+Rain Dish
+Prato de Chuva
+Sand Stream
+Corrente de Areia
+Pressure
+Pressão
+Thick Fat
+Gordura Espessa
+Early Bird
+Madrugador
+Flame Body
+Corpo Chamejante
+Run Away
+Fuga
+Keen Eye
+Olhar Aguçado
+Hyper Cutter
+Hipercortador
+Pickup
+Coleta
+Truant
+Vadiagem
+Hustle
+Afobação
+Cute Charm
+Charme Fofo
+Plus
+Mais
+Minus
+Menos
+Forecast
+Previsão
+Sticky Hold
+Agarre Firme
+Shed Skin
+Troca de Pele
+Guts
+Garra
+Marvel Scale
+Escama Maravilha
+Liquid Ooze
+Lodo Líquido
+Overgrow
+Supercrescimento
+Blaze
+Chama
+Torrent
+Torrente
+Swarm
+Enxame
+Rock Head
+Cabeça de Pedra
+Drought
+Seca
+Arena Trap
+Armadilha de Arena
+Vital Spirit
+Espírito Vital
+White Smoke
+Fumaça Branca
+Pure Power
+Poder Puro
+Shell Armor
+Armadura de Casco
+Air Lock
+Trava de Ar
+Tangled Feet
+Pés Enrolados
+Motor Drive
+Motor Elétrico
+Rivalry
+Rivalidade
+Steadfast
+Inabalável
+Snow Cloak
+Manto de Neve
+Gluttony
+Gula
+Anger Point
+Ponto de Raiva
+Unburden
+Desapego
+Heatproof
+Resistente ao Calor
+Simple
+Simples
+Dry Skin
+Pele Seca
+Download
+Download
+Iron Fist
+Punho de Ferro
+Poison Heal
+Cura Venenosa
+Adaptability
+Adaptabilidade
+Skill Link
+Elo de Habilidade
+Hydration
+Hidratação
+Solar Power
+Energia Solar
+Quick Feet
+Pés Rápidos
+Normalize
+Normalizar
+Sniper
+Atirador
+Magic Guard
+Guarda Mágica
+No Guard
+Sem Guarda
+Stall
+Protelar
+Technician
+Técnico
+Leaf Guard
+Guarda de Folha
+Klutz
+Desastrado
+Mold Breaker
+Quebra-molde
+Super Luck
+Supersorte
+Aftermath
+Rescaldo
+Anticipation
+Antecipação
+Forewarn
+Pressentimento
+Unaware
+Inconsciente
+Tinted Lens
+Lente Colorida
+Filter
+Filtro
+Slow Start
+Início Lento
+Scrappy
+Briguento
+Storm Drain
+Dreno de Tempestade
+Ice Body
+Corpo de Gelo
+Solid Rock
+Rocha Sólida
+Snow Warning
+Aviso de Neve
+Honey Gather
+Coleta de Mel
+Frisk
+Revistar
+Reckless
+Imprudente
+Multitype
+Multitipo
+Flower Gift
+Dom Floral
+Bad Dreams
+Pesadelos
+Pickpocket
+Batedor de Carteira
+Sheer Force
+Força Bruta
+Contrary
+Contrário
+Unnerve
+Nervosismo
+Defiant
+Desafiador
+Defeatist
+Derrotista
+Cursed Body
+Corpo Amaldiçoado
+Healer
+Curandeiro
+Friend Guard
+Guarda Amiga
+Weak Armor
+Armadura Fraca
+Heavy Metal
+Metal Pesado
+Light Metal
+Metal Leve
+Multiscale
+Multiescamas
+Toxic Boost
+Impulso Tóxico
+Flare Boost
+Impulso Ardente
+Harvest
+Colheita
+Telepathy
+Telepatia
+Moody
+Temperamental
+Overcoat
+Sobretudo
+Poison Touch
+Toque Venenoso
+Regenerator
+Regenerador
+Big Pecks
+Peito Grande
+Sand Rush
+Corrida na Areia
+Wonder Skin
+Pele Maravilha
+Analytic
+Analítico
+Illusion
+Ilusão
+Imposter
+Impostor
+Infiltrator
+Infiltrador
+Mummy
+Múmia
+Moxie
+Ousadia
+Justified
+Justiceiro
+Rattled
+Abalado
+Magic Bounce
+Reflexo Mágico
+Sap Sipper
+Bebe-seiva
+Prankster
+Pregador de Peças
+Sand Force
+Força de Areia
+Iron Barbs
+Farpas de Ferro
+Zen Mode
+Modo Zen
+Victory Star
+Estrela da Vitória
+Turboblaze
+Turbochama
+Teravolt
+Teravolt
+Aroma Veil
+Véu Aromático
+Flower Veil
+Véu Floral
+Cheek Pouch
+Bolsa de Bochecha
+Protean
+Proteano
+Fur Coat
+Pelagem
+Magician
+Mágico
+Bulletproof
+À Prova de Balas
+Competitive
+Competitivo
+Strong Jaw
+Mandíbula Forte
+Refrigerate
+Refrigerar
+Sweet Veil
+Véu Doce
+Stance Change
+Mudança de Postura
+Gale Wings
+Asas de Vendaval
+Mega Launcher
+Megalançador
+Grass Pelt
+Pelagem de Grama
+Symbiosis
+Simbiose
+Tough Claws
+Garras Duras
+Pixilate
+Pixilar
+Gooey
+Pegajoso
+Aerilate
+Aerilar
+Parental Bond
+Laço Parental
+Dark Aura
+Aura Sombria
+Fairy Aura
+Aura Feérica
+Aura Break
+Quebra-aura
+Primordial Sea
+Mar Primordial
+Desolate Land
+Terra Desolada
+Delta Stream
+Corrente Delta
+Stamina
+Vigor
+Wimp Out
+Covardia
+Emergency Exit
+Saída de Emergência
+Water Compaction
+Compactação d'Água
+Merciless
+Impiedoso
+Shields Down
+Escudos Abaixados
+Stakeout
+Tocaia
+Water Bubble
+Bolha d'Água
+Steelworker
+Metalúrgico
+Berserk
+Fúria Cega
+Slush Rush
+Corrida na Neve
+Long Reach
+Longo Alcance
+Liquid Voice
+Voz Líquida
+Triage
+Triagem
+Galvanize
+Galvanizar
+Surge Surfer
+Surfista de Terreno
+Schooling
+Cardume
+Disguise
+Disfarce
+Battle Bond
+Laço de Batalha
+Power Construct
+Construção de Poder
+Corrosion
+Corrosão
+Comatose
+Comatoso
+Queenly Majesty
+Majestade Real
+Innards Out
+Entranhas
+Dancer
+Dançarino
+Battery
+Bateria
+Fluffy
+Fofo
+Dazzling
+Deslumbrante
+Soul-Heart
+Coração da Alma
+Tangling Hair
+Cabelo Enrolado
+Receiver
+Receptor
+Power of Alchemy
+Poder da Alquimia
+Beast Boost
+Impulso de Fera
+RKS System
+Sistema RKS
+Electric Surge
+Onda Elétrica
+Psychic Surge
+Onda Psíquica
+Misty Surge
+Onda Nebulosa
+Grassy Surge
+Onda de Grama
+Full Metal Body
+Corpo de Metal Total
+Shadow Shield
+Escudo Sombrio
+Prism Armor
+Armadura Prisma
+Neuroforce
+Neuroforça
+Intrepid Sword
+Espada Intrépida
+Dauntless Shield
+Escudo Destemido
+Libero
+Líbero
+Ball Fetch
+Buscar Bola
+Cotton Down
+Penugem de Algodão
+Propeller Tail
+Cauda Hélice
+Mirror Armor
+Armadura Espelho
+Gulp Missile
+Míssil Engolido
+Stalwart
+Firmeza
+Steam Engine
+Motor a Vapor
+Punk Rock
+Punk Rock
+Sand Spit
+Cuspe de Areia
+Ice Scales
+Escamas de Gelo
+Ripen
+Amadurecer
+Ice Face
+Cara de Gelo
+Power Spot
+Ponto de Poder
+Mimicry
+Mimetismo
+Screen Cleaner
+Limpa-telas
+Steely Spirit
+Espírito de Aço
+Perish Body
+Corpo do Perecer
+Wandering Spirit
+Espírito Errante
+Gorilla Tactics
+Tática de Gorila
+Neutralizing Gas
+Gás Neutralizante
+Pastel Veil
+Véu Pastel
+Hunger Switch
+Troca de Fome
+Quick Draw
+Saque Rápido
+Unseen Fist
+Punho Invisível
+Curious Medicine
+Remédio Curioso
+Transistor
+Transistor
+Dragon's Maw
+Bocarra do Dragão
+Chilling Neigh
+Relincho Gélido
+Grim Neigh
+Relincho Sombrio
+As One
+Unidade

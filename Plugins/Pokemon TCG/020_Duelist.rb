@@ -5,7 +5,7 @@
 # Cards are identified by deck index (0-59). @deck_cards is ONE 60-entry array
 # shared by the discard pile (front, [0...discard_count]) and the remaining deck
 # (back, [not_in_deck...60], top of deck = @deck_cards[@not_in_deck]) exactly
-# like the original.
+# like the original. (A player's deck can be 55-65 cards, so 60 is deck_size.)
 #==============================================================================
 module TCG
   class Duelist
@@ -22,7 +22,7 @@ module TCG
                   :last_turn_change_weak, :last_turn_effect,
                   :rng   # seeded Random in an online duel (089i_NetDuel.rb)
 
-    # deck_ids: array of 60 card ids (symbols), in deck-index order. Holo
+    # deck_ids: array of deck_size card ids (symbols), in deck-index order. Holo
     # versions (011b_HoloCards.rb) are stored as their normal card, with the
     # tier kept in @holo for the screens.
     def initialize(name, deck_ids, duelist_type)
@@ -34,8 +34,8 @@ module TCG
     end
 
     def reset
-      @card_locations = Array.new(DECK_SIZE, CARD_LOCATION_DECK)
-      @deck_cards     = (0...DECK_SIZE).to_a
+      @card_locations = Array.new(deck_size, CARD_LOCATION_DECK)
+      @deck_cards     = (0...deck_size).to_a
       @prize_cards    = Array.new(MAX_PRIZES)
       @hand           = []
       @not_in_deck    = 0
@@ -53,6 +53,7 @@ module TCG
     end
 
     def player?; @duelist_type == DUELIST_TYPE_PLAYER; end
+    def deck_size; @deck_ids.size; end
     def card_id(deck_index); @deck_ids[deck_index]; end
     # the card as shown (its holo version for a holo card)
     def display_id(deck_index)
@@ -63,8 +64,8 @@ module TCG
 
     def arena;              @play_area[PLAY_AREA_ARENA]; end
     def num_in_play_area;   @play_area.count { |c| !c.nil? }; end
-    def cards_in_deck;      DECK_SIZE - @not_in_deck; end
-    def deck_list;          @deck_cards[@not_in_deck...DECK_SIZE]; end   # top first
+    def cards_in_deck;      deck_size - @not_in_deck; end
+    def deck_list;          @deck_cards[@not_in_deck...deck_size]; end   # top first
     def discard_pile;       @deck_cards[0...@discard_count]; end
     def bench;              @play_area[1..].compact; end
 
@@ -75,13 +76,13 @@ module TCG
     # deck / hand / discard (home/duel.asm L107-L346)
     #--------------------------------------------------------------------------
     def shuffle_deck
-      tail = @deck_cards[@not_in_deck...DECK_SIZE].shuffle(random: @rng || TCG.rng)
-      @deck_cards[@not_in_deck...DECK_SIZE] = tail
+      tail = @deck_cards[@not_in_deck...deck_size].shuffle(random: @rng || TCG.rng)
+      @deck_cards[@not_in_deck...deck_size] = tail
     end
 
     # returns deck index, or nil if the deck is empty (carry)
     def draw_card_from_deck
-      return nil if @not_in_deck >= DECK_SIZE
+      return nil if @not_in_deck >= deck_size
       idx = @deck_cards[@not_in_deck]
       @not_in_deck += 1
       @card_locations[idx] = CARD_LOCATION_JUST_DRAWN
@@ -99,7 +100,7 @@ module TCG
     def search_card_in_deck_and_add_to_hand(idx)
       remaining = deck_list - [idx]
       @not_in_deck += 1
-      @deck_cards[@not_in_deck...DECK_SIZE] = remaining
+      @deck_cards[@not_in_deck...deck_size] = remaining
       @card_locations[idx] |= CARD_LOCATION_JUST_DRAWN
       idx
     end
@@ -146,6 +147,7 @@ module TCG
     # can the Pokemon at play area slot e evolve into hand card d?
     # returns :ok, :not_this_turn, or :incompatible
     def check_if_can_evolve_into(d, e)
+      return :incompatible if @play_area[e].nil?   # an empty slot (the AI checks every slot)
       cur = card(@play_area[e])
       evo = card(d)
       return :incompatible if evo.preevo.nil? || evo.preevo != cur.name
@@ -216,7 +218,7 @@ module TCG
     # all cards in slot e (Pokemon + evolutions + attached), deck-index order
     def cards_in_slot(e)
       loc = CARD_LOCATION_PLAY_AREA | e
-      (0...DECK_SIZE).select { |i| @card_locations[i] == loc }
+      (0...deck_size).select { |i| @card_locations[i] == loc }
     end
 
     def move_play_area_card_to_discard_pile(e)
@@ -259,11 +261,11 @@ module TCG
     # GetPlayAreaCardAttachedEnergies -> [array by color (7), total]
     # Double Colorless counts as two COLORLESS.
     def attached_energies(e)
-      en = Array.new(7, 0)
+      en = Array.new(NUM_COLORS, 0)
       cards_in_slot(e).each do |i|
         c = card(i)
         next unless c.energy?
-        col = c.type & 0x07
+        col = c.color
         en[col] += 1
         en[col] += 1 if col == COLORLESS
       end
@@ -276,7 +278,7 @@ module TCG
 
     # CountCardIDInLocation
     def count_card_id_in_location(id, location)
-      (0...DECK_SIZE).count { |i| @card_locations[i] == location && card_id(i) == id }
+      (0...deck_size).count { |i| @card_locations[i] == location && card_id(i) == id }
     end
   end
 end

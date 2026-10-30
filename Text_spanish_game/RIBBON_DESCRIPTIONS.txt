@@ -1,0 +1,200 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_DESCRIPTIONS]
+This pokemon is a bug boss!
+¡Este pokémon es un bicho jefe!
+Goes to the pokemon that beat a bug boss pokemon!
+¡Para el pokémon que venció a un pokémon bicho jefe!
+A ribbon for collecting all bugs in a sigle bug contest!
+¡Una cinta por atrapar todos los bichos en un solo concurso de bichos!
+Johto Performance Hall Cool Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Carisma del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cool Category Super Rank winner!
+¡Ganador del rango Súper de la categoría Carisma del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cool Category Hyper Rank winner!
+¡Ganador del rango Hiper de la categoría Carisma del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cool Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Carisma del Teatro de Actuaciones de Johto!
+Johto Performance Hall Beauty Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Belleza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Beauty Category Super Rank winner!
+¡Ganador del rango Súper de la categoría Belleza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Beauty Category Hyper Rank winner!
+¡Ganador del rango Hiper de la categoría Belleza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Beauty Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Belleza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cute Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Dulzura del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cute Category Super Rank winner!
+¡Ganador del rango Súper de la categoría Dulzura del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cute Category Hyper Rank winner!
+¡Ganador del rango Hiper de la categoría Dulzura del Teatro de Actuaciones de Johto!
+Johto Performance Hall Cute Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Dulzura del Teatro de Actuaciones de Johto!
+Johto Performance Hall Smart Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Ingenio del Teatro de Actuaciones de Johto!
+Johto Performance Hall Smart Category Super Rank winner!
+¡Ganador del rango Súper de la categoría Ingenio del Teatro de Actuaciones de Johto!
+Johto Performance Hall Smart Category Hyper Rank winner!
+¡Ganador del rango Hiper de la categoría Ingenio del Teatro de Actuaciones de Johto!
+Johto Performance Hall Smart Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Ingenio del Teatro de Actuaciones de Johto!
+Johto Performance Hall Tough Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Dureza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Tough Category Super Rank winner!
+¡Ganador del rango Súper de la categoría Dureza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Tough Category Hyper Rank winner!
+¡Ganador del rango Hiper de la categoría Dureza del Teatro de Actuaciones de Johto!
+Johto Performance Hall Tough Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Dureza del Teatro de Actuaciones de Johto!
+Hoenn Cool Contest Normal Rank winner!
+¡Ganador del Concurso de Carisma de rango Normal de Hoenn!
+Hoenn Cool Contest Super Rank winner!
+¡Ganador del Concurso de Carisma de rango Súper de Hoenn!
+Hoenn Cool Contest Hyper Rank winner!
+¡Ganador del Concurso de Carisma de rango Hiper de Hoenn!
+Hoenn Cool Contest Master Rank winner!
+¡Ganador del Concurso de Carisma de rango Experto de Hoenn!
+Hoenn Beauty Contest Normal Rank winner!
+¡Ganador del Concurso de Belleza de rango Normal de Hoenn!
+Hoenn Beauty Contest Super Rank winner!
+¡Ganador del Concurso de Belleza de rango Súper de Hoenn!
+Hoenn Beauty Contest Hyper Rank winner!
+¡Ganador del Concurso de Belleza de rango Hiper de Hoenn!
+Hoenn Beauty Contest Master Rank winner!
+¡Ganador del Concurso de Belleza de rango Experto de Hoenn!
+Hoenn Cute Contest Normal Rank winner!
+¡Ganador del Concurso de Dulzura de rango Normal de Hoenn!
+Hoenn Cute Contest Super Rank winner!
+¡Ganador del Concurso de Dulzura de rango Súper de Hoenn!
+Hoenn Cute Contest Hyper Rank winner!
+¡Ganador del Concurso de Dulzura de rango Hiper de Hoenn!
+Hoenn Cute Contest Master Rank winner!
+¡Ganador del Concurso de Dulzura de rango Experto de Hoenn!
+Hoenn Smart Contest Normal Rank winner!
+¡Ganador del Concurso de Ingenio de rango Normal de Hoenn!
+Hoenn Smart Contest Super Rank winner!
+¡Ganador del Concurso de Ingenio de rango Súper de Hoenn!
+Hoenn Smart Contest Hyper Rank winner!
+¡Ganador del Concurso de Ingenio de rango Hiper de Hoenn!
+Hoenn Tough Contest Normal Rank winner!
+¡Ganador del Concurso de Dureza de rango Normal de Hoenn!
+Hoenn Tough Contest Super Rank winner!
+¡Ganador del Concurso de Dureza de rango Súper de Hoenn!
+Hoenn Tough Contest Hyper Rank winner!
+¡Ganador del Concurso de Dureza de rango Hiper de Hoenn!
+Hoenn Tough Contest Master Rank winner!
+¡Ganador del Concurso de Dureza de rango Experto de Hoenn!
+Super Contest Cool Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Carisma del Superconcurso!
+Super Contest Cool Category Great Rank winner!
+¡Ganador del rango Gran de la categoría Carisma del Superconcurso!
+Super Contest Cool Category Ultra Rank winner!
+¡Ganador del rango Ultra de la categoría Carisma del Superconcurso!
+Super Contest Cool Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Carisma del Superconcurso!
+Super Contest Beauty Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Belleza del Superconcurso!
+Super Contest Beauty Category Great Rank winner!
+¡Ganador del rango Gran de la categoría Belleza del Superconcurso!
+Super Contest Beauty Category Ultra Rank winner!
+¡Ganador del rango Ultra de la categoría Belleza del Superconcurso!
+Super Contest Beauty Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Belleza del Superconcurso!
+Super Contest Cute Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Dulzura del Superconcurso!
+Super Contest Cute Category Great Rank winner!
+¡Ganador del rango Gran de la categoría Dulzura del Superconcurso!
+Super Contest Cute Category Ultra Rank winner!
+¡Ganador del rango Ultra de la categoría Dulzura del Superconcurso!
+Super Contest Cute Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Dulzura del Superconcurso!
+Super Contest Smart Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Ingenio del Superconcurso!
+Super Contest Smart Category Great Rank winner!
+¡Ganador del rango Gran de la categoría Ingenio del Superconcurso!
+Super Contest Smart Category Ultra Rank winner!
+¡Ganador del rango Ultra de la categoría Ingenio del Superconcurso!
+Super Contest Tough Category Normal Rank winner!
+¡Ganador del rango Normal de la categoría Dureza del Superconcurso!
+Super Contest Tough Category Great Rank winner!
+¡Ganador del rango Gran de la categoría Dureza del Superconcurso!
+Super Contest Tough Category Ultra Rank winner!
+¡Ganador del rango Ultra de la categoría Dureza del Superconcurso!
+Super Contest Tough Category Master Rank winner!
+¡Ganador del rango Experto de la categoría Dureza del Superconcurso!
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 50 challenge.
+Cinta por superar el desafío Nv. 50 de la Torre Batalla de Hoenn.
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 100 challenge.
+Cinta por superar el desafío Nv. 100 de la Torre Batalla de Hoenn.
+A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.
+Una cinta por derrotar al Magnate de la Torre Batalla.
+A Ribbon awarded for completing the Battle Tower Double challenge.
+Una cinta por completar el desafío Doble de la Torre Batalla.
+A Ribbon awarded for completing the Battle Tower Multi challenge.
+Una cinta por completar el desafío Múltiple de la Torre Batalla.
+A Ribbon awarded for completing the Battle Tower Link Multi challenge.
+Una cinta por completar el desafío Múltiple Unión de la Torre Batalla.
+A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.
+Una cinta por completar el desafío de la Torre Batalla Wi-Fi.
+Ribbon for clearing the Pokémon League and entering the Hall of Fame in another region.
+Cinta por superar la Liga Pokémon y entrar en el Hall de la Fama de otra región.
+Ribbon awarded for beating the Sinnoh Champion and entering the Hall of Fame.
+Cinta por vencer al Campeón de Sinnoh y entrar en el Hall de la Fama.
+A Ribbon awarded for setting an incredible record.
+Una cinta por establecer un récord increíble.
+Pokémon Event Participation Ribbon.
+Cinta de participación en un evento Pokémon.
+A Ribbon awarded for setting a legendary record.
+Una cinta por establecer un récord legendario.
+An extraordinarily gorgeous and extravagant Ribbon.
+Una cinta extraordinariamente lujosa y extravagante.
+An incredibly regal Ribbon with an air of nobility.
+Una cinta increíblemente regia con aire de nobleza.
+A gorgeous and regal Ribbon that is the peak of fabulous.
+Una cinta lujosa y regia que es el colmo de lo fabuloso.
+A Ribbon for recalling an invigorating event that created life energy.
+Una cinta para recordar un suceso estimulante que dio energía vital.
+A Ribbon for recalling a thrilling event that made life more exciting.
+Una cinta para recordar un suceso emocionante que dio más alegría a la vida.
+A Ribbon for recalling feelings of sadness that added spice to life.
+Una cinta para recordar sentimientos de tristeza que dieron sabor a la vida.
+A Ribbon for recalling a careless error that helped steer life decisions.
+Una cinta para recordar un descuido que ayudó a tomar decisiones en la vida.
+A Ribbon for recalling a refreshing event that added sparkle to life.
+Una cinta para recordar un suceso refrescante que dio brillo a la vida.
+A Ribbon for recalling a deep slumber that made life soothing.
+Una cinta para recordar un sueño profundo que dio calma a la vida.
+A Ribbon for recalling that smiles enrich the quality of life.
+Una cinta para recordar que las sonrisas enriquecen la vida.
+A Ribbon awarded to a Pokémon deemed to have a top-quality footprint.
+Una cinta para un Pokémon con una huella de primera calidad.
+Ribbon awarded for being chosen as a super sketch model in Hoenn.
+Cinta por ser elegido modelo de un gran retrato en Hoenn.
+Ribbon awarded for being an exceptionally hard worker.
+Cinta por ser un trabajador excepcional.
+A special Ribbon for a special day.
+Una cinta especial para un día especial.
+A Ribbon that proclaims love for Pokémon.
+Una cinta que proclama el amor por los Pokémon.
+Special Holiday Ribbon.
+Cinta especial de vacaciones.
+A Ribbon to cherish a special memory.
+Una cinta para atesorar un recuerdo especial.
+A Ribbon said to make your wish come true.
+Una cinta que, según dicen, hace realidad tus deseos.
+A Ribbon awarded for overcoming all difficult challenges.
+Una cinta por superar todos los desafíos difíciles.
+Pokémon League Champion Ribbon.
+Cinta de Campeón de la Liga Pokémon.
+Battle Competition Champion Ribbon.
+Cinta de Campeón de Competición de Combate.
+Pokémon World Championships Regional Champion Ribbon.
+Cinta de Campeón Regional del Campeonato Mundial Pokémon.
+A Ribbon awarded for winning 100 matches in a row.
+Una cinta por ganar 100 combates seguidos.
+Pokémon World Championships National Champion Ribbon.
+Cinta de Campeón Nacional del Campeonato Mundial Pokémon.
+Pokémon World Championships World Champion Ribbon.
+Cinta de Campeón Mundial del Campeonato Mundial Pokémon.

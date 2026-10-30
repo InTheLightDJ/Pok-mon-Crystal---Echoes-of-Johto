@@ -74,7 +74,7 @@ module TCG
     # CheckIfPlayerHasPokemonOtherThanMewtwoLv53 (common.asm)
     def player_has_pokemon_other_than_mewtwo_lv53?(duel)
       nd = duel.non_turn_duelist
-      (0...DECK_SIZE).any? do |i|
+      (0...nd.deck_size).any? do |i|
         loc = nd.card_locations[i]
         next false unless loc == CARD_LOCATION_DISCARD_PILE || (loc & CARD_LOCATION_PLAY_AREA) != 0
         c = nd.card(i)

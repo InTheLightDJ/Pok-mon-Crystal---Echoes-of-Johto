@@ -4447,3 +4447,11 @@ Pokemon = HAUNTER,22
 Pokemon = HAUNTER,22
 Pokemon = HAUNTER,22
 Pokemon = HAUNTER,22
+#-------------------------------
+[TEAMROCKETJJ,Jessie&James]
+LoseText = ...
+Pokemon = ARBOK,50
+Pokemon = VICTREEBEL,50
+Pokemon = WEEZING,50
+Pokemon = WOBBUFFET,50
+Pokemon = MEOWTH,50

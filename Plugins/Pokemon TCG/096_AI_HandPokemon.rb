@@ -9,9 +9,11 @@ module TCG
                       :FIGHTING_ENERGY => 5, :PSYCHIC_ENERGY => 6, :DOUBLE_COLORLESS_ENERGY => 7 }
   ENERGY_FLAG = { :FIRE_ENERGY => 0x01, :GRASS_ENERGY => 0x02, :LIGHTNING_ENERGY => 0x04,
                   :WATER_ENERGY => 0x08, :FIGHTING_ENERGY => 0x10, :PSYCHIC_ENERGY => 0x20,
-                  :DOUBLE_COLORLESS_ENERGY => 0x40 }
+                  :DOUBLE_COLORLESS_ENERGY => 0x40, :DARKNESS_ENERGY => 0x80, :METAL_ENERGY => 0x100 }
+  ENERGY_FLAGS_ANY = 0x1ff
   COLOR_ENERGY_ID = [:FIRE_ENERGY, :GRASS_ENERGY, :LIGHTNING_ENERGY, :WATER_ENERGY,
-                     :FIGHTING_ENERGY, :PSYCHIC_ENERGY, :DOUBLE_COLORLESS_ENERGY]
+                     :FIGHTING_ENERGY, :PSYCHIC_ENERGY, :DOUBLE_COLORLESS_ENERGY,
+                     :DARKNESS_ENERGY, :METAL_ENERGY]
 
   class AIController
     # with the turn holder's arena temporarily replaced by deck index idx
@@ -31,7 +33,7 @@ module TCG
       en, total = duel.attached_energies_with_energy_burn(d, e)
       cost_sum = needed = 0
       type = nil
-      NUM_COLORED_TYPES.times do |col|
+      COLORED_TYPES.each do |col|
         c = atk.cost[col]
         next if c == 0
         cost_sum += c
@@ -51,8 +53,8 @@ module TCG
     def attacks_energy_cost_bits(card)
       bits = 0
       card.attacks.each do |a|
-        NUM_COLORED_TYPES.times { |col| bits |= (1 << col) if a.cost[col] > 0 }
-        bits = 0xff if a.cost[COLORLESS] > 0
+        COLORED_TYPES.each { |col| bits |= (1 << col) if a.cost[col] > 0 }
+        bits = ENERGY_FLAGS_ANY if a.cost[COLORLESS] > 0
       end
       bits
     end
@@ -70,7 +72,7 @@ module TCG
     # can-evolve flag while the card is put in the arena temporarily
     def evolution_for_in?(duel, d, idx, location)
       with_arena_as(d, idx) do
-        (0...DECK_SIZE).any? do |i|
+        (0...d.deck_size).any? do |i|
           d.card_locations[i] == location && d.check_if_can_evolve_into(i, 0) == :ok
         end
       end

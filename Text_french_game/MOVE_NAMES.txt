@@ -1,0 +1,1684 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MOVE_NAMES]
+Dire Claw
+Griffes Funestes
+Springtide Storm
+Typhon Passionné
+Raging Fury
+Grand Courroux
+Wave Crash
+Aquatacle
+Chloroblast
+Herblast
+Mountain Gale
+Bise Glaciaire
+Headlong Rush
+Assaut Frontal
+Barb Barrage
+Multitoxik
+Esper Wing
+Ailes Psycho
+Bitter Malice
+Coeur de Rancoeur
+Triple Arrows
+Triple Flèche
+Bleakwind Storm
+Typhon Hivernal
+Wildbolt Storm
+Typhon Fulgurant
+Sandsear Storm
+Typhon Pyrosable
+Lunar Blessing
+Prière Lunaire
+Psyshield Bash
+Sprint Bouclier
+Power Shift
+Échange Force
+Stone Axe
+Hache de Pierre
+Mystical Power
+Force Mystique
+Victory Dance
+Danse Victoire
+Shelter
+Mur Fumigène
+Infernal Parade
+Cortège Funèbre
+Ceaseless Edge
+Vagues à Lames
+Take Heart
+Extravaillance
+Aqua Cutter
+Tranch'Aqua
+Aqua Step
+Danse Aquatique
+Armor Cannon
+Canon Blindé
+Axe Kick
+Talon-Marteau
+Bitter Blade
+Lame en Peine
+Blazing Torque
+Crash Brûlant
+Chilling Water
+Douche Froide
+Chilly Reception
+Neigeux de Mots
+Collision Course
+Nitro Crash
+Combat Torque
+Crash Musclé
+Comeuppance
+Vindicte
+Doodle
+Décalquage
+Double Shock
+Double Décharge
+Electro Drift
+Turbo Volt
+Fillet Away
+Décharnement
+Flower Trick
+Magie Florale
+Gigaton Hammer
+Marteau Mastoc
+Glaive Rush
+Charge Glaive
+Hyper Drill
+Hyperceuse
+Ice Spinner
+Cryo-Pirouette
+Jet Punch
+Poing Sonique
+Kowtow Cleave
+Génusection
+Last Respects
+Hommage Posthume
+Lumina Crash
+Lumino-Impact
+Magical Torque
+Crash Magique
+Make It Rain
+Ruée d'Or
+Mortal Spin
+Toupie Éclat
+Noxious Torque
+Crash Toxique
+Order Up
+Plat du Jour
+Population Bomb
+Prolifération
+Pounce
+Bond
+Rage Fist
+Poing de Colère
+Raging Bull
+Taurogne
+Revival Blessing
+Second Souffle
+Ruination
+Cataclysme
+Salt Cure
+Salaison
+Shed Tail
+Queulonage
+Silk Trap
+Piège de Fil
+Snowscape
+Chute de Neige
+Spicy Extract
+Habanerage
+Spin Out
+Dérapage
+Tidy Up
+Grand Nettoyage
+Torch Song
+Chant Flamboyant
+Trailblaze
+Désherbaffe
+Triple Dive
+Triple Plongeon
+Twin Beam
+Double Laser
+Wicked Torque
+Crash Obscur
+Hydro Steam
+Hydrovapeur
+Psyblade
+Lame Psychique
+Blood Moon
+Lune Rouge
+Matcha Gotcha
+Mortier Matcha
+Syrup Bomb
+Bombe au Sirop
+Ivy Cudgel
+Massue Liane
+Electro Shot
+Fulgurayon
+Tera Starstorm
+Pluie Térastrale
+Fickle Beam
+Laser Hasard
+Burning Bulwark
+Rempart Brûlant
+Thunderclap
+Vif Éclair
+Mighty Cleave
+Lame Puissante
+Tachyon Cutter
+Lame Tachyonique
+Hard Press
+Pression Extrême
+Dragon Cheer
+Cri Draconique
+Alluring Voice
+Voix Envoûtante
+Temper Flare
+Indignition
+Supercell Slam
+Volt Assaut
+Psychic Noise
+Dissonance Psy
+Upper Hand
+Prio-Parade
+Malignant Chain
+Chaîne Malsaine
+InTheLight
+InTheLight
+Creepy Crawl
+Grouillement
+Zombify
+Zombification
+Slaphappy
+Gifle Folle
+Vast Void
+Vide Immense
+Secret Lair
+Repaire Secret
+End Times
+Fin des Temps
+Perfect Dark
+Ténèbres Parfaites
+Megahorn
+Mégacorne
+Attack Order
+Appel Attaque
+Bug Buzz
+Bourdon
+First Impression
+Escarmouche
+Pollen Puff
+Boule Pollen
+Leech Life
+Vampirisme
+Lunge
+Furie-Bond
+X-Scissor
+Plaie Croix
+Signal Beam
+Rayon Signal
+Skitter Smack
+Ravage Rampant
+U-turn
+Demi-Tour
+Steamroller
+Bulldoboule
+Bug Bite
+Piqûre
+Silver Wind
+Vent Argenté
+Fell Stinger
+Dard Mortel
+Struggle Bug
+Survinsecte
+Fury Cutter
+Taillade
+Pin Missile
+Dard-Nuée
+Twineedle
+Double Dard
+Infestation
+Harcèlement
+Defend Order
+Appel Défense
+Heal Order
+Appel Soins
+Powder
+Nuée de Poudre
+Quiver Dance
+Papillodanse
+Rage Powder
+Poudre Fureur
+Spider Web
+Toile
+Sticky Web
+Toile Gluante
+String Shot
+Sécrétion
+Tail Glow
+Lumi-Queue
+Hyperspace Fury
+Furie Dimension
+Foul Play
+Tricherie
+Fiery Wrath
+Fureur Ardente
+Darkest Lariat
+Dark Lariat
+Night Daze
+Explonuit
+Crunch
+Mâchouille
+Dark Pulse
+Vibrobscur
+False Surrender
+Fourbette
+Jaw Lock
+Croque Fort
+Throat Chop
+Exécu-Son
+Wicked Blow
+Poing Obscur
+Lash Out
+Cent Rancunes
+Night Slash
+Tranche-Nuit
+Sucker Punch
+Coup Bas
+Knock Off
+Sabotage
+Assurance
+Assurance
+Bite
+Morsure
+Brutal Swing
+Centrifugifle
+Feint Attack
+Feinte
+Thief
+Larcin
+Snarl
+Aboiement
+Payback
+Représailles
+Pursuit
+Poursuite
+Beat Up
+Baston
+Fling
+Dégommage
+Power Trip
+Arrogance
+Punishment
+Punition
+Dark Void
+Trou Noir
+Embargo
+Embargo
+Fake Tears
+Croco Larme
+Flatter
+Flatterie
+Hone Claws
+Aiguisage
+Memento
+Souvenir
+Nasty Plot
+Machination
+Obstruct
+Blocage
+Parting Shot
+Dernier Mot
+Quash
+À la Queue
+Snatch
+Saisie
+Switcheroo
+Passe-Passe
+Taunt
+Provoc
+Topsy-Turvy
+Renversement
+Torment
+Tourmente
+Eternabeam
+Laser Infinimax
+Dragon Energy
+Draco-Énergie
+Roar of Time
+Hurle-Temps
+Draco Meteor
+Draco-Météore
+Outrage
+Colère
+Clanging Scales
+Vibrécaille
+Core Enforcer
+Sanction Suprême
+Dragon Rush
+Draco-Charge
+Dynamax Cannon
+Canon Dynamax
+Spacial Rend
+Spatio-Rift
+Dragon Hammer
+Draco-Marteau
+Dragon Pulse
+Draco-Choc
+Dragon Claw
+Draco-Griffe
+Breaking Swipe
+Abattage
+Dragon Breath
+Draco-Souffle
+Dragon Tail
+Draco-Queue
+Dragon Darts
+Draco-Flèches
+Dual Chop
+Double Baffe
+Twister
+Ouragan
+Scale Shot
+Rafale Écailles
+Dragon Rage
+Draco-Rage
+Clangorous Soul
+Dracacophonie
+Dragon Dance
+Danse Draco
+Bolt Strike
+Charge Foudre
+Volt Tackle
+Électacle
+Zap Cannon
+Élecanon
+Aura Wheel
+Roue Libre
+Thunder
+Fatal-Foudre
+Fusion Bolt
+Éclair Croix
+Plasma Fists
+Plasma Punch
+Thunderbolt
+Tonnerre
+Wild Charge
+Éclair Fou
+Bolt Beak
+Prise de Bec
+Discharge
+Coup d'Jus
+Overdrive
+Overdrive
+Thunder Cage
+Voltageôle
+Zing Zap
+Électrikipik
+Thunder Punch
+Poing Éclair
+Rising Voltage
+Monte-Tension
+Volt Switch
+Change Éclair
+Parabolic Charge
+Parabocharge
+Spark
+Étincelle
+Thunder Fang
+Crocs Éclair
+Shock Wave
+Onde de Choc
+Electroweb
+Toile Élek
+Charge Beam
+Rayon Chargé
+Thunder Shock
+Éclair
+Nuzzle
+Frotte-Frimousse
+Electro Ball
+Boule Élek
+Charge
+Chargeur
+Eerie Impulse
+Ondes Étranges
+Electric Terrain
+Champ Électrifié
+Electrify
+Électrisation
+Ion Deluge
+Déluge Plasmique
+Magnet Rise
+Vol Magnétik
+Magnetic Flux
+Magné-Contrôle
+Thunder Wave
+Cage Éclair
+Light of Ruin
+Lumière du Néant
+Fleur Cannon
+Canon Floral
+Misty Explosion
+Explo-Brume
+Moonblast
+Pouvoir Lunaire
+Play Rough
+Câlinerie
+Strange Steam
+Vapeur Féérique
+Dazzling Gleam
+Éclat Magique
+Spirit Break
+Choc Émotionnel
+Draining Kiss
+Vampibaiser
+Disarming Voice
+Voix Enjôleuse
+Fairy Wind
+Vent Féérique
+Nature's Madness
+Ire de la Nature
+Aromatic Mist
+Brume Capiteuse
+Baby-Doll Eyes
+Regard Touchant
+Charm
+Charme
+Crafty Shield
+Vigilance
+Decorate
+Nappage
+Fairy Lock
+Verrou Enchanté
+Floral Healing
+Soin Floral
+Flower Shield
+Garde Florale
+Geomancy
+Géo-Contrôle
+Misty Terrain
+Champ Brumeux
+Moonlight
+Rayon Lune
+Sweet Kiss
+Doux Baiser
+Focus Punch
+Mitra-Poing
+Meteor Assault
+Joute Astrale
+High Jump Kick
+Pied Voltige
+Close Combat
+Close Combat
+Focus Blast
+Exploforce
+Superpower
+Surpuissance
+Cross Chop
+Coup Croix
+Dynamic Punch
+Dynamo-Poing
+Flying Press
+Flying Press
+Hammer Arm
+Marto-Poing
+Jump Kick
+Pied Sauté
+Sacred Sword
+Lame Sainte
+Thunderous Kick
+Coup Fulgurant
+Secret Sword
+Lame Ointe
+Sky Uppercut
+Stratopercut
+Aura Sphere
+Aurasphère
+Body Press
+Big Splash
+Submission
+Sacrifice
+Brick Break
+Casse-Brique
+Drain Punch
+Vampi-Poing
+Vital Throw
+Corps Perdu
+Wake-Up Slap
+Réveil Forcé
+Low Sweep
+Balayette
+Circle Throw
+Projection
+Force Palm
+Forte-Paume
+Revenge
+Vendetta
+Rolling Kick
+Mawashi Geri
+Storm Throw
+Yama Arashi
+Karate Chop
+Poing Karaté
+Mach Punch
+Mach Punch
+Power-Up Punch
+Poing Boost
+Rock Smash
+Éclate-Roc
+Vacuum Wave
+Onde Vide
+Double Kick
+Double Pied
+Arm Thrust
+Cogne
+Triple Kick
+Triple Pied
+Counter
+Riposte
+Final Gambit
+Tout ou Rien
+Low Kick
+Balayage
+Reversal
+Contre
+Seismic Toss
+Frappe Atlas
+Bulk Up
+Gonflette
+Coaching
+Coaching
+Detect
+Détection
+Mat Block
+Tatamigaeshi
+No Retreat
+Ultime Bastion
+Octolock
+Octoprise
+Quick Guard
+Prévention
+V-create
+Coup Victoire
+Blast Burn
+Rafale Feu
+Eruption
+Éruption
+Mind Blown
+Caboche-Kaboum
+Shell Trap
+Carapiège
+Blue Flare
+Flamme Bleue
+Burn Up
+Flamme Ultime
+Overheat
+Surchauffe
+Flare Blitz
+Boutefeu
+Pyro Ball
+Ballon Brûlant
+Fire Blast
+Déflagration
+Fusion Flare
+Flamme Croix
+Inferno
+Feu d'Enfer
+Magma Storm
+Vortex Magma
+Sacred Fire
+Feu Sacré
+Searing Shot
+Incendie
+Heat Wave
+Canicule
+Flamethrower
+Lance-Flammes
+Blaze Kick
+Pied Brûleur
+Fiery Dance
+Danse du Feu
+Fire Lash
+Fouet de Feu
+Fire Pledge
+Aire de Feu
+Lava Plume
+Ébullilave
+Fire Punch
+Poing Feu
+Mystical Fire
+Feu Ensorcelé
+Burning Jealousy
+Feu Envieux
+Flame Burst
+Rebondifeu
+Fire Fang
+Crocs Feu
+Flame Wheel
+Roue de Feu
+Incinerate
+Calcination
+Flame Charge
+Nitrocharge
+Ember
+Flammèche
+Fire Spin
+Danse Flammes
+Heat Crash
+Tacle Feu
+Sunny Day
+Zénith
+Will-O-Wisp
+Feu Follet
+Sky Attack
+Piqué
+Brave Bird
+Rapace
+Dragon Ascent
+Draco-Ascension
+Hurricane
+Vent Violent
+Aeroblast
+Aéroblast
+Beak Blast
+Bec-Canon
+Fly
+Vol
+Bounce
+Rebond
+Drill Peck
+Bec Vrille
+Oblivion Wing
+Mort'Ailes
+Air Slash
+Lame d'Air
+Chatter
+Babil
+Aerial Ace
+Aéropique
+Air Cutter
+Tranch'Air
+Pluck
+Picore
+Sky Drop
+Chute Libre
+Wing Attack
+Cru-Ailes
+Acrobatics
+Acrobatie
+Dual Wingbeat
+Double Volée
+Gust
+Tornade
+Peck
+Picpic
+Defog
+Anti-Brume
+Feather Dance
+Danse Plumes
+Mirror Move
+Mimique
+Roost
+Atterrissage
+Tailwind
+Vent Arrière
+Astral Barrage
+Éclat Spectral
+Shadow Force
+Revenant
+Poltergeist
+Esprit Frappeur
+Moongeist Beam
+Rayon Spectral
+Phantom Force
+Hantise
+Spectral Thief
+Clepto-Mânes
+Shadow Bone
+Os Ombre
+Shadow Ball
+Ball'Ombre
+Spirit Shackle
+Tisse Ombre
+Shadow Claw
+Griffe Ombre
+Hex
+Châtiment
+Ominous Wind
+Vent Mauvais
+Shadow Punch
+Poing Ombre
+Shadow Sneak
+Ombre Portée
+Astonish
+Étonnement
+Lick
+Léchouille
+Night Shade
+Ombre Nocturne
+Confuse Ray
+Onde Folie
+Curse
+Malédiction
+Destiny Bond
+Lien du Destin
+Grudge
+Rancune
+Nightmare
+Cauchemar
+Spite
+Dépit
+Trick-or-Treat
+Halloween
+Frenzy Plant
+Végé-Attaque
+Leaf Storm
+Tempête Verte
+Solar Blade
+Lame Solaire
+Petal Dance
+Danse Fleurs
+Power Whip
+Mégafouet
+Seed Flare
+Fulmigraine
+Solar Beam
+Lance-Soleil
+Wood Hammer
+Martobois
+Energy Ball
+Éco-Sphère
+Leaf Blade
+Lame Feuille
+Petal Blizzard
+Tempête Florale
+Apple Acid
+Acide Malique
+Drum Beating
+Tambour Battant
+Grass Pledge
+Aire d'Herbe
+Grav Apple
+Force G
+Seed Bomb
+Canon Graine
+Giga Drain
+Giga-Sangsue
+Horn Leech
+Encornebois
+Grassy Glide
+Gliss'Herbe
+Trop Kick
+Botte Sucrette
+Leaf Tornado
+Phytomixeur
+Magical Leaf
+Feuille Magik
+Needle Arm
+Poing Dard
+Razor Leaf
+Tranch'Herbe
+Vine Whip
+Fouet Lianes
+Branch Poke
+Tapotige
+Leafage
+Feuillage
+Mega Drain
+Méga-Sangsue
+Snap Trap
+Troquenard
+Bullet Seed
+Balle Graine
+Absorb
+Vole-Vie
+Grass Knot
+Noeud Herbe
+Aromatherapy
+Aromathérapie
+Cotton Guard
+Cotogarde
+Cotton Spore
+Spore Coton
+Forest's Curse
+Maléfice Sylvain
+Grass Whistle
+Siffl'Herbe
+Grassy Terrain
+Champ Herbu
+Ingrain
+Racines
+Jungle Healing
+Selve Salvatrice
+Leech Seed
+Vampigraine
+Sleep Powder
+Poudre Dodo
+Spiky Shield
+Pico-Défense
+Spore
+Spore
+Strength Sap
+Vole-Force
+Stun Spore
+Para-Spore
+Synthesis
+Synthèse
+Worry Seed
+Soucigraine
+Precipice Blades
+Lame Pangéenne
+Earthquake
+Séisme
+High Horsepower
+Cavalerie Lourde
+Earth Power
+Telluriforce
+Land's Wrath
+Force Chtonienne
+Thousand Arrows
+Myria-Flèches
+Thousand Waves
+Myria-Vagues
+Dig
+Tunnel
+Drill Run
+Tunnelier
+Stomping Tantrum
+Trépignement
+Scorching Sands
+Sable Ardent
+Bone Club
+Massd'Os
+Mud Bomb
+Boue-Bombe
+Bulldoze
+Piétisol
+Mud Shot
+Tir de Boue
+Bonemerang
+Osmerang
+Sand Tomb
+Tourbi-Sable
+Bone Rush
+Charge Os
+Mud-Slap
+Coud'Boue
+Fissure
+Abîme
+Magnitude
+Ampleur
+Mud Sport
+Lance-Boue
+Rototiller
+Fertilisation
+Sand Attack
+Jet de Sable
+Shore Up
+Amass'Sable
+Spikes
+Picots
+Freeze Shock
+Éclair Gelé
+Ice Burn
+Feu Glacé
+Glacial Lance
+Lance de Glace
+Blizzard
+Blizzard
+Ice Hammer
+Marteau de Glace
+Ice Beam
+Laser Glace
+Icicle Crash
+Chute Glace
+Ice Punch
+Poing Glace
+Freeze-Dry
+Lyophilisation
+Aurora Beam
+Onde Boréale
+Glaciate
+Ère Glaciaire
+Ice Fang
+Crocs Givre
+Avalanche
+Avalanche
+Frost Breath
+Souffle Glacé
+Icy Wind
+Vent Glace
+Ice Shard
+Éclats Glace
+Powder Snow
+Poudreuse
+Ice Ball
+Ball'Glace
+Icicle Spear
+Stalactite
+Triple Axel
+Triple Axel
+Sheer Cold
+Glaciation
+Aurora Veil
+Voile Aurore
+Hail
+Grêle
+Haze
+Buée Noire
+Mist
+Brume
+Explosion
+Explosion
+Self-Destruct
+Destruction
+Giga Impact
+Giga Impact
+Hyper Beam
+Ultralaser
+Boomburst
+Bang Sonique
+Last Resort
+Dernier Recours
+Skull Bash
+Coud'Krâne
+Double-Edge
+Damoclès
+Head Charge
+Peignée
+Mega Kick
+Ultimawashi
+Multi-Attack
+Coup Varia-Type
+Techno Blast
+Techno-Buster
+Thrash
+Mania
+Egg Bomb
+Bombe Oeuf
+Judgment
+Jugement
+Hyper Voice
+Mégaphone
+Revelation Dance
+Danse Éveil
+Rock Climb
+Escalade
+Take Down
+Bélier
+Uproar
+Brouhaha
+Body Slam
+Plaquage
+Extreme Speed
+Vitesse Extrême
+Hyper Fang
+Croc de Mort
+Mega Punch
+Ultimapoing
+Razor Wind
+Coupe-Vent
+Slam
+Souplesse
+Strength
+Force
+Tri Attack
+Triplattaque
+Crush Claw
+Éclate Griffe
+Relic Song
+Chant Antique
+Chip Away
+Attrition
+Dizzy Punch
+Uppercut
+Facade
+Façade
+Headbutt
+Coup d'Boule
+Retaliate
+Vengeance
+Secret Power
+Force Cachée
+Slash
+Tranche
+Smelling Salts
+Stimulant
+Horn Attack
+Koud'Korne
+Stomp
+Écrasement
+Covet
+Implore
+Hidden Power
+Puissance Cachée
+Round
+Chant Canon
+Swift
+Météores
+Vise Grip
+Force Poigne
+Cut
+Coupe
+Rapid Spin
+Tour Rapide
+Snore
+Ronflement
+Terrain Pulse
+Champlification
+Weather Ball
+Ball'Météo
+Echoed Voice
+Écho
+Fake Out
+Bluff
+False Swipe
+Faux-Chage
+Hold Back
+Retenue
+Pay Day
+Jackpot
+Pound
+Écras'Face
+Quick Attack
+Vive-Attaque
+Scratch
+Griffe
+Tackle
+Charge
+Double Hit
+Coup Double
+Feint
+Ruse
+Tail Slap
+Plumo-Queue
+Rage
+Frénésie
+Spike Cannon
+Picanon
+Comet Punch
+Poing Comète
+Fury Swipes
+Combo-Griffe
+Barrage
+Pilonnage
+Bind
+Étreinte
+Double Slap
+Torgnoles
+Fury Attack
+Furie
+Wrap
+Ligotage
+Constrict
+Constriction
+Bide
+Patience
+Crush Grip
+Presse
+Endeavor
+Effort
+Flail
+Gigotage
+Frustration
+Frustration
+Guillotine
+Guillotine
+Horn Drill
+Empal'Korne
+Natural Gift
+Don Naturel
+Present
+Cadeau
+Return
+Retour
+Sonic Boom
+Sonic Boom
+Spit Up
+Relâche
+Super Fang
+Croc Fatal
+Trump Card
+Atout
+Wring Out
+Essorage
+Acupressure
+Acupression
+After You
+Après Vous
+Assist
+Assistance
+Attract
+Attraction
+Baton Pass
+Relais
+Belly Drum
+Cognobidon
+Bestow
+Passe-Cadeau
+Block
+Barrage
+Camouflage
+Camouflage
+Captivate
+Séduction
+Celebrate
+Célébration
+Confide
+Confidence
+Conversion
+Conversion
+Conversion 2
+Conversion 2
+Copycat
+Photocopie
+Court Change
+Change-Côté
+Defense Curl
+Boul'Armure
+Disable
+Entrave
+Double Team
+Reflet
+Encore
+Encore
+Endure
+Ténacité
+Entrainment
+Ten-Danse
+Flash
+Flash
+Focus Energy
+Puissance
+Follow Me
+Par Ici
+Foresight
+Clairvoyance
+Glare
+Regard Médusant
+Growl
+Rugissement
+Growth
+Croissance
+Happy Hour
+Étrennes
+Harden
+Armure
+Heal Bell
+Glas de Soin
+Helping Hand
+Coup d'Main
+Hold Hands
+Mains Jointes
+Howl
+Grondement
+Laser Focus
+Affilage
+Leer
+Groz'Yeux
+Lock-On
+Verrouillage
+Lovely Kiss
+Grobisou
+Lucky Chant
+Air Veinard
+Me First
+Moi d'Abord
+Mean Look
+Regard Noir
+Metronome
+Métronome
+Milk Drink
+Lait à Boire
+Mimic
+Copie
+Mind Reader
+Lire-Esprit
+Minimize
+Lilliput
+Morning Sun
+Aurore
+Nature Power
+Force Nature
+Noble Roar
+Râle Mâle
+Odor Sleuth
+Flair
+Pain Split
+Balance
+Perish Song
+Requiem
+Play Nice
+Camaraderie
+Protect
+Abri
+Psych Up
+Boost
+Recover
+Soin
+Recycle
+Recyclage
+Reflect Type
+Copie-Type
+Refresh
+Régénération
+Roar
+Hurlement
+Safeguard
+Rune Protect
+Scary Face
+Grimace
+Screech
+Grincement
+Sharpen
+Affûtage
+Shell Smash
+Exuviation
+Simple Beam
+Rayon Simple
+Sing
+Berceuse
+Sketch
+Gribouille
+Slack Off
+Paresse
+Sleep Talk
+Blabla Dodo
+Smokescreen
+Brouillard
+Soft-Boiled
+E-Coque
+Splash
+Trempette
+Spotlight
+Projecteur
+Stockpile
+Stockage
+Stuff Cheeks
+Garde-à-Joues
+Substitute
+Clonage
+Supersonic
+Ultrason
+Swagger
+Vantardise
+Swallow
+Avale
+Sweet Scent
+Doux Parfum
+Swords Dance
+Danse Lames
+Tail Whip
+Mimi-Queue
+Tearful Look
+Larme à l'Oeil
+Teatime
+Thérémonie
+Teeter Dance
+Danse Folle
+Tickle
+Chatouille
+Transform
+Morphing
+Whirlwind
+Cyclone
+Wish
+Voeu
+Work Up
+Rengorgement
+Yawn
+Bâillement
+Belch
+Éructation
+Gunk Shot
+Détricanon
+Sludge Wave
+Cradovague
+Shell Side Arm
+Kokiyarme
+Sludge Bomb
+Bombe Beurk
+Poison Jab
+Direct Toxik
+Cross Poison
+Poison Croix
+Sludge
+Détritus
+Venoshock
+Choc Venin
+Clear Smog
+Bain de Smog
+Poison Fang
+Crochet Venin
+Poison Tail
+Queue-Poison
+Acid
+Acide
+Acid Spray
+Bombe Acide
+Smog
+Purédpois
+Poison Sting
+Dard-Venin
+Acid Armor
+Acidarmure
+Baneful Bunker
+Blockhaus
+Coil
+Enroulement
+Corrosive Gas
+Gaz Corrosif
+Gastro Acid
+Suc Digestif
+Poison Gas
+Gaz Toxik
+Poison Powder
+Poudre Toxik
+Purify
+Purification
+Toxic
+Toxik
+Toxic Spikes
+Pics Toxik
+Toxic Thread
+Fil Toxique
+Venom Drench
+Piège de Venin
+Prismatic Laser
+Laser Prisme
+Psycho Boost
+Psycho-Boost
+Future Sight
+Prescience
+Synchronoise
+Synchropeine
+Dream Eater
+Dévorêve
+Photon Geyser
+Photo-Geyser
+Psystrike
+Frappe Psy
+Freezing Glare
+Regard Glaçant
+Psychic
+Psyko
+Psychic Fangs
+Psycho-Croc
+Eerie Spell
+Sort Sinistre
+Expanding Force
+Vaste Pouvoir
+Extrasensory
+Extrasenseur
+Hyperspace Hole
+TrouDimensionnel
+Psyshock
+Choc Psy
+Zen Headbutt
+Psykoud'Boul
+Luster Purge
+Lumi-Éclat
+Mist Ball
+Ball'Brume
+Psycho Cut
+Coupe Psycho
+Psybeam
+Rafale Psy
+Heart Stamp
+Crève-Coeur
+Confusion
+Choc Mental
+Stored Power
+Force Ajoutée
+Mirror Coat
+Voile Miroir
+Psywave
+Vague Psy
+Agility
+Hâte
+Ally Switch
+Interversion
+Amnesia
+Amnésie
+Barrier
+Bouclier
+Calm Mind
+Plénitude
+Cosmic Power
+Force Cosmique
+Gravity
+Gravité
+Guard Split
+Partage Garde
+Guard Swap
+Permugarde
+Heal Block
+Anti-Soin
+Heal Pulse
+Vibra Soin
+Healing Wish
+Voeu Soin
+Heart Swap
+Permucoeur
+Hypnosis
+Hypnose
+Imprison
+Possessif
+Instruct
+Sommation
+Kinesis
+Télékinésie
+Light Screen
+Mur Lumière
+Lunar Dance
+Danse Lune
+Magic Coat
+Reflet Magik
+Magic Powder
+Poudre Magique
+Magic Room
+Zone Magique
+Meditate
+Yoga
+Miracle Eye
+Oeil Miracle
+Power Split
+Partage Force
+Power Swap
+Permuforce
+Power Trick
+Astuce Force
+Psychic Terrain
+Champ Psychique
+Psycho Shift
+Échange Psy
+Reflect
+Protection
+Rest
+Repos
+Role Play
+Imitation
+Skill Swap
+Échange
+Speed Swap
+Permuvitesse
+Telekinesis
+Lévikinésie
+Teleport
+Téléport
+Trick
+Tour de Magie
+Trick Room
+Distorsion
+Wonder Room
+Zone Étrange
+Head Smash
+Fracass'Tête
+Rock Wrecker
+Roc-Boulet
+Meteor Beam
+Laser Météore
+Diamond Storm
+Orage Adamantin
+Stone Edge
+Lame de Roc
+Power Gem
+Rayon Gemme
+Rock Slide
+Éboulement
+Ancient Power
+Pouvoir Antique
+Rock Tomb
+Tomberoche
+Rock Throw
+Jet-Pierres
+Smack Down
+Anti-Air
+Accelerock
+Vif Roc
+Rollout
+Roulade
+Rock Blast
+Boule Roc
+Rock Polish
+Poliroche
+Sandstorm
+Tempête de Sable
+Stealth Rock
+Piège de Roc
+Tar Shot
+Goudronnage
+Wide Guard
+Garde Large
+Doom Desire
+Voeu Destructeur
+Steel Beam
+Métalaser
+Steel Roller
+Métalliroue
+Behemoth Bash
+Aegis Maxima
+Behemoth Blade
+Gladius Maximus
+Iron Tail
+Queue de Fer
+Sunsteel Strike
+Choc Météore
+Meteor Mash
+Poing Météore
+Anchor Shot
+Ancrage
+Flash Cannon
+Luminocanon
+Iron Head
+Tête de Fer
+Smart Strike
+Estocorne
+Steel Wing
+Ailes d'Acier
+Double Iron Bash
+Écrous d'Poing
+Mirror Shot
+Miroi-Tir
+Magnet Bomb
+Bombe Aimant
+Gear Grind
+Lancécrou
+Metal Claw
+Griffe Acier
+Bullet Punch
+Pisto-Poing
+Gyro Ball
+Gyroballe
+Heavy Slam
+Tacle Lourd
+Metal Burst
+Fulmifer
+Autotomize
+Allègement
+Gear Up
+Engrenage
+Iron Defense
+Mur de Fer
+King's Shield
+Bouclier Royal
+Metal Sound
+Strido-Son
+Shift Gear
+Chgt Vitesse
+Hydro Cannon
+Hydroblast
+Water Spout
+Giclédo
+Hydro Pump
+Hydrocanon
+Origin Pulse
+Onde Originelle
+Steam Eruption
+Jet de Vapeur
+Crabhammer
+Pince-Masse
+Aqua Tail
+Hydro-Queue
+Muddy Water
+Ocroupi
+Sparkling Aria
+Aria de l'Écume
+Surf
+Surf
+Fishious Rend
+Branchicrok
+Liquidation
+Aqua-Brèche
+Dive
+Plongée
+Scald
+Ébullition
+Snipe Shot
+Tir de Précision
+Water Pledge
+Aire d'Eau
+Waterfall
+Cascade
+Razor Shell
+Coqui-Lame
+Brine
+Saumure
+Bubble Beam
+Bulles d'O
+Octazooka
+Octazooka
+Flip Turn
+Eau Revoir
+Water Pulse
+Vibraqua
+Aqua Jet
+Aqua-Jet
+Bubble
+Écume
+Water Gun
+Pistolet à O
+Clamp
+Claquoir
+Whirlpool
+Siphon
+Surging Strikes
+Torrent de Coups
+Water Shuriken
+Sheauriken
+Aqua Ring
+Anneau Hydro
+Life Dew
+Fontaine de Vie
+Rain Dance
+Danse Pluie
+Soak
+Détrempage
+Water Sport
+Tourniquet
+Withdraw
+Repli

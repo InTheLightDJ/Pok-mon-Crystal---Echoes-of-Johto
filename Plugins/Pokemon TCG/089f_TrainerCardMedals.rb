@@ -4,7 +4,8 @@
 #   L/R on the badge pages: Johto badges -> Kanto badges -> Medals
 #   The Medals page is only there while game switch MEDAL_SWITCH is ON.
 #   Like the original, medals not won yet aren't drawn.
-#   The page's top shows "Cards" (different cards owned) instead of Money.
+#   The page's top shows "Cards" (different cards owned) instead of Money
+#   and the PvP win streak (089s) instead of the Server Tokens.
 # Graphics (made by tools/make_medals.py from the decomp):
 #   UI/medals.png                   the 8 medals, 24x24 each, drawn 2x
 #   UI/card_medals.png / _f.png     the badge page with the box emptied
@@ -112,10 +113,9 @@ if defined?(PokemonTrainerCard_Scene)
         [_INTL("Cards"), 32, 104, :left, base, shadow],
         [owned.to_s, 222, 104, :right, base, shadow]
       ]
-      if defined?(NetworkClient) && NetworkClient.connected?
-        text << [_INTL("S-Tokens"), 32, 85, :left, base, shadow]
-        text << [NetworkTokens.balance.to_s, 222, 85, :right, base, shadow]
-      end
+      text << [_INTL("Win Streak"), 32, 85, :left, base, shadow]
+      streak = defined?(TCG::PrizeCounter) ? TCG::PrizeCounter.streak : 0
+      text << [streak.to_s, 222, 85, :right, base, shadow]
       pbDrawTextPositions(overlay, text)
     end
 

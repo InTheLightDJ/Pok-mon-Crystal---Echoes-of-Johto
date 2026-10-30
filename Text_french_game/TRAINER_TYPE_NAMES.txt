@@ -1,0 +1,694 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_TYPE_NAMES]
+Boarder
+Snowboarder
+Firebreather
+Cracheur de Feu
+Guitarist
+Guitariste
+Kimono Girl
+Kimonette
+Medium
+Moyen
+Officer
+Policier
+Pokéfan
+Pokéfan
+Sage
+Sage
+School Boy
+Écolier
+Skier
+Skieur
+Scuba Diver
+Plongeur
+Free Diver
+Apnéiste
+Teacher
+Professeur
+Rocket Exec.
+Admin. Rocket
+Mystical Man
+Homme Mystique
+Champ
+Maître
+Detective
+Détective
+Rocket Leader
+Chef Rocket
+Adeleine
+Adeleine
+Ansem
+Ansem
+Baby Luigi
+Baby Luigi
+Baby Mario
+Baby Mario
+Chiaki
+Chiaki
+Chun-Li
+Chun-Li
+Bandana Dee
+Bandana Dee
+Dante
+Dante
+Darth Vader
+Darth Vader
+Diana
+Diana
+Donald Duck
+Donald Duck
+Eggman
+Eggman
+Eusine
+Eusine
+Flygon
+Flygon
+Ganondorf
+Ganondorf
+Gehenna
+Gehenna
+Goofy
+Goofy
+Grovyle
+Grovyle
+Heihachi
+Heihachi
+Homura
+Homura
+Honoka
+Honoka
+Jenny
+Jenny
+Jin
+Jin
+Jirachi
+Jirachi
+Joker
+Joker
+Kairi
+Kairi
+KOS-MOS
+KOS-MOS
+Birdo
+Birdo
+Lear
+Lear
+Link
+Link
+Lucario
+Lucario
+Luffy
+Luffy
+Lum
+Lum
+Boo
+Boo
+Marisa
+Marisa
+Megumin
+Megumin
+Meowth
+Meowth
+Meta Knight
+Meta Knight
+Mewtwo
+Mewtwo
+Mickey Mouse
+Mickey Mouse
+Miku
+Miku
+Monika
+Monika
+Morrigan
+Morrigan
+Nakoruru
+Nakoruru
+Namine
+Namine
+Natsuki
+Natsuki
+Omega
+Omega
+Polka
+Polka
+Pyra
+Pyra
+Rimururu
+Rimururu
+Rouge
+Rouge
+Roxas
+Roxas
+Ruby Rose
+Ruby Rose
+Sakuya
+Sakuya
+Sayori
+Sayori
+Sephiroth
+Sephiroth
+Shadow
+Shadow
+Skull Kid
+Skull Kid
+Sonar
+Sonar
+Sonic
+Sonic
+Sora
+Sora
+Teto
+Teto
+Tifa
+Tifa
+Venti
+Venti
+Vivi
+Vivi
+Xion
+Xion
+Yuri
+Yuri
+Waluigi
+Waluigi
+Bowser Jr
+Bowser Jr
+CC Template
+CC Template
+Unknown_72
+Unknown_72
+Agumon
+Agumon
+Amy
+Amy
+Artoria
+Artoria
+Ash
+Ash
+Ash V4
+Ash V4
+Blaze
+Blaze
+Bowser
+Bowser
+Cloud
+Cloud
+Gammamon
+Gammamon
+Gohan Teen
+Gohan Teen
+Goku
+Goku
+Greninja
+Greninja
+Guilmon
+Guilmon
+Ichigo
+Ichigo
+Kirei
+Kirei
+Lara Croft
+Lara Croft
+Leaf
+Leaf
+Lich King
+Lich King
+Looker
+Looker
+Madoka
+Madoka
+Master Chief
+Master Chief
+Naruto
+Naruto
+Neku
+Neku
+Palutena
+Palutena
+Peach
+Peach
+Reimu
+Reimu
+Riku
+Riku
+Rosalina
+Rosalina
+Roy
+Roy
+Sabrina
+Sabrina
+Sailor Moon
+Sailor Moon
+Takato
+Takato
+The Knight
+The Knight
+Veemon
+Veemon
+Wario
+Wario
+Wingull
+Wingull
+Yugi
+Yugi
+Zelda ALTTP
+Zelda ALTTP
+Zelda TP
+Zelda TP
+Zero Suit Samus
+Zero Suit Samus
+Daisy
+Daisy
+Dark Samus
+Dark Samus
+Dedede
+Dedede
+Bugs
+Bugs
+Pokemon
+Pokemon
+Diddy Kong
+Diddy Kong
+Red
+Rouge
+Sygna Red
+Sygna Red
+Picclo
+Picclo
+Unknown_127
+Unknown_127
+Dixie Kong
+Dixie Kong
+Donkey Kong Jr
+Donkey Kong Jr
+Unknown_130
+Unknown_130
+Vegeta
+Vegeta
+Wes
+Wes
+Dawn
+Dawn
+Donkey Kong
+Donkey Kong
+Dry Bones
+Dry Bones
+Geno
+Geno
+Iggy
+Iggy
+King Bob-omb
+King Bob-omb
+King Boo
+King Boo
+King K. Rool
+King K. Rool
+Kirby
+Kirby
+Koopa
+Koopa
+Larry Koopa
+Larry Koopa
+Lemmy
+Lemmy
+Link (Time)
+Link (Time)
+Toon Link
+Toon Link
+Link (Twilight)
+Link (Twilight)
+Link (Wild)
+Link (Wild)
+Ludwig
+Ludwig
+Luigi
+Luigi
+Mallow
+Mallow
+Mario
+Mario
+Marx
+Marx
+Morton
+Morton
+Paratroopa
+Paratroopa
+Pauline
+Pauline
+Petey Piranha
+Petey Piranha
+Piranha Plant
+Piranha Plant
+Ridley
+Ridley
+Roy Koopa
+Roy Koopa
+Samus
+Samus
+Sheik
+Sheik
+Shy Guy
+Shy Guy
+Toad
+Toad
+Toadette
+Toadette
+Waddle Doo
+Waddle Doo
+Wendy
+Wendy
+Yoshi
+Yoshi
+Blastoise
+Blastoise
+Captain Falcon
+Captain Falcon
+Charizard
+Charizard
+Claus
+Claus
+Falco
+Falco
+Fox
+Fox
+Mr. Game and Watch
+Mr. Game and Watch
+Popo
+Popo
+Nana
+Nana
+Incineroar
+Incineroar
+Lucas
+Lucas
+Ness
+Ness
+Ninten
+Ninten
+Raichu
+Raichu
+Wolf
+Wolf
+AI
+AI
+ALEX
+ALEX
+ASRIEL
+ASRIEL
+BANJO KAZOOIE
+BANJO KAZOOIE
+BARK
+BARK
+BART
+BART
+BASS
+BASS
+BEAN
+BEAN
+BIG
+BIG
+BOMBERMAN
+BOMBERMAN
+BYLETH
+BYLETH
+CHAOS
+CHAOS
+CHARMY
+CHARMY
+CHROM
+CHROM
+CLASSIC SONIC
+CLASSIC SONIC
+CONAN
+CONAN
+CONKER
+CONKER
+CORRIN
+CORRIN
+CRASH
+CRASH
+CREAM
+CREAM
+CRONO
+CRONO
+CUPHEAD
+CUPHEAD
+DAFFY DUCK
+DAFFY DUCK
+DARWIN
+DARWIN
+DAVIS
+DAVIS
+DEKU
+DEKU
+DOOMGUY
+DOOMGUY
+DORAEMON
+DORAEMON
+DUCK HUNT
+DUCK HUNT
+EDWARD
+EDWARD
+EIGHT
+EIGHT
+ENDERMAN
+ENDERMAN
+ERDRICK
+ERDRICK
+ESPIO
+ESPIO
+FANG
+FANG
+FINN
+FINN
+FREDDY
+FREDDY
+GANGLE
+GANGLE
+GHOST BLINKY
+GHOST BLINKY
+GHOST CLYDE
+GHOST CLYDE
+GHOST INKY
+GHOST INKY
+GHOST PINKY
+GHOST PINKY
+GUMBALL
+GUMBALL
+IKE
+IKE
+INKLING BOY
+INKLING BOY
+INKLING GIRL
+INKLING GIRL
+ISAAC
+ISAAC
+ISABELLE
+ISABELLE
+JACK FROST
+JACK FROST
+JAKE
+JAKE
+JAX
+JAX
+JET
+JET
+KAZUYA
+KAZUYA
+KEN
+KEN
+KINGER
+KINGER
+KIRYU
+KIRYU
+KLONOA
+KLONOA
+LIP
+LIP
+LITTLE MAC
+LITTLE MAC
+LUCINA
+LUCINA
+LUMINARY
+LUMINARY
+LUZ
+LUZ
+MARTH
+MARTH
+MEGA MAN
+MEGA MAN
+METABEE
+METABEE
+METAL SONIC
+METAL SONIC
+MIGHTY
+MIGHTY
+MIN MIN
+MIN MIN
+MORGANA
+MORGANA
+MUGMAN
+MUGMAN
+MYTHRA
+MYTHRA
+NIGHTS
+NIGHTS
+NINTENDOG
+NINTENDOG
+OLIMAR
+OLIMAR
+PAC-MAN
+PAC-MAN
+PHOENIX
+PHOENIX
+PIT
+PIT
+PITTOO
+PITTOO
+POMNI
+POMNI
+PROTO MAN
+PROTO MAN
+RAGATHA
+RAGATHA
+RAY
+RAY
+RAYMAN
+RAYMAN
+RENA
+RENA
+ROB
+ROB
+ROBIN
+ROBIN
+ROLL
+ROLL
+ROY
+ROY
+RYU
+RYU
+SAKURA
+SAKURA
+SANTA CLAUS
+SANTA CLAUS
+SEVERA
+SEVERA
+SHANTAE
+SHANTAE
+SHOVEL KNIGHT
+SHOVEL KNIGHT
+SHULK
+SHULK
+SIMON TTGL
+SIMON TTGL
+SNAKE
+SNAKE
+SOLO
+SOLO
+SPIDER-MAN
+SPIDER-MAN
+SPIKE
+SPIKE
+SPYRO
+SPYRO
+STEVE
+STEVE
+STEVEN
+STEVEN
+TAI
+TAI
+TAILS
+TAILS
+TERRY
+TERRY
+TIKAL
+TIKAL
+TOMBA
+TOMBA
+VECTOR
+VECTOR
+VERGIL
+VERGIL
+VILLAGER BOY
+VILLAGER BOY
+VILLAGER GIRL
+VILLAGER GIRL
+WII FIT TRAINER
+WII FIT TRAINER
+ZERO
+ZERO
+ZOMBIE
+ZOMBIE
+ZOOBLE
+ZOOBLE
+LEAF SYGNA
+LEAF SYGNA
+FEM RANGER
+FEM RANGER
+KAREN
+KAREN
+WHITNEY
+WHITNEY
+GhostGuy
+GhostGuy
+Pokémon Trainer
+Dresseur Pokémon
+Rival
+Rival
+Beauty
+Beauté
+Biker
+Motard
+Bird Keeper
+Ornithologue
+Bug Catcher
+Scout
+Burglar
+Cambrioleur
+Fisherman
+Pêcheur
+Gambler
+Parieur
+Gentleman
+Gentleman
+Hiker
+Montagnard
+Poké Maniac
+Pokémaniac
+Professor
+Professeur
+Sailor
+Marin
+Scientist
+Scientifique
+Super Nerd
+Intello
+Black Belt
+Karatéka
+Camper
+Campeur
+Picnicker
+Campeuse
+Cool Trainer
+Topdresseur
+Youngster
+Gamin
+Lass
+Fillette
+Psychic
+Psychique
+Swimmer
+Nageur
+Twins
+Jumelles
+Team Rocket
+Team Rocket
+Gym Leader
+Champion d'Arène
+Elite Four
+Conseil 4
+Champion
+Maître

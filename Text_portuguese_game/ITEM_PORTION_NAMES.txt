@@ -1,0 +1,206 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAMES]
+set of Auspicious Armor
+conjunto de Armadura Auspiciosa
+set of Malicious Armor
+conjunto de Armadura Maliciosa
+capsule of Booster Energy
+cápsula de Energia Impulsionadora
+hunk of Metal Alloy
+pedaço de Liga Metálica
+jar of Honey
+pote de Mel
+bag of Stardust
+saco de Poeira Estelar
+Relic Copper coin
+moeda de Cobre Antigo
+Relic Silver coin
+moeda de Prata Antiga
+Relic Gold coin
+moeda de Ouro Antigo
+bag of Growth Mulch
+saco de Adubo de Crescimento
+bag of Damp Mulch
+saco de Adubo Úmido
+bag of Stable Mulch
+saco de Adubo Estável
+bag of Gooey Mulch
+saco de Adubo Pegajoso
+pile of Shoal Salt
+monte de Sal do Baixio
+jar of Red Nectar
+pote de Néctar Vermelho
+jar of Yellow Nectar
+pote de Néctar Amarelo
+jar of Pink Nectar
+pote de Néctar Rosa
+jar of Purple Nectar
+pote de Néctar Roxo
+bag of Bright Powder
+saco de Pó Brilhante
+pair of Safety Goggles
+par de Óculos de Proteção
+set of Protective Pads
+conjunto de Protetores
+pair of Heavy-Duty Boots
+par de Botas Reforçadas
+pair of Choice Specs
+par de Óculos Escolhidos
+lump of Light Clay
+torrão de Argila Leve
+blob of Black Sludge
+bolha de Lodo Negro
+serving of Leftovers
+porção de Restos
+clump of Luminous Moss
+tufo de Musgo Luminoso
+bottle of Throat Spray
+frasco de Spray de Garganta
+voucher for Room Service
+vale de Serviço de Quarto
+pair of Wise Glasses
+par de Óculos Sábios
+jar of Lax Incense
+pote de Incenso Relaxante
+jar of Full Incense
+pote de Incenso Cheio
+jar of Luck Incense
+pote de Incenso da Sorte
+jar of Pure Incense
+pote de Incenso Puro
+jar of Sea Incense
+pote de Incenso do Mar
+jar of Wave Incense
+pote de Incenso das Ondas
+jar of Rose Incense
+pote de Incenso de Rosa
+jar of Odd Incense
+pote de Incenso Estranho
+jar of Rock Incense
+pote de Incenso de Pedra
+piece of Charcoal
+pedaço de Carvão
+piece of Never-Melt Ice
+pedaço de Gelo Eterno
+bag of Soft Sand
+saco de Areia Macia
+pile of Silver Powder
+monte de Pó Prateado
+pair of Black Glasses
+par de Óculos Escuros
+bag of Metal Powder
+saco de Pó Metálico
+bag of Quick Powder
+saco de Pó Rápido
+scrap of Reaper Cloth
+retalho de Tecido Ceifador
+dollop of Whipped Dream
+colherada de Sonho Batido
+bag of Sacred Ash
+saco de Cinza Sagrada
+bag of Pewter Crunchies
+saco de Crocante de Pewter
+cup of Berry Juice
+copo de Suco de Frutinha
+bottle of Fresh Water
+frasco de Água Fresca
+bottle of Soda Pop
+frasco de Refrigerante
+can of Lemonade
+lata de Limonada
+bottle of Moomoo Milk
+frasco de Leite Moomoo
+dose of Energy Powder
+dose de Pó Energético
+dose of Heal Powder
+dose de Pó Curativo
+comb of Max Honey
+favo de Mel Máximo
+bottle of PP Up
+frasco de PP Mais
+bottle of PP Max
+frasco de PP Máximo
+bottle of HP Up
+frasco de PS Mais
+bottle of Protein
+frasco de Proteína
+bottle of Iron
+frasco de Ferro
+bottle of Calcium
+frasco de Cálcio
+bottle of Zinc
+frasco de Zinco
+bottle of Carbos
+frasco de Carbos
+sprig of Lonely Mint
+raminho de Menta Solitária
+sprig of Adamant Mint
+raminho de Menta Rígida
+sprig of Naughty Mint
+raminho de Menta Travessa
+sprig of Brave Mint
+raminho de Menta Corajosa
+sprig of Bold Mint
+raminho de Menta Ousada
+sprig of Impish Mint
+raminho de Menta Marota
+sprig of Lax Mint
+raminho de Menta Frouxa
+sprig of Relaxed Mint
+raminho de Menta Relaxada
+sprig of Modest Mint
+raminho de Menta Modesta
+sprig of Mild Mint
+raminho de Menta Amena
+sprig of Rash Mint
+raminho de Menta Precipitada
+sprig of Quiet Mint
+raminho de Menta Quieta
+sprig of Calm Mint
+raminho de Menta Calma
+sprig of Gentle Mint
+raminho de Menta Gentil
+sprig of Careful Mint
+raminho de Menta Cuidadosa
+sprig of Sassy Mint
+raminho de Menta Atrevida
+sprig of Timid Mint
+raminho de Menta Tímida
+sprig of Hasty Mint
+raminho de Menta Apressada
+sprig of Jolly Mint
+raminho de Menta Alegre
+sprig of Naive Mint
+raminho de Menta Ingênua
+sprig of Serious Mint
+raminho de Menta Séria
+piece of Grass Mail
+pedaço de Carta de Grama
+piece of Flame Mail
+pedaço de Carta Chama
+piece of Bubble Mail
+pedaço de Carta Bolha
+piece of Bloom Mail
+pedaço de Carta Florida
+piece of Tunnel Mail
+pedaço de Carta Túnel
+piece of Steel Mail
+pedaço de Carta de Aço
+piece of Heart Mail
+pedaço de Carta Coração
+piece of Snow Mail
+pedaço de Carta de Neve
+piece of Space Mail
+pedaço de Carta Espacial
+piece of Air Mail
+pedaço de Carta Aérea
+piece of Mosaic Mail
+pedaço de Carta Mosaico
+piece of Brick Mail
+pedaço de Carta de Tijolo
+cluster of Max Mushrooms
+cacho de Cogumelos Máximos
+set of Reins of Unity
+conjunto de Rédeas da União

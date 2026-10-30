@@ -117,7 +117,7 @@ module TCG
         return if nd.hand.empty?
         target = :opp_hand
       else
-        return if nd.not_in_deck >= DECK_SIZE - 1
+        return if nd.cards_in_deck <= 1
         target = :opp_deck
       end
       ai_use_power(duel, c, { :Peek => target })
@@ -189,7 +189,7 @@ module TCG
     # HandleAIEnergyTrans (Venusaur Lv67). mode :retreat / :attack / :to_bench
     #--------------------------------------------------------------------------
     def grass_energy_cards_in(d, slots)
-      (0...DECK_SIZE).select do |i|
+      (0...d.deck_size).select do |i|
         loc = d.card_locations[i]
         (loc & CARD_LOCATION_PLAY_AREA) != 0 && slots.include?(loc & 0x0f) && d.card_id(i) == :GRASS_ENERGY
       end

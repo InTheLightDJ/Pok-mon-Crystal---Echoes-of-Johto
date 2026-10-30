@@ -286,7 +286,29 @@ module TCG
       side = side_of(d)
       side == @turn ? shuffle_cards_in_deck : as_non_turn { shuffle_cards_in_deck }
       @ui.message(_INTL("{1} and its cards were shuffled into the deck.", name))
+      neo3_promote_bench(d)
       @ui.refresh(self)
+    end
+
+    # d's Active spot was emptied (not by a Knock Out): d picks a Benched
+    # Pokémon to be the new Active one, and the Bench closes up
+    def neo3_promote_bench(d)
+      return if d.arena
+      slots = (1...MAX_PLAY_AREA_POKEMON).select { |e| d.play_area[e] && d.slot_hp[e] > 0 }
+      unless slots.empty?
+        side = side_of(d)
+        ctrl = @controllers[side]
+        # (the AI's switch logic reads the Active Pokémon, which is gone: it
+        # takes the Benched Pokémon with the most HP)
+        if ctrl.is_a?(PlayerController)
+          pick = -> { ctrl.effect_choice(self, :play_area, :ForcedSwitch, slots, false) }
+          sel = side == @turn ? pick.call : as_non_turn { pick.call }
+        end
+        sel = slots.max_by { |e| d.slot_hp[e] } unless slots.include?(sel)
+        d.swap_play_area_pokemon(PLAY_AREA_ARENA, sel)
+        @ui.message(_INTL("{1} is now the Active Pokémon.", d.card(d.arena).name))
+      end
+      d.shift_pokemon_to_first_play_area_slots
     end
 
     # discard the top n cards of d's deck
@@ -647,7 +669,7 @@ module TCG
     # its Energy cost too
     en, total = du.attached_energies_with_energy_burn(d, PLAY_AREA_ARENA)
     need = 0
-    ok = NUM_COLORED_TYPES.times.all? { |col| need += copied.cost[col]; copied.cost[col] <= en[col] }
+    ok = COLORED_TYPES.all? { |col| need += copied.cost[col]; copied.cost[col] <= en[col] }
     unless ok && total - need >= copied.cost[COLORLESS]
       du.ui.message(_INTL("Not enough Energy for {1}.", copied.name))
       next true
@@ -944,6 +966,7 @@ module TCG
       cards.each { |i| nd.add_card_to_hand(i) }
       nd.clear_all_status_conditions
       du.ui.message(_INTL("{1} and its cards went back to the opponent's hand.", name))
+      du.neo3_promote_bench(nd)
       du.ui.refresh(du)
     else
       du.neo_forced_switch

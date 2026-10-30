@@ -8,10 +8,16 @@
 #   - right away when a new card is added while logged in
 # The server keeps it in players.tcg_cards and adds it to the score
 # (ServerStuff: handlers/leaderboard.js, db/database.js SCORE_EXPR).
+# Rare holo pulls add points too: a booster pack opened (any pack, from a
+# reward, the Card Shop, a Destiny pack...) whose holo is one of
+# HOLO_PULL_POINTS adds that many points, kept in the save. Buying or
+# trading for a holo card doesn't count.
 #==============================================================================
 class PokemonGlobalMetadata
   attr_writer :tcg_cards_seen
   def tcg_cards_seen; @tcg_cards_seen ||= {}; end   # card id => true
+  attr_writer :tcg_pull_points
+  def tcg_pull_points; @tcg_pull_points || 0; end   # rare holo pulls
 end
 
 module TCG
@@ -25,9 +31,27 @@ module TCG
 
   def self.cards_seen_count; cards_seen.size; end
 
+  # holo tier pulled from a booster pack => World Rankings points
+  HOLO_PULL_POINTS = { :GREY_WHITE => 1, :BLACK_YELLOW => 2, :BLACK_PURPLE => 3, :BLACK_RED => 5 }
+
+  def self.pull_points; global ? global.tcg_pull_points : (@test_pull_points ||= 0); end
+
+  # what goes to the server: different cards owned + rare pull points
+  def self.ranking_score; cards_seen_count + pull_points; end
+
+  # a booster pack's cards, just opened: points for its rare holos;
+  # returns the points added
+  def self.pack_pulled(cards)
+    pts = cards.sum { |id| HOLO_PULL_POINTS[holo_tier(id)].to_i }
+    return 0 if pts == 0
+    global ? global.tcg_pull_points += pts : @test_pull_points = pull_points + pts
+    sync_ranking_cards
+    pts
+  end
+
   def self.sync_ranking_cards
     return unless defined?(NetworkClient) && NetworkClient.connected?
-    NetworkClient.send_msg({ action: 'card_sync', cards: cards_seen_count })
+    NetworkClient.send_msg({ action: 'card_sync', cards: ranking_score })
   rescue StandardError
     nil
   end
@@ -55,10 +79,17 @@ if defined?(NetworkClient)
       def send_msg(hash)
         r = tcg_ranking_send_msg(hash)
         if hash.is_a?(Hash) && (hash[:action] || hash["action"]).to_s == "dex_sync"
-          tcg_ranking_send_msg({ action: "card_sync", cards: TCG.cards_seen_count }) rescue nil
+          tcg_ranking_send_msg({ action: "card_sync", cards: TCG.ranking_score }) rescue nil
         end
         r
       end
     end
+  end
+end
+
+module TCG
+  # "A rare pull!" after a pack with a rare holo (points from pack_pulled)
+  def self.pull_message(pts)
+    pbMessage(_INTL("A rare pull! +{1} World Rankings points!", pts)) if pts.to_i > 0
   end
 end

@@ -100,7 +100,7 @@ module TCG
     end
 
     def move_card_to_discard_pile_if_in_play_area(d, id)
-      (0...DECK_SIZE).each do |i|
+      (0...d.deck_size).each do |i|
         next if (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) == 0
         d.put_card_in_discard_pile(i) if d.card_id(i) == id
       end

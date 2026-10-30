@@ -1,0 +1,1588 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_NAME_PLURALS]
+Purple Apricorns
+Ghicocche Viola
+Battle Candy Ss
+Caramelle Lotta S
+Battle Candy Ms
+Caramelle Lotta M
+Battle Candy Ls
+Caramelle Lotta L
+GS Balls
+GS Ball
+Plip Balls
+Plip Ball
+Rift Balls
+Squarcio Ball
+TM101s
+MT101
+TM102s
+MT102
+TM103s
+MT103
+TM104s
+MT104
+TM105s
+MT105
+TM106s
+MT106
+TM107s
+MT107
+HM07s
+MN07
+Day Skip Berries
+Bacche Saltagiorno
+Card Keys
+Apriporte
+Basement Keys
+Chiavi sotterr.
+Clear Bells
+Campane Chiare
+Rainbow Wings
+Ale d'Iride
+Silver Wing
+Aladargenti
+κΜ Box Links
+Link Box κΜ
+Black Augurites
+Augiti nere
+Peat Blocks
+Blocchi di torba
+Linking Cords
+Fili dell'unione
+Adamant Crystals
+Adamasferoidi
+Lustrous Globes
+Splendisferoidi
+Legend Plates
+Lastraleggende
+Blank Plates
+Lastraripristini
+Hopo Berries
+Bacche Hopo
+Griseous Cores
+Grigiosferoidi
+Feather Balls
+Piuma Ball
+Wing Balls
+Wing Ball
+Jet Balls
+Jet Ball
+Leaden Balls
+Megaton Ball
+Gigaton Balls
+Gigaton Ball
+Origin Balls
+Origin Ball
+Strange Balls
+Strange Ball
+Auspicious Armors
+Armature fauste
+Malicious Armors
+Armature infauste
+Scroll of Darkness
+Rotoli del Buio
+Scroll of Waters
+Rotoli dell'Acqua
+Leader's Crests
+Simboli del capo
+Booster Energies
+Capsule energetiche
+Ability Shields
+Scudi abilità
+Clear Amulets
+Ciondolochiari
+Mirror Herbs
+Foglie carboni
+Punching Gloves
+Guantoni
+Covert Cloaks
+Anonimanti
+Loaded Dices
+Dadi truccati
+Gimmighoul Coins
+Monete di Gimmighoul
+Tiny Bamboo Shoots
+Minibambù
+Big Bamboo Shoots
+Grandi bambù
+Rotom Phones
+Smart Rotom
+Scarlet Books
+Libri scarlatti
+Violet Books
+Libri violetti
+Health Mochi
+Mochi della salute
+Muscle Mochi
+Mochi della potenza
+Resist Mochi
+Mochi della tutela
+Genius Mochi
+Mochi dell'ingegno
+Clever Mochi
+Mochi dell'intuito
+Swift Mochi
+Mochi della reazione
+Fresh-Start Mochi
+Mochi Ripartenza
+Fairy Feathers
+Piume fatate
+Syrupy Apples
+Sciroppomi
+Unremarkable Teacups
+Tazze dozzinali
+Masterpiece Teacups
+Tazze eccezionali
+Wellspring Masks
+Maschere Pozzo
+Hearthflame Masks
+Maschere Focolare
+Cornerstone Masks
+Maschere Fondamenta
+Teal Masks
+Maschere Turchese
+Metal Alloys
+Metalli compositi
+Indigo Disks
+Dischi Indaco
+Mythical Pecha Berries
+Baccapesche Mitica
+Synchro Machines
+Sincromacchine
+Meteorites
+Meteoriti
+Briar's Books
+Libri di Briar
+Booster Packs
+Bustine di Carte
+Legend Packs
+Bustine Leggenda
+Red Scales
+Squame Rosse
+Cool Blocks
+Cubi Classe
+Great Cool Blocks
+Cubi Classe Grandi
+Ultra Cool Blocks
+Cubi Classe Ultra
+Beauty Blocks
+Cubi Bellezza
+Great Beauty Blocks
+Cubi Bellezza Grandi
+Ultra Beauty Blocks
+Cubi Bellezza Ultra
+Cute Blocks
+Cubi Grazia
+Great Cute Blocks
+Cubi Grazia Grandi
+Ultra Cute Blocks
+Cubi Grazia Ultra
+Smart Blocks
+Cubi Acume
+Great Smart Blocks
+Cubi Acume Grandi
+Ultra Smart Blocks
+Cubi Acume Ultra
+Tough Blocks
+Cubi Grinta
+Great Tough Blocks
+Cubi Grinta Grandi
+Ultra Tough Blocks
+Cubi Grinta Ultra
+Faster Shoes
+Scarpi Veloci
+Gauntlets
+Guanti
+Machettes
+Machete
+Surf Boards
+Tavole da Surf
+Wing Suits
+Tute Alare
+Floaties
+Braccioli
+Heavy Rocks
+Rocce Pesanti
+Umbrellas
+Ombrelli
+Flashlights
+Torce
+Repels
+Repellenti
+Super Repels
+Superrepellenti
+Max Repels
+Repellenti Max
+Black Flutes
+Flauti Neri
+White Flutes
+Flauti Bianchi
+Honey
+Mieli
+Red Shards
+Cocci Rossi
+Yellow Shards
+Cocci Gialli
+Blue Shards
+Cocci Blu
+Green Shards
+Cocci Verdi
+Fire Stones
+Pietrafocaie
+Thunder Stones
+Pietratuoni
+Water Stones
+Pietraidriche
+Leaf Stones
+Pietrafoglie
+Moon Stones
+Pietralunari
+Sun Stones
+Pietrasolari
+Dusk Stones
+Neropietre
+Dawn Stones
+Pietralbori
+Shiny Stones
+Pietrabrilli
+Ice Stones
+Pietrageli
+Sweet Apples
+Dolcepomi
+Tart Apples
+Aspropomi
+Cracked Pots
+Teiere rotte
+Chipped Pots
+Teiere crepate
+Galarica Cuffs
+Fasce Galarnoce
+Galarica Wreaths
+Corone Galarnoce
+Red Apricorns
+Ghicocche Rosse
+Yellow Apricorns
+Ghicocche Gialle
+Blue Apricorns
+Ghicocche Blu
+Green Apricorns
+Ghicocche Verdi
+Pink Apricorns
+Ghicocche Rosa
+White Apricorns
+Ghicocche Bianche
+Black Apricorns
+Ghicocche Nere
+Helix Fossils
+Helixfossili
+Dome Fossils
+Domofossili
+Old Ambers
+Ambre antiche
+Root Fossils
+Radifossili
+Claw Fossils
+Fossilunghie
+Skull Fossils
+Fossilcrani
+Armor Fossils
+Fossilscudi
+Cover Fossils
+Fossiltappi
+Plume Fossils
+Fossilpiume
+Jaw Fossils
+Fossilmascelle
+Sail Fossils
+Fossilpinne
+Fossilized Birds
+Ornitofossili
+Fossilized Fish
+Ittiofossili
+Fossilized Drakes
+Dracofossili
+Fossilized Dinos
+Plesiofossili
+Pretty Feathers
+Piumabelle
+Tiny Mushrooms
+Minifunghi
+Big Mushrooms
+Grandi Funghi
+Balm Mushrooms
+Profumfunghi
+Pearls
+Perle
+Big Pearls
+Grandi Perle
+Pearl Strings
+Trittiperle
+Stardusts
+Polvostelle
+Star Pieces
+Pezzi Stella
+Comet Shards
+Pezzi Cometa
+Nuggets
+Pepite
+Big Nuggets
+Granpepite
+Heart Scales
+Squame Cuore
+Slowpoke Tails
+Code Slowpoke
+Rare Bones
+Ossi Rari
+Relic Coppers
+Soldantici
+Relic Silvers
+Ducatantici
+Relic Golds
+Doblonantici
+Relic Vases
+Vasantici
+Relic Bands
+Bracciantici
+Relic Statues
+Statuantiche
+Relic Crowns
+Coronantiche
+Growth Mulch
+Fertilrapidi
+Damp Mulch
+Fertilidri
+Stable Mulch
+Fertilsaldi
+Gooey Mulch
+Fertilcolle
+Shoal Salts
+Sali Ondosi
+Shoal Shells
+Gusciondosi
+Odd Keystones
+Roccianime
+Red Nectars
+Nettari rossi
+Yellow Nectars
+Nettari gialli
+Pink Nectars
+Nettari rosa
+Purple Nectars
+Nettari viola
+Air Balloons
+Palloncini
+Bright Powders
+Luminpolveri
+Eviolites
+Evolcondense
+Float Stones
+Pietralievi
+Destiny Knots
+Destincomuni
+Rocky Helmets
+Bitorzolelmi
+Assault Vests
+Corpetti assalti
+Safety Goggles
+Visierantisabbie
+Protective Pads
+Smorzaurti
+Heavy-Duty Boots
+Scarponi robusti
+Utility Umbrellas
+Superombrelli
+Eject Buttons
+Pulsantefughe
+Eject Packs
+Zainofughe
+Red Cards
+Cartelrossi
+Shed Shells
+Disfogusci
+Smoke Balls
+Palle Fumo
+Lucky Eggs
+Fortunuova
+Exp. Shares
+Condividi esp.
+Amulet Coins
+Monetamuleti
+Soothe Bells
+Calmanelle
+Cleanse Tags
+Velopuri
+Choice Bands
+Bendascelte
+Choice Specs
+Lentiscelte
+Choice Scarves
+Stolascelte
+Heat Rocks
+Rocciacalde
+Damp Rocks
+Rocciaumide
+Smooth Rocks
+Roccialisce
+Icy Rocks
+Rocciafredde
+Terrain Extenders
+Fissacampi
+Light Clays
+Crete Luce
+Grip Claws
+Presartigli
+Binding Bands
+Legafasce
+Big Roots
+Granradici
+Black Sludges
+Fangopeci
+Leftovers
+Avanzi
+Shell Bells
+Conchinelle
+Mental Herbs
+Mentalerbe
+White Herbs
+Erbachiare
+Power Herbs
+Vigorerbe
+Absorb Bulbs
+Bulbi
+Cell Batteries
+Ricaripile
+Luminous Moss
+Muschioluci
+Snowballs
+Palle di neve
+Weakness Policies
+Vulneropolizze
+Blunder Policies
+Fiascopolizze
+Throat Sprays
+Spray gola
+Adrenaline Orbs
+Fifasfere
+Room Services
+Distorservizi
+Electric Seeds
+Elettrosemi
+Grassy Seeds
+Erbasemi
+Misty Seeds
+Nebbiasemi
+Psychic Seeds
+Psicosemi
+Life Orbs
+Assorbisfere
+Expert Belts
+Abilcinture
+Metronomes
+Plessimetri
+Muscle Bands
+Muscolbande
+Wise Glasses
+Saviocchiali
+Razor Claws
+Affilartigli
+Scope Lenses
+Mirini
+Wide Lenses
+Grandelenti
+Zoom Lenses
+Zoomlenti
+King's Rocks
+Rocce di Re
+Razor Fangs
+Affilodenti
+Lagging Tails
+Rallentocode
+Quick Claws
+Rapidartigli
+Focus Bands
+Bandane
+Focus Sashes
+Focalnastri
+Flame Orbs
+Fiammosfere
+Toxic Orbs
+Tossicsfere
+Sticky Barbs
+Vischiopunte
+Iron Balls
+Ferropalle
+Ring Targets
+Facilsagli
+Macho Braces
+Crescicappe
+Power Weights
+Vigorpesi
+Power Bracers
+Vigorcerchi
+Power Belts
+Vigorfasce
+Power Lenses
+Vigorlenti
+Power Bands
+Vigorbande
+Power Anklets
+Vigorgliere
+Lax Incenses
+Distrarome
+Full Incenses
+Gonfioarome
+Luck Incenses
+Fortunarome
+Pure Incenses
+Puroarome
+Sea Incenses
+Marearome
+Wave Incenses
+Ondarome
+Rose Incenses
+Rosarome
+Odd Incenses
+Bizzoarome
+Rock Incenses
+Roccioarome
+Charcoals
+Carbonelle
+Mystic Waters
+Acque Magiche
+Magnets
+Calamite
+Miracle Seeds
+Miracolsemi
+Never-Melt Ices
+Gelomai
+Black Belts
+Cinturanere
+Poison Barbs
+Velenaculei
+Soft Sand
+Sabbie Soffici
+Sharp Beaks
+Beccaffilati
+Twisted Spoons
+Cucchiai Torti
+Silver Powders
+Argenpolveri
+Hard Stones
+Pietradure
+Spell Tags
+Spettrotarghe
+Dragon Fangs
+Dentedidraghi
+Black Glasses
+Occhialineri
+Metal Coats
+Metalcoperte
+Silk Scarves
+Sciarpe Seta
+Flame Plates
+Lastraroghi
+Splash Plates
+Lastraidri
+Zap Plates
+Lastrasaette
+Meadow Plates
+Lastraprati
+Icicle Plates
+Lastrageli
+Fist Plates
+Lastrapugni
+Toxic Plates
+Lastrafieli
+Earth Plates
+Lastragei
+Sky Plates
+Lastracieli
+Mind Plates
+Lastramenti
+Insect Plates
+Lastrabachi
+Stone Plates
+Lastrapietre
+Spooky Plates
+Lastratetre
+Draco Plates
+Lastradrakon
+Dread Plates
+Lastratimori
+Iron Plates
+Lastraferri
+Pixie Plates
+Lastraspiritelli
+Fire Gems
+Bijoufuochi
+Water Gems
+Bijouacque
+Electric Gems
+Bijouelettri
+Grass Gems
+Bijouerbe
+Ice Gems
+Bijoughiacci
+Fighting Gems
+Bijoulotte
+Poison Gems
+Bijouveleni
+Ground Gems
+Bijouterre
+Flying Gems
+Bijouvolanti
+Psychic Gems
+Bijoupsici
+Bug Gems
+Bijoucoleotteri
+Rock Gems
+Bijourocce
+Ghost Gems
+Bijouspettri
+Dragon Gems
+Bijoudraghi
+Dark Gems
+Bijoubui
+Steel Gems
+Bijouacciai
+Fairy Gems
+Bijoufolletti
+Normal Gems
+Bijounormali
+Light Balls
+Elettropalle
+Lucky Punches
+Fortunpugni
+Metal Powders
+Metalpolveri
+Quick Powders
+Velopolveri
+Thick Clubs
+Ossospessi
+Leeks
+Gambi
+Soul Dews
+Cuorugiade
+Deep Sea Teeth
+Denti Abissi
+Deep Sea Scales
+Squamabissi
+Adamant Orbs
+Adamasfere
+Lustrous Orbs
+Splendisfere
+Griseous Orbs
+Grigiosfere
+Rusted Swords
+Spade rovinate
+Rusted Shields
+Scudi rovinati
+Douse Drives
+Idromoduli
+Shock Drives
+Voltmoduli
+Burn Drives
+Piromoduli
+Chill Drives
+Gelomoduli
+Fire Memories
+ROM Fuoco
+Water Memories
+ROM Acqua
+Electric Memories
+ROM Elettro
+Grass Memories
+ROM Erba
+Ice Memories
+ROM Ghiaccio
+Fighting Memories
+ROM Lotta
+Poison Memories
+ROM Veleno
+Ground Memories
+ROM Terra
+Flying Memories
+ROM Volante
+Psychic Memories
+ROM Psico
+Bug Memories
+ROM Coleottero
+Rock Memories
+ROM Roccia
+Ghost Memories
+ROM Spettro
+Dragon Memories
+ROM Drago
+Dark Memories
+ROM Buio
+Steel Memories
+ROM Acciaio
+Fairy Memories
+ROM Folletto
+Everstones
+Pietrastanti
+Dragon Scales
+Squame Drago
+Upgrades
+Upgrade
+Dubious Discs
+Dubbiodischi
+Protectors
+Coperture
+Electirizers
+Elettritori
+Magmarizers
+Magmatori
+Reaper Cloths
+Terrorpanni
+Prism Scales
+Squame Belle
+Oval Stones
+Pietraovali
+Whipped Dreams
+Dolcespume
+Sachets
+Bustine aromi
+Strawberry Sweets
+Bonbonfragole
+Love Sweets
+Bonboncuori
+Berry Sweets
+Bonbonboschi
+Clover Sweets
+Bonbonfogli
+Flower Sweets
+Bonbonfiori
+Star Sweets
+Bonbonstelle
+Ribbon Sweets
+Bonbonfiocchi
+Venusaurites
+Venusauriti
+Charizardite Xs
+Charizarditi X
+Charizardite Ys
+Charizarditi Y
+Blastoisinites
+Blastoisiti
+Beedrillites
+Beedrilliti
+Pidgeotites
+Pidgeotiti
+Alakazites
+Alakazamiti
+Slowbronites
+Slowbroiti
+Gengarites
+Gengariti
+Kangaskhanites
+Kangaskhaniti
+Pinsirites
+Pinsiriti
+Gyaradosites
+Gyaradositi
+Aerodactylites
+Aerodactyliti
+Mewtwonite Xs
+Mewtwoiti X
+Mewtwonite Ys
+Mewtwoiti Y
+Ampharosites
+Ampharositi
+Steelixites
+Steelixiti
+Scizorites
+Scizoriti
+Heracronites
+Heracrossiti
+Houndoominites
+Houndoomiti
+Tyranitarites
+Tyranitariti
+Sceptilites
+Sceptiliti
+Blazikenites
+Blazikeniti
+Swampertites
+Swampertiti
+Gardevoirites
+Gardevoiriti
+Sablenites
+Sableyiti
+Mawilites
+Mawiliti
+Aggronites
+Aggroniti
+Medichamites
+Medichamiti
+Manectites
+Manectriciti
+Sharpedonites
+Sharpediti
+Cameruptites
+Cameruptiti
+Altarianites
+Altariti
+Banettites
+Banettiti
+Absolites
+Absoliti
+Glalitites
+Glaliti
+Salamencites
+Salamenciti
+Metagrossites
+Metagrossiti
+Latiasites
+Latiasiti
+Latiosites
+Latiositi
+Lopunnites
+Lopunniti
+Garchompites
+Garchompiti
+Lucarionites
+Lucariti
+Abomasites
+Abomasnowiti
+Galladites
+Galladiti
+Audinites
+Audiniti
+Diancites
+Dianciti
+Red Orbs
+Gemme rosse
+Blue Orbs
+Gemme blu
+Potions
+Pozioni
+Super Potions
+Superpozioni
+Hyper Potions
+Iperpozioni
+Max Potions
+Pozioni Max
+Full Restores
+Ricariche totali
+Sacred Ashes
+Ceneremagiche
+Awakenings
+Sveglie
+Antidotes
+Antidoti
+Burn Heals
+Antiscottature
+Paralyze Heals
+Antiparalisi
+Ice Heals
+Antigeli
+Full Heals
+Cure totali
+Pewter Crunchies
+Plumbeosalatini
+Rage Candy Bars
+Iramelle
+Lava Cookies
+Lavottini
+Old Gateaux
+Dolci Gateau
+Casteliacones
+Conostropoli
+Lumiose Galettes
+Pan di Lumi
+Shalour Sables
+Yantafrollini
+Big Malasadas
+Malasade maxi
+Revives
+Revitalizzanti
+Max Revives
+Revitalizz. Max
+Berry Juices
+Succodibacche
+Sweet Hearts
+Dolcecuori
+Fresh Waters
+Acque fresche
+Soda Pops
+Gassose
+Lemonades
+Lemonsucchi
+Moomoo Milks
+Latti Mumu
+Energy Powders
+Polvenerge
+Energy Roots
+Radicenerge
+Heal Powders
+Polvocure
+Revival Herbs
+Vitalerbe
+Max Honeys
+Mielemax
+Ethers
+Eteri
+Max Ethers
+Eteri Max
+Elixirs
+Elisir
+Max Elixirs
+Elisir Max
+PP Ups
+PP-Su
+PP Maxes
+PP-Max
+HP Ups
+PS-Su
+Proteins
+Proteine
+Irons
+Ferri
+Calciums
+Calci
+Zincs
+Zinchi
+Carbos
+Carburanti
+Health Feathers
+Piumsaluti
+Muscle Feathers
+Piumpotenze
+Resist Feathers
+Piumtutele
+Genius Feathers
+Piumingegni
+Clever Feathers
+Piumintuiti
+Swift Feathers
+Piumreazioni
+Lonely Mints
+Mente Schive
+Adamant Mints
+Mente Decise
+Naughty Mints
+Mente Birbone
+Brave Mints
+Mente Audaci
+Bold Mints
+Mente Sicure
+Impish Mints
+Mente Scaltre
+Lax Mints
+Mente Fiacche
+Relaxed Mints
+Mente Placide
+Modest Mints
+Mente Modeste
+Mild Mints
+Mente Miti
+Rash Mints
+Mente Ardenti
+Quiet Mints
+Mente Quiete
+Calm Mints
+Mente Calme
+Gentle Mints
+Mente Gentili
+Careful Mints
+Mente Caute
+Sassy Mints
+Mente Vivaci
+Timid Mints
+Mente Timide
+Hasty Mints
+Mente Leste
+Jolly Mints
+Mente Allegre
+Naive Mints
+Mente Ingenue
+Serious Mints
+Mente Serie
+Ability Capsule
+Capsule abilità
+Ability Patches
+Cerotti abilità
+Exp. Candy XSs
+Caram. Esp. XS
+Exp. Candy Ss
+Caram. Esp. S
+Exp. Candy Ms
+Caram. Esp. M
+Exp. Candy Ls
+Caram. Esp. L
+Exp. Candy XLs
+Caram. Esp. XL
+Rare Candies
+Caramelle rare
+Master Balls
+Master Ball
+Ultra Balls
+Ultra Ball
+Great Balls
+Mega Ball
+Poké Balls
+Poké Ball
+Safari Balls
+Safari Ball
+Sport Balls
+Gara Ball
+Net Balls
+Rete Ball
+Dive Balls
+Sub Ball
+Nest Balls
+Minor Ball
+Repeat Balls
+Bis Ball
+Timer Balls
+Timer Ball
+Luxury Balls
+Chic Ball
+Premier Balls
+Premier Ball
+Dusk Balls
+Scuro Ball
+Heal Balls
+Cura Ball
+Quick Balls
+Velox Ball
+Cherish Balls
+Pregio Ball
+Fast Balls
+Rapid Ball
+Level Balls
+Level Ball
+Lure Balls
+Esca Ball
+Heavy Balls
+Peso Ball
+Love Balls
+Love Ball
+Friend Balls
+Friend Ball
+Moon Balls
+Luna Ball
+Dream Balls
+Dream Ball
+Beast Balls
+UC Ball
+TM01s
+MT01
+TM02s
+MT02
+TM03s
+MT03
+TM04s
+MT04
+TM05s
+MT05
+TM06s
+MT06
+TM07s
+MT07
+TM08s
+MT08
+TM09s
+MT09
+TM10s
+MT10
+TM11s
+MT11
+TM12s
+MT12
+TM13s
+MT13
+TM14s
+MT14
+TM15s
+MT15
+TM16s
+MT16
+TM17s
+MT17
+TM18s
+MT18
+TM19s
+MT19
+TM20s
+MT20
+TM21s
+MT21
+TM22s
+MT22
+TM23s
+MT23
+TM24s
+MT24
+TM25s
+MT25
+TM26s
+MT26
+TM27s
+MT27
+TM28s
+MT28
+TM29s
+MT29
+TM30s
+MT30
+TM31s
+MT31
+TM32s
+MT32
+TM33s
+MT33
+TM34s
+MT34
+TM35s
+MT35
+TM36s
+MT36
+TM37s
+MT37
+TM38s
+MT38
+TM39s
+MT39
+TM40s
+MT40
+TM41s
+MT41
+TM42s
+MT42
+TM43s
+MT43
+TM44s
+MT44
+TM45s
+MT45
+TM46s
+MT46
+TM47s
+MT47
+TM48s
+MT48
+TM49s
+MT49
+TM50s
+MT50
+TM51s
+MT51
+TM52s
+MT52
+TM53s
+MT53
+TM54s
+MT54
+TM55s
+MT55
+TM56s
+MT56
+TM57s
+MT57
+TM58s
+MT58
+TM59s
+MT59
+TM60s
+MT60
+TM61s
+MT61
+TM62s
+MT62
+TM63s
+MT63
+TM64s
+MT64
+TM65s
+MT65
+TM66s
+MT66
+TM67s
+MT67
+TM68s
+MT68
+TM69s
+MT69
+TM70s
+MT70
+TM71s
+MT71
+TM72s
+MT72
+TM73s
+MT73
+TM74s
+MT74
+TM75s
+MT75
+TM76s
+MT76
+TM77s
+MT77
+TM78s
+MT78
+TM79s
+MT79
+TM80s
+MT80
+TM81s
+MT81
+TM82s
+MT82
+TM83s
+MT83
+TM84s
+MT84
+TM85s
+MT85
+TM86s
+MT86
+TM87s
+MT87
+TM88s
+MT88
+TM89s
+MT89
+TM90s
+MT90
+TM91s
+MT91
+TM92s
+MT92
+TM93s
+MT93
+TM94s
+MT94
+TM95s
+MT95
+TM96s
+MT96
+TM97s
+MT97
+TM98s
+MT98
+TM99s
+MT99
+TM100s
+MT100
+HM01s
+MN01
+HM02s
+MN02
+HM03s
+MN03
+HM04s
+MN04
+HM05s
+MN05
+HM06s
+MN06
+Cheri Berries
+Baccaliegie
+Chesto Berries
+Baccastagne
+Pecha Berries
+Baccapesche
+Rawst Berries
+Baccafraghi
+Aspear Berries
+Baccaperine
+Leppa Berries
+Baccamele
+Oran Berries
+Baccarance
+Persim Berries
+Baccaki
+Lum Berries
+Baccaprugne
+Sitrus Berries
+Baccacedri
+Figy Berries
+Baccafici
+Wiki Berries
+Baccakiwi
+Mago Berries
+Baccamanghi
+Aguav Berries
+Baccaguave
+Iapapa Berries
+Baccapaie
+Razz Berries
+Baccalampon
+Bluk Berries
+Baccamore
+Nanab Berries
+Baccabane
+Wepear Berries
+Baccapere
+Pinap Berries
+Baccananas
+Pomeg Berries
+Baccagrane
+Kelpsy Berries
+Baccalghe
+Qualot Berries
+Baccaloquat
+Hondew Berries
+Baccamelon
+Grepa Berries
+Baccauve
+Tamato Berries
+Baccamodori
+Cornn Berries
+Baccavene
+Magost Berries
+Baccagostan
+Rabuta Berries
+Baccambutan
+Nomel Berries
+Baccalemon
+Spelon Berries
+Baccamelos
+Pamtre Berries
+Baccapalme
+Watmel Berries
+Baccacomeri
+Durin Berries
+Baccadurian
+Belue Berries
+Baccartilli
+Occa Berries
+Baccacai
+Passho Berries
+Baccapasfli
+Wacan Berries
+Baccaparmen
+Rindo Berries
+Baccarindi
+Yache Berries
+Baccamoye
+Chople Berries
+Baccarosmel
+Kebia Berries
+Baccakebie
+Shuca Berries
+Baccanache
+Coba Berries
+Baccababe
+Payapa Berries
+Baccapayape
+Tanga Berries
+Baccaitan
+Charti Berries
+Baccaciofi
+Kasib Berries
+Baccacitrus
+Haban Berries
+Baccahaban
+Colbur Berries
+Baccaxan
+Babiri Berries
+Baccababiri
+Roseli Berries
+Baccarcadè
+Chilan Berries
+Baccacinlan
+Liechi Berries
+Baccalici
+Ganlon Berries
+Baccalongan
+Salac Berries
+Baccasalak
+Petaya Berries
+Baccapitaye
+Apicot Berries
+Baccacocche
+Lansat Berries
+Baccalangse
+Starf Berries
+Baccambole
+Enigma Berries
+Baccaenigme
+Micle Berries
+Baccaracoli
+Custap Berries
+Baccacrele
+Jaboca Berries
+Baccajabe
+Rowap Berries
+Baccaroam
+Kee Berries
+Baccalighie
+Maranga Berries
+Baccapani
+Grass Mail
+Mess. Erba
+Flame Mail
+Mess. Fiamma
+Bubble Mail
+Mess. Bolla
+Bloom Mail
+Mess. Petalo
+Tunnel Mail
+Mess. Tunnel
+Steel Mail
+Mess. Lega
+Heart Mail
+Mess. Cuore
+Snow Mail
+Mess. Neve
+Space Mail
+Mess. Spazio
+Air Mail
+Mess. Aereo
+Mosaic Mail
+Mess. Iride
+Brick Mail
+Mess. Muro
+X Attacks
+Attacchi X
+X Attack 2s
+Attacchi X-2
+X Attack 3s
+Attacchi X-3
+X Attack 6s
+Attacchi X-6
+X Defenses
+Difese X
+X Defense 2s
+Difese X-2
+X Defense 3s
+Difese X-3
+X Defense 6s
+Difese X-6
+X Sp. Atks
+Att. Speciali X
+X Sp. Atk 2s
+Att. Sp. X-2
+X Sp. Atk 3s
+Att. Sp. X-3
+X Sp. Atk 6s
+Att. Sp. X-6
+X Sp. Defs
+Dif. Speciali X
+X Sp. Def 2s
+Dif. Spec. X-2
+X Sp. Def 3s
+Dif. Spec. X-3
+X Sp. Def 6s
+Dif. Spec. X-6
+X Speeds
+Velocità X
+X Speed 2s
+Velocità X-2
+X Speed 3s
+Velocità X-3
+X Speed 6s
+Velocità X-6
+X Accuracies
+Precisioni X
+X Accuracy 2s
+Precisioni X-2
+X Accuracy 3s
+Precisioni X-3
+X Accuracy 6s
+Precisioni X-6
+Max Mushrooms
+Fungomax
+Dire Hits
+Supercolpi
+Dire Hit 2s
+Supercolpi 2
+Dire Hit 3s
+Supercolpi 3
+Guard Specs.
+Superguardie
+Reset Urges
+Ripristini
+Ability Urges
+Chiamabilità
+Item Urges
+Chiamoggetti
+Item Drops
+Lascioggetti
+Blue Flutes
+Flauti Blu
+Yellow Flutes
+Flauti Gialli
+Red Flutes
+Flauti Rossi
+Poké Dolls
+Poké Bambole
+Fluffy Tails
+Code Skitty
+Poké Toys
+Pokégingilli
+Bicycles
+Biciclette
+Old Rods
+Ami Vecchi
+Good Rods
+Ami Buoni
+Super Rods
+Super Ami
+Itemfinders
+Cercastrumenti
+Dowsing Machines
+Ricerche strum.
+Poké Radars
+Poké Radar
+Town Maps
+Mappe città
+Escape Ropes
+Funi di fuga
+Coin Cases
+Salvadanai
+Poké Flutes
+Poké Flauti
+Soot Sacks
+Sacchi ceneri
+Silph Scopes
+Spettrosonde
+Devon Scopes
+Devonscopi
+Squirt Bottles
+Annaffiatoi
+Sprayducks
+Sprayduck
+Wailmer Pails
+Vasi Wailmer
+Sprinklotads
+Irrigalotad
+Gracideas
+Gracidee
+Reveal Glasses
+Verispecchi
+Prison Bottles
+Vasi del vincolo
+Rotom Catalogs
+Cataloghi Rotom
+Zygarde Cubes
+Teche Zygarde
+DNA Splicers
+Cunei DNA
+N-Solarizers
+Necrosolix
+N-Lunarizers
+Necrolunix
+Reins of Unity
+Briglie legami
+Oval Charms
+Ovamuleti
+Shiny Charms
+Cromamuleti
+Catching Charms
+Catturamuleti
+Exp. Charms
+Esperienzamuleti
+Mega Rings
+Megacerchi
+Aurora Tickets
+Biglietti Aurora
+Old Sea Maps
+Mappe Stinta

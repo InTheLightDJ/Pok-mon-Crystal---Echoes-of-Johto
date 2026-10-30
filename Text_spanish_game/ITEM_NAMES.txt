@@ -1,0 +1,1590 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_NAMES]
+Purple Apricorn
+Bonguri Morado
+Battle Candy S
+Caramelo Combate S
+Battle Candy M
+Caramelo Combate M
+Battle Candy L
+Caramelo Combate L
+GS Ball
+GS Ball
+Plip Ball
+Plip Ball
+Rift Ball
+Grieta Ball
+TM101
+MT101
+TM102
+MT102
+TM103
+MT103
+TM104
+MT104
+TM105
+MT105
+TM106
+MT106
+TM107
+MT107
+HM07
+MO07
+Day-Skip Berry
+Baya Saltadía
+Card Key
+Llave Magnética
+Basement Key
+Llave Sótano
+Clear Bell
+Cascabel Claro
+Rainbow Wing
+Ala Arcoíris
+Silver Wing
+Ala Plateada
+κΜ Box Link
+Enlace Caja κΜ
+Black Augurite
+Mineral Negro
+Peat Block
+Bloque de Turba
+Linking Cord
+Cordón Unión
+Adamant Crystal
+Gran Diamansfera
+Lustrous Globe
+Gran Lustresfera
+Legend Plate
+Tabla Legendaria
+Blank Plate
+Tabla Neutra
+Hopo Berry
+Baya Lúpulo
+Griseous Core
+Gran Griseosfera
+Feather Ball
+Pluma Ball
+Wing Ball
+Ala Ball
+Jet Ball
+Aero Ball
+Leaden Ball
+Kilo Ball
+Gigaton Ball
+Quintal Ball
+Origin Ball
+Origen Ball
+Strange Ball
+Extraña Ball
+Auspicious Armor
+Armadura Auspiciosa
+Malicious Armor
+Armadura Maldita
+Scroll of Darkness
+Manuscrito Sombras
+Scroll of Waters
+Manuscrito Aguas
+Leader's Crest
+Distintivo de Líder
+Booster Energy
+Energía Potenciadora
+Ability Shield
+Escudo Habilidad
+Clear Amulet
+Amuleto Puro
+Mirror Herb
+Hierba Copia
+Punching Glove
+Guante de Boxeo
+Covert Cloak
+Capa Furtiva
+Loaded Dice
+Dado Trucado
+Gimmighoul Coin
+Moneda de Gimmighoul
+Tiny Bamboo Shoot
+Bambú Pequeño
+Big Bamboo Shoot
+Bambú Grande
+Rotom Phone
+SmartRotom
+Scarlet Book
+Libro Escarlata
+Violet Book
+Libro Púrpura
+Health Mochi
+Mochi Vigor
+Muscle Mochi
+Mochi Músculo
+Resist Mochi
+Mochi Aguante
+Genius Mochi
+Mochi Intelecto
+Clever Mochi
+Mochi Mente
+Swift Mochi
+Mochi Ímpetu
+Fresh-Start Mochi
+Mochi Reinicio
+Fairy Feather
+Pluma Feérica
+Syrupy Apple
+Manzana Melosa
+Unremarkable Teacup
+Cuenco Mediocre
+Masterpiece Teacup
+Cuenco Exquisito
+Wellspring Mask
+Máscara Fuente
+Hearthflame Mask
+Máscara Horno
+Cornerstone Mask
+Máscara Cimiento
+Teal Mask
+Máscara Turquesa
+Metal Alloy
+Metal Compuesto
+Indigo Disk
+Disco Índigo
+Mythical Pecha Berry
+Baya Meloc Singular
+Synchro Machine
+Máquina Sincro
+Meteorite
+Meteorito
+Briar's Book
+Libro de Cristal
+Booster Pack
+Sobre de Cartas
+Legend Pack
+Sobre Leyenda
+Red Scale
+Escama Roja
+Cool Block
+Bloque Carisma
+Great Cool Block
+Bloque Carisma Súper
+Ultra Cool Block
+Bloque Carisma Ultra
+Beauty Block
+Bloque Belleza
+Great Beauty Block
+Bloque Belleza Súper
+Ultra Beauty Block
+Bloque Belleza Ultra
+Cute Block
+Bloque Dulzura
+Great Cute Block
+Bloque Dulzura Súper
+Ultra Cute Block
+Bloque Dulzura Ultra
+Smart Block
+Bloque Ingenio
+Great Smart Block
+Bloque Ingenio Súper
+Ultra Smart Block
+Bloque Ingenio Ultra
+Tough Block
+Bloque Dureza
+Great Tough Block
+Bloque Dureza Súper
+Ultra Tough Block
+Bloque Dureza Ultra
+Faster Shoes
+Zapatillas Veloces
+Gauntlets
+Guanteletes
+Machette
+Machete
+Surf Board
+Tabla de Surf
+Wing Suit
+Traje Alado
+Floaties
+Flotadores
+Heavy Rock
+Roca Pesada
+Umbrella
+Paraguas
+Flashlight
+Linterna
+Repel
+Repelente
+Super Repel
+Superrepelente
+Max Repel
+Repelente Máximo
+Black Flute
+Flauta Negra
+White Flute
+Flauta Blanca
+Honey
+Miel
+Red Shard
+Parte Roja
+Yellow Shard
+Parte Amarilla
+Blue Shard
+Parte Azul
+Green Shard
+Parte Verde
+Fire Stone
+Piedra Fuego
+Thunder Stone
+Piedra Trueno
+Water Stone
+Piedra Agua
+Leaf Stone
+Piedra Hoja
+Moon Stone
+Piedra Lunar
+Sun Stone
+Piedra Solar
+Dusk Stone
+Piedra Noche
+Dawn Stone
+Piedra Alba
+Shiny Stone
+Piedra Día
+Ice Stone
+Piedra Hielo
+Sweet Apple
+Manzana Dulce
+Tart Apple
+Manzana Ácida
+Cracked Pot
+Tetera Agrietada
+Chipped Pot
+Tetera Rota
+Galarica Cuff
+Brazal Galanuez
+Galarica Wreath
+Corona Galanuez
+Red Apricorn
+Bonguri Rojo
+Yellow Apricorn
+Bonguri Amarillo
+Blue Apricorn
+Bonguri Azul
+Green Apricorn
+Bonguri Verde
+Pink Apricorn
+Bonguri Rosa
+White Apricorn
+Bonguri Blanco
+Black Apricorn
+Bonguri Negro
+Helix Fossil
+Fósil Hélix
+Dome Fossil
+Fósil Domo
+Old Amber
+Ámbar Viejo
+Root Fossil
+Fósil Raíz
+Claw Fossil
+Fósil Garra
+Skull Fossil
+Fósil Cráneo
+Armor Fossil
+Fósil Coraza
+Cover Fossil
+Fósil Tapa
+Plume Fossil
+Fósil Pluma
+Jaw Fossil
+Fósil Mandíbula
+Sail Fossil
+Fósil Aleta
+Fossilized Bird
+Ornitofósil
+Fossilized Fish
+Ictiofósil
+Fossilized Drake
+Dracofósil
+Fossilized Dino
+Plesiofósil
+Pretty Feather
+Pluma Bella
+Tiny Mushroom
+Miniseta
+Big Mushroom
+Seta Grande
+Balm Mushroom
+Seta Aroma
+Pearl
+Perla
+Big Pearl
+Perla Grande
+Pearl String
+Sarta Perlas
+Stardust
+Polvo Estelar
+Star Piece
+Trozo Estrella
+Comet Shard
+Fragmento Cometa
+Nugget
+Pepita
+Big Nugget
+Maxipepita
+Heart Scale
+Escama Corazón
+Slowpoke Tail
+Cola Slowpoke
+Rare Bone
+Hueso Raro
+Relic Copper
+Real Cobre
+Relic Silver
+Real Plata
+Relic Gold
+Real Oro
+Relic Vase
+Ánfora
+Relic Band
+Brazal
+Relic Statue
+Efigie Antigua
+Relic Crown
+Corona Antigua
+Growth Mulch
+Abono Rápido
+Damp Mulch
+Abono Lento
+Stable Mulch
+Abono Fijador
+Gooey Mulch
+Abono Brote
+Shoal Salt
+Sal Cardumen
+Shoal Shell
+Concha Cardumen
+Odd Keystone
+Piedra Espíritu
+Red Nectar
+Néctar Rojo
+Yellow Nectar
+Néctar Amarillo
+Pink Nectar
+Néctar Rosa
+Purple Nectar
+Néctar Violeta
+Air Balloon
+Globo Helio
+Bright Powder
+Polvo Brillo
+Eviolite
+Mineral Evol
+Float Stone
+Piedra Pómez
+Destiny Knot
+Lazo Destino
+Rocky Helmet
+Casco Dentado
+Assault Vest
+Chaleco Asalto
+Safety Goggles
+Gafa Protectora
+Protective Pads
+Paracontacto
+Heavy-Duty Boots
+Botas Gruesas
+Utility Umbrella
+Parasol Multiuso
+Eject Button
+Botón Escape
+Eject Pack
+Mochila Escape
+Red Card
+Tarjeta Roja
+Shed Shell
+Muda Concha
+Smoke Ball
+Bola de Humo
+Lucky Egg
+Huevo Suerte
+Exp. Share
+Repartir Exp
+Amulet Coin
+Moneda Amuleto
+Soothe Bell
+Cascabel Alivio
+Cleanse Tag
+Amuleto
+Choice Band
+Cinta Elección
+Choice Specs
+Gafas Elección
+Choice Scarf
+Pañuelo Elección
+Heat Rock
+Roca Calor
+Damp Rock
+Roca Lluvia
+Smooth Rock
+Roca Suave
+Icy Rock
+Roca Helada
+Terrain Extender
+Cubresuelos
+Light Clay
+Refleluz
+Grip Claw
+Garra Garfio
+Binding Band
+Banda Atadura
+Big Root
+Raíz Grande
+Black Sludge
+Lodo Negro
+Leftovers
+Restos
+Shell Bell
+Cascabel Concha
+Mental Herb
+Hierba Mental
+White Herb
+Hierba Blanca
+Power Herb
+Hierba Única
+Absorb Bulb
+Tubérculo
+Cell Battery
+Pila
+Luminous Moss
+Musgo Brillante
+Snowball
+Bola de Nieve
+Weakness Policy
+Seguro Debilidad
+Blunder Policy
+Seguro Fallo
+Throat Spray
+Espray Bucal
+Adrenaline Orb
+Nerviosfera
+Room Service
+Servicio Raro
+Electric Seed
+Semilla Electro
+Grassy Seed
+Semilla Hierba
+Misty Seed
+Semilla Bruma
+Psychic Seed
+Semilla Psique
+Life Orb
+Vidasfera
+Expert Belt
+Cinta Experto
+Metronome
+Metrónomo
+Muscle Band
+Cinta Fuerte
+Wise Glasses
+Gafas Especiales
+Razor Claw
+Garra Afilada
+Scope Lens
+Periscopio
+Wide Lens
+Lupa
+Zoom Lens
+Telescopio
+King's Rock
+Roca del Rey
+Razor Fang
+Colmillo Agudo
+Lagging Tail
+Cola Plúmbea
+Quick Claw
+Garra Rápida
+Focus Band
+Cinta Aguante
+Focus Sash
+Banda Aguante
+Flame Orb
+Llamasfera
+Toxic Orb
+Toxisfera
+Sticky Barb
+Toxiestrella
+Iron Ball
+Bola Férrea
+Ring Target
+Blanco
+Macho Brace
+Brazal Firme
+Power Weight
+Pesa Recia
+Power Bracer
+Brazal Recio
+Power Belt
+Cinto Recio
+Power Lens
+Lente Recia
+Power Band
+Banda Recia
+Power Anklet
+Franja Recia
+Lax Incense
+Incienso Suave
+Full Incense
+Incienso Lento
+Luck Incense
+Incienso Duplo
+Pure Incense
+Incienso Puro
+Sea Incense
+Incienso Marino
+Wave Incense
+Incienso Acua
+Rose Incense
+Incienso Floral
+Odd Incense
+Incienso Raro
+Rock Incense
+Incienso Roca
+Charcoal
+Carbón
+Mystic Water
+Agua Mística
+Magnet
+Imán
+Miracle Seed
+Semilla Milagro
+Never-Melt Ice
+Hielo Perpetuo
+Black Belt
+Cinturón Negro
+Poison Barb
+Flecha Venenosa
+Soft Sand
+Arena Fina
+Sharp Beak
+Pico Afilado
+Twisted Spoon
+Cuchara Torcida
+Silver Powder
+Polvo Plata
+Hard Stone
+Piedra Dura
+Spell Tag
+Hechizo
+Dragon Fang
+Colmillo de Dragón
+Black Glasses
+Gafas de Sol
+Metal Coat
+Revest. Metálico
+Silk Scarf
+Pañuelo de Seda
+Flame Plate
+Tabla Llama
+Splash Plate
+Tabla Linfa
+Zap Plate
+Tabla Trueno
+Meadow Plate
+Tabla Pradal
+Icicle Plate
+Tabla Helada
+Fist Plate
+Tabla Fuerte
+Toxic Plate
+Tabla Tóxica
+Earth Plate
+Tabla Terrax
+Sky Plate
+Tabla Cielo
+Mind Plate
+Tabla Mental
+Insect Plate
+Tabla Bicho
+Stone Plate
+Tabla Pétrea
+Spooky Plate
+Tabla Terror
+Draco Plate
+Tabla Draco
+Dread Plate
+Tabla Oscura
+Iron Plate
+Tabla Acero
+Pixie Plate
+Tabla Duende
+Fire Gem
+Gema Fuego
+Water Gem
+Gema Agua
+Electric Gem
+Gema Eléctrica
+Grass Gem
+Gema Planta
+Ice Gem
+Gema Hielo
+Fighting Gem
+Gema Lucha
+Poison Gem
+Gema Veneno
+Ground Gem
+Gema Tierra
+Flying Gem
+Gema Voladora
+Psychic Gem
+Gema Psíquica
+Bug Gem
+Gema Bicho
+Rock Gem
+Gema Roca
+Ghost Gem
+Gema Fantasma
+Dragon Gem
+Gema Dragón
+Dark Gem
+Gema Siniestra
+Steel Gem
+Gema Acero
+Fairy Gem
+Gema Hada
+Normal Gem
+Gema Normal
+Light Ball
+Bola Luminosa
+Lucky Punch
+Puño Suerte
+Metal Powder
+Polvo Metálico
+Quick Powder
+Polvo Veloz
+Thick Club
+Hueso Grueso
+Leek
+Puerro
+Stick
+Palo
+Soul Dew
+Rocío Bondad
+Deep Sea Tooth
+Diente Marino
+Deep Sea Scale
+Escama Marina
+Adamant Orb
+Diamansfera
+Lustrous Orb
+Lustresfera
+Griseous Orb
+Griseosfera
+Rusted Sword
+Espada Oxidada
+Rusted Shield
+Escudo Oxidado
+Douse Drive
+HidroROM
+Shock Drive
+FulgoROM
+Burn Drive
+PiroROM
+Chill Drive
+CrioROM
+Fire Memory
+Disco Fuego
+Water Memory
+Disco Agua
+Electric Memory
+Disco Eléctrico
+Grass Memory
+Disco Planta
+Ice Memory
+Disco Hielo
+Fighting Memory
+Disco Lucha
+Poison Memory
+Disco Veneno
+Ground Memory
+Disco Tierra
+Flying Memory
+Disco Volador
+Psychic Memory
+Disco Psíquico
+Bug Memory
+Disco Bicho
+Rock Memory
+Disco Roca
+Ghost Memory
+Disco Fantasma
+Dragon Memory
+Disco Dragón
+Dark Memory
+Disco Siniestro
+Steel Memory
+Disco Acero
+Fairy Memory
+Disco Hada
+Everstone
+Piedra Eterna
+Dragon Scale
+Escama Dragón
+Upgrade
+Mejora
+Dubious Disc
+Disco Extraño
+Protector
+Protector
+Electirizer
+Electrizador
+Magmarizer
+Magmatizador
+Reaper Cloth
+Tela Terrible
+Prism Scale
+Escama Bella
+Oval Stone
+Piedra Oval
+Whipped Dream
+Dulce de Nata
+Sachet
+Saquito Fragante
+Strawberry Sweet
+Confite Fresa
+Love Sweet
+Confite Corazón
+Berry Sweet
+Confite Fruto
+Clover Sweet
+Confite Trébol
+Flower Sweet
+Confite Flor
+Star Sweet
+Confite Estrella
+Ribbon Sweet
+Confite Lazo
+Venusaurite
+Venusaurita
+Charizardite X
+Charizardita X
+Charizardite Y
+Charizardita Y
+Blastoisinite
+Blastoisita
+Beedrillite
+Beedrillita
+Pidgeotite
+Pidgeotita
+Alakazite
+Alakazamita
+Slowbronite
+Slowbronita
+Gengarite
+Gengarita
+Kangaskhanite
+Kangaskhanita
+Pinsirite
+Pinsirita
+Gyaradosite
+Gyaradosita
+Aerodactylite
+Aerodactylita
+Mewtwonite X
+Mewtwoita X
+Mewtwonite Y
+Mewtwoita Y
+Ampharosite
+Ampharosita
+Steelixite
+Steelixita
+Scizorite
+Scizorita
+Heracronite
+Heracrossita
+Houndoominite
+Houndoomita
+Tyranitarite
+Tyranitarita
+Sceptilite
+Sceptilita
+Blazikenite
+Blazikenita
+Swampertite
+Swampertita
+Gardevoirite
+Gardevoirita
+Sablenite
+Sableynita
+Mawilite
+Mawilita
+Aggronite
+Aggronita
+Medichamite
+Medichamita
+Manectite
+Manectricita
+Sharpedonite
+Sharpedonita
+Cameruptite
+Cameruptita
+Altarianite
+Altarianita
+Banettite
+Banettita
+Absolite
+Absolita
+Glalitite
+Glalita
+Salamencite
+Salamencita
+Metagrossite
+Metagrossita
+Latiasite
+Latiasita
+Latiosite
+Latiosita
+Lopunnite
+Lopunnita
+Garchompite
+Garchompita
+Lucarionite
+Lucarita
+Abomasite
+Abomasnowita
+Galladite
+Galladita
+Audinite
+Audinita
+Diancite
+Diancita
+Red Orb
+Prisma Rojo
+Blue Orb
+Prisma Azul
+Potion
+Poción
+Super Potion
+Superpoción
+Hyper Potion
+Hiperpoción
+Max Potion
+Poción Máxima
+Full Restore
+Restaurar Todo
+Sacred Ash
+Ceniza Sagrada
+Awakening
+Despertar
+Antidote
+Antídoto
+Burn Heal
+Antiquemar
+Paralyze Heal
+Antiparalizador
+Ice Heal
+Antihielo
+Full Heal
+Cura Total
+Pewter Crunchies
+Rokikos
+Rage Candy Bar
+Caramelo Furia
+Lava Cookie
+Galleta Lava
+Old Gateau
+Barrita Plus
+Casteliacone
+Porcehelado
+Lumiose Galette
+Crêpe Luminalia
+Shalour Sable
+Galleta Yantra
+Big Malasada
+Malasada Maxi
+Revive
+Revivir
+Max Revive
+Revivir Máximo
+Berry Juice
+Zumo de Baya
+Sweet Heart
+Corazón Dulce
+Fresh Water
+Agua Fresca
+Soda Pop
+Refresco
+Lemonade
+Limonada
+Moomoo Milk
+Leche Mu-mu
+Energy Powder
+Polvo Energía
+Energy Root
+Raíz Energía
+Heal Powder
+Polvo Curación
+Revival Herb
+Hierba Revivir
+Max Honey
+Maxipanal
+Ether
+Éter
+Max Ether
+Éter Máximo
+Elixir
+Elixir
+Max Elixir
+Elixir Máximo
+PP Up
+Más PP
+PP Max
+PP Máximos
+HP Up
+Más PS
+Protein
+Proteína
+Iron
+Hierro
+Calcium
+Calcio
+Zinc
+Zinc
+Carbos
+Carburante
+Health Feather
+Pluma Vigor
+Muscle Feather
+Pluma Músculo
+Resist Feather
+Pluma Aguante
+Genius Feather
+Pluma Intelecto
+Clever Feather
+Pluma Mente
+Swift Feather
+Pluma Ímpetu
+Lonely Mint
+Menta Huraña
+Adamant Mint
+Menta Firme
+Naughty Mint
+Menta Pícara
+Brave Mint
+Menta Audaz
+Bold Mint
+Menta Osada
+Impish Mint
+Menta Agitada
+Lax Mint
+Menta Floja
+Relaxed Mint
+Menta Plácida
+Modest Mint
+Menta Modesta
+Mild Mint
+Menta Afable
+Rash Mint
+Menta Alocada
+Quiet Mint
+Menta Mansa
+Calm Mint
+Menta Serena
+Gentle Mint
+Menta Amable
+Careful Mint
+Menta Cauta
+Sassy Mint
+Menta Grosera
+Timid Mint
+Menta Miedosa
+Hasty Mint
+Menta Activa
+Jolly Mint
+Menta Alegre
+Naive Mint
+Menta Ingenua
+Serious Mint
+Menta Seria
+Ability Capsule
+Cáps. Habilidad
+Ability Patch
+Parche Habilidad
+Exp. Candy XS
+Caramelo Exp. XS
+Exp. Candy S
+Caramelo Exp. S
+Exp. Candy M
+Caramelo Exp. M
+Exp. Candy L
+Caramelo Exp. L
+Exp. Candy XL
+Caramelo Exp. XL
+Rare Candy
+Caramelo Raro
+Master Ball
+Master Ball
+Ultra Ball
+Ultra Ball
+Great Ball
+Super Ball
+Poké Ball
+Poké Ball
+Safari Ball
+Safari Ball
+Sport Ball
+Competi Ball
+Net Ball
+Malla Ball
+Dive Ball
+Buceo Ball
+Nest Ball
+Nido Ball
+Repeat Ball
+Acopio Ball
+Timer Ball
+Turno Ball
+Luxury Ball
+Lujo Ball
+Premier Ball
+Honor Ball
+Dusk Ball
+Ocaso Ball
+Heal Ball
+Sana Ball
+Quick Ball
+Veloz Ball
+Cherish Ball
+Gloria Ball
+Fast Ball
+Rapid Ball
+Level Ball
+Nivel Ball
+Lure Ball
+Cebo Ball
+Heavy Ball
+Peso Ball
+Love Ball
+Amor Ball
+Friend Ball
+Amigo Ball
+Moon Ball
+Luna Ball
+Dream Ball
+Ensueño Ball
+Beast Ball
+Ente Ball
+TM01
+MT01
+TM02
+MT02
+TM03
+MT03
+TM04
+MT04
+TM05
+MT05
+TM06
+MT06
+TM07
+MT07
+TM08
+MT08
+TM09
+MT09
+TM10
+MT10
+TM11
+MT11
+TM12
+MT12
+TM13
+MT13
+TM14
+MT14
+TM15
+MT15
+TM16
+MT16
+TM17
+MT17
+TM18
+MT18
+TM19
+MT19
+TM20
+MT20
+TM21
+MT21
+TM22
+MT22
+TM23
+MT23
+TM24
+MT24
+TM25
+MT25
+TM26
+MT26
+TM27
+MT27
+TM28
+MT28
+TM29
+MT29
+TM30
+MT30
+TM31
+MT31
+TM32
+MT32
+TM33
+MT33
+TM34
+MT34
+TM35
+MT35
+TM36
+MT36
+TM37
+MT37
+TM38
+MT38
+TM39
+MT39
+TM40
+MT40
+TM41
+MT41
+TM42
+MT42
+TM43
+MT43
+TM44
+MT44
+TM45
+MT45
+TM46
+MT46
+TM47
+MT47
+TM48
+MT48
+TM49
+MT49
+TM50
+MT50
+TM51
+MT51
+TM52
+MT52
+TM53
+MT53
+TM54
+MT54
+TM55
+MT55
+TM56
+MT56
+TM57
+MT57
+TM58
+MT58
+TM59
+MT59
+TM60
+MT60
+TM61
+MT61
+TM62
+MT62
+TM63
+MT63
+TM64
+MT64
+TM65
+MT65
+TM66
+MT66
+TM67
+MT67
+TM68
+MT68
+TM69
+MT69
+TM70
+MT70
+TM71
+MT71
+TM72
+MT72
+TM73
+MT73
+TM74
+MT74
+TM75
+MT75
+TM76
+MT76
+TM77
+MT77
+TM78
+MT78
+TM79
+MT79
+TM80
+MT80
+TM81
+MT81
+TM82
+MT82
+TM83
+MT83
+TM84
+MT84
+TM85
+MT85
+TM86
+MT86
+TM87
+MT87
+TM88
+MT88
+TM89
+MT89
+TM90
+MT90
+TM91
+MT91
+TM92
+MT92
+TM93
+MT93
+TM94
+MT94
+TM95
+MT95
+TM96
+MT96
+TM97
+MT97
+TM98
+MT98
+TM99
+MT99
+TM100
+MT100
+HM01
+MO01
+HM02
+MO02
+HM03
+MO03
+HM04
+MO04
+HM05
+MO05
+HM06
+MO06
+Cheri Berry
+Baya Zreza
+Chesto Berry
+Baya Atania
+Pecha Berry
+Baya Meloc
+Rawst Berry
+Baya Safre
+Aspear Berry
+Baya Perasi
+Leppa Berry
+Baya Zanama
+Oran Berry
+Baya Aranja
+Persim Berry
+Baya Caquic
+Lum Berry
+Baya Ziuela
+Sitrus Berry
+Baya Zidra
+Figy Berry
+Baya Higog
+Wiki Berry
+Baya Wiki
+Mago Berry
+Baya Ango
+Aguav Berry
+Baya Guaya
+Iapapa Berry
+Baya Pabaya
+Razz Berry
+Baya Frambu
+Bluk Berry
+Baya Oram
+Nanab Berry
+Baya Latano
+Wepear Berry
+Baya Peragu
+Pinap Berry
+Baya Pinia
+Pomeg Berry
+Baya Grana
+Kelpsy Berry
+Baya Algama
+Qualot Berry
+Baya Ispero
+Hondew Berry
+Baya Meluce
+Grepa Berry
+Baya Uvav
+Tamato Berry
+Baya Tamate
+Cornn Berry
+Baya Mais
+Magost Berry
+Baya Aostan
+Rabuta Berry
+Baya Rautan
+Nomel Berry
+Baya Monli
+Spelon Berry
+Baya Wikano
+Pamtre Berry
+Baya Plama
+Watmel Berry
+Baya Sambia
+Durin Berry
+Baya Rudion
+Belue Berry
+Baya Andano
+Occa Berry
+Baya Caoca
+Passho Berry
+Baya Pasio
+Wacan Berry
+Baya Gualot
+Rindo Berry
+Baya Tamar
+Yache Berry
+Baya Rimoya
+Chople Berry
+Baya Pomaro
+Kebia Berry
+Baya Kebia
+Shuca Berry
+Baya Acardo
+Coba Berry
+Baya Kouba
+Payapa Berry
+Baya Payapa
+Tanga Berry
+Baya Yecana
+Charti Berry
+Baya Alcho
+Kasib Berry
+Baya Drasi
+Haban Berry
+Baya Anjiro
+Colbur Berry
+Baya Dillo
+Babiri Berry
+Baya Baribá
+Roseli Berry
+Baya Hibis
+Chilan Berry
+Baya Chilan
+Liechi Berry
+Baya Lichi
+Ganlon Berry
+Baya Gonlan
+Salac Berry
+Baya Aslac
+Petaya Berry
+Baya Yapati
+Apicot Berry
+Baya Aricoc
+Lansat Berry
+Baya Zonlan
+Starf Berry
+Baya Arabol
+Enigma Berry
+Baya Enigma
+Micle Berry
+Baya Lagro
+Custap Berry
+Baya Chiri
+Jaboca Berry
+Baya Jaboca
+Rowap Berry
+Baya Magua
+Kee Berry
+Baya Biglia
+Maranga Berry
+Baya Maranga
+Grass Mail
+Carta Hierba
+Flame Mail
+Carta Fuego
+Bubble Mail
+Carta Pompas
+Bloom Mail
+Carta Flores
+Tunnel Mail
+Carta Mina
+Steel Mail
+Carta Acero
+Heart Mail
+Car. Corazón
+Snow Mail
+Carta Nieve
+Space Mail
+Car. Sideral
+Air Mail
+Carta Aérea
+Mosaic Mail
+Car. Mosaico
+Brick Mail
+Carta Pared
+X Attack
+Ataque X
+X Attack 2
+Ataque X 2
+X Attack 3
+Ataque X 3
+X Attack 6
+Ataque X 6
+X Defense
+Defensa X
+X Defense 2
+Defensa X 2
+X Defense 3
+Defensa X 3
+X Defense 6
+Defensa X 6
+X Sp. Atk
+At. Especial X
+X Sp. Atk 2
+At. Esp. X 2
+X Sp. Atk 3
+At. Esp. X 3
+X Sp. Atk 6
+At. Esp. X 6
+X Sp. Def
+Def. Especial X
+X Sp. Def 2
+Def. Esp. X 2
+X Sp. Def 3
+Def. Esp. X 3
+X Sp. Def 6
+Def. Esp. X 6
+X Speed
+Velocidad X
+X Speed 2
+Velocidad X 2
+X Speed 3
+Velocidad X 3
+X Speed 6
+Velocidad X 6
+X Accuracy
+Precisión X
+X Accuracy 2
+Precisión X 2
+X Accuracy 3
+Precisión X 3
+X Accuracy 6
+Precisión X 6
+Max Mushrooms
+Maxiseta
+Dire Hit
+Crítico X
+Dire Hit 2
+Crítico X 2
+Dire Hit 3
+Crítico X 3
+Guard Spec.
+Protección X
+Reset Urge
+Quitaestado
+Ability Urge
+Habilitador
+Item Urge
+Activaobjeto
+Item Drop
+Tiraobjeto
+Blue Flute
+Flauta Azul
+Yellow Flute
+Flauta Amarilla
+Red Flute
+Flauta Roja
+Poké Doll
+Poké Muñeco
+Fluffy Tail
+Cola Skitty
+Poké Toy
+Pokéseñuelo
+Bicycle
+Bici
+Old Rod
+Caña Vieja
+Good Rod
+Caña Buena
+Super Rod
+Supercaña
+Itemfinder
+Buscaobjetos
+Dowsing Machine
+Zahorí
+Poké Radar
+Pokéradar
+Town Map
+Mapa
+Escape Rope
+Cuerda Huida
+Coin Case
+Monedero
+Poké Flute
+Poké Flauta
+Soot Sack
+Saco Hollín
+Silph Scope
+Visor Silph
+Devon Scope
+Detector Devon
+Squirt Bottle
+Regadera
+Sprayduck
+Psydugadera
+Wailmer Pail
+Wailmegadera
+Sprinklotad
+Lotadgadera
+Gracidea
+Gracídea
+Reveal Glass
+Espejo Veraz
+Prison Bottle
+Vasija Castigo
+Rotom Catalog
+Catálogo Rotom
+Zygarde Cube
+Arca de Zygarde
+DNA Splicers
+Punta ADN
+N-Solarizer
+Necrosol
+N-Lunarizer
+Necroluna
+Reins of Unity
+Riendas Unión
+Oval Charm
+Amuleto Oval
+Shiny Charm
+Amuleto Iris
+Catching Charm
+Amuleto Captura
+Exp. Charm
+Amuleto Exp
+Mega Ring
+Mega-Aro
+Aurora Ticket
+Ticket Aurora
+Old Sea Map
+Mapa Viejo

@@ -1,0 +1,200 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_DESCRIPTIONS]
+This pokemon is a bug boss!
+Questo Pokémon è un coleoboss!
+Goes to the pokemon that beat a bug boss pokemon!
+Va al Pokémon che ha sconfitto un Pokémon coleoboss!
+A ribbon for collecting all bugs in a sigle bug contest!
+Un fiocco per aver catturato tutti i coleotteri in una sola gara!
+Johto Performance Hall Cool Category Normal Rank winner!
+Vincitore della Categoria Classe, livello Normale, della Sala Esibizioni di Johto!
+Johto Performance Hall Cool Category Super Rank winner!
+Vincitore della Categoria Classe, livello Super, della Sala Esibizioni di Johto!
+Johto Performance Hall Cool Category Hyper Rank winner!
+Vincitore della Categoria Classe, livello Iper, della Sala Esibizioni di Johto!
+Johto Performance Hall Cool Category Master Rank winner!
+Vincitore della Categoria Classe, livello Master, della Sala Esibizioni di Johto!
+Johto Performance Hall Beauty Category Normal Rank winner!
+Vincitore della Categoria Bellezza, livello Normale, della Sala Esibizioni di Johto!
+Johto Performance Hall Beauty Category Super Rank winner!
+Vincitore della Categoria Bellezza, livello Super, della Sala Esibizioni di Johto!
+Johto Performance Hall Beauty Category Hyper Rank winner!
+Vincitore della Categoria Bellezza, livello Iper, della Sala Esibizioni di Johto!
+Johto Performance Hall Beauty Category Master Rank winner!
+Vincitore della Categoria Bellezza, livello Master, della Sala Esibizioni di Johto!
+Johto Performance Hall Cute Category Normal Rank winner!
+Vincitore della Categoria Grazia, livello Normale, della Sala Esibizioni di Johto!
+Johto Performance Hall Cute Category Super Rank winner!
+Vincitore della Categoria Grazia, livello Super, della Sala Esibizioni di Johto!
+Johto Performance Hall Cute Category Hyper Rank winner!
+Vincitore della Categoria Grazia, livello Iper, della Sala Esibizioni di Johto!
+Johto Performance Hall Cute Category Master Rank winner!
+Vincitore della Categoria Grazia, livello Master, della Sala Esibizioni di Johto!
+Johto Performance Hall Smart Category Normal Rank winner!
+Vincitore della Categoria Acume, livello Normale, della Sala Esibizioni di Johto!
+Johto Performance Hall Smart Category Super Rank winner!
+Vincitore della Categoria Acume, livello Super, della Sala Esibizioni di Johto!
+Johto Performance Hall Smart Category Hyper Rank winner!
+Vincitore della Categoria Acume, livello Iper, della Sala Esibizioni di Johto!
+Johto Performance Hall Smart Category Master Rank winner!
+Vincitore della Categoria Acume, livello Master, della Sala Esibizioni di Johto!
+Johto Performance Hall Tough Category Normal Rank winner!
+Vincitore della Categoria Grinta, livello Normale, della Sala Esibizioni di Johto!
+Johto Performance Hall Tough Category Super Rank winner!
+Vincitore della Categoria Grinta, livello Super, della Sala Esibizioni di Johto!
+Johto Performance Hall Tough Category Hyper Rank winner!
+Vincitore della Categoria Grinta, livello Iper, della Sala Esibizioni di Johto!
+Johto Performance Hall Tough Category Master Rank winner!
+Vincitore della Categoria Grinta, livello Master, della Sala Esibizioni di Johto!
+Hoenn Cool Contest Normal Rank winner!
+Vincitore della Gara Classe di Hoenn, livello Normale!
+Hoenn Cool Contest Super Rank winner!
+Vincitore della Gara Classe di Hoenn, livello Super!
+Hoenn Cool Contest Hyper Rank winner!
+Vincitore della Gara Classe di Hoenn, livello Iper!
+Hoenn Cool Contest Master Rank winner!
+Vincitore della Gara Classe di Hoenn, livello Master!
+Hoenn Beauty Contest Normal Rank winner!
+Vincitore della Gara Bellezza di Hoenn, livello Normale!
+Hoenn Beauty Contest Super Rank winner!
+Vincitore della Gara Bellezza di Hoenn, livello Super!
+Hoenn Beauty Contest Hyper Rank winner!
+Vincitore della Gara Bellezza di Hoenn, livello Iper!
+Hoenn Beauty Contest Master Rank winner!
+Vincitore della Gara Bellezza di Hoenn, livello Master!
+Hoenn Cute Contest Normal Rank winner!
+Vincitore della Gara Grazia di Hoenn, livello Normale!
+Hoenn Cute Contest Super Rank winner!
+Vincitore della Gara Grazia di Hoenn, livello Super!
+Hoenn Cute Contest Hyper Rank winner!
+Vincitore della Gara Grazia di Hoenn, livello Iper!
+Hoenn Cute Contest Master Rank winner!
+Vincitore della Gara Grazia di Hoenn, livello Master!
+Hoenn Smart Contest Normal Rank winner!
+Vincitore della Gara Acume di Hoenn, livello Normale!
+Hoenn Smart Contest Super Rank winner!
+Vincitore della Gara Acume di Hoenn, livello Super!
+Hoenn Smart Contest Hyper Rank winner!
+Vincitore della Gara Acume di Hoenn, livello Iper!
+Hoenn Tough Contest Normal Rank winner!
+Vincitore della Gara Grinta di Hoenn, livello Normale!
+Hoenn Tough Contest Super Rank winner!
+Vincitore della Gara Grinta di Hoenn, livello Super!
+Hoenn Tough Contest Hyper Rank winner!
+Vincitore della Gara Grinta di Hoenn, livello Iper!
+Hoenn Tough Contest Master Rank winner!
+Vincitore della Gara Grinta di Hoenn, livello Master!
+Super Contest Cool Category Normal Rank winner!
+Vincitore della Supergara, Categoria Classe, livello Normale!
+Super Contest Cool Category Great Rank winner!
+Vincitore della Supergara, Categoria Classe, livello Grande!
+Super Contest Cool Category Ultra Rank winner!
+Vincitore della Supergara, Categoria Classe, livello Ultra!
+Super Contest Cool Category Master Rank winner!
+Vincitore della Supergara, Categoria Classe, livello Master!
+Super Contest Beauty Category Normal Rank winner!
+Vincitore della Supergara, Categoria Bellezza, livello Normale!
+Super Contest Beauty Category Great Rank winner!
+Vincitore della Supergara, Categoria Bellezza, livello Grande!
+Super Contest Beauty Category Ultra Rank winner!
+Vincitore della Supergara, Categoria Bellezza, livello Ultra!
+Super Contest Beauty Category Master Rank winner!
+Vincitore della Supergara, Categoria Bellezza, livello Master!
+Super Contest Cute Category Normal Rank winner!
+Vincitore della Supergara, Categoria Grazia, livello Normale!
+Super Contest Cute Category Great Rank winner!
+Vincitore della Supergara, Categoria Grazia, livello Grande!
+Super Contest Cute Category Ultra Rank winner!
+Vincitore della Supergara, Categoria Grazia, livello Ultra!
+Super Contest Cute Category Master Rank winner!
+Vincitore della Supergara, Categoria Grazia, livello Master!
+Super Contest Smart Category Normal Rank winner!
+Vincitore della Supergara, Categoria Acume, livello Normale!
+Super Contest Smart Category Great Rank winner!
+Vincitore della Supergara, Categoria Acume, livello Grande!
+Super Contest Smart Category Ultra Rank winner!
+Vincitore della Supergara, Categoria Acume, livello Ultra!
+Super Contest Tough Category Normal Rank winner!
+Vincitore della Supergara, Categoria Grinta, livello Normale!
+Super Contest Tough Category Great Rank winner!
+Vincitore della Supergara, Categoria Grinta, livello Grande!
+Super Contest Tough Category Ultra Rank winner!
+Vincitore della Supergara, Categoria Grinta, livello Ultra!
+Super Contest Tough Category Master Rank winner!
+Vincitore della Supergara, Categoria Grinta, livello Master!
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 50 challenge.
+Fiocco per aver superato la sfida Lv. 50 della Torre Lotta di Hoenn.
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 100 challenge.
+Fiocco per aver superato la sfida Lv. 100 della Torre Lotta di Hoenn.
+A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.
+Un fiocco per aver sconfitto il Magnate della Torre Lotta.
+A Ribbon awarded for completing the Battle Tower Double challenge.
+Un fiocco per aver completato la sfida in Doppio della Torre Lotta.
+A Ribbon awarded for completing the Battle Tower Multi challenge.
+Un fiocco per aver completato la sfida Multi della Torre Lotta.
+A Ribbon awarded for completing the Battle Tower Link Multi challenge.
+Un fiocco per aver completato la sfida Multi Link della Torre Lotta.
+A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.
+Un fiocco per aver completato la sfida Wi-Fi della Torre Lotta.
+Ribbon for clearing the Pokémon League and entering the Hall of Fame in another region.
+Fiocco per aver battuto la Lega Pokémon ed essere entrati nella Sala d'Onore di un'altra regione.
+Ribbon awarded for beating the Sinnoh Champion and entering the Hall of Fame.
+Fiocco per aver battuto il Campione di Sinnoh ed essere entrati nella Sala d'Onore.
+A Ribbon awarded for setting an incredible record.
+Un fiocco per aver stabilito un record incredibile.
+Pokémon Event Participation Ribbon.
+Fiocco di partecipazione a un evento Pokémon.
+A Ribbon awarded for setting a legendary record.
+Un fiocco per aver stabilito un record leggendario.
+An extraordinarily gorgeous and extravagant Ribbon.
+Un fiocco straordinariamente sfarzoso e stravagante.
+An incredibly regal Ribbon with an air of nobility.
+Un fiocco incredibilmente regale, dall'aria nobile.
+A gorgeous and regal Ribbon that is the peak of fabulous.
+Un fiocco sfarzoso e regale, il massimo del favoloso.
+A Ribbon for recalling an invigorating event that created life energy.
+Un fiocco per ricordare un evento corroborante che ha dato energia vitale.
+A Ribbon for recalling a thrilling event that made life more exciting.
+Un fiocco per ricordare un evento emozionante che ha reso la vita più eccitante.
+A Ribbon for recalling feelings of sadness that added spice to life.
+Un fiocco per ricordare la tristezza che ha dato sapore alla vita.
+A Ribbon for recalling a careless error that helped steer life decisions.
+Un fiocco per ricordare un errore di distrazione che ha aiutato a orientare le scelte di vita.
+A Ribbon for recalling a refreshing event that added sparkle to life.
+Un fiocco per ricordare un evento rinfrescante che ha dato brio alla vita.
+A Ribbon for recalling a deep slumber that made life soothing.
+Un fiocco per ricordare un sonno profondo che ha reso la vita serena.
+A Ribbon for recalling that smiles enrich the quality of life.
+Un fiocco per ricordare che i sorrisi migliorano la qualità della vita.
+A Ribbon awarded to a Pokémon deemed to have a top-quality footprint.
+Un fiocco per un Pokémon dalle impronte di prima qualità.
+Ribbon awarded for being chosen as a super sketch model in Hoenn.
+Fiocco per essere stati scelti come supermodelli per un ritratto a Hoenn.
+Ribbon awarded for being an exceptionally hard worker.
+Fiocco per essere stati eccezionalmente laboriosi.
+A special Ribbon for a special day.
+Un fiocco speciale per un giorno speciale.
+A Ribbon that proclaims love for Pokémon.
+Un fiocco che proclama l'amore per i Pokémon.
+Special Holiday Ribbon.
+Fiocco speciale delle feste.
+A Ribbon to cherish a special memory.
+Un fiocco per custodire un ricordo speciale.
+A Ribbon said to make your wish come true.
+Si dice che questo fiocco faccia avverare i desideri.
+A Ribbon awarded for overcoming all difficult challenges.
+Un fiocco per aver superato tutte le sfide difficili.
+Pokémon League Champion Ribbon.
+Fiocco del Campione della Lega Pokémon.
+Battle Competition Champion Ribbon.
+Fiocco del Campione di Competizione Lotta.
+Pokémon World Championships Regional Champion Ribbon.
+Fiocco del Campione Regionale dei Campionati Mondiali Pokémon.
+A Ribbon awarded for winning 100 matches in a row.
+Un fiocco per aver vinto 100 incontri di fila.
+Pokémon World Championships National Champion Ribbon.
+Fiocco del Campione Nazionale dei Campionati Mondiali Pokémon.
+Pokémon World Championships World Champion Ribbon.
+Fiocco del Campione Mondiale dei Campionati Mondiali Pokémon.

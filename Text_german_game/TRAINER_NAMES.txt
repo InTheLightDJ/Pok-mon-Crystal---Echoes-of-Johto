@@ -1,0 +1,70 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_NAMES]
+Falkner
+Falk
+Grunt
+Rüpel
+Eusine
+Eusin
+Lance
+Siegfried
+Jin
+Jin
+Bugsy
+Kai
+Whitney
+Bianka
+Mark
+Markieren
+Morty
+Jens
+Wendy
+Wendy
+Yoshi
+Yoshi
+Chuck
+Hartwig
+Pryce
+Norbert
+Jasmine
+Jasmin
+Clair
+Sandra
+Kiyo
+Kiyo
+Gaurd 1
+Wache 1
+Gaurd 2
+Wache 2
+Petrel
+Lambda
+Ariana
+Athena
+Will
+Willi
+Karen
+Melanie
+Surge
+Bob
+Sabrina
+Sabrina
+Janine
+Janina
+Misty
+Nebelfeld
+Brock
+Rocko
+Blaine
+Pyro
+Blue
+Blau
+Diana
+Diana
+Roy
+Roy
+Mama Red
+Mama von Rot
+Red
+Rot

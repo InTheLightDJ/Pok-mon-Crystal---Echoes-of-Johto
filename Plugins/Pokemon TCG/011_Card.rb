@@ -23,7 +23,7 @@ module TCG
       @param  = h[:param]
       @anim   = h[:anim]
       # energy cost as an array indexed by color (FIRE..COLORLESS)
-      @cost = Array.new(7, 0)
+      @cost = Array.new(NUM_COLORS, 0)
       h[:cost].each { |color, n| @cost[COLOR_NAMES[color]] = n }
     end
 

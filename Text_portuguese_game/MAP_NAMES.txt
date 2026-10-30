@@ -1,0 +1,356 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+Introdução
+New Bark Town
+Cidade de New Bark
+\PN's House
+Casa de \PN
+\PN's Room
+Quarto de \PN
+House 1
+Casa 1
+House 2
+Casa 2
+Elm's Pokémon Lab
+Laboratório Pokémon do Elm
+Route 29
+Rota 29
+Kurt's House
+Casa do Kurt
+Goldenrod City
+Cidade de Goldenrod
+PokéCom Center
+Centro PokéCom
+Pokémon Gym
+Ginásio Pokémon
+Pokémon Institute
+Instituto Pokémon
+Underground Path
+Passagem Subterrânea
+Underground North Entrance
+Entrada Norte do Subterrâneo
+Underground South Entrance
+Entrada Sul do Subterrâneo
+Game Corner
+Cassino
+Goldenrod Dept. 1F
+Loja de Goldenrod 1º A
+Goldenrod Dept. 2F
+Loja de Goldenrod 2º A
+Goldenrod Dept. 3F
+Loja de Goldenrod 3º A
+Goldenrod Dept. 4F
+Loja de Goldenrod 4º A
+Goldenrod Dept. 5F
+Loja de Goldenrod 5º A
+Goldenrod Dept. 6F
+Loja de Goldenrod 6º A
+Goldenrod Dept. Elevator
+Elevador da Loja de Goldenrod
+Bike Shop
+Loja de Bicicletas
+Goldenrod Station
+Estação de Goldenrod
+Radio Tower
+Torre de Rádio
+Radio Tower 2F
+Torre de Rádio 2º A
+Ilex Forest
+Floresta de Ilex
+Ilex Forest South. Ent.
+Entrada Sul da Fl. de Ilex
+Ilex Forest North Ent.
+Entrada Norte da Fl. de Ilex
+Mahogany Town
+Cidade de Mahogany
+Mahogany Poké Center
+Centro Poké de Mahogany
+Mahogany Poké Mart
+Poké Mart de Mahogany
+Mahogany Fan Club
+Fã-Clube de Mahogany
+Pokémon Day Care
+Creche Pokémon
+National Park
+Parque Nacional
+Park Entrance
+Entrada do Parque
+Park Pavillion
+Pavilhão do Parque
+Route 30
+Rota 30
+Ice Path
+Caminho de Gelo
+Route 31
+Rota 31
+Union Cave
+Caverna União
+Union Cave -1F
+Caverna União -1º A
+Dungeon
+Masmorra
+Route 28
+Rota 28
+Underwater
+Embaixo d'água
+Verd Falls
+Cachoeira Verd
+Indigo Plateau Entrance
+Entrada do Platô Índigo
+Indigo Plateau
+Platô Índigo
+Pokémon League
+Liga Pokémon
+Champion's Room
+Sala do Campeão
+Hall of Fame
+Hall da Fama
+Battle Frontier
+Fronteira de Batalha
+Frontier Poké Center
+Centro Poké da Fronteira
+Frontier Mart
+Loja da Fronteira
+Battle Tower
+Torre de Batalha
+Battle Tower Arena
+Arena da Torre de Batalha
+Stadium Cup Lobby
+Saguão da Copa Estádio
+Battle Palace
+Palácio de Batalha
+Battle Palace Arena
+Arena do Palácio de Batalha
+Battle Arena
+Arena de Batalha
+Battle Arena Arena
+Arena da Arena de Batalha
+Battle Factory
+Fábrica de Batalha
+Battle Factory Corridor
+Corredor da Fábrica de Batalha
+Battle Factory Arena
+Arena da Fábrica de Batalha
+Battle Factory Corridor 2
+Corredor 2 da Fábrica de Batalha
+Battle Frontier Entrance
+Entrada da Fronteira de Batalha
+Saffron City
+Cidade de Saffron
+Saffron Poké Center
+Centro Poké de Saffron
+Saffron Mart
+Loja de Saffron
+Saffron Station
+Estação de Saffron
+Route 24
+Rota 24
+Cycling Road Gate
+Portão da Ciclovia
+Route 25
+Rota 25
+Route 26
+Rota 26
+Vermillion City
+Cidade de Vermilion
+Vermillion Poké Center
+Centro Poké de Vermilion
+Vermillion Mart
+Loja de Vermilion
+Oak's Pokémon Lab
+Laboratório Pokémon do Carvalho
+Harbour
+Porto
+Safari Zone
+Zona Safári
+Safari Zone Gate
+Portão da Zona Safári
+Route 27
+Rota 27
+Daroxy Island
+Daroxy Island
+Faraday Island
+Faraday Island
+NEW BARK TOWN
+CIDADE DE NEW BARK
+ROUTE 29
+ROTA 29
+CHERRYGROVE CITY
+CIDADE DE CHERRYGROVE
+ROUTE 30
+ROTA 30
+ROUTE 31
+ROTA 31
+VIOLET CITY
+CIDADE DE VIOLET
+ROUTE 32
+ROTA 32
+ROUTE 33
+ROTA 33
+AZALEA TOWN
+CIDADE DE AZALEA
+ROUTE 34
+ROTA 34
+GOLDENROD CITY
+CIDADE DE GOLDENROD
+GTS
+GTS
+ROUTE 35
+ROTA 35
+ROUTE 36
+ROTA 36
+ROUTE 37
+ROTA 37
+ECRUTEAK CITY
+CIDADE DE ECRUTEAK
+ROUTE 38
+ROTA 38
+ROUTE 39
+ROTA 39
+OLIVINE CITY
+CIDADE DE OLIVINE
+ROUTE 40
+ROTA 40
+BATTLE TOWER
+TORRE DE BATALHA
+ROUTE 41
+ROTA 41
+CIANWOOD CITY
+CIDADE DE CIANWOOD
+ROUTE 42
+ROTA 42
+MAHOGANY TOWN
+CIDADE DE MAHOGANY
+ROUTE 43
+ROTA 43
+LAKE OF RAGE
+LAGO DA FÚRIA
+ROUTE 44
+ROTA 44
+BLACKTHORN CITY
+CIDADE DE BLACKTHORN
+ROUTE 45
+ROTA 45
+ROUTE 46
+ROTA 46
+ROUTE 27
+ROTA 27
+ROUTE 26
+ROTA 26
+VIRIDIAN CITY
+CIDADE DE VIRIDIAN
+ROUTE 1
+ROTA 1
+ROUTE 22
+ROTA 22
+PALLET TOWN
+CIDADE DE PALLET
+ROUTE 2
+ROTA 2
+VIRIDIAN FOREST
+FLORESTA DE VIRIDIAN
+PEWTER CITY
+CIDADE DE PEWTER
+ROUTE 3
+ROTA 3
+ROUTE 4
+ROTA 4
+CERULEAN CITY
+CIDADE DE CERULEAN
+ROUTE 24
+ROTA 24
+ROUTE 25
+ROTA 25
+ROUTE 9
+ROTA 9
+ROUTE 10
+ROTA 10
+LAVENDER TOWN
+CIDADE DE LAVENDER
+ROUTE 8
+ROTA 8
+ROUTE 5
+ROTA 5
+SAFFRON CITY
+CIDADE DE SAFFRON
+ROUTE 7
+ROTA 7
+CELADON CITY
+CIDADE DE CELADON
+ROUTE 16
+ROTA 16
+ROUTE 12
+ROTA 12
+ROUTE 13
+ROTA 13
+ROUTE 6
+ROTA 6
+VERMILION CITY
+CIDADE DE VERMILION
+ROUTE 11
+ROTA 11
+ROUTE 14
+ROTA 14
+ROUTE 15
+ROTA 15
+FUCHSIA CITY
+CIDADE DE FUCHSIA
+ROUTE 18
+ROTA 18
+ROUTE 17
+ROTA 17
+ALTERNATE
+ALTERNATIVO
+ROUTE 21
+ROTA 21
+ROUTE 19
+ROTA 19
+RUINS OF ALPH
+RUÍNAS DE ALPH
+DARK CAVE
+CAVERNA ESCURA
+UNION CAVE
+CAVERNA UNIÃO
+SLOWPOKE WELL
+POÇO SLOWPOKE
+ILEX FOREST
+FLORESTA DE ILEX
+NATIONAL PARK
+PARQUE NACIONAL
+ICE PATH
+CAMINHO DE GELO
+DRAGON'S DEN
+COVIL DO DRAGÃO
+ROUTE 28
+ROTA 28
+MT. SILVER
+MONTE SILVER
+INDIGO PLATEAU
+PLATÔ ÍNDIGO
+DIGLETT'S CAVE
+CAVERNA DO DIGLETT
+MT. MOON
+MONTE LUA
+CERULEAN CAVE
+CAVERNA CERULEAN
+ROCK TUNNEL
+TÚNEL DE PEDRA
+SAFARI ZONE
+ZONA SAFÁRI
+Hidden area!
+Área escondida!
+Calling Grotto
+Gruta do Chamado
+Wa Wa WaterWay
+Wa Wa WaterWay
+Secret Area
+Área Secreta
+Between map
+Entre mapas
+MAP477
+MAP477
+MAP479
+MAP479

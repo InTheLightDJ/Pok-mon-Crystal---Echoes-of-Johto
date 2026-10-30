@@ -167,14 +167,7 @@ module TCG
       @duelists.each { |d| init_duelist_prizes(d) }
       @ui.event(:place_prizes, @initial_prizes)
       # coin toss: the turn holder flips; heads = goes first
-      flipper = turn_duelist
-      if @ui.shows_card_screens?
-        @ui.event(:coin_toss_intro)               # BOXMSG_COIN_TOSS + CoinTossToDecide...
-        @coin_text = _INTL("If heads,\n{1} plays first.", flipper.name)
-      else
-        @ui.message(_INTL("{1} will toss a coin to decide who goes first.", flipper.name))
-      end
-      res = toss_coin(flipper.name)
+      res = first_turn_toss(turn_duelist)
       swap_turn if res == TAILS
       @ui.event(:play_order, turn_duelist.player?)
       @ui.refresh(self)
@@ -281,8 +274,21 @@ module TCG
     #--------------------------------------------------------------------------
     # coin tosses (home/coin_toss.asm)
     #--------------------------------------------------------------------------
+    # HEADS: the flipper (turn holder) plays first
+    def first_turn_toss(flipper)
+      if @ui.shows_card_screens?
+        @ui.event(:coin_toss_intro)               # BOXMSG_COIN_TOSS + CoinTossToDecide...
+        @coin_text = _INTL("If heads,\n{1} plays first.", flipper.name)
+      else
+        @ui.message(_INTL("{1} will toss a coin to decide who goes first.", flipper.name))
+      end
+      toss_coin(flipper.name)
+    end
+
+    def coin_result; TCG.rng.rand(2); end   # HEADS or TAILS (089r: Heads Not Tails)
+
     def toss_coin(name = turn_duelist.name)
-      res = TCG.rng.rand(2)
+      res = coin_result
       @ui.coin_toss(name, res)
       res
     end

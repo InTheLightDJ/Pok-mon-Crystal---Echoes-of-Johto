@@ -113,7 +113,7 @@ module TCG
   end
 
   effect(:Prophecy_CheckDeck) do |du|
-    du.turn_duelist.not_in_deck < DECK_SIZE || du.non_turn_duelist.not_in_deck < DECK_SIZE ?
+    du.turn_duelist.cards_in_deck > 0 || du.non_turn_duelist.cards_in_deck > 0 ?
       false : _INTL("There are no cards left in the Deck.")
   end
   effect(:Wail_BenchCheck) do |du|

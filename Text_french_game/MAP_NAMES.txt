@@ -1,0 +1,356 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+Intro
+New Bark Town
+Bourg Geon
+\PN's House
+Maison de \PN
+\PN's Room
+Chambre de \PN
+House 1
+Maison 1
+House 2
+Maison 2
+Elm's Pokémon Lab
+Labo Pokémon d'Orme
+Route 29
+Route 29
+Kurt's House
+Maison de Fargas
+Goldenrod City
+Doublonville
+PokéCom Center
+Centre PokéCom
+Pokémon Gym
+Arène Pokémon
+Pokémon Institute
+Institut Pokémon
+Underground Path
+Souterrain
+Underground North Entrance
+Entrée Nord du Souterrain
+Underground South Entrance
+Entrée Sud du Souterrain
+Game Corner
+Casino
+Goldenrod Dept. 1F
+Centre Commercial RDC
+Goldenrod Dept. 2F
+Centre Commercial 1er ét.
+Goldenrod Dept. 3F
+Centre Commercial 2e ét.
+Goldenrod Dept. 4F
+Centre Commercial 3e ét.
+Goldenrod Dept. 5F
+Centre Commercial 4e ét.
+Goldenrod Dept. 6F
+Centre Commercial 5e ét.
+Goldenrod Dept. Elevator
+Ascenseur du Centre Commercial
+Bike Shop
+Magasin de Vélos
+Goldenrod Station
+Gare de Doublonville
+Radio Tower
+Tour Radio
+Radio Tower 2F
+Tour Radio 1er ét.
+Ilex Forest
+Bois aux Chênes
+Ilex Forest South. Ent.
+Entrée Sud du Bois aux Chênes
+Ilex Forest North Ent.
+Entrée Nord du Bois aux Chênes
+Mahogany Town
+Acajou
+Mahogany Poké Center
+Centre Poké d'Acajou
+Mahogany Poké Mart
+Boutique d'Acajou
+Mahogany Fan Club
+Fan Club d'Acajou
+Pokémon Day Care
+Pension Pokémon
+National Park
+Parc Naturel
+Park Entrance
+Entrée du Parc
+Park Pavillion
+Pavillon du Parc
+Route 30
+Route 30
+Ice Path
+Route de Glace
+Route 31
+Route 31
+Union Cave
+Caves Jumelles
+Union Cave -1F
+Caves Jumelles SS1
+Dungeon
+Donjon
+Route 28
+Route 28
+Underwater
+Sous l'eau
+Verd Falls
+Chutes Verd
+Indigo Plateau Entrance
+Entrée du Plateau Indigo
+Indigo Plateau
+Plateau Indigo
+Pokémon League
+Ligue Pokémon
+Champion's Room
+Salle du Maître
+Hall of Fame
+Panthéon
+Battle Frontier
+Zone de Combat
+Frontier Poké Center
+Centre Poké de la Zone
+Frontier Mart
+Boutique de la Zone
+Battle Tower
+Tour de Combat
+Battle Tower Arena
+Arène de la Tour de Combat
+Stadium Cup Lobby
+Hall des Coupes Stadium
+Battle Palace
+Palais de Combat
+Battle Palace Arena
+Arène du Palais de Combat
+Battle Arena
+Arène de Combat
+Battle Arena Arena
+Terrain de l'Arène de Combat
+Battle Factory
+Usine de Combat
+Battle Factory Corridor
+Couloir de l'Usine de Combat
+Battle Factory Arena
+Arène de l'Usine de Combat
+Battle Factory Corridor 2
+Couloir 2 de l'Usine de Combat
+Battle Frontier Entrance
+Entrée de la Zone de Combat
+Saffron City
+Safrania
+Saffron Poké Center
+Centre Poké de Safrania
+Saffron Mart
+Boutique de Safrania
+Saffron Station
+Gare de Safrania
+Route 24
+Route 24
+Cycling Road Gate
+Portail de la Piste Cyclable
+Route 25
+Route 25
+Route 26
+Route 26
+Vermillion City
+Carmin sur Mer
+Vermillion Poké Center
+Centre Poké de Carmin sur Mer
+Vermillion Mart
+Boutique de Carmin sur Mer
+Oak's Pokémon Lab
+Labo Pokémon de Chen
+Harbour
+Port
+Safari Zone
+Parc Safari
+Safari Zone Gate
+Portail du Parc Safari
+Route 27
+Route 27
+Daroxy Island
+Île Daroxy
+Faraday Island
+Île Faraday
+NEW BARK TOWN
+BOURG GEON
+ROUTE 29
+ROUTE 29
+CHERRYGROVE CITY
+VILLE GRIOTTE
+ROUTE 30
+ROUTE 30
+ROUTE 31
+ROUTE 31
+VIOLET CITY
+MAUVILLE
+ROUTE 32
+ROUTE 32
+ROUTE 33
+ROUTE 33
+AZALEA TOWN
+ÉCORCIA
+ROUTE 34
+ROUTE 34
+GOLDENROD CITY
+DOUBLONVILLE
+GTS
+GTS
+ROUTE 35
+ROUTE 35
+ROUTE 36
+ROUTE 36
+ROUTE 37
+ROUTE 37
+ECRUTEAK CITY
+ROSALIA
+ROUTE 38
+ROUTE 38
+ROUTE 39
+ROUTE 39
+OLIVINE CITY
+OLIVILLE
+ROUTE 40
+ROUTE 40
+BATTLE TOWER
+TOUR DE COMBAT
+ROUTE 41
+ROUTE 41
+CIANWOOD CITY
+IRISIA
+ROUTE 42
+ROUTE 42
+MAHOGANY TOWN
+ACAJOU
+ROUTE 43
+ROUTE 43
+LAKE OF RAGE
+LAC COLÈRE
+ROUTE 44
+ROUTE 44
+BLACKTHORN CITY
+ÉBÈNELLE
+ROUTE 45
+ROUTE 45
+ROUTE 46
+ROUTE 46
+ROUTE 27
+ROUTE 27
+ROUTE 26
+ROUTE 26
+VIRIDIAN CITY
+JADIELLE
+ROUTE 1
+ROUTE 1
+ROUTE 22
+ROUTE 22
+PALLET TOWN
+BOURG PALETTE
+ROUTE 2
+ROUTE 2
+VIRIDIAN FOREST
+FORÊT DE JADE
+PEWTER CITY
+ARGENTA
+ROUTE 3
+ROUTE 3
+ROUTE 4
+ROUTE 4
+CERULEAN CITY
+AZURIA
+ROUTE 24
+ROUTE 24
+ROUTE 25
+ROUTE 25
+ROUTE 9
+ROUTE 9
+ROUTE 10
+ROUTE 10
+LAVENDER TOWN
+LAVANVILLE
+ROUTE 8
+ROUTE 8
+ROUTE 5
+ROUTE 5
+SAFFRON CITY
+SAFRANIA
+ROUTE 7
+ROUTE 7
+CELADON CITY
+CÉLADOPOLE
+ROUTE 16
+ROUTE 16
+ROUTE 12
+ROUTE 12
+ROUTE 13
+ROUTE 13
+ROUTE 6
+ROUTE 6
+VERMILION CITY
+CARMIN SUR MER
+ROUTE 11
+ROUTE 11
+ROUTE 14
+ROUTE 14
+ROUTE 15
+ROUTE 15
+FUCHSIA CITY
+PARMANIE
+ROUTE 18
+ROUTE 18
+ROUTE 17
+ROUTE 17
+ALTERNATE
+ALTERNATIF
+ROUTE 21
+ROUTE 21
+ROUTE 19
+ROUTE 19
+RUINS OF ALPH
+RUINES D'ALPHA
+DARK CAVE
+ANTRE NOIR
+UNION CAVE
+CAVES JUMELLES
+SLOWPOKE WELL
+PUITS RAMOLOSS
+ILEX FOREST
+BOIS AUX CHÊNES
+NATIONAL PARK
+PARC NATUREL
+ICE PATH
+ROUTE DE GLACE
+DRAGON'S DEN
+ANTRE DU DRAGON
+ROUTE 28
+ROUTE 28
+MT. SILVER
+MONT ARGENTÉ
+INDIGO PLATEAU
+PLATEAU INDIGO
+DIGLETT'S CAVE
+CAVE TAUPIQUEUR
+MT. MOON
+MONT SÉLÉNITE
+CERULEAN CAVE
+CAVERNE AZURÉE
+ROCK TUNNEL
+GROTTE
+SAFARI ZONE
+PARC SAFARI
+Hidden area!
+Zone cachée !
+Calling Grotto
+Grotte de l'Appel
+Wa Wa WaterWay
+Voie Navigable Wa Wa
+Secret Area
+Zone secrète
+Between map
+Carte intermédiaire
+MAP477
+MAP477
+MAP479
+MAP479

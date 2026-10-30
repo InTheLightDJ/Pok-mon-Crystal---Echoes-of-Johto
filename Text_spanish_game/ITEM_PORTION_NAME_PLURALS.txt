@@ -1,0 +1,206 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAME_PLURALS]
+sets of Auspicious Armor
+juegos de Armadura Auspiciosa
+sets of Malicious Armor
+juegos de Armadura Maldita
+capsules of Booster Energy
+cápsulas de Energía Potenciadora
+hunks of Metal Alloy
+trozos de Metal Compuesto
+jars of Honey
+tarros de Miel
+bags of Stardust
+bolsas de Polvo Estelar
+Relic Copper coins
+monedas de Real Cobre
+Relic Silver coins
+monedas de Real Plata
+Relic Gold coins
+monedas de Real Oro
+bags of Growth Mulch
+bolsas de Abono Rápido
+bags of Damp Mulch
+bolsas de Abono Lento
+bags of Stable Mulch
+bolsas de Abono Fijador
+bags of Gooey Mulch
+bolsas de Abono Brote
+piles of Shoal Salt
+montones de Sal Cardumen
+jars of Red Nectar
+tarros de Néctar Rojo
+jars of Yellow Nectar
+tarros de Néctar Amarillo
+jars of Pink Nectar
+tarros de Néctar Rosa
+jars of Purple Nectar
+tarros de Néctar Violeta
+bags of Bright Powder
+bolsas de Polvo Brillo
+pairs of Safety Goggles
+pares de Gafa Protectora
+sets of Protective Pads
+juegos de Paracontacto
+pairs of Heavy-Duty Boots
+pares de Botas Gruesas
+pairs of Choice Specs
+pares de Gafas Elección
+lumps of Light Clay
+pellas de Refleluz
+blobs of Black Sludge
+pegotes de Lodo Negro
+servings of Leftovers
+raciones de Restos
+clumps of Luminous Moss
+matas de Musgo Brillante
+bottles of Throat Spray
+botellas de Espray Bucal
+vouchers for Room Service
+vales de Servicio Raro
+pairs of Wise Glasses
+pares de Gafas Especiales
+jars of Lax Incense
+tarros de Incienso Suave
+jars of Full Incense
+tarros de Incienso Lento
+jars of Luck Incense
+tarros de Incienso Duplo
+jars of Pure Incense
+tarros de Incienso Puro
+jars of Sea Incense
+tarros de Incienso Marino
+jars of Wave Incense
+tarros de Incienso Acua
+jars of Rose Incense
+tarros de Incienso Floral
+jars of Odd Incense
+tarros de Incienso Raro
+jars of Rock Incense
+tarros de Incienso Roca
+pieces of Charcoal
+trozos de Carbón
+pieces of Never-Melt Ice
+trozos de Hielo Perpetuo
+bags of Soft Sand
+bolsas de Arena Fina
+piles of Silver Powder
+montones de Polvo Plata
+pairs of Black Glasses
+pares de Gafas de Sol
+bags of Metal Powder
+bolsas de Polvo Metálico
+bags of Quick Powder
+bolsas de Polvo Veloz
+scraps of Reaper Cloth
+retales de Tela Terrible
+dollops of Whipped Dream
+cucharadas de Dulce de Nata
+bags of Sacred Ash
+bolsas de Ceniza Sagrada
+bags of Pewter Crunchies
+bolsas de Rokikos
+cups of Berry Juice
+vasos de Zumo de Baya
+bottles of Fresh Water
+botellas de Agua Fresca
+bottles of Soda Pop
+botellas de Refresco
+cans of Lemonade
+latas de Limonada
+bottles of Moomoo Milk
+botellas de Leche Mu-mu
+doses of Energy Powder
+dosis de Polvo Energía
+doses of Heal Powder
+dosis de Polvo Curación
+combs of Max Honey
+panales de Maxipanal
+bottles of PP Up
+botellas de Más PP
+bottles of PP Max
+botellas de PP Máximos
+bottles of HP Up
+botellas de Más PS
+bottles of Protein
+botellas de Proteína
+bottles of Iron
+botellas de Hierro
+bottles of Calcium
+botellas de Calcio
+bottles of Zinc
+botellas de Zinc
+bottles of Carbos
+botellas de Carburante
+sprigs of Lonely Mint
+ramitas de Menta Huraña
+sprigs of Adamant Mint
+ramitas de Menta Firme
+sprigs of Naughty Mint
+ramitas de Menta Pícara
+sprigs of Brave Mint
+ramitas de Menta Audaz
+sprigs of Bold Mint
+ramitas de Menta Osada
+sprigs of Impish Mint
+ramitas de Menta Agitada
+sprigs of Lax Mint
+ramitas de Menta Floja
+sprigs of Relaxed Mint
+ramitas de Menta Plácida
+sprigs of Modest Mint
+ramitas de Menta Modesta
+sprigs of Mild Mint
+ramitas de Menta Afable
+sprigs of Rash Mint
+ramitas de Menta Alocada
+sprigs of Quiet Mint
+ramitas de Menta Mansa
+sprigs of Calm Mint
+ramitas de Menta Serena
+sprigs of Gentle Mint
+ramitas de Menta Amable
+sprigs of Careful Mint
+ramitas de Menta Cauta
+sprigs of Sassy Mint
+ramitas de Menta Grosera
+sprigs of Timid Mint
+ramitas de Menta Miedosa
+sprigs of Hasty Mint
+ramitas de Menta Activa
+sprigs of Jolly Mint
+ramitas de Menta Alegre
+sprigs of Naive Mint
+ramitas de Menta Ingenua
+sprigs of Serious Mint
+ramitas de Menta Seria
+pieces of Grass Mail
+trozos de Carta Hierba
+pieces of Flame Mail
+trozos de Carta Fuego
+pieces of Bubble Mail
+trozos de Carta Pompas
+pieces of Bloom Mail
+trozos de Carta Flores
+pieces of Tunnel Mail
+trozos de Carta Mina
+pieces of Steel Mail
+trozos de Carta Acero
+pieces of Heart Mail
+trozos de Car. Corazón
+pieces of Snow Mail
+trozos de Carta Nieve
+pieces of Space Mail
+trozos de Car. Sideral
+pieces of Air Mail
+trozos de Carta Aérea
+pieces of Mosaic Mail
+trozos de Car. Mosaico
+pieces of Brick Mail
+trozos de Carta Pared
+clusters of Max Mushrooms
+racimos de Maxiseta
+sets of Reins of Unity
+juegos de Riendas Unión

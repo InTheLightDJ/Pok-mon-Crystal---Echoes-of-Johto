@@ -6,8 +6,9 @@
 #                            new one); true if the deck was saved
 #   pbTCGDeckMenu         -> the deck selection screen (089d_PokegearMenu.rb)
 #
-# Deck build screen: "X/60" at 15,0, the 9 card type filters (icons at
-# 1+2i,2, counts below, cursor above), a 6-card list from 1,7 as
+# Deck build screen: "X/60" at 15,0, the 10 card type filters (icons at
+# 2i,2, counts below, cursor above; the original's 9 started at 1, the
+# added Darkness / Metal one needs the room), a 6-card list from 1,7 as
 # "NAME Lv  X/Y" (X in the deck, Y owned and not used by the other decks).
 # Filters: LEFT/RIGHT pick, DOWN/A go to the list, B opens the Confirm /
 # View / Name / Save / Dismantle / Cancel menu, START shows the deck.
@@ -20,10 +21,13 @@ module TCG
     module_function
 
     # CardTypeFilters / DrawCardTypeIcons.CardTypeIcons: [filter, icon tile
-    # (DuelCgbSymbolGraphics), palette (GetCardTypeIconPalette)]
-    CARD_TYPE_FILTERS = [[0x01, 0x14, 2], [0x00, 0x10, 1], [0x03, 0x1c, 2], [0x02, 0x18, 1],
-                         [0x04, 0x20, 3], [0x05, 0x24, 3], [0x06, 0x28, 0],
+    # (DuelCgbSymbolGraphics), palette (GetCardTypeIconPalette)]; Darkness and
+    # Metal Pokemon share a filter (its icon is half each, a palette per half)
+    CARD_TYPE_FILTERS = [[GRASS, 0x14, 2], [FIRE, 0x10, 1], [WATER, 0x1c, 2], [LIGHTNING, 0x18, 1],
+                         [FIGHTING, 0x20, 3], [PSYCHIC, 0x24, 3], [COLORLESS, 0x28, 0],
+                         [:darkness_metal, 0x90, [PAL_DARKNESS, PAL_METAL]],
                          [:trainer, 0x0c, 2], [:energy, 0x2c, 2]]
+    FILTER_X = 0   # first icon
     NUM_FILTERED_LIST_VISIBLE_CARDS     = 6
     NUM_DECK_CONFIRMATION_VISIBLE_CARDS = 7
 
@@ -32,6 +36,7 @@ module TCG
       case filter
       when :trainer then t >= TYPE_TRAINER
       when :energy  then t >= TYPE_ENERGY && t < TYPE_TRAINER
+      when :darkness_metal then t == DARKNESS || t == METAL
       else t == filter
       end
     end
@@ -51,10 +56,12 @@ module TCG
     # DrawCardTypeIcons (y = 2)
     def card_type_icons(map)
       CARD_TYPE_FILTERS.each_with_index do |(_, t, pal), i|
-        x = 1 + 2 * i
+        x = FILTER_X + 2 * i
         map.cgb(x, 2, t); map.cgb(x + 1, 2, t + 1)
         map.cgb(x, 3, t + 2); map.cgb(x + 1, 3, t + 3)
-        map.palette(x, 2, 2, 2, pal)
+        left, right = pal.is_a?(Array) ? pal : [pal, pal]
+        map.palette(x, 2, 1, 2, left)
+        map.palette(x + 1, 2, 1, 2, right)
       end
     end
 
@@ -64,12 +71,13 @@ module TCG
       map.palette(0, y, COLS, 1, PAL_TEXTBOX)
     end
 
-    # "X/60" (PrintTotalCardCount + PrintSlashSixty)
+    # "X/60" (PrintTotalCardCount + PrintSlashSixty); decks can be 55-65
+    # cards here, so it's "X/65"
     def total_slash_sixty(map, x, y, n)
       num2(map, x, y, n)
       map.sym(x + 2, y, SYM_SLASH)
-      map.sym(x + 3, y, SYM_0 + 6)
-      map.sym(x + 4, y, SYM_0)
+      map.sym(x + 3, y, SYM_0 + DECK_MAX_SIZE / 10)
+      map.sym(x + 4, y, SYM_0 + DECK_MAX_SIZE % 10)
     end
 
     # DrawCardTypeIconsAndPrintCardCounts
@@ -77,7 +85,7 @@ module TCG
       map.clear
       box_top_line(map, 5)
       card_type_icons(map)
-      filter_counts(cards).each_with_index { |n, i| num2(map, 1 + 2 * i, 4, n) }
+      filter_counts(cards).each_with_index { |n, i| num2(map, FILTER_X + 2 * i, 4, n) }
       total_slash_sixty(map, 15, 0, cards.size)
     end
 
@@ -260,7 +268,7 @@ module TCG
     # horizontal filter cursor (HandleCardSelectionInput, cursor at 1+2i,1):
     # returns :use, :back, :start, :down or nil after moving
     def filter_input(st)
-      key = blink_wait(1 + 2 * st[:filter], 1, SYM_CURSOR_D, SYM_SPACE, [Input::USE, Input::BACK]) do
+      key = blink_wait(Screens::FILTER_X + 2 * st[:filter], 1, SYM_CURSOR_D, SYM_SPACE, [Input::USE, Input::BACK]) do
         if Input.trigger?(Input::ACTION) then :start
         elsif Input.repeat?(Input::DOWN) then :down
         elsif Input.repeat?(Input::LEFT) then :left
@@ -282,11 +290,13 @@ module TCG
     # HandleDeckBuildScreen. number: deck number shown in the confirmation
     # header (nil = none). Returns [:save, cards, name], [:dismantle] or nil.
     #--------------------------------------------------------------------------
-    def deck_build_screen(cards, index, name, number: nil, dueling: false)
+    # forced: the deck has to be fixed (a card fell apart, 089o_CardGrades.rb),
+    # so it can't be left until it has 55-65 cards (or is dismantled)
+    def deck_build_screen(cards, index, name, number: nil, dueling: false, forced: false)
       original = TCG.sort_cards(cards)
       orig_name = name.to_s
       st = { :cards => cards.dup, :name => orig_name, :index => index, :number => number,
-             :dueling => dueling, :filter => 0, :off => 0, :cur => 0 }
+             :dueling => dueling, :filter => 0, :off => 0, :cur => 0, :forced => forced }
       mode = :filters
       loop do
         refresh_deck_build(st)
@@ -316,7 +326,7 @@ module TCG
             # TryAddCardToDeck (no message when it can't); with holo copies
             # to spare, a menu picks the version
             id = st[:ids][st[:off] + st[:cur]]
-            if id && st[:cards].size < DECK_SIZE &&
+            if id && st[:cards].size < DECK_MAX_SIZE &&
                (TCG.basic_energy_card?(id) ||
                 st[:cards].count { |c| TCG.card_name(c) == TCG.card_name(id) } < MAX_NUM_SAME_NAME_CARDS)
               spare = TCG.versions(id).select { |v| st[:cards].count(v) < st[:owned][v] }
@@ -405,10 +415,10 @@ module TCG
           st[:name] = name.strip if name && !name.strip.empty?
           return :continue
         when 3                                     # Save
-          if st[:cards].size != DECK_SIZE
-            message("This isn't a 60-card deck!", keep: true)
-            return nil if yes_no_menu("Return to original configuration?", true, keep: true)
-            message("The Deck must include 60 cards!", keep: true)
+          if !TCG.deck_size_ok?(st[:cards])
+            message("This Deck doesn't have\n55 to 65 cards!", keep: true)
+            return nil if !st[:forced] && yes_no_menu("Return to original configuration?", true, keep: true)
+            message("The Deck must include\n55 to 65 cards!", keep: true)
           elsif yes_no_menu("Save this Deck?", true, keep: true)
             return [:save, st[:cards], st[:name]] if st[:cards].any? { |c| TCG.basic_pokemon_card?(c) }
             message("There are no Basic Pokémon\nin this Deck!", keep: true)
@@ -420,6 +430,10 @@ module TCG
             message("There is only 1 Deck, so this\nDeck cannot be dismantled.", keep: true)
           end
         when 5                                     # Cancel
+          if st[:forced]
+            message("The Deck must include\n55 to 65 cards!", keep: true)
+            next
+          end
           changed = TCG.sort_cards(st[:cards]) != original || st[:name] != orig_name
           return nil if !changed || yes_no_menu("Quit modifying the Deck?", true, keep: true)
         end
@@ -514,7 +528,7 @@ module TCG
 end
 
 # edit one saved deck (nil = build a new one). Returns true if saved.
-def pbTCGEditDeck(index = nil, name_prompt: true, scene: nil)
+def pbTCGEditDeck(index = nil, name_prompt: true, scene: nil, forced: false)
   decks = TCG.saved_decks
   if index.nil? && decks.size >= TCG::NUM_DECKS
     pbMessage(_INTL("All {1} deck slots are in use.", TCG::NUM_DECKS))
@@ -524,7 +538,7 @@ def pbTCGEditDeck(index = nil, name_prompt: true, scene: nil)
   run = lambda do |sc|
     sc.deck_build_screen(deck ? deck[:cards] : [], index, deck ? deck[:name] : "",
                          number: (index || decks.size) + 1,
-                         dueling: index && index == $PokemonGlobal&.tcg_active_deck)
+                         dueling: index && index == $PokemonGlobal&.tcg_active_deck, forced: forced)
   end
   result = nil
   if scene

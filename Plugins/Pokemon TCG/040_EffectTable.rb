@@ -288,6 +288,8 @@ module TCG
     "WaterEnergyEffectCommands" => [],
     "FireEnergyEffectCommands" => [],
     "GrassEnergyEffectCommands" => [],
+    "DarknessEnergyEffectCommands" => [],   # 001d_DarknessMetalEnergy.rb
+    "MetalEnergyEffectCommands" => [],
     "SuperPotionEffectCommands" => [[1, :SuperPotion_DamageEnergyCheck], [2, :SuperPotion_PlayerSelectEffect], [3, :SuperPotion_HealEffect]],
     "ImakuniEffectCommands" => [[3, :ImakuniEffect]],
     "EnergyRemovalEffectCommands" => [[1, :EnergyRemoval_EnergyCheck], [2, :EnergyRemoval_PlayerSelection], [3, :EnergyRemoval_DiscardEffect], [8, :EnergyRemoval_AISelection]],

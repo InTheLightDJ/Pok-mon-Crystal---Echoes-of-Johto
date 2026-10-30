@@ -37,7 +37,7 @@ module TCG
 
     # CheckIfThereAreAnyEnergyCardsAttached: ORIGINAL checks the whole play area
     def any_energy_cards_attached?(d = turn_duelist)
-      (0...DECK_SIZE).any? do |i|
+      (0...d.deck_size).any? do |i|
         (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) != 0 && d.card(i).energy?
       end
     end

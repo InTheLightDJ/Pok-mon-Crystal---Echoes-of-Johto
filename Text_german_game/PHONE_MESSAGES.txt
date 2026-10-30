@@ -1,0 +1,86 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[PHONE_MESSAGES]
+Hello. This is \TN.
+Hallo. Hier ist \TN.
+Good day, \PN! Hi. This is \TN.
+Guten Tag, \PN! Hi. Hier ist \TN.
+How are you doing? \PN, howdy! This is \TN. Isn't it nice out?
+Wie geht's dir? \PN, hallöchen! Hier ist \TN. Schönes Wetter, oder?
+\PN, good day! It's me, \TN. Got a minute?
+\PN, guten Tag! Ich bin's, \TN. Hast du kurz Zeit?
+Hello, \PN. This is \TN. How are things?
+Hallo, \PN. Hier ist \TN. Wie läuft's?
+Good morning, \PN. This is \TN. Did I wake you?
+Guten Morgen, \PN. Hier ist \TN. Habe ich dich geweckt?
+Good afternoon, \PN! It's \TN here.
+Guten Tag, \PN! Hier ist \TN.
+\PN, good evening! Hi. This is \TN.
+\PN, guten Abend! Hi. Hier ist \TN.
+How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
+Wie geht's deinen Pokémon?\mMein \TP ist richtig energiegeladen. Ganz schön anstrengend!\mAch ja, ich habe ein starkes \TE besiegt.\mIch muss mein Team stärker machen.
+My \TP's looking really awesome. I wish I could show you.\mHey, listen! I almost caught a \TE the other day.\mOh, it was sooooooo close, too!
+Mein \TP sieht richtig toll aus. Ich wünschte, ich könnte es dir zeigen.\mHey, hör mal! Neulich hätte ich fast ein \TE gefangen.\mOh, es war sooooooo knapp!
+How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!
+Wie geht's deinen Pokémon?\mMein \TP ist richtig energiegeladen. Ganz schön anstrengend!
+How are your Pokémon doing?\mI always keep my \TP in top shape by going to Pokémon Centers.
+Wie geht's deinen Pokémon?\mIch halte mein \TP immer topfit, indem ich ins Pokémon-Center gehe.
+My \TP's looking really awesome. I wish I could show you.
+Mein \TP sieht richtig toll aus. Ich wünschte, ich könnte es dir zeigen.
+I dressed my \TP and it looks even cuter than before.
+Ich habe mein \TP angezogen, und es sieht noch niedlicher aus als vorher.
+Oh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
+Ach ja, ich habe ein starkes \TE besiegt.\mIch muss mein Team stärker machen.
+You have to hear this! I battled \TE the other day.\mIt was easy! I had a type advantage.
+Das musst du hören! Neulich habe ich gegen \TE gekämpft.\mEs war einfach! Ich hatte einen Typvorteil.
+Hey, listen! I almost caught \TE the other day.\mOh, it was sooooooo close, too!
+Hey, hör mal! Neulich hätte ich fast \TE gefangen.\mOh, es war sooooooo knapp!
+Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not very good at this.
+Rate mal, was neulich passiert ist. Ich habe \TE schon wieder nicht gefangen.\mVielleicht bin ich nicht besonders gut darin.
+Want to battle? It's not going to be a repeat of the last time we met.\mI'll be waiting for you around \TM.
+Lust auf einen Kampf? Diesmal wird es nicht so wie beim letzten Mal.\mIch warte in der Nähe von \TM auf dich.
+Do you want to battle? I'm going to win this time!\mI'll be waiting for you around \TM.\mLook for me, OK? My \TP will be expecting you.
+Willst du kämpfen? Diesmal gewinne ich!\mIch warte in der Nähe von \TM auf dich.\mSuch mich, OK? Mein \TP erwartet dich.
+Hello. This is \TN...\mHow's it going, \PN?
+Hallo. Hier ist \TN...\mWie läuft's, \PN?
+My \TP is looking more and more like me. It's getting cuter!
+Mein \TP sieht mir immer ähnlicher. Es wird immer niedlicher!
+And you know? Now we can KO \TE easily.\mI should challenge the Cedolan Gym.
+Und weißt du was? Jetzt können wir \TE locker besiegen.\mIch sollte die Arena von Cedolan herausfordern.
+And you know? We just failed to beat \TE by a tiny margin.\mI'm guessing my Pokémon's levels aren't high enough yet...
+Und weißt du was? Wir haben \TE ganz knapp nicht besiegt.\mIch schätze, die Level meiner Pokémon sind noch nicht hoch genug...
+You must be a lot better now, huh?\mHow about showing me your technique in a real battle with me?\mI'll be waiting on \TM.
+Du bist jetzt bestimmt viel besser, oder?\mWie wäre es, wenn du mir deine Technik in einem echten Kampf zeigst?\mIch warte auf \TM.
+Where are you? Let's have our battle soon!\mI'll be waiting on \TM.
+Wo bist du? Lass uns bald kämpfen!\mIch warte auf \TM.
+See you later!
+Bis später!
+This is \TN!
+Hier ist \TN!
+Hi, this is \TN!
+Hi, hier ist \TN!
+This is \TN! Good morning, \PN!
+Hier ist \TN! Guten Morgen, \PN!
+Hi, this is \TN! Good morning, \PN!
+Hi, hier ist \TN! Guten Morgen, \PN!
+This is \TN! Good afternoon, \PN!
+Hier ist \TN! Guten Tag, \PN!
+Hi, this is \TN! Good afternoon, \PN!
+Hi, hier ist \TN! Guten Tag, \PN!
+This is \TN! Good evening, \PN!
+Hier ist \TN! Guten Abend, \PN!
+Hi, this is \TN! Good evening, \PN!
+Hi, hier ist \TN! Guten Abend, \PN!
+My \TP and I are getting more in sync with each other.
+Mein \TP und ich sind immer besser aufeinander eingespielt.
+We battled a wild \TE and managed to beat it in a close match.\mWe're getting into the groove!
+Wir haben gegen ein wildes \TE gekämpft und es in einem knappen Match besiegt.\mWir kommen richtig in Fahrt!
+But, you know what? I still haven't caught \TE.\mIt's getting beyond frustrating...
+Aber weißt du was? Ich habe \TE immer noch nicht gefangen.\mDas ist mehr als frustrierend...
+Would you be my practice partner again sometime?\mI'll be waiting on \TM...\mCould you take it a little easier on me next time?
+Wärst du mal wieder mein Trainingspartner?\mIch warte auf \TM...\mKönntest du nächstes Mal etwas sanfter mit mir sein?
+How soon can I expect to see you?\mDon't forget, \TM!
+Wann kann ich mit dir rechnen?\mVergiss nicht, \TM!
+Bye! Let's chat again!
+Tschüss! Lass uns wieder plaudern!

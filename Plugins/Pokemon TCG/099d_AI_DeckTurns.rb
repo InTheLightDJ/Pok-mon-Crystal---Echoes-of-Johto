@@ -114,7 +114,7 @@ module TCG
     def play_moltres_lv37(duel)
       d = duel.turn_duelist
       return if d.num_in_play_area >= MAX_PLAY_AREA_POKEMON
-      return if d.not_in_deck >= DECK_SIZE - 9
+      return if d.cards_in_deck <= 9
       return if duel.toxic_gas_active?
       i = d.hand.find { |c| d.card_id(c) == :MOLTRES_LV37 } or return
       say(duel, _INTL("{1} placed {2} on the Bench.", d.name, d.card(i).name)) if duel.play_basic_pokemon(i) == :ok

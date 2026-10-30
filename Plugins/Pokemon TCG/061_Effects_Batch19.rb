@@ -51,7 +51,7 @@ module TCG
   effect(:Firegiver_AddToHandEffect) do |du|
     d = du.turn_duelist
     fire = TYPE_NAMES["TYPE_ENERGY_FIRE"]
-    list = (0...DECK_SIZE).select { |i| d.card_locations[i] == CARD_LOCATION_DECK && d.card(i).type == fire }
+    list = (0...d.deck_size).select { |i| d.card_locations[i] == CARD_LOCATION_DECK && d.card(i).type == fire }
     unless list.empty?
       n = [1 + TCG.rng.rand(4), list.size].min
       list.first(n).each { |i| d.search_card_in_deck_and_add_to_hand(i); d.add_card_to_hand(i) }

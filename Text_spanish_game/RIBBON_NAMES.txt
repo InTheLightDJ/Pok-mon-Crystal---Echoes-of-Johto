@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+Cinta Bicho Jefe
+Bug Boss Beater
+Cinta Vencejefes
+Bug Collection Ribbon
+Cinta Colección Bicho
+Cool Performance Ribbon
+Cinta Actuación Carisma
+Cool Performance Ribbon Super
+Cinta Actuación Carisma Súper
+Cool Performance Ribbon Hyper
+Cinta Actuación Carisma Hiper
+Cool Performance Ribbon Master
+Cinta Actuación Carisma Experto
+Beauty Performance Ribbon
+Cinta Actuación Belleza
+Beauty Performance Ribbon Super
+Cinta Actuación Belleza Súper
+Beauty Performance Ribbon Hyper
+Cinta Actuación Belleza Hiper
+Beauty Performance Ribbon Master
+Cinta Actuación Belleza Experto
+Cute Performance Ribbon
+Cinta Actuación Dulzura
+Cute Performance Ribbon Super
+Cinta Actuación Dulzura Súper
+Cute Performance Ribbon Hyper
+Cinta Actuación Dulzura Hiper
+Cute Performance Ribbon Master
+Cinta Actuación Dulzura Experto
+Smart Performance Ribbon
+Cinta Actuación Ingenio
+Smart Performance Ribbon Super
+Cinta Actuación Ingenio Súper
+Smart Performance Ribbon Hyper
+Cinta Actuación Ingenio Hiper
+Smart Performance Ribbon Master
+Cinta Actuación Ingenio Experto
+Tough Performance Ribbon
+Cinta Actuación Dureza
+Tough Performance Ribbon Super
+Cinta Actuación Dureza Súper
+Tough Performance Ribbon Hyper
+Cinta Actuación Dureza Hiper
+Tough Performance Ribbon Master
+Cinta Actuación Dureza Experto
+Cool Ribbon
+Cinta Carisma
+Cool Ribbon Super
+Cinta Carisma Súper
+Cool Ribbon Hyper
+Cinta Carisma Hiper
+Cool Ribbon Master
+Cinta Carisma Experto
+Beauty Ribbon
+Cinta Belleza
+Beauty Ribbon Super
+Cinta Belleza Súper
+Beauty Ribbon Hyper
+Cinta Belleza Hiper
+Beauty Ribbon Master
+Cinta Belleza Experto
+Cute Ribbon
+Cinta Dulzura
+Cute Ribbon Super
+Cinta Dulzura Súper
+Cute Ribbon Hyper
+Cinta Dulzura Hiper
+Cute Ribbon Master
+Cinta Dulzura Experto
+Smart Ribbon
+Cinta Ingenio
+Smart Ribbon Super
+Cinta Ingenio Súper
+Smart Ribbon Hyper
+Cinta Ingenio Hiper
+Tough Ribbon
+Cinta Dureza
+Tough Ribbon Super
+Cinta Dureza Súper
+Tough Ribbon Hyper
+Cinta Dureza Hiper
+Tough Ribbon Master
+Cinta Dureza Experto
+Cool Ribbon Great
+Cinta Carisma Gran
+Cool Ribbon Ultra
+Cinta Carisma Ultra
+Beauty Ribbon Great
+Cinta Belleza Gran
+Beauty Ribbon Ultra
+Cinta Belleza Ultra
+Cute Ribbon Great
+Cinta Dulzura Gran
+Cute Ribbon Ultra
+Cinta Dulzura Ultra
+Smart Ribbon Great
+Cinta Ingenio Gran
+Smart Ribbon Ultra
+Cinta Ingenio Ultra
+Tough Ribbon Great
+Cinta Dureza Gran
+Tough Ribbon Ultra
+Cinta Dureza Ultra
+Winning Ribbon
+Cinta Ganador
+Victory Ribbon
+Cinta Victoria
+Ability Ribbon
+Cinta Habilidad
+Great Ability Ribbon
+Cinta Gran Habilidad
+Double Ability Ribbon
+Cinta Habilidad Doble
+Multi Ability Ribbon
+Cinta Habilidad Múltiple
+Pair Ability Ribbon
+Cinta Habilidad Pareja
+World Ability Ribbon
+Cinta Habilidad Mundial
+Champion Ribbon
+Cinta Campeón
+Sinnoh Champ Ribbon
+Cinta Campeón Sinnoh
+Record Ribbon
+Cinta Récord
+Event Ribbon
+Cinta Evento
+Legend Ribbon
+Cinta Leyenda
+Gorgeous Ribbon
+Cinta Lujo
+Royal Ribbon
+Cinta Realeza
+Gorgeous Royal Ribbon
+Cinta Lujo Real
+Alert Ribbon
+Cinta Alerta
+Shock Ribbon
+Cinta Sorpresa
+Downcast Ribbon
+Cinta Abatimiento
+Careless Ribbon
+Cinta Descuido
+Relax Ribbon
+Cinta Relax
+Snooze Ribbon
+Cinta Siesta
+Smile Ribbon
+Cinta Sonrisa
+Footprint Ribbon
+Cinta Huella
+Artist Ribbon
+Cinta Artista
+Effort Ribbon
+Cinta Esfuerzo
+Special Ribbon
+Cinta Especial
+Classic Ribbon
+Cinta Clásica
+Premier Ribbon
+Cinta Honor
+Souvenir Ribbon
+Cinta Recuerdo
+Wishing Ribbon
+Cinta Deseo
+National Ribbon
+Cinta Nacional
+Country Ribbon
+Cinta País
+Battle Champion Ribbon
+Cinta Campeón Combate
+Regional Champion Ribbon
+Cinta Campeón Regional
+Earth Ribbon
+Cinta Tierra
+World Ribbon
+Cinta Mundial
+National Champion Ribbon
+Cinta Campeón Nacional
+World Champion Ribbon
+Cinta Campeón Mundial

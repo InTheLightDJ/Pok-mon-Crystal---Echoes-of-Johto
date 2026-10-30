@@ -2,7 +2,8 @@
 # Pokemon TCG - script calls for your events (full guide: README.md).
 #
 #   pbTCGDuel(opponent_name, opponent_deck, player_deck = nil,
-#             prizes: 6, id: nil, reward: nil, portrait: nil, ai: nil, medal: nil)
+#             prizes: 6, id: nil, reward: nil, portrait: nil, ai: nil, medal: nil,
+#             ability: nil)
 #     prizes:   1-9 Prize cards (more than 6 shows them in 3 columns)
 #     opponent_deck / player_deck: a deck constant from TCG::DECKS
 #       (e.g. :CHARMANDER_AND_FRIENDS_DECK) or an array of 60 card ids.
@@ -10,14 +11,18 @@
 #       :CHARMANDER_AND_FRIENDS_DECK if they have none yet.
 #     id:       any key (symbol/string) to remember wins (pbTCGBeaten?)
 #     reward:   given on a win: a booster pack key, a card id, or an array
-#               of them (packs are opened, cards are added)
+#               of them (packs are opened, cards are added); :RANDOM_BOOSTER
+#               / :RANDOM_ENERGY_PACK = a random pack (TCG::RANDOM_PACKS)
 #     portrait: picture in Graphics/Plugins/Pokemon TCG/Duelists shown
 #               before the duel (e.g. "ronald")
 #     ai:       deck constant whose AI to use (lets a custom card list play
 #               like that deck; defaults to opponent_deck if it is a constant)
 #     medal:    Club Master medal given on a win (e.g. :grass), see
 #               089f_TrainerCardMedals.rb
-#     Returns true if the player won.
+#     ability:  the opponent's duel ability (e.g. :SPEED), see
+#               089r_DuelAbilities.rb; the player uses their equipped one
+#     Returns true if the player won, and sets switch TCG::RESULT_SWITCH
+#     (113) ON for a win / OFF for a loss.
 #==============================================================================
 class PokemonGlobalMetadata
   attr_writer :tcg_wins
@@ -33,8 +38,37 @@ module TCG
 
   def self.wins; global ? global.tcg_wins : (@test_wins ||= {}); end
 
-  # gives a reward entry: booster pack key, DESTINY(...) pack, card id, or
-  # an array of them
+  # game switch set after every pbTCGDuel: ON = won, OFF = lost (nil = none)
+  RESULT_SWITCH = 113
+
+  # reward / pbTCGOpenBooster keys that give one of these packs at random
+  # (rolled each time it's given)
+  RANDOM_PACKS = {
+    :RANDOM_BOOSTER => [
+      :COLOSSEUM_NEUTRAL, :COLOSSEUM_GRASS, :COLOSSEUM_FIRE, :COLOSSEUM_WATER,
+      :COLOSSEUM_LIGHTNING, :COLOSSEUM_FIGHTING, :COLOSSEUM_TRAINER,
+      :EVOLUTION_NEUTRAL, :EVOLUTION_GRASS, :EVOLUTION_NEUTRAL_FIRE_ENERGY,
+      :EVOLUTION_WATER, :EVOLUTION_FIGHTING, :EVOLUTION_PSYCHIC, :EVOLUTION_TRAINER,
+      :MYSTERY_NEUTRAL, :MYSTERY_GRASS_COLORLESS, :MYSTERY_WATER_COLORLESS,
+      :MYSTERY_LIGHTNING_COLORLESS, :MYSTERY_FIGHTING_COLORLESS,
+      :MYSTERY_TRAINER_COLORLESS, :LABORATORY_MOSTLY_NEUTRAL, :LABORATORY_GRASS,
+      :LABORATORY_WATER, :LABORATORY_PSYCHIC, :LABORATORY_TRAINER,
+      :GENESIS
+    ],
+    :RANDOM_ENERGY_PACK => [
+      :ENERGY_LIGHTNING_FIRE, :ENERGY_WATER_FIGHTING, :ENERGY_GRASS_PSYCHIC,
+      :RANDOM_ENERGIES, :ENERGY_DARKNESS_METAL
+    ]
+  }
+
+  # a RANDOM_PACKS key -> one of its packs; anything else as it is
+  def self.random_pack(pack)
+    list = pack.is_a?(DestinyPack) ? nil : RANDOM_PACKS[pack.to_sym]
+    list ? list.sample : pack
+  end
+
+  # gives a reward entry: booster pack key, :RANDOM_BOOSTER /
+  # :RANDOM_ENERGY_PACK, DESTINY(...) pack, card id, or an array of them
   def self.give_reward(reward)
     packs = 0
     (reward.is_a?(Array) ? reward : [reward]).each do |r|
@@ -43,7 +77,7 @@ module TCG
         packs += 1
         next
       end
-      r = r.to_sym
+      r = random_pack(r.to_sym)
       if BOOSTER_PACKS[r]
         pbTCGOpenBooster(r, packs > 0)   # "...And another Booster Pack:"
         packs += 1
@@ -130,7 +164,7 @@ module TCG
 end
 
 def pbTCGDuel(opponent_name, opponent_deck, player_deck = nil, prizes: 6, id: nil,
-              reward: nil, portrait: nil, ai: nil, medal: nil)
+              reward: nil, portrait: nil, ai: nil, medal: nil, ability: nil)
   player_deck ||= TCG.active_deck_cards || :CHARMANDER_AND_FRIENDS_DECK
   ai ||= opponent_deck.is_a?(Array) ? nil : opponent_deck.to_sym
   player_name = $player ? $player.name : "Player"
@@ -147,6 +181,7 @@ def pbTCGDuel(opponent_name, opponent_deck, player_deck = nil, prizes: 6, id: ni
           duel = TCG::Duel.new(player_name, TCG.deck_list(player_deck), TCG::PlayerController.new(scene),
                                opponent_name, TCG.deck_list(opponent_deck), TCG::AIController.new(scene, ai),
                                prizes: prizes, ui: scene)
+          duel.abilities = [TCG.duel_ability, ability&.to_sym]
           scene.duel = duel
           result = duel.start
         ensure
@@ -156,6 +191,11 @@ def pbTCGDuel(opponent_name, opponent_deck, player_deck = nil, prizes: 6, id: ni
       end
     end
     won = (result == TCG::DUEL_WIN)
+    TCG.last_duel_result = result
+    if TCG::RESULT_SWITCH && defined?($game_switches) && $game_switches
+      $game_switches[TCG::RESULT_SWITCH] = won
+      $game_map.need_refresh = true if $game_map
+    end
     if won
       TCG.wins[id] = TCG.wins[id].to_i + 1 if id
       TCG.give_reward(reward) if reward

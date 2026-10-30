@@ -124,7 +124,7 @@ module TCG
       when :Conversion2_AISelectEffect
         nd = duel.non_turn_duelist
         t = nd.card(nd.arena).type
-        { :Conversion2 => (t == COLORLESS ? duel.as_non_turn { conversion_color(duel) } : t & 0x07) }
+        { :Conversion2 => (t == COLORLESS ? duel.as_non_turn { conversion_color(duel) } : t) }
       when :DevolutionBeam_AISelectEffect
         side = 1
         slot = duel.as_non_turn { first_non_basic_slot(duel.turn_duelist) }
@@ -171,9 +171,9 @@ module TCG
           want = COLORLESS
         else
           t = x.card(x.arena).type
-          want = t if t < COLORLESS && en[t] != 0
+          want = t if t != COLORLESS && en[t] != 0
         end
-        pick = want && list.find { |i| (x.card(i).type & 0x07) == want }
+        pick = want && list.find { |i| x.card(i).color == want }
         pick || list.sample
       end
     end
@@ -197,13 +197,13 @@ module TCG
         c = x.card(x.play_area[e])
         next if c.type == COLORLESS
         if [0, 1].any? { |ai| c.attacks[ai] && duel.enough_energies_for_attack?(x, x.play_area[e], ai) }
-          return c.type & 0x07
+          return c.type
         end
       end
       (0...x.num_in_play_area).each do |e|
         c = x.card(x.play_area[e])
         next if x.attached_energies(e)[1] == 0
-        return c.type & 0x07 if c.type != COLORLESS
+        return c.type if c.type != COLORLESS
       end
       rand(NUM_COLORED_TYPES)
     end

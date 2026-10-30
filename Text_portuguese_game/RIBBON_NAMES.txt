@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+Fita Chefe Inseto
+Bug Boss Beater
+Vencedor do Chefe Inseto
+Bug Collection Ribbon
+Fita Coleção de Insetos
+Cool Performance Ribbon
+Fita de Apresentação Estilo
+Cool Performance Ribbon Super
+Fita de Apresentação Estilo Super
+Cool Performance Ribbon Hyper
+Fita de Apresentação Estilo Hyper
+Cool Performance Ribbon Master
+Fita de Apresentação Estilo Master
+Beauty Performance Ribbon
+Fita de Apresentação Beleza
+Beauty Performance Ribbon Super
+Fita de Apresentação Beleza Super
+Beauty Performance Ribbon Hyper
+Fita de Apresentação Beleza Hyper
+Beauty Performance Ribbon Master
+Fita de Apresentação Beleza Master
+Cute Performance Ribbon
+Fita de Apresentação Fofura
+Cute Performance Ribbon Super
+Fita de Apresentação Fofura Super
+Cute Performance Ribbon Hyper
+Fita de Apresentação Fofura Hyper
+Cute Performance Ribbon Master
+Fita de Apresentação Fofura Master
+Smart Performance Ribbon
+Fita de Apresentação Inteligência
+Smart Performance Ribbon Super
+Fita de Apresentação Inteligência Super
+Smart Performance Ribbon Hyper
+Fita de Apresentação Inteligência Hyper
+Smart Performance Ribbon Master
+Fita de Apresentação Inteligência Master
+Tough Performance Ribbon
+Fita de Apresentação Força
+Tough Performance Ribbon Super
+Fita de Apresentação Força Super
+Tough Performance Ribbon Hyper
+Fita de Apresentação Força Hyper
+Tough Performance Ribbon Master
+Fita de Apresentação Força Master
+Cool Ribbon
+Fita Estilo
+Cool Ribbon Super
+Fita Estilo Super
+Cool Ribbon Hyper
+Fita Estilo Hyper
+Cool Ribbon Master
+Fita Estilo Master
+Beauty Ribbon
+Fita Beleza
+Beauty Ribbon Super
+Fita Beleza Super
+Beauty Ribbon Hyper
+Fita Beleza Hyper
+Beauty Ribbon Master
+Fita Beleza Master
+Cute Ribbon
+Fita Fofura
+Cute Ribbon Super
+Fita Fofura Super
+Cute Ribbon Hyper
+Fita Fofura Hyper
+Cute Ribbon Master
+Fita Fofura Master
+Smart Ribbon
+Fita Inteligência
+Smart Ribbon Super
+Fita Inteligência Super
+Smart Ribbon Hyper
+Fita Inteligência Hyper
+Tough Ribbon
+Fita Força
+Tough Ribbon Super
+Fita Força Super
+Tough Ribbon Hyper
+Fita Força Hyper
+Tough Ribbon Master
+Fita Força Master
+Cool Ribbon Great
+Fita Estilo Grande
+Cool Ribbon Ultra
+Fita Estilo Ultra
+Beauty Ribbon Great
+Fita Beleza Grande
+Beauty Ribbon Ultra
+Fita Beleza Ultra
+Cute Ribbon Great
+Fita Fofura Grande
+Cute Ribbon Ultra
+Fita Fofura Ultra
+Smart Ribbon Great
+Fita Inteligência Grande
+Smart Ribbon Ultra
+Fita Inteligência Ultra
+Tough Ribbon Great
+Fita Força Grande
+Tough Ribbon Ultra
+Fita Força Ultra
+Winning Ribbon
+Fita Vencedora
+Victory Ribbon
+Fita da Vitória
+Ability Ribbon
+Fita Habilidade
+Great Ability Ribbon
+Fita Grande Habilidade
+Double Ability Ribbon
+Fita Habilidade Dupla
+Multi Ability Ribbon
+Fita Multi-Habilidade
+Pair Ability Ribbon
+Fita Habilidade em Par
+World Ability Ribbon
+Fita Habilidade Mundial
+Champion Ribbon
+Fita Campeão
+Sinnoh Champ Ribbon
+Fita Campeão de Sinnoh
+Record Ribbon
+Fita Recorde
+Event Ribbon
+Fita Evento
+Legend Ribbon
+Fita Lenda
+Gorgeous Ribbon
+Fita Deslumbrante
+Royal Ribbon
+Fita Real
+Gorgeous Royal Ribbon
+Fita Real Deslumbrante
+Alert Ribbon
+Fita Alerta
+Shock Ribbon
+Fita Choque
+Downcast Ribbon
+Fita Abatida
+Careless Ribbon
+Fita Descuidada
+Relax Ribbon
+Fita Relaxada
+Snooze Ribbon
+Fita Soneca
+Smile Ribbon
+Fita Sorriso
+Footprint Ribbon
+Fita Pegada
+Artist Ribbon
+Fita Artista
+Effort Ribbon
+Fita Esforço
+Special Ribbon
+Fita Especial
+Classic Ribbon
+Fita Clássica
+Premier Ribbon
+Fita Premier
+Souvenir Ribbon
+Fita Lembrança
+Wishing Ribbon
+Fita Desejo
+National Ribbon
+Fita Nacional
+Country Ribbon
+Fita País
+Battle Champion Ribbon
+Fita Campeão de Batalha
+Regional Champion Ribbon
+Fita Campeão Regional
+Earth Ribbon
+Fita Terra
+World Ribbon
+Fita Mundo
+National Champion Ribbon
+Fita Campeão Nacional
+World Champion Ribbon
+Fita Campeão Mundial

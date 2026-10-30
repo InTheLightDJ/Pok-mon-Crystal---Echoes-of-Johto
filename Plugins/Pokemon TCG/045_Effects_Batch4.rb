@@ -8,7 +8,7 @@ module TCG
     # GetEnergyAttachedMultiplierDamage: 10 x energy CARDS on defending arena
     def energy_attached_multiplier_damage
       nd = non_turn_duelist
-      10 * (0...DECK_SIZE).count { |i| nd.card_locations[i] == CARD_LOCATION_ARENA && nd.card(i).energy? }
+      10 * (0...nd.deck_size).count { |i| nd.card_locations[i] == CARD_LOCATION_ARENA && nd.card(i).energy? }
     end
 
     # HandlePokemonAndEnergySelectionScreen (turn holder's play area):
@@ -27,7 +27,7 @@ module TCG
     end
 
     def deck_empty_text(d = turn_duelist)
-      d.not_in_deck >= DECK_SIZE ? _INTL("There are no cards left in the Deck.") : false
+      d.cards_in_deck <= 0 ? _INTL("There are no cards left in the Deck.") : false
     end
 
     def no_bench_space_text(d = turn_duelist)

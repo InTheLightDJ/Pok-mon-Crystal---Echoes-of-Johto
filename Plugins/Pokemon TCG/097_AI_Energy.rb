@@ -32,7 +32,7 @@ module TCG
       atk = d.card(d.play_area[e]).attacks[ai]
       return :no_attack if atk.nil? || atk.pokemon_power?
       en, total = duel.attached_energies_with_energy_burn(d, e)
-      used = (0...NUM_COLORED_TYPES).sum { |col| [atk.cost[col], en[col]].min }
+      used = COLORED_TYPES.sum { |col| [atk.cost[col], en[col]].min }
       rem = total - used - atk.cost[COLORLESS]
       return :not_enough if rem < 0
       rem == 0 ? :exact : rem
@@ -41,7 +41,7 @@ module TCG
     # CheckCardEvolutionInHandOrDeck: evolution deck index or nil
     def card_evolution_in_hand_or_deck(d, idx)
       with_arena_as(d, idx) do
-        (0...DECK_SIZE).find do |i|
+        (0...d.deck_size).find do |i|
           l = d.card_locations[i]
           (l == CARD_LOCATION_DECK || l == CARD_LOCATION_HAND) && d.check_if_can_evolve_into(i, 0) == :ok
         end
@@ -300,7 +300,7 @@ module TCG
         return [0, 1, nil] if id == :CHARIZARD || id == :EXEGGUTOR
       end
       atk = d.card(d.play_area[e]).attacks[ai]
-      col = [FIRE, GRASS, LIGHTNING, WATER, FIGHTING].find { |x| atk.cost[x] > 0 } || PSYCHIC
+      col = [FIRE, GRASS, LIGHTNING, WATER, FIGHTING, DARKNESS, METAL].find { |x| atk.cost[x] > 0 } || PSYCHIC
       [1, 0, COLOR_ENERGY_ID[col]]
     end
 

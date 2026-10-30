@@ -12,7 +12,7 @@ module TCG
     end
 
     def deck_has_card_id?(d, *ids)
-      (0...DECK_SIZE).any? { |i| d.card_locations[i] == CARD_LOCATION_DECK && ids.include?(d.card_id(i)) }
+      (0...d.deck_size).any? { |i| d.card_locations[i] == CARD_LOCATION_DECK && ids.include?(d.card_id(i)) }
     end
 
     def handle_special_ai_attacks(duel, ai)
@@ -52,7 +52,7 @@ module TCG
           n >= 2 ? 0x81 : 0x82
         end
       when :MEWTWO_ALT_LV60, :MEWTWO_LV60
-        (0...DECK_SIZE).any? { |i| d.card_locations[i] == CARD_LOCATION_DISCARD_PILE && d.card_id(i) == :PSYCHIC_ENERGY } ? 0x82 : 0
+        (0...d.deck_size).any? { |i| d.card_locations[i] == CARD_LOCATION_DISCARD_PILE && d.card_id(i) == :PSYCHIC_ENERGY } ? 0x82 : 0
       when :NINETALES_LV35 then mix_up_score(duel, nd)
       when :ZAPDOS_LV68 then 0x83
       when :KANGASKHAN then d.not_in_deck >= 41 ? 0 : 0x80
@@ -97,7 +97,7 @@ module TCG
     end
 
     def evolution_in_hand_or_deck?(d, c)
-      (0...DECK_SIZE).any? do |i|
+      (0...d.deck_size).any? do |i|
         loc = d.card_locations[i]
         (loc == CARD_LOCATION_DECK || loc == CARD_LOCATION_HAND) && d.card(i).preevo == c.name
       end

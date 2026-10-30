@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+Fiocco Coleoboss
+Bug Boss Beater
+Vincitore del Coleoboss
+Bug Collection Ribbon
+Fiocco Collezione Coleotteri
+Cool Performance Ribbon
+Fiocco Esibizione Classe
+Cool Performance Ribbon Super
+Fiocco Esibizione Classe Super
+Cool Performance Ribbon Hyper
+Fiocco Esibizione Classe Iper
+Cool Performance Ribbon Master
+Fiocco Esibizione Classe Master
+Beauty Performance Ribbon
+Fiocco Esibizione Bellezza
+Beauty Performance Ribbon Super
+Fiocco Esibizione Bellezza Super
+Beauty Performance Ribbon Hyper
+Fiocco Esibizione Bellezza Iper
+Beauty Performance Ribbon Master
+Fiocco Esibizione Bellezza Master
+Cute Performance Ribbon
+Fiocco Esibizione Grazia
+Cute Performance Ribbon Super
+Fiocco Esibizione Grazia Super
+Cute Performance Ribbon Hyper
+Fiocco Esibizione Grazia Iper
+Cute Performance Ribbon Master
+Fiocco Esibizione Grazia Master
+Smart Performance Ribbon
+Fiocco Esibizione Acume
+Smart Performance Ribbon Super
+Fiocco Esibizione Acume Super
+Smart Performance Ribbon Hyper
+Fiocco Esibizione Acume Iper
+Smart Performance Ribbon Master
+Fiocco Esibizione Acume Master
+Tough Performance Ribbon
+Fiocco Esibizione Grinta
+Tough Performance Ribbon Super
+Fiocco Esibizione Grinta Super
+Tough Performance Ribbon Hyper
+Fiocco Esibizione Grinta Iper
+Tough Performance Ribbon Master
+Fiocco Esibizione Grinta Master
+Cool Ribbon
+Fiocco Classe
+Cool Ribbon Super
+Fiocco Classe Super
+Cool Ribbon Hyper
+Fiocco Classe Iper
+Cool Ribbon Master
+Fiocco Classe Master
+Beauty Ribbon
+Fiocco Bellezza
+Beauty Ribbon Super
+Fiocco Bellezza Super
+Beauty Ribbon Hyper
+Fiocco Bellezza Iper
+Beauty Ribbon Master
+Fiocco Bellezza Master
+Cute Ribbon
+Fiocco Grazia
+Cute Ribbon Super
+Fiocco Grazia Super
+Cute Ribbon Hyper
+Fiocco Grazia Iper
+Cute Ribbon Master
+Fiocco Grazia Master
+Smart Ribbon
+Fiocco Acume
+Smart Ribbon Super
+Fiocco Acume Super
+Smart Ribbon Hyper
+Fiocco Acume Iper
+Tough Ribbon
+Fiocco Grinta
+Tough Ribbon Super
+Fiocco Grinta Super
+Tough Ribbon Hyper
+Fiocco Grinta Iper
+Tough Ribbon Master
+Fiocco Grinta Master
+Cool Ribbon Great
+Fiocco Classe Grande
+Cool Ribbon Ultra
+Fiocco Classe Ultra
+Beauty Ribbon Great
+Fiocco Bellezza Grande
+Beauty Ribbon Ultra
+Fiocco Bellezza Ultra
+Cute Ribbon Great
+Fiocco Grazia Grande
+Cute Ribbon Ultra
+Fiocco Grazia Ultra
+Smart Ribbon Great
+Fiocco Acume Grande
+Smart Ribbon Ultra
+Fiocco Acume Ultra
+Tough Ribbon Great
+Fiocco Grinta Grande
+Tough Ribbon Ultra
+Fiocco Grinta Ultra
+Winning Ribbon
+Fiocco Vincitore
+Victory Ribbon
+Fiocco Vittoria
+Ability Ribbon
+Fiocco Abilità
+Great Ability Ribbon
+Fiocco Gran Abilità
+Double Ability Ribbon
+Fiocco Doppia Abilità
+Multi Ability Ribbon
+Fiocco Multiabilità
+Pair Ability Ribbon
+Fiocco Abilità Coppia
+World Ability Ribbon
+Fiocco Abilità Mondiale
+Champion Ribbon
+Fiocco Campione
+Sinnoh Champ Ribbon
+Fiocco Campione di Sinnoh
+Record Ribbon
+Fiocco Record
+Event Ribbon
+Fiocco Evento
+Legend Ribbon
+Fiocco Leggenda
+Gorgeous Ribbon
+Fiocco Sfarzo
+Royal Ribbon
+Fiocco Regale
+Gorgeous Royal Ribbon
+Fiocco Sfarzo Regale
+Alert Ribbon
+Fiocco Allerta
+Shock Ribbon
+Fiocco Shock
+Downcast Ribbon
+Fiocco Abbattuto
+Careless Ribbon
+Fiocco Distratto
+Relax Ribbon
+Fiocco Relax
+Snooze Ribbon
+Fiocco Pisolino
+Smile Ribbon
+Fiocco Sorriso
+Footprint Ribbon
+Fiocco Impronta
+Artist Ribbon
+Fiocco Artista
+Effort Ribbon
+Fiocco Impegno
+Special Ribbon
+Fiocco Speciale
+Classic Ribbon
+Fiocco Classico
+Premier Ribbon
+Fiocco Premier
+Souvenir Ribbon
+Fiocco Ricordo
+Wishing Ribbon
+Fiocco Desiderio
+National Ribbon
+Fiocco Nazionale
+Country Ribbon
+Fiocco Paese
+Battle Champion Ribbon
+Fiocco Campione Lotta
+Regional Champion Ribbon
+Fiocco Campione Regionale
+Earth Ribbon
+Fiocco Terra
+World Ribbon
+Fiocco Mondo
+National Champion Ribbon
+Fiocco Campione Nazionale
+World Champion Ribbon
+Fiocco Campione Mondiale

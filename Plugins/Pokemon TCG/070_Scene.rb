@@ -84,7 +84,7 @@ module TCG
       name = name_and_level(c)
       nx = COLS - text_tiles(name) if ny == 0
       card_text(map, nx, ny, c, name)
-      map.sym(nx - 1, ny, SYM_FIRE + duel.play_area_card_color(du, 0))
+      map.sym(nx - 1, ny, COLOR_SYMBOLS[duel.play_area_card_color(du, 0)])
       attached_energies(map, du, 0, bx, by)
       hp_bar(map, bx, by + 1, c.hp, du.slot_hp[0])
       if du.slot_pluspower[0] > 0
@@ -101,7 +101,7 @@ module TCG
     def attached_energies(map, du, e, x, y)
       en, total = du.attached_energies(e)
       row = []
-      en.each_with_index { |n, col| n.times { row << SYM_FIRE + col } }
+      SYMBOL_ORDER.each { |col| en[col].times { row << COLOR_SYMBOLS[col] } }
       row = row.first(8)
       row << SYM_SPACE while row.size < 8
       row[7] = SYM_PLUS if total >= 9
@@ -162,7 +162,7 @@ module TCG
       when DAMAGE_X     then map.sym(18, y + 1, SYM_CROSS)
       end
       x = 2
-      atk.cost.each_with_index { |n, col| n.times { map.sym(x, y, SYM_FIRE + col); x += 1 } }
+      SYMBOL_ORDER.each { |col| atk.cost[col].times { map.sym(x, y, COLOR_SYMBOLS[col]); x += 1 } }
     end
 
     # PrintAndLoadAttacksToDuelTempList: rows 13 and 15 of the wide text box
@@ -195,7 +195,7 @@ module TCG
       c = du.card(du.play_area[e])
       # PrintPlayAreaCardHeader
       card_text(map, 4, y, c, c.name[0, 10])
-      map.sym(18, y, SYM_FIRE + duel.play_area_card_color(du, e))
+      map.sym(18, y, COLOR_SYMBOLS[duel.play_area_card_color(du, e)])
       if c.level.to_i > 0   # custom cards with a single art have no level
         map.sym(14, y, SYM_LV)
         lv = c.level.to_i.to_s.rjust(2)
@@ -236,14 +236,16 @@ module TCG
     # card list screen (DrawCardListScreenLayout + DisplayCardList)
     #--------------------------------------------------------------------------
     # CardSymbolTable: first tile ($d0 = DuelCgbSymbolGraphics + 0), CGB palette
+    # (+ 12 / 13: Darkness / Metal Energy, added below the original tiles)
     CARD_SYMBOLS = [[0x10, 1], [0x14, 2], [0x18, 1], [0x1c, 2], [0x20, 3], [0x24, 3],
-                    [0x28, 0], [0x2c, 2], [0x00, 2], [0x04, 2], [0x08, 1], [0x0c, 2]]
+                    [0x28, 0], [0x2c, 2], [0x00, 2], [0x04, 2], [0x08, 1], [0x0c, 2],
+                    [0x88, PAL_DARKNESS], [0x8c, PAL_METAL]]
     CARD_LIST_VISIBLE = 5
 
     # CardTypeToSymbolID
     def card_symbol_id(card)
       return 11 if card.trainer?
-      return card.type & 7 if card.energy?
+      return { DARKNESS => 12, METAL => 13 }.fetch(card.color, card.color) if card.energy?
       card.stage.to_i + 8
     end
 
@@ -327,7 +329,7 @@ module TCG
     def card_page_generic(map, card, color)
       card_page_frame(map, card)
       card_text(map, 5, 1, card, card.name)
-      map.sym(18, 1, SYM_FIRE + color)
+      map.sym(18, 1, COLOR_SYMBOLS[color])
       rarity_icon(map, card)
     end
 
@@ -339,9 +341,9 @@ module TCG
 
     # PrintCardPageWeaknessesOrResistances: one symbol per WR bit, FIRE first
     def wr_symbols(map, x, y, bits)
-      6.times do |col|
-        next if (bits & (0x80 >> col)) == 0
-        map.sym(x, y, SYM_FIRE + col)
+      WR_COLORS.each do |col|
+        next if (bits & COLOR_TO_WR[col]) == 0
+        map.sym(x, y, COLOR_SYMBOLS[col])
         x += 1
       end
     end
@@ -625,7 +627,7 @@ module TCG
       COLOR_ICONS.each_with_index { |(t, pal), i| cgb_rect(map, 2, i * 2, t, pal) }
       COLOR_NAMES_TEXT.each_with_index { |n, i| map.text(4, 1 + i * 2, n) }
       map.text(10, 9, "Type"); map.text(10, 10, "Weakness"); map.text(10, 11, "Resistance")
-      map.sym(15, 9, SYM_FIRE + duel.play_area_card_color(du, slot))
+      map.sym(15, 9, COLOR_SYMBOLS[duel.play_area_card_color(du, slot)])
       weak = slot == 0 ? duel.arena_card_weakness(du) : c.weakness
       res  = slot == 0 ? duel.arena_card_resistance(du) : c.resistance
       wr_symbols(map, 15, 10, weak.to_i)
@@ -1061,8 +1063,9 @@ module TCG
         @map.put(px, py, Screens::PRIZE_TILE)
         @map.put(ox, oy, Screens::PRIZE_TILE)
         # the original always counts down from DECK_SIZE - 7 - 1 for both
-        Screens.two_digits(@map, 3, 5, DECK_SIZE - 8 - i)
-        Screens.two_digits(@map, 18, 7, DECK_SIZE - 8 - i)
+        # (decks can be 55-65 cards now: each counts down from its own)
+        Screens.two_digits(@map, 3, 5, decks[1] - 1 - i)
+        Screens.two_digits(@map, 18, 7, decks[0] - 1 - i)
         render
       end
       wait_text_box_input

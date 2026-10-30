@@ -27,9 +27,14 @@ module TCG
       [[28, 28, 24], [30, 29, 0],  [30, 3, 0],  [0, 0, 0]],
       [[28, 28, 24], [0, 18, 0],   [12, 11, 20], [0, 0, 0]],
       [[28, 28, 24], [22, 0, 22],  [27, 7, 3],  [0, 0, 0]],
-      [[28, 28, 24], [26, 10, 0],  [28, 0, 0],  [0, 0, 0]]
+      [[28, 28, 24], [26, 10, 0],  [28, 0, 0],  [0, 0, 0]],
+      [[28, 28, 24], [30, 26, 8],  [28, 21, 2], [25, 17, 0]],   # PAL_HOLO_NAME (089j)
+      [[28, 28, 24], [16, 12, 20], [8, 5, 12],  [0, 0, 0]],     # Darkness icons
+      [[28, 28, 24], [20, 22, 25], [10, 12, 16], [0, 0, 0]]     # Metal icons
     ]
     PAL_TEXTBOX = 4   # wTextBoxFrameType in duels (Duel_Init)
+    PAL_DARKNESS = 6
+    PAL_METAL    = 7
 
     # TX_SYMBOL tile ids (constants/charmaps.asm)
     SYM_SPACE = 0x00; SYM_FIRE = 0x01; SYM_GRASS = 0x02; SYM_LIGHTNING = 0x03
@@ -42,11 +47,15 @@ module TCG
     SYM_BOX_TOP = 0x1c; SYM_BOX_BOTTOM = 0x1d; SYM_BOX_LEFT = 0x1e; SYM_BOX_RIGHT = 0x1f
     SYM_0 = 0x20; SYM_DOT = 0x2a; SYM_PLUS = 0x2b; SYM_MINUS = 0x2c; SYM_CROSS = 0x2d
     SYM_SLASH = 0x2e; SYM_CURSOR_D = 0x2f; SYM_PRIZE = 0x30
+    SYM_DARKNESS = 0x38; SYM_METAL = 0x39   # added below the original tiles
+    # energy symbol of each color (FIRE..COLORLESS, DARKNESS, METAL)
+    COLOR_SYMBOLS = [SYM_FIRE, SYM_GRASS, SYM_LIGHTNING, SYM_WATER, SYM_FIGHTING,
+                     SYM_PSYCHIC, SYM_COLORLESS, SYM_DARKNESS, SYM_METAL]
 
     TOKEN_SYMBOLS = {
       "FIRE" => SYM_FIRE, "GRASS" => SYM_GRASS, "LIGHTNING" => SYM_LIGHTNING,
       "WATER" => SYM_WATER, "FIGHTING" => SYM_FIGHTING, "PSYCHIC" => SYM_PSYCHIC,
-      "COLORLESS" => SYM_COLORLESS
+      "COLORLESS" => SYM_COLORLESS, "DARKNESS" => SYM_DARKNESS, "METAL" => SYM_METAL
     }
 
     # half-width charmap: ascii $20-$7f plus a few specials

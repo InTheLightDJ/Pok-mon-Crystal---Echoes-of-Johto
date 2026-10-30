@@ -1,0 +1,1648 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MOVE_DESCRIPTIONS]
+The user may critically hit with its ruinous claws. May also leave the target poisoned, paralyzed, or asleep.
+El usuario puede asestar un golpe crítico con sus garras destructoras. También puede envenenar, paralizar o dormir al objetivo.
+The user wraps winds of fierce emotion around opponents. This may lower their Attack stats.
+El usuario envuelve a los rivales en vientos de intensas emociones. Puede bajar su Ataque.
+The user rampages around spewing flames for two to three turns. The user then becomes confused.
+El usuario arremete escupiendo llamas durante dos o tres turnos y después queda confuso.
+The user shrouds itself in water and slams into the target. This also damages the user.
+El usuario se envuelve en agua y embiste al objetivo. El usuario también sufre daño.
+The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.
+El usuario lanza la clorofila acumulada para dañar al objetivo. El usuario también sufre daño.
+The user hurls giant chunks of ice at the target. This may also make the target flinch.
+El usuario lanza enormes bloques de hielo al objetivo. También puede amedrentarlo.
+The user rams into the target in a full-body tackle. This lowers the user’s Defense and Sp. Def stats.
+El usuario embiste al objetivo con todo su cuerpo. Baja la Defensa y la Defensa Especial del usuario.
+Fires toxic barbs which may poison the target. Power is doubled if the target is poisoned.
+Dispara púas tóxicas que pueden envenenar al objetivo. Su potencia se duplica si el objetivo está envenenado.
+The user slashes with aura-enriched wings which boosts its Speed stat. Critical hits land more easily.
+El usuario ataca con alas cargadas de aura que aumentan su Velocidad. Suele asestar golpes críticos.
+The user attacks the target with spine-chilling resentment. This also lowers the target’s Attack stat.
+El usuario ataca con un rencor escalofriante. También baja el Ataque del objetivo.
+The user fires arrows which may lower the target’s Defense or make it flinch. Critical hits land more easily.
+El usuario dispara flechas que pueden bajar la Defensa del objetivo o amedrentarlo. Suele asestar golpes críticos.
+The user attacks with cold winds that cause opposing Pokémon to tremble. This may lower their Speed stats.
+El usuario ataca con vientos fríos que hacen temblar a los rivales. Puede bajar su Velocidad.
+The user attacks opposing Pokémon with a thunderous tempest. This may also leave them paralyzed.
+El usuario ataca a los rivales con una tempestad atronadora. También puede paralizarlos.
+The user wraps fierce winds and hot sand around opponents. This may leave them with a burn.
+El usuario envuelve a los rivales en vientos feroces y arena caliente. Puede quemarlos.
+The user is blessed by the moon, restoring HP and curing status conditions of itself and allies.
+La luna bendice al usuario, que recupera PS y cura los problemas de estado propios y de sus aliados.
+Cloaking itself in psychic energy, the user slams into the target. This raises the user’s Defense.
+El usuario se envuelve en energía psíquica y embiste al objetivo. Aumenta la Defensa del usuario.
+The user swaps its Attack and Defense stats.
+El usuario intercambia su Ataque y su Defensa.
+The user swings at the opponent with its stone axes. May leave floating rocks around the target.
+El usuario golpea al rival con sus hachas de piedra. Puede dejar rocas flotando alrededor del objetivo.
+The user attacks by emitting a mysterious power. This also boosts the user’s Sp. Atk stat.
+El usuario ataca emitiendo un poder misterioso. También aumenta su Ataque Especial.
+The user performs an intense dance to usher in victory, raising its Attack, Defense, and Speed.
+El usuario baila intensamente para atraer la victoria y aumenta su Ataque, su Defensa y su Velocidad.
+The user makes its skin as hard as an iron shield, sharply boosting its Defense stat.
+El usuario endurece su piel como un escudo de hierro y aumenta mucho su Defensa.
+Hurls fireballs which may cause burns. Power is doubled if the target has a status condition.
+Lanza bolas de fuego que pueden quemar. Su potencia se duplica si el objetivo sufre un problema de estado.
+The user slashes the opponent with its shell blade. May leave spikes around the target.
+El usuario corta al rival con la cuchilla de su concha. Puede dejar púas alrededor del objetivo.
+The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats.
+El usuario se anima, se cura sus problemas de estado y aumenta su Ataque Especial y su Defensa Especial.
+The user expels pressurized water to cut at the target like a blade. Critical hits land more easily.
+El usuario expulsa agua a presión que corta al objetivo como una cuchilla. Suele asestar golpes críticos.
+The user attacks the target using light and fluid dance steps. This also boosts the user’s Speed stat.
+El usuario ataca con pasos de baile ligeros y fluidos. También aumenta su Velocidad.
+The user shoots its own armor out as blazing projectiles. This lowers the user’s Defense and Sp. Def.
+El usuario dispara su propia coraza como proyectiles ardientes. Baja su Defensa y su Defensa Especial.
+Performs a downward kick which may confuse the target. The user takes damage if it misses.
+Da una patada descendente que puede confundir al objetivo. Si falla, el usuario sufre daño.
+A spiteful slashing attack. The user’s HP is restored by up to half the damage taken by the target.
+Un ataque cortante cargado de rencor. El usuario recupera hasta la mitad del daño causado al objetivo.
+This move is only used by a Starmobile. It may leave the target with a burn.
+Solo lo usa un Astromóvil. Puede quemar al objetivo.
+The user showers the target with frigid water. This also lowers the target's Attack stat.
+El usuario rocía al objetivo con agua helada. También baja su Ataque.
+The user tells a chillingly bad joke and switches out. This summons a snowstorm lasting five turns.
+El usuario cuenta un chiste malísimo y se retira. Provoca una nevada que dura cinco turnos.
+A massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit.
+Una explosión prehistórica descomunal. Su potencia aumenta más de lo normal si es supereficaz.
+This move is only used by a Starmobile. It may paralyze the target.
+Solo lo usa un Astromóvil. Puede paralizar al objetivo.
+The user retaliates with much greater force against the opponent that last inflicted damage on it.
+Devuelve al rival el último ataque recibido, pero con mucha más fuerza.
+The user captures a quick sketch, changing the Abilities of the user and its allies to the target's.
+El usuario hace un boceto rápido y cambia su habilidad y la de sus aliados por la del objetivo.
+The user attacks by discharging all of its electricity. The user will no longer be Electric type.
+El usuario ataca descargando toda su electricidad y deja de ser de tipo Eléctrico.
+A futuristic electric strike. This move’s power is boosted more than usual if it’s a supereffective hit.
+Un ataque eléctrico futurista. Su potencia aumenta más de lo normal si es supereficaz.
+The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.
+El usuario aumenta mucho su Ataque, su Ataque Especial y su Velocidad a costa de sus PS.
+The user throws a rigged bouquet of flowers at the target, which always hits and lands a critical hit.
+El usuario lanza al objetivo un ramo de flores trucado que nunca falla y siempre es un golpe crítico.
+The user attacks with its huge hammer. This move can’t be used twice in a row.
+El usuario ataca con su enorme martillo. No se puede usar dos veces seguidas.
+The user becomes highly vulnerable to attacks until its next turn after using this move.
+Tras usar este movimiento, el usuario se vuelve muy vulnerable a los ataques hasta su siguiente turno.
+The user spins the pointed part of its body at high speed to pierce the target, ignoring protections.
+El usuario gira la parte puntiaguda de su cuerpo a gran velocidad y perfora al objetivo, ignorando las protecciones.
+The user spins into the target with feet covered in thin ice. This also destroys the terrain.
+El usuario gira contra el objetivo con los pies cubiertos de hielo fino. También destruye el campo.
+The user summons a torrent around its fist and punches at blinding speed. Always goes first.
+El usuario invoca un torrente alrededor de su puño y golpea a una velocidad cegadora. Siempre ataca primero.
+The user kowtows to make the target lower its guard, then slashes. This attack never misses.
+El usuario hace una reverencia para que el objetivo baje la guardia y después le corta. Nunca falla.
+The user attacks to avenge its allies. The move’s power increases for each defeated ally.
+El usuario ataca para vengar a sus aliados. Su potencia aumenta por cada aliado derrotado.
+The user attacks by unleashing a peculiar, mind-bending light that harshly lowers the target’s Sp. Def.
+El usuario ataca con una luz extraña y desconcertante que baja mucho la Defensa Especial del objetivo.
+This move is only used by a Starmobile. It may confuse the target.
+Solo lo usa un Astromóvil. Puede confundir al objetivo.
+The user throws out a huge mass of coins, lowering its Sp. Atk stat. Money is earned after the battle.
+El usuario lanza una enorme cantidad de monedas y baja su Ataque Especial. Se gana dinero tras el combate.
+Performs a spin that eliminates certain traps and hazards. This also poisons opposing Pokémon.
+Gira para eliminar ciertas trampas y peligros. También envenena a los rivales.
+This move is only used by a Starmobile. It may poison the target.
+Solo lo usa un Astromóvil. Puede envenenar al objetivo.
+If used when the user has a Tatsugiri in its mouth, a boost occurs based on its form.
+Si el usuario tiene un Tatsugiri en la boca, recibe una mejora según la forma de este.
+The user’s fellows gather in droves to perform a combo attack that hits one to ten times in a row.
+Los compañeros del usuario se reúnen en masa para un ataque combinado que golpea de una a diez veces seguidas.
+The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
+El usuario ataca abalanzándose sobre el objetivo. También baja su Velocidad.
+The user converts its rage into energy to attack. The move’s power increases every time the user is hit.
+El usuario convierte su furia en energía para atacar. Su potencia aumenta cada vez que recibe un golpe.
+The user charges and destroys enemy barriers. This move’s type depends on the user’s form.
+El usuario carga y destruye las barreras enemigas. El tipo del movimiento depende de la forma del usuario.
+The user revives a party Pokémon that has fainted and restores half their max HP.
+El usuario revive a un Pokémon debilitado del equipo y le restaura la mitad de sus PS máximos.
+The user summons a ruinous disaster. This cuts the target’s HP in half.
+El usuario provoca un desastre devastador que reduce a la mitad los PS del objetivo.
+The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage.
+El usuario pone en salazón al objetivo y le causa daño cada turno. Los tipos Acero y Agua sufren más daño.
+The user creates a substitute and switches places with a party Pokémon in waiting.
+El usuario crea un sustituto y se cambia por un Pokémon del equipo que esté esperando.
+User spins a silken trap to protect itself. Lowers the Speed of any that make direct contact.
+El usuario teje una trampa de seda para protegerse. Baja la Velocidad de quien lo toque directamente.
+Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
+Provoca una nevada de cinco turnos que aumenta la Defensa de los Pokémon de tipo Hielo.
+Emits a spicy extract which raises the target’s Attack and lowers Defense by two stages each.
+Emite un extracto picante que sube dos niveles el Ataque del objetivo y baja dos niveles su Defensa.
+The user inflicts damage on the target with a furious spin. This harshly lowers the user’s Speed.
+El usuario daña al objetivo con un giro furioso. Baja mucho la Velocidad del usuario.
+Clears hazards and substitutes from the field. This also boosts the user’s Attack and Speed.
+Elimina del terreno los peligros y los sustitutos. También aumenta el Ataque y la Velocidad del usuario.
+The user blows out raging flames as if singing a song. This also boosts the user’s Sp. Atk stat.
+El usuario lanza llamas furiosas como si cantara. También aumenta su Ataque Especial.
+The user attacks suddenly as if leaping out from tall grass. This boosts the user's Speed stat.
+El usuario ataca por sorpresa como si saltara desde la hierba alta. Aumenta su Velocidad.
+The user performs a perfectly timed triple dive, hitting the target three times in a row.
+El usuario realiza un triple salto perfectamente sincronizado y golpea al objetivo tres veces seguidas.
+The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+El usuario dispara rayos místicos por los ojos. Golpea al objetivo dos veces seguidas.
+This move is only used by a Starmobile. It may put the target to sleep.
+Solo lo usa un Astromóvil. Puede dormir al objetivo.
+The user blasts the target with boiling-hot water whose power is boosted in harsh sunlight.
+El usuario dispara al objetivo agua hirviendo cuya potencia aumenta con sol abrasador.
+The user rends the target with an ethereal blade whose power is boosted on Electric Terrain.
+El usuario desgarra al objetivo con una hoja etérea cuya potencia aumenta en un Campo Eléctrico.
+The user unleashes the full brunt of its spirit from a blood moon. This move can't be used twice in a row.
+El usuario desata toda la fuerza de su espíritu bajo una luna sangrienta. No se puede usar dos veces seguidas.
+Blasts opponents with hot tea. Heals the user by half the damage dealt and may also burn targets.
+Ataca a los rivales con té caliente. Cura al usuario la mitad del daño causado y puede quemar a los objetivos.
+An explosion of sticky candy syrup, which drop the target's Speed stat each turn for three turns.
+Una explosión de pegajoso sirope de caramelo que baja la Velocidad del objetivo cada turno durante tres turnos.
+An ivy-wrapped cudgel strike with a high critical-hit ratio. Type changes based on the user's Mask.
+Un golpe con un garrote envuelto en hiedra con un alto índice de golpe crítico. Su tipo cambia según la máscara del usuario.
+A two-turn attack. The user boosts its Sp. Atk and then fires a high-voltage shot.
+Un ataque en dos turnos. El usuario aumenta su Ataque Especial y después dispara una descarga de alto voltaje.
+When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon.
+Cuando lo usa Terapagos en su Forma Astral, este movimiento daña a todos los rivales.
+Sometimes all of the user's heads shoot beams in unison, doubling this move's power.
+A veces todas las cabezas del usuario disparan rayos a la vez y la potencia se duplica.
+Protects the user from attacks. Also burns any attacker that makes contact with the user.
+Protege al usuario de los ataques. También quema a cualquier atacante que lo toque.
+The user cleaves the target. This move hits even if the target protects itself.
+El usuario parte al objetivo en dos. Acierta incluso si el objetivo se protege.
+The user attacks by launching particle blades at the target twice in a row. This attack never misses.
+El usuario ataca lanzando dos veces seguidas hojas de partículas al objetivo. Nunca falla.
+The user raises its allies’ critical hit ratio with a draconic cry. This rouses Dragon types more.
+El usuario aumenta el índice de golpe crítico de sus aliados con un grito dracónico. Anima más a los tipo Dragón.
+Attacks using an angelic voice. This confuses the target if its stats have been raised this turn.
+Ataca con una voz angelical. Confunde al objetivo si sus estadísticas han subido en este turno.
+The user drops onto the target with its electrified body. If it misses, the user is hurt instead.
+El usuario se deja caer sobre el objetivo con su cuerpo electrificado. Si falla, el usuario sufre daño.
+Attacks the target with unpleasant sound waves. Prevents the target from healing for two turns.
+Ataca al objetivo con ondas sonoras desagradables. Impide que el objetivo se cure durante dos turnos.
+An attack that hits first and makes the target flinch. Fails if the target isn't using a high priority move.
+Un ataque que golpea primero y amedrenta al objetivo. Falla si el objetivo no usa un movimiento con mucha prioridad.
+Wraps the target in a toxic, corrosive chain. This may also leave the target badly poisoned.
+Envuelve al objetivo en una cadena tóxica y corrosiva. También puede envenenarlo gravemente.
+Causes the sun to shine as well as does damage to the opponent!
+¡Hace que brille el sol y además daña al rival!
+The target is infested by crawling horrors and unable to flee for four to five turns.
+Unos horrores reptantes infestan al objetivo, que no puede huir durante cuatro o cinco turnos.
+Has a 1/3 chance to turn the target into a shambling zombie.
+Tiene una probabilidad de 1/3 de convertir al objetivo en un zombi tambaleante.
+Slaps the target 1-10 times. The first slap barely hurts, but each slap after that hits twice as hard as the last.
+Abofetea al objetivo de 1 a 10 veces. La primera bofetada apenas duele, pero cada una pega el doble que la anterior.
+Doubles the power of the user's next move and halves the power of the target's next two moves.
+Duplica la potencia del siguiente movimiento del usuario y reduce a la mitad la de los dos siguientes movimientos del objetivo.
+The user vanishes into its lair on the first turn, dodging all non-Psychic moves, then attacks on the next turn.
+El usuario desaparece en su guarida el primer turno, esquivando todos los movimientos que no sean de tipo Psíquico, y ataca en el siguiente.
+Costs the user 100 HP to use. Any target it hits faints instantly, but it often misses.
+Cuesta 100 PS usarlo. Cualquier objetivo al que alcance se debilita al instante, pero suele fallar.
+Drains 20 HP from the target, healing the user 30 HP, and lowers the target's accuracy by one stage.
+Drena 20 PS del objetivo, cura 30 PS al usuario y baja un nivel la precisión del objetivo.
+Using its tough and impressive horn, the user rams into the target with no letup.
+Violenta embestida con cuernos imponentes.
+The user calls out its underlings to pummel the target. Critical hits land more easily.
+El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.
+The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.
+Although this move has great power, it only works the first turn the user is in battle.
+Movimiento de gran potencia que solo puede usarse en el turno en que el usuario sale al combate.
+Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
+Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS.
+The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+Restaura al usuario la mitad del daño causado al objetivo.
+The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat.
+Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque.
+The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
+Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.
+The user attacks with a sinister beam of light. It may also confuse the target.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial.
+After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo.
+The user crushes its foes by rolling over them. This attack may make the target flinch.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
+Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto.
+The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+When the user knocks out a target with this move, the user's Attack stat rises drastically.
+Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.
+While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.
+El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.
+The target is slashed with scythes or claws. Its power increases if it hits in succession.
+Ataque con garras o guadaña que crece en intensidad si se usa repetidas veces.
+Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+Lanza finas púas que hieren de dos a cinco veces.
+The foe is stabbed twice by a pair of stingers. It may also poison the target.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is infested and unable to flee for four to five turns.
+Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.
+The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.
+El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.
+The user calls out its underlings to heal it. The user regains up to half of its max HP.
+El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.
+The target is covered in a powder that explodes and damages it if it uses a Fire-type move.
+Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.
+The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.
+Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad.
+The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.
+Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.
+The user ensnares the target with thin, gooey silk so it can't flee from battle.
+Enreda al objetivo para evitar que abandone el combate.
+Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in.
+Coloca una red pegajosa alrededor del equipo rival que baja la Velocidad de cualquier adversario que entre a combatir.
+The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed.
+Lanza seda a los rivales y reduce mucho su Velocidad.
+The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.
+Se concentra en una ráfaga de luz que sube muchísimo el Ataque Especial.
+Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls.
+Ataca al objetivo con una ráfaga de golpes que pasan por alto los efectos de movimientos como Protección o Detección. Baja la Defensa del usuario.
+The user turns the foe's power against it. It does more damage the higher the target's Attack stat.
+El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.
+The user transforms its wrath into a fire-like aura to attack. This may also make foes flinch.
+El usuario convierte su ira en un aura flamígera para lanzar su ataque. Puede amedrentar al objetivo.
+The user swings both arms and hits the target. Ignores the target's stat changes.
+Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las características del objetivo.
+The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.
+Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.
+The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+Tritura con afilados colmillos y puede bajar la Defensa del objetivo.
+The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+Libera una horrible aura llena de malos pensamientos que puede amedrentar al objetivo.
+The user pretends to bow its head, but then it stabs the target with its disheveled hair. Never misses.
+El usuario finge hacer una reverencia y aprovecha la ocasión para ensartar al objetivo con su cabello alborotado. Siempre acierta.
+This move prevents the user and the target from switching out until either of them faints.
+Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos se debilite o abandone el terreno de combate.
+The user attacks the target's throat. The target cannot use sound-based moves for two turns.
+Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.
+Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit.
+Golpe devastador que requiere un absoluto dominio de las artes siniestras. Siempre asesta un golpe crítico.
+The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn.
+Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica.
+The user slashes the target the instant an opportunity arises. Critical hits land more easily.
+Ataca al objetivo a la primera oportunidad. Suele ser crítico.
+This move enables the user to attack first. It fails if the target is not readying an attack, however.
+Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.
+The user slaps down the target's held item, preventing that item from being used in the battle.
+Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.
+If the target has already taken some damage in the same turn, this attack's power is doubled.
+Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.
+The target is bitten with viciously sharp fangs. It may make the target flinch.
+Un voraz bocado que puede amedrentar al objetivo.
+The user swings its body around violently to inflict damage on everything in its vicinity.
+Hace pivotar su cuerpo para causar daño a su alrededor.
+The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+El agresor ataca y le quita el objeto al objetivo siempre y cuando no lleve ninguno.
+The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.
+Chillido desagradable que baja el Ataque Especial del rival.
+If the user moves after the target, this attack's power will be doubled.
+El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.
+An attack move that inflicts double damage if used on a target that is switching out of battle.
+Hace el doble de daño al objetivo que pide el relevo.
+The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.
+Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.
+The user flings its held item at the target to attack. Its power and effects depend on the item.
+El usuario lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.
+The user boasts of its strength. Power increases the more the user's stats are raised.
+Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño.
+This attack's power increases the more the target has powered up with stat changes.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+Opposing Pokémon are dragged into a world of total darkness that makes them sleep.
+El objetivo es enviado a un mundo de tinieblas que lo hace dormir.
+It prevents the target from using its held item. Its Trainer is also prevented from using items on it.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.
+Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo.
+Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.
+Halaga al objetivo y lo confunde, pero también sube su Ataque Especial.
+The user sharpens its claws to boost its Attack stat and accuracy.
+El usuario se afila las garras para aumentar su Ataque y Precisión.
+The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.
+El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.
+The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
+Estimula su cerebro pensando en cosas malas. Aumenta mucho el Ataque Especial.
+The user protects itself from all attacks. Direct contact lowers the attacker's Defense.
+Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de quien ejecute un movimiento de contacto contra el usuario.
+With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out.
+El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial.
+The user suppresses the target and makes its move go last.
+Consigue que el objetivo sea el último en moverse.
+The user steals the effects of any healing or stat-changing move the foe attempts to use.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user trades held items with the target faster than the eye can follow.
+Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.
+The target is taunted into a rage that allows it to use only attack moves for three turns.
+Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.
+All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.
+Invierte por completo los cambios en las características del objetivo.
+The user torments and enrages the foe, making it incapable of using the same move twice in a row.
+Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.
+This is Eternatus's most powerful attack in its original form. The user can't move on the next turn.
+Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede moverse en el turno siguiente.
+Converts life-force into power to attack. The lower the user's HP, the lower the move's power.
+El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos menos PS tenga el usuario, menor será la potencia del movimiento.
+The user blasts the target with power that distorts even time. The user must rest on the next turn.
+Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.
+Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.
+The user rampages and attacks for two to three turns. It then becomes confused, however.
+Ataca de dos a tres turnos y acaba confundiendo al agresor.
+The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat.
+Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.
+If the target has already moved this turn, the effect of its Ability is negated.
+Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.
+The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+Ataca de forma brutal mientras intimida al objetivo. También puede amedrentarlo.
+The user unleashes a strong beam from its core.
+El usuario ataca emitiendo un rayo desde su núcleo. El daño infligido se duplica si el objetivo ha alcanzado el estado Dinamax.
+The user tears the target along with the space around it. Critical hits land more easily.
+Desgarra al objetivo y el espacio a su alrededor. Suele ser crítico.
+The user uses its body like a hammer to attack the target and inflict damage.
+Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.
+The target is attacked with a shock wave generated by the user's gaping mouth.
+Abre mucho la boca y libera una onda de choque que ataca al objetivo.
+The user slashes the target with huge, sharp claws.
+Araña al objetivo con garras afiladas.
+The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats.
+El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir su Ataque a la par.
+The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis.
+Poderosa ráfaga de aliento que golpea al objetivo y puede paralizarlo.
+The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.
+Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate.
+The user attacks twice using Dreepy. If there are two targets, this move hits each one once.
+El usuario ataca propulsando a ambos Dreepy. En caso de haber dos adversarios, cada Dreepy golpea a su propio objetivo por separado.
+The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
+Golpea dos veces seguidas con las partes más recias de su cuerpo.
+The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.
+Crea un violento tornado para hacer trizas al objetivo. Puede amedrentarlo.
+Attacks by shooting scales two to five times in a row. Boosts the user's Speed but lowers its Defense.
+Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario, pero reduce su Defensa.
+This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.
+Ráfaga de furiosas ondas de choque que quitan 40 PS.
+The user raises all its stats by using some of its HP.
+Utiliza parte de los PS propios para subir sus características.
+The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.
+Danza mística que sube el Ataque y la Velocidad.
+The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed.
+Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.
+The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.
+Quien lo usa electrifica su cuerpo para luego atacar. Se hiere mucho a sí mismo, pero puede paralizar al objetivo.
+The user fires an electric blast like a cannon to inflict damage and cause paralysis.
+Dispara una descarga eléctrica que causa daño y parálisis.
+Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form.
+La energía que acumula en las mejillas le sirve para atacar y aumentar su Velocidad. Este movimiento cambia de tipo según la forma que adopte Morpeko.
+A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.
+Un poderoso rayo que daña al objetivo y puede paralizarlo.
+The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame.
+Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.
+The user attacks with electrically charged fists. Normal-type moves become Electric-type.
+El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico.
+A strong electric blast is loosed at the target. It may also leave the target with paralysis.
+Potente ataque eléctrico que puede paralizar al objetivo.
+The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.
+Carga eléctrica muy potente que también hiere ligeramente a quien la usa.
+Stabs the target with an electrified beak. Power is doubled if the user attacks first.
+El usuario ensarta al objetivo con su pico cargado de electricidad. Si ataca en primer lugar, la potencia del movimiento se duplica.
+A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.
+Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.
+The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration.
+El usuario rasguea la guitarra o el bajo para generar enormes vibraciones de intensa reverberación con las que ataca al objetivo.
+The user traps the target in a cage of sparking electricity for four to five turns.
+El objetivo queda atrapado en una jaula electrificada que permanece en el terreno de cuatro a cinco turnos.
+A strong electric blast crashes down on the target. This may also make the target flinch.
+Se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacer que se amedrente.
+The target is punched with an electrified fist. It may also leave the target with paralysis.
+Puñetazo eléctrico que puede paralizar al adversario.
+The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain.
+Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimiento se duplica si el rival se ve afectado por un campo eléctrico.
+The user attacks everything around it. The user's HP is restored by half the damage dealt.
+Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.
+The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.
+Ataque eléctrico que puede llegar a paralizar.
+The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.
+El usuario muerde al objetivo con colmillos electrificados y puede hacer que se amedrente o se paralice.
+The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.
+Ataque eléctrico muy rápido e ineludible.
+The user captures and attacks foes by using an electric net, which lowers their Speed stat.
+Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.
+The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
+Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.
+A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.
+Ataque eléctrico que puede paralizar al objetivo.
+The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis.
+Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.
+The user hurls an electric orb at the foe. It does more damage the faster the user is.
+Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado.
+The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.
+Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.
+The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat.
+El usuario irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.
+The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep.
+Durante cinco turnos, se potencian los movimientos de tipo Eléctrico y los Pokémon que están en contacto con el suelo no pueden quedarse dormidos.
+If the target uses a move after being electrified, that move becomes Electric-type.
+Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.
+The user disperses electrically charged particles. Normal-type moves become Electric-type.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user levitates using electrically generated magnetism for five turns.
+Levita gracias a un campo magnético generado por electricidad durante cinco turnos.
+Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities.
+Manipula el campo magnético y logra aumentar la Defensa y la Defensa Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.
+A weak electric charge is launched at the target. It causes paralysis if it hits.
+Una ligera descarga que paraliza al objetivo si lo alcanza.
+Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.
+El usuario emplea el poder de la Flor Eterna para lanzar un potente rayo de luz, pero sufre bastante daño al hacerlo.
+The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
+El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.
+The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.
+El usuario ataca a todos a su alrededor, pero se debilita de inmediato. La potencia del movimiento aumenta si el terreno está cubierto por un campo de niebla.
+The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.
+Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.
+The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.
+The user attacks the target by emitting steam. This may also confuse the target.
+Desprende un humo con el que ataca al objetivo, que puede acabar confundido.
+The user damages opposing Pokémon by emitting a powerful flash.
+Inflige daño a los oponentes con una potente luz.
+The user attacks the target with immense force. This also lowers the target's Sp. Atk stat.
+El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuencia, reduce su Ataque Especial.
+The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt.
+El usuario absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.
+Letting out a charming cry, the user does emotional damage to foes. This attack never misses.
+Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre acierta al objetivo.
+The user stirs up a fairy wind and strikes the target with it.
+El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.
+The user hits the target with the force of nature. It halves the target's HP.
+Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.
+The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.
+Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.
+The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first.
+Lanza una mirada al objetivo con ojos acaramelados, con lo que logra que su Ataque se reduzca. Este movimiento tiene prioridad alta.
+The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.
+Engatusa al objetivo y reduce mucho su Ataque.
+The user protects itself and its allies from status moves with a mysterious power.
+Usa unos misteriosos poderes para protegerse a sí mismo y a sus aliados de movimientos de estado, pero no de otro tipo de ataques.
+The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.
+Aumenta mucho el Ataque y el Ataque Especial del objetivo al decorarlo.
+By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.
+Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.
+The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.
+Restaura la mitad de los PS máximos del objetivo. Es más efectivo cuando se usa en conjunción con Campo de Hierba.
+The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.
+Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.
+The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
+Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.
+The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions.
+Durante cinco turnos, los Pokémon que están en el suelo no sufren problemas de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.
+The user restores its own HP. The amount of HP regained varies with the weather.
+Restaura PS del usuario. La cantidad varía según el tiempo que haga.
+The user kisses the target with a sweet, angelic cuteness that causes confusion.
+Da un beso con tal dulzura que causa confusión.
+The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
+Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.
+The user attacks wildly with its thick leek. The user can't move on the next turn.
+El usuario agita violentamente su grueso puerro para atacar, pero el mareo que le provocan las sacudidas le impide moverse en el turno siguiente.
+The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+El usuario salta muy alto y da un rodillazo. Si falla, se hará daño.
+The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.
+Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.
+The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
+Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.
+The user attacks the target with great power. However, it also lowers the user's Attack and Defense.
+Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor.
+The user delivers a double chop with its forearms crossed. Critical hits land more easily.
+Corte doble que suele propinar un golpe crítico.
+The user punches the target with full, concentrated power. It confuses the target if it hits.
+Puñetazo con toda la fuerza concentrada. Causa confusión si atina.
+The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
+El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.
+The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.
+Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.
+The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
+Da un salto y pega una patada. Si falla, se lesiona.
+The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
+El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.
+Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat.
+El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Baja la Defensa del objetivo.
+The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
+Ensarta al objetivo con un largo cuerno dotado de un poder místico que provoca daño físico.
+The user attacks the target with an uppercut thrown skyward with force.
+Gancho ascendente de gran ímpetu.
+The user looses a blast of aura power from deep within its body. This move is certain to hit.
+Libera, desde su interior, una inmensa descarga de aura. Es infalible.
+The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.
+El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcional a su Defensa.
+The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.
+El usuario se lanza al suelo con el oponente en brazos y también se hace un poco de daño.
+The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.
+Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.
+An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.
+The user attacks last. In return, this throw move is guaranteed not to miss.
+El usuario ataca el último, pero no falla.
+This attack inflicts big damage on a sleeping target. It also wakes the target up, however.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user attacks the target's legs swiftly, reducing the target's Speed stat.
+Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.
+The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.
+Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.
+The target is attacked with a shock wave. It may also leave the target with paralysis.
+Ataca al objetivo con una onda de choque y puede llegar a paralizarlo.
+An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+Ataque que produce el doble de daño si el usuario resulta herido en el mismo turno.
+The user lashes out with a quick, spinning kick. It may also make the target flinch.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user strikes the target with a fierce blow. This attack always results in a critical hit.
+Lanza un golpe devastador. Siempre asesta un golpe crítico.
+The target is attacked with a sharp chop. Critical hits land more easily.
+Da un golpe cortante. Suele ser crítico.
+The user throws a punch at blinding speed. It is certain to strike first.
+Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.
+Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.
+Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.
+The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
+Ataque con los puños. Puede bajar la Defensa del objetivo.
+The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.
+Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.
+The target is quickly kicked twice in succession using both feet.
+Una patada doble. Golpea dos veces.
+The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.
+Fuertes empujones que golpean de dos a cinco veces seguidas.
+A consecutive three-kick attack that becomes more powerful with each successive hit.
+Patea hasta tres veces seguidas y cada vez más fuerte.
+A retaliation move that counters any physical attack, inflicting double the damage taken.
+Devuelve un golpe físico por duplicado.
+The user risks all to attack the foe. The user faints but does damage equal to its HP.
+El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.
+A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
+Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.
+An all-out attack that becomes more powerful the less HP the user has.
+Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.
+The target is thrown using the power of gravity. It inflicts damage equal to the user's level.
+Aprovecha la gravedad para derribar al objetivo. Le resta tantos PS como nivel tenga el usuario.
+The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
+Robustece el cuerpo para subir el Ataque y la Defensa.
+The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.
+El usuario imparte indicaciones precisas a sus aliados, que ven aumentados su Ataque y su Defensa.
+It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+Frena todos los ataques, pero puede fallar si se usa repetidamente.
+Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.
+El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados. No funciona contra movimientos de estado.
+This move raises all the user's stats but prevents the user from switching out or fleeing.
+El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro.
+Locks the target in and prevents it from fleeing. Also lowers the target's Defense and Sp. Def each turn.
+Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cada turno.
+The user protects itself and its allies from priority moves. If may fail if used in succession.
+Se protege a sí mismo y a sus aliados de movimientos con prioridad.
+With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.
+Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.
+The target is razed by a fiery explosion. The user must rest on the next turn, however.
+Explosión de fuego. El atacante debe descansar el siguiente turno.
+The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.
+Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque.
+The user attacks everything by causing its own head to explode. This also damages the user.
+El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor, aunque también se hiere a sí mismo.
+The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurt the attacker.
+El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y los oponentes sufren daño.
+The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe.
+Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.
+To inflict massive damage, the user burns itself out. The user will no longer be Fire type.
+Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.
+The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.
+The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target.
+El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.
+Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target.
+El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Puede causar quemaduras.
+The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
+Llama intensa que chamusca y puede causar quemaduras.
+The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
+Ataca con una llamarada gigantesca. Aumenta su potencia si es influenciada por una gran energía eléctrica.
+The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
+Ataca con una gran ráfaga de fuego que causa quemaduras.
+The target becomes trapped within a maelstrom of fire that rages for four to five turns.
+El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.
+The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.
+Fuego místico de gran intensidad que puede causar quemaduras.
+An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn.
+Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.
+The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
+Provoca un viento abrasador que puede quemar al objetivo.
+The target is scorched with an intense blast of fire. It may also leave the target with a burn.
+Ataca con una gran ráfaga de fuego que puede causar quemaduras.
+The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.
+Patada que suele ser un golpe crítico y puede causar quemaduras.
+Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.
+Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.
+The user strikes the target with a burning lash. This also lowers the target's Defense stat.
+Golpea al oponente con un látigo incandescente y reduce su Defensa.
+A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.
+Ataca con columnas de fuego. Combinado con Voto Planta, crea un mar de llamas y aumenta su potencia.
+An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.
+Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.
+The target is punched with a fiery fist. It may leave the target with a burn.
+Puñetazo ardiente que puede causar quemaduras.
+The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
+El usuario lanza por la boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.
+The user attacks with energy from jealousy. This burns all foes that had their stats boosted this turn.
+Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokémon cuyas características hayan aumentado en ese turno.
+The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.
+El usuario muerde al objetivo con colmillos en llamas y puede hacer que se amedrente o sufra quemaduras.
+The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
+Ataca envuelto en fuego. Puede causar quemaduras.
+The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.
+Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas o ciertos objetos, se quemarán y ya no se podrán usar.
+The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.
+Llamas que golpean al objetivo y aumentan la Velocidad del atacante.
+The target is attacked with small flames. It may also leave the target with a burn.
+Ataca con llamas pequeñas que pueden causar quemaduras.
+The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.
+The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
+El usuario ataca con su cuerpo ardiente. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.
+The user intensifies the sun for five turns, powering up Fire-type moves.
+Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego.
+The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+Siniestra llama morada que produce quemaduras.
+A second-turn attack move where critical hits land more easily. It may also make the target flinch.
+Ataca durante dos turnos y suele asestar un golpe crítico. También puede amedrentar al objetivo.
+The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.
+The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered.
+El usuario se precipita desde el cielo a una velocidad de vértigo para atacar al objetivo, pero hace que bajen la Defensa y la Defensa Especial del usuario.
+The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe.
+Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.
+A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
+Lanza un chorro de aire que suele asestar un golpe crítico.
+The user heats up its beak before attacking. Making contact in this time results in a burn.
+Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.
+The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.
+El usuario vuela en el primer turno y ataca en el segundo.
+The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.
+El usuario bota en el primer turno y golpea al objetivo en el segundo y puede llegar a paralizarlo.
+A corkscrewing attack with the sharp beak acting as a drill.
+Picotazo giratorio y perforador muy potente.
+The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt.
+El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.
+The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
+Ataca con un viento afilado que incluso corta el aire. También puede amedrentar al objetivo.
+The user attacks using a sound wave based on words it has learned. It may also confuse the target.
+Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.
+The user confounds the foe with speed, then slashes. The attack lands without fail.
+El usuario lanza un ataque muy rápido e ineludible.
+The user launches razor-like wind to slash the opposing team. Critical hits land more easily.
+Viento cortante que azota. Suele ser un golpe crítico.
+The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+Picotea al objetivo. Si este sostiene una baya, la picotea también y obtiene sus efectos.
+The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is struck with large, imposing wings spread wide to inflict damage.
+Golpea al objetivo con unas grandes alas.
+The user nimbly strikes the foe. This attack does more damage if the user is not holding an item.
+Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.
+The user slams the target with its wings. The target is hit twice in a row.
+Ataca al adversario golpeándolo dos veces con las alas.
+A gust of wind is whipped up by wings and launched at the target to inflict damage.
+Crea un tornado con las alas y lo lanza contra el objetivo.
+The target is jabbed with a sharply pointed beak or horn.
+Ensarta al objetivo con un cuerno o pico punzante.
+A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.
+Potente viento que barre el reflejo o la pantalla de luz creada por el objetivo. También puede reducir su Evasión.
+The user covers the target's body with a mass of down that harshly lowers its Attack stat.
+Envuelve al objetivo con un manto de plumas para reducir mucho su Ataque.
+The user counters the target by mimicking the target's last move.
+Ataca al objetivo con el último movimiento que este haya usado.
+The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.
+The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
+Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.
+The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
+El usuario ataca al objetivo lanzándole una ingente cantidad de pequeños fantasmas.
+The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.
+En el primer turno, desaparece. En el segundo, golpea al objetivo aunque se esté protegiendo.
+Attacks the target by controlling its item. The move fails if the target doesn't have an item.
+El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla.
+The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
+Ataca con un rayo misterioso que ignora la habilidad del objetivo.
+The user vanishes somewhere, then strikes on the next turn. Hits through protections.
+El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.
+The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
+El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus características.
+The user beats the target with a bone containing a spirit. May lower the target's Defense stat.
+Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.
+The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
+Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.
+The user attacks while also stitching the target's shadow to the ground to prevent it fleeing.
+Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida.
+The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+Ataca con una garra afilada hecha de sombras. Suele ser crítico.
+This relentless attack does massive damage to a target affected by status problems.
+Ataque que causa un gran daño a los objetivos que sufren problemas de estado.
+The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user throws a punch from the shadows. The punch lands without fail.
+Puñetazo ineludible procedente de las sombras.
+The user extends its shadow and attacks the target from behind. This move always goes first.
+Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.
+The user attacks the target while shouting in a startling fashion. It may also make the target flinch.
+Lanza un grito tan tremendo que impresiona y puede amedrentar al objetivo.
+The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.
+Una lengua ataca al objetivo. Puede causar parálisis.
+The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.
+Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.
+The target is exposed to a sinister ray that triggers confusion.
+Rayo siniestro que confunde al objetivo.
+A move that works differently for the Ghost type than for all the other types.
+Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.
+When this move is used, if the user faints, the foe that landed the knockout hit also faints.
+Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.
+If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out.
+Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.
+A sleeping target sees a nightmare that inflicts some damage every turn.
+El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.
+The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
+Da rienda suelta a su rencor para reducir cuatro PP del último movimiento usado por el objetivo.
+The user takes the target trick-or-treating. This adds Ghost type to the target's type.
+Invita al objetivo a celebrar Halloween, lo que añade el tipo Fantasma a los tipos de este.
+The user slams the target with an enormous tree. The user can't move on the next turn.
+Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.
+A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Envuelve al objetivo con una lluvia de hojas afiladas, pero reduce mucho su Ataque Especial.
+The user gathers light energy into a blade, attacking the target on the next turn.
+El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival en el siguiente turno.
+The user attacks by scattering petals for two to three turns. The user then becomes confused.
+Lanza pétalos de dos a tres turnos y acaba confundiendo al atacante.
+The user violently whirls its vines or tentacles to harshly lash the target.
+El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.
+The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def.
+Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.
+A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
+El usuario absorbe luz en el primer turno y en el segundo lanza un potente rayo de energía.
+The user slams its rugged body into the target to attack. The user also sustains serious damage.
+Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.
+The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.
+Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.
+The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.
+Acuchilla con una hoja fina. Suele dar un golpe crítico.
+The user stirs up a violent petal blizzard and attacks everything around it.
+El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.
+Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def.
+Ataca al objetivo con el fluido corrosivo que desprende una manzana ácida, lo que también disminuye la Defensa Especial de este.
+The user plays its drum, controlling roots to attack. This also lowers the target's Speed stat.
+El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad del objetivo.
+A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp.
+Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.
+The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense.
+El usuario ataca haciendo caer una manzana desde gran altura. Disminuye la Defensa del objetivo.
+The user slams a barrage of hard-shelled seeds down on the target from above.
+Lanza al objetivo una descarga de semillas explosivas desde arriba.
+A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce.
+The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted.
+Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.
+Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.
+Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba.
+The user lands an intense tropical kick on the target. This also lowers the target's Attack stat.
+Lanza una patada con la fuerza del trópico que golpea al rival y reduce su Ataque.
+The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy.
+Tritura con afiladas hojas y puede bajar la Precisión del objetivo.
+The user scatters curious leaves that chase the target. This attack will not miss.
+Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.
+The user attacks by wildly swinging its thorny arms. It may also make the target flinch.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.
+Corta con hojas afiladas. Un ataque que suele ser crítico.
+The target is struck with slender, whiplike vines to inflict damage.
+Azota al objetivo con ramas finas.
+The user attacks the target by poking it with a sharply pointed branch.
+Ataca pinchando al objetivo con una rama afilada.
+The user attacks by pelting the target with leaves.
+Ataca al oponente lanzando hojas.
+The user snares the target in a snap trap for four to five turns.
+Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encuentra preso.
+The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
+Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva.
+The user snares the target with grass and trips it. The heavier the target, the greater the damage.
+Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.
+The user releases a soothing scent that heals all status problems affecting the user's party.
+Cura todos los problemas de estado del equipo con un suave aroma.
+The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat.
+Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa.
+The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.
+Adhiere esporas a los rivales para reducir mucho su Velocidad.
+The user puts a forest curse on the target. The target is now Grass type as well.
+El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.
+The user plays a pleasant melody that lulls the target into a deep sleep.
+Agradable melodía que adormece al objetivo.
+The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn.
+Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.
+The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.
+Echa raíces para recuperar PS en cada turno, pero impide el relevo.
+The user becomes one with the jungle, and restores HP and cures status conditions of itself and allies.
+Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS no solo de sí mismo, sino también de los aliados presentes en el terreno.
+A seed is planted on the target. It steals some HP from the target every turn.
+Planta semillas que absorben PS del objetivo en cada turno y que le sirven para recuperarse.
+The user scatters a big cloud of sleep-inducing dust around the target.
+Esparce polvo que duerme al objetivo.
+Protects the user from attacks. Also damages attackers that make contact with the user.
+Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.
+The user scatters bursts of spores that induce sleep.
+Esparce esporas que inducen al sueño.
+The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat.
+Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica.
+The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.
+Esparce polvo que paraliza al objetivo.
+A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.
+Planta una semilla en el objetivo que le causa pesar. Sustituye la habilidad del objetivo por Insomnio y le impide dormirse.
+The user attacks its foes by manifesting the power of the land in fearsome blades of stone.
+Hace que el poder latente de la tierra se manifieste en forma de hojas afiladas y ataca al objetivo con ellas.
+The user sets off an earthquake that strikes every Pokémon around it.
+Un terremoto que afecta a todos los Pokémon que estén a su alrededor.
+The user fiercely attacks the target using its entire body.
+Asesta un golpe devastador usando todo su cuerpo.
+The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
+La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.
+The user gathers the energy of the land and focuses that power on foes to damage them.
+Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.
+This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
+Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.
+The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle.
+El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.
+The user burrows, then attacks on the second turn. It can also be used to exit dungeons.
+El usuario cava durante el primer turno y ataca en el segundo.
+The user crashes into its target while rotating its body like a drill. Critical hits land more easily.
+El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.
+The user attacks driven by frustration. Power increases if the user's previous move failed.
+Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.
+The user throws scorching sand at the target to attack. This may also burn the target.
+Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar quemaduras.
+The user clubs the target with a bone. It may also make the target flinch.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
+Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.
+The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.
+El usuario lanza lodo al objetivo y reduce su Velocidad.
+The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
+Lanza un hueso a modo de bumerán que golpea dos veces.
+The user traps the target inside a harshly raging sandstorm for four to five turns.
+Enreda al objetivo en un remolino de arena de cuatro a cinco turnos.
+The user strikes the target with a hard bone two to five times in a row.
+Hueso en ristre, aporrea al objetivo de dos a cinco veces.
+The user hurls mud in the target's face to inflict damage and lower its accuracy.
+Echa lodo en la cara para bajar la Precisión.
+The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.
+Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.
+The user looses a ground-shaking quake affecting everyone around the user. Its power varies.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user tills the soil to encourage plant growth. This raises the Attack and Sp. Atk of Grass types.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+Sand is hurled in the target's face, reducing its accuracy.
+Arroja arena a la cara y baja la Precisión.
+The user regains up to half of its max HP. It restores more HP in a sandstorm.
+Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.
+The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.
+Esparce púas alrededor del equipo rival que hieren a los Pokémon rivales que entran en combate.
+On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe.
+El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.
+On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn.
+Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.
+The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
+El usuario ataca al objetivo lanzándole un carámbano de hielo envuelto en una ventisca.
+A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
+Tormenta de hielo que puede llegar a congelar.
+The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.
+Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida.
+The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
+Rayo de hielo que puede llegar a congelar.
+The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch.
+Lanza grandes carámbanos. Puede amedrentar al objetivo.
+The target is punched with an icy fist. It may also leave the target frozen.
+Puñetazo helado que puede llegar a congelar.
+The user rapidly cools the target. This may freeze the target. Is super-effective on Water types.
+Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.
+The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
+Rayo multicolor que puede reducir el Ataque.
+The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat.
+Ataque con aire helado que baja la Velocidad del objetivo.
+The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.
+El usuario muerde al objetivo con colmillos helados y puede hacer que se amedrente o se congele.
+The user blows a cold breath on the target. This attack always results in a critical hit.
+Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.
+The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
+Ataque con aire helado que baja la Velocidad de los rivales.
+The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
+Crea bolas de hielo y las lanza a gran velocidad. Este movimiento tiene prioridad alta.
+The user attacks with a chilling gust of powdery snow. It may also freeze the targets.
+Lanza nieve que puede llegar a congelar.
+The user continually rolls into the target over five turns. It becomes stronger each time it hits.
+El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.
+The user launches sharp icicles at the target. It strikes two to five times in a row.
+Ataca lanzando de dos a cinco ráfagas consecutivas de carámbanos.
+A consecutive three-kick attack that becomes more powerful with each successful hit.
+Patea hasta tres veces seguidas y cada vez más fuerte.
+The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.
+Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.
+This move reduces damage from attacks for five turns. This can be used only in a hailstorm.
+Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.
+The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.
+Tormenta de granizo que dura cinco turnos. Hiere a todos los Pokémon excepto a los de tipo Hielo.
+The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+Neblina que elimina los cambios de características de todos los Pokémon en combate.
+The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.
+Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.
+The user explodes to inflict damage on those around it. The user faints upon using this move.
+El atacante causa una grandísima explosión y hiere a todos a su alrededor. El usuario se debilita de inmediato.
+The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
+El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.
+The user charges at the target using every bit of its power. The user must rest on the next turn.
+El usuario carga contra el objetivo con toda la fuerza que tiene y descansa durante el siguiente turno.
+The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+Es eficaz, pero el atacante deberá descansar en el siguiente turno.
+The user attacks everything around it with the destructive power of a terrible, explosive sound.
+Ataca a todos los Pokémon a su alrededor con una potentísima onda sonora.
+This move can be used only after the user has used all the other moves it knows in the battle.
+Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.
+The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.
+El usuario se prepara y sube su Defensa en el primer turno y en el segundo arremete con un cabezazo.
+A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.
+Ataque arriesgado que también hiere al agresor.
+The user charges its head into the foe, using its powerful guard hair. The user also takes damage.
+Propina un tremendo cabezazo. También daña al usuario un poco.
+The target is attacked by a kick launched with muscle-packed power.
+Patada de extrema fuerza.
+Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory.
+El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.
+The user fires a beam of light at its target. The type changes depending on the Drive the user holds.
+Ataca al objetivo con un gran láser. El tipo del ataque lo determina el cartucho que porta el usuario.
+A large egg is hurled at the target with maximum force to inflict damage.
+Arroja un huevo enorme al objetivo con gran fuerza.
+The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.
+Emite incontables haces de luz. El tipo del movimiento varía según la tabla que lleve el usuario.
+The user lets loose a horribly echoing shout with the power to inflict damage.
+Grito desgarrador que inflige daño al objetivo.
+The user attacks the target by dancing very hard. The user's type determines the type of this move.
+Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.
+The user attacks the target by smashing into it with incredible force. It may also confuse the target.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.
+Carga desmedida que también hiere al agresor.
+The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
+Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.
+The user drops onto the target with its full body weight. It may leave the target with paralysis.
+Salta sobre el objetivo con todo su peso y puede llegar a paralizarlo.
+The user charges the target at blinding speed. This attack always goes before any other move.
+Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.
+The user bites hard on the target with its sharp front fangs. It may also make the target flinch.
+Ataca con agudos colmillos. Puede amedrentar al objetivo.
+The target is slugged by a punch thrown with muscle-packed power.
+Un puñetazo de gran potencia.
+A two-turn attack. Blades of wind hit the foe on the second turn. Critical hits land more easily.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is slammed with a long tail, vines, etc., to inflict damage.
+Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.
+The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.
+Propina un potente puñetazo con todas sus fuerzas.
+The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.
+Ataque triple que puede paralizar, quemar o congelar al objetivo.
+The user slashes the target with hard and sharp claws. It may also lower the target's Defense.
+Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.
+An ancient song appeals to the hearts of those listening. It may also induce sleep.
+Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.
+Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is hit with rhythmically launched punches that may also leave it confused.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+An attack move that doubles its power if the user is poisoned, burned, or has paralysis.
+Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.
+The user sticks out its head and attacks by charging into the foe. It may also make the target flinch.
+Potente cabezazo que puede amedrentar al objetivo.
+Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.
+Venga a los amigos caídos. Si en el turno anterior han derrotado a alguno, la potencia del ataque aumentará.
+The user attacks with a secret power. Its added effects vary depending on the user's environment.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is attacked with a slash of claws or blades. Critical hits land more easily.
+Ataca con cuchillas o con pinzas. Suele asestar un golpe crítico.
+This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is jabbed with a sharply pointed horn to inflict damage.
+Ataca al objetivo con una cornada.
+The target is stomped with a big foot. It may also make the target flinch.
+Tremendo pisotón que puede hacer que el objetivo se amedrente.
+The user endearingly approaches the target, then steals the target's held item.
+Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.
+A unique attack that varies in type and intensity depending on the Pokémon using it.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user attacks with a song. Others can join in the Round and make the attack do greater damage.
+Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.
+Star-shaped rays are shot at the opposing team. This attack never misses.
+Lanza rayos en forma de estrella que no fallan nunca.
+The target is gripped and squeezed from both sides to inflict damage.
+Atrapa y atenaza al objetivo.
+The target is cut with a scythe or a claw. It can also be used to cut down thin trees.
+Corta al adversario con garras, guadañas, etc.
+A spin attack that raises the user's Speed and eliminates the effects of Bind, Spikes, etc.
+Ataque giratorio que puede eliminar movimientos como Atadura, Constricción y Drenadoras. También aumenta la Velocidad del usuario.
+An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.
+Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.
+Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.
+El usuario ataca aprovechando la energía del campo activo, que determina tanto el tipo como la potencia del movimiento.
+An attack move that varies in power and type depending on the weather.
+El tipo y fuerza del ataque varían según el tiempo que haga.
+The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.
+Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.
+An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
+Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno.
+A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.
+The user holds back when it attacks, and the target is left with at least 1 HP.
+El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.
+Numerous coins are hurled at the target to inflict damage. Money is earned after battle.
+Arroja monedas al objetivo y las recupera al final del combate.
+The target is physically pounded with a long tail or a foreleg, etc.
+Golpea con las patas o la cola.
+The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
+Ataca al objetivo a gran velocidad. Este movimiento tiene prioridad alta.
+Hard, pointed, and sharp claws rake the target to inflict damage.
+Araña con afiladas garras.
+A physical attack in which the user charges and slams into the target with its whole body.
+Embestida con todo el cuerpo.
+The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.
+Golpea al objetivo dos veces seguidas con la cola u otras partes de su cuerpo.
+An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.
+Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.
+The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row.
+Golpea con la cola de dos a cinco veces seguidas.
+As long as this move is in use, the user's Attack rises each time the user is hit in battle.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is hit with a flurry of punches that strike two to five times in a row.
+Pega de dos a cinco veces seguidas.
+The target is raked with sharp claws or scythes for two to five times in quick succession.
+Araña rápidamente de dos a cinco veces.
+Round objects are hurled at the target to strike two to five times in a row.
+Arroja esferas al objetivo entre dos y cinco veces seguidas.
+Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.
+Ata y oprime de cuatro a cinco turnos.
+The target is slapped repeatedly, back and forth, two to five times in a row.
+Abofetea de dos a cinco veces seguidas.
+The target is jabbed repeatedly with a horn or beak two to five times in a row.
+Cornea al objetivo de dos a cinco veces.
+A long body or vines are used to wrap and squeeze the target for four to five turns.
+Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.
+The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user endures attacks for two turns, then strikes back to cause double the damage taken.
+Espera dos turnos para atacar con el doble de potencia del daño recibido.
+The target is crushed with great force. The attack is more powerful the more HP the target has left.
+Estruja al objetivo con gran fuerza. Cuantos más PS le queden al objetivo, más fuerte será el ataque.
+An attack move that cuts down the target's HP to equal the user's HP.
+Reduce los PS del objetivo para que igualen a los del atacante.
+The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
+Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.
+A full-power attack that grows more powerful the less the user likes its Trainer.
+Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.
+A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
+Ataque cortante que debilita al oponente de un golpe si acierta.
+The user stabs the foe with a horn that rotates like a drill. If it hits, the target faints instantly.
+Ataque con un cuerno giratorio que fulmina de un solo golpe al objetivo si lo alcanza.
+The user draws power to attack by using its held Berry. The Berry determines its type and power.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.
+Quien lo usa ataca al objetivo dándole un regalo con una bomba trampa. Sin embargo, a veces restaura sus PS.
+A full-power attack that grows more powerful the more the user likes its Trainer.
+Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.
+The target is hit with a destructive shock wave that always inflicts 20 HP damage.
+Lanza ondas de choque que restan 20 PS al objetivo.
+The power stored using the move Stockpile is released all at once in an attack.
+Libera de una vez la energía acumulada con Reserva. La potencia del ataque será proporcional a la cantidad de energía acumulada.
+The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.
+Finos colmillos que reducen a la mitad los PS del objetivo.
+The fewer PP this move has, the greater its attack power.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user applies pressure to stress points, sharply boosting one of its stats.
+Aplica presión en puntos clave del cuerpo para potenciar mucho una de sus características.
+The user helps the target and makes it use its move right after the user.
+Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.
+The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
+Usa un movimiento de un miembro del equipo elegido al azar.
+If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.
+The user switches places with a party Pokémon in waiting, passing along any stat changes.
+Cambia el puesto con otro miembro del equipo y le pasa los cambios de características.
+The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.
+The user passes its held item to the target when the target isn't holding an item.
+Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.
+The user blocks the target's way with arms spread wide to prevent escape.
+Le corta el paso al objetivo para que no pueda escapar.
+The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.
+Modifica el tipo del Pokémon según el terreno de combate donde esté.
+If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The Pokémon congratulates you on your special day!
+El Pokémon te felicita en un día muy especial para ti.
+The user tells the target a secret. The target loses focus and its Sp. Atk stat is lowered.
+Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.
+The user changes its type to become the same type as one of its moves.
+Cambia el tipo del usuario por el del primero de sus movimientos.
+The user changes its type to make itself resistant to the type of the attack the opponent used last.
+El usuario cambia de tipo para hacerse resistente al último tipo de movimiento usado por el objetivo.
+The user mimics the move used immediately before it. The move fails if no other move has been used yet.
+Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.
+With its mysterious power, the user swaps the effects on either side of the field.
+Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos.
+The user curls up to conceal weak spots and raise its Defense stat.
+Se enrosca para ocultar sus puntos débiles y aumentar la Defensa.
+For four turns, this move prevents the target from using the move it last used.
+Desactiva el último movimiento del objetivo durante cuatro turnos.
+By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
+Crea copias de sí mismo para mejorar la Evasión.
+The user compels the target to keep using only the move it last used for three turns.
+El objetivo repite su último movimiento durante tres turnos.
+The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.
+The user dances to compel the target to mimic it, making the target's Ability the same as the user's.
+Una extraña danza que hace que el usuario y el objetivo tengan la misma habilidad.
+The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user takes a deep breath and focuses so that critical hits land more easily.
+Concentra energía para aumentar las posibilidades de asestar un golpe crítico.
+The user draws attention to itself, making all targets take aim only at the user.
+Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.
+Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user intimidates the target with the pattern on its belly to cause paralysis.
+Intimida y asusta al objetivo con la mirada para dejarlo paralizado.
+The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered.
+Dulce gruñido que reduce el Ataque del equipo rival.
+The user's body grows all at once, raising the Atk and Sp. Atk stats.
+Hace que su cuerpo crezca a marchas forzadas con lo que aumenta su Ataque y Ataque Especial.
+Using Happy Hour doubles the amount of prize money received after battle.
+Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.
+The user stiffens all the muscles in its body to raise its Defense stat.
+Tensa la musculatura del usuario para aumentar la Defensa.
+The user makes a soothing bell chime to heal the status problems of all the party Pokémon.
+Tañido que cura los problemas de estado de todos los Pokémon del equipo.
+The user assists an ally by boosting the power of its attack.
+El usuario ayuda a un aliado reforzando la potencia de su ataque.
+The user and an ally hold hands. This makes them very happy.
+El Pokémon le da la mano a un aliado y ambos se sienten muy felices.
+The user howls loudly to raise the spirit of itself and allies, boosting their Attack stats.
+Aullido que sube el ánimo y aumenta el Ataque del equipo.
+The user focuses intensely. The attack on the next turn always results in a critical hit.
+El usuario se concentra para que el siguiente ataque propine un golpe crítico.
+The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced.
+Intimida a los rivales para bajar su Defensa.
+The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.
+Fija el blanco para que el siguiente ataque no falle.
+With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep.
+Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido.
+The user chants an incantation toward the sky, preventing the foe from landing critical hits.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user pins the target with a dark, arresting look. The target becomes unable to flee.
+Mal de ojo que impide al objetivo huir del combate.
+The user waggles a finger and stimulates its brain into randomly using nearly any move.
+Mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento.
+The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+Restaura la mitad de los PS máximos del usuario.
+The user copies the move last used by the foe. The move can be used until the user is switched out.
+Copia el último movimiento usado por el objetivo, y puede utilizarlo mientras esté en el combate.
+The user senses the foe's movements with its mind to ensure its next attack does not miss the foe.
+El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.
+The user compresses its body to make itself look smaller, which sharply raises its evasiveness.
+El usuario mengua para aumentar mucho la Evasión.
+An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.
+Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk.
+Intimida a su oponente con un rugido de guerra, lo que hace que disminuyan tanto su Ataque como su Ataque Especial.
+Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user adds its HP to the target's HP, then equally shares the combined HP with the target.
+Suma los PS del usuario a los del objetivo y los reparte a partes iguales.
+Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
+Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose.
+The user and target become friends. The target loses its will to fight, lowering its Attack stat.
+Se hace amigo de su oponente y consigue que a este se le quiten las ganas de combatir. Además, reduce su Ataque.
+The user hypnotizes itself into copying any stat change made by the target.
+Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.
+Restoring its own cells, the user restores its own HP by half of its max HP.
+Restaura hasta la mitad de los PS máximos.
+The user recycles a held item that has been used in battle so it can be used again.
+Recicla y así recupera un objeto equipado de un solo uso que ya haya sido empleado durante el combate.
+The user reflects the target's type, making it the same type as the target.
+Cambia el tipo del Pokémon al mismo tipo que el del objetivo.
+The user rests to cure itself of a poisoning, burn, or paralysis.
+Descansa para curar parálisis, envenenamiento o quemaduras.
+The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.
+Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.
+The user creates a protective field that prevents status problems for five turns.
+Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.
+The user frightens the target with a scary face to harshly reduce its Speed stat.
+Asusta al objetivo para reducir mucho su Velocidad.
+An earsplitting screech harshly reduces the target's Defense stat.
+Alarido agudo que reduce mucho la Defensa del objetivo.
+The user reduces its polygon count to make itself more jagged, raising the Attack stat.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user breaks its shell, lowering its defenses but sharply raising attacking and Speed stats.
+El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad.
+The user's mysterious psychic wave changes the target's Ability to Simple.
+Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.
+A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.
+Cancioncilla que hace dormir profundamente al objetivo.
+It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
+Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.
+The user slacks off, restoring its own HP by up to half of its maximum HP.
+El usuario se relaja y restaura la mitad de sus PS máximos.
+While it is asleep, the user randomly uses one of the moves it knows.
+Mientras duerme, usa uno de sus movimientos elegido al azar.
+The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.
+Baja la Precisión del objetivo con una nube de humo o tinta.
+The user just flops and splashes around to no effect at all...
+No tiene ningún efecto. Solo salpica.
+The user shines a spotlight on the target so that only it will be attacked during the turn.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.
+Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.
+The user eats its held Berry, then sharply raises its Defense stat.
+El usuario ingiere la baya que lleva equipada para aumentar mucho su Defensa.
+The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.
+The user generates odd sound waves from its body. It may confuse the target.
+Raras ondas sónicas que confunden al objetivo.
+The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.
+Provoca confusión en el objetivo, pero también sube mucho su Ataque.
+The power stored using the move Stockpile is absorbed by the user to heal its HP.
+Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.
+A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc.
+Un dulce aroma engatusa al objetivo, por lo que se reduce mucho su Evasión.
+A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
+Baile frenético que aumenta mucho el Ataque.
+The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.
+Agita la cola para bajar la Defensa del equipo rival.
+Gets teary eyed to make the target lose its will to fight. Lowers the target's Attack and Sp. Atk.
+Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.
+The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.
+El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hace que ingieran las bayas que lleven equipadas.
+The user performs a wobbly dance that confuses the Pokémon around it.
+Danza histérica que confunde a los Pokémon que están alrededor del usuario.
+The user tickles the target into laughing, reducing its Attack and Defense stats.
+Hace reír al objetivo para bajar su Ataque y Defensa.
+The user transforms into a copy of the target right down to having the same move set.
+El usuario se transforma en una copia del objetivo, con los mismos movimientos.
+The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.
+Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.
+One turn after this move is used, the target's HP is restored by half the user's maximum HP.
+Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.
+The user is roused, and its Attack and Sp. Atk stats increase.
+Quien lo usa se concentra y potencia su Ataque y su Ataque Especial.
+The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
+Gran bostezo que induce al sueño al objetivo en el siguiente turno.
+The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.
+El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.
+The user shoots filthy garbage at the target to attack. It may also poison the target.
+Lanza contra el objetivo basura asquerosa y puede envenenarlo.
+It swamps the area around the user with a giant sludge wave. It may also poison those hit.
+Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.
+Inflicts physical or special damage, whichever will be more effective. May also poison the target.
+El usuario lanza un ataque físico o especial en función de cuál inflija más daño. Puede envenenar al objetivo.
+Unsanitary sludge is hurled at the target. It may also poison the target.
+Arroja residuos al objetivo. Puede llegar a envenenar.
+The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.
+Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.
+A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.
+Tajo que puede envenenar al objetivo. Suele ser crítico.
+The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
+Cubre al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.
+The user attacks by throwing a clump of special mud. All status changes are returned to normal.
+Ataca al objetivo con una singular bola de lodo que elimina cualquier cambio en sus características.
+The user bites the target with toxic fangs. It may also leave the target badly poisoned.
+Colmillos tóxicos que pueden envenenar gravemente al objetivo.
+The user hits the target with its tail. It may also poison the target. Critical hits land more easily.
+Puede envenenar y dar un golpe crítico.
+The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.
+Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.
+The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.
+Ataca con un líquido corrosivo que reduce mucho la Defensa Especial del objetivo.
+The target is attacked with a discharge of filthy gases. It may also poison the target.
+Lanza un ataque con gases tóxicos que pueden llegar a envenenar.
+The user stabs the target with a poisonous stinger. This may also poison the target.
+Lanza un aguijón tóxico que puede envenenar al objetivo.
+The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.
+Transforma la estructura celular para hacerse líquido y aumenta mucho la Defensa.
+Protects the user from attacks. Also poisons any attacker that makes contact with the user.
+Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario.
+The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.
+El usuario se concentra, lo que le permite aumentar su Ataque, Defensa y Precisión.
+The user surrounds everything around it with highly acidic gas and melts away items they hold.
+El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados.
+The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
+El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.
+A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.
+Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.
+The user scatters a cloud of poisonous dust on the target. It may poison the target.
+Polvo tóxico que envenena al objetivo.
+The user heals the target's status condition. If so, it also restores the user's own HP.
+Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.
+A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+Envenena gravemente al objetivo y causa un daño mayor en cada turno.
+The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.
+Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon oponentes que entran en combate.
+The user shoots poisonous threads to poison the target and lower the target's Speed stat.
+Ataca al oponente con hilillos venenosos que reducen su Velocidad y lo envenenan.
+Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon.
+Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el Ataque Especial y la Velocidad. Solo afecta a Pokémon ya envenenados.
+The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
+El usuario utiliza un prisma para emitir un rayo de gran potencia, pero no puede moverse en el turno siguiente.
+The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+Two turns after this move is used, a hunk of psychic energy attacks the target.
+Concentra energía psíquica para golpear al objetivo dos turnos después.
+Using an odd shock wave, the user damages any Pokémon of the same type as the user.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP.
+Restaura al usuario la mitad del daño causado a un objetivo dormido.
+The user attacks with a pillar of light. This move the higher of the user's Attack or Sp. Atk stat.
+El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especial para infligir daño con el más alto de los dos.
+The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+Crea una onda psíquica que causa daño físico al objetivo.
+The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.
+A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede llegar a congelar.
+The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
+Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.
+The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.
+Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y Reflejo.
+The user attacks with tremendous psychic power. This also removes 3 PP from the target's last move.
+El usuario ataca con un poder psíquico de inmensa potencia y elimina 3 PP del último movimiento que haya usado el objetivo.
+The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain.
+El usuario ataca al objetivo con sus poderes psíquicos. Cuando se usa en conjunción con un campo psíquico, aumenta su potencia e inflige daño a todos los rivales.
+The user attacks with an odd, unseeable power. It may also make the target flinch.
+Emite una energía muy extraña que puede amedrentar al objetivo.
+Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections.
+El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.
+The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.
+Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo se amedrente.
+The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.
+Fogonazo de luz que puede bajar la Defensa Especial del objetivo.
+A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.
+Banco de niebla que puede bajar el Ataque Especial del objetivo.
+The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+Ataca al objetivo con cuchillas formadas por energía psíquica. Suele ser crítico.
+The target is attacked with a peculiar ray. It may also cause confusion.
+Extraño rayo que puede causar confusión.
+The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is hit by a weak telekinetic force. It may also leave the target confused.
+Débil ataque telequinético que puede causar confusión.
+The user attacks with stored power. The more the user's stats are raised, the greater the damage.
+Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.
+A retaliation move that counters any special attack, inflicting double the damage taken.
+Responde a un ataque especial ocasionando el doble del daño recibido.
+The target is attacked with an odd psychic wave. The attack varies in intensity.
+Ataque con una onda de energía de intensidad variable.
+The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
+Relaja el cuerpo para ganar mucha Velocidad.
+The user teleports using a strange power and switches its place with one of its allies.
+Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.
+The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
+El usuario olvida sus preocupaciones y aumenta mucho la Defensa Especial.
+The user throws up a sturdy wall that sharply raises its Defense stat.
+Crea una barrera que aumenta mucho la Defensa.
+The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial.
+The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+Sube la Defensa y la Defensa Especial propias con energía mística.
+Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.
+Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.
+The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.
+El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.
+The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.
+El usuario emplea su poder mental para intercambiar los cambios en la Defensa y Defensa Especial con el objetivo.
+For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user emits a healing pulse which restores the target's HP by up to half of its max HP.
+Una onda curativa restaura los PS del objetivo a la mitad de su máximo.
+The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
+El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.
+The user employs its psychic power to switch stat changes with the target.
+Usa la fuerza mental para intercambiar con el objetivo los cambios en las características.
+The user employs hypnotic suggestion to make the target fall into a deep sleep.
+Ataque hipnótico que hace dormir profundamente al objetivo.
+If the foe knows any move also known by the user, the foe is prevented from using it.
+Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.
+The user instructs the target to use the target's last move again.
+Fuerza al objetivo a repetir inmediatamente su último movimiento.
+The user distracts the target by bending a spoon. It lowers the target's accuracy.
+Dobla una cuchara para distraer al objetivo y bajar su nivel de Precisión.
+A wondrous wall of light is put up to suppress damage from special attacks for five turns.
+Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.
+The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
+El usuario se debilita, pero el Pokémon que lo sustituye recupera su estado, los PS y los PP.
+A barrier reflects back to the target moves like Leech Seed and moves that damage status.
+Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.
+The user scatters a cloud of magic powder that changes the target to Psychic type.
+Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico.
+The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
+Crea un espacio misterioso que inutiliza todos los objetos de los Pokémon durante cinco turnos.
+The user meditates to awaken the power deep within its body and raise its Attack stat.
+El usuario reposa y medita para potenciar el Ataque.
+Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.
+El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.
+The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.
+El usuario emplea su poder mental para intercambiar los cambios en el Ataque y Ataque Especial con el objetivo.
+The user employs its psychic power to switch its Attack with its Defense stat.
+Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.
+Protects grounded Pokémon from priority moves and powers up Psychic-type moves for five turns.
+Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.
+Using its psychic power of suggestion, the user transfers its status problems to the target.
+Usa su poder mental para transferir al objetivo sus problemas de estado.
+A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
+Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.
+The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+Restaura todos los PS y cura todos los problemas de estado del usuario, que se duerme los dos turnos siguientes.
+The user mimics the target completely, copying the target's natural Ability.
+Imita al objetivo por completo y copia su habilidad.
+The user employs its psychic power to exchange Abilities with the target.
+Usa el poder psíquico para intercambiar habilidades con el objetivo.
+The user exchanges Speed stats with the target.
+Intercambia su Velocidad por la del oponente.
+The user makes the target float with its psychic power. The target is easier to hit for three turns.
+El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos.
+The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited.
+Permite al usuario cambiarse por otro Pokémon del equipo, si es posible. Si un Pokémon salvaje usa este movimiento, huye del combate.
+The user catches the target off guard and swaps its held item with its own.
+Engaña al objetivo desprevenido e intercambia objetos.
+The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+Crea un espacio extraño en el que los Pokémon lentos se mueven primero durante cinco turnos.
+The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns.
+Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.
+The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.
+El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.
+The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
+Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno.
+Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn.
+El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo.
+The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat.
+Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.
+The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
+Clava piedras muy afiladas al objetivo. Suele ser crítico.
+The user attacks with a ray of light that sparkles as if it were made of gemstones.
+Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.
+Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
+Lanza grandes pedruscos. Puede amedrentar al objetivo.
+The user attacks with a prehistoric power. It may also raise all the user's stats at once.
+Ataque prehistórico que puede subir todas las características.
+Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
+Tira rocas que detienen al objetivo y bajan su Velocidad.
+The user picks up and throws a small rock at the target to attack.
+Tira una pequeña roca al objetivo.
+The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit.
+Ataca lanzando una piedra o un proyectil. Si el objetivo está en el aire, lo estrella contra el suelo.
+The user smashes into the target at high speed. This move always goes first.
+El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta.
+The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.
+Lanza pedruscos al objetivo de dos a cinco veces consecutivas.
+The user polishes its body to reduce drag. It can sharply raise the Speed stat.
+Reduce la resistencia puliendo su cuerpo. Aumenta mucho la Velocidad.
+Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types.
+Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.
+The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
+Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.
+Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves.
+Cubre al objetivo de un alquitrán pegajoso que reduce su Velocidad y lo vuelve débil contra el fuego.
+The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession.
+Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.
+Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
+Concentra un haz de luz y ataca dos turnos después.
+The user fires a beam of steel that it collected from its entire body. This also damages the user.
+Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor.
+The user attacks while destroying the terrain. This move fails when the ground isn't a terrain.
+El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y falla si no hay ninguno en ese momento.
+The user becomes a gigantic shield and slams into the target.
+El usuario se convierte en un escudo gigante para golpear al objetivo. Si este ha alcanzado el estado Dinamax, se duplica el daño infligido.
+The user becomes a gigantic sword and cuts the target.
+El usuario se convierte en una espada gigante para rebanar al objetivo. Si este ha alcanzado el estado Dinamax, se duplica el daño infligido.
+The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.
+Ataca con una cola férrea y puede bajar la Defensa del objetivo.
+The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
+Ataca al objetivo con la potencia de un meteoro, ignorando su habilidad.
+The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.
+Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.
+The user entangles the target with its anchor chain. The target becomes unable to flee.
+Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.
+The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
+El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo.
+The foe slams the target with its steel-hard head. It may also make the target flinch.
+Ataca con su dura cabeza de hierro. Puede hacer que el objetivo se amedrente.
+The user stabs the target with a sharp horn. This attack never misses.
+El usuario ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.
+The target is hit with wings of steel. It may also raise the user's Defense stat.
+Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.
+The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.
+Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede amedrentar al rival.
+The user looses a flash of energy from its polished body. It may also lower the target's accuracy.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user launches steel bombs that stick to the target. This attack will not miss.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user attacks by throwing two steel gears at its target.
+Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.
+The target is raked with steel claws. It may also raise the user's Attack stat.
+Ataque con garras de acero que puede aumentar el Ataque del usuario.
+The user strikes the target with tough punches as fast as bullets. This move always goes first.
+Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento tiene prioridad alta.
+The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
+Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.
+The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
+El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.
+The user retaliates with much greater power against the target that last inflicted damage on it.
+Devuelve al objetivo el último ataque recibido, pero con mucha más fuerza.
+The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.
+The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
+Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.
+The user hardens its body's surface like iron, sharply raising its Defense stat.
+Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.
+Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.
+El usuario adopta una postura defensiva y se protege de cualquier daño. Reduce el Ataque de cualquier Pokémon con el que entre en contacto.
+A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.
+Horrible chirrido metálico que baja mucho la Defensa Especial del objetivo.
+The user rotates its gears, raising its Attack and sharply raising its Speed.
+Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta su Velocidad espectacularmente.
+The target is hit with a watery blast. The user must rest on the next turn, however.
+Disparo de agua. El atacante debe descansar el siguiente turno.
+The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes.
+Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será.
+The target is blasted by a huge volume of water launched under great pressure.
+Lanza una gran masa de agua a presión para atacar.
+The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
+Ataca al objetivo con una infinidad de rayos de luz azulada.
+The user immerses the target in superheated steam. This may also leave the target with a burn.
+Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.
+The target is hammered with a large pincer. Critical hits land more easily.
+Golpea con fuerza con una pinza enorme. Suele asestar un golpe crítico.
+The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
+Ataca agitando la cola como si fuera una ola rabiosa en una tormenta devastadora.
+The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.
+Ataque con agua lodosa que puede bajar la Precisión del equipo rival.
+The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.
+Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.
+It swamps the area around the user with a giant wave. It can also be used for crossing water.
+Inunda el terreno de combate con una ola gigante.
+The user rends the target with its hard gills. Power doubles if the user moves first.
+El usuario agarra al objetivo con sus duras branquias. En caso de atacar antes que este último, la potencia del movimiento se duplica.
+The user slams into the target using a full-force blast of water. May lower the target's Defense.
+Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.
+Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean.
+El usuario se sumerge en el primer turno y ataca en el segundo.
+The user shoots boiling hot water at its target. It may also leave the target with a burn.
+Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.
+The user ignores any effects that redirect moves, allowing this move to hit the chosen target.
+Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que permiten a un rival centrar la atención sobre sí.
+A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.
+Ataca con columnas de agua. Combinado con Voto Fuego, crea un arcoíris y aumenta su potencia.
+The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+Embiste con un gran impulso que puede llegar a amedrentar.
+The user cuts the foe with sharp shells. It may also lower the target's Defense stat.
+Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.
+If the target's HP is down to about half, this attack will hit with double the power.
+Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.
+A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
+Diluvio de burbujas que puede bajar la Velocidad.
+The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.
+Dispara tinta a la cara. Puede bajar la Precisión.
+The user attacks the target with a pulsing blast of water. It may also confuse the target.
+Ataca con un potente chorro de agua. Puede confundir al objetivo.
+A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The target is blasted with a forceful shot of water.
+Ataca disparando agua con gran potencia.
+The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.
+Atrapa y atenaza con fuerza durante cuatro o cinco turnos.
+Traps foes in a violent swirling whirlpool for four to five turns.
+Una tromba de agua atrapa al objetivo durante cuatro o cinco turnos.
+Hits three times in a row with mastery of the Water style. This attack always deals critical hits.
+El usuario, dominador absoluto del líquido elemento, golpea hasta tres veces con movimientos fluidos. Siempre asesta un golpe crítico.
+The user hits the target with throwing stars 2-5 times in a row. This move always goes first.
+Golpea al oponente de dos a cinco veces con estrellas arrojadizas hechas de mucosidad. Este movimiento tiene prioridad alta.
+The user envelops itself in a veil made of water. It regains some HP on every turn.
+Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.
+The user scatters mysterious water around and restores the HP of itself and its allies.
+Vierte un agua misteriosa y balsámica que restaura tanto sus propios PS como los de aquellos aliados presentes en el terreno de combate.
+The user summons a heavy rain that falls for five turns, powering up Water-type moves.
+Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos.
+The user shoots a torrent of water at the target and changes the target's type to Water.
+Potente lluvia que transforma al objetivo en un Pokémon de tipo Agua.
+The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.
+Este movimiento no se puede usar, por lo que sería mejor olvidarlo, aunque eso implique que no se pueda recordar posteriormente.
+The user withdraws its body into its hard shell, raising its Defense stat.
+El usuario se resguarda en su coraza, por lo que le sube la Defensa.

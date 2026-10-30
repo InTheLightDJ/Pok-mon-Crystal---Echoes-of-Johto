@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+Ruban Boss Insecte
+Bug Boss Beater
+Ruban Vainqueur de Boss Insecte
+Bug Collection Ribbon
+Ruban Collection Insecte
+Cool Performance Ribbon
+Ruban Spectacle Sang-froid
+Cool Performance Ribbon Super
+Ruban Spectacle Sang-froid Super
+Cool Performance Ribbon Hyper
+Ruban Spectacle Sang-froid Hyper
+Cool Performance Ribbon Master
+Ruban Spectacle Sang-froid Master
+Beauty Performance Ribbon
+Ruban Spectacle Beauté
+Beauty Performance Ribbon Super
+Ruban Spectacle Beauté Super
+Beauty Performance Ribbon Hyper
+Ruban Spectacle Beauté Hyper
+Beauty Performance Ribbon Master
+Ruban Spectacle Beauté Master
+Cute Performance Ribbon
+Ruban Spectacle Grâce
+Cute Performance Ribbon Super
+Ruban Spectacle Grâce Super
+Cute Performance Ribbon Hyper
+Ruban Spectacle Grâce Hyper
+Cute Performance Ribbon Master
+Ruban Spectacle Grâce Master
+Smart Performance Ribbon
+Ruban Spectacle Intelligence
+Smart Performance Ribbon Super
+Ruban Spectacle Intelligence Super
+Smart Performance Ribbon Hyper
+Ruban Spectacle Intelligence Hyper
+Smart Performance Ribbon Master
+Ruban Spectacle Intelligence Master
+Tough Performance Ribbon
+Ruban Spectacle Robustesse
+Tough Performance Ribbon Super
+Ruban Spectacle Robustesse Super
+Tough Performance Ribbon Hyper
+Ruban Spectacle Robustesse Hyper
+Tough Performance Ribbon Master
+Ruban Spectacle Robustesse Master
+Cool Ribbon
+Ruban Sang-froid
+Cool Ribbon Super
+Ruban Sang-froid Super
+Cool Ribbon Hyper
+Ruban Sang-froid Hyper
+Cool Ribbon Master
+Ruban Sang-froid Master
+Beauty Ribbon
+Ruban Beauté
+Beauty Ribbon Super
+Ruban Beauté Super
+Beauty Ribbon Hyper
+Ruban Beauté Hyper
+Beauty Ribbon Master
+Ruban Beauté Master
+Cute Ribbon
+Ruban Grâce
+Cute Ribbon Super
+Ruban Grâce Super
+Cute Ribbon Hyper
+Ruban Grâce Hyper
+Cute Ribbon Master
+Ruban Grâce Master
+Smart Ribbon
+Ruban Intelligence
+Smart Ribbon Super
+Ruban Intelligence Super
+Smart Ribbon Hyper
+Ruban Intelligence Hyper
+Tough Ribbon
+Ruban Robustesse
+Tough Ribbon Super
+Ruban Robustesse Super
+Tough Ribbon Hyper
+Ruban Robustesse Hyper
+Tough Ribbon Master
+Ruban Robustesse Master
+Cool Ribbon Great
+Ruban Sang-froid Super
+Cool Ribbon Ultra
+Ruban Sang-froid Hyper
+Beauty Ribbon Great
+Ruban Beauté Super
+Beauty Ribbon Ultra
+Ruban Beauté Hyper
+Cute Ribbon Great
+Ruban Grâce Super
+Cute Ribbon Ultra
+Ruban Grâce Hyper
+Smart Ribbon Great
+Ruban Intelligence Super
+Smart Ribbon Ultra
+Ruban Intelligence Hyper
+Tough Ribbon Great
+Ruban Robustesse Super
+Tough Ribbon Ultra
+Ruban Robustesse Hyper
+Winning Ribbon
+Ruban Gagnant
+Victory Ribbon
+Ruban Victoire
+Ability Ribbon
+Ruban Talent
+Great Ability Ribbon
+Ruban Talent Sup
+Double Ability Ribbon
+Ruban Talent Duo
+Multi Ability Ribbon
+Ruban Talent Multi
+Pair Ability Ribbon
+Ruban Talent Paire
+World Ability Ribbon
+Ruban Talent Monde
+Champion Ribbon
+Ruban Maître
+Sinnoh Champ Ribbon
+Ruban Maître Sinnoh
+Record Ribbon
+Ruban Record
+Event Ribbon
+Ruban Événement
+Legend Ribbon
+Ruban Légende
+Gorgeous Ribbon
+Ruban Superbe
+Royal Ribbon
+Ruban Royal
+Gorgeous Royal Ribbon
+Ruban Royal Superbe
+Alert Ribbon
+Ruban Vigilance
+Shock Ribbon
+Ruban Choc
+Downcast Ribbon
+Ruban Abattu
+Careless Ribbon
+Ruban Distrait
+Relax Ribbon
+Ruban Détente
+Snooze Ribbon
+Ruban Sieste
+Smile Ribbon
+Ruban Sourire
+Footprint Ribbon
+Ruban Empreinte
+Artist Ribbon
+Ruban Artiste
+Effort Ribbon
+Ruban Effort
+Special Ribbon
+Ruban Spécial
+Classic Ribbon
+Ruban Classique
+Premier Ribbon
+Ruban Honneur
+Souvenir Ribbon
+Ruban Souvenir
+Wishing Ribbon
+Ruban Voeu
+National Ribbon
+Ruban National
+Country Ribbon
+Ruban Pays
+Battle Champion Ribbon
+Ruban Maître Combat
+Regional Champion Ribbon
+Ruban Maître Régional
+Earth Ribbon
+Ruban Terre
+World Ribbon
+Ruban Monde
+National Champion Ribbon
+Ruban Maître National
+World Champion Ribbon
+Ruban Maître Mondial

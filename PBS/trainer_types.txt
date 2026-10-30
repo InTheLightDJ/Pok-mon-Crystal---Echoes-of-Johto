@@ -304,6 +304,13 @@ BaseMoney = 100
 IntroBGM = Trainers' Eyes Meet (Team Rocket)
 BattleBGM = vs Team Rocket
 #-------------------------------
+[TEAMROCKETJJ]
+Name = Team Rocket
+Gender = Unknown
+BaseMoney = 100
+IntroBGM = Trainers' Eyes Meet (Team Rocket)
+BattleBGM = vs Team Rocket
+#-------------------------------
 [LEADER_Falkner]
 Name = Gym Leader
 Gender = Male

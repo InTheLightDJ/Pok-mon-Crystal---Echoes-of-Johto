@@ -8,7 +8,9 @@ module TCG
   MAX_PRIZES            = 9   # the original has 6 (more than 6 uses the 3-column layouts)
   MAX_HP                = 120
   STARTING_HAND_SIZE    = 7
-  DECK_SIZE             = 60
+  DECK_SIZE             = 60   # premade and AI decks
+  DECK_MIN_SIZE         = 55   # a player's deck: 55-65 cards (the original: exactly 60)
+  DECK_MAX_SIZE         = 65
   MAX_NUM_SAME_NAME_CARDS = 4
 
   TAILS = 0
@@ -111,26 +113,32 @@ module TCG
   EFFECT_FAILED_NO_EFFECT    = 1
   EFFECT_FAILED_UNSUCCESSFUL = 2
 
-  # card colors (generic type constants)
+  # card colors (generic type constants). Darkness and Metal aren't in the
+  # original game: they come after Colorless so its index stays 6.
   FIRE = 0; GRASS = 1; LIGHTNING = 2; WATER = 3; FIGHTING = 4; PSYCHIC = 5
   COLORLESS = 6
-  NUM_COLORED_TYPES = 6
+  DARKNESS = 7; METAL = 8
+  NUM_COLORS = 9                    # size of the energy / cost arrays
+  NUM_COLORED_TYPES = 6             # the original 6 (Conversion / Shift lists)
+  COLORED_TYPES = [FIRE, GRASS, LIGHTNING, WATER, FIGHTING, PSYCHIC, DARKNESS, METAL]
+  SYMBOL_ORDER  = COLORED_TYPES + [COLORLESS]   # costs / attached energy: Colorless last
   COLOR_NAMES = { "FIRE" => FIRE, "GRASS" => GRASS, "LIGHTNING" => LIGHTNING,
                   "WATER" => WATER, "FIGHTING" => FIGHTING, "PSYCHIC" => PSYCHIC,
-                  "COLORLESS" => COLORLESS }
+                  "COLORLESS" => COLORLESS, "DARKNESS" => DARKNESS, "METAL" => METAL }
 
-  # card type byte (CARD_DATA_TYPE)
-  TYPE_ENERGY                  = 0x08
-  TYPE_ENERGY_DOUBLE_COLORLESS = 0x0e
-  TYPE_TRAINER                 = 0x10
+  # card type byte (CARD_DATA_TYPE): Pokemon = color, Energy = TYPE_ENERGY +
+  # color (wider than the original's $08 / $10 to fit Darkness and Metal)
+  TYPE_ENERGY                  = 0x10
+  TYPE_ENERGY_DOUBLE_COLORLESS = 0x16
+  TYPE_TRAINER                 = 0x20
   TYPE_NAMES = {
     "TYPE_PKMN_FIRE" => 0x00, "TYPE_PKMN_GRASS" => 0x01, "TYPE_PKMN_LIGHTNING" => 0x02,
     "TYPE_PKMN_WATER" => 0x03, "TYPE_PKMN_FIGHTING" => 0x04, "TYPE_PKMN_PSYCHIC" => 0x05,
-    "TYPE_PKMN_COLORLESS" => 0x06, "TYPE_PKMN_UNUSED" => 0x07,
-    "TYPE_ENERGY_FIRE" => 0x08, "TYPE_ENERGY_GRASS" => 0x09, "TYPE_ENERGY_LIGHTNING" => 0x0a,
-    "TYPE_ENERGY_WATER" => 0x0b, "TYPE_ENERGY_FIGHTING" => 0x0c, "TYPE_ENERGY_PSYCHIC" => 0x0d,
-    "TYPE_ENERGY_DOUBLE_COLORLESS" => 0x0e, "TYPE_ENERGY_UNUSED" => 0x0f,
-    "TYPE_TRAINER" => 0x10, "TYPE_TRAINER_UNUSED" => 0x11
+    "TYPE_PKMN_COLORLESS" => 0x06, "TYPE_PKMN_DARKNESS" => 0x07, "TYPE_PKMN_METAL" => 0x08,
+    "TYPE_ENERGY_FIRE" => 0x10, "TYPE_ENERGY_GRASS" => 0x11, "TYPE_ENERGY_LIGHTNING" => 0x12,
+    "TYPE_ENERGY_WATER" => 0x13, "TYPE_ENERGY_FIGHTING" => 0x14, "TYPE_ENERGY_PSYCHIC" => 0x15,
+    "TYPE_ENERGY_DOUBLE_COLORLESS" => 0x16, "TYPE_ENERGY_DARKNESS" => 0x17, "TYPE_ENERGY_METAL" => 0x18,
+    "TYPE_TRAINER" => 0x20, "TYPE_TRAINER_UNUSED" => 0x21
   }
 
   # stages
@@ -141,10 +149,14 @@ module TCG
   STAGE_NAMES = { "BASIC" => 0, "STAGE1" => 1, "STAGE2" => 2, "STAGE2_WITHOUT_STAGE1" => 3 }
 
   # weakness / resistance bits
+  # (Darkness / Metal use the 2 bits the original left free)
   WR_BITS = { "FIRE" => 0x80, "GRASS" => 0x40, "LIGHTNING" => 0x20,
-              "WATER" => 0x10, "FIGHTING" => 0x08, "PSYCHIC" => 0x04 }
+              "WATER" => 0x10, "FIGHTING" => 0x08, "PSYCHIC" => 0x04,
+              "DARKNESS" => 0x02, "METAL" => 0x01 }
   # TranslateColorToWR: color index -> WR bit
-  COLOR_TO_WR = [0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x00, 0x00]
+  COLOR_TO_WR = [0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x00, 0x02, 0x01]
+  # Weakness / Resistance symbols in bit order (FIRE first)
+  WR_COLORS = [FIRE, GRASS, LIGHTNING, WATER, FIGHTING, PSYCHIC, DARKNESS, METAL]
 
   # attack categories
   DAMAGE_NORMAL = 0

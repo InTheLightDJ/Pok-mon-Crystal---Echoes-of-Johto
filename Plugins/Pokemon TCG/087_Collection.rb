@@ -20,10 +20,13 @@ module TCG
   MAX_CARD_COPIES_IN_COLLECTION = 99
   NUM_CARDS_IN_BOOSTER          = 10
   BASIC_ENERGY_IDS = [:GRASS_ENERGY, :FIRE_ENERGY, :WATER_ENERGY, :LIGHTNING_ENERGY,
-                      :FIGHTING_ENERGY, :PSYCHIC_ENERGY]
+                      :FIGHTING_ENERGY, :PSYCHIC_ENERGY, :DARKNESS_ENERGY, :METAL_ENERGY]
+  # the original game's 6 (its own booster packs only give these)
+  CLASSIC_ENERGY_IDS = BASIC_ENERGY_IDS.first(NUM_COLORED_TYPES)
 
   # booster card types: Grass Fire Water Lightning Fighting Psychic Colorless Trainer Energy
-  BOOSTER_TYPE_OF_PKMN_TYPE = [1, 0, 3, 2, 4, 5, 6, 7]   # CardTypeTable (FIRE=0 -> 1 ...)
+  # CardTypeTable (FIRE=0 -> 1 ...); Darkness / Metal count as Psychic / Fighting
+  BOOSTER_TYPE_OF_PKMN_TYPE = [1, 0, 3, 2, 4, 5, 6, 5, 4]
   BOOSTER_RARITY = { "CIRCLE" => 0, "DIAMOND" => 1, "STAR" => 2 }
 
   def self.global; $PokemonGlobal; end
@@ -58,7 +61,7 @@ module TCG
   def self.booster_type_of(id)
     t = TYPE_NAMES[CARDS[id][:type]]
     return BOOSTER_TYPE_OF_PKMN_TYPE[t] if t < TYPE_ENERGY
-    return 8 if t < TYPE_ENERGY + 7
+    return 8 if t < TYPE_TRAINER
     7
   end
 
@@ -83,7 +86,7 @@ module TCG
     avg = nz.empty? ? 0 : nz.sum / nz.size
     amounts = BOOSTER_RARITY_AMOUNTS[data[:set]][1, 3]   # common, uncommon, rare
     add_energy = lambda { |id| energies << id; drawn[id] += 1 }
-    random_energy = lambda { BASIC_ENERGY_IDS[rand(NUM_COLORED_TYPES)] }
+    random_energy = lambda { CLASSIC_ENERGY_IDS[rand(NUM_COLORED_TYPES)] }
     case data[:energy]
     when nil
     when :GenerateRandomEnergy then add_energy.call(random_energy.call)
@@ -91,10 +94,11 @@ module TCG
       NUM_CARDS_IN_BOOSTER.times { add_energy.call(random_energy.call) }
       amounts = [0, 0, 0]
     when :GenerateEnergyBoosterLightningFire, :GenerateEnergyBoosterWaterFighting,
-         :GenerateEnergyBoosterGrassPsychic
+         :GenerateEnergyBoosterGrassPsychic, :GenerateEnergyBoosterDarknessMetal
       pair = { :GenerateEnergyBoosterLightningFire => [:LIGHTNING_ENERGY, :FIRE_ENERGY],
                :GenerateEnergyBoosterWaterFighting => [:WATER_ENERGY, :FIGHTING_ENERGY],
-               :GenerateEnergyBoosterGrassPsychic  => [:GRASS_ENERGY, :PSYCHIC_ENERGY] }[data[:energy]]
+               :GenerateEnergyBoosterGrassPsychic  => [:GRASS_ENERGY, :PSYCHIC_ENERGY],
+               :GenerateEnergyBoosterDarknessMetal => [:DARKNESS_ENERGY, :METAL_ENERGY] }[data[:energy]]
       pair.each { |e| (NUM_CARDS_IN_BOOSTER / 2).times { add_energy.call(e) } }
       amounts = [0, 0, 0]
     else add_energy.call(data[:energy])
@@ -131,7 +135,9 @@ module TCG
 
   # opens a pack into the collection; returns the cards
   def self.give_booster(pack)
-    add_cards(generate_booster(pack))
+    cards = add_cards(generate_booster(pack))
+    pack_pulled(cards) if respond_to?(:pack_pulled)   # rare holo points (089g)
+    cards
   end
 
   #----------------------------------------------------------------------------

@@ -105,7 +105,7 @@ module TCG
     # CreateListOfEnergyAttachedToArena (by TYPE_ENERGY_* type byte)
     def list_of_energy_attached_to_arena(type)
       d = turn_duelist
-      (0...DECK_SIZE).select { |i| d.card_locations[i] == CARD_LOCATION_ARENA && d.card(i).type == type }
+      (0...d.deck_size).select { |i| d.card_locations[i] == CARD_LOCATION_ARENA && d.card(i).type == type }
     end
 
     def list_of_fire_energy_attached_to_arena

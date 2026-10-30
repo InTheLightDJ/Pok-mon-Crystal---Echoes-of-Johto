@@ -25,7 +25,7 @@ module TCG
   # bench 1, bench 2, ... in order.
   effect(:MagneticStormEffect) do |du|
     d = du.turn_duelist
-    energies = (0...DECK_SIZE).select { |i| (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) != 0 && d.card(i).energy? }
+    energies = (0...d.deck_size).select { |i| (d.card_locations[i] & CARD_LOCATION_PLAY_AREA) != 0 && d.card(i).energy? }
     n = d.num_in_play_area
     per = energies.size / n
     pool = energies.shuffle(random: TCG.rng)

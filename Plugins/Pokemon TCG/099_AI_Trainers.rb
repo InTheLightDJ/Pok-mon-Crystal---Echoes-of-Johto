@@ -63,7 +63,8 @@ module TCG
   # CheckEnergyNeededForAttackAfterDiscard ("card id - 1": ORIGINAL BUG,
   # Grass/Fire and Water/Lightning slots are swapped)
   AI_DISCARD_ENERGY_SLOT = { :GRASS_ENERGY => 0, :FIRE_ENERGY => 1, :WATER_ENERGY => 2,
-                             :LIGHTNING_ENERGY => 3, :FIGHTING_ENERGY => 4, :PSYCHIC_ENERGY => 5 }
+                             :LIGHTNING_ENERGY => 3, :FIGHTING_ENERGY => 4, :PSYCHIC_ENERGY => 5,
+                             :DARKNESS_ENERGY => DARKNESS, :METAL_ENERGY => METAL }
 
   class AIController
     attr_accessor :ai_choices, :current_flags
@@ -244,11 +245,11 @@ module TCG
       # HandleEnergyBurn
       if e == PLAY_AREA_ARENA && d.card_id(d.arena) == :CHARIZARD &&
          !duel.incapable_of_using_pkmn_power?(d, PLAY_AREA_ARENA)
-        en = Array.new(7, 0)
+        en = Array.new(NUM_COLORS, 0)
         en[FIRE] = total
       end
       cost_sum = needed = 0
-      NUM_COLORED_TYPES.times do |col|
+      COLORED_TYPES.each do |col|
         c = atk.cost[col]
         next if c == 0
         cost_sum += c
@@ -569,7 +570,7 @@ module TCG
     # Bill: more than 9 cards left in the deck
     #--------------------------------------------------------------------------
     def ai_play_bill(duel, card); ai_play_trainer(duel, card, {}); end
-    def ai_decide_bill(duel); duel.turn_duelist.not_in_deck < DECK_SIZE - 9; end
+    def ai_decide_bill(duel); duel.turn_duelist.cards_in_deck > 9; end
 
     #--------------------------------------------------------------------------
     # Energy Removal / Super Energy Removal
@@ -684,7 +685,7 @@ module TCG
         ok = lambda do |e|
           next false if nd.energy_cards_in_slot(e).size < 2
           en, = nd.attached_energies(e)
-          next false if en[0, NUM_COLORED_TYPES].sum + (en[COLORLESS] >> 1) < 2
+          next false if COLORED_TYPES.sum { |col| en[col] } + (en[COLORLESS] >> 1) < 2
           enough_energy_to_attack_for_removal?(duel, e, 2)
         end
         t = (start...nd.num_in_play_area).find { |e| ok.call(e) }
@@ -782,7 +783,7 @@ module TCG
 
     def ai_decide_professor_oak(duel)
       d = duel.turn_duelist
-      return false if d.not_in_deck >= DECK_SIZE - 6
+      return false if d.cards_in_deck <= 6
       case @deck_id
       when :LEGENDARY_ARTICUNO_DECK then return oak_legendary_articuno?(duel, d)
       when :EXCAVATION_DECK
@@ -793,7 +794,7 @@ module TCG
       when :WONDERS_OF_SCIENCE_DECK
         return false if d.hand.any? { |i| [:GRIMER, :MUK].include?(d.card_id(i)) }
       end
-      return false if d.not_in_deck >= DECK_SIZE - 14
+      return false if d.cards_in_deck <= 14
       oak_general_score(duel, d, 30) >= 60
     end
 
@@ -812,7 +813,7 @@ module TCG
       # effect-command pointer (never 0), so the Basic bonus never applies.
       any_evo = in_hand = false
       (0...d.num_in_play_area).each do |e|
-        (0...DECK_SIZE).each do |i|
+        (0...d.deck_size).each do |i|
           next unless d.check_if_can_evolve_into(i, e) == :ok
           any_evo = true
           if d.card_locations[i] == CARD_LOCATION_HAND
@@ -873,7 +874,7 @@ module TCG
 
     # FindBasicEnergyCardsInLocation (deck index order)
     def basic_energy_cards_in(d, location)
-      (0...DECK_SIZE).select { |i| d.card_locations[i] == location && d.card(i).basic_energy? }
+      (0...d.deck_size).select { |i| d.card_locations[i] == location && d.card(i).basic_energy? }
     end
 
     # useful energies first (one per play area slot, in slot order), then the rest
@@ -970,7 +971,7 @@ module TCG
 
     def ai_decide_imposter_professor_oak(duel)
       nd = duel.non_turn_duelist
-      nd.not_in_deck < DECK_SIZE - 14 ? nd.hand.size >= 9 : nd.hand.size < 6
+      nd.cards_in_deck > 14 ? nd.hand.size >= 9 : nd.hand.size < 6
     end
 
     #--------------------------------------------------------------------------
@@ -1019,7 +1020,7 @@ module TCG
     def ai_decide_pokedex(duel)
       d = duel.turn_duelist
       return false if @pokedex_counter < 6
-      return false if d.not_in_deck >= DECK_SIZE - 4
+      return false if d.cards_in_deck <= 4
       return false unless rand(10) < 3
       @pokedex_counter = 0
       top = d.deck_list.first(5)
@@ -1255,7 +1256,7 @@ module TCG
     def ai_decide_gambler(duel)
       return (rand(10) < 2 ? 0 : false) if @deck_id == :IMAKUNI_DECK
       return false if (@barrier_flag_counter.to_i & AI_MEWTWO_MILL) == 0
-      duel.turn_duelist.not_in_deck >= DECK_SIZE - 4 ? 0 : false
+      duel.turn_duelist.cards_in_deck <= 4 ? 0 : false
     end
 
     #--------------------------------------------------------------------------
@@ -1312,7 +1313,7 @@ module TCG
     #--------------------------------------------------------------------------
     # LookForCardIDInLocation_Bank8: first deck index (ascending) or nil
     def card_id_in_location(d, id, location)
-      (0...DECK_SIZE).find { |i| d.card_locations[i] == location && d.card_id(i) == id }
+      (0...d.deck_size).find { |i| d.card_locations[i] == location && d.card_id(i) == id }
     end
     def card_id_in_deck(d, id); card_id_in_location(d, id, CARD_LOCATION_DECK); end
     def card_id_in_hand?(d, id); d.hand.any? { |i| d.card_id(i) == id }; end

@@ -1,0 +1,1506 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_DESCRIPTIONS]
+Repels weak κΜ for 100 steps.
+Repousse les κΜ faibles pendant 100 pas.
+Repels weak κΜ for 200 steps.
+Repousse les κΜ faibles pendant 200 pas.
+Repels weak κΜ for 250 steps.
+Repousse les κΜ faibles pendant 250 pas.
+A black flute that keeps away wild κΜ.
+Une flûte noire qui éloigne les κΜ sauvages.
+A glass flute that lures wild κΜ.
+Une flûte de verre qui attire les κΜ sauvages.
+Attracts wild κΜ when used in grass or caves.
+Attire les κΜ sauvages dans l'herbe ou les grottes.
+A small red shard. Sell low.
+Un petit éclat rouge. Se vend peu cher.
+A small yellow shard. Sell low.
+Un petit éclat jaune. Se vend peu cher.
+A small blue shard. Sell low.
+Un petit éclat bleu. Se vend peu cher.
+A small green shard. Sell low.
+Un petit éclat vert. Se vend peu cher.
+An orange stone that evolves certain κΜ.
+Une pierre orange qui fait évoluer certains κΜ.
+A bright stone that evolves certain κΜ.
+Une pierre brillante qui fait évoluer certains κΜ.
+A blue stone that makes certain κΜ evolve.
+Une pierre bleue qui fait évoluer certains κΜ.
+A green stone that evolves certain κΜ.
+Une pierre verte qui fait évoluer certains κΜ.
+A black stone that evolves certain κΜ.
+Une pierre noire qui fait évoluer certains κΜ.
+A red stone that makes certain κΜ evolve.
+Une pierre rouge qui fait évoluer certains κΜ.
+A dark stone that evolves certain κΜ.
+Une pierre sombre qui fait évoluer certains κΜ.
+A spark stone that evolves certain κΜ.
+Une pierre étincelante qui fait évoluer certains κΜ.
+A shiny stone that evolves certain κΜ.
+Une pierre éclatante qui fait évoluer certains κΜ.
+A frozen stone that evolves certain κΜ.
+Une pierre gelée qui fait évoluer certains κΜ.
+A sweet apple that evolves certain κΜ.
+Une pomme sucrée qui fait évoluer certains κΜ.
+A tart apple that makes certain κΜ evolve.
+Une pomme acidulée qui fait évoluer certains κΜ.
+A cracked teapot that evolves certain κΜ.
+Une théière fêlée qui fait évoluer certains κΜ.
+A chipped teapot that evolves certain κΜ.
+Une théière ébréchée qui fait évoluer certains κΜ.
+A cuff that makes G-Slowpoke very happy.
+Un bracelet qui rend Ramoloss de Galar très heureux.
+A wreath that makes G-Slowpoke very happy.
+Une couronne qui rend Ramoloss de Galar très heureux.
+A red Apricorn.
+Un Noigrume rouge.
+A yellow Apricorn.
+Un Noigrume jaune.
+A blue Apricorn.
+Un Noigrume bleu.
+A green Apricorn.
+Un Noigrume vert.
+A pink Apricorn.
+Un Noigrume rose.
+A white Apricorn.
+Un Noigrume blanc.
+A black Apricorn.
+Un Noigrume noir.
+A purple Apricorn.
+Un Noigrume violet.
+A seashell fossil of an ancient κΜ.
+Un coquillage fossile d'un ancien κΜ.
+A shell fossil of an ancient κΜ.
+Une carapace fossile d'un ancien κΜ.
+Contains the genes of an ancient κΜ.
+Contient les gènes d'un ancien κΜ.
+A plant root fossil of an ancient κΜ.
+Une racine fossile d'un ancien κΜ.
+A claw fossil of an ancient κΜ.
+Une griffe fossile d'un ancien κΜ.
+A head fossil from a prehistoric κΜ.
+Un crâne fossile d'un κΜ préhistorique.
+A collar fossil from a prehistoric κΜ.
+Une collerette fossile d'un κΜ préhistorique.
+A fossil from the back of an ancient κΜ.
+Un fossile du dos d'un ancien κΜ.
+A wing fossil of an ancient κΜ.
+Une aile fossile d'un ancien κΜ.
+A large jaw fossil from a prehistoric κΜ.
+Une grande mâchoire fossile d'un κΜ préhistorique.
+A skin sail fossil from a prehistoric κΜ.
+Une nageoire fossile d'un κΜ préhistorique.
+A fossil of an ancient flying κΜ.
+Un fossile d'un ancien κΜ volant.
+A fossil of an ancient κΜ that lived in the sea.
+Un fossile d'un ancien κΜ marin.
+A fossil of an ancient dragon κΜ.
+Un fossile d'un ancien κΜ dragon.
+A fossil of an ancient dinousaur κΜ.
+Un fossile d'un ancien κΜ dinosaure.
+A regular feather with no effect.
+Une plume ordinaire sans effet.
+An ordinary mushroom. Sell low.
+Un champignon ordinaire. Se vend peu cher.
+A large and rare mushroom. Sell high.
+Un gros champignon rare. Se vend cher.
+A rare, aromatic mushroom. Sell very high.
+Un champignon rare et parfumé. Se vend très cher.
+A beautiful pearl. Sell low.
+Une jolie perle. Se vend peu cher.
+A big, beautiful pearl. Sell high.
+Une grosse et jolie perle. Se vend cher.
+Sparkling and beautiful pearls. Sell very high.
+Des perles belles et étincelantes. Se vendent très cher.
+Pretty, red sand. Sell high.
+Un joli sable rouge. Se vend cher.
+A hunk of red gem. Sell very high.
+Un morceau de gemme rouge. Se vend très cher.
+A shard from a fallen comet. Sell very high.
+Un éclat d'une comète tombée. Se vend très cher.
+Made of pure gold. Sell high.
+Faite d'or pur. Se vend cher.
+A big nugget of pure gold. Sell very high.
+Une grosse pépite d'or pur. Se vend très cher.
+A lovely scale. It is coveted by collectors.
+Une jolie écaille. Très prisée des collectionneurs.
+A very tasty tail of something. Sell high.
+Une queue très savoureuse. Se vend cher.
+A valuable bone for archeologists. Sell high.
+Un os précieux pour les archéologues. Se vend cher.
+An ancient copper coin desired by maniacs.
+Une ancienne pièce de cuivre convoitée par les maniaques.
+An ancient silver coin desired by maniacs.
+Une ancienne pièce d'argent convoitée par les maniaques.
+An ancient golden coin desired by maniacs.
+Une ancienne pièce d'or convoitée par les maniaques.
+An ancient vase desired by maniacs.
+Un ancien vase convoité par les maniaques.
+An ancient bracelet desired by maniacs.
+Un ancien bracelet convoité par les maniaques.
+An ancient stone figure desired by maniacs.
+Une ancienne statuette convoitée par les maniaques.
+An ancient crown desired by maniacs.
+Une ancienne couronne convoitée par les maniaques.
+A fertilizer for soft soil. Sell high.
+Un engrais pour terre meuble. Se vend cher.
+Salt from Shoal Cave. High price sell.
+Du sel de la Grotte Tréfonds. Se vend cher.
+Seashell from Shoal Cave. High price sell.
+Un coquillage de la Grotte Tréfonds. Se vend cher.
+Keeps a stone tower from collapsing.
+Empêche une tour de pierre de s'effondrer.
+Changes the form of a certain κΜ.
+Change la forme d'un certain κΜ.
+Immune to ground-type moves until hit.
+Immunisé contre les capacités Sol jusqu'au 1er coup.
+Lowers the opponent's accuracy. (Hold)
+Baisse la précision de l'ennemi. (Tenir)
+Raises defenses if the holder can still evolve.
+Augmente les défenses si le porteur peut évoluer.
+Reduces the holder's weight.
+Réduit le poids du porteur.
+If infatuated, so does the foe. (Hold)
+Si le porteur est séduit, l'ennemi aussi. (Tenir)
+Damages when contact the holder.
+Blesse ceux qui touchent le porteur.
+Raises Spcl. Def but disallow status moves.
+Augmente la Déf. Spé., mais bloque les capacités de statut.
+Protects from weather and powder-moves.
+Protège de la météo et des capacités à poudre.
+Protects the holder from contact effects.
+Protège le porteur des effets de contact.
+Prevent the effects of traps. (Hold)
+Empêche les effets des pièges. (Tenir)
+Protects the holder from weather effects.
+Protège le porteur des effets de la météo.
+If the holder is hit, it switches out.
+Si le porteur est touché, il est remplacé.
+If stats are lowered, it'll be switched out.
+Si ses stats baissent, le porteur est remplacé.
+When struck by a foe, the attacker goes out.
+Quand le porteur est touché, l'attaquant est renvoyé.
+Always lets the holder switch out.
+Permet toujours au porteur d'être remplacé.
+Escape from wild Pokémon. (Hold)
+Permet de fuir les Pokémon sauvages. (Tenir)
+Earns extra Exp. Points. (Hold)
+Rapporte plus de points d'Exp. (Tenir)
+Shares battle Exp. Points. (Hold)
+Partage les points d'Exp. du combat. (Tenir)
+Doubles monetary earnings. (Hold)
+Double l'argent gagné. (Tenir)
+Calms spirits and fosters friendship. (Hold)
+Apaise et renforce l'amitié. (Tenir)
+Helps repel wild Pokémon. (Hold)
+Aide à repousser les Pokémon sauvages. (Tenir)
+Boosts Attack, but allows just one move.
+Augmente l'Attaque, mais une seule capacité utilisable.
+Boosts Spcl. Atk, but allows just one move.
+Augmente l'Atq. Spé., mais une seule capacité utilisable.
+Boosts Speed, but allows just one move.
+Augmente la Vitesse, mais une seule capacité utilisable.
+Extends the duration of Sunny Day.
+Prolonge la durée de Zénith.
+Extends the duration of Rain Dance.
+Prolonge la durée de Danse Pluie.
+Extends the duration of Sandstorm.
+Prolonge la durée de Tempête de Sable.
+Extends the duration of Hail.
+Prolonge la durée de Grêle.
+Extends the duration of the terrain invoked.
+Prolonge la durée du champ invoqué.
+Extends the duration of barrier moves.
+Prolonge la durée des capacités de barrière.
+Extends the duration of multiturn attacks.
+Prolonge la durée des attaques sur plusieurs tours.
+Increases the power of binding moves.
+Augmente la puissance des capacités de ligotage.
+Boosts the power of HP-stealing moves.
+Augmente la puissance des capacités qui volent des PV.
+Inflicts damage on non Poison Pokémon.
+Blesse les Pokémon qui ne sont pas de type Poison.
+Restores HP during battle. (Hold)
+Restaure des PV pendant le combat. (Tenir)
+Restores HP upon striking the foe. (Hold)
+Restaure des PV en frappant l'ennemi. (Tenir)
+Snaps Pokémon out of infatuation. (Hold)
+Guérit un Pokémon de l'attirance. (Tenir)
+Restores any lowered stat. (Hold)
+Restaure les stats baissées. (Tenir)
+Allows the immediate use of a move. (Hold)
+Permet d'utiliser une capacité immédiatement. (Tenir)
+Raises Spcl. Atk if hit with water-type moves.
+Augmente l'Atq. Spé. si touché par une capacité Eau.
+Raises Attack if hit by electric-type moves.
+Augmente l'Attaque si touché par une capacité Électrik.
+Boosts Spcl. Def when captures water.
+Augmente la Déf. Spé. si touché par de l'eau.
+If hit by an ice-type move, boosts Attack.
+Augmente l'Attaque si touché par une capacité Glace.
+Raises attacks if hit by a supereffective move.
+Augmente les attaques si touché par un coup super efficace.
+Sharply raises Speed when misses a move.
+Augmente beaucoup la Vitesse si une capacité rate.
+Raises Spcl. Atk when a sound move is used.
+Augmente l'Atq. Spé. quand une capacité sonore est utilisée.
+Boosts Speed when intimidated.
+Augmente la Vitesse en cas d'intimidation.
+Lowers Speed if Trick Room is active.
+Baisse la Vitesse si Distorsion est active.
+Boosts Defense on an Electric Terrain.
+Augmente la Défense sur un Champ Électrifié.
+Boosts Defense on a Grassy Terrain.
+Augmente la Défense sur un Champ Herbu.
+Boosts Spcl. Def on a Misty Terrain.
+Augmente la Déf. Spé. sur un Champ Brumeux.
+Boosts Spcl. Def on a Psychic Terrain.
+Augmente la Déf. Spé. sur un Champ Psychique.
+Boosts the power of moves, but loses HP.
+Augmente la puissance des capacités, mais coûte des PV.
+Boosts the power of supereffective moves.
+Augmente la puissance des coups super efficaces.
+Boosts a move used consecutively.
+Renforce une capacité utilisée plusieurs fois de suite.
+Boosts physical moves a little.
+Augmente un peu les capacités physiques.
+Slightly boosts the power of special moves.
+Augmente un peu la puissance des capacités spéciales.
+Ups the holder's critical-hit ratio.
+Augmente le taux de critique du porteur.
+Boosts the holder's critical-hit ratio.
+Augmente le taux de critique du porteur.
+Slightly boosts the accuracy of moves.
+Augmente un peu la précision des capacités.
+Increases accuracy when it's slower.
+Augmente la précision si le porteur est plus lent.
+May flinch the target if makes damage.
+Peut apeurer la cible en infligeant des dégâts.
+May flinch foes and allies.
+Peut apeurer ennemis et alliés.
+Makes the holder move slower than usual.
+Fait agir le porteur plus lentement que d'habitude.
+Lets the bearer move first occasionally.
+Permet parfois au porteur d'agir en premier.
+May endure a potential KO attack.
+Peut permettre de survivre à un coup fatal.
+If full HP, the holder will endure OHKO.
+Si ses PV sont au max, le porteur survit à un K.O. en un coup.
+Inflicts a burn on the holder in battle.
+Brûle le porteur pendant le combat.
+Badly poisons the holder in battle.
+Empoisonne gravement le porteur pendant le combat.
+Damages the holder on every turn.
+Blesse le porteur à chaque tour.
+Cuts Speed and makes weak to ground moves.
+Baisse la Vitesse et rend vulnérable aux capacités Sol.
+Removes holder's type-immunities.
+Supprime les immunités de type du porteur.
+Grows strong but lowers Speed.
+Favorise la croissance, mais baisse la Vitesse.
+HP grows but lowers Speed.
+Favorise les PV, mais baisse la Vitesse.
+Attack grows but lowers Speed.
+Favorise l'Attaque, mais baisse la Vitesse.
+Defense grows but lowers Speed.
+Favorise la Défense, mais baisse la Vitesse.
+Spcl. Atk grows but lowers Speed.
+Favorise l'Atq. Spé., mais baisse la Vitesse.
+Spcl. Def grows but lowers Speed.
+Favorise la Déf. Spé., mais baisse la Vitesse.
+Speed grows better but lowers Speed.
+Favorise la croissance de la Vitesse, mais la baisse.
+May make attacks miss the holder.
+Peut faire rater les attaques visant le porteur.
+Makes the holder slower.
+Rend le porteur plus lent.
+Doubles a battle's prize money.
+Double l'argent gagné en combat.
+Helps to keep wild Pokémon away.
+Aide à éloigner les Pokémon sauvages.
+Boosts water-type moves.
+Renforce les capacités Eau.
+Boosts the power of water-type moves.
+Renforce les capacités Eau.
+Boosts the power of grass-type moves.
+Renforce les capacités Plante.
+Boosts psychic-type moves.
+Renforce les capacités Psy.
+Boosts rock-type moves.
+Renforce les capacités Roche.
+Powers up fire-type moves. (Hold)
+Renforce les capacités Feu. (Tenir)
+Powers up water-type moves. (Hold)
+Renforce les capacités Eau. (Tenir)
+Boosts electric-type moves. (Hold)
+Renforce les capacités Électrik. (Tenir)
+Powers up grass-type moves. (Hold)
+Renforce les capacités Plante. (Tenir)
+Powers up ice-type moves. (Hold)
+Renforce les capacités Glace. (Tenir)
+Boosts fighting-type moves. (Hold)
+Renforce les capacités Combat. (Tenir)
+Powers up poison-type moves. (Hold)
+Renforce les capacités Poison. (Tenir)
+Powers up ground-type moves. (Hold)
+Renforce les capacités Sol. (Tenir)
+Powers up flying-type moves. (Hold)
+Renforce les capacités Vol. (Tenir)
+Powers up psychic-type moves. (Hold)
+Renforce les capacités Psy. (Tenir)
+Powers up bug-type moves. (Hold)
+Renforce les capacités Insecte. (Tenir)
+Powers up rock-type moves. (Hold)
+Renforce les capacités Roche. (Tenir)
+Powers up ghost-type moves. (Hold)
+Renforce les capacités Spectre. (Tenir)
+Powers up dragon-type moves. (Hold)
+Renforce les capacités Dragon. (Tenir)
+Powers up dark-type moves. (Hold)
+Renforce les capacités Ténèbres. (Tenir)
+Powers up steel-type moves. (Hold)
+Renforce les capacités Acier. (Tenir)
+Powers up normal-type moves. (Hold)
+Renforce les capacités Normal. (Tenir)
+Boosts fire-type moves.
+Renforce les capacités Feu.
+Boosts electric-type moves.
+Renforce les capacités Électrik.
+Boosts grass-type moves.
+Renforce les capacités Plante.
+Boosts ice-type moves.
+Renforce les capacités Glace.
+Boosts fighting-type moves.
+Renforce les capacités Combat.
+Boosts poison-type moves.
+Renforce les capacités Poison.
+Boosts ground-type moves.
+Renforce les capacités Sol.
+Boosts flying-type moves.
+Renforce les capacités Vol.
+Boosts bug-type moves.
+Renforce les capacités Insecte.
+Boosts ghost-type moves.
+Renforce les capacités Spectre.
+Boosts dragon-type moves.
+Renforce les capacités Dragon.
+Boosts dark-type moves.
+Renforce les capacités Ténèbres.
+Boosts steel-type moves.
+Renforce les capacités Acier.
+Boosts fairy-type moves.
+Renforce les capacités Fée.
+Strengthens a fire-type move once.
+Renforce une fois une capacité Feu.
+Strengthens a water-type move once.
+Renforce une fois une capacité Eau.
+Strengthens an electric-type move once.
+Renforce une fois une capacité Électrik.
+Strengthens a grass-type move once.
+Renforce une fois une capacité Plante.
+Strengthens an ice-type move once.
+Renforce une fois une capacité Glace.
+Strengthens a fighting-type move once.
+Renforce une fois une capacité Combat.
+Strengthens a poison-type move once.
+Renforce une fois une capacité Poison.
+Strengthens a ground-type move once.
+Renforce une fois une capacité Sol.
+Strengthens a flying-type move once.
+Renforce une fois une capacité Vol.
+Strengthens a psychic-type move once.
+Renforce une fois une capacité Psy.
+Strengthens a bug-type move once.
+Renforce une fois une capacité Insecte.
+Strengthens a rock-type move once.
+Renforce une fois une capacité Roche.
+Strengthens a ghost-type move once.
+Renforce une fois une capacité Spectre.
+Strengthens a dragon-type move once.
+Renforce une fois une capacité Dragon.
+Strengthens a dark-type move once.
+Renforce une fois une capacité Ténèbres.
+Strengthens a steel-type move once.
+Renforce une fois une capacité Acier.
+Strengthens a fairy-type move once.
+Renforce une fois une capacité Fée.
+Strengthens a normal-type move once.
+Renforce une fois une capacité Normal.
+An odd, electrical orb. Boosts Pikachu's stats.
+Un orbe électrique étrange. Augmente les stats de Pikachu.
+Ups critical hit ratio of Chansey.
+Augmente le taux de critique de Leveinard.
+Raises Ditto's Defense. (Hold)
+Augmente la Défense de Métamorph. (Tenir)
+Raises Ditto's Speed. (Hold)
+Augmente la Vitesse de Métamorph. (Tenir)
+A bone of some sort. Sell low.
+Une sorte d'os. Se vend peu cher.
+An ordinary stick. Sell low.
+Un bâton ordinaire. Se vend peu cher.
+Boosts Latios & Latias stab moves.
+Renforce les capacités de même type de Latios et Latias.
+Raises Clamperl's Spcl. Atk.
+Augmente l'Atq. Spé. de Coquiperl.
+Raises Clamperl's Spcl. Def.
+Augmente la Déf. Spé. de Coquiperl.
+Boosts dragon and steel-type moves.
+Renforce les capacités Dragon et Acier.
+Boosts dragon and water-type moves.
+Renforce les capacités Dragon et Eau.
+Boosts dragon and ghost-type moves.
+Renforce les capacités Dragon et Spectre.
+Changes Zacian's form.
+Change la forme de Zacian.
+Changes Zamazenta's form.
+Change la forme de Zamazenta.
+Changes Techno Blast to water-type.
+Rend Techno-Buster de type Eau.
+Changes Techno Blast to electric-type.
+Rend Techno-Buster de type Électrik.
+Changes Techno Blast to fire-type.
+Rend Techno-Buster de type Feu.
+Changes Techno Blast to ice-type.
+Rend Techno-Buster de type Glace.
+Changes the holder to fire-type.
+Rend le porteur de type Feu.
+Changes the holder to water-type.
+Rend le porteur de type Eau.
+Changes the holder to electric-type.
+Rend le porteur de type Électrik.
+Changes the holder to grass-type.
+Rend le porteur de type Plante.
+Changes the holder to ice-type.
+Rend le porteur de type Glace.
+Changes the holder to fighting-type.
+Rend le porteur de type Combat.
+Changes the holder to poison-type.
+Rend le porteur de type Poison.
+Changes the holder to ground-type.
+Rend le porteur de type Sol.
+Changes the holder to flying-type.
+Rend le porteur de type Vol.
+Changes the holder to psychic-type.
+Rend le porteur de type Psy.
+Changes the holder to bug-type.
+Rend le porteur de type Insecte.
+Changes the holder to rock-type.
+Rend le porteur de type Roche.
+Changes the holder to ghost-type.
+Rend le porteur de type Spectre.
+Changes the holder to dragon-type.
+Rend le porteur de type Dragon.
+Changes the holder to dark-type.
+Rend le porteur de type Ténèbres.
+Changes the holder to steel-type.
+Rend le porteur de type Acier.
+Changes the holder to fairy-type.
+Rend le porteur de type Fée.
+Prevents from evolution. (Hold)
+Empêche l'évolution. (Tenir)
+A rare dragon-type item.
+Un objet rare de type Dragon.
+A mysterious box made by Silph Co.
+Une mystérieuse boîte fabriquée par Sylphe SARL.
+A mysterious disc which producer is unknown.
+Un disque mystérieux d'origine inconnue.
+Evolves certain kinds of Pokémon.
+Fait évoluer certains types de Pokémon.
+A fluffy sweet loved by a certain Pokémon.
+Une friandise duveteuse qu'adore un certain Pokémon.
+A scented sachet loved by a certain Pokémon.
+Un sachet parfumé qu'adore un certain Pokémon.
+A strawberry sweet. Evolves Milcery.
+Une douceur à la fraise. Fait évoluer Crèmy.
+A heart-shaped sweet. Evolves Milcery.
+Une douceur en forme de coeur. Fait évoluer Crèmy.
+A berry-shaped sweet. Evolves Milcery.
+Une douceur en forme de baie. Fait évoluer Crèmy.
+A clover-shaped sweet. Evolves Milcery.
+Une douceur en forme de trèfle. Fait évoluer Crèmy.
+A flower-shaped sweet. Evolves Milcery.
+Une douceur en forme de fleur. Fait évoluer Crèmy.
+A star-shaped sweet. Evolves Milcery.
+Une douceur en forme d'étoile. Fait évoluer Crèmy.
+A ribbon-shaped sweet. Evolves Milcery.
+Une douceur en forme de ruban. Fait évoluer Crèmy.
+Mega evolves Venusaur.
+Fait méga-évoluer Florizarre.
+Mega evolves Charizard to X form.
+Fait méga-évoluer Dracaufeu en forme X.
+Mega evolves Charizard to Y form.
+Fait méga-évoluer Dracaufeu en forme Y.
+Mega evolves Blastoise.
+Fait méga-évoluer Tortank.
+Mega evolves Beedrill.
+Fait méga-évoluer Dardargnan.
+Mega evolves Pidgeot.
+Fait méga-évoluer Roucarnage.
+Mega evolves Alakazam.
+Fait méga-évoluer Alakazam.
+Mega evolves Slowbro.
+Fait méga-évoluer Flagadoss.
+Mega evolves Gengar.
+Fait méga-évoluer Ectoplasma.
+Mega evolves Kangaskhan.
+Fait méga-évoluer Kangourex.
+Mega evolves Pinsir.
+Fait méga-évoluer Scarabrute.
+Mega evolves Gyarados.
+Fait méga-évoluer Léviator.
+Mega evolves Aerodactyl.
+Fait méga-évoluer Ptéra.
+Mega evolves Mewtwo to X form.
+Fait méga-évoluer Mewtwo en forme X.
+Mega evolves Mewtwo to Y form.
+Fait méga-évoluer Mewtwo en forme Y.
+Mega evolves Ampharos.
+Fait méga-évoluer Pharamp.
+Mega evolves Steelix.
+Fait méga-évoluer Steelix.
+Mega evolves Scizor.
+Fait méga-évoluer Cizayox.
+Mega evolves Heracross.
+Fait méga-évoluer Scarhino.
+Mega evolves Houndoom.
+Fait méga-évoluer Démolosse.
+Mega evolves Tyranitar.
+Fait méga-évoluer Tyranocif.
+Mega evolves Sceptile.
+Fait méga-évoluer Jungko.
+Mega evolves Blaziken.
+Fait méga-évoluer Braségali.
+Mega evolves Swampert.
+Fait méga-évoluer Laggron.
+Mega evolves Gardevoir.
+Fait méga-évoluer Gardevoir.
+Mega evolves Sableye.
+Fait méga-évoluer Ténéfix.
+Mega evolves Mawile.
+Fait méga-évoluer Mysdibule.
+Mega evolves Aggron.
+Fait méga-évoluer Galeking.
+Mega evolves Medicham.
+Fait méga-évoluer Charmina.
+Mega evolves Manectric.
+Fait méga-évoluer Élecsprint.
+Mega evolves Sharpedo.
+Fait méga-évoluer Sharpedo.
+Mega evolves Camerupt.
+Fait méga-évoluer Camérupt.
+Mega evolves Altaria.
+Fait méga-évoluer Altaria.
+Mega evolves Banette.
+Fait méga-évoluer Branette.
+Mega evolves Absol.
+Fait méga-évoluer Absol.
+Mega evolves Glalie.
+Fait méga-évoluer Oniglali.
+Mega evolves Salamence.
+Fait méga-évoluer Drattak.
+Mega evolves Metagross.
+Fait méga-évoluer Métalosse.
+Mega evolves Latias.
+Fait méga-évoluer Latias.
+Mega evolves Latios.
+Fait méga-évoluer Latios.
+Mega evolves Lopunny.
+Fait méga-évoluer Lockpin.
+Mega evolves Garchomp.
+Fait méga-évoluer Carchacrok.
+Mega evolves Lucario.
+Fait méga-évoluer Lucario.
+Mega evolves Abomasnow.
+Fait méga-évoluer Blizzaroi.
+Mega evolves Gallade.
+Fait méga-évoluer Gallame.
+Mega evolves Audino.
+Fait méga-évoluer Nanméouïe.
+Mega evolves Diancie.
+Fait méga-évoluer Diancie.
+Returns Groudon to its original form.
+Rend à Groudon sa forme originelle.
+Returns Kyogre to its original form.
+Rend à Kyogre sa forme originelle.
+Restores Pokémon HP by 20.
+Restaure 20 PV d'un Pokémon.
+Restores Pokémon HP by 50.
+Restaure 50 PV d'un Pokémon.
+Restores Pokémon HP by 120.
+Restaure 120 PV d'un Pokémon.
+Restores all Pokémon HP.
+Restaure tous les PV d'un Pokémon.
+Fully restores HP and status.
+Restaure tous les PV et soigne le statut.
+Fully revives all fainted Pokémon.
+Ranime tous les Pokémon K.O.
+Awakens sleeping Pokémon.
+Réveille un Pokémon endormi.
+Cures poisoned Pokémon.
+Soigne un Pokémon empoisonné.
+Heals burned Pokémon.
+Soigne un Pokémon brûlé.
+Heals paralyzed Pokémon.
+Soigne un Pokémon paralysé.
+Defrosts frozen Pokémon.
+Dégèle un Pokémon gelé.
+Eliminates all status problems.
+Soigne tous les problèmes de statut.
+From Pewter City. Heals status conditions.
+D'Argenta. Soigne les problèmes de statut.
+Cures all status conditions.
+Soigne tous les problèmes de statut.
+Heals all the status problems.
+Soigne tous les problèmes de statut.
+Heals all the status alterations.
+Soigne toutes les altérations de statut.
+Heals all the status conditions.
+Soigne tous les problèmes de statut.
+Heals all status conditions.
+Soigne tous les problèmes de statut.
+Heals all status problems.
+Soigne tous les problèmes de statut.
+Revives a fainted Pokémon to 1/2 HP.
+Ranime un Pokémon K.O. avec la moitié de ses PV.
+Fully restores a fainted Pokémon.
+Ranime un Pokémon K.O. avec tous ses PV.
+Restores Pokémon HP by 30.
+Restaure 30 PV d'un Pokémon.
+Restores Pokémon HP by 70.
+Restaure 70 PV d'un Pokémon.
+Restores Pokémon HP by 100.
+Restaure 100 PV d'un Pokémon.
+Restores Pokémon HP by 60. Bitter.
+Restaure 60 PV d'un Pokémon. Amer.
+Restores Pokémon HP by 120. Bitter.
+Restaure 120 PV d'un Pokémon. Amer.
+Cures all status problems. Bitter.
+Soigne tous les problèmes de statut. Amer.
+Revives a fainted Pokémon. Bitter.
+Ranime un Pokémon K.O. Amer.
+It has the same effect as a Max Revive.
+A le même effet qu'un Rappel Max.
+Restores PP of one move by 10.
+Restaure 10 PP d'une capacité.
+Fully restores PP of one move.
+Restaure tous les PP d'une capacité.
+Restores PP of all moves by 10.
+Restaure 10 PP de toutes les capacités.
+Fully restores the PP of one Pokémon.
+Restaure tous les PP d'un Pokémon.
+Raises max PP of a selected move.
+Augmente les PP max d'une capacité.
+Raises move's PP to its max. points.
+Augmente les PP d'une capacité au maximum.
+Raises the HP of one Pokémon.
+Augmente les PV d'un Pokémon.
+Raises Attack of one Pokémon.
+Augmente l'Attaque d'un Pokémon.
+Raises Defense of one Pokémon.
+Augmente la Défense d'un Pokémon.
+Raises Spcl. Atk of one Pokémon.
+Augmente l'Atq. Spé. d'un Pokémon.
+Raises Spcl. Def of one Pokémon.
+Augmente la Déf. Spé. d'un Pokémon.
+Raises Speed of one Pokémon.
+Augmente la Vitesse d'un Pokémon.
+Boosts Pokémon's HP EV's.
+Augmente les EV de PV d'un Pokémon.
+Boosts Pokémon's Attack EV's.
+Augmente les EV de Attaque d'un Pokémon.
+Boosts Pokémon's Defense EV's.
+Augmente les EV de Défense d'un Pokémon.
+Boosts Pokémon's Spcl. Atk EV's.
+Augmente les EV de Atq. Spé. d'un Pokémon.
+Boosts Pokémon's Spcl. Def EV's.
+Augmente les EV de Déf. Spé. d'un Pokémon.
+Boosts Pokémon's Speed EV's.
+Augmente les EV de Vitesse d'un Pokémon.
+Attack grows better, Defense slower.
+Attaque grandit mieux, Défense moins vite.
+Attack grows better, Spcl. Atk slower.
+Attaque grandit mieux, Atq. Spé. moins vite.
+Attack grows better, Spcl. Def slower.
+Attaque grandit mieux, Déf. Spé. moins vite.
+Attack grows better, Speed slower.
+Attaque grandit mieux, Vitesse moins vite.
+Defense grows better, Attack slower.
+Défense grandit mieux, Attaque moins vite.
+Defense grows better, Spcl. Atk slower.
+Défense grandit mieux, Atq. Spé. moins vite.
+Defense grows better, Spcl. Def slower.
+Défense grandit mieux, Déf. Spé. moins vite.
+Defense grows better, Speed slower.
+Défense grandit mieux, Vitesse moins vite.
+Spcl. Atk grows better, Attack slower.
+Atq. Spé. grandit mieux, Attaque moins vite.
+Spcl. Atk grows better, Defense slower.
+Atq. Spé. grandit mieux, Défense moins vite.
+Spcl. Atk grows better, Spcl. Def slower.
+Atq. Spé. grandit mieux, Déf. Spé. moins vite.
+Spcl. Atk grows better, Speed slower.
+Atq. Spé. grandit mieux, Vitesse moins vite.
+Spcl. Def grows better, Attack slower.
+Déf. Spé. grandit mieux, Attaque moins vite.
+Spcl. Def grows better, Defense slower.
+Déf. Spé. grandit mieux, Défense moins vite.
+Spcl. Def grows better, Spcl. Atk slower.
+Déf. Spé. grandit mieux, Atq. Spé. moins vite.
+Spcl. Def grows better, Speed slower.
+Déf. Spé. grandit mieux, Vitesse moins vite.
+Speed grows better, Attack slower.
+Vitesse grandit mieux, Attaque moins vite.
+Speed grows better, Defense slower.
+Vitesse grandit mieux, Défense moins vite.
+Speed grows better, Spcl. Atk slower.
+Vitesse grandit mieux, Atq. Spé. moins vite.
+Speed grows better, Spcl. Def slower.
+Vitesse grandit mieux, Déf. Spé. moins vite.
+All stats will grow at an equal rate.
+Toutes les stats grandiront au même rythme.
+Allows to switch abilities in a Pokémon.
+Permet de changer le talent d'un Pokémon.
+Allows a Pokémon to have its rare ability.
+Donne à un Pokémon son talent rare.
+Gives a very small amount of Exp. Points.
+Donne très peu de points d'Exp.
+Gives a small amount of Exp. Points.
+Donne peu de points d'Exp.
+Gives a moderate amount of Exp. Points.
+Donne quelques points d'Exp.
+Gives a large amount of Exp. Points.
+Donne beaucoup de points d'Exp.
+Gives a very large amount of Exp. Points.
+Donne énormément de points d'Exp.
+Raises level of a Pokémon by one.
+Augmente d'un niveau un Pokémon.
+Temporarily raises a Pokémon's level by 1 for the rest of the battle.
+Augmente le niveau d'un Pokémon de 1 pour le reste du combat.
+Temporarily raises a Pokémon's level by 3 for the rest of the battle.
+Augmente le niveau d'un Pokémon de 3 pour le reste du combat.
+Temporarily raises a Pokémon's level by 5 for the rest of the battle.
+Augmente le niveau d'un Pokémon de 5 pour le reste du combat.
+The best Ball. It never misses.
+La meilleure Ball. Elle ne rate jamais.
+A Ball with a high rate of success.
+Une Ball avec un fort taux de réussite.
+A Ball with a decent success rate.
+Une Ball avec un taux de réussite correct.
+An item for catching Pokémon.
+Un objet pour attraper des Pokémon.
+A Ball used in the Safari Zone.
+Une Ball utilisée au Parc Safari.
+The Bug-Catching Contest Ball.
+La Ball du Concours de Capture d'Insectes.
+Works well on water- and bug-type Pokémon.
+Efficace sur les Pokémon Eau et Insecte.
+Works better on marine Pokémon.
+Plus efficace sur les Pokémon marins.
+For catching weaker Pokémon.
+Pour attraper les Pokémon plus faibles.
+Works better on species caught before.
+Plus efficace sur les espèces déjà capturées.
+Better if more turns are taken in battle.
+Plus efficace si le combat dure longtemps.
+A cozy Ball that makes Pokémon more friendly.
+Une Ball douillette qui rend les Pokémon plus amicaux.
+A rare Ball made for some special event.
+Une Ball rare créée pour un événement spécial.
+Works better at night or at dark places.
+Plus efficace la nuit ou dans les lieux sombres.
+Heals HP and all status problems.
+Restaure les PV et soigne tous les problèmes de statut.
+Better catch rate if used at the beginning.
+Meilleur taux de capture si utilisée au début.
+A Ball with no additional effects.
+Une Ball sans effet supplémentaire.
+A Ball for catching fast Pokémon.
+Une Ball pour attraper les Pokémon rapides.
+A Ball for lower-level Pokémon.
+Une Ball pour les Pokémon de plus bas niveau.
+A Ball for Pokémon hooked by a rod.
+Une Ball pour les Pokémon pêchés à la canne.
+A Ball for catching heavy Pokémon.
+Une Ball pour attraper les Pokémon lourds.
+For catching the opposite gender.
+Pour attraper le sexe opposé.
+A Ball that makes Pokémon friendly.
+Une Ball qui rend les Pokémon amicaux.
+A Ball for Moon Stone evolvers.
+Une Ball pour les Pokémon qui évoluent par Pierre Lune.
+Works well on asleep Pokémon.
+Efficace sur les Pokémon endormis.
+A special Ball designed to catch U-Beasts.
+Une Ball spéciale conçue pour capturer les Ultra-Chimères.
+A special Ball designed to catch Bugs.
+Une Ball spéciale conçue pour capturer les Insectes.
+This ball was designed by a talking Fox.
+Cette ball a été conçue par un Renard qui parle.
+This ball works well on pokemon with teleport, flee, or run away.
+Cette ball est efficace sur les pokémon avec Téléport, Fuite ou Fuite Assurée.
+1st turn: Focus; 2nd turn: Attack.
+1er tour : Concentration ; 2e tour : Attaque.
+Slashes the target with huge sharp claws.
+Lacère la cible avec d'énormes griffes acérées.
+Generates an ultrasonic wave that may confuse.
+Émet un ultrason qui peut rendre confus.
+Raises special stats by focusing the mind.
+Augmente les stats spéciales par la concentration.
+Scares wild foes to end battle.
+Effraie les ennemis sauvages pour finir le combat.
+A poison move with increasing damage.
+Une capacité Poison aux dégâts croissants.
+Inflicts damage every turn except Ice-type.
+Blesse à chaque tour, sauf les types Glace.
+Boosts both Attack and Defense.
+Augmente l'Attaque et la Défense.
+Shoots 2 to 5 seeds in a row.
+Tire 2 à 5 graines d'affilée.
+Increases Attack and Spcl. Atk stats.
+Augmente l'Attaque et l'Atq. Spé.
+Boosts fire-type moves for 5 turns.
+Renforce les capacités Feu pendant 5 tours.
+Forces the foe to only use attack moves.
+Oblige l'ennemi à n'utiliser que des attaques.
+An attack that may freeze the foe.
+Une attaque qui peut geler l'ennemi.
+Strong ice-attack that may freeze the foe.
+Puissante attaque Glace qui peut geler l'ennemi.
+1st turn: Attack; 2nd turn: Rest.
+1er tour : Attaque ; 2e tour : Repos.
+Ups Spcl. Def with a wall of light.
+Augmente la Déf. Spé. avec un mur de lumière.
+Foils attack that turn. It may fail.
+Pare les attaques du tour. Peut échouer.
+Boosts water-type moves for 5 turns.
+Renforce les capacités Eau pendant 5 tours.
+Steals 1/2 of the damage inflicted.
+Vole la moitié des dégâts infligés.
+Prevents all status problems.
+Empêche tous les problèmes de statut.
+Damages opposing κΜ by emitting a flash.
+Blesse les κΜ adverses en émettant un éclair.
+1st turn: Prepare; 2nd turn: Attack.
+1er tour : Préparation ; 2e tour : Attaque.
+An attack that may reduce Defense.
+Une attaque qui peut baisser la Défense.
+An attack that may cause paralysis.
+Une attaque qui peut paralyser.
+Strong electric-attack that may paralyze.
+Puissante attaque Électrik qui peut paralyser.
+Tough but useless vs. flying foes.
+Puissante, mais inutile contre les ennemis Vol.
+Attacks target's legs and reduces its Speed.
+Attaque les jambes de la cible et baisse sa Vitesse.
+1st turn: Burrow; 2nd turn: Attack.
+1er tour : Creuse ; 2e tour : Attaque.
+An attack that may lower Spcl. Def.
+Une attaque qui peut baisser la Déf. Spé.
+Destroys barriers and causes damage.
+Détruit les barrières et inflige des dégâts.
+Heightens evasiveness.
+Augmente l'esquive.
+Raises Defense with a barrier.
+Augmente la Défense avec une barrière.
+Zaps the target with a jolt that never misses.
+Électrocute la cible d'une décharge qui ne rate jamais.
+An attack that may inflict a burn.
+Une attaque qui peut brûler.
+An attack that may poison the foe.
+Une attaque qui peut empoisonner l'ennemi.
+Inflicts damage every turn.
+Inflige des dégâts à chaque tour.
+A powerful fire-attack that may cause a burn.
+Puissante attaque Feu qui peut brûler.
+Lowers foe's Speed by using rocks.
+Baisse la Vitesse de l'ennemi avec des rochers.
+A fast attack that can't be avoided.
+Une attaque rapide qu'on ne peut pas esquiver.
+The foe can't use the same move in a row.
+L'ennemi ne peut pas utiliser 2 fois de suite la même capacité.
+Raises Attack if has a status problem.
+Augmente l'Attaque en cas de problème de statut.
+Hit and run (Electric-type).
+Frappe et repart (type Électrik).
+Sleep for 2 turns to fully recover.
+Dort 2 tours pour récupérer entièrement.
+Makes the opposite gender infatuated.
+Séduit le sexe opposé.
+An attack that may steal a held item.
+Une attaque qui peut voler un objet tenu.
+May raise user's Defense.
+Peut augmenter la Défense du lanceur.
+Switches abilities with the foe.
+Échange les talents avec l'ennemi.
+Shots boiling hot water that may cause a burn.
+Projette de l'eau bouillante qui peut brûler.
+Powerful but sharply lowers the Spcl. Atk.
+Puissante, mais baisse beaucoup l'Atq. Spé.
+Lands and restores HP by half.
+Atterrit et restaure la moitié des PV.
+May lower the foe's Spcl. Def.
+Peut baisser la Déf. Spé. de l'ennemi.
+May lower the target's Spcl. Def.
+Peut baisser la Déf. Spé. de la cible.
+Leaves the foe with at least 1HP.
+Laisse au moins 1 PV à l'ennemi.
+More harmful when HP is down to about half.
+Plus puissante quand les PV sont à environ la moitié.
+Flings its held item at the target to attack.
+Lance son objet tenu sur la cible pour l'attaquer.
+An electric charge that may raise its Spcl. Atk.
+Une charge électrique qui peut augmenter l'Atq. Spé.
+Always leaves at least 1HP.
+Laisse toujours au moins 1 PV.
+A shock and powerful wave.
+Une onde puissante et électrisante.
+An energy-draining punch.
+Un coup de poing qui draine l'énergie.
+Inflicts a burn on the foe with intense fire.
+Brûle l'ennemi avec un feu intense.
+A sound wave that may lower Spcl. Def.
+Une onde sonore qui peut baisser la Déf. Spé.
+Sharply raises the user's Spcl. Atk.
+Augmente beaucoup l'Atq. Spé. du lanceur.
+Very powerful but makes user faint.
+Très puissante, mais met le lanceur K.O.
+A sharp shadow claw. High critical hit ratio.
+Une griffe d'ombre acérée. Taux de critique élevé.
+Power doubled if hits after the foe.
+Puissance doublée si elle frappe après l'ennemi.
+Recycles an used item for one more use.
+Recycle un objet utilisé pour un nouvel usage.
+Sharply raises the Speed stat.
+Augmente beaucoup la Vitesse.
+Blinds the foe to reduce accuracy.
+Aveugle l'ennemi pour baisser sa précision.
+Sharpened stones that usually makes critical hit.
+Des pierres aiguisées, coup critique fréquent.
+Power doubled if hurt before the attack.
+Puissance doublée si blessé avant d'attaquer.
+A weak jolt that paralyzes the foe.
+Une faible décharge qui paralyse l'ennemi.
+Better if the user is slower than the foe.
+Plus efficace si le lanceur est plus lent que l'ennemi.
+A dance that increases Attack.
+Une danse qui augmente l'Attaque.
+Lays a trap of sharp stones.
+Pose un piège de pierres pointues.
+Copies the foe's stat changes.
+Copie les changements de stats de l'ennemi.
+Makes the target's Spcl. Atk decrease.
+Baisse l'Atq. Spé. de la cible.
+A horrible aura that may flinch the target.
+Une aura horrible qui peut apeurer la cible.
+An attack that may cause flinching.
+Une attaque qui peut apeurer.
+Slashes at the target by crossing its claws.
+Lacère la cible en croisant ses griffes.
+Randomly attacks while asleep.
+Attaque au hasard en dormant.
+Lowers foe's Speed making the earth shake.
+Baisse la Vitesse de l'ennemi en faisant trembler le sol.
+A toxic hit that may poison the foe.
+Un coup toxique qui peut empoisonner l'ennemi.
+Steals HP from a sleeping victim.
+Vole des PV à une victime endormie.
+Heavier target, the strong the move is.
+Plus la cible est lourde, plus c'est puissant.
+Causes confusion and raises Attack.
+Rend confus et augmente l'Attaque.
+Eats foe's berry and gains its effects.
+Mange la baie de l'ennemi et en obtient l'effet.
+Hit and run (Bug-type)
+Frappe et repart (type Insecte)
+Makes a decoy with 1/4 user's max HP.
+Crée un leurre avec 1/4 des PV max du lanceur.
+Slowest κΜ moves first for 5 turns.
+Le κΜ le plus lent agit en premier pendant 5 tours.
+Cuts using claws, scythes, etc.
+Coupe avec griffes, faux, etc.
+1st turn: Fly; 2nd turn: Attack.
+1er tour : Vol ; 2e tour : Attaque.
+A strong water-type attack.
+Une puissante attaque Eau.
+A powerful physical attack.
+Une puissante attaque physique.
+Reduces accuracy and quits field changes.
+Baisse la précision et annule les effets de terrain.
+An attack that may lower Defense.
+Une attaque qui peut baisser la Défense.
+An aquatic charge attack.
+Une charge aquatique.
+May confuse the target. Climbs outside walls.
+Peut rendre la cible confuse. Escalade les murs extérieurs.
+May cause opponent to flinch, can be used on trees.
+Peut apeurer l'adversaire, utilisable sur les arbres.
+May attract pokemon to you!
+Peut attirer les pokémon vers toi !
+Move that powers up each turn it hits!
+Capacité qui devient plus puissante à chaque coup réussi !
+A powerful ghost type move!
+Une puissante capacité de type spectre !
+Brings out a pokemons hidden power!
+Révèle la puissance cachée d'un pokémon !
+A defencive move I think...!
+Une capacité défensive, je crois...!
+Sleep to gain HP!
+Dors pour récupérer des PV !
+1st turn: Dive; 2nd turn: Attack.
+1er tour : Plongée ; 2e tour : Attaque.
+Traps your enemys in a watery vortex.
+Piège les ennemis dans un tourbillon d'eau.
+A self-cure for paralysis. (Hold)
+Soigne seul la paralysie. (Tenir)
+A self-awakening for sleep. (Hold)
+Réveille seul du sommeil. (Tenir)
+A self-cure for poison. (Hold)
+Soigne seul le poison. (Tenir)
+A self-heal for a burn. (Hold)
+Soigne seul une brûlure. (Tenir)
+Defrosts a POKéMON. (Hold)
+Dégèle un POKéMON. (Tenir)
+A self-restore for PP. (10PP, Hold)
+Restaure seul des PP. (10 PP, Tenir)
+A self-restore item. (10HP, Hold)
+Restaure seul des PV. (10 PV, Tenir)
+A self-cure for confusion. (Hold)
+Soigne seul la confusion. (Tenir)
+Cures any status problem.
+Soigne tout problème de statut.
+A self-restore item. (30HP, Hold)
+Restaure seul des PV. (30 PV, Tenir)
+Restores HP in a pinch, but will cause confusion.
+Restaure des PV en cas de besoin, mais rend confus.
+Used for making Poffins.
+Sert à préparer des Poffins.
+Makes the user friendly, but lowers HP.
+Rend plus amical, mais baisse les PV.
+Increases friendship, lowers Attack.
+Augmente l'amitié, baisse l'Attaque.
+Increases friendship, lowers Defense.
+Augmente l'amitié, baisse la Défense.
+Increases friendship, lowers Spcl. Atk.
+Augmente l'amitié, baisse l'Atq. Spé.
+Increases friendship, lowers Spcl. Def.
+Augmente l'amitié, baisse la Déf. Spé.
+Increases friendship, lowers Speed.
+Augmente l'amitié, baisse la Vitesse.
+Weakens fire-type attacks.
+Affaiblit les attaques Feu.
+Weakens water-type attacks.
+Affaiblit les attaques Eau.
+Weakens electric-type attacks.
+Affaiblit les attaques Électrik.
+Weakens grass-type attacks.
+Affaiblit les attaques Plante.
+Weakens ice-type attacks.
+Affaiblit les attaques Glace.
+Weakens fighting-type attacks.
+Affaiblit les attaques Combat.
+Weakens poison-type attacks.
+Affaiblit les attaques Poison.
+Weakens ground-type attacks.
+Affaiblit les attaques Sol.
+Weakens flying-type attacks.
+Affaiblit les attaques Vol.
+Weakens psychic-type attacks.
+Affaiblit les attaques Psy.
+Weakens bug-type attacks.
+Affaiblit les attaques Insecte.
+Weakens rock-type attacks.
+Affaiblit les attaques Roche.
+Weakens ghost-type attacks.
+Affaiblit les attaques Spectre.
+Weakens dragon-type attacks.
+Affaiblit les attaques Dragon.
+Weakens dark-type attacks.
+Affaiblit les attaques Ténèbres.
+Weakens steel-type attacks.
+Affaiblit les attaques Acier.
+Weakens fairy-type attacks.
+Affaiblit les attaques Fée.
+Weakens normal-type attacks.
+Affaiblit les attaques Normal.
+Raises Attack in a pinch.
+Augmente l'Attaque en cas de besoin.
+Raises Defense in a pinch.
+Augmente la Défense en cas de besoin.
+Raises Speed in a pinch.
+Augmente la Vitesse en cas de besoin.
+Raises Spcl. Atk in a pinch.
+Augmente l'Atq. Spé. en cas de besoin.
+Raises Spcl. Def in a pinch.
+Augmente la Déf. Spé. en cas de besoin.
+Raises critical-hit ratio in a pinch.
+Augmente le taux de critique en cas de besoin.
+Sharply raises one stat in a pinch.
+Augmente beaucoup une stat en cas de besoin.
+Restores HP if hit by a supereffective attack.
+Restaure des PV si touché par une attaque super efficace.
+Raises the accuracy of a move in a pinch.
+Augmente la précision d'une capacité en cas de besoin.
+Gets to move first in a pinch.
+Agit en premier en cas de besoin.
+Damages the attacker if uses a physical move.
+Blesse l'attaquant s'il utilise une capacité physique.
+Damages the attacker if uses a special move.
+Blesse l'attaquant s'il utilise une capacité spéciale.
+Ups the Defense if hit by a physical move.
+Augmente la Défense si touché par une capacité physique.
+Ups the Spcl. Def if hit by a special move.
+Augmente la Déf. Spé. si touché par une capacité spéciale.
+A mysterious berry that skips a whole day forward when eaten.
+Une baie mystérieuse qui fait avancer d'une journée entière quand on la mange.
+Green field-print Mail (Hold).
+Lettre à motif de prairie verte (Tenir).
+Flame-print Mail (Hold).
+Lettre à motif de flammes (Tenir).
+Bubble-print Mail (Hold).
+Lettre à motif de bulles (Tenir).
+Floral-print Mail (Hold).
+Lettre à motif floral (Tenir).
+Mine-print Mail (Hold).
+Lettre à motif de mine (Tenir).
+Steel-print Mail (Hold).
+Lettre à motif d'acier (Tenir).
+Heart-print Mail (Hold).
+Lettre à motif de coeurs (Tenir).
+Snow-print Mail (Hold).
+Lettre à motif de neige (Tenir).
+Space-print Mail (Hold).
+Lettre à motif d'espace (Tenir).
+Air-print Mail (Hold).
+Lettre à motif d'air (Tenir).
+Rainbow-print Mail (Hold).
+Lettre à motif d'arc-en-ciel (Tenir).
+Bricks-print Mail (Hold).
+Lettre à motif de briques (Tenir).
+Raises Attack. (1 Btl)
+Augmente l'Attaque. (1 combat)
+Raises Attack x2. (1 Btl)
+Augmente l'Attaque x2. (1 combat)
+Raises Attack x3. (1 Btl)
+Augmente l'Attaque x3. (1 combat)
+Raises Attack x6. (1 Btl)
+Augmente l'Attaque x6. (1 combat)
+Raises Defense. (1 Btl)
+Augmente la Défense. (1 combat)
+Raises Defense x2. (1 Btl)
+Augmente la Défense x2. (1 combat)
+Raises Defense x3. (1 Btl)
+Augmente la Défense x3. (1 combat)
+Raises Defense x6. (1 Btl)
+Augmente la Défense x6. (1 combat)
+Raises Spcl. Atk (1 Btl)
+Augmente l'Atq. Spé. (1 combat)
+Raises Spcl. Atk x2 (1 Btl)
+Augmente l'Atq. Spé. x2 (1 combat)
+Raises Spcl. Atk x3 (1 Btl)
+Augmente l'Atq. Spé. x3 (1 combat)
+Raises Spcl. Atk x6 (1 Btl)
+Augmente l'Atq. Spé. x6 (1 combat)
+Raises Spcl. Def (1 Btl)
+Augmente la Déf. Spé. (1 combat)
+Raises Spcl. Def x2 (1 Btl)
+Augmente la Déf. Spé. x2 (1 combat)
+Raises Spcl. Def x3 (1 Btl)
+Augmente la Déf. Spé. x3 (1 combat)
+Raises Spcl. Def x6 (1 Btl)
+Augmente la Déf. Spé. x6 (1 combat)
+Raises Speed (1 Btl)
+Augmente la Vitesse (1 combat)
+Raises Speed x2 (1 Btl)
+Augmente la Vitesse x2 (1 combat)
+Raises Speed x3 (1 Btl)
+Augmente la Vitesse x3 (1 combat)
+Raises Speed x6 (1 Btl)
+Augmente la Vitesse x6 (1 combat)
+Raises accuracy. (1 Btl)
+Augmente la précision. (1 combat)
+Raises accuracy x2. (1 Btl)
+Augmente la précision x2. (1 combat)
+Raises accuracy x3. (1 Btl)
+Augmente la précision x3. (1 combat)
+Raises accuracy x6. (1 Btl)
+Augmente la précision x6. (1 combat)
+Boost all stats of a κΜ during battle.
+Augmente toutes les stats d'un κΜ en combat.
+Ups critical hit ratio. (1 Btl)
+Augmente le taux de critique. (1 combat)
+Ups critical hit ratio x2. (1 Btl)
+Augmente le taux de critique x2. (1 combat)
+Ups critical hit ratio x3. (1 Btl)
+Augmente le taux de critique x3. (1 combat)
+Prevents stats reduction. (1 Btl)
+Empêche la baisse des stats. (1 combat)
+Restores stat changes of an ally.
+Annule les changements de stats d'un allié.
+Activates the ability of an ally Pokémon.
+Active le talent d'un Pokémon allié.
+Causes an ally Pokémon to use its held item.
+Fait utiliser son objet tenu à un Pokémon allié.
+Causes an ally Pokémon to drop a held item.
+Fait lâcher son objet tenu à un Pokémon allié.
+Snaps Pokémon out of confusion.
+Sort un Pokémon de la confusion.
+Snaps Pokémon out of attraction.
+Libère un Pokémon de l'attirance.
+Use to escape from a wild Pokémon.
+Permet de fuir un Pokémon sauvage.
+Use to flee from wild battles.
+Permet de fuir les combats sauvages.
+A collapsible bike for fast movement.
+Un vélo pliable pour se déplacer vite.
+Use by water to fish for Pokémon.
+S'utilise au bord de l'eau pour pêcher des Pokémon.
+A good Rod for fishing Pokémon.
+Une bonne canne pour pêcher des Pokémon.
+The best Rod for fishing Pokémon.
+La meilleure canne pour pêcher des Pokémon.
+Checks for unseen items in the area.
+Détecte les objets cachés dans la zone.
+Looks for unseen items in the area.
+Cherche les objets cachés dans la zone.
+A tool that can search out hidden Pokémon.
+Un outil qui peut trouver les Pokémon cachés.
+Shows your present location.
+Indique ta position actuelle.
+Opens locked Doors!
+Ouvre les Portes verrouillées !
+Might be important!
+Ça pourrait être important !
+Use for escaping from caves or dungeons.
+Permet de s'échapper des grottes ou des donjons.
+Holds up to 99,999 game coins.
+Contient jusqu'à 99 999 jetons.
+Rouses Pokémon from sleep.
+Réveille les Pokémon endormis.
+Makes unseeable Pokémon visible.
+Rend visibles les Pokémon invisibles.
+Signals any unseeable Pokémon.
+Signale les Pokémon invisibles.
+A bottle used for watering plants.
+Une bouteille pour arroser les plantes.
+A can used for watering plants.
+Un arrosoir pour arroser les plantes.
+A pail used for watering plants.
+Un seau pour arroser les plantes.
+A flower offered in sign of gratitude.
+Une fleur offerte en signe de gratitude.
+Returns Pokémon to its original shape.
+Rend à un Pokémon sa forme originelle.
+Seals away the power of a legendary κΜ.
+Scelle le pouvoir d'un κΜ légendaire.
+Used to change Rotom forms.
+Sert à changer la forme de Motisma.
+Stores Zygarde Cores and Cells.
+Stocke les Noyaux et les Cellules de Zygarde.
+Fuses Kyurem and a certain Pokémon.
+Fusionne Kyurem et un certain Pokémon.
+Separates Kyurem and a certain Pokémon.
+Sépare Kyurem et un certain Pokémon.
+Fuses Necrozma and Solgaleo.
+Fusionne Necrozma et Solgaleo.
+Separates Necrozma from Solgaleo.
+Sépare Necrozma de Solgaleo.
+Fuses Necrozma and Lunala.
+Fusionne Necrozma et Lunala.
+Separates Necrozma from Lunala.
+Sépare Necrozma de Lunala.
+Allows Calyrex to connect with its steed.
+Permet à Sylveroy de s'unir à sa monture.
+Separates Calyrex and its beloved steed.
+Sépare Sylveroy de sa monture bien-aimée.
+More eggs could be found at the D. Care.
+Plus d'oeufs pourraient être trouvés à la Pension.
+Ups Shiny Pokémon appearance rate.
+Augmente le taux d'apparition des Pokémon chromatiques.
+Critical catch is more common.
+La capture critique est plus fréquente.
+Increases the Exp. Points obtained.
+Augmente les points d'Exp. obtenus.
+Enables the use of Mega Stones on κΜ.
+Permet d'utiliser les Méga-Gemmes sur les κΜ.
+Allows you to access the κΜ storage system.
+Te permet d'accéder au système de stockage des κΜ.
+Lets go to Daroxy Island.
+Permet d'aller à l'Île Daroxy.
+Shows the way to a certain island.
+Indique le chemin vers une certaine île.
+A glassy black stone that produces a sharp cutting edge when split. It’s loved by a certain Pokémon.
+Une pierre noire vitreuse qui forme un tranchant acéré quand on la fend. Un certain Pokémon l'adore.
+A block of muddy material that is for fuel. It’s loved by a certain Pokémon.
+Un bloc de matière boueuse servant de combustible. Un certain Pokémon l'adore.
+A string exuding a mysterious energy of connection. It’s loved by certain Pokémon.
+Un fil qui dégage une mystérieuse énergie de lien. Certains Pokémon l'adorent.
+When held by Dialga, this large, glowing gem wells with power and allows the Pokémon to change form.
+Quand Dialga la tient, cette grande gemme lumineuse déborde de puissance et lui permet de changer de forme.
+When held by Palkia, this large, glowing orb wells with power and allows the Pokémon to change form.
+Quand Palkia le tient, ce grand orbe lumineux déborde de puissance et lui permet de changer de forme.
+A stone tablet to be held by a certain Pokémon. It the holder the power of every type there is.
+Une tablette de pierre à faire tenir à un certain Pokémon. Elle donne à son porteur la puissance de tous les types.
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Normal-type moves.
+Un objet à faire tenir à un Pokémon. C'est une tablette de pierre qui renforce les capacités de type Normal.
+A Berry that can be fed to a Pokémon to restore its PP.
+Une Baie qu'on peut donner à un Pokémon pour restaurer ses PP.
+When held by Giratina, this large, glowing gem wells with power and allows the Pokémon to change form.
+Quand Giratina la tient, cette grande gemme lumineuse déborde de puissance et lui permet de changer de forme.
+A mysterious ball that can be thrown at wild Pokémon in order to catch them.
+Une ball mystérieuse qu'on peut lancer sur les Pokémon sauvages pour les attraper.
+A mysterious ball that provides a higher success catch rate than a standard Poké Ball.
+Une ball mystérieuse avec un meilleur taux de réussite qu'une Poké Ball standard.
+A mysterious ball that provides an even higher success catch rate than a Great Ball does.
+Une ball mystérieuse avec un taux de réussite encore meilleur que celui d'une Super Ball.
+A ball that flies fast and true ideal for catching nimble Pokémon or Pokémon that fly high in the air.
+Une ball qui vole vite et droit, idéale pour attraper les Pokémon agiles ou qui volent haut dans le ciel.
+An improvement on the original Feather Ball design. It has a higher success rate than the Feather Ball.
+Une version améliorée de la Plume Ball d'origine. Son taux de réussite est plus élevé que celui de la Plume Ball.
+The ultimate iteration of the Feather Ball. It has an even higher success rate than the Wing Ball does.
+La version ultime de la Plume Ball. Son taux de réussite est encore plus élevé que celui de l'Aile Ball.
+A ball that is too heavy to throw, but it is highly effective to an unsuspecting Pokémon.
+Une ball trop lourde pour être lancée loin, mais très efficace sur un Pokémon qui ne se doute de rien.
+An improvement on the original Heavy Ball design. It has a higher success rate than the Heavy Ball.
+Une version améliorée de la Masse Ball d'origine. Son taux de réussite est plus élevé que celui de la Masse Ball.
+The ultimate iteration of the Heavy Ball. It has an even higher success rate than the Leaden Ball does.
+La version ultime de la Masse Ball. Son taux de réussite est encore plus élevé que celui de la Mégamasse Ball.
+An irreplicable Poké Ball that was once used to catch the frenzied Pokémon at the Temple of Sinnoh.
+Une Poké Ball impossible à reproduire, utilisée autrefois pour capturer le Pokémon déchaîné au Temple de Sinnoh.
+A strange looking Poke Ball that arrived from the past Sinnoh.
+Une Poké Ball à l'allure étrange, venue du Sinnoh d'autrefois.
+A peculiar set of armor that can make a certain Pokémon evolve. Auspicious wishes live within it.
+Une armure étrange qui peut faire évoluer un certain Pokémon. Des voeux de bon augure l'habitent.
+A peculiar set of armor that can make a certain Pokémon evolve. Malicious will lurks within it.
+Une armure étrange qui peut faire évoluer un certain Pokémon. Une volonté malveillante s'y cache.
+A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of darkness.
+Un rouleau qui fait évoluer certains Pokémon. Il renferme les véritables secrets de la voie des ténèbres.
+A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of water.
+Un rouleau qui fait évoluer certains Pokémon. Il renferme les véritables secrets de la voie de l'eau.
+A shard of what appears to be an old blade of some sort. It is held only by a head of certain Pokémon group.
+Un fragment de ce qui semble être une vieille lame. Seul le chef d'un certain groupe de Pokémon en possède.
+An item to be held by Pokémon with certain Abilities. It boosts the strength of the Pokémon.
+Un objet à faire tenir aux Pokémon ayant certains talents. Il renforce la puissance du Pokémon.
+An item to be held by a Pokémon. This shield protects the holder from having its Ability changed by others.
+Un objet à faire tenir à un Pokémon. Ce bouclier empêche les autres de modifier le talent de son porteur.
+An item to be held by a Pokémon. It protects the holder from having its stats lowered.
+Un objet à faire tenir à un Pokémon. Il empêche la baisse des stats de son porteur.
+An item to be held by a Pokémon. This herb will allow the holder to mirror an opponent's stat increases once.
+Un objet à faire tenir à un Pokémon. Cette herbe permet à son porteur de copier une fois les hausses de stats d'un adversaire.
+An item to be held by a Pokémon. It boosts the holder's punching moves and prevents direct contact.
+Un objet à faire tenir à un Pokémon. Il renforce les capacités de poing de son porteur et empêche le contact direct.
+An item to be held by a Pokémon. It conceals the holder, protecting it from move's additional effects.
+Un objet à faire tenir à un Pokémon. Il dissimule son porteur et le protège des effets secondaires des capacités.
+An item to be held by a Pokémon. It ensures the holder's multistrike moves hit more times.
+Un objet à faire tenir à un Pokémon. Il garantit que les capacités à coups multiples de son porteur frappent plus de fois.
+An item that accidentally dropped by a Pokémon. It seems that Gimmighoul treasure and hoard these.
+Un objet perdu par un Pokémon. Il semble que Mordudor les collectionne comme un trésor.
+A small and rare bamboo shoot. It's quite popular with a certain class of gourmands.
+Une petite pousse de bambou rare. Elle est très prisée par une certaine catégorie de gourmets.
+A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands.
+Une grosse pousse de bambou rare. Elle est extrêmement prisée par une certaine catégorie de gourmets.
+The latest model of smartphone. A Rotom lives within it, and it can be used to run all sorts of handy apps.
+Le dernier modèle de smartphone. Un Motisma y vit, et on peut s'en servir pour lancer toutes sortes d'applis pratiques.
+A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Sada" written on it.
+Le récit de l'expédition de Heath dans le Grand Cratère de Paldea. Le nom "Olim" y est écrit.
+A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Turo" written on it.
+Le récit de l'expédition de Heath dans le Grand Cratère de Paldea. Le nom "Faraday" y est écrit.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base des PV d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base de l'Attaque d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base de la Défense d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base de l'Atq. Spé. d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base de la Déf. Spé. d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.
+Un mochi dont la pâte contient des Baies. Il augmente les points de base de la Vitesse d'un Pokémon.
+A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points.
+Un mochi dont la pâte contient des Baies. Il fait perdre tous ses points de base à un Pokémon.
+An item to be held by a Pokémon. It boosts the power of the holder's Fairy-type moves.
+Un objet à faire tenir à un Pokémon. Il renforce les capacités de type Fée de son porteur.
+A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
+Une pomme étrange qui peut faire évoluer une certaine espèce de Pokémon. Elle est exceptionnellement sirupeuse.
+A peculiar cracked teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+Un étrange bol fêlé qui peut faire évoluer une certaine espèce de Pokémon. On y prépare un thé délicieux.
+A peculiar chipped teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+Un étrange bol ébréché qui peut faire évoluer une certaine espèce de Pokémon. On y prépare un thé délicieux.
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Water type during battle.
+Un masque de bois sculpté à faire tenir à Ogerpon. Il permet à Ogerpon de manier le type Eau en combat.
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Fire type during battle.
+Un masque de bois sculpté à faire tenir à Ogerpon. Il permet à Ogerpon de manier le type Feu en combat.
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Rock type during battle.
+Un masque de bois sculpté à faire tenir à Ogerpon. Il permet à Ogerpon de manier le type Roche en combat.
+A teal mask patterned after the face of an ogre. Dropped by Ogerpon after visiting the Festival of Masks.
+Un masque turquoise à l'effigie d'un ogre. Laissé par Ogerpon après sa visite à la Fête des Masques.
+A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.
+Un métal étrange qui peut faire évoluer certaines espèces de Pokémon. Il est composé de nombreuses couches.
+A mysterious disk with an indigo shine to it, given by the Top Champion. It seems to be tied to Area Zero.
+Un disque mystérieux aux reflets indigo, remis par la Top Championne. Il semble lié à la Zone Zéro.
+A Pecha Berry of the highest quality. It's one of every a few years berry that carefully tended by an expert.
+Une Baie Pêcha de la plus haute qualité. On n'en trouve qu'une à intervalles de quelques années, soigneusement cultivée par un expert.
+A device that synchronizes your mind and feelings with your Pokémon's as one. It's still a prototype—hence.
+Un appareil qui synchronise ton esprit et tes sentiments avec ceux de ton Pokémon. Ce n'est encore qu'un prototype.
+A rock that fell to earth from space. It allows a certain species of Pokémon to change forms.
+Une roche tombée de l'espace. Elle permet à une certaine espèce de Pokémon de changer de forme.
+A proof copy of the exploration notes, along with Briar's thoughts covering the Area Zero Underdepths.
+Une épreuve des notes d'exploration, avec les réflexions de Briar sur les Tréfonds de la Zone Zéro.
+A booster pack for Triple Triad game. Contains 3 cards.
+Un booster pour le jeu Triple Triad. Contient 3 cartes.
+A special booster pack for Triple Triad. Contains 3 cards, with the last one guaranteed to be a Legendary Pokémon!
+Un booster spécial pour Triple Triad. Contient 3 cartes, la dernière étant forcément un Pokémon Légendaire !
+A shiny red scale from Gyarados
+Une écaille rouge brillante de Léviator
+A Pokéblock that slightly raises a Pokémon's Cool condition.
+Un Pokéblock qui augmente un peu le Sang-froid d'un Pokémon.
+A Pokéblock that raises a Pokémon's Cool condition.
+Un Pokéblock qui augmente le Sang-froid d'un Pokémon.
+A Pokéblock that greatly raises a Pokémon's Cool condition.
+Un Pokéblock qui augmente beaucoup le Sang-froid d'un Pokémon.
+A Pokéblock that slightly raises a Pokémon's Beauty condition.
+Un Pokéblock qui augmente un peu la Beauté d'un Pokémon.
+A Pokéblock that raises a Pokémon's Beauty condition.
+Un Pokéblock qui augmente la Beauté d'un Pokémon.
+A Pokéblock that greatly raises a Pokémon's Beauty condition.
+Un Pokéblock qui augmente beaucoup la Beauté d'un Pokémon.
+A Pokéblock that slightly raises a Pokémon's Cute condition.
+Un Pokéblock qui augmente un peu la Grâce d'un Pokémon.
+A Pokéblock that raises a Pokémon's Cute condition.
+Un Pokéblock qui augmente la Grâce d'un Pokémon.
+A Pokéblock that greatly raises a Pokémon's Cute condition.
+Un Pokéblock qui augmente beaucoup la Grâce d'un Pokémon.
+A Pokéblock that slightly raises a Pokémon's Smart condition.
+Un Pokéblock qui augmente un peu l'Intelligence d'un Pokémon.
+A Pokéblock that raises a Pokémon's Smart condition.
+Un Pokéblock qui augmente l'Intelligence d'un Pokémon.
+A Pokéblock that greatly raises a Pokémon's Smart condition.
+Un Pokéblock qui augmente beaucoup l'Intelligence d'un Pokémon.
+A Pokéblock that slightly raises a Pokémon's Tough condition.
+Un Pokéblock qui augmente un peu la Robustesse d'un Pokémon.
+A Pokéblock that raises a Pokémon's Tough condition.
+Un Pokéblock qui augmente la Robustesse d'un Pokémon.
+A Pokéblock that greatly raises a Pokémon's Tough condition.
+Un Pokéblock qui augmente beaucoup la Robustesse d'un Pokémon.
+High-performance shoes that let the wearer sprint faster than standard running shoes. Equip them and they work automatically.
+Des chaussures haute performance pour courir plus vite qu'avec des chaussures de sport. Elles fonctionnent automatiquement.
+Heavy-duty gloves that let you smash rocks and push boulders without a Pokémon's help.
+Des gants robustes pour briser les rochers et pousser les blocs sans l'aide d'un Pokémon.
+A sharp blade for cutting through overgrown trees and brush.
+Une lame acérée pour couper les arbres et les broussailles envahissantes.
+A sturdy board that lets you ride across the surface of water.
+Une planche solide pour glisser à la surface de l'eau.
+An aerodynamic suit that lets you soar to any location you've visited before.
+Une combinaison aérodynamique pour s'envoler vers tout lieu déjà visité.
+Inflatable arm bands that let you push through fierce whirlpools while surfing.
+Des brassards gonflables pour traverser les violents siphons en surfant.
+A dense stone weight that anchors you to the seafloor, allowing deep-sea diving.
+Un lest de pierre dense qui t'ancre au fond de la mer pour plonger en profondeur.
+A tough umbrella that can batter trees to shake out hidden Pokémon, or help you scale waterfalls.
+Un parapluie solide pour secouer les arbres et en faire tomber des Pokémon cachés, ou pour remonter les cascades.
+A bright torch that illuminates dark caves.
+Une lampe puissante qui éclaire les grottes sombres.
+A sack used to gather and hold volcanic ash.
+Un sac utilisé pour ramasser les cendres volcaniques accumulées au sol.

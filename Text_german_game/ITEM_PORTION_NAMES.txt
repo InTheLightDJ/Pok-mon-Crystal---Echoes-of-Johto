@@ -1,0 +1,206 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAMES]
+set of Auspicious Armor
+Satz Glorienrüstung
+set of Malicious Armor
+Satz Fluchrüstung
+capsule of Booster Energy
+Kapsel Energiekapsel
+hunk of Metal Alloy
+Stück Legierungsmetall
+jar of Honey
+Glas Honig
+bag of Stardust
+Beutel Sternenstaub
+Relic Copper coin
+Alter Heller
+Relic Silver coin
+Alter Taler
+Relic Gold coin
+Alter Dukat
+bag of Growth Mulch
+Beutel Wachsmulch
+bag of Damp Mulch
+Beutel Feuchtmulch
+bag of Stable Mulch
+Beutel Stabilmulch
+bag of Gooey Mulch
+Beutel Neumulch
+pile of Shoal Salt
+Haufen Küstensalz
+jar of Red Nectar
+Glas Roter Nektar
+jar of Yellow Nectar
+Glas Gelber Nektar
+jar of Pink Nectar
+Glas Rosa Nektar
+jar of Purple Nectar
+Glas Purpurner Nektar
+bag of Bright Powder
+Beutel Blendpuder
+pair of Safety Goggles
+Paar Schutzbrille
+set of Protective Pads
+Satz Schutzpolster
+pair of Heavy-Duty Boots
+Paar Plateauschuhe
+pair of Choice Specs
+Paar Wahlbrille
+lump of Light Clay
+Klumpen Lichtlehm
+blob of Black Sludge
+Klecks Giftschleim
+serving of Leftovers
+Portion Überreste
+clump of Luminous Moss
+Büschel Leuchtmoos
+bottle of Throat Spray
+Flasche Halsspray
+voucher for Room Service
+Gutschein für Bizarroservice
+pair of Wise Glasses
+Paar Schlaubrille
+jar of Lax Incense
+Glas Laxrauch
+jar of Full Incense
+Glas Lahmrauch
+jar of Luck Incense
+Glas Glücksrauch
+jar of Pure Incense
+Glas Scheuchrauch
+jar of Sea Incense
+Glas Seerauch
+jar of Wave Incense
+Glas Wellenrauch
+jar of Rose Incense
+Glas Rosenrauch
+jar of Odd Incense
+Glas Schrägrauch
+jar of Rock Incense
+Glas Steinrauch
+piece of Charcoal
+Stück Holzkohle
+piece of Never-Melt Ice
+Stück Ewiges Eis
+bag of Soft Sand
+Beutel Pudersand
+pile of Silver Powder
+Haufen Silberstaub
+pair of Black Glasses
+Paar Schattenbrille
+bag of Metal Powder
+Beutel Metallstaub
+bag of Quick Powder
+Beutel Flottstaub
+scrap of Reaper Cloth
+Fetzen Düsterumhang
+dollop of Whipped Dream
+Klecks Sahnehäubchen
+bag of Sacred Ash
+Beutel Zauberasche
+bag of Pewter Crunchies
+Beutel Marmoria-Kräcker
+cup of Berry Juice
+Becher Beerensaft
+bottle of Fresh Water
+Flasche Tafelwasser
+bottle of Soda Pop
+Flasche Sprudel
+can of Lemonade
+Dose Limonade
+bottle of Moomoo Milk
+Flasche Kuhmuh-Milch
+dose of Energy Powder
+Dosis Energiestaub
+dose of Heal Powder
+Dosis Heilpuder
+comb of Max Honey
+Wabe Dyna-Honig
+bottle of PP Up
+Flasche AP-Plus
+bottle of PP Max
+Flasche AP-Top
+bottle of HP Up
+Flasche KP-Plus
+bottle of Protein
+Flasche Protein
+bottle of Iron
+Flasche Eisen
+bottle of Calcium
+Flasche Kalzium
+bottle of Zinc
+Flasche Zink
+bottle of Carbos
+Flasche Carbon
+sprig of Lonely Mint
+Zweig Solo-Minze
+sprig of Adamant Mint
+Zweig Hart-Minze
+sprig of Naughty Mint
+Zweig Frech-Minze
+sprig of Brave Mint
+Zweig Mutig-Minze
+sprig of Bold Mint
+Zweig Kühn-Minze
+sprig of Impish Mint
+Zweig Pfiffig-Minze
+sprig of Lax Mint
+Zweig Lasch-Minze
+sprig of Relaxed Mint
+Zweig Locker-Minze
+sprig of Modest Mint
+Zweig Mäßig-Minze
+sprig of Mild Mint
+Zweig Mild-Minze
+sprig of Rash Mint
+Zweig Hitzig-Minze
+sprig of Quiet Mint
+Zweig Ruhig-Minze
+sprig of Calm Mint
+Zweig Still-Minze
+sprig of Gentle Mint
+Zweig Zart-Minze
+sprig of Careful Mint
+Zweig Sacht-Minze
+sprig of Sassy Mint
+Zweig Forsch-Minze
+sprig of Timid Mint
+Zweig Scheu-Minze
+sprig of Hasty Mint
+Zweig Hastig-Minze
+sprig of Jolly Mint
+Zweig Froh-Minze
+sprig of Naive Mint
+Zweig Naiv-Minze
+sprig of Serious Mint
+Zweig Ernst-Minze
+piece of Grass Mail
+Stück Wiesenbrief
+piece of Flame Mail
+Stück Feuerbrief
+piece of Bubble Mail
+Stück Wasserbrief
+piece of Bloom Mail
+Stück Blütenbrief
+piece of Tunnel Mail
+Stück Minenbrief
+piece of Steel Mail
+Stück Stahlbrief
+piece of Heart Mail
+Stück Rosabrief
+piece of Snow Mail
+Stück Schneebrief
+piece of Space Mail
+Stück Sternbrief
+piece of Air Mail
+Stück Luftbrief
+piece of Mosaic Mail
+Stück Mosaikbrief
+piece of Brick Mail
+Stück Ziegelbrief
+cluster of Max Mushrooms
+Bündel Dyna-Pilz
+set of Reins of Unity
+Satz Zügel des Bundes

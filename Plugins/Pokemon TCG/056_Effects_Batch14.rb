@@ -128,7 +128,7 @@ module TCG
     du.as_non_turn do
       d = du.turn_duelist
       name = d.card(d.arena).name
-      (0...DECK_SIZE).each { |i| d.add_card_to_hand(i) if d.card_locations[i] == CARD_LOCATION_ARENA }
+      (0...d.deck_size).each { |i| d.add_card_to_hand(i) if d.card_locations[i] == CARD_LOCATION_ARENA }
       d.play_area[PLAY_AREA_ARENA] = nil
       d.slot_hp[PLAY_AREA_ARENA] = 0
       du.ui.message(_INTL("{1} and all attached cards were returned to the hand.", name))

@@ -1,0 +1,200 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_DESCRIPTIONS]
+This pokemon is a bug boss!
+Este pokémon é um chefe inseto!
+Goes to the pokemon that beat a bug boss pokemon!
+Vai para o pokémon que venceu um pokémon chefe inseto!
+A ribbon for collecting all bugs in a sigle bug contest!
+Uma fita por capturar todos os insetos num único concurso de insetos!
+Johto Performance Hall Cool Category Normal Rank winner!
+Vencedor da Categoria Estilo Normal do Salão de Apresentações de Johto!
+Johto Performance Hall Cool Category Super Rank winner!
+Vencedor da Categoria Estilo Super do Salão de Apresentações de Johto!
+Johto Performance Hall Cool Category Hyper Rank winner!
+Vencedor da Categoria Estilo Hiper do Salão de Apresentações de Johto!
+Johto Performance Hall Cool Category Master Rank winner!
+Vencedor da Categoria Estilo Mestre do Salão de Apresentações de Johto!
+Johto Performance Hall Beauty Category Normal Rank winner!
+Vencedor da Categoria Beleza Normal do Salão de Apresentações de Johto!
+Johto Performance Hall Beauty Category Super Rank winner!
+Vencedor da Categoria Beleza Super do Salão de Apresentações de Johto!
+Johto Performance Hall Beauty Category Hyper Rank winner!
+Vencedor da Categoria Beleza Hiper do Salão de Apresentações de Johto!
+Johto Performance Hall Beauty Category Master Rank winner!
+Vencedor da Categoria Beleza Mestre do Salão de Apresentações de Johto!
+Johto Performance Hall Cute Category Normal Rank winner!
+Vencedor da Categoria Fofura Normal do Salão de Apresentações de Johto!
+Johto Performance Hall Cute Category Super Rank winner!
+Vencedor da Categoria Fofura Super do Salão de Apresentações de Johto!
+Johto Performance Hall Cute Category Hyper Rank winner!
+Vencedor da Categoria Fofura Hiper do Salão de Apresentações de Johto!
+Johto Performance Hall Cute Category Master Rank winner!
+Vencedor da Categoria Fofura Mestre do Salão de Apresentações de Johto!
+Johto Performance Hall Smart Category Normal Rank winner!
+Vencedor da Categoria Inteligência Normal do Salão de Apresentações de Johto!
+Johto Performance Hall Smart Category Super Rank winner!
+Vencedor da Categoria Inteligência Super do Salão de Apresentações de Johto!
+Johto Performance Hall Smart Category Hyper Rank winner!
+Vencedor da Categoria Inteligência Hiper do Salão de Apresentações de Johto!
+Johto Performance Hall Smart Category Master Rank winner!
+Vencedor da Categoria Inteligência Mestre do Salão de Apresentações de Johto!
+Johto Performance Hall Tough Category Normal Rank winner!
+Vencedor da Categoria Força Normal do Salão de Apresentações de Johto!
+Johto Performance Hall Tough Category Super Rank winner!
+Vencedor da Categoria Força Super do Salão de Apresentações de Johto!
+Johto Performance Hall Tough Category Hyper Rank winner!
+Vencedor da Categoria Força Hiper do Salão de Apresentações de Johto!
+Johto Performance Hall Tough Category Master Rank winner!
+Vencedor da Categoria Força Mestre do Salão de Apresentações de Johto!
+Hoenn Cool Contest Normal Rank winner!
+Vencedor do Concurso de Estilo de Hoenn, Categoria Normal!
+Hoenn Cool Contest Super Rank winner!
+Vencedor do Concurso de Estilo de Hoenn, Categoria Super!
+Hoenn Cool Contest Hyper Rank winner!
+Vencedor do Concurso de Estilo de Hoenn, Categoria Hiper!
+Hoenn Cool Contest Master Rank winner!
+Vencedor do Concurso de Estilo de Hoenn, Categoria Mestre!
+Hoenn Beauty Contest Normal Rank winner!
+Vencedor do Concurso de Beleza de Hoenn, Categoria Normal!
+Hoenn Beauty Contest Super Rank winner!
+Vencedor do Concurso de Beleza de Hoenn, Categoria Super!
+Hoenn Beauty Contest Hyper Rank winner!
+Vencedor do Concurso de Beleza de Hoenn, Categoria Hiper!
+Hoenn Beauty Contest Master Rank winner!
+Vencedor do Concurso de Beleza de Hoenn, Categoria Mestre!
+Hoenn Cute Contest Normal Rank winner!
+Vencedor do Concurso de Fofura de Hoenn, Categoria Normal!
+Hoenn Cute Contest Super Rank winner!
+Vencedor do Concurso de Fofura de Hoenn, Categoria Super!
+Hoenn Cute Contest Hyper Rank winner!
+Vencedor do Concurso de Fofura de Hoenn, Categoria Hiper!
+Hoenn Cute Contest Master Rank winner!
+Vencedor do Concurso de Fofura de Hoenn, Categoria Mestre!
+Hoenn Smart Contest Normal Rank winner!
+Vencedor do Concurso de Inteligência de Hoenn, Categoria Normal!
+Hoenn Smart Contest Super Rank winner!
+Vencedor do Concurso de Inteligência de Hoenn, Categoria Super!
+Hoenn Smart Contest Hyper Rank winner!
+Vencedor do Concurso de Inteligência de Hoenn, Categoria Hiper!
+Hoenn Tough Contest Normal Rank winner!
+Vencedor do Concurso de Força de Hoenn, Categoria Normal!
+Hoenn Tough Contest Super Rank winner!
+Vencedor do Concurso de Força de Hoenn, Categoria Super!
+Hoenn Tough Contest Hyper Rank winner!
+Vencedor do Concurso de Força de Hoenn, Categoria Hiper!
+Hoenn Tough Contest Master Rank winner!
+Vencedor do Concurso de Força de Hoenn, Categoria Mestre!
+Super Contest Cool Category Normal Rank winner!
+Vencedor do Super Concurso de Estilo, Categoria Normal!
+Super Contest Cool Category Great Rank winner!
+Vencedor do Super Concurso de Estilo, Categoria Grande!
+Super Contest Cool Category Ultra Rank winner!
+Vencedor do Super Concurso de Estilo, Categoria Ultra!
+Super Contest Cool Category Master Rank winner!
+Vencedor do Super Concurso de Estilo, Categoria Mestre!
+Super Contest Beauty Category Normal Rank winner!
+Vencedor do Super Concurso de Beleza, Categoria Normal!
+Super Contest Beauty Category Great Rank winner!
+Vencedor do Super Concurso de Beleza, Categoria Grande!
+Super Contest Beauty Category Ultra Rank winner!
+Vencedor do Super Concurso de Beleza, Categoria Ultra!
+Super Contest Beauty Category Master Rank winner!
+Vencedor do Super Concurso de Beleza, Categoria Mestre!
+Super Contest Cute Category Normal Rank winner!
+Vencedor do Super Concurso de Fofura, Categoria Normal!
+Super Contest Cute Category Great Rank winner!
+Vencedor do Super Concurso de Fofura, Categoria Grande!
+Super Contest Cute Category Ultra Rank winner!
+Vencedor do Super Concurso de Fofura, Categoria Ultra!
+Super Contest Cute Category Master Rank winner!
+Vencedor do Super Concurso de Fofura, Categoria Mestre!
+Super Contest Smart Category Normal Rank winner!
+Vencedor do Super Concurso de Inteligência, Categoria Normal!
+Super Contest Smart Category Great Rank winner!
+Vencedor do Super Concurso de Inteligência, Categoria Grande!
+Super Contest Smart Category Ultra Rank winner!
+Vencedor do Super Concurso de Inteligência, Categoria Ultra!
+Super Contest Tough Category Normal Rank winner!
+Vencedor do Super Concurso de Força, Categoria Normal!
+Super Contest Tough Category Great Rank winner!
+Vencedor do Super Concurso de Força, Categoria Grande!
+Super Contest Tough Category Ultra Rank winner!
+Vencedor do Super Concurso de Força, Categoria Ultra!
+Super Contest Tough Category Master Rank winner!
+Vencedor do Super Concurso de Força, Categoria Mestre!
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 50 challenge.
+Fita dada por vencer o desafio Nv. 50 da Torre de Batalha de Hoenn.
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 100 challenge.
+Fita dada por vencer o desafio Nv. 100 da Torre de Batalha de Hoenn.
+A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.
+Uma Fita dada por derrotar o Magnata da Torre de Batalha.
+A Ribbon awarded for completing the Battle Tower Double challenge.
+Uma Fita dada por completar o desafio Duplo da Torre de Batalha.
+A Ribbon awarded for completing the Battle Tower Multi challenge.
+Uma Fita dada por completar o desafio Multi da Torre de Batalha.
+A Ribbon awarded for completing the Battle Tower Link Multi challenge.
+Uma Fita dada por completar o desafio Multi Link da Torre de Batalha.
+A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.
+Uma Fita dada por completar o desafio Wi-Fi da Torre de Batalha.
+Ribbon for clearing the Pokémon League and entering the Hall of Fame in another region.
+Fita por vencer a Liga Pokémon e entrar no Hall da Fama em outra região.
+Ribbon awarded for beating the Sinnoh Champion and entering the Hall of Fame.
+Fita dada por derrotar o Campeão de Sinnoh e entrar no Hall da Fama.
+A Ribbon awarded for setting an incredible record.
+Uma Fita dada por estabelecer um recorde incrível.
+Pokémon Event Participation Ribbon.
+Fita de Participação em Evento Pokémon.
+A Ribbon awarded for setting a legendary record.
+Uma Fita dada por estabelecer um recorde lendário.
+An extraordinarily gorgeous and extravagant Ribbon.
+Uma Fita extraordinariamente deslumbrante e extravagante.
+An incredibly regal Ribbon with an air of nobility.
+Uma Fita incrivelmente majestosa, com ar de nobreza.
+A gorgeous and regal Ribbon that is the peak of fabulous.
+Uma Fita deslumbrante e majestosa, o auge do fabuloso.
+A Ribbon for recalling an invigorating event that created life energy.
+Uma Fita para lembrar um evento revigorante que gerou energia vital.
+A Ribbon for recalling a thrilling event that made life more exciting.
+Uma Fita para lembrar um evento emocionante que deixou a vida mais animada.
+A Ribbon for recalling feelings of sadness that added spice to life.
+Uma Fita para lembrar sentimentos de tristeza que deram tempero à vida.
+A Ribbon for recalling a careless error that helped steer life decisions.
+Uma Fita para lembrar um erro descuidado que ajudou a guiar decisões da vida.
+A Ribbon for recalling a refreshing event that added sparkle to life.
+Uma Fita para lembrar um evento refrescante que deu brilho à vida.
+A Ribbon for recalling a deep slumber that made life soothing.
+Uma Fita para lembrar um sono profundo que deixou a vida tranquila.
+A Ribbon for recalling that smiles enrich the quality of life.
+Uma Fita para lembrar que sorrisos enriquecem a qualidade de vida.
+A Ribbon awarded to a Pokémon deemed to have a top-quality footprint.
+Uma Fita dada a um Pokémon considerado dono de uma pegada de primeira.
+Ribbon awarded for being chosen as a super sketch model in Hoenn.
+Fita dada por ser escolhido como supermodelo de desenho em Hoenn.
+Ribbon awarded for being an exceptionally hard worker.
+Fita dada por ser excepcionalmente esforçado.
+A special Ribbon for a special day.
+Uma Fita especial para um dia especial.
+A Ribbon that proclaims love for Pokémon.
+Uma Fita que proclama o amor pelos Pokémon.
+Special Holiday Ribbon.
+Fita Especial de Feriado.
+A Ribbon to cherish a special memory.
+Uma Fita para guardar uma lembrança especial.
+A Ribbon said to make your wish come true.
+Dizem que esta Fita faz seu desejo se realizar.
+A Ribbon awarded for overcoming all difficult challenges.
+Uma Fita dada por superar todos os desafios difíceis.
+Pokémon League Champion Ribbon.
+Fita de Campeão da Liga Pokémon.
+Battle Competition Champion Ribbon.
+Fita de Campeão de Competição de Batalha.
+Pokémon World Championships Regional Champion Ribbon.
+Fita de Campeão Regional do Campeonato Mundial Pokémon.
+A Ribbon awarded for winning 100 matches in a row.
+Uma Fita dada por vencer 100 partidas seguidas.
+Pokémon World Championships National Champion Ribbon.
+Fita de Campeão Nacional do Campeonato Mundial Pokémon.
+Pokémon World Championships World Champion Ribbon.
+Fita de Campeão Mundial do Campeonato Mundial Pokémon.

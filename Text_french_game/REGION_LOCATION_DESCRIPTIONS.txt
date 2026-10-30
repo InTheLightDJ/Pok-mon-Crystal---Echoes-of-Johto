@@ -1,0 +1,24 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_DESCRIPTIONS]
+Pokemon Lab
+Labo Pokémon
+Poke Center
+Centre Poké
+Sprout Tower
+Tour Chétiflor
+Kurts Balls
+Les Balls de Fargas
+Radio Tower
+Tour Radio
+Burned Tower
+Tour Cendrée
+Light House
+Phare
+Herb Shop
+Herboristerie
+Special Shop
+Boutique Spéciale
+Dragon Cave
+Grotte du Dragon
