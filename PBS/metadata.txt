@@ -3083,3 +3083,63 @@ SurfCharset = trainer_POKEMONTRAINER_305_surf
 DiveCharset = trainer_POKEMONTRAINER_305_surf
 FishCharset = boy_fish_offset
 SurfFishCharset = trainer_POKEMONTRAINER_305_surf
+#-------------------------------
+[308]
+TrainerType = POKEMONTRAINER_306
+WalkCharset = trainer_POKEMONTRAINER_306
+RunCharset = trainer_POKEMONTRAINER_306
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_306_surf
+DiveCharset = trainer_POKEMONTRAINER_306_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_306_surf
+#-------------------------------
+[309]
+TrainerType = POKEMONTRAINER_307
+WalkCharset = trainer_POKEMONTRAINER_307
+RunCharset = trainer_POKEMONTRAINER_307
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_307_surf
+DiveCharset = trainer_POKEMONTRAINER_307_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_307_surf
+#-------------------------------
+[310]
+TrainerType = POKEMONTRAINER_308
+WalkCharset = trainer_POKEMONTRAINER_308
+RunCharset = trainer_POKEMONTRAINER_308
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_308_surf
+DiveCharset = trainer_POKEMONTRAINER_308_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_308_surf
+#-------------------------------
+[311]
+TrainerType = POKEMONTRAINER_309
+WalkCharset = trainer_POKEMONTRAINER_309
+RunCharset = trainer_POKEMONTRAINER_309
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_309_surf
+DiveCharset = trainer_POKEMONTRAINER_309_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_309_surf
+#-------------------------------
+[312]
+TrainerType = POKEMONTRAINER_310
+WalkCharset = trainer_POKEMONTRAINER_310
+RunCharset = trainer_POKEMONTRAINER_310
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_310_surf
+DiveCharset = trainer_POKEMONTRAINER_310_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_310_surf
+#-------------------------------
+[313]
+TrainerType = POKEMONTRAINER_311
+WalkCharset = trainer_POKEMONTRAINER_311
+RunCharset = trainer_POKEMONTRAINER_311
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_311_surf
+DiveCharset = trainer_POKEMONTRAINER_311_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_311_surf

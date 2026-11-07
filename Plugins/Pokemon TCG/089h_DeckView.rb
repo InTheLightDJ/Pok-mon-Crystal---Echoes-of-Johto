@@ -57,10 +57,10 @@ module TCG
       bmp = Bitmap.new(w, h)
       bmp.fill_rect(0, 0, w, h, bg_color)
       pbSetSystemFont(bmp)
-      title = name.to_s.empty? ? "Deck" : "#{name} deck"
+      title = name.to_s.empty? ? _INTL("Deck") : _INTL("{1} deck", name)
       pbDrawTextPositions(bmp, [
         [title, GAP, 6, :left, text_base, text_shadow],
-        ["#{cards.size} cards", w - GAP, 6, :right, text_base, text_shadow]
+        [_INTL("{1} cards", cards.size), w - GAP, 6, :right, text_base, text_shadow]
       ])
       cell_h = CARD_H + (stacked ? COUNT_H : 0)
       list.each_with_index do |(id, copies), i|
@@ -137,7 +137,7 @@ module TCG
           elsif Input.trigger?(Input::USE)
             path = DeckView.save_png(grid.bitmap, st[:name])
             path ? pbPlayDecisionSE : pbPlayBuzzerSE
-            deck_view_hint(hint, path ? "Saved #{path}" : "Couldn't save the image.")
+            deck_view_hint(hint, path ? _INTL("Saved {1}", path) : _INTL("Couldn't save the image."))
             hint.visible = true
             hint_timer = 240
           elsif Input.trigger?(Input::SPECIAL)
@@ -172,7 +172,7 @@ module TCG
 
     # key help (or `text`) in a bar at the bottom; never in the saved image
     def deck_view_hint(sprite, text)
-      text ||= "ACTION: all cards / one of each    USE: save image    SPECIAL: hide help    BACK: exit"
+      text ||= _INTL("ACTION: all cards / one of each    USE: save image    SPECIAL: hide help    BACK: exit")
       sprite.bitmap&.dispose
       sprite.bitmap = Bitmap.new(Graphics.width, 28)
       sprite.bitmap.fill_rect(0, 0, Graphics.width, 28, Color.new(0, 0, 0, 200))

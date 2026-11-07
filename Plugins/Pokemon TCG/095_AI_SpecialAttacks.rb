@@ -99,7 +99,7 @@ module TCG
     def evolution_in_hand_or_deck?(d, c)
       (0...d.deck_size).any? do |i|
         loc = d.card_locations[i]
-        (loc == CARD_LOCATION_DECK || loc == CARD_LOCATION_HAND) && d.card(i).preevo == c.name
+        (loc == CARD_LOCATION_DECK || loc == CARD_LOCATION_HAND) && d.card(i).preevo == c.evo_name
       end
     end
 

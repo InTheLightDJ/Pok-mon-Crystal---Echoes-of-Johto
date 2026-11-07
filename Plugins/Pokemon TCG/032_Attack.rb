@@ -226,7 +226,7 @@ module TCG
       @atk.confusion_attack_failed = false
       return false unless (turn_duelist.status & CNF_SLP_PRZ) == CONFUSED
       coin_check(_INTL("Confusion check! If Tails, {1} attacks itself.", turn_duelist.card(turn_duelist.arena).name),
-                 "Confusion check,\nIf Tails, damage to yourself!")
+                 _INTL("Confusion check,\nIf Tails, damage to yourself!"))
       return false if toss_coin == HEADS
       @atk.confusion_attack_failed = true
       true

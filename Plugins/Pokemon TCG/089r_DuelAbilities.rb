@@ -31,6 +31,36 @@
 #                   Colorless one first, else one of a type it needs 2+ of;
 #                   never under 1 Energy and never without a type it needs
 #                   (Fire + Water + Grass stays as it is)
+#   :TOKEN          Token (not a duel ability): while it's in the slot, a
+#                   holo of one of the 4 rarest tiers (HOLO_PULL_POINTS)
+#                   pulled from a booster pack or won at the Card Slots
+#                   gives 1 Server Token (server: tcg_holo_token)
+#   :EIGHT_START    8 Start: you start the duel with 8 cards in your hand
+#   :HOLO_BOOST     Holo Boost: your holo cards' attacks do 10 more damage
+#                   for each Energy attached beyond the attack's cost; an
+#                   attack that already adds damage per Energy gets only
+#                   what Holo Boost adds over that
+#   :SPIKES         Spikes: each time an opponent's Pokémon becomes the
+#                   Active one (retreat, switch, knock-out replacement; not
+#                   the first one), it takes 10 damage (never knocked out)
+#   :RESTORE        Restore: when one of your Pokémon is Knocked Out, 1 of
+#                   its Energy cards goes to your hand instead of the
+#                   discard pile (Double Colorless first)
+#   :POTION         Potion Plus: your Potion / Super Potion / Hyper Potion
+#                   heal 10 more damage
+#   :STURDY         Sturdy: an opponent's attack can't knock out one of your
+#                   Pokémon that has full HP; it keeps 10 HP
+#   :SLOTS          Slow Slots (not a duel ability): the Card Slots reels
+#                   spin a bit slower (CardSlots::SLOW_SPEED)
+#   :REWARD         Double Reward (not a duel ability): a duel's booster
+#                   pack rewards are given twice (cards once)
+#   :PSA            PSA Shield (not a duel ability): duels don't wear your
+#                   holo cards' PSA grades down or break them
+#   :ONE_HKO        1HKO: every attack that does damage knocks out the
+#                   Defending Pokémon (both players)
+#   :KNOCKOFF       Knock Off: each time an attack damages a Pokémon, 1 of
+#                   its Energy cards is discarded (both players)
+#   (089t_MoreAbilities.rb has everything from Token on)
 #
 # The changed HP / Weakness / Resistance / costs come from the duelist's
 # card (Duelist#card), so the rules, the AI and the screens all see them.
@@ -43,9 +73,11 @@ end
 
 module TCG
   module DuelAbilities
-    LIST = [:HEADS, :HP_BOOST, :DESTINY_DRAW, :SPEED, :NO_WEAKNESS, :NO_RESISTANCE, :PREVENTION, :ENERGY, :PSA_PLUS]
+    LIST = [:HEADS, :HP_BOOST, :DESTINY_DRAW, :SPEED, :NO_WEAKNESS, :NO_RESISTANCE, :PREVENTION, :ENERGY, :PSA_PLUS,
+            :TOKEN, :EIGHT_START, :HOLO_BOOST, :SPIKES, :RESTORE, :POTION,
+            :STURDY, :SLOTS, :REWARD, :PSA, :ONE_HKO, :KNOCKOFF]
     # abilities that do nothing in a duel (not shown or swapped there)
-    NOT_IN_DUELS = [:PSA_PLUS]
+    NOT_IN_DUELS = [:PSA_PLUS, :TOKEN, :SLOTS, :REWARD, :PSA]
     NAMES = {
       :HEADS         => "Heads Not Tails",
       :HP_BOOST      => "HP Boost",
@@ -55,7 +87,19 @@ module TCG
       :NO_RESISTANCE => "Ignore Resistance",
       :PREVENTION    => "Prevention",
       :ENERGY        => "Energy Saver",
-      :PSA_PLUS      => "PSA+1"
+      :PSA_PLUS      => "PSA+1",
+      :TOKEN         => "Token",
+      :EIGHT_START   => "8 Start",
+      :HOLO_BOOST    => "Holo Boost",
+      :SPIKES        => "Spikes",
+      :RESTORE       => "Restore",
+      :POTION        => "Potion Plus",
+      :STURDY        => "Sturdy",
+      :SLOTS         => "Slow Slots",
+      :REWARD        => "Double Reward",
+      :PSA           => "PSA Shield",
+      :ONE_HKO       => "1HKO",
+      :KNOCKOFF      => "Knock Off"
     }
     DESCRIPTIONS = {
       :HEADS         => "Your coins come up heads 2 times out of 3 during your turn.",
@@ -66,7 +110,19 @@ module TCG
       :NO_RESISTANCE => "Neither player's Pokémon have Resistance.",
       :PREVENTION    => "Neither player's ability works.",
       :ENERGY        => "Your attacks need 1 less Energy (at least 1, and still one of each type).",
-      :PSA_PLUS      => "New holo cards you get have a hidden PSA grade 1 higher (up to 10)."
+      :PSA_PLUS      => "New holo cards you get have a hidden PSA grade 1 higher (up to 10).",
+      :TOKEN         => "Pulling one of the 4 rarest holos from a pack or winning one at the Card Slots gives you 1 Server Token.",
+      :EIGHT_START   => "You start each duel with 8 cards in your hand.",
+      :HOLO_BOOST    => "Your holo cards' attacks do 10 more damage for each extra Energy attached beyond the attack's cost.",
+      :SPIKES        => "Your opponent's Pokémon take 10 damage each time they become the Active Pokémon (not the first one).",
+      :RESTORE       => "When one of your Pokémon is Knocked Out, 1 of its Energy cards returns to your hand.",
+      :POTION        => "Your Potions heal 10 more damage.",
+      :STURDY        => "An attack can't knock out your Pokémon from full HP. It keeps 10 HP.",
+      :SLOTS         => "The Card Slots reels spin a little slower.",
+      :REWARD        => "Booster packs won in duels are doubled.",
+      :PSA           => "Duels don't lower your holo cards' PSA grades or break them.",
+      :ONE_HKO       => "Every attack that does damage knocks out the Defending Pokémon (both players).",
+      :KNOCKOFF      => "Each attack that damages a Pokémon discards 1 of its Energy cards (both players)."
     }
     DESTINY_TRAINERS = [:PROFESSOR_OAK, :POKE_BALL, :ENERGY_SEARCH, :COMPUTER_SEARCH, :BILL, :POKEMON_TRADER]
     HP_BONUS = 10
@@ -250,7 +306,7 @@ module TCG
       return nil if deck.empty?
       in_play = (0...d.num_in_play_area).map { |e| d.play_area[e] }.compact
       in_play.each do |i|   # Active first, then the Bench
-        name = d.card(i).name
+        name = d.card(i).evo_name
         evo = deck.find { |x| (c = d.card(x)).pokemon? && !c.basic? && c.preevo == name }
         return evo if evo
       end

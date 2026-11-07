@@ -13,6 +13,7 @@
 #   cgb_symbols.png   DuelCgbSymbolGraphics (card icons, face-down cards)
 #   duel_other.png    DuelOtherGraphics (prize field, coin results)
 #   font_full.png     full-width font 3 (rarity marks, ' and ” of lengths)
+#   font_kana.png     Japanese kana, a whole tile each (KANA below)
 #   card_headers.png  TRAINER / ENERGY / PoKeMoN card page headers
 #   Cards/*.png       card pictures, 8x6 tiles, with their own palette
 #==============================================================================
@@ -71,16 +72,23 @@ module TCG
     HALF_FALLBACK = { "Œ" => "OE", "«" => "\"", "»" => "\"", "–" => "-", "—" => "-", "…" => "...",
                       "Ï" => "I", "Ë" => "E", "Ÿ" => "Y", "Ì" => "I", "Ò" => "O", "Ù" => "U" }
 
+    # Japanese: too wide for half tiles, so like the original Japanese release
+    # each character takes a whole tile of font_kana.png (character i = tile i,
+    # made by PokeTCG-mod/tools/make_tcg_kana.py)
+    KANA = "×ΛΜκ—…→★、。「」〜ぁあいうぇえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろわをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲンヴ・ー！－：？"
+    KANA_TILE = {}
+    KANA.each_char.with_index { |c, i| KANA_TILE[c] = i }
+
     def self.half_code(ch)
       return HALF_SPECIAL[ch] if HALF_SPECIAL[ch]
       o = ch.ord
       (0x20..0x7f).cover?(o) ? o : 0x3f
     end
 
-    # splits text into [:char, c] / [:sym, id] / [:nl] items
+    # splits text into [:char, c] / [:sym, id] / [:kana, tile] / [:nl] items
     def self.tokens(str)
       out = []
-      s = str.to_s.gsub(/[^\x00-\x7f]/) { |c| HALF_SPECIAL[c] ? c : (HALF_FALLBACK[c] || c) }
+      s = str.to_s.gsub(/[^\x00-\x7f]/) { |c| HALF_SPECIAL[c] || KANA_TILE[c] ? c : (HALF_FALLBACK[c] || c) }
       i = 0
       while i < s.size
         if s[i] == "<" && (j = s.index(">", i))
@@ -89,17 +97,20 @@ module TCG
           i = j + 1
           next
         end
-        out << (s[i] == "\n" ? [:nl] : [:char, s[i]])
+        out << if s[i] == "\n" then [:nl]
+               elsif KANA_TILE[s[i]] then [:kana, KANA_TILE[s[i]]]
+               else [:char, s[i]]
+               end
         i += 1
       end
       out
     end
 
-    # width in half-tiles (a symbol takes a full tile, rounded to a tile boundary)
+    # width in half-tiles (a symbol or kana takes a full tile, rounded to a tile boundary)
     def self.half_width(items)
       w = 0
       items.each do |t|
-        if t[0] == :sym then w += w.odd? ? 3 : 2
+        if t[0] == :sym || t[0] == :kana then w += w.odd? ? 3 : 2
         else w += 1
         end
       end
@@ -210,6 +221,10 @@ module TCG
           when :sym
             flush.call
             put(x, y, t[1])
+            x += 1
+          when :kana
+            flush.call
+            put(x, y, [:kana, t[1]])
             x += 1
           else
             c = GB.half_code(t[1])
@@ -353,6 +368,7 @@ module TCG
               when :cgb   then tile_from(px, py, sheet("cgb_symbols", pal), c[1])
               when :other then tile_from(px, py, sheet("duel_other", pal), c[1])
               when :full  then tile_from(px, py, sheet("font_full", pal), c[1])
+              when :kana  then tile_from(px, py, sheet("font_kana", pal), c[1])
               when :hdr   then tile_from(px, py, sheet("card_headers", pal), c[1])
               when :hand  then tile_from(px, py, sheet("hand_cards", pal), c[1])   # HandCardsGfx
               end

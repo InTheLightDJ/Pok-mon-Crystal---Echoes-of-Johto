@@ -7545,3 +7545,11 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A bright torch that illuminates dark caves.
+#-------------------------------
+[FORMPRISM]
+Name = Form Prism
+NamePlural = Form Prisms
+Pocket = 1
+Price = 0
+FieldUse = OnPokemon
+Description = A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.

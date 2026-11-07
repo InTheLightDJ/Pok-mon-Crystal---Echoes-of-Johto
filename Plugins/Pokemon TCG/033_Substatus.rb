@@ -117,8 +117,8 @@ module TCG
         _INTL("Sand-Attack check! If Tails, the attack is unsuccessful.") :
         _INTL("Smokescreen check! If Tails, the attack is unsuccessful.")
       coin_check(txt, turn_duelist.substatus2 == SUBSTATUS2_SAND_ATTACK ?
-        "Sand-attack check!\nIf Tails, Attack is unsuccessful." :
-        "Smokescreen check!\nIf Tails, Attack is unsuccessful.")
+        _INTL("Sand-attack check!\nIf Tails, Attack is unsuccessful.") :
+        _INTL("Smokescreen check!\nIf Tails, Attack is unsuccessful."))
       @got_heads_sand_attack_check = (toss_coin == HEADS)
       return false if @got_heads_sand_attack_check
       @ui.message(_INTL("The attack was unsuccessful."))
@@ -158,7 +158,7 @@ module TCG
       return false if @atk.pokemon_power?
       return false if incapable_of_using_pkmn_power?(turn_duelist, e)
       coin_check(_INTL("Transparency check! If Heads, do not receive damage or effects."),
-                 "Transparency check! If Heads,\ndo not receive opponent's Attack!")
+                 _INTL("Transparency check! If Heads,\ndo not receive opponent's Attack!"))
       return false if toss_coin == TAILS
       set_no_damage_or_effect(NO_DAMAGE_OR_EFFECT_TRANSPARENCY)
     end

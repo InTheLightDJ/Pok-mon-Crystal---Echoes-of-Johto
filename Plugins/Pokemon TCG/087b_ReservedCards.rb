@@ -1,6 +1,7 @@
 #==============================================================================
 # Pokemon TCG - reserved cards: legendaries, special cards (Dark, Light,
-# Shining, Crystal Type cards, Shadow Lugia) and the Gen 3 cards (set ADV)
+# Shining, Crystal Type cards, Shadow Lugia), the Gen 3 cards (set ADV) and
+# the event cards (001e_EventCards.rb)
 # come only from the Card Slots machine (Plugins/Card Slots) and from trades,
 # not from booster packs or the Card Shop.
 #   Booster packs: a reserved card a pack would give is swapped for another
@@ -41,7 +42,7 @@ module TCG
     h[:sets].first.to_s == "ADV"
   end
 
-  def self.reserved_card?(id); special_card?(id) || legendary_card_id?(id) || adv_card?(id); end
+  def self.reserved_card?(id); special_card?(id) || legendary_card_id?(id) || adv_card?(id) || event_card?(id); end
 
   def self.reserved_cards
     @reserved_cards ||= CARD_ORDER.select { |id| reserved_card?(id) }

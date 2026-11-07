@@ -1332,7 +1332,7 @@ module TCG
   effect(:Neo3StaticElectricity_CheckEffect) { |du| du.deck_empty_text }
   effect(:Neo3StaticElectricityEffect) do |du|
     d = du.turn_duelist
-    slots = d.play_area.each_index.select { |e| d.play_area[e] }.select { |e| d.card(d.play_area[e]).name == "Mareep" && d.slot_hp[e] > 0 }
+    slots = d.play_area.each_index.select { |e| d.play_area[e] }.select { |e| d.card(d.play_area[e]).en_name == "Mareep" && d.slot_hp[e] > 0 }
     n = 0
     slots.each do |e|
       i = d.deck_list.find { |k| d.card_id(k) == :LIGHTNING_ENERGY } or break
@@ -1404,7 +1404,7 @@ module TCG
   end
   effect(:Neo3CallForFamilyEffect) do |du|
     d = du.turn_duelist
-    i = d.deck_list.find { |k| d.card(k).name == "Murkrow" && d.card(k).basic? }
+    i = d.deck_list.find { |k| d.card(k).en_name == "Murkrow" && d.card(k).basic? }
     if i && d.num_in_play_area < MAX_PLAY_AREA_POKEMON
       d.search_card_in_deck_and_add_to_hand(i)
       d.add_card_to_hand(i)
@@ -1416,14 +1416,14 @@ module TCG
   end
   effect(:Neo3FlockAttackEffect) do |du|
     d = du.turn_duelist
-    n = d.bench.count { |i| d.card(i).name == "Murkrow" }
+    n = d.bench.count { |i| d.card(i).en_name == "Murkrow" }
     next false if n == 0
     du.coin_check(_INTL("Damage check! +10 damage for each Heads."), "Damage check!\nIf Heads, +10 damage!!")
     du.atk.damage += 10 * du.toss_coins(n); false
   end
   effect(:Neo3FlockAttack_AIEffect) do |du|
     d = du.turn_duelist
-    n = d.bench.count { |i| d.card(i).name == "Murkrow" }
+    n = d.bench.count { |i| d.card(i).en_name == "Murkrow" }
     du.set_expected_ai_damage(10 + 5 * n, 10, 10 + 10 * n); false
   end
 
@@ -1462,12 +1462,12 @@ module TCG
   #----------------------------------------------------------------------------
   effect(:Neo3WaterOfEvolution_CheckEffect) do |du|
     d = du.turn_duelist
-    d.hand.any? { |i| d.card(i).name == "Omastar" && d.card(i).preevo == "Omanyte" } ? false : _INTL("There is no Omastar in your hand.")
+    d.hand.any? { |i| d.card(i).en_name == "Omastar" && d.card(i).en_preevo == "Omanyte" } ? false : _INTL("There is no Omastar in your hand.")
   end
   effect(:Neo3WaterOfEvolutionEffect) do |du|
     d = du.turn_duelist
     next false if d.slot_hp[PLAY_AREA_ARENA] == 0
-    list = d.hand.select { |i| d.card(i).name == "Omastar" && d.card(i).preevo == "Omanyte" }
+    list = d.hand.select { |i| d.card(i).en_name == "Omastar" && d.card(i).en_preevo == "Omanyte" }
     next false if list.empty?
     i = du.neo_human_choice? ? du.effect_choice(:card, :NeoWaterOfEvolution, list, false) : nil
     i = list.first unless list.include?(i)
@@ -1693,7 +1693,7 @@ module TCG
   end
   effect(:Neo3DragonBondEffect) do |du|
     d = du.turn_duelist
-    list = d.deck_list.select { |i| ["Gyarados", "Dark Gyarados", "Shining Gyarados"].include?(d.card(i).name) }
+    list = d.deck_list.select { |i| ["Gyarados", "Dark Gyarados", "Shining Gyarados"].include?(d.card(i).en_name) }
     unless list.empty?
       i = du.neo_human_choice? ? du.effect_choice(:card, :NeoDragonBond, list, true) : list.first
       if i

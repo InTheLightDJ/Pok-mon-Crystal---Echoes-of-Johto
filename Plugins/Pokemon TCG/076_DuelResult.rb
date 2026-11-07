@@ -11,14 +11,14 @@ module TCG
     # .PrintDuelistResultStats at d,e: player 8,8, opponent 1,1
     def duel_result_stats(map, duel)
       [[duel.duelists[0], 8, 8], [duel.duelists[1], 1, 1]].each do |du, x, y|
-        map.text(x, y, "Prizes Left")
-        map.text(x, y + 1, "Active Pokémon")
-        map.text(x, y + 2, "Cards in Deck")
+        map.text(x, y, _INTL("Prizes Left"))
+        map.text(x, y + 1, _INTL("Active Pokémon"))
+        map.text(x, y + 2, _INTL("Cards in Deck"))
         two_digits(map, x + 7, y, du.count_prizes)
-        map.text(x + 9, y, "Cards")
-        map.text(x + 8, y + 1, du.num_in_play_area > 0 ? "Yes" : "None")
+        map.text(x + 9, y, _INTL("Cards"))
+        map.text(x + 8, y + 1, du.num_in_play_area > 0 ? _INTL("Yes") : _INTL("None"))
         two_digits(map, x + 7, y + 2, du.cards_in_deck)
-        map.text(x + 9, y + 2, "Cards")
+        map.text(x + 9, y + 2, _INTL("Cards"))
       end
     end
 
@@ -66,9 +66,9 @@ module TCG
       Screens.duelist_portraits(@map, @duel, @portrait)
       Screens.duel_result_stats(@map, @duel)
       text = case kind
-             when :win  then "You won the Duel with #{opp}!"
-             when :loss then "You lost the Duel\nwith #{opp}..."
-             else "The Duel with #{opp}\nwas a Draw!"
+             when :win  then _INTL("You won the Duel with {1}!", opp)
+             when :loss then _INTL("You lost the Duel\nwith {1}...", opp)
+             else _INTL("The Duel with {1}\nwas a Draw!", opp)
              end
       Screens.text_box_lines(@map, GB.wrap(text))
       TCG.play_bgm(kind == :win ? WIN_BGM : LOSS_BGM) unless kind == :draw
@@ -87,7 +87,7 @@ module TCG
         break if f > RESULT_MIN_FRAMES && (Input.trigger?(Input::USE) || Input.trigger?(Input::BACK))
       end
       @map.objs.clear
-      message("Start a Sudden-Death\nMatch for 1 Prize!", keep: true) if kind == :draw
+      message(_INTL("Start a Sudden-Death\nMatch for 1 Prize!"), keep: true) if kind == :draw
     end
 
     alias_method :tcg_result_event, :event
@@ -98,7 +98,7 @@ module TCG
         @map.wide_text_box
         render
         show_banner(:decision)
-        message("Decision...", keep: true)
+        message(_INTL("Decision..."), keep: true)
         hide_banner
       when :duel_result then duel_result_screen(args[0])
       else tcg_result_event(type, *args)

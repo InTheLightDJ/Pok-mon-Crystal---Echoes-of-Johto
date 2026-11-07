@@ -170,7 +170,7 @@ module TCG
     def neo4_evolutions_in_deck(d)
       (0...d.num_in_play_area).each_with_object({}) do |e, h|
         next if d.slot_hp[e] == 0
-        name = d.card(d.play_area[e]).name
+        name = d.card(d.play_area[e]).evo_name
         list = d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).preevo == name }
         h[e] = list unless list.empty?
       end
@@ -245,7 +245,7 @@ module TCG
       @ui.message(_INTL("Eevee's Pokémon Power: Energy Evolution"))
       coin_check(_INTL("Energy Evolution! If Heads, Eevee evolves from your deck."), "If Heads, Eevee evolves into\nthat Energy's type!")
       return unless toss_coin == HEADS
-      list = d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).preevo == "Eevee" && d.card(i).color == color }
+      list = d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).en_preevo == "Eevee" && d.card(i).color == color }
       if list.empty?
         @ui.message(_INTL("There is no card of that type that evolves from Eevee in the deck."))
       else
@@ -703,7 +703,7 @@ module TCG
   end
 
   def self.neo4_fossil_cards(d)
-    (d.hand + d.deck_list).select { |i| d.card(i).pokemon? && d.card(i).preevo == NEO4_FOSSIL }
+    (d.hand + d.deck_list).select { |i| d.card(i).pokemon? && d.card(i).en_preevo == NEO4_FOSSIL }
   end
   effect(:Neo4FossilEgg_CheckEffect) do |du|
     d = du.turn_duelist
@@ -738,7 +738,7 @@ module TCG
     false
   end
 
-  def self.neo4_unown(d); d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).basic? && d.card(i).name.start_with?("Unown") }; end
+  def self.neo4_unown(d); d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).basic? && d.card(i).en_name.start_with?("Unown") }; end
   effect(:Neo4RuinWall_CheckEffect) do |du|
     next du.no_bench_space_text if du.no_bench_space_text
     TCG.neo4_unown(du.turn_duelist).empty? ? _INTL("There is no Unown in the deck.") : false

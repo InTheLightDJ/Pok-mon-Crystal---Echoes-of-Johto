@@ -69,7 +69,7 @@ module TCG
     # the "checked the cards" line: a Special Pack says so first
     alias special_message message unless method_defined?(:special_message)
     def message(text, keep: false)
-      if @special_pack && text.to_s.include?("checked the cards")
+      if @special_pack && @checking_cards
         @special_pack = false
         pbMEPlay("Slots big win") rescue nil
         special_message(_INTL("WOW! It's a SPECIAL PACK!!\nEvery card is a holo!"), keep: keep)

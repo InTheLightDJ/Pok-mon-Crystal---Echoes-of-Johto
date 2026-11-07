@@ -2636,3 +2636,45 @@ Gender = Male
 BaseMoney = 60
 BattleBGM = sactuaray
 VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_306]
+Name = CALLIE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_307]
+Name = COYOTE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_308]
+Name = KILLUA
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_309]
+Name = KRIS
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_310]
+Name = MARIE
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_311]
+Name = ROCK VOLNUTT
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare

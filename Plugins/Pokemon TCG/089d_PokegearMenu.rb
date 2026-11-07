@@ -46,7 +46,7 @@ module TCG
       DECK_ROW_Y.each_with_index do |y, i|
         map.sym(4, y + 2, SYM_0 + i + 1)
         map.sym(5, y + 2, SYM_DOT)
-        map.text(6, y + 2, decks[i] ? "#{decks[i][:name]} deck" : "New deck")
+        map.text(6, y + 2, decks[i] ? _INTL("{1} deck", decks[i][:name]) : _INTL("New deck"))
       end
       if active && decks[active]
         4.times { |t| map.put(2 + t % 2, active * 3 + 1 + t / 2, [:hand, t]) }
@@ -92,7 +92,7 @@ module TCG
       decks = TCG.saved_decks
       cur = $PokemonGlobal&.tcg_active_deck || 0
       loop do
-        decks_text("Please select deck.")
+        decks_text(_INTL("Please select deck."))
         key = blink_wait(1, 2 + 3 * cur, SYM_CURSOR_R, SYM_SPACE,
                          [Input::USE, Input::BACK, Input::UP, Input::DOWN]) do
           Input.trigger?(Input::ACTION) ? :start : nil
@@ -110,7 +110,7 @@ module TCG
                                        :dueling => cur == $PokemonGlobal&.tcg_active_deck })
           else
             pbPlayCancelSE
-            decks_message("There is no Deck here!")
+            decks_message(_INTL("There is no Deck here!"))
           end
         when Input::USE
           pbPlayDecisionSE
@@ -136,15 +136,15 @@ module TCG
       when 1   # Select deck
         if decks[cur]
           TCG.set_active_deck(cur)
-          decks_message("#{decks[cur][:name]} deck was\nchosen as the dueling deck!")
+          decks_message(_INTL("{1} deck was\nchosen as the dueling deck!", decks[cur][:name]))
         else
-          decks_message("There is no Deck here!")
+          decks_message(_INTL("There is no Deck here!"))
         end
       when 2   # Change name
         if decks[cur]
           deck_change_name(cur)
         else
-          decks_message("There is no Deck here!")
+          decks_message(_INTL("There is no Deck here!"))
         end
       end
     end

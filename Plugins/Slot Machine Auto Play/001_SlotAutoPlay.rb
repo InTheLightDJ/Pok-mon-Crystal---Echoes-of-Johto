@@ -38,15 +38,18 @@ module SlotAutoPlay
   end
 end
 
+# Input's methods are the engine's own: a soft reset (F12) runs the scripts
+# again but doesn't restore them, so alias them only once (an alias of the
+# already-patched method would call itself: "stack level too deep").
 module Input
   class << self
-    alias _slot_auto_update update
+    alias _slot_auto_update update unless method_defined?(:_slot_auto_update)
     def update
       SlotAutoPlay.press = nil
       _slot_auto_update
     end
 
-    alias _slot_auto_trigger? trigger?
+    alias _slot_auto_trigger? trigger? unless method_defined?(:_slot_auto_trigger?)
     def trigger?(button)
       return true if SlotAutoPlay.press && button == SlotAutoPlay.press
       return true if SlotAutoPlay.advance?(button)
@@ -56,7 +59,7 @@ module Input
 end
 
 class SlotMachineScene
-  alias _slot_auto_scene_update update
+  alias _slot_auto_scene_update update unless method_defined?(:_slot_auto_scene_update)
   def update
     _slot_auto_scene_update
     slot_auto_play

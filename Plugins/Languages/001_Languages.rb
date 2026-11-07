@@ -7,6 +7,12 @@
 # doesn't ask again. Translations are the Essentials files
 # Data/messages_<folder>_core.dat / _game.dat (made from the
 # Text_<folder>_core / Text_<folder>_game folders).
+#
+# Fonts: the "Gen II JP" fonts (Fonts/gen II*jp.ttf) are the Gen II fonts
+# with Misaki Gothic's 8x8 kana added (Translation/tools/ja/make_font_ja.py;
+# Misaki: Fonts/misaki_license.txt). Their Latin letters are Gen II's own,
+# so every language uses them (the Japanese name in the picker needs kana);
+# without them the plain Gen II fonts are used.
 #==============================================================================
 module Settings
   remove_const(:LANGUAGES) if const_defined?(:LANGUAGES)
@@ -17,7 +23,8 @@ module Settings
     ["Deutsch",   "german"],
     ["Français",  "french"],
     ["Português", "portuguese"],
-    ["Italiano",  "italian"]
+    ["Italiano",  "italian"],
+    ["にほんご",  "japanese"]
   ]
 end
 
@@ -61,7 +68,7 @@ module Languages
     bg.bitmap = Bitmap.new(Graphics.width, Graphics.height)
     bg.bitmap.fill_rect(0, 0, Graphics.width, Graphics.height, Color.new(0, 0, 0))
     title = Window_UnformattedTextPokemon.newWithSize(
-      "Language / Idioma / Sprache\nLangue / Lingua", 0, 0, Graphics.width, 64, viewport
+      "Language / Idioma / Sprache\nLangue / Lingua / げんご", 0, 0, Graphics.width, 64, viewport
     )
     title.resizeToFit(title.text, Graphics.width)
     title.x = (Graphics.width - title.width) / 2
@@ -89,6 +96,23 @@ module Languages
     bg&.bitmap&.dispose
     bg&.dispose
     viewport&.dispose
+  end
+end
+
+# the Gen II JP fonts (same letters + kana) when they're there
+module MessageConfig
+  JP_FONTS = { "Gen II" => "Gen II JP", "Gen II Small" => "Gen II Small JP",
+               "Gen II Narrow" => "Gen II Narrow JP", "Gen II Bold" => "Gen II Bold JP" }
+
+  class << self
+    %i[pbDefaultSystemFontName pbDefaultSmallFontName pbDefaultNarrowFontName pbDefaultBoldFontName].each do |m|
+      alias_method :"languages_#{m}", m unless method_defined?(:"languages_#{m}")
+      define_method(m) do
+        name = send(:"languages_#{m}")
+        jp = JP_FONTS[name]
+        jp && Font.exist?(jp) ? jp : name
+      end
+    end
   end
 end
 

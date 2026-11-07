@@ -83,7 +83,7 @@ module TCG
         packs += 1
       elsif CARDS[r]
         add_card(r)
-        pbMessage(_INTL("You got the card {1}!", card_name(r)))
+        pbMessage(_INTL("You got the card {1}!", card(r).name))
       else
         raise ArgumentError, "Unknown TCG reward #{r.inspect}"
       end
@@ -216,7 +216,7 @@ def pbTCGHasDeck?;                    !TCG.active_deck_cards.nil?;        end
 
 def pbTCGGiveCard(card, count = 1, show: true)
   TCG.add_card(card, count)
-  pbMessage(_INTL("You got {1} x{2}!", TCG.card_name(card.to_sym), count)) if show
+  pbMessage(_INTL("You got {1} x{2}!", TCG.card(card.to_sym).name, count)) if show
 end
 
 # gives a premade deck (cards + saved deck if a slot is free)

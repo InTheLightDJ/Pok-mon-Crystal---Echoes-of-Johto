@@ -31,7 +31,7 @@ module TCG
 
     def say(reason)
       t = REASON_TEXT[reason]
-      @scene.message(_INTL(t)) if t && !t.empty?
+      @scene.message(_INTL(REASON_TEXT[reason])) if t && !t.empty?
     end
 
     def name_of(d, i)
@@ -197,9 +197,9 @@ Bench Pokémon."), true)
         return @scene.yes_no_menu(_INTL(YES_NO_PROMPTS[purpose] || "Is that OK?"))
       end
       # Prophecy / Devolution Beam: TwoItemHorizontalMenu, side 0 = yours, 1 = opponent's
-      text = purpose == :ProphecyDeck ? "Please select the Deck:" : "Please select the Play Area:"
+      text = purpose == :ProphecyDeck ? _INTL("Please select the Deck:") : _INTL("Please select the Play Area:")
       loop do
-        r = @scene.two_item_menu(_INTL(text) + "\n            Yours   Opponent's")
+        r = @scene.two_item_menu(text, [_INTL("Yours"), _INTL("Opponent's")])
         return nil if r.nil? && cancellable
         return r if r && options.include?(r)
       end

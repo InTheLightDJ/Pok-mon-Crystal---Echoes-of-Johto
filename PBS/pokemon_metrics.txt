@@ -6431,3 +6431,9 @@ BackSprite = 0,-8
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[SHADOWLUGIA]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0

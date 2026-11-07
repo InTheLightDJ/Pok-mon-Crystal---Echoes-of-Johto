@@ -503,7 +503,7 @@ module TCG
     nd = du.non_turn_duelist
     slots = du.neo_alive_bench(nd)
     n = [du.adv_param, slots.size].min
-    dmg = du.atk.attack.name == "Dark Mind" ? 20 : 10
+    dmg = du.atk.attack.en_name == "Dark Mind" ? 20 : 10
     picked = []
     n.times do
       left = slots - picked
@@ -998,13 +998,13 @@ module TCG
   # Ascension: the card that evolves from this one, from the deck, on it
   effect(:AdvAscension_CheckEffect) do |du|
     d = du.turn_duelist
-    name = d.card(d.arena).name
+    name = d.card(d.arena).evo_name
     d.deck_list.any? { |i| d.card(i).pokemon? && d.card(i).preevo == name } ? false : _INTL("There is no card that evolves from it in the deck.")
   end
   effect(:AdvAscensionEffect) do |du|
     d = du.turn_duelist
     next false if d.slot_hp[PLAY_AREA_ARENA] == 0
-    name = d.card(d.arena).name
+    name = d.card(d.arena).evo_name
     list = d.deck_list.select { |i| d.card(i).pokemon? && d.card(i).preevo == name }
     next false if list.empty?
     i = du.neo_human_choice? ? du.effect_choice(:card, :AdvAscension, list, false) : nil
@@ -1037,7 +1037,7 @@ module TCG
   # Signs of Evolution: Silcoon and Beautifly, or Cascoon and Dustox
   effect(:AdvSignsOfEvolutionEffect) do |du|
     d = du.turn_duelist
-    pairs = ADV_SIGNS.map { |names| names.map { |n| d.deck_list.find { |i| d.card(i).name == n } } }
+    pairs = ADV_SIGNS.map { |names| names.map { |n| d.deck_list.find { |i| d.card(i).en_name == n } } }
     usable = pairs.each_index.select { |k| pairs[k].any? }
     if usable.empty?
       du.ui.message(_INTL("There are no such cards in the deck."))

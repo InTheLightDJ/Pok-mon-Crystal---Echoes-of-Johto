@@ -14,15 +14,15 @@ module TCG
       name = name_and_level(card)
       if dmg > 0
         if (eff & WEAKNESS) != 0
-          "#{name} received\n#{dmg} damage due to Weakness!"
+          _INTL("{1} received\n{2} damage due to Weakness!", name, dmg)
         elsif (eff & RESISTANCE) != 0
-          "#{name} received\n#{dmg} damage due to Resistance!"
+          _INTL("{1} received\n{2} damage due to Resistance!", name, dmg)
         else
-          "#{name} took\n#{dmg} damage."
+          _INTL("{1} took\n{2} damage.", name, dmg)
         end
       else
         return nil if no_damage_or_effect   # CheckNoDamageOrEffect prints its own text
-        (eff & RESISTANCE) != 0 ? "#{name} did not\nreceive damage due to Resistance." : "#{name} did not\nreceive damage!"
+        (eff & RESISTANCE) != 0 ? _INTL("{1} did not\nreceive damage due to Resistance.", name) : _INTL("{1} did not\nreceive damage!", name)
       end
     end
   end

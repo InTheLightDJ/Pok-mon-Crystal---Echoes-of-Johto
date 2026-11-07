@@ -144,7 +144,7 @@ module TCG
 
     def duel_menu(map)
       map.wide_text_box
-      DUEL_MENU_ITEMS.each { |x, y, t| map.text(x, y, t) }
+      DUEL_MENU_ITEMS.each_index { |i| map.text(DUEL_MENU_ITEMS[i][0], DUEL_MENU_ITEMS[i][1], _INTL(DUEL_MENU_ITEMS[i][2])) }
     end
 
     # PrintAttackOrPkmnPowerInformation at row y (menu: show the ATK_DESCR icon)
@@ -153,7 +153,7 @@ module TCG
       map.sym(18, y, SYM_ATK_DESCR) if menu && atk.desc && !atk.desc.empty?
       map.number(15, y + 1, atk.damage) if atk.damage > 0
       if atk.pokemon_power?
-        map.text(2, y, "PKMN PWR")
+        map.text(2, y, _INTL("PKMN PWR"))
         return
       end
       case atk.base_category
@@ -228,7 +228,7 @@ module TCG
           map.sym(7 + i, y + 2, hp > c.hp ? SYM_SPACE : (hp > du.slot_hp[e] ? SYM_HP_NOK : SYM_HP_OK))
         end
       else
-        map.text(7, y + 2, "Knock Out")
+        map.text(7, y + 2, _INTL("Knock Out"))
       end
     end
 
@@ -378,7 +378,7 @@ module TCG
           map.sym(15, 16, SYM_NO)
           map.text(1, 3, card.preevo.to_s) if card.stage.to_i > 0
         end
-        map.text(1, 14, "Retreat Cost"); map.text(1, 15, "Weakness"); map.text(1, 16, "Resistance")
+        map.text(1, 14, _INTL("Retreat Cost")); map.text(1, 15, _INTL("Weakness")); map.text(1, 16, _INTL("Resistance"))
         map.number(16, 16, card.dex.to_i)
         # a power + 2 attacks (custom cards): the power takes 1 row
         rows = card.page_attacks.size == 3 ? [10, 11, 13] : [10, 12]
@@ -402,8 +402,8 @@ module TCG
       when :description
         card_page_generic(map, card, color)
         lv_hp(map, card)
-        map.text(1, 10, "#{card.raw[:category]} Pokémon")
-        map.text(1, 11, "Length"); map.text(1, 12, "Weight")
+        map.text(1, 10, _INTL("{1} Pokémon", CardText.tr(:TEXT, card.raw[:category].to_s)))
+        map.text(1, 11, _INTL("Length")); map.text(1, 12, _INTL("Weight"))
         ft, inch = card.raw[:length] || [0, 0]
         x = 5
         ft.to_s.each_char { |ch| map.sym(x, 11, SYM_0 + ch.to_i); x += 1 }
@@ -415,7 +415,7 @@ module TCG
         ((w / 10).to_s + (w % 10 > 0 ? ".#{w % 10}" : "")).each_char do |ch|
           map.sym(x, 12, ch == "." ? SYM_DOT : SYM_0 + ch.to_i); x += 1
         end
-        map.text(x, 12, "lbs.")
+        map.text(x, 12, _INTL("lbs."))
         lines = GB.wrap(card.desc.to_s, 36)
         y = lines.size >= 4 ? 13 : 14
         lines.first(5).each_with_index { |l, n| map.text(1, y + n, l) }
@@ -515,7 +515,7 @@ module TCG
       # ORIGINAL BUG: (6 - name tiles) / 2 + 4 is unsigned, so a name over 6
       # tiles wraps the title off screen; clamped here so it stays visible
       x = (6 - text_tiles(du.name)) / 2 + 4
-      map.text(x.clamp(0, 19), 0, "#{du.name}'s Play Area")
+      map.text(x.clamp(0, 19), 0, _INTL("{1}'s Play Area", du.name))
       draw_prizes(map, duel, du, own ? PRIZE_COORDS_OWN : PRIZE_COORDS_OPP, own)
       map.picture(6, own ? 2 : 5, du.card(du.arena).gfx) if du.arena
       bx, by, step = own ? [1, 9, 4] : [17, 2, -4]
@@ -529,7 +529,7 @@ module TCG
         bx += step
       end
       (hx, hy), (dx, dy), (px, py) = own ? ICON_COORDS_OWN : ICON_COORDS_OPP
-      map.text(hx, hy, "Hand")
+      map.text(hx, hy, _INTL("Hand"))
       cross_number(map, hx + 2, hy, du.hand.size)
       cgb_rect(map, dx, dy, ICON_DECK, 2)
       cross_number(map, dx + 2, dy + 1, du.cards_in_deck)
@@ -582,7 +582,7 @@ module TCG
       end
       [[pl, ICON_COORDS_IN_PLAY_AREA_OWN], [op, ICON_COORDS_IN_PLAY_AREA_OPP]].each do |du, ic|
         (hx, hy), (dx, dy), (px, py) = ic
-        map.text(hx, hy, "Hand")
+        map.text(hx, hy, _INTL("Hand"))
         cross_number(map, hx + 2, hy, du.hand.size)
         cgb_rect(map, dx, dy, ICON_DECK, 2)
         cross_number(map, dx + 2, dy + 1, du.cards_in_deck)
@@ -608,7 +608,7 @@ module TCG
         card_text(map, 1, 17, du.card(idx)) if idx
       else
         du = pos <= IPA_PLAYER_DISCARD ? pl : op
-        map.text(1, 17, [IPA_PLAYER_HAND, IPA_OPP_HAND].include?(pos) ? "#{du.name}'s Hand" : "#{du.name}'s Discard Pile")
+        map.text(1, 17, [IPA_PLAYER_HAND, IPA_OPP_HAND].include?(pos) ? _INTL("{1}'s Hand", du.name) : _INTL("{1}'s Discard Pile", du.name))
       end
     end
 
@@ -625,8 +625,8 @@ module TCG
       map.picture(9, 2, c.gfx)
       card_text(map, 7, 0, c)
       COLOR_ICONS.each_with_index { |(t, pal), i| cgb_rect(map, 2, i * 2, t, pal) }
-      COLOR_NAMES_TEXT.each_with_index { |n, i| map.text(4, 1 + i * 2, n) }
-      map.text(10, 9, "Type"); map.text(10, 10, "Weakness"); map.text(10, 11, "Resistance")
+      COLOR_NAMES_TEXT.each_index { |i| map.text(4, 1 + i * 2, _INTL(COLOR_NAMES_TEXT[i])) }
+      map.text(10, 9, _INTL("Type")); map.text(10, 10, _INTL("Weakness")); map.text(10, 11, _INTL("Resistance"))
       map.sym(15, 9, COLOR_SYMBOLS[duel.play_area_card_color(du, slot)])
       weak = slot == 0 ? duel.arena_card_weakness(du) : c.weakness
       res  = slot == 0 ? duel.arena_card_resistance(du) : c.resistance
@@ -671,20 +671,28 @@ module TCG
     # OpenGlossaryScreen.display_menu / .print_menu
     def glossary_menu(map, page)
       map.clear
-      map.text(5, 0, "Pokémon Card Glossary")
+      map.text(5, 0, _INTL("Pokémon Card Glossary"))
       map.sym(16, 1, SYM_0 + 1 + page); map.sym(17, 1, SYM_SLASH); map.sym(18, 1, SYM_0 + 2)
-      TCG::GLOSSARY_MENU[page].each_with_index { |l, n| map.text(1, 3 + n * 2, l) }
+      # two columns of words (at 1 and 11), each in the player's language (011c)
+      TCG::GLOSSARY_MENU[page].each_with_index do |l, n|
+        l.strip.split(/\s{2,}/).each_with_index { |w, c| map.text(1 + c * 10, 3 + n * 2, CardText.tr(:GLOSSARY, w)) }
+      end
       map.wide_text_box
-      map.text(1, 14, "Choose a word and press the\nA button.", line_step: 2)
+      map.text(1, 14, _INTL("Choose a word and press the\nA button."), line_step: 2)
     end
 
-    # OpenGlossaryScreen.print_description
+    # OpenGlossaryScreen.print_description; translated (011c): the title
+    # centred, the page as one paragraph, wrapped
     def glossary_entry(map, page, item)
       x, title, lines = TCG::GLOSSARY[page * 9 + item]
       map.clear
-      map.text(5, 0, "Pokémon Card Glossary")
+      map.text(5, 0, _INTL("Pokémon Card Glossary"))
       map.box(0, 4, 20, 14)
-      map.text(x, 2, title)
+      t = CardText.tr(:GLOSSARY, title)
+      map.text(t == title ? x : [(20 - text_tiles(t)) / 2, 0].max, 2, t)
+      body = TCG.glossary_text(lines)
+      text = CardText.tr(:GLOSSARY, body)
+      lines = GB.wrap(text, 36).first(12) unless text == body
       lines.each_with_index { |l, n| map.text(1, 5 + n, l) }
     end
 
@@ -746,7 +754,7 @@ module TCG
           bx += step
         end
         (hx, hy), (dx, dy), (px, py) = icons
-        map.text(hx, hy, "Hand")
+        map.text(hx, hy, _INTL("Hand"))
         cross_number(map, hx + 2, hy, du.hand.size)
         cgb_rect(map, dx, dy, ICON_DECK, 2)
         cross_number(map, dx + 2, dy + 1, decks[w])
@@ -765,7 +773,7 @@ module TCG
         card_symbol(map, 2, 2 + n * 2, c)
         card_text(map, 4, 3 + n * 2, c, padded_name(c, 14))
       end
-      map.text(1, 1, "#{du.name}'s Hand")
+      map.text(1, 1, _INTL("{1}'s Hand", du.name))
     end
 
     def play_area_arrows(map, index, tile)
@@ -780,9 +788,10 @@ module TCG
     OPP_PLAY_AREA_MENU  = [[2, 14, "Opponent's Pokémon"], [12, 14, "Opponent Hand"],
                            [2, 16, "Opponent's Discard Pile"]]
 
+    # _INTL: CHECK_MENU YOUR_PLAY_AREA_MENU OPP_PLAY_AREA_MENU DECK_SUB_MENU
     def check_menu_items(map, items)
       map.wide_text_box
-      items.each { |it| map.text(it[0], it[1], it[2]) if it }
+      items.each { |it| map.text(it[0], it[1], _INTL(it[2])) if it }
     end
 
     # DrawWideTextBox_PrintText: text at 1,14, lines 2 tiles apart
@@ -902,23 +911,23 @@ module TCG
         # while the player's Omanyte has Clairvoyance
         du = @duel.duelists.find { |x| x.name == args[0] }
         if du && args[2] == :turn && (du.player? || @duel.clairvoyance_active?(@duel.duelists[0]))
-          card_detail(du.display_id(args[1]), du.player? ? "You drew <RAMTEXT>." : "#{du.name} drew <RAMTEXT>.")
+          card_detail(du.display_id(args[1]), du.player? ? _INTL("You drew <RAMTEXT>.") : _INTL("{1} drew <RAMTEXT>.", du.name))
         end
       when :play_pokemon
         # OppAction_PlayBasicPokemonCard (large picture) / PlayPokemonCard (text box)
         du = @duel.duelists.find { |x| x.name == args[0] }
         return unless du
         if du.player?
-          message("Placed #{Screens.name_and_level(du.card(args[1]))}\non the Bench.")
+          message(_INTL("Placed {1}\non the Bench.", Screens.name_and_level(du.card(args[1]))))
         else
-          card_detail(du.display_id(args[1]), "Placed <RAMTEXT>\non the Bench.")
+          card_detail(du.display_id(args[1]), _INTL("Placed <RAMTEXT>\non the Bench."))
         end
       when :attach_energy
         # PrintAttachedEnergyToPokemon: over the play area list (player) or
         # the large picture of the energy (OppAction_PlayEnergyCard)
         du = @duel.duelists.find { |x| x.name == args[0] }
         return unless du
-        text = "Attached #{du.card(args[1]).name}\nto #{du.card(du.play_area[args[2]]).name}."
+        text = _INTL("Attached {1}\nto {2}.", du.card(args[1]).name, du.card(du.play_area[args[2]]).name)
         if du.player?
           Screens.play_area_card_list(@map, @duel, du)
           message(text, keep: true)
@@ -930,7 +939,7 @@ module TCG
         du = @duel.duelists.find { |x| x.name == args[0] }
         return unless du
         c = du.card(args[1])
-        text = "#{c.preevo} evolved\ninto #{c.name}."
+        text = _INTL("{1} evolved\ninto {2}.", c.preevo, c.name)
         if du.player?
           Screens.play_area_card_list(@map, @duel, du)
           message(text, keep: true)
@@ -971,7 +980,7 @@ module TCG
         # Lass shows the opponent's hand
         du = @duel.duelists.find { |x| x.name == args[0] }
         if du && !du.player? && !du.hand.empty?
-          card_list_screen(du, du.hand.dup, "#{du.name}'s Hand", "Choose the card\nyou wish to examine.", menu: :view)
+          card_list_screen(du, du.hand.dup, _INTL("{1}'s Hand", du.name), _INTL("Choose the card\nyou wish to examine."), menu: :view)
         end
       end
     end
@@ -1008,9 +1017,9 @@ module TCG
       drawers = du ? [du] : @duel.duelists
       Screens.duelist_portraits(@map, @duel, @portrait)
       practice = !du && @duel.is_practice
-      text = if du then "#{du.name} shuffles the Deck."
-             elsif practice then "Since this is just practice,\nDo not shuffle the Deck."
-             else "Each player will\nshuffle the opponent's Deck."
+      text = if du then _INTL("{1} shuffles the Deck.", du.name)
+             elsif practice then _INTL("Since this is just practice,\nDo not shuffle the Deck.")
+             else _INTL("Each player will\nshuffle the opponent's Deck.")
              end
       Screens.text_box_lines(@map, GB.wrap(text))
       render
@@ -1021,7 +1030,7 @@ module TCG
       end
       Screens.deck_and_hand_icons(@map)
       draw_counts(drawers, 0, STARTING_HAND_SIZE)
-      Screens.text_box_lines(@map, GB.wrap(du ? "#{du.name}\ndrew 7 cards." : "Each player will draw 7 cards."))
+      Screens.text_box_lines(@map, GB.wrap(du ? _INTL("{1}\ndrew 7 cards.", du.name) : _INTL("Each player will draw 7 cards.")))
       render
       STARTING_HAND_SIZE.times do |k|
         play_card_anim(du ? (du.player? ? :DUEL_ANIM_PLAYER_DRAW : :DUEL_ANIM_OPP_DRAW) : :DUEL_ANIM_BOTH_DRAW)
@@ -1035,27 +1044,27 @@ module TCG
     def no_basic_screen(name)
       if name
         du = @duel.duelists.find { |x| x.name == name }
-        message("There are no Basic Pokémon\nin #{du.name}'s hand.", keep: true)
+        message(_INTL("There are no Basic Pokémon\nin {1}'s hand.", du.name), keep: true)
         Screens.no_basic_hand(@map, du)
         render
         wait_text_box_input
       else
-        message("Neither player has any Basic\nPokémon in his or her hand.", keep: true)
+        message(_INTL("Neither player has any Basic\nPokémon in his or her hand."), keep: true)
         @duel.duelists.each do |x|
           Screens.no_basic_hand(@map, x)
           render
           wait_text_box_input
         end
       end
-      message("Return the cards to the Deck\nand draw again.", keep: true)
+      message(_INTL("Return the cards to the Deck\nand draw again."), keep: true)
     end
 
     # HandleDuelSetup: DrawPlayAreaToPlacePrizeCards + .PlacePrizes
     def place_prizes_screen(n)
       decks = @duel.duelists.map { |x| x.cards_in_deck + n }
       Screens.placing_prizes(@map, @duel, decks)
-      message("Placing the Prizes...", keep: true)
-      Screens.text_box_lines(@map, GB.wrap("Please place\n#{n} Prizes."))
+      message(_INTL("Placing the Prizes..."), keep: true)
+      Screens.text_box_lines(@map, GB.wrap(_INTL("Please place\n{1} Prizes.", n)))
       render
       n.times do |i|
         anim_delay(20)
@@ -1080,10 +1089,10 @@ module TCG
       Screens.deck_and_hand_icons(@map)
       draw_counts([du], 0, 0)
       if n == 0
-        message("Cannot draw a card because\nthere are no cards in the Deck.", keep: true)
+        message(_INTL("Cannot draw a card because\nthere are no cards in the Deck."), keep: true)
         return
       end
-      Screens.text_box_lines(@map, GB.wrap("Draw #{n} card(s) from the Deck."))
+      Screens.text_box_lines(@map, GB.wrap(_INTL("Draw {1} card(s) from the Deck.", n)))
       render
       n.times do |k|
         play_card_anim(du.player? ? :DUEL_ANIM_PLAYER_DRAW : :DUEL_ANIM_OPP_DRAW)
@@ -1182,7 +1191,8 @@ module TCG
       item = 0
       loop do
         Screens.duel_main_scene(@map, duel)
-        Screens.text_box_lines(@map, GB.wrap("Selecting Bench Pokémon...\n    Hand        Examine     Back"))
+        Screens.text_box_lines(@map, [_INTL("Selecting Bench Pokémon..."), ""])
+        [_INTL("Hand"), _INTL("Examine"), _INTL("Back")].each_with_index { |t, i| @map.text(3 + i * 6, 16, t) }
         loop do
           x = item * 6 + 2
           key = blink_wait(x, 16, SYM_CURSOR_R, SYM_SPACE,
@@ -1200,7 +1210,7 @@ module TCG
           when Input::USE
             case item
             when 0
-              card_list_screen(du, du.hand.dup, "#{du.name}'s Hand", "", menu: :view) unless du.hand.empty?
+              card_list_screen(du, du.hand.dup, _INTL("{1}'s Hand", du.name), "", menu: :view) unless du.hand.empty?
             when 1 then check_menu(duel)
             else return
             end
@@ -1356,15 +1366,15 @@ module TCG
           end
         end
         return if pos.nil?
-        examine = "Choose the card\nyou wish to examine."
+        examine = _INTL("Choose the card\nyou wish to examine.")
         case pos
         when 0 then play_area_screen(duel, du, view_only: true)
-        when 1 then card_list_screen(du, du.hand.dup, "#{du.name}'s Hand", examine, menu: :view)
+        when 1 then card_list_screen(du, du.hand.dup, _INTL("{1}'s Hand", du.name), examine, menu: :view)
         when 2
           if du.discard_pile.empty?
             message(_INTL("The Discard Pile has no cards."))
           else
-            card_list_screen(du, du.discard_pile.dup, own ? "Your Discard Pile" : "Opponent's Discard Pile",
+            card_list_screen(du, du.discard_pile.dup, own ? _INTL("Your Discard Pile") : _INTL("Opponent's Discard Pile"),
                              examine, menu: :view)
           end
         end
@@ -1378,7 +1388,7 @@ module TCG
       pos = start
       Screens.your_or_opp_play_area(@map, duel, du, true)
       @map.wide_text_box
-      @map.text(1, 14, "Please choose a Prize.")
+      @map.text(1, 14, _INTL("Please choose a Prize."))
       return prize_select_grid(duel, avail, pos) if Screens.three_column_prizes?(duel)
       counter = 0
       loop do
@@ -1559,16 +1569,16 @@ module TCG
           slot = target == Screens::IPA_OPP_ACTIVE ? 0 : target - 10
           show_card_page(op.display_id(op.play_area[slot]), op, slot) if op.play_area[slot]
         when Screens::IPA_PLAYER_HAND
-          card_list_screen(pl, pl.hand.dup, "#{pl.name}'s Hand", "Choose the card\nyou wish to examine.", menu: :view)
+          card_list_screen(pl, pl.hand.dup, _INTL("{1}'s Hand", pl.name), _INTL("Choose the card\nyou wish to examine."), menu: :view)
         when Screens::IPA_OPP_HAND
-          card_list_screen(op, op.hand.dup, "#{op.name}'s Hand", "Choose the card\nyou wish to examine.", menu: :view)
+          card_list_screen(op, op.hand.dup, _INTL("{1}'s Hand", op.name), _INTL("Choose the card\nyou wish to examine."), menu: :view)
         when Screens::IPA_PLAYER_DISCARD, Screens::IPA_OPP_DISCARD
           du = target == Screens::IPA_PLAYER_DISCARD ? pl : op
           if du.discard_pile.empty?
             message(_INTL("The Discard Pile has no cards."))
           else
-            card_list_screen(du, du.discard_pile.dup, du == pl ? "Your Discard Pile" : "Opponent's Discard Pile",
-                             "Choose the card\nyou wish to examine.", menu: :view)
+            card_list_screen(du, du.discard_pile.dup, du == pl ? _INTL("Your Discard Pile") : _INTL("Opponent's Discard Pile"),
+                             _INTL("Choose the card\nyou wish to examine."), menu: :view)
           end
         end
       end
@@ -1581,20 +1591,21 @@ module TCG
     # The cursor starts on No unless yes_default (..._SetCursorToYes).
     # keep: ask over the screen currently shown (YesOrNoMenuWithText)
     def yes_no_menu(text, yes_default = false, keep: false)
-      two_item_core(text, "Yes     No", 7, 6, yes_default ? 0 : 1, false, keep) == 0
+      two_item_core(text, [_INTL("Yes"), _INTL("No")], 7, 6, yes_default ? 0 : 1, false, keep) == 0
     end
 
     # TwoItemHorizontalMenu: the text's second line holds the two items,
     # cursor 6 / 10, starts on the first item; nil when B is pressed
-    def two_item_menu(text)
-      two_item_core(text, nil, 0, 6, 0, true)
+    # items: the two choices (drawn at 7 and 11, by the cursor's spots)
+    def two_item_menu(text, items = nil)
+      two_item_core(text, items, 7, 6, 0, true)
     end
 
     def two_item_core(text, items, ix, cx, cur, cancellable, keep = false)
       Screens.duel_main_scene(@map, @duel) if @duel && !keep
       lines = GB.wrap(text)
       Screens.text_box_lines(@map, lines)
-      @map.text(ix, 16, items) if items
+      Array(items).each_with_index { |t, i| @map.text(ix + i * 4, 16, t) }
       loop do
         x = cx + cur * 4
         key = blink_wait(x, 16, SYM_CURSOR_R, SYM_SPACE, [Input::USE, Input::BACK, Input::LEFT, Input::RIGHT])
@@ -1700,8 +1711,8 @@ module TCG
       loop do
         Screens.your_or_opp_play_area(@map, duel, pl, true)
         @map.wide_text_box
-        @map.text(2, 14, "Your Play Area")
-        @map.text(2, 16, "Opp. Play Area")
+        @map.text(2, 14, _INTL("Your Play Area"))
+        @map.text(2, 16, _INTL("Opp. Play Area"))
         idx = 0
         loop do
           y = 14 + idx * 2
@@ -1715,7 +1726,7 @@ module TCG
         du = own ? pl : op
         Screens.your_or_opp_play_area(@map, duel, du, own)
         @map.wide_text_box
-        @map.text(1, 14, "Which card would you like to see?")
+        @map.text(1, 14, _INTL("Which card would you like to see?"))
         table = own ? Screens::PEEK_OWN : Screens::PEEK_OPP
         if Screens.three_column_prizes?(duel)
           seen = peek_grid(duel, du, own, table)

@@ -23,7 +23,7 @@ module TCG
         # the animation side is left over from earlier; the healed side is used here
         play_attack_animation(anim, du, du, e, n.to_i, 0, nil, heal: true)
         if anim == :ATK_ANIM_HEALING_WIND_PLAY_AREA
-          message("#{Screens.name_and_level(du.card(du.play_area[e]))} healed\n#{n} damage!", keep: true)
+          message(_INTL("{1} healed\n{2} damage!", Screens.name_and_level(du.card(du.play_area[e])), n), keep: true)
         end
       when :trainer_anim
         d = @duel.turn_duelist
@@ -57,7 +57,7 @@ module TCG
     def prize_event(type, name, n)
       du = @duel.duelists.find { |x| x.name == name }
       return unless du
-      text = type == :will_draw_prizes ? "#{du.name} will draw #{n} Prize(s)." : "#{du.name} drew #{n} Prize(s)."
+      text = type == :will_draw_prizes ? _INTL("{1} will draw {2} Prize(s).", du.name, n) : _INTL("{1} drew {2} Prize(s).", du.name, n)
       if du.player?
         message(text) if type == :will_draw_prizes
         return
@@ -89,7 +89,7 @@ module TCG
       render
       return if du.player?
       # OppAction_UsePokemonPower: WillUseThePokemonPowerText
-      message("#{card.name} will use the\nPokémon Power #{power.name}.", keep: true)
+      message(_INTL("{1} will use the\nPokémon Power {2}.", card.name, power.name), keep: true)
     end
 
     alias_method :tcg_effect_anim_event, :event

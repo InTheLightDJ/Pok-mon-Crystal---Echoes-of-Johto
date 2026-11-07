@@ -39,16 +39,18 @@ module TCG
       @map.flash = false
       render
       text = if another
-               "...And another Booster Pack:\n#{BOOSTER_SCENE_NAMES[set]}."
+               _INTL("...And another Booster Pack:\n{1}.", BOOSTER_SCENE_NAMES[set])
              else
-               "#{player} received a Booster\nPack: #{BOOSTER_SCENE_NAMES[set]}."
+               _INTL("{1} received a Booster\nPack: {2}.", player, BOOSTER_SCENE_NAMES[set])
              end
       message(text, keep: true)
-      message("#{player} checked the cards\nin the Booster Pack!!", keep: true)
+      @checking_cards = true   # (a Special Pack says so first, 089q)
+      message(_INTL("{1} checked the cards\nin the Booster Pack!!", player), keep: true)
+      @checking_cards = false
       # _OpenBoosterPack: DisplayCardList with the Booster Pack header
       list = BoosterCards.new(cards)
-      card_list_screen(list, (0...cards.size).to_a, "Booster Pack",
-                       "Choose the card\nyou wish to examine.", menu: :view)
+      card_list_screen(list, (0...cards.size).to_a, _INTL("Booster Pack"),
+                       _INTL("Choose the card\nyou wish to examine."), menu: :view)
     end
   end
 end

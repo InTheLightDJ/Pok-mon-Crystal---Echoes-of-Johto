@@ -157,7 +157,7 @@ module TCG
       energy_cards.each { |i| d.put_card_in_discard_pile(i) }
       if confused
         coin_check(_INTL("Confusion check! If Heads, {1} can retreat.", d.card(d.arena).name),
-                   "Confusion check!\nIf Tails, unable to Retreat.")
+                   _INTL("Confusion check!\nIf Tails, unable to Retreat."))
         if toss_coin == TAILS
           @confusion_retreat_check_unsuccessful = true
           @ui.message(_INTL("Unable to retreat due to Confusion."))

@@ -150,7 +150,7 @@ module TCG
       return :incompatible if @play_area[e].nil?   # an empty slot (the AI checks every slot)
       cur = card(@play_area[e])
       evo = card(d)
-      return :incompatible if evo.preevo.nil? || evo.preevo != cur.name
+      return :incompatible if evo.preevo.nil? || evo.preevo != cur.evo_name
       return :not_this_turn if (@slot_flags[e] & CAN_EVOLVE_THIS_TURN) == 0
       :ok
     end
@@ -158,10 +158,10 @@ module TCG
     # CheckIfCanEvolveInto_BasicToStage2 (Pokemon Breeder)
     def can_evolve_basic_to_stage2?(d, e)
       return false if (@slot_flags[e] & CAN_EVOLVE_THIS_TURN) == 0
-      stage1_name = card(d).preevo
+      stage1_name = card(d).en_preevo
       stage1 = TCG::CARDS.find { |_id, h| h[:name] == stage1_name }
       return false unless stage1
-      stage1[1][:preevo] == card(@play_area[e]).name
+      stage1[1][:preevo] == TCG.evolves_as(card(@play_area[e]).en_name)
     end
 
     # EvolvePokemonCard. returns the pre-evolution deck index.

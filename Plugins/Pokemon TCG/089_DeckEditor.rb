@@ -129,11 +129,11 @@ module TCG
           num2(map, 3, 2, number)
           map.sym(5, 2, SYM_DOT)
         end
-        map.text(6, 2, "#{name} deck")
+        map.text(6, 2, _INTL("{1} deck", name))
         4.times { |t| map.put(2 + t % 2, 1 + t / 2, [:hand, t]) } if dueling
       end
       total_slash_sixty(map, 14, 1, cards.size)
-      map.text(11, 1, "No cards chosen.") if cards.empty?
+      map.text(11, 1, _INTL("No cards chosen.")) if cards.empty?
     end
 
     # PrintConfirmationCardList: 7 cards from 3,5 with their type icon at
@@ -372,7 +372,7 @@ module TCG
       menu = { :ids => ids, :off => 0, :cur => 0 }
       loop do
         @map.box(0, 6, 20, 12)
-        @map.text(1, 7, mode == :add ? "Add which card?" : "Remove which card?")
+        @map.text(1, 7, mode == :add ? _INTL("Add which card?") : _INTL("Remove which card?"))
         vis.times do |n|
           v = ids[menu[:off] + n]
           next unless v
@@ -416,26 +416,26 @@ module TCG
           return :continue
         when 3                                     # Save
           if !TCG.deck_size_ok?(st[:cards])
-            message("This Deck doesn't have\n55 to 65 cards!", keep: true)
-            return nil if !st[:forced] && yes_no_menu("Return to original configuration?", true, keep: true)
-            message("The Deck must include\n55 to 65 cards!", keep: true)
-          elsif yes_no_menu("Save this Deck?", true, keep: true)
+            message(_INTL("This Deck doesn't have\n55 to 65 cards!"), keep: true)
+            return nil if !st[:forced] && yes_no_menu(_INTL("Return to original configuration?"), true, keep: true)
+            message(_INTL("The Deck must include\n55 to 65 cards!"), keep: true)
+          elsif yes_no_menu(_INTL("Save this Deck?"), true, keep: true)
             return [:save, st[:cards], st[:name]] if st[:cards].any? { |c| TCG.basic_pokemon_card?(c) }
-            message("There are no Basic Pokémon\nin this Deck!", keep: true)
-            message("You must include a Basic Pokémon\nin the Deck!", keep: true)
+            message(_INTL("There are no Basic Pokémon\nin this Deck!"), keep: true)
+            message(_INTL("You must include a Basic Pokémon\nin the Deck!"), keep: true)
           end
         when 4                                     # Dismantle
-          if yes_no_menu("Dismantle this Deck?", true, keep: true)
+          if yes_no_menu(_INTL("Dismantle this Deck?"), true, keep: true)
             return [:dismantle] if st[:index].nil? || TCG.saved_decks.size > 1
-            message("There is only 1 Deck, so this\nDeck cannot be dismantled.", keep: true)
+            message(_INTL("There is only 1 Deck, so this\nDeck cannot be dismantled."), keep: true)
           end
         when 5                                     # Cancel
           if st[:forced]
-            message("The Deck must include\n55 to 65 cards!", keep: true)
+            message(_INTL("The Deck must include\n55 to 65 cards!"), keep: true)
             next
           end
           changed = TCG.sort_cards(st[:cards]) != original || st[:name] != orig_name
-          return nil if !changed || yes_no_menu("Quit modifying the Deck?", true, keep: true)
+          return nil if !changed || yes_no_menu(_INTL("Quit modifying the Deck?"), true, keep: true)
         end
       end
     end

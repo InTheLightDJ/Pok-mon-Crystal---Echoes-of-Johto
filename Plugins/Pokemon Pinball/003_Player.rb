@@ -14,7 +14,10 @@
 #   the High Scores screen, moves to Select / Special).
 #   Anywhere else: hold Back for 2 seconds to quit.
 #
-# From an event: Script command `pbPokemonPinball`.
+# From an event: Script command `pbPokemonPinball`. It asks Play / High
+# Scores / Cancel first: the title screen has no room for a 4th menu line,
+# so High Scores boots the game straight into its High Scores screen (the
+# title's B) and closes the minigame when that screen is left.
 # The game's own save (high scores, Pokédex) is kept in the save folder as
 # PokemonPinball.sav. At game over the score earns Server Tokens
 # (1 per 1,000,000,000 points, server: handlers/pinball.js).
@@ -27,6 +30,8 @@ module PinballGBC
   ROM_FILE  = "Data/Pinball_GBC_Rom.rxdata"
   SAVE_NAME = "PokemonPinball.sav"
   QUIT_HOLD_FRAMES = 120
+  # High Scores only: how long the title waits for the server's boards
+  BOARD_WAIT_FRAMES = 180
 
   # game over: TransitionToHighScoresScreen; the score: wScore (6 BCD bytes,
   # lowest digits first) in WRAM bank 1
@@ -79,7 +84,9 @@ module PinballGBC
     KEYS = [[:LEFT, BTN_LEFT], [:RIGHT, BTN_RIGHT], [:UP, BTN_UP], [:DOWN, BTN_DOWN],
             [:USE, BTN_A], [:BACK, BTN_B], [:ACTION, BTN_START], [:SPECIAL, BTN_SELECT]]
 
-    def play
+    # high_scores: only show the High Scores screen
+    def play(high_scores = false)
+      @high_scores = high_scores
       unless PinballGBC.loaded?
         msg = Window_AdvancedTextPokemon.new(_INTL("Loading Pokémon Pinball..."))
         msg.z = 99_999
@@ -109,6 +116,7 @@ module PinballGBC
       @sprite.x = (Graphics.width - 160 * zoom) / 2
       @sprite.y = (Graphics.height - 144 * zoom) / 2
       @sprite.z = 1
+      @sprite.visible = !@high_scores   # the boot and title stay black
       $game_system.bgm_memorize rescue nil
       pbBGMStop rescue nil
       @machine.start
@@ -127,11 +135,24 @@ module PinballGBC
 
     def run
       hold = 0
+      title_frames = 0
       loop do
         Graphics.update
         Input.update
         break if on_title_menu? && Input.trigger?(Input::BACK)
-        @machine.buttons = read_buttons
+        btn = read_buttons
+        if @high_scores
+          if @machine.wram[CURRENT_SCREEN_WRAM] == SCREEN_HIGH_SCORES
+            @sprite.visible = true
+          elsif @sprite.visible
+            break   # High Scores left: back to the overworld
+          elsif on_title_menu?
+            title_frames += 1
+            # the title's B opens High Scores, once the server's boards are in
+            btn = BTN_B if !@board_cb || @board_used || title_frames > BOARD_WAIT_FRAMES
+          end
+        end
+        @machine.buttons = btn
         @machine.step_frame
         update_server_board
         # while the game has the LCD off (loading a table half, a new screen)
@@ -214,7 +235,7 @@ module PinballGBC
       5.times do |i|
         name, score = rows[i] || ["---", 0]
         entry = (0...6).map { |j| v = (score / (100**j)) % 100; ((v / 10) << 4) | (v % 10) }
-        entry += PinballGBC.board_name(name).bytes + [0, 0, 0, 0]
+        entry += PinballGBC.board_name(name) + [0, 0, 0, 0]
         entry.each_with_index { |v, j| @machine.wram[base + i * HIGH_SCORE_SIZE + j] = v }
       end
     end
@@ -255,9 +276,12 @@ module PinballGBC
     defined?(NetworkAuth) && NetworkAuth.logged_in?
   end
 
-  # 3 letters of a player name the game's font has
+  # 3 letters of a player name in the game's own letters (the name entry's
+  # $00-$09 digits, $0A-$23 A-Z, $37 space), as bytes
   def board_name(name)
-    name.to_s.upcase.gsub(/[^A-Z0-9-]/, "")[0, 3].ljust(3)
+    name.to_s.upcase.gsub(/[^A-Z0-9]/, "")[0, 3].ljust(3).chars.map do |c|
+      c =~ /\d/ ? c.to_i : c == " " ? 0x37 : c.ord - 0x37
+    end
   end
 
   # the board and Server Tokens (1 per 1,000,000,000 points; the server
@@ -271,5 +295,6 @@ module PinballGBC
 end
 
 def pbPokemonPinball
-  PinballGBC::Player.new.play
+  cmd = pbMessage(_INTL("Pokémon Pinball"), [_INTL("Play"), _INTL("High Scores"), _INTL("Cancel")], -1)
+  PinballGBC::Player.new.play(cmd == 1) if [0, 1].include?(cmd)
 end

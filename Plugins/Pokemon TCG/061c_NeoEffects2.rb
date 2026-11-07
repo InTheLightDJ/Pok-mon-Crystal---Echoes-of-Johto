@@ -655,7 +655,7 @@ module TCG
   end
   effect(:NeoFlowerDance_MultiplierEffect) do |du|
     d = du.turn_duelist
-    n = d.play_area.each_index.select { |e| d.play_area[e] }.count { |e| d.card(d.play_area[e]).name.include?("Bellossom") }
+    n = d.play_area.each_index.select { |e| d.play_area[e] }.count { |e| d.card(d.play_area[e]).en_name.include?("Bellossom") }
     du.set_definite_damage(30 * n); false
   end
 
@@ -886,7 +886,7 @@ module TCG
   # Dark Fire: +20 (+10 per discarded card) with a Darkness Energy attached
   effect(:NeoDarkFireEffect) do |du|
     d = du.turn_duelist
-    dark = d.energy_cards_in_slot(PLAY_AREA_ARENA).find { |i| d.card(i).name.include?("Darkness") }
+    dark = d.energy_cards_in_slot(PLAY_AREA_ARENA).find { |i| d.card(i).en_name.include?("Darkness") }
     if dark
       d.put_card_in_discard_pile(dark)
       du.atk.damage += 30

@@ -376,6 +376,7 @@ module TCG
         @shop_spr.visible = true
         pts = TCG.pack_pulled(cards)   # rare holo: World Rankings points (089g)
         shop_say(_INTL("A rare pull! +{1} World Rankings points!", pts)) if pts > 0
+        TCG.holo_token_message(->(t) { shop_say(t) }) if TCG.respond_to?(:holo_token_message)   # Token ability (089t)
       else
         id = it[:id].to_sym
         CardShop.money -= price

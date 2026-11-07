@@ -44,13 +44,13 @@ module TCG
     lines = []
     if c.pokemon?
       lines << _INTL("{1}  HP {2}  {3}", c.name, c.hp, h[:stage].to_s.capitalize)
-      lines << _INTL("Evolves from {1}", h[:preevo]) if h[:preevo]
+      lines << _INTL("Evolves from {1}", TCG.tr_name(h[:preevo])) if h[:preevo]
       (h[:attacks] || []).each do |a|
         cost = (a[:cost] || {}).map { |t, n| "#{t.capitalize[0, 3]}x#{n}" }.join(" ")
         dmg  = a[:damage].to_i > 0 ? "  #{a[:damage]}" : ""
         lines << ""
-        lines << "#{a[:name]}#{dmg}   #{cost}"
-        lines.concat(TCG.wrap_text(TCG.plain_text(a[:desc].to_s))) if a[:desc]
+        lines << "#{CardText.tr(:ATTACK, a[:name])}#{dmg}   #{cost}"
+        lines.concat(TCG.wrap_text(TCG.plain_text(CardText.tr(:TEXT, a[:desc].to_s)))) if a[:desc]
       end
       lines << ""
       lines << _INTL("Weakness: {1}", (h[:weakness] || []).join(" ").capitalize)
@@ -59,7 +59,7 @@ module TCG
     else
       lines << c.name
       lines << ""
-      lines.concat(TCG.wrap_text(TCG.plain_text(h[:desc].to_s)))
+      lines.concat(TCG.wrap_text(TCG.plain_text(c.desc.to_s)))
     end
     lines
   end
@@ -143,7 +143,7 @@ def pbTCGCardAlbum
       ids.each_with_index do |id, n|
         cnt = TCG.card_count(id)
         if owned.call(id)
-          rows << [id, _INTL("{1}. {2} x{3}", n + 1, TCG.card_name(id), cnt)]
+          rows << [id, _INTL("{1}. {2} x{3}", n + 1, TCG.card(id).name, cnt)]
           TCG.versions(id).drop(1).each do |v|
             next if TCG.card_count(v) == 0
             text = _INTL("{1} Holo x{2}", TCG.holo_name(TCG.holo_tier(v)), TCG.card_count(v))

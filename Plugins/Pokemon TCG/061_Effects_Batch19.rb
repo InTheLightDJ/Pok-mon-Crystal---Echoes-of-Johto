@@ -12,7 +12,7 @@ module TCG
       return true if sel.nil?
       nd = non_turn_duelist
       copied = nd.card(sel[0]).attacks[sel[1]]
-      return true if copied.name == @atk.attack.name   # can't copy Metronome itself
+      return true if copied.en_name == @atk.attack.en_name   # can't copy Metronome itself
       @atk.attack      = copied
       @atk.effect_name = copied.effect
       @atk.damage      = copied.damage

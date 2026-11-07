@@ -110,7 +110,7 @@ module TCG
     def handle_sleep_check(d)
       return unless (d.status & CNF_SLP_PRZ) == ASLEEP
       coin_check(_INTL("{1} is still asleep. Sleep check! If Heads, it wakes up.", d.card(d.arena).name),
-                 "#{d.card(d.arena).name}'s Sleep check.")
+                 _INTL("{1}'s Sleep check.", d.card(d.arena).name))
       if toss_coin(d.name) == HEADS
         d.status &= DOUBLE_POISONED
         if @ui.shows_card_screens?

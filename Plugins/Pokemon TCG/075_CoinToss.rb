@@ -101,7 +101,8 @@ module TCG
     def coin_toss_screen(map, text)
       map.clear
       map.box(0, 12, 20, 6)
-      map.text(1, 14, text.to_s, line_step: 2) if text
+      # 2 lines (translated texts are wrapped to fit)
+      map.text(1, 14, GB.wrap(text.to_s, 36).first(2).join("\n"), line_step: 2) if text
     end
 
     # "#coin/#total coins" at 15,11
@@ -126,7 +127,7 @@ module TCG
       player = @duel.duelists[0].name == name
       if k == 0
         hide_banner
-        text = @duel.coin_text || COIN_TEXT[@duel.current_effect_fn]
+        text = @duel.coin_text || CardText.coin(COIN_TEXT[@duel.current_effect_fn])
         Screens.coin_toss_screen(@map, text)
       end
       Screens.coin_tally_count(@map, k + 1, total) if total >= 2
@@ -181,7 +182,7 @@ module TCG
       @map.wide_text_box
       render
       show_banner(:coin)
-      message("A coin will be tossed\nto decide who plays first.", keep: true)
+      message(_INTL("A coin will be tossed\nto decide who plays first."), keep: true)
     end
 
     alias_method :tcg_coin_event, :event
@@ -189,7 +190,7 @@ module TCG
       case type
       when :coin_toss_intro then event_coin_toss_intro
       when :play_order
-        message(args[0] ? "You play first." : "You play second.", keep: true)
+        message(args[0] ? _INTL("You play first.") : _INTL("You play second."), keep: true)
         @map.objs.clear
       else tcg_coin_event(type, *args)
       end

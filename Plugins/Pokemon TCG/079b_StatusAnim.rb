@@ -8,12 +8,12 @@
 module TCG
   class DuelScene
     STATUS_TEXTS = {
-      :poison          => "%s received\n%d damage due to Poison.",
-      :double_poison   => "%s received\n%d damage due to Double Poison.",
-      :burn            => "%s received\n%d damage due to Burn.",
-      :still_asleep    => "%s is\nstill Asleep.",
-      :cured_sleep     => "%s is\ncured of Sleep.",
-      :cured_paralysis => "%s is\ncured of Paralysis."
+      :poison          => "{1} received\n{2} damage due to Poison.",
+      :double_poison   => "{1} received\n{2} damage due to Double Poison.",
+      :burn            => "{1} received\n{2} damage due to Burn.",
+      :still_asleep    => "{1} is\nstill Asleep.",
+      :cured_sleep     => "{1} is\ncured of Sleep.",
+      :cured_paralysis => "{1} is\ncured of Paralysis."
     }
     STATUS_ANIMS = { :poison => :DUEL_ANIM_POISON, :still_asleep => :DUEL_ANIM_SLEEP,
                      :cured_sleep => :DUEL_ANIM_HEAL, :cured_paralysis => :DUEL_ANIM_HEAL,
@@ -33,7 +33,7 @@ module TCG
       @map.wide_text_box
       render
       show_banner(:between_turns)
-      message("Between Turns.", keep: true)
+      message(_INTL("Between Turns."), keep: true)
       hide_banner
     end
 
@@ -42,7 +42,7 @@ module TCG
       return unless du && du.arena
       card = du.card(du.arena)
       text_kind = kind == :poison && dmg.to_i > PSN_DAMAGE ? :double_poison : kind
-      text = format(STATUS_TEXTS[text_kind], card.name, dmg.to_i)
+      text = _INTL(STATUS_TEXTS[text_kind], card.name, dmg.to_i)
       @anim_hp_after = hp_before ? [du, PLAY_AREA_ARENA, hp_before] : nil
       with_anim_hp { Screens.duel_main_scene(@map, @duel) }
       Screens.text_box_lines(@map, GB.wrap(text))
@@ -58,7 +58,7 @@ module TCG
         run_tracks { @tracks.all?(&:done) }
         if du.slot_hp[PLAY_AREA_ARENA] == 0
           # PrintKnockedOutIfHLZero: text, 40 frames
-          Screens.text_box_lines(@map, GB.wrap("#{card.name} was\nKnocked Out!"))
+          Screens.text_box_lines(@map, GB.wrap(_INTL("{1} was\nKnocked Out!", card.name)))
           render_anim
           40.times { frame }
         end

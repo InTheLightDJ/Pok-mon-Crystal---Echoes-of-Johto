@@ -19,6 +19,8 @@
 #         3 in a row = 1 last free spin on reels of special cards (Dark,
 #         Light, Shining, Crystal, Shadow Lugia), then back to Lv 1 win or
 #         lose; out of spins -> back to Lv 1
+# Event cards (Pokemon TCG 001e_EventCards.rb, e.g. Halloween Absol on
+# October 31) are on the Lv 4 reels on their day only, and on no others.
 # Special cards are on no other reels; they and the legendaries come only
 # from here and from trades (Pokemon TCG 087b_ReservedCards.rb keeps them
 # out of booster packs and the Card Shop).
@@ -36,6 +38,7 @@ module CardSlots
   REEL_CARDS = [6, 6, 7, 8]       # different cards on the reels at each level
   FINAL_CARDS = 8                 # different special cards on the last spin's reels
   SPEED      = 9.9                # cards per second while spinning
+  SLOW_SPEED = 8.4                # with the Slow Slots duel ability (Pokemon TCG 089r)
   STOP_DELAY = 0.4                # seconds before a reel can be stopped (after the start / the last stop)
   AUTO_HOLD  = 0.5                # seconds A is held before auto play starts
   AUTO_STOP  = 0.6                # auto play stops a reel STOP_DELAY + 0..AUTO_STOP seconds in
@@ -51,10 +54,14 @@ module CardSlots
 
   module_function
 
+  def spin_speed
+    TCG.respond_to?(:duel_ability) && TCG.duel_ability == :SLOTS ? SLOW_SPEED : SPEED
+  end
+
   #----------------------------------------------------------------------------
   # card pools (normal cards, not holos)
   #----------------------------------------------------------------------------
-  def base_name(card); card.name.sub(/\A(Flying|Surfing) /, ""); end
+  def base_name(card); card.en_name.sub(/\A(Flying|Surfing) /, ""); end
 
   # Lv 1: Basics that evolve (Baby Pokémon too; Flying / Surfing Pikachu count
   # as Pikachu). Lv 4: legendaries and Basics nothing evolves from. Special
@@ -62,8 +69,8 @@ module CardSlots
   def pools
     @pools ||= begin
       cards = TCG::CARD_ORDER.map { |id| TCG.card(id) }.select(&:pokemon?)
-      cards.reject! { |c| c.special_trainer_pokemon? }
-      evolves = cards.map(&:preevo).compact.uniq
+      cards.reject! { |c| c.special_trainer_pokemon? || event_card?(c.id) }
+      evolves = cards.map(&:en_preevo).compact.uniq
       special, cards = cards.partition { |c| TCG.special_card?(c.id) }
       lv4 = ->(c) { TCG.legendary_card_id?(c.id) || (c.basic? && !c.baby? && !evolves.include?(base_name(c))) }
       [cards.select { |c| c.basic? && !lv4.call(c) },
@@ -83,7 +90,29 @@ module CardSlots
       break if picked.size >= n
       picked << id unless picked.any? { |p| TCG.card(p).name == TCG.card(id).name }
     end
-    picked
+    level == 3 ? with_event_cards(picked) : picked
+  end
+
+  def event_card?(id); TCG.respond_to?(:event_card?) && TCG.event_card?(id); end
+
+  # event cards whose day is today (they go on the Lv 4 reels)
+  def todays_event_cards
+    return [] unless defined?(TCG::EVENT_CARD_DAYS)
+    TCG::EVENT_CARD_DAYS.keys.select { |id| TCG.event_card_day?(id) }
+  end
+
+  # Lv 4 reel cards with today's event cards in place of others, and
+  # other days' event cards swapped for cards from the pool
+  def with_event_cards(cards)
+    today = todays_event_cards
+    cards = cards.reject { |id| event_card?(id) && !today.include?(id) }
+    (today - cards).each do |id|
+      keep = cards.each_index.reject { |i| today.include?(cards[i]) }
+      cards.size < REEL_CARDS[3] || keep.empty? ? cards << id : cards[keep.sample] = id
+    end
+    spare = pools[3].shuffle.reject { |id| cards.any? { |p| TCG.card(p).name == TCG.card(id).name } }
+    cards << spare.shift while cards.size < REEL_CARDS[3] && !spare.empty?
+    cards
   end
 
   #----------------------------------------------------------------------------
@@ -93,6 +122,8 @@ module CardSlots
     s = $PokemonGlobal ? ($PokemonGlobal.card_slots ||= {}) : (@test_state ||= {})
     start_level(s, 0) if s[:level].nil? || !s[:cards].is_a?(Array) || s[:cards].empty?
     s[:spins] ||= SPIN_LIMITS[s[:level]] unless s[:last]   # saves from before a level had a limit
+    # Lv 4 reels picked on another day: today's event cards on, past ones off
+    s[:cards] = with_event_cards(s[:cards]) if s[:level] == 3 && !s[:last]
     s
   end
 
@@ -144,6 +175,8 @@ module CardSlots
       given = TCG.holo_id(card, TCG.roll_holo_tier) || card
     end
     TCG.add_card(given) if given
+    # the Token ability: a Server Token for one of the rarest holos
+    events << :token if given && TCG.respond_to?(:give_holo_tokens) && TCG.give_holo_tokens([given]) > 0
     level = s[:level]
     if s[:last]
       start_level(s, 0)
@@ -207,7 +240,7 @@ module CardSlots
     def update
       return false unless spinning?
       now = System.uptime
-      @pos += (now - @t) * SPEED
+      @pos += (now - @t) * CardSlots.spin_speed
       @t = now
       stopped = false
       if @state == :stopping && @pos >= @target
@@ -423,6 +456,7 @@ module CardSlots
           popup([_INTL("The reels level up!"), _INTL(CardSlots::LEVELS[@state[:level]])] +
                 (@state[:spins] ? [_INTL("You have {1} spins.", @state[:spins])] : []))
           build_reels
+        when :token        then popup([_INTL("Token! +{1} Server Token(s)!", 1)])
         when :spins_reset  then popup([_INTL("Your spins are back to {1}!", @state[:spins])])
         when :free_spins   then popup([_INTL("+{1} free spins!", CardSlots::FREE_SPINS)])
         when :last_spin
