@@ -13,6 +13,7 @@
 #   24 hunt_complete       online when a Scavenger Hunt is completed (server)
 #   25 hunt_boss_catch     caught the hunt's boss (server)
 #   26 slots_holiday_card  3 of a holiday card in a row on the Card Slots
+#   27 skins_all           owns every player skin (server: leaderboard.js)
 #
 # pbGrantAchievement sends it quietly (pbGiveAchievement shows DEBUG
 # messages); the server ignores ones the player already has. Offline: nothing.
@@ -26,6 +27,7 @@ ACHIEVEMENT_IDS[23] = 'slots_shadow_lugia'
 ACHIEVEMENT_IDS[24] = 'hunt_complete'
 ACHIEVEMENT_IDS[25] = 'hunt_boss_catch'
 ACHIEVEMENT_IDS[26] = 'slots_holiday_card'
+ACHIEVEMENT_IDS[27] = 'skins_all'
 
 # id: an index of ACHIEVEMENT_IDS or its name (:tcg_beat_e4)
 def pbGrantAchievement(id)

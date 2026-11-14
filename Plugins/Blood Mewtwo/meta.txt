@@ -1,0 +1,4 @@
+Name       = Blood Mewtwo
+Version    = 1.0.0
+Essentials = 21.1
+Requires   = Scavenger Hunt

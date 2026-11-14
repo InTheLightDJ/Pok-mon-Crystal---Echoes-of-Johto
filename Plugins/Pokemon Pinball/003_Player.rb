@@ -18,6 +18,11 @@
 # Scores / Cancel first: the title screen has no room for a 4th menu line,
 # so High Scores boots the game straight into its High Scores screen (the
 # title's B) and closes the minigame when that screen is left.
+# The table is the one in front of the player: facing left, the Red Field;
+# facing right, the Blue Field. Game Start then skips the Field Select
+# screen and starts that table (any other way, the screen shows both, as in
+# the game). The copyright
+# screen at boot is skipped (the game has its own splash screens).
 # The game's own save (high scores, Pokédex) is kept in the save folder as
 # PokemonPinball.sav. At game over the score earns Server Tokens
 # (1 per 1,000,000,000 points, server: handlers/pinball.js).
@@ -80,12 +85,169 @@ module PinballGBC
     end
   end
 
+  # The title menu without Option (the controls are the game's own, F1):
+  # the menu's last line is blanked when the title is drawn, and the cursor
+  # stops at Poké Dex. (The generated code calls these directly, so they're
+  # replaced here rather than hooked.)
+  module TitleMenu
+    MAP          = 0x1800                   # vBGMap
+    OPTION_TILES = [[16, 2..7], [17, 3..4]] # [row, columns] of "Option"
+    OPTION_TOP   = [15, 3]                  # the tile holding its top pixel row
+    BLANK_TILE   = 0x80
+
+    def title_screen? = @wram[CURRENT_SCREEN_WRAM] == SCREEN_TITLESCREEN
+
+    # HandleTitlescreenAnimations (runs once the title's tilemap is loaded)
+    def f_03_40f7
+      blank_option if title_screen?
+      super
+    end
+
+    # Func_c1fc: moves a cursor, c = its last line
+    def f_03_41fc
+      @c = 1 if @c == 2 && title_screen?
+      super
+    end
+
+    def blank_option
+      return if @vram[MAP + 16 * 32 + 3] == BLANK_TILE
+      OPTION_TILES.each { |r, cols| cols.each { |c| @vram[MAP + r * 32 + c] = BLANK_TILE } }
+      # its top row of pixels: the last line of that tile (tiles $00-$7f are at $9000)
+      row, col = OPTION_TOP
+      tile = @vram[MAP + row * 32 + col]
+      bank = @vram[0x2000 + MAP + row * 32 + col] & 8 != 0 ? 1 : 0
+      addr = bank * 0x2000 + (tile < 0x80 ? 0x1000 : 0) + tile * 16 + 14
+      @vram[addr] = @vram[addr + 1] = 0
+      @tile_dirty[bank * 384 + ((addr & 0x1fff) >> 4)] = true
+    end
+  end
+  Machine.prepend(TitleMenu)
+
+  # Boot without the copyright screen: its fade-in only turns the screen on
+  # (all white, so the fade-out after it has frames to run on) and its wait
+  # moves straight on (the step after them, which loads the saved high
+  # scores, still runs).
+  WRAM_SCREEN_STATE = SCREEN_STATE_WRAM
+  RETURN_MARK = 0xbeef
+  module NoCopyright
+    def f_02_4228   # FadeInCopyrightScreen
+      call_routine(:f_00_0b66)   # SetAllPalettesWhite
+      call_routine(:f_00_0916)   # ClearSpriteBuffer
+      call_routine(:f_00_0588)   # EnableLCD
+      @wram[WRAM_SCREEN_STATE] += 1
+      pop16
+    end
+
+    # a call from here, as the game's code makes one
+    def call_routine(name)
+      push16(RETURN_MARK)
+      r = tramp(send(name))
+      raise MachineError, "#{name} returned to #{r}" unless r == RETURN_MARK
+    end
+
+    def f_02_4290   # DisplayCopyrightScreen
+      @wram[WRAM_SCREEN_STATE] += 1
+      pop16
+    end
+  end
+  Machine.prepend(NoCopyright)
+
+  # One table on the Field Select screen (0 Red, 1 Blue): its columns of the
+  # screen's tilemap and colour map (ROM data the screen loads) move to the
+  # middle, the other table's become background, the blinking border sprite
+  # goes to the middle, and Left / Right don't move the choice.
+  FIELD_SELECT_TILEMAP = (0x2c * 0x4000) + (0x7800 - 0x4000)   # FieldSelectTilemap, 32x18
+  FIELD_SELECT_ATTRS   = (0x2c * 0x4000) + (0x7c00 - 0x4000)   # FieldSelectBGAttributes
+  FIELD_SELECT_BORDER  = (0x03 * 0x4000) + (0x584f - 0x4000)   # FieldSelectBorderSpritePixelOffsetData: [y, x] x2
+  FIELD_COLUMNS = [1, 10]          # first column of each table (9 wide)
+  FIELD_ROWS    = 2..15
+  CENTER_COLUMN = 5
+  CENTER_BORDER_X = 74             # the border sprite's x for the middle (Red's 42 is 34 px into its table)
+  SELECTED_FIELD_WRAM = 0x1000 + (0xd913 - 0xd000)   # wSelectedFieldIndex
+
+  def one_field_rom(field)
+    rom = @rom.dup
+    [FIELD_SELECT_TILEMAP, FIELD_SELECT_ATTRS].each do |base|
+      FIELD_ROWS.each do |y|
+        row = base + (y * 32)
+        table = rom.byteslice(row + FIELD_COLUMNS[field], 9)
+        background = rom.getbyte(row)          # column 0 is background on every row
+        (1..18).each { |x| rom.setbyte(row + x, background) }
+        rom[row + CENTER_COLUMN, 9] = table
+      end
+    end
+    rom.setbyte(FIELD_SELECT_BORDER + 1, CENTER_BORDER_X)
+    rom.setbyte(FIELD_SELECT_BORDER + 3, CENTER_BORDER_X)
+    rom
+  end
+
+  module OneField
+    attr_accessor :one_field
+
+    def f_03_57d3   # MoveFieldSelectCursor
+      return super unless @one_field
+      @wram[SELECTED_FIELD_WRAM] = @one_field
+      pop16
+    end
+  end
+  Machine.prepend(OneField)
+
+  # With one table there's nothing to choose: the Field Select screen loads
+  # as if A had just been pressed on it (the screen on, all white, as the
+  # fade-in leaves it), so its last step fades out and starts the game.
+  FIELD_PRESSED_BUTTON_WRAM = 0x1000 + (0xd8f6 - 0xd000)   # wFieldSelectPressedButton
+  FIELD_BLINK_TIMER_WRAM    = 0x1000 + (0xd912 - 0xd000)   # wFieldSelectBlinkingBorderTimer
+  FIELD_BLINK_FRAME_WRAM    = 0x1000 + (0xd914 - 0xd000)   # wFieldSelectBlinkingBorderFrame
+  module SkipFieldSelect
+    def f_03_56dd   # LoadFieldSelectScreen
+      return super unless @one_field
+      call_routine(:f_00_0b66)   # SetAllPalettesWhite
+      call_routine(:f_00_0916)   # ClearSpriteBuffer
+      call_routine(:f_00_0588)   # EnableLCD
+      @wram[SELECTED_FIELD_WRAM] = @one_field
+      @wram[FIELD_PRESSED_BUTTON_WRAM] = 1   # A
+      @wram[FIELD_BLINK_TIMER_WRAM] = 1
+      @wram[FIELD_BLINK_FRAME_WRAM] = 1
+      @wram[WRAM_SCREEN_STATE] = 2           # ExitFieldSelectScreen
+      pop16
+    end
+  end
+  Machine.prepend(SkipFieldSelect)
+
+  # The name entry starts on the last name entered (kept in PinballNames.dat
+  # in the save folder; the first time, the player's name). The game copies
+  # wPlayerName into a new high score (it's only ever set to blanks at boot),
+  # so it's set when the High Scores screen starts, and read back from the
+  # table when the name is done.
+  PLAYER_NAME_WRAM    = 0x1000 + (0xd470 - 0xd000)   # wPlayerName
+  ENTERING_NAME_WRAM  = 0x1000 + (0xda7f - 0xd000)   # wHighScoreIsEnteringName
+  NAME_ROW_WRAM       = 0x1000 + (0xda81 - 0xd000)   # wHighScoreNameRow
+  module RememberName
+    def f_03_4a8f   # the High Scores screen's first step: puts a new score in
+      PinballGBC.last_name.each_with_index { |c, i| @wram[PLAYER_NAME_WRAM + i] = c }
+      super
+    end
+
+    def f_03_51d2   # Func_d1d2: A / B on the name entry
+      entering = @wram[ENTERING_NAME_WRAM]
+      r = super
+      if entering != 0 && @wram[ENTERING_NAME_WRAM] == 0
+        field = FIELDS[@wram[HIGH_SCORES_STAGE_WRAM]] || "red"
+        at = HIGH_SCORES_WRAM[field] + (@wram[NAME_ROW_WRAM] * HIGH_SCORE_SIZE) + 6
+        PinballGBC.save_last_name((0...3).map { |i| @wram[at + i] })
+      end
+      r
+    end
+  end
+  Machine.prepend(RememberName)
+
   class Player
     KEYS = [[:LEFT, BTN_LEFT], [:RIGHT, BTN_RIGHT], [:UP, BTN_UP], [:DOWN, BTN_DOWN],
             [:USE, BTN_A], [:BACK, BTN_B], [:ACTION, BTN_START], [:SPECIAL, BTN_SELECT]]
 
     # high_scores: only show the High Scores screen
-    def play(high_scores = false)
+    # field: 0 Red / 1 Blue (only that table on the Field Select screen), or nil
+    def play(high_scores = false, field: nil)
       @high_scores = high_scores
       unless PinballGBC.loaded?
         msg = Window_AdvancedTextPokemon.new(_INTL("Loading Pokémon Pinball..."))
@@ -98,7 +260,8 @@ module PinballGBC
           msg.dispose
         end
       end
-      @machine = Machine.new(PinballGBC.rom)
+      @machine = Machine.new(field ? PinballGBC.one_field_rom(field) : PinballGBC.rom)
+      @machine.one_field = field
       load_sram
       @machine.hooks[GAME_OVER_KEY] = method(:on_game_over)
       start_server_board
@@ -284,6 +447,34 @@ module PinballGBC
     end
   end
 
+  #--- the last name entered (both pinball games keep theirs in one file) ---
+  NAMES_FILE = "PinballNames.dat"
+
+  def names_path = File.join((RTP.getSaveFolder rescue nil) || ".", NAMES_FILE)
+
+  def saved_names
+    names = File.open(names_path, "rb") { |f| Marshal.load(f) }
+    names.is_a?(Hash) ? names : {}
+  rescue StandardError
+    {}
+  end
+
+  # 3 letters as the name entry has them ($0A-$37; it never shows digits)
+  def last_name
+    n = saved_names["gbc"]
+    return n if n.is_a?(Array) && n.size == 3 && n.all? { |c| c.is_a?(Integer) && c.between?(0x0a, 0x37) }
+    board_name(($player&.name rescue nil).to_s.gsub(/[^A-Za-z]/, ""))
+  end
+
+  def save_last_name(letters)
+    names = saved_names
+    return if names["gbc"] == letters
+    names["gbc"] = letters
+    File.open(names_path, "wb") { |f| Marshal.dump(names, f) }
+  rescue StandardError
+    nil
+  end
+
   # the board and Server Tokens (1 per 1,000,000,000 points; the server
   # decides; offline nothing)
   def report_score(score, field)
@@ -296,5 +487,7 @@ end
 
 def pbPokemonPinball
   cmd = pbMessage(_INTL("Pokémon Pinball"), [_INTL("Play"), _INTL("High Scores"), _INTL("Cancel")], -1)
-  PinballGBC::Player.new.play(cmd == 1) if [0, 1].include?(cmd)
+  # the machine the player faces: left Red, right Blue
+  field = { 4 => 0, 6 => 1 }[$game_player&.direction]
+  PinballGBC::Player.new.play(cmd == 1, field: field) if [0, 1].include?(cmd)
 end

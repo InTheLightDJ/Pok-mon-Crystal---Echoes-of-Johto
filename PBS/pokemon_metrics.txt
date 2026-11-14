@@ -6437,3 +6437,15 @@ BackSprite = 0,-8
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[DEMON]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BLOODMEWTWO]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0

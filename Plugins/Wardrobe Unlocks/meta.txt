@@ -1,3 +1,5 @@
 Name       = Wardrobe Unlocks
 Version    = 1.0.0
 Essentials = 21.1
+Requires   = Confetti
+Requires   = Held Server Messages

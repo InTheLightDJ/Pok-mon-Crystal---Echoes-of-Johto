@@ -3871,6 +3871,15 @@ BattleUse = OnFoe
 Flags = PokeBall
 Description = An item for catching Pokémon.
 #-------------------------------
+[BLOODBALL]
+Name = Blood Ball
+NamePlural = Blood Balls
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A ball soaked in blood. The only ball that can hold Blood Mewtwo.
+#-------------------------------
 [SAFARIBALL]
 Name = Safari Ball
 NamePlural = Safari Balls
@@ -7553,3 +7562,21 @@ Pocket = 1
 Price = 0
 FieldUse = OnPokemon
 Description = A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.
+#-------------------------------
+[EXPALL]
+Name = Exp. All
+NamePlural = Exp. Alls
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp. All
+NamePlural = Exp. Alls
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.

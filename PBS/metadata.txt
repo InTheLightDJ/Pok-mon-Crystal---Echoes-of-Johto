@@ -3143,3 +3143,23 @@ SurfCharset = trainer_POKEMONTRAINER_311_surf
 DiveCharset = trainer_POKEMONTRAINER_311_surf
 FishCharset = boy_fish_offset
 SurfFishCharset = trainer_POKEMONTRAINER_311_surf
+#-------------------------------
+[314]
+TrainerType = POKEMONTRAINER_ADMIN
+WalkCharset = trainer_POKEMONTRAINER_ADMIN
+RunCharset = trainer_POKEMONTRAINER_ADMIN
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_ADMIN_SURF
+DiveCharset = trainer_POKEMONTRAINER_ADMIN_SURF
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_ADMIN_SURF
+#-------------------------------
+[315]
+TrainerType = POKEMONTRAINER_MODS
+WalkCharset = trainer_POKEMONTRAINER_MODS
+RunCharset = trainer_POKEMONTRAINER_MODS
+CycleCharset = boy_bike
+SurfCharset = trainer_POKEMONTRAINER_MODS_SURF
+DiveCharset = trainer_POKEMONTRAINER_MODS_SURF
+FishCharset = boy_fish_offset
+SurfFishCharset = trainer_POKEMONTRAINER_MODS_SURF

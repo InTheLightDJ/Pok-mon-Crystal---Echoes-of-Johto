@@ -1823,8 +1823,8 @@ SuperRod
 CaveMorning,5
     20,CATERPIE,5,6
     20,METAPOD,7
-    20,WEEDLE,7
     20,WEEDLE,5,6
+    20,WEEDLE,7
     10,PIDGEY,6,7
     5,PARAS,6
     5,ZUBAT,5,6
@@ -2564,11 +2564,11 @@ LandNight,21
     20,CLEFFA,5,15
     20,HYPNO,15,25
     20,MEOWTH,5,15
-    10,MURKROW,15,25
     14,PONYTA,5,15
+    10,KANGASKHAN,15,25
+    10,MURKROW,15,25
     5,SQUIRTLE,5,10
     1,TOTODILE,5,10
-    10,KANGASKHAN,15,25
 Water,2
     20,POLIWHIRL,15,25
     20,QWILFISH,5,15
@@ -2634,3 +2634,13 @@ Cave,5
     20,ZUBAT,5,15
     10,CLEFAIRY,5,15
     10,CUBONE,5,15
+#-------------------------------
+[504] # Bills secret garden
+Land,21
+    10,RAICHU,35,43
+    10,RAPIDASH,35,45
+    20,GIRAFARIG,33,38
+    20,MRMIME,15,25
+    20,SNEASEL,25,35
+    19,FARFETCHD,35,38
+    1,DEMON,5,55

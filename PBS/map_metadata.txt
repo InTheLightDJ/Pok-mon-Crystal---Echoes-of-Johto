@@ -1280,6 +1280,14 @@ Bicycle = true
 Weather = Rain,10
 #-------------------------------
 [479]   # MAP479
+Name = MAP479
 Outdoor = true
 Bicycle = true
 Weather = Fog,20
+#-------------------------------
+[504]   # Bills secret garden
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,10
+SnapEdges = true

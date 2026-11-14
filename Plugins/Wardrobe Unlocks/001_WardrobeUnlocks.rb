@@ -7,8 +7,9 @@
 #   303 Leaf Sygna   304 Fem Ranger   305 Karen     306 Whitney
 #   307 GhostGuy     308 Callie       309 Coyote    310 Killua
 #   311 Kris         312 Marie        313 Rock Volnutt
+#   314 Ghost Admin  315 Ghost Mod    (Ghost Guy wins: server handlers/ghost_trainer.js)
 #===============================================================================
-LAST_GIVEN_PLAYER_ID = 313
+LAST_GIVEN_PLAYER_ID = 315
 
 def pbGiveAdded
   newly_unlocked = []

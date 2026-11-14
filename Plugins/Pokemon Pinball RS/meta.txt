@@ -1,0 +1,4 @@
+Name       = Pokemon Pinball RS
+Version    = 0.1.0
+Essentials = 21.1
+Credits    = pret (pokepinballrs decompilation)

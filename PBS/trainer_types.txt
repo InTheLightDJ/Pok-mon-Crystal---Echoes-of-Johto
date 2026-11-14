@@ -2678,3 +2678,17 @@ Gender = Male
 BaseMoney = 60
 BattleBGM = sactuaray
 VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_ADMIN]
+Name = GHOST ADMIN
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare
+#-------------------------------
+[POKEMONTRAINER_MODS]
+Name = GHOST MOD
+Gender = Male
+BaseMoney = 60
+BattleBGM = sactuaray
+VictoryBGM = Victory Fanfare

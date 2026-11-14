@@ -1242,3 +1242,7 @@ Description = Resists all types when HP is full.
 [TERAFORMZERO]
 Name = Teraform Zero
 Description = Eliminates all weather and terrain.
+#-------------------------------
+[DEMONSOUL]
+Name = Demon Soul
+Description = Hits creepy pasta Pokémon 4x as hard and takes 1/4 damage from them.
