@@ -244,9 +244,22 @@ end
 # event, and not mid some other blocking custom scene (those don't route
 # through Scene_Map's update loop at all while active, so this hook simply
 # can't fire until they've finished on their own).
+# The map must really be up: on Continue this hook already runs while Scene_Map
+# is still building its sprites, before the screen is shown - a message then
+# waits for a button behind a black screen. So it waits until the overworld has
+# been free for UPDATE_NOTICE_DELAY seconds (as the daily bonus message does).
+UPDATE_NOTICE_DELAY = 3.0
 EventHandlers.add(:on_frame_update, :show_pending_update_notice, proc {
   next unless NetworkAuth.pending_update_notice
-  next if $game_player.move_route_forcing || pbMapInterpreterRunning? || $game_temp.message_window_showing
+  next unless $scene.is_a?(Scene_Map)
+  if $game_player.move_route_forcing || pbMapInterpreterRunning? || $game_temp.message_window_showing ||
+     $game_temp.in_menu || $game_temp.player_transferring
+    $update_notice_free_since = nil
+    next
+  end
+  $update_notice_free_since ||= System.unscaled_uptime
+  next if System.unscaled_uptime - $update_notice_free_since < UPDATE_NOTICE_DELAY
+  $update_notice_free_since = nil
   data = NetworkAuth.pending_update_notice
   NetworkAuth.pending_update_notice = nil
   pbShowUpdateNotice(data) rescue nil
