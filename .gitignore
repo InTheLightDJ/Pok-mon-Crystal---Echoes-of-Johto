@@ -12,3 +12,6 @@ Screenshots/
 hangwatch.txt
 errorlog.txt
 traceback.log
+
+# Claude Code settings / agents (local only)
+.claude/
