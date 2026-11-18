@@ -1,0 +1,4 @@
+Name       = Game Corner
+Version    = 1.0.0
+Essentials = 21.1
+Credits    = InTheLight,Poke Poker minigame (Shadow version)

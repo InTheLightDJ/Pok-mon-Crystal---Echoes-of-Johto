@@ -1,0 +1,618 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ABILITY_NAMES]
+Anger Shell
+いかりのこうら
+Armor Tail
+テイルアーマー
+Beads of Ruin
+わざわいのたま
+Commander
+しれいとう
+Costar
+きょうえん
+Cud Chew
+はんすう
+Earth Eater
+どしょく
+Electromorphosis
+でんきにかえる
+Good as Gold
+おうごんのからだ
+Guard Dog
+ばんけん
+Hadron Engine
+ハドロンエンジン
+Lingering Aroma
+とれないにおい
+Mycelium Might
+きんしのちから
+Opportunist
+びんじょう
+Orichalcum Pulse
+ひひいろのこどう
+Protosynthesis
+こだいかっせい
+Purifying Salt
+きよめのしお
+Quark Drive
+クォークチャージ
+Rocky Payload
+いわはこび
+Seed Sower
+こぼれダネ
+Sharpness
+きれあじ
+Supreme Overlord
+そうだいしょう
+Sword of Ruin
+わざわいのつるぎ
+Tablets of Ruin
+わざわいのおふだ
+Thermal Exchange
+ねつこうかん
+Toxic Debris
+どくげしょう
+Vessel of Ruin
+わざわいのうつわ
+Well-Baked Body
+こんがりボディ
+Wind Power
+ふうりょくでんき
+Wind Rider
+かぜのり
+Zero to Hero
+マイティチェンジ
+Supersweet Syrup
+かんろなミツ
+Hospitality
+おもてなし
+Toxic Chain
+どくのくさり
+Mind's Eye
+しんがん
+Embody Aspect
+おもかげやどし
+Poison Puppeteer
+どくくぐつ
+Tera Shift
+テラスチェンジ
+Tera Shell
+テラスシェル
+Teraform Zero
+ゼロフォーミング
+Demon Soul
+あくまのたましい
+Stench
+あくしゅう
+Drizzle
+あめふらし
+Speed Boost
+かそく
+Battle Armor
+カブトアーマー
+Sturdy
+がんじょう
+Damp
+しめりけ
+Limber
+じゅうなん
+Sand Veil
+すながくれ
+Static
+せいでんき
+Volt Absorb
+ちくでん
+Water Absorb
+ちょすい
+Oblivious
+どんかん
+Cloud Nine
+ノーてんき
+Compound Eyes
+ふくがん
+Insomnia
+ふみん
+Color Change
+へんしょく
+Immunity
+めんえき
+Flash Fire
+もらいび
+Shield Dust
+りんぷん
+Own Tempo
+マイペース
+Suction Cups
+きゅうばん
+Intimidate
+いかく
+Shadow Tag
+かげふみ
+Rough Skin
+さめはだ
+Wonder Guard
+ふしぎなまもり
+Levitate
+ふゆう
+Effect Spore
+ほうし
+Synchronize
+シンクロ
+Clear Body
+クリアボディ
+Natural Cure
+しぜんかいふく
+Lightning Rod
+ひらいしん
+Serene Grace
+てんのめぐみ
+Swift Swim
+すいすい
+Chlorophyll
+ようりょくそ
+Illuminate
+はっこう
+Trace
+トレース
+Huge Power
+ちからもち
+Poison Point
+どくのトゲ
+Inner Focus
+せいしんりょく
+Magma Armor
+マグマのよろい
+Water Veil
+みずのベール
+Magnet Pull
+じりょく
+Soundproof
+ぼうおん
+Rain Dish
+あめうけざら
+Sand Stream
+すなおこし
+Pressure
+プレッシャー
+Thick Fat
+あついしぼう
+Early Bird
+はやおき
+Flame Body
+ほのおのからだ
+Run Away
+にげあし
+Keen Eye
+するどいめ
+Hyper Cutter
+かいりきバサミ
+Pickup
+ものひろい
+Truant
+なまけ
+Hustle
+はりきり
+Cute Charm
+メロメロボディ
+Plus
+プラス
+Minus
+マイナス
+Forecast
+てんきや
+Sticky Hold
+ねんちゃく
+Shed Skin
+だっぴ
+Guts
+こんじょう
+Marvel Scale
+ふしぎなうろこ
+Liquid Ooze
+ヘドロえき
+Overgrow
+しんりょく
+Blaze
+もうか
+Torrent
+げきりゅう
+Swarm
+むしのしらせ
+Rock Head
+いしあたま
+Drought
+ひでり
+Arena Trap
+ありじごく
+Vital Spirit
+やるき
+White Smoke
+しろいけむり
+Pure Power
+ヨガパワー
+Shell Armor
+シェルアーマー
+Air Lock
+エアロック
+Tangled Feet
+ちどりあし
+Motor Drive
+でんきエンジン
+Rivalry
+とうそうしん
+Steadfast
+ふくつのこころ
+Snow Cloak
+ゆきがくれ
+Gluttony
+くいしんぼう
+Anger Point
+いかりのつぼ
+Unburden
+かるわざ
+Heatproof
+たいねつ
+Simple
+たんじゅん
+Dry Skin
+かんそうはだ
+Download
+ダウンロード
+Iron Fist
+てつのこぶし
+Poison Heal
+ポイズンヒール
+Adaptability
+てきおうりょく
+Skill Link
+スキルリンク
+Hydration
+うるおいボディ
+Solar Power
+サンパワー
+Quick Feet
+はやあし
+Normalize
+ノーマルスキン
+Sniper
+スナイパー
+Magic Guard
+マジックガード
+No Guard
+ノーガード
+Stall
+あとだし
+Technician
+テクニシャン
+Leaf Guard
+リーフガード
+Klutz
+ぶきよう
+Mold Breaker
+かたやぶり
+Super Luck
+きょううん
+Aftermath
+ゆうばく
+Anticipation
+きけんよち
+Forewarn
+よちむ
+Unaware
+てんねん
+Tinted Lens
+いろめがね
+Filter
+フィルター
+Slow Start
+スロースタート
+Scrappy
+きもったま
+Storm Drain
+よびみず
+Ice Body
+アイスボディ
+Solid Rock
+ハードロック
+Snow Warning
+ゆきふらし
+Honey Gather
+みつあつめ
+Frisk
+おみとおし
+Reckless
+すてみ
+Multitype
+マルチタイプ
+Flower Gift
+フラワーギフト
+Bad Dreams
+ナイトメア
+Pickpocket
+わるいてぐせ
+Sheer Force
+ちからずく
+Contrary
+あまのじゃく
+Unnerve
+きんちょうかん
+Defiant
+まけんき
+Defeatist
+よわき
+Cursed Body
+のろわれボディ
+Healer
+いやしのこころ
+Friend Guard
+フレンドガード
+Weak Armor
+くだけるよろい
+Heavy Metal
+ヘヴィメタル
+Light Metal
+ライトメタル
+Multiscale
+マルチスケイル
+Toxic Boost
+どくぼうそう
+Flare Boost
+ねつぼうそう
+Harvest
+しゅうかく
+Telepathy
+テレパシー
+Moody
+ムラっけ
+Overcoat
+ぼうじん
+Poison Touch
+どくしゅ
+Regenerator
+さいせいりょく
+Big Pecks
+はとむね
+Sand Rush
+すなかき
+Wonder Skin
+ミラクルスキン
+Analytic
+アナライズ
+Illusion
+イリュージョン
+Imposter
+かわりもの
+Infiltrator
+すりぬけ
+Mummy
+ミイラ
+Moxie
+じしんかじょう
+Justified
+せいぎのこころ
+Rattled
+びびり
+Magic Bounce
+マジックミラー
+Sap Sipper
+そうしょく
+Prankster
+いたずらごころ
+Sand Force
+すなのちから
+Iron Barbs
+てつのトゲ
+Zen Mode
+ダルマモード
+Victory Star
+しょうりのほし
+Turboblaze
+ターボブレイズ
+Teravolt
+テラボルテージ
+Aroma Veil
+アロマベール
+Flower Veil
+フラワーベール
+Cheek Pouch
+ほおぶくろ
+Protean
+へんげんじざい
+Fur Coat
+ファーコート
+Magician
+マジシャン
+Bulletproof
+ぼうだん
+Competitive
+かちき
+Strong Jaw
+がんじょうあご
+Refrigerate
+フリーズスキン
+Sweet Veil
+スイートベール
+Stance Change
+バトルスイッチ
+Gale Wings
+はやてのつばさ
+Mega Launcher
+メガランチャー
+Grass Pelt
+くさのけがわ
+Symbiosis
+きょうせい
+Tough Claws
+かたいツメ
+Pixilate
+フェアリースキン
+Gooey
+ぬめぬめ
+Aerilate
+スカイスキン
+Parental Bond
+おやこあい
+Dark Aura
+ダークオーラ
+Fairy Aura
+フェアリーオーラ
+Aura Break
+オーラブレイク
+Primordial Sea
+はじまりのうみ
+Desolate Land
+おわりのだいち
+Delta Stream
+デルタストリーム
+Stamina
+じきゅうりょく
+Wimp Out
+にげごし
+Emergency Exit
+ききかいひ
+Water Compaction
+みずがため
+Merciless
+ひとでなし
+Shields Down
+リミットシールド
+Stakeout
+はりこみ
+Water Bubble
+すいほう
+Steelworker
+はがねつかい
+Berserk
+ぎゃくじょう
+Slush Rush
+ゆきかき
+Long Reach
+えんかく
+Liquid Voice
+うるおいボイス
+Triage
+ヒーリングシフト
+Galvanize
+エレキスキン
+Surge Surfer
+サーフテール
+Schooling
+ぎょぐん
+Disguise
+ばけのかわ
+Battle Bond
+きずなへんげ
+Power Construct
+スワームチェンジ
+Corrosion
+ふしょく
+Comatose
+ぜったいねむり
+Queenly Majesty
+じょおうのいげん
+Innards Out
+とびだすなかみ
+Dancer
+おどりこ
+Battery
+バッテリー
+Fluffy
+もふもふ
+Dazzling
+ビビッドボディ
+Soul-Heart
+ソウルハート
+Tangling Hair
+カーリーヘアー
+Receiver
+レシーバー
+Power of Alchemy
+かがくのちから
+Beast Boost
+ビーストブースト
+RKS System
+ARシステム
+Electric Surge
+エレキメイカー
+Psychic Surge
+サイコメイカー
+Misty Surge
+ミストメイカー
+Grassy Surge
+グラスメイカー
+Full Metal Body
+メタルプロテクト
+Shadow Shield
+ファントムガード
+Prism Armor
+プリズムアーマー
+Neuroforce
+ブレインフォース
+Intrepid Sword
+ふとうのけん
+Dauntless Shield
+ふくつのたて
+Libero
+リベロ
+Ball Fetch
+たまひろい
+Cotton Down
+わたげ
+Propeller Tail
+スクリューおびれ
+Mirror Armor
+ミラーアーマー
+Gulp Missile
+うのミサイル
+Stalwart
+すじがねいり
+Steam Engine
+じょうききかん
+Punk Rock
+パンクロック
+Sand Spit
+すなはき
+Ice Scales
+こおりのりんぷん
+Ripen
+じゅくせい
+Ice Face
+アイスフェイス
+Power Spot
+パワースポット
+Mimicry
+ぎたい
+Screen Cleaner
+バリアフリー
+Steely Spirit
+はがねのせいしん
+Perish Body
+ほろびのボディ
+Wandering Spirit
+さまようたましい
+Gorilla Tactics
+ごりむちゅう
+Neutralizing Gas
+かがくへんかガス
+Pastel Veil
+パステルベール
+Hunger Switch
+はらぺこスイッチ
+Quick Draw
+クイックドロウ
+Unseen Fist
+ふかしのこぶし
+Curious Medicine
+きみょうなくすり
+Transistor
+トランジスタ
+Dragon's Maw
+りゅうのあぎと
+Chilling Neigh
+しろのいななき
+Grim Neigh
+くろのいななき
+As One
+じんばいったい

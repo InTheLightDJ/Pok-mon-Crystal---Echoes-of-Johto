@@ -10,6 +10,8 @@ Battle Candy M
 Bonbon Combat M
 Battle Candy L
 Bonbon Combat L
+Blood Ball
+Sang Ball
 GS Ball
 GS Ball
 Plip Ball
@@ -210,6 +212,16 @@ Umbrella
 Parapluie
 Flashlight
 Lampe de poche
+Form Prism
+Prisme Forme
+Exp. All
+Multi Exp Équipe
+Blood Shard
+Éclat de Sang
+Blood Ball Top
+Haut de Sang Ball
+Blood Ball Bottom
+Bas de Sang Ball
 Repel
 Repousse
 Super Repel

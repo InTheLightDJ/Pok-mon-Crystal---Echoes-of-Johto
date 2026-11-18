@@ -86,6 +86,8 @@ Resists all types when HP is full.
 Grâce à sa carapace qui renferme l'énergie de tous\nles types, les capacités subies par ce Pokémon quand\nses PV sont au maximum ne sont pas très efficaces.
 Eliminates all weather and terrain.
 Lorsque Terapagos prend sa Forme Stellaire, il utilise\nson pouvoir enfoui pour annuler les effets de la météo\net des champs actifs.
+Hits creepy pasta Pokémon 4x as hard and takes 1/4 damage from them.
+Frappe les Pokémon creepypasta 4 fois plus fort et ne subit que 1/4 de leurs dégâts.
 The stench may cause the target to flinch.
 La puanteur peut effrayer l'adversaire.
 The Pokémon makes it rain if it appears in battle.

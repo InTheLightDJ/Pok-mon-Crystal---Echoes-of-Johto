@@ -1,0 +1,594 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ABILITY_DESCRIPTIONS]
+Gets a powerful boost if a hit makes its HP half or less.
+こうげきを うけて HPが はんぶん いかに なると のうりょくが おおきく あがる。
+Prevents opposing Pokémon from using priority moves.
+あいての ポケモンは せんせいわざを つかえなくなる。
+Lowers the Sp. Def of all Pokémon except the user.
+じぶん いがいの すべての ポケモンの とくぼうを さげる。
+Pairs up and commands with an active Dondozo.
+ヘイラッシャと くんで くちのなかから しれいを だす。
+Copies an ally's stat changes upon entry to battle.
+ばに でたとき みかたの のうりょくへんかを コピーする。
+Reuses an eaten Berry at the end of the next turn.
+たべた きのみを つぎの ターンの おわりに もういちど つかう。
+Restores HP if hit by a Ground-type move.
+じめんタイプの わざを うけると HPが かいふくする。
+The Pokémon becomes charged upon taking damage.
+ダメージを うけると じゅうでんじょうたいに なる。
+The Pokémon becomes immune to status moves.
+へんかわざを うけなくなる。
+Boosts Atk if intimidated and immune to being forced out.
+いかくされると こうげきが あがり いれかえられることも ない。
+Turns the ground into Electric Terrain and boosts Sp. Atk.
+ばに でたとき エレキフィールドを はり とくこうが あがる。
+Status moves are unimpeded by this Ability but slower to use.
+へんかわざが ふせがれなくなるが だすのが おそくなる。
+Copies an opponent's stat boost during a turn.
+あいてが のうりょくを あげると それを コピーする。
+Turns the sunlight harsh while boosing Attack.
+ひざしを つよくして こうげきを あげる。
+Boosts its best stat in harsh sunlight.
+ひざしが つよいとき いちばん たかい のうりょくが あがる。
+Gains protection from status effects and Ghost-type moves.
+じょうたいいじょうと ゴーストタイプの わざを うけなくなる。
+Boosts its best stat in Electric Terrain.
+エレキフィールドのとき いちばん たかい のうりょくが あがる。
+Powers up Rock-type moves.
+いわタイプの わざの いりょくが あがる。
+Turns the ground into Grassy Terrain upon taking damage.
+ダメージを うけると グラスフィールドを はる。
+Powers up slicing moves.
+きる わざの いりょくが あがる。
+Boosts the power of its moves with every fainted ally.
+たおれた なかまが おおいほど わざの いりょくが あがる。
+Lowers the Defense of all Pokémon except the user.
+じぶん いがいの すべての ポケモンの ぼうぎょを さげる。
+Lowers the Attack of all Pokémon except the user.
+じぶん いがいの すべての ポケモンの こうげきを さげる。
+Boosts Atk when hit by a Fire-type move and prevents burns.
+ほのおタイプの わざを うけると こうげきが あがり やけどにも ならない。
+Scatters poison spikes when hit by physical moves.
+ぶつりわざを うけると どくびしを まきちらす。
+Lowers the Sp. Atk of all Pokémon except the user.
+じぶん いがいの すべての ポケモンの とくこうを さげる。
+Fire-type moves deal no damage and sharply boost Defense.
+ほのおタイプの わざで ダメージを うけず ぼうぎょが ぐーんと あがる。
+The Pokémon becomes charged from taking wind damage.
+かぜの わざを うけると じゅうでんじょうたいに なる。
+Boosts Attack in Tailwind or when attacked by wind moves.
+おいかぜや かぜの わざを うけると こうげきが あがる。
+Transforms into its Hero Form when it switches out.
+ひっこむと マイティフォルムに へんしんする。
+Lowers the foe's evasion once per battle.
+1かいの バトルで 1どだけ あいての かいひりつを さげる。
+Restores ally's HP a little when entering battle.
+ばに でたとき みかたの HPを すこし かいふくする。
+May badly poison targets when the user attacks.
+こうげきすると あいてを もうどくに することが ある。
+Prevents accuracy loss. Ignores Ghost immunities.
+めいちゅうりつが さがらず ゴーストタイプにも わざが あたる。
+The user's shining mask raises its Speed stat.
+かがやく おめんの ちからで すばやさが あがる。
+The user's shining mask raises its Sp. Def stat.
+かがやく おめんの ちからで とくぼうが あがる。
+The user's shining mask raises its Attack stat.
+かがやく おめんの ちからで こうげきが あがる。
+The user's shining mask raises its Defense stat.
+かがやく おめんの ちからで ぼうぎょが あがる。
+Moves that inflict poison also cause confusion.
+どくに する わざで あいてを こんらんにも させる。
+Enters Terastal Form when sent out.
+ばに でると テラスタルフォルムに なる。
+Resists all types when HP is full.
+HPが まんたんのとき すべての タイプに つよくなる。
+Eliminates all weather and terrain.
+すべての てんきと フィールドを けしさる。
+Hits creepy pasta Pokémon 4x as hard and takes 1/4 damage from them.
+クリーピーパスタの ポケモンに 4ばいの ダメージを あたえ うける ダメージは 1/4に なる。
+The stench may cause the target to flinch.
+くさくて あいてが ひるむ ことがある。
+The Pokémon makes it rain if it appears in battle.
+とうじょう したときに てんきを あめに する。
+Its Speed stat is gradually boosted.
+ちょっとずつ すばやく なっていく。
+The Pokémon is protected against critical hits.
+かたい こうらに まもられて あいての こうげきが きゅうしょに あたらない。
+It cannot be knocked out with one hit.
+いちげきで たおされない。
+Prevents the use of self-destructing moves.
+だれも ばくはつが できなくなる。
+The Pokémon is protected from paralysis.
+じゅうなんな からだによって まひ じょうたいに ならない。
+Boosts the Pokémon's evasion in a sandstorm.
+すなあらしの とき かいひりつが あがる。
+Contact with the Pokémon may cause paralysis.
+さわった あいてを まひさせる ことがある。
+Restores HP if hit by an Electric-type move.
+でんきを うけると かいふくする。
+Restores HP if hit by a Water-type move.
+ ずを うけると かいふくする。
+Prevents it from becoming infatuated.
+どんかん なので メロメロや ちょうはつ じょうたいに ならない。
+Eliminates the effects of weather.
+あらゆる てんきの えいきょうが きえて しまう。
+The Pokémon's accuracy is boosted.
+ふくがんを もっているため わざの めいちゅうりつが あがる。
+Prevents the Pokémon from falling asleep.
+ねむり じょうたいに ならない。
+Changes the Pokémon's type to the foe's move.
+あいてから うけた わざの タイプに じぶんの タイプが へんか する。
+Prevents the Pokémon from getting poisoned.
+どく じょうたいに ならない。
+It powers up Fire-type moves if it's hit by one.
+ほのおタイプの わざを うけると ほのおを もらい じぶんが だす ほのおタイプの わざが つよくなる。
+Blocks the added effects of attacks taken.
+りんぷんに まもられて わざの ついかこうかを うけなくなる。
+Prevents the Pokémon from becoming confused.
+こんらん じょうたいに ならない。
+Negates all moves that force switching out.
+きゅうばんで じめんに はりつき ポケモンを いれかえさせる わざや どうぐが きかなくなる。
+Lowers the foe's Attack stat.
+とうじょう したとき いかくして あいてを いしゅくさせ あいての こうげきを さげて しまう。
+Prevents the foe from escaping.
+あいての かげを ふみ にげたり こうたい できなくする。
+Inflicts damage to the foe on contact.
+こうげきを うけたとき じぶんに ふれた あいてを ざらざらの はだで キズつける。
+Only super-effective moves will hit.
+こうかばつぐんの わざしか あたらない ふしぎな ちから。
+Gives full immunity to all Ground-type moves.
+じめんタイプの わざを うけない。
+Contact may poison or cause paralysis or sleep.
+ふれると どく まひ ねむりに することがある。
+Passes a burn, poison, or paralysis to the foe.
+じぶんが なってしまった どくや まひや やけどを あいてに うつす。
+Prevents other Pokémon from lowering its stats.
+あいてに のうりょくを さげられない。
+All status problems heal when it switches out.
+てもちに ひっこむと じょうたい いじょうが なおる。
+Draws in all Electric-type moves to up Sp. Attack.
+でんきタイプの わざを じぶんに よせつけ ダメージを うけずに とくこうが あがる。
+Boosts the likelihood of added effects appearing.
+てんのめぐみの おかげで わざの ついかこうかが でやすい。
+Boosts the Pokémon's Speed in rain.
+てんきが あめのとき すばやさが あがる。
+Boosts the Pokémon's Speed in sunshine.
+てんきが はれのとき すばやさが あがる。
+Raises the likelihood of meeting wild Pokémon.
+やせいの ポケモンに そうぐう しやすくなる。
+The Pokémon copies a foe's Ability.
+とうじょう したとき あいての とくせいを トレースして おなじ とくせいに なる。
+Raises the Pokémon's Attack stat.
+ぶつり こうげきの いりょくが 2ばいに なる。
+Contact with the Pokémon may poison the attacker.
+じぶんに さわった あいてを どく じょうたいに する ことがある。
+The Pokémon is protected from flinching.
+きたえられた せいしんに よって あいての こうげきに ひるまない。
+Prevents the Pokémon from becoming frozen.
+こおり じょうたいに ならない。
+Prevents the Pokémon from getting a burn.
+やけど じょうたいに ならない。
+Prevents Steel-type Pokémon from escaping.
+はがねの ポケモンを にげられなくする。
+Gives full immunity to all sound-based moves.
+おとの わざを うけない。
+The Pokémon gradually regains HP in rain.
+てんきが あめのとき すこしずつ HPを かいふくする。
+The Pokémon summons a sandstorm in battle.
+せんとうで すなあらしを おこす。
+The Pokémon raises the foe's PP usage.
+プレッシャーを あたえて あいての つかう わざの PPを おおく へらす。
+Ups resistance to Fire- and Ice-type moves.
+あつい しぼうで まもられているので ほのおタイプと こおりタイプの わざの ダメージを はんげんさせる。
+The Pokémon awakens quickly from sleep.
+おきるのが はやくなる。
+Contact with the Pokémon may burn the attacker.
+じぶんに さわった あいてを やけど じょうたいに する ことがある。
+Enables a sure getaway from wild Pokémon.
+やせいの ポケモンから かならず にげられる。
+Prevents other Pokémon from lowering accuracy.
+めいちゅうりつを さげられない。
+Prevents other Pokémon from lowering Attack stat.
+ちからじまんの ハサミを もっているので あいてに こうげきを さげられない。
+The Pokémon may pick up items.
+どうぐを ひろってくる ことが ある。
+Pokémon can't attack on consecutive turns.
+わざを だすと つぎの ターンは やすんでしまう。
+Boosts the Attack stat, but lowers accuracy.
+じぶんの こうげきが たかくなるが めいちゅうりつが さがる。
+Contact with the Pokémon may cause infatuation.
+じぶんに さわった あいてを メロメロに することが ある。
+Ups Sp. Atk if another Pokémon has Plus or Minus.
+プラスか マイナスの とくせいを もつ ポケモンが なかまに いると じぶんの とくこうが あがる。
+Castform transforms with the weather.
+てんきで ポワルンが へんかする。
+Protects the Pokémon from item theft.
+ねんちゃくして どうぐを まもる。
+The Pokémon may heal its own status problems.
+からだの かわを ぬぎすてることで じょうたい いじょうを なおすことが ある。
+Boosts Attack if there is a status problem.
+じょうたい いじょうに なると こんじょうを だして こうげきが あがる。
+Ups Defense if there is a status problem.
+じょうたい いじょうに なると ふしぎなうろこが はんのうして ぼうぎょが あがる。
+Damages attackers using any draining move.
+すいとった あいての HPを へらす。
+Powers up Grass-type moves in a pinch.
+HPが へったとき くさタイプの わざの いりょくが あがる。
+Powers up Fire-type moves in a pinch.
+HPが へったとき ほのおタイプの わざの いりょくが あがる。
+Powers up Water-type moves in a pinch.
+HPが へったとき みずタイプの わざの いりょくが あがる。
+Powers up Bug-type moves in a pinch.
+HPが へったとき むしタイプの わざの いりょくが あがる。
+Protects the Pokémon from recoil damage.
+はんどうを うける わざを だしても HPが へらない。
+Turns the sunlight harsh if it is in battle.
+とうじょう したときに てんきを はれに する。
+Prevents the foe from fleeing.
+せんとうで あいてを にげられなくする。
+Raises evasion if the Pokémon is confused.
+こんらん じょうたいの ときは かいひりつが アップする。
+Raises Speed if hit by an Electric-type move.
+でんきタイプの わざを うけると ダメージを うけずに すばやさが あがる。
+Deals more damage to a foe of the same gender.
+せいべつが おなじだと とうそうしんを もやして つよくなる せいべつが ちがうと よわくなる
+Raises Speed each time the Pokémon flinches.
+ひるむ たびに ふくつのこころを もやして すばやさが あがる。
+Raises evasion in a hailstorm.
+てんきが あられのとき かいひりつが あがる。
+Encourages the early use of a held Berry.
+HPが すくなくなったら たべる きのみを HP はんぶんの ときに たべてしまう。
+Maxes Attack after taking a critical hit.
+きゅうしょに こうげきが あたると いかりくるって こうげきりょくが さいだいに なる。
+Raises Speed if a held item is used.
+もっていた どうぐが なくなると すばやさが あがる。
+Weakens the power of Fire-type moves.
+ほのおタイプの こうげきの いりょくを よわめる。
+The Pokémon is prone to wild stat changes.
+のうりょく へんかが いつもより はげしい。
+Reduces HP if it is hot. Water restores HP.
+てんきが あめのときや みずタイプの わざで HPが かいふくし はれのときや ほのおタイプの わざで へってしまう。
+Adjusts power according to a foe's defenses.
+あいての ぼうぎょと とくぼうを くらべて ひくい ほうの のうりょくに あわせて じぶんの こうげきか とくこうを あげる。
+Boosts the power of punching moves.
+パンチを つかう わざの いりょくが あがる。
+Restores HP if the Pokémon is poisoned.
+どくじょうたいに なると HPを かいふくする。
+Powers up moves of the same type.
+じぶんと おなじ タイプの わざの いりょくが あがる。
+Increases the frequency of multi-strike moves.
+れんぞくわざを つかうと いつも さいこう かいすう だすことが できる。
+Heals status problems if it is raining.
+てんきが あめのとき じょうたい いじょうが なおる。
+In sunshine, Sp. Atk is boosted but HP decreases.
+てんきが はれると とくこうが あがるが まいターン HPが へる。
+Boosts Speed if there is a status problem.
+じょうたい いじょうに なると すばやさが あがる。
+All the Pokémon's moves become the Normal type.
+どんな タイプの わざでも すべて ノーマルタイプに なる。 いりょくが すこし あがる。
+Powers up moves if they become critical hits.
+きゅうしょに あてたとき いりょくが あがる。
+The Pokémon only takes damage from attacks.
+こうげき いがいでは ダメージを うけない。
+Ensures attacks by or against the Pokémon land.
+おたがいの わざが かならず あたる。
+The Pokémon moves after all other Pokémon do.
+わざを だす じゅんばんが かならず さいごに なる。
+Powers up the Pokémon's weaker moves.
+いりょくが ひくい わざの いりょくを たかくして こうげきできる。
+Prevents problems with status in sunny weather.
+てんきが はれのときは じょうたい いじょうに ならない。
+The Pokémon can't use any held items.
+もっている どうぐを つかうことが できない。
+Moves can be used regardless of Abilities.
+あいての とくせいに じゃまされる ことなく あいてに わざを だすことが できる。
+Heightens the critical-hit ratios of moves.
+きょううんを もっているため あいての きゅうしょに こうげきが あたりやすい。
+Damages the attacker landing the finishing hit.
+ひんしの ときに ふれた あいてに ダメージ。
+Senses a foe's dangerous moves.
+あいての もつ きけんな わざを さっちする ことができる。
+Determines what moves a foe has.
+とうじょう したとき あいての もつ わざを ひとつだけ よみとる。
+Ignores any stat changes in the Pokémon.
+あいての のうりょくの へんかを むしして こうげきが できる。
+Powers up "not very effective" moves.
+こうかが いまひとつの わざを つうじょうの いりょくで だすことが できる。
+Reduces damage from super-effective attacks.
+こうかばつぐんに なってしまう こうげきの いりょくを よわめる ことが できる。
+Temporarily halves Attack and Speed.
+5ターンの あいだ こうげきと すばやさが はんぶんに なる。
+Enables moves to hit Ghost-type Pokémon.
+ゴーストタイプの ポケモンに ノーマルタイプと かくとうタイプの わざを あてることが できる。
+Draws in all Water-type moves to up Sp. Attack.
+みずタイプの わざを じぶんに よせつけ ダメージは うけずに とくこうが あがる。
+The Pokémon gradually regains HP in a hailstorm.
+てんきが あられのとき HPを すこしずつ かいふく する。
+The Pokémon summons a hailstorm in battle.
+とうじょう したときに てんきを あられに する。
+The Pokémon may gather Honey from somewhere.
+あまいミツを あつめて くることが ある。
+The Pokémon can check a foe's held item.
+とうじょう したとき あいての もちものを みとおすことが できる。
+Powers up moves that have recoil damage.
+はんどうで ダメージを うける わざの いりょくが あがる。
+Changes type to match the held Plate.
+もっている プレートや Zクリスタルの タイプによって じぶんの タイプが かわる。
+Powers up party Pokémon when it is sunny.
+はれのとき じぶんと かたが つよくなる。
+Reduces a sleeping foe's HP.
+ねむり じょうたいの あいてに ダメージを あたえる。
+Steals an item when hit by another Pokémon.
+さわられた あいての どうぐを ぬすんで しまう。
+Removes added effects to increase move damage.
+わざの ついか こうかは なくなるが そのぶん たかい いりょくで わざを だすことが できる。
+Makes stat changes have an opposite effect.
+のうりょくの へんかが ぎゃくてんして あがるときに さがり さがるときに あがる。
+Makes the foe nervous and unable to eat Berries.
+あいてを きんちょうさせて きのみを たべられなく させる。
+When its stats are lowered its Attack increases.
+のうりょくを さげられると こうげきが ぐーんと あがる。
+Lowers stats when HP becomes half or less.
+HPが はんぶんになると のうりょくが さがる。
+May disable a move used on the Pokémon.
+こうげきを うけると あいての わざを かなしばり じょうたいに することが ある。
+May heal an ally's status conditions.
+じょうたい いじょうの みかたを たまに なおしてあげる。
+Reduces damage done to allies.
+みかたの ダメージを へらすことが できる。
+Physical attacks lower Defense and raise Speed.
+ぶつりわざで ダメージを うけると ぼうぎょが さがり すばやさが ぐーんと あがる。
+Doubles the Pokémon's weight.
+じぶんの おもさが 2ばいに なる。
+Halves the Pokémon's weight.
+じぶんの おもさが はんぶんに なる。
+Reduces damage when HP is full.
+HPが まんたんの ときに うける ダメージが すくなくなる。
+Powers up physical attacks when poisoned.
+どく じょうたいに なったとき ぶつりわざの いりょくが あがる。
+Powers up special attacks when burned.
+やけど じょうたいに なったとき とくしゅわざの いりょくが あがる。
+May create another Berry after one is used.
+つかった きのみを なんかいも つくりだす。
+Anticipates an ally's attack and dodges it.
+みかたの こうげきを よみとって わざを かいひする。
+Raises one stat and lowers another.
+のうりょくが あがったり さがったりする。
+Protects the Pokémon from damage from weather.
+すなあらしや あられなどの ダメージを うけない。 こなの わざを うけない。
+May poison targets when a Pokémon makes contact.
+さわる だけで あいてを どく じょうたいに することがある。
+Restores a little HP when withdrawn from battle.
+てもちに ひっこむと HPが すこし かいふくする。
+Protects from Defense-lowering attacks.
+ぼうぎょを さげる こうかを うけない。
+Boosts the Pokémon's Speed in a sandstorm.
+てんきが すなあらし のとき すばやさが あがる。
+Makes status-changing moves more likely to miss.
+へんかわざを うけにくい からだに なっている。
+Boosts move power when the Pokémon moves last.
+いちばん さいごに わざを だすと わざの いりょくが あがる。
+Comes out disguised as the Pokémon in back.
+てもちの いちばん うしろに いる ポケモンに なりきって とうじょうして あいてを ばかす。
+It transforms itself into the Pokémon it is facing.
+めのまえの ポケモンに へんしん してしまう。
+Passes through the foe's barrier and strikes.
+あいての かべや みがわりを すりぬけて こうげき できる
+Contact with this Pokémon spreads this Ability.
+あいてに さわられると あいてを ミイラに してしまう。
+Boosts Attack after knocking out any Pokémon.
+あいてを たおすと じしんが ついて こうげきが あがる。
+Raises Attack when hit by a Dark-type move.
+あくタイプの こうげきを うけると せいぎかんで こうげきが あがる。
+Some move types scare it and boost its Speed.
+あくタイプと ゴーストタイプと むしタイプの わざを うけると びびって すばやさが あがる。
+Reflects status-changing moves.
+あいてに だされた へんかわざを うけずに そのまま かえす ことが できる。
+Boosts Attack when hit by a Grass-type move.
+くさタイプの わざを うけると ダメージを うけずに こうげきが あがる。
+Gives priority to a status move.
+へんかわざを せんせいで だすことが できる。
+Boosts certain moves' power in a sandstorm.
+すなあらしで いりょくが あがる わざがある。
+Inflicts damage to the Pokémon on contact.
+じぶんに さわった あいてに てつのトゲで ダメージを あたえる。
+Changes the Pokémon's shape when HP is halved.
+HPが はんぶん いかに なると すがたが へんかする。
+Boosts the accuracy of its allies and itself.
+じぶんや みかたの めいちゅうりつが あがる。
+Protects against attacks that limit move choices.
+じぶんと みかたへの メンタル こうげきを ふせぐことが できる。
+Protects Grass-type allies from stat/status effects.
+みかたの くさポケモンは のうりょくが さがらず じょうたい いじょうにも ならない。
+Restores HP as well when the Pokémon eats a Berry.
+どんな きのみでも たべると HPも かいふくする。
+It changes type to that of the move it's about to use.
+じぶんが だす わざと おなじ タイプに へんかする。
+Halves the damage from physical moves.
+あいてから うける ぶつりわざの ダメージが はんぶんに なる。
+Steals the held item of a Pokémon it hits.
+わざを あてた あいての どうぐを うばってしまう。
+Protects the Pokémon from some ball and bomb moves.
+あいての たまや ばくだんなどの わざを ふせぐことが できる。
+Sharply boosts Sp. Atk when a stat is lowered.
+のうりょくを さげられると とくこうが ぐーんと あがる。
+Boosts the power of biting moves.
+あごが がんじょうで かむ わざの いりょくが たかくなる。
+Normal-type moves become Ice-type and powered up.
+ノーマルタイプの わざが こおりタイプになる。 いりょくが すこし あがる。
+Prevents itself and allies from falling asleep.
+みかたの ポケモンは ねむらなくなる。
+Changes between Blade and Shield Forme with attacks.
+こうげきわざを だすと ブレードフォルムに わざ キングシールドを だすと シールドフォルムに へんかする。
+Flying-type moves gain priority when its HP is full.
+HPが まんたん だと ひこうタイプの わざを せんせいで だすことが できる。
+Powers up aura and pulse moves.
+はどうの わざの いりょくが たかくなる。
+Boosts the Defense stat on Grassy Terrain.
+グラスフィールドのとき ぼうぎょが あがる。
+Passes its held item to an ally that has used theirs.
+みかたが どうぐを つかうと じぶんの もっている どうぐを みかたに わたす。
+Powers up moves that make direct contact.
+あいてに せっしょくする わざの いりょくが たかくなる。
+Normal-type moves become Fairy-type and powered up.
+ノーマルタイプの わざが フェアリータイプになる。 いりょくが すこし あがる。
+Contact with it lowers the attacker's Speed stat.
+こうげきで じぶんに ふれた あいての すばやさを さげる。
+Normal-type moves become Flying-type and power up.
+ノーマルタイプの わざが ひこうタイプになる。 いりょくが すこし あがる。
+Parent and child each attacks.
+おやこ 2ひきで 2かい こうげきする ことが できる。
+Powers up each Pokémon's Dark-type moves.
+ぜんいんの あくタイプの わざが つよくなる。
+Powers up each Pokémon's Fairy-type moves.
+ぜんいんの フェアリータイプの わざが つよくなる。
+Reverses "Aura" Abilities to weaken affected moves.
+オーラの こうかを ぎゃくてんさせて いりょくを さげる。
+Changes the weather to nullify Fire-type moves.
+ほのおタイプの こうげきを うけない てんきにする。
+Changes the weather to nullify Water-type moves.
+みずタイプの こうげきを うけない てんきにする。
+Alters weather to remove Flying-type's weaknesses.
+ひこうタイプの じゃくてんが なくなる てんきにする。
+Boosts Defense when hit by an attack.
+こうげきを うけると ぼうぎょが あがる。
+Cowardly switches out if its HP becomes half or less.
+HPが はんぶんに なると あわてて にげだして てもちに ひっこんで しまう。
+Switches out if its HP becomes half or less.
+HPが はんぶんに なると きけんを かいひするため てもちに ひっこんで しまう。
+Sharply ups Defense when hit by a Water-type move.
+みずタイプの わざを うけると ぼうぎょが ぐーんと あがる。
+Its attacks are critical hits when it is poisoned.
+どく じょうたいの あいてを こうげきすると かならず きゅうしょに あたる。
+Its shell breaks if its HP becomes half or less.
+HPが はんぶんに なると からが こわれて こうげきてきに なる。
+Deals doubles damage to a target's replacement.
+こうたいで でてきた あいてに 2ばいの ダメージで こうげき できる。
+Weakens incoming Fire-type moves and prevents burns.
+じぶんに たいする ほのおタイプの わざの いりょくを さげる。 やけど しない。
+Powers up Steel-type moves.
+はがねタイプの わざの いりょくが あがる。
+Ups Sp. Atk if a hit makes its HP half or less.
+あいての こうげきで HPが はんぶんに なると とくこうが あがる。
+Boosts the Pokémon's Speed stat in a hailstorm.
+てんきが あられ のとき すばやさが あがる。
+Uses moves without making contact with the target.
+すべての わざを あいてに せっしょく しないで だすことが できる。
+Its sound-based moves become Water-type.
+すべての おとわざが みずタイプに なる。
+Gives priority to a healing move.
+かいふくわざを せんせいで だすことが できる。
+Normal-type moves become Electric-type and powered.
+ノーマルタイプの わざが でんきタイプになる。 いりょくが すこし あがる。
+Doubles Speed on Electric Terrain.
+エレキフィールド のとき すばやさが 2ばいに なる。
+Forms a powerful school while it has a lot of HP.
+HPが おおいときは むれて つよくなる。 HPの のこりが すくなくなると むれは ちりぢりに なってしまう。
+Its shroud protects it from an attack just once.
+からだを おおう ばけのかわで 1かい こうげきを ふせぐことが できる。
+Defeating a foe lets it become Ash-Greninja.
+あいてを たおすと トレーナーとの きずなが ふかまり サトシゲッコウガに へんげする。みずしゅりけんが つよくなる。
+Changes with other Cells if HP becomes half or less.
+HPが はんぶんに なると セルたちが おうえんに かけつけ パーフェクトフォルムに すがたを かえる。
+It can poison Steel- and Poison-type targets.
+はがねタイプや どくタイプも どく じょうたいに することが できる。
+It's always drowsing, and attacks without waking.
+つねに ゆめうつつの じょうたいで ぜったいに めざめない。 ねむったまま こうげきが できる。
+Makes foes unable to use priority attacks.
+あいてに いあつかんを あたえ こちらに むかって せんせいわざを だせない ようにする。
+Damages an attacker that lands the finishing hit.
+あいてに たおされたとき HPの のこりの ぶんだけ あいてに ダメージを あたえる。
+Repeats another Pokémon's dance move immediately.
+だれかが おどりわざを つかうと じぶんも それに つづいて おどりわざを だすことが できる。
+Powers up ally Pokémon's special moves.
+みかたの とくしゅわざの いりょくを あげる。
+Resists contact damage but weaker to Fire-type.
+あいてから うけた せっしょくする わざの ダメージを はんげんするが ほのおタイプの わざの ダメージは 2ばいになる。
+Boosts Sp. Atk each time a Pokémon faints.
+ポケモンが ひんしに なるたびに とくこうが あがる。
+Contact with it lowers the attacker's Speed.
+こうげきで じぶんに ふれた あいての すばやさを さげる。
+Copies the Ability of a defeated ally.
+たおされた みかたの とくせいを うけついで おなじ とくせいに なる。
+Boosts its best stat each time it deals a KO.
+あいてを たおしたとき じぶんの いちばん たかい のうりょくが あがる。
+Its type matches the memory disc it holds.
+もっている メモリで じぶんの タイプが かわる。
+Turns the ground into Electric Terrain.
+とうじょう したときに エレキフィールドを はりめぐらせる。
+Turns the ground into Psychic Terrain.
+とうじょう したときに サイコフィールドを はりめぐらせる。
+Turns the ground into Misty Terrain.
+とうじょう したときに ミストフィールドを はりめぐらせる。
+Turns the ground into Grassy Terrain.
+とうじょう したときに グラスフィールドを はりめぐらせる。
+Resists damage while its HP is full.
+HPが まんたんの ときに うける ダメージが すくなくなる。
+Powers up moves that are super-effective.
+こうかばつぐんの こうげきで いりょくが さらに あがる。
+Boosts Attack when entering a battle.
+とうじょう したときに こうげきが あがる。
+Boosts Defense when entering a battle.
+とうじょう したときに ぼうぎょが あがる。
+Retrieves the first thrown Poké Ball if it failed.
+どうぐを もっていない ばあい 1かいめに なげて しっぱい した モンスターボールを ひろってくる。
+Scatters Speed-lowering cotton fluff when hit.
+こうげきを うけると わたげを ばらまいて じぶんいがいの ポケモン すべての すばやさを さげる。
+This Pokémon's moves cannot be redirected.
+あいての わざを ひきうける とくせいや わざの えいきょうを むし できる。
+Bounces back stat-lowering effects.
+じぶんが うけた のうりょく ダウンの こうか だけを はねかえす。
+Catches prey via Surf or Dive, spits it out when hit.
+なみのりか ダイビングを すると えものを くわえてくる。 ダメージを うけると えものを はきだして こうげき。
+Boosts Speed drastically if hit by a Fire or Water move.
+みずタイプ ほのおタイプの わざを うけると すばやさが ぐぐーんと あがる。
+Powers up own sound moves. Resists other sound moves.
+おとわざの いりょくが あがる。 うけた おとわざの ダメージは はんぶんに なる。
+Creates a sandstorm when hit by an attack.
+こうげきを うけると すなあらしを おこす。
+Halves the damage taken from special moves.
+こおりのりんぷんに まもられて とくしゅこうげきで うける ダメージが はんげん する。
+Ripens Berries and doubles their effect.
+じゅくせい させることで きのみの こうかが ばいに なる。
+Blocks a physical hit, but the ice head breaks.
+ぶつりこうげきは あたまの こおりが みがわりに なるが すがたも かわる。 こおりは あられが ふると もとにもどる。
+Just being next to the Pokémon powers up moves.
+となりに いるだけで わざの いりょくが あがる。
+Changes type depending on the terrain.
+フィールドの じょうたいに あわせて ポケモンの タイプが かわる。
+On entering battle, clears effects of Reflect, etc.
+とうじょう したときに てきと みかたの ひかりのかべ リフレクター オーロラベールの こうかが きえる。
+Powers up ally Pokémon's Steel-type moves.
+みかたの はがねタイプの こうげきの いりょくが あがる。
+Both Pokémon faint 3 turns after taking a contact hit.
+せっしょくする わざを うけると おたがい 3ターン たつと ひんしになる。 こうたいすると こうかは なくなる。
+Swaps Abilities with contact-making Pokémon.
+せっしょくする わざで こうげき してきた ポケモンと とくせいを いれかえる。
+Boosts Attack, but allows only one move to be used.
+こうげきは あがるが さいしょに えらんだ わざしか だせなくなる。
+Nullifies the effects of all other Abilities.
+かがくへんかガスの ポケモンが ばにいると すべての ポケモンの とくせいの こうかが きえたり はつどう しなくなる。
+Protects the Pokémon and its allies from poisoning.
+じぶんも みかたも どくの じょうたいいじょうを うけなくなる。
+Changes between Full Belly and Hangry Mode each turn.
+ターンの おわりに まんぷくもよう はらぺこもよう まんぷくもよう……と こうごに すがたを かえる。
+Enables the Pokémon to move first occasionally.
+あいてより さきに こうどう できることが ある。
+The Pokémon's contact moves ignore protections.
+あいてに せっしょくする わざなら まもりの こうかを むしして こうげき することが できる。
+Removes all allies' stat changes on joining battle.
+とうじょう したときに かいがらから くすりを ふりまいて みかたの のうりょくへんかを もとにもどす。
+Powers up Electric-type moves.
+でんきタイプの わざの いりょくが あがる。
+Powers up Dragon-type moves.
+ドラゴンタイプの わざの いりょくが あがる。
+When knocking out a target, raises Attack.
+あいてを たおすと つめたい こえで いなないて こうげきが あがる。
+When knocking out a target, raises Sp. Atk.
+あいてを たおすと おそろしい こえで いなないて とくこうが あがる。
+Combines Unnerve and Chilling Neigh Abilities.
+バドレックスの きんちょうかんと ブリザポスの しろのいななきの ふたつの とくせいを あわせもつ。
+Combines Unnerve and Grim Neigh Abilities.
+バドレックスの きんちょうかんと ブリザポスの しろのいななきの ふたつの とくせいを あわせもつ。

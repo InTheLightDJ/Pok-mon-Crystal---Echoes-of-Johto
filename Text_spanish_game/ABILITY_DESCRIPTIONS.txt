@@ -86,6 +86,8 @@ Resists all types when HP is full.
 Resiste todos los tipos cuando tiene los PS al máximo.
 Eliminates all weather and terrain.
 Elimina todos los efectos de tiempo atmosférico y de campo.
+Hits creepy pasta Pokémon 4x as hard and takes 1/4 damage from them.
+Golpea 4 veces más fuerte a los Pokémon creepypasta y recibe 1/4 del daño de ellos.
 The stench may cause the target to flinch.
 Es posible que el rival retroceda por el mal olor.
 The Pokémon makes it rain if it appears in battle.

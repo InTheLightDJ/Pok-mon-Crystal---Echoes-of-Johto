@@ -86,6 +86,8 @@ Resists all types when HP is full.
 Resiste a todos os tipos quando os PS estão cheios.
 Eliminates all weather and terrain.
 Elimina todo o clima e o terreno.
+Hits creepy pasta Pokémon 4x as hard and takes 1/4 damage from them.
+Atinge Pokémon creepypasta 4x mais forte e sofre só 1/4 do dano deles.
 The stench may cause the target to flinch.
 O fedor pode fazer o alvo recuar.
 The Pokémon makes it rain if it appears in battle.

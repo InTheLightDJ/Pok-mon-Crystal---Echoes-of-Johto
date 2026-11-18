@@ -1,0 +1,24 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_DESCRIPTIONS]
+Pokemon Lab
+ポケモン けんきゅうじょ
+Poke Center
+ポケモンセンター
+Sprout Tower
+マダツボミのとう
+Kurts Balls
+ガンテツの ボール
+Radio Tower
+ラジオとう
+Burned Tower
+やけたとう
+Light House
+とうだい
+Herb Shop
+かんぽうやく
+Special Shop
+とくべつな みせ
+Dragon Cave
+りゅうのあな

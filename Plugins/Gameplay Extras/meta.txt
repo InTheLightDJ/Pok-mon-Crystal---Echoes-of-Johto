@@ -1,0 +1,4 @@
+Name       = Gameplay Extras
+Version    = 1.0.0
+Essentials = 21.1
+Credits    = InTheLight

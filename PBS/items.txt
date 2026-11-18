@@ -7580,3 +7580,24 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+#-------------------------------
+[BLOODSHARD]
+Name = Blood Shard
+NamePlural = Blood Shards
+Pocket = 1
+Price = 0
+Description = A shard of crystallized blood, still warm. Fused with both halves of a Blood Ball, it makes a whole one.
+#-------------------------------
+[BLOODBALLTOP]
+Name = Blood Ball Top
+NamePlural = Blood Ball Tops
+Pocket = 1
+Price = 0
+Description = The top half of a Blood Ball. Fused with the bottom half and a Blood Shard, it makes a whole one.
+#-------------------------------
+[BLOODBALLBOTTOM]
+Name = Blood Ball Bottom
+NamePlural = Blood Ball Bottoms
+Pocket = 1
+Price = 0
+Description = The bottom half of a Blood Ball. Fused with the top half and a Blood Shard, it makes a whole one.

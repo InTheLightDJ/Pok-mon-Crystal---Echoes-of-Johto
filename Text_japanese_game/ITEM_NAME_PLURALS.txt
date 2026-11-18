@@ -1,0 +1,1600 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_NAME_PLURALS]
+Purple Apricorns
+むらさきぼんぐり
+Battle Candy Ss
+バトルキャンディS
+Battle Candy Ms
+バトルキャンディM
+Battle Candy Ls
+バトルキャンディL
+Blood Balls
+ブラッドボール
+GS Balls
+GSボール
+Plip Balls
+プリップボール
+Rift Balls
+リフトボール
+TM101s
+わざマシン101
+TM102s
+わざマシン102
+TM103s
+わざマシン103
+TM104s
+わざマシン104
+TM105s
+わざマシン105
+TM106s
+わざマシン106
+TM107s
+わざマシン107
+HM07s
+ひでんマシン07
+Day Skip Berries
+スキップのみ
+Card Keys
+カードキー
+Basement Keys
+ちかのかぎ
+Clear Bells
+とうめいなスズ
+Rainbow Wings
+にじいろのはね
+Silver Wing
+ぎんいろのはね
+κΜ Box Links
+κΜ ボックスリンク
+Black Augurites
+くろのきせき
+Peat Blocks
+ピートブロック
+Linking Cords
+つながりのヒモ
+Adamant Crystals
+だいこんごうだま
+Lustrous Globes
+だいしらたま
+Legend Plates
+レジェンドプレート
+Blank Plates
+まっさらプレート
+Hopo Berries
+ホポのみ
+Griseous Cores
+だいはっきんだま
+Feather Balls
+フェザーボール
+Wing Balls
+ウイングボール
+Jet Balls
+ジェットボール
+Leaden Balls
+メガトンボール
+Gigaton Balls
+ギガトンボール
+Origin Balls
+オリジンボール
+Strange Balls
+ストレンジボール
+Auspicious Armors
+イワイノヨロイ
+Malicious Armors
+ノロイノヨロイ
+Scroll of Darkness
+あくのかけじく
+Scroll of Waters
+みずのかけじく
+Leader's Crests
+かしらのしるし
+Booster Energies
+ブーストエナジー
+Ability Shields
+とくせいガード
+Clear Amulets
+クリアチャーム
+Mirror Herbs
+ものまねハーブ
+Punching Gloves
+パンチグローブ
+Covert Cloaks
+おんみつマント
+Loaded Dices
+いかさまダイス
+Gimmighoul Coins
+コレクレーのコイン
+Tiny Bamboo Shoots
+ちいさなタケノコ
+Big Bamboo Shoots
+おおきなタケノコ
+Rotom Phones
+スマホロトム
+Scarlet Books
+スカーレットブック
+Violet Books
+バイオレットブック
+Health Mochi
+たいりょくのもち
+Muscle Mochi
+きんりょくのもち
+Resist Mochi
+ていこうのもち
+Genius Mochi
+ちりょくのもち
+Clever Mochi
+せいしんのもち
+Swift Mochi
+しゅんぱつのもち
+Fresh-Start Mochi
+まっさらもち
+Fairy Feathers
+ようせいのハネ
+Syrupy Apples
+みついりりんご
+Unremarkable Teacups
+ボンサクのちゃわん
+Masterpiece Teacups
+ケッサクのちゃわん
+Wellspring Masks
+いどのめん
+Hearthflame Masks
+かまどのめん
+Cornerstone Masks
+いしずえのめん
+Teal Masks
+みどりのめん
+Metal Alloys
+ふくごうきんぞく
+Indigo Disks
+あいいろのえんばん
+Mythical Pecha Berries
+まぼろしのモモンのみ
+Synchro Machines
+シンクロマシン
+Meteorites
+いんせき
+Briar's Books
+ブライアのほん
+Booster Packs
+カードパック
+Legend Packs
+レジェンドパック
+Red Scales
+あかいウロコ
+Cool Blocks
+クールブロック
+Great Cool Blocks
+グレートクールブロック
+Ultra Cool Blocks
+ウルトラクールブロック
+Beauty Blocks
+ビューティブロック
+Great Beauty Blocks
+グレートビューティブロック
+Ultra Beauty Blocks
+ウルトラビューティブロック
+Cute Blocks
+キュートブロック
+Great Cute Blocks
+グレートキュートブロック
+Ultra Cute Blocks
+ウルトラキュートブロック
+Smart Blocks
+スマートブロック
+Great Smart Blocks
+グレートスマートブロック
+Ultra Smart Blocks
+ウルトラスマートブロック
+Tough Blocks
+タフブロック
+Great Tough Blocks
+グレートタフブロック
+Ultra Tough Blocks
+ウルトラタフブロック
+Faster Shoes
+はやいくつ
+Gauntlets
+ガントレット
+Machettes
+マチェーテ
+Surf Boards
+サーフボード
+Wing Suits
+ウイングスーツ
+Floaties
+うきわ
+Heavy Rocks
+おもいいし
+Umbrellas
+かさ
+Flashlights
+かいちゅうでんとう
+Form Prisms
+フォルムプリズム
+Exp. Alls
+ぜんいん がくしゅうそうち
+Blood Shards
+ちのかけら
+Blood Ball Tops
+ブラッドボールのうえ
+Blood Ball Bottoms
+ブラッドボールのした
+Repels
+むしよけスプレー
+Super Repels
+シルバースプレー
+Max Repels
+ゴールドスプレー
+Black Flutes
+くろいビードロ
+White Flutes
+しろいビードロ
+Honey
+あまいミツ
+Red Shards
+あかいかけら
+Yellow Shards
+きいろいかけら
+Blue Shards
+あおいかけら
+Green Shards
+みどりのかけら
+Fire Stones
+ほのおのいし
+Thunder Stones
+かみなりのいし
+Water Stones
+みずのいし
+Leaf Stones
+リーフのいし
+Moon Stones
+つきのいし
+Sun Stones
+たいようのいし
+Dusk Stones
+やみのいし
+Dawn Stones
+めざめいし
+Shiny Stones
+ひかりのいし
+Ice Stones
+こおりのいし
+Sweet Apples
+あまーいりんご
+Tart Apples
+すっぱいりんご
+Cracked Pots
+われたポット
+Chipped Pots
+かけたポット
+Galarica Cuffs
+ガラナツブレス
+Galarica Wreaths
+ガラナツリース
+Red Apricorns
+あかぼんぐり
+Yellow Apricorns
+きぼんぐり
+Blue Apricorns
+あおぼんぐり
+Green Apricorns
+みどぼんぐり
+Pink Apricorns
+ももぼんぐり
+White Apricorns
+しろぼんぐり
+Black Apricorns
+くろぼんぐり
+Helix Fossils
+かいのカセキ
+Dome Fossils
+こうらのカセキ
+Old Ambers
+ひみつのコハク
+Root Fossils
+ねっこのカセキ
+Claw Fossils
+ツメのカセキ
+Skull Fossils
+ずがいのカセキ
+Armor Fossils
+たてのカセキ
+Cover Fossils
+ふたのカセキ
+Plume Fossils
+はねのカセキ
+Jaw Fossils
+アゴのカセキ
+Sail Fossils
+ヒレのカセキ
+Fossilized Birds
+カセキのトリ
+Fossilized Fish
+カセキのサカナ
+Fossilized Drakes
+カセキのリュウ
+Fossilized Dinos
+カセキのクビナガ
+Pretty Feathers
+きれいなハネ
+Tiny Mushrooms
+ちいさなキノコ
+Big Mushrooms
+おおきなキノコ
+Balm Mushrooms
+かおるキノコ
+Pearls
+しんじゅ
+Big Pearls
+おおきなしんじゅ
+Pearl Strings
+おだんごしんじゅ
+Stardusts
+ほしのすな
+Star Pieces
+ほしのかけら
+Comet Shards
+すいせいのかけら
+Nuggets
+きんのたま
+Big Nuggets
+でかいきんのたま
+Heart Scales
+ハートのウロコ
+Slowpoke Tails
+おいしいシッポ
+Rare Bones
+きちょうなホネ
+Relic Coppers
+こだいのどうか
+Relic Silvers
+こだいのぎんか
+Relic Golds
+こだいのきんか
+Relic Vases
+こだいのツボ
+Relic Bands
+こだいのうでわ
+Relic Statues
+こだいのせきぞう
+Relic Crowns
+こだいのおうかん
+Growth Mulch
+すくすくこやし
+Damp Mulch
+じめじめこやし
+Stable Mulch
+ながながこやし
+Gooey Mulch
+ねばねばこやし
+Shoal Salts
+あさせのしお
+Shoal Shells
+あさせのかいがら
+Odd Keystones
+かなめいし
+Red Nectars
+くれないのミツ
+Yellow Nectars
+やまぶきのミツ
+Pink Nectars
+うすもものミツ
+Purple Nectars
+むらさきのミツ
+Air Balloons
+ふうせん
+Bright Powders
+ひかりのこな
+Eviolites
+しんかのきせき
+Float Stones
+かるいし
+Destiny Knots
+あかいいと
+Rocky Helmets
+ゴツゴツメット
+Assault Vests
+とつげきチョッキ
+Safety Goggles
+ぼうじんゴーグル
+Protective Pads
+ぼうごパット
+Heavy-Duty Boots
+あつぞこブーツ
+Utility Umbrellas
+ばんのうがさ
+Eject Buttons
+だっしゅつボタン
+Eject Packs
+だっしゅつパック
+Red Cards
+レッドカード
+Shed Shells
+きれいなぬけがら
+Smoke Balls
+けむりだま
+Lucky Eggs
+しあわせタマゴ
+Exp. Shares
+がくしゅうそうち
+Amulet Coins
+おまもりこばん
+Soothe Bells
+やすらぎのすず
+Cleanse Tags
+きよめのおふだ
+Choice Bands
+こだわりハチマキ
+Choice Specs
+こだわりメガネ
+Choice Scarves
+こだわりスカーフ
+Heat Rocks
+あついいわ
+Damp Rocks
+しめったいわ
+Smooth Rocks
+さらさらいわ
+Icy Rocks
+つめたいいわ
+Terrain Extenders
+グランドコート
+Light Clays
+ひかりのねんど
+Grip Claws
+ねばりのかぎづめ
+Binding Bands
+しめつけバンド
+Big Roots
+おおきなねっこ
+Black Sludges
+くろいヘドロ
+Leftovers
+たべのこし
+Shell Bells
+かいがらのすず
+Mental Herbs
+メンタルハーブ
+White Herbs
+しろいハーブ
+Power Herbs
+パワフルハーブ
+Absorb Bulbs
+きゅうこん
+Cell Batteries
+じゅうでんち
+Luminous Moss
+ひかりごけ
+Snowballs
+ゆきだま
+Weakness Policies
+じゃくてんほけん
+Blunder Policies
+からぶりほけん
+Throat Sprays
+のどスプレー
+Adrenaline Orbs
+ビビリだま
+Room Services
+ルームサービス
+Electric Seeds
+エレキシード
+Grassy Seeds
+グラスシード
+Misty Seeds
+ミストシード
+Psychic Seeds
+サイコシード
+Life Orbs
+いのちのたま
+Expert Belts
+たつじんのおび
+Metronomes
+メトロノーム
+Muscle Bands
+ちからのハチマキ
+Wise Glasses
+ものしりメガネ
+Razor Claws
+するどいツメ
+Scope Lenses
+ピントレンズ
+Wide Lenses
+こうかくレンズ
+Zoom Lenses
+フォーカスレンズ
+King's Rocks
+おうじゃのしるし
+Razor Fangs
+するどいキバ
+Lagging Tails
+こうこうのしっぽ
+Quick Claws
+せんせいのツメ
+Focus Bands
+きあいのハチマキ
+Focus Sashes
+きあいのタスキ
+Flame Orbs
+かえんだま
+Toxic Orbs
+どくどくだま
+Sticky Barbs
+くっつきバリ
+Iron Balls
+くろいてっきゅう
+Ring Targets
+ねらいのまと
+Macho Braces
+きょうせいギプス
+Power Weights
+パワーウエイト
+Power Bracers
+パワーリスト
+Power Belts
+パワーベルト
+Power Lenses
+パワーレンズ
+Power Bands
+パワーバンド
+Power Anklets
+パワーアンクル
+Lax Incenses
+のんきのおこう
+Full Incenses
+まんぷくおこう
+Luck Incenses
+こううんのおこう
+Pure Incenses
+きよめのおこう
+Sea Incenses
+うしおのおこう
+Wave Incenses
+さざなみのおこう
+Rose Incenses
+おはなのおこう
+Odd Incenses
+あやしいおこう
+Rock Incenses
+がんせきおこう
+Charcoals
+もくたん
+Mystic Waters
+しんぴのしずく
+Magnets
+じしゃく
+Miracle Seeds
+きせきのタネ
+Never-Melt Ices
+とけないこおり
+Black Belts
+くろおび
+Poison Barbs
+どくバリ
+Soft Sand
+やわらかいすな
+Sharp Beaks
+するどいくちばし
+Twisted Spoons
+まがったスプーン
+Silver Powders
+ぎんのこな
+Hard Stones
+かたいいし
+Spell Tags
+のろいのおふだ
+Dragon Fangs
+りゅうのキバ
+Black Glasses
+くろいメガネ
+Metal Coats
+メタルコート
+Silk Scarves
+シルクのスカーフ
+Flame Plates
+ひのたまプレート
+Splash Plates
+しずくプレート
+Zap Plates
+いかずちプレート
+Meadow Plates
+みどりのプレート
+Icicle Plates
+つららのプレート
+Fist Plates
+こぶしのプレート
+Toxic Plates
+もうどくプレート
+Earth Plates
+だいちのプレート
+Sky Plates
+あおぞらプレート
+Mind Plates
+ふしぎのプレート
+Insect Plates
+たまむしプレート
+Stone Plates
+がんせきプレート
+Spooky Plates
+もののけプレート
+Draco Plates
+りゅうのプレート
+Dread Plates
+こわもてプレート
+Iron Plates
+こうてつプレート
+Pixie Plates
+せいれいプレート
+Fire Gems
+ほのおのジュエル
+Water Gems
+みずのジュエル
+Electric Gems
+でんきのジュエル
+Grass Gems
+くさのジュエル
+Ice Gems
+こおりのジュエル
+Fighting Gems
+かくとうジュエル
+Poison Gems
+どくのジュエル
+Ground Gems
+じめんのジュエル
+Flying Gems
+ひこうのジュエル
+Psychic Gems
+エスパージュエル
+Bug Gems
+むしのジュエル
+Rock Gems
+いわのジュエル
+Ghost Gems
+ゴーストジュエル
+Dragon Gems
+ドラゴンジュエル
+Dark Gems
+あくのジュエル
+Steel Gems
+はがねのジュエル
+Fairy Gems
+ようせいジュエル
+Normal Gems
+ノーマルジュエル
+Light Balls
+でんきだま
+Lucky Punches
+ラッキーパンチ
+Metal Powders
+メタルパウダー
+Quick Powders
+スピードパウダー
+Thick Clubs
+ふといホネ
+Leeks
+ながねぎ
+Soul Dews
+こころのしずく
+Deep Sea Teeth
+しんかいのキバ
+Deep Sea Scales
+しんかいのウロコ
+Adamant Orbs
+こんごうだま
+Lustrous Orbs
+しらたま
+Griseous Orbs
+はっきんだま
+Rusted Swords
+くちたけん
+Rusted Shields
+くちたたて
+Douse Drives
+アクアカセット
+Shock Drives
+イナズマカセット
+Burn Drives
+ブレイズカセット
+Chill Drives
+フリーズカセット
+Fire Memories
+ファイヤーメモリ
+Water Memories
+ウオーターメモリ
+Electric Memories
+エレクトロメモリ
+Grass Memories
+グラスメモリ
+Ice Memories
+アイスメモリ
+Fighting Memories
+ファイトメモリ
+Poison Memories
+ポイズンメモリ
+Ground Memories
+グラウンドメモリ
+Flying Memories
+フライングメモリ
+Psychic Memories
+サイキックメモリ
+Bug Memories
+バグメモリ
+Rock Memories
+ロックメモリ
+Ghost Memories
+ゴーストメモリ
+Dragon Memories
+ドラゴンメモリ
+Dark Memories
+ダークメモリ
+Steel Memories
+スチールメモリ
+Fairy Memories
+フェアリーメモリ
+Everstones
+かわらずのいし
+Dragon Scales
+りゅうのウロコ
+Upgrades
+アップグレード
+Dubious Discs
+あやしいパッチ
+Protectors
+プロテクター
+Electirizers
+エレキブースター
+Magmarizers
+マグマブースター
+Reaper Cloths
+れいかいのぬの
+Prism Scales
+きれいなウロコ
+Oval Stones
+まんまるいし
+Whipped Dreams
+ホイップポップ
+Sachets
+においぶくろ
+Strawberry Sweets
+いちごアメざいく
+Love Sweets
+ハートアメざいく
+Berry Sweets
+ベリーアメざいく
+Clover Sweets
+よつばアメざいく
+Flower Sweets
+おはなアメざいく
+Star Sweets
+スターアメざいく
+Ribbon Sweets
+リボンアメざいく
+Venusaurites
+フシギバナイト
+Charizardite Xs
+リザードナイトX
+Charizardite Ys
+リザードナイトY
+Blastoisinites
+カメックスナイト
+Beedrillites
+スピアナイト
+Pidgeotites
+ピジョットナイト
+Alakazites
+フーディナイト
+Slowbronites
+ヤドランナイト
+Gengarites
+ゲンガナイト
+Kangaskhanites
+ガルーラナイト
+Pinsirites
+カイロスナイト
+Gyaradosites
+ギャラドスナイト
+Aerodactylites
+プテラナイト
+Mewtwonite Xs
+ミュウツナイトX
+Mewtwonite Ys
+ミュウツナイトY
+Ampharosites
+デンリュウナイト
+Steelixites
+ハガネールナイト
+Scizorites
+ハッサムナイト
+Heracronites
+ヘラクロスナイト
+Houndoominites
+ヘルガナイト
+Tyranitarites
+バンギラスナイト
+Sceptilites
+ジュカインナイト
+Blazikenites
+バシャーモナイト
+Swampertites
+ラグラージナイト
+Gardevoirites
+サーナイトナイト
+Sablenites
+ヤミラミナイト
+Mawilites
+クチートナイト
+Aggronites
+ボスゴドラナイト
+Medichamites
+チャーレムナイト
+Manectites
+ライボルトナイト
+Sharpedonites
+サメハダナイト
+Cameruptites
+バクーダナイト
+Altarianites
+チルタリスナイト
+Banettites
+ジュペッタナイト
+Absolites
+アブソルナイト
+Glalitites
+オニゴーリナイト
+Salamencites
+ボーマンダナイト
+Metagrossites
+メタグロスナイト
+Latiasites
+ラティアスナイト
+Latiosites
+ラティオスナイト
+Lopunnites
+ミミロップナイト
+Garchompites
+ガブリアスナイト
+Lucarionites
+ルカリオナイト
+Abomasites
+ユキノオナイト
+Galladites
+エルレイドナイト
+Audinites
+タブンネナイト
+Diancites
+ディアンシナイト
+Red Orbs
+べにいろのたま
+Blue Orbs
+あいいろのたま
+Potions
+キズぐすり
+Super Potions
+いいキズぐすり
+Hyper Potions
+すごいキズぐすり
+Max Potions
+まんたんのくすり
+Full Restores
+かいふくのくすり
+Sacred Ashes
+せいなるはい
+Awakenings
+ねむけざまし
+Antidotes
+どくけし
+Burn Heals
+やけどなおし
+Paralyze Heals
+まひなおし
+Ice Heals
+こおりなおし
+Full Heals
+なんでもなおし
+Pewter Crunchies
+ニビあられ
+Rage Candy Bars
+いかりまんじゅう
+Lava Cookies
+フエンせんべい
+Old Gateaux
+もりのヨウカン
+Casteliacones
+ヒウンアイス
+Lumiose Galettes
+ミアレガレット
+Shalour Sables
+シャラサブレ
+Big Malasadas
+おおきいマラサダ
+Revives
+げんきのかけら
+Max Revives
+げんきのかたまり
+Berry Juices
+きのみジュース
+Sweet Hearts
+ハートスイーツ
+Fresh Waters
+おいしいみず
+Soda Pops
+サイコソーダ
+Lemonades
+ミックスオレ
+Moomoo Milks
+モーモーミルク
+Energy Powders
+ちからのこな
+Energy Roots
+ちからのねっこ
+Heal Powders
+ばんのうごな
+Revival Herbs
+ふっかつそう
+Max Honeys
+ダイミツ
+Ethers
+ピーピーエイド
+Max Ethers
+ピーピーリカバー
+Elixirs
+ピーピーエイダー
+Max Elixirs
+ピーピーマックス
+PP Ups
+ポイントアップ
+PP Maxes
+ポイントマックス
+HP Ups
+マックスアップ
+Proteins
+タウリン
+Irons
+ブロムヘキシン
+Calciums
+リゾチウム
+Zincs
+キトサン
+Carbos
+インドメタシン
+Health Feathers
+たいりょくのハネ
+Muscle Feathers
+きんりょくのハネ
+Resist Feathers
+ていこうのハネ
+Genius Feathers
+ちりょくのハネ
+Clever Feathers
+せいしんのハネ
+Swift Feathers
+しゅんぱつのハネ
+Lonely Mints
+さみしがりミント
+Adamant Mints
+いじっぱりミント
+Naughty Mints
+やんちゃミント
+Brave Mints
+ゆうかんミント
+Bold Mints
+ずぶといミント
+Impish Mints
+わんぱくミント
+Lax Mints
+のうてんきミント
+Relaxed Mints
+のんきミント
+Modest Mints
+ひかえめミント
+Mild Mints
+おっとりミント
+Rash Mints
+うっかりやミント
+Quiet Mints
+れいせいミント
+Calm Mints
+おだやかミント
+Gentle Mints
+おとなしいミント
+Careful Mints
+しんちょうミント
+Sassy Mints
+なまいきミント
+Timid Mints
+おくびょうミント
+Hasty Mints
+せっかちミント
+Jolly Mints
+ようきミント
+Naive Mints
+むじゃきミント
+Serious Mints
+まじめミント
+Ability Capsule
+とくせいカプセル
+Ability Patches
+とくせいパッチ
+Exp. Candy XSs
+けいけんアメXS
+Exp. Candy Ss
+けいけんアメS
+Exp. Candy Ms
+けいけんアメM
+Exp. Candy Ls
+けいけんアメL
+Exp. Candy XLs
+けいけんアメXL
+Rare Candies
+ふしぎなアメ
+Master Balls
+マスターボール
+Ultra Balls
+ハイパーボール
+Great Balls
+スーパーボール
+Poké Balls
+モンスターボール
+Safari Balls
+サファリボール
+Sport Balls
+コンペボール
+Net Balls
+ネットボール
+Dive Balls
+ダイブボール
+Nest Balls
+ネストボール
+Repeat Balls
+リピートボール
+Timer Balls
+タイマーボール
+Luxury Balls
+ゴージャスボール
+Premier Balls
+プレミアボール
+Dusk Balls
+ダークボール
+Heal Balls
+ヒールボール
+Quick Balls
+クイックボール
+Cherish Balls
+プレシャスボール
+Fast Balls
+スピードボール
+Level Balls
+レベルボール
+Lure Balls
+ルアーボール
+Heavy Balls
+ヘビーボール
+Love Balls
+ラブラブボール
+Friend Balls
+フレンドボール
+Moon Balls
+ムーンボール
+Dream Balls
+ドリームボール
+Beast Balls
+ウルトラボール
+TM01s
+わざマシン01
+TM02s
+わざマシン02
+TM03s
+わざマシン03
+TM04s
+わざマシン04
+TM05s
+わざマシン05
+TM06s
+わざマシン06
+TM07s
+わざマシン07
+TM08s
+わざマシン08
+TM09s
+わざマシン09
+TM10s
+わざマシン10
+TM11s
+わざマシン11
+TM12s
+わざマシン12
+TM13s
+わざマシン13
+TM14s
+わざマシン14
+TM15s
+わざマシン15
+TM16s
+わざマシン16
+TM17s
+わざマシン17
+TM18s
+わざマシン18
+TM19s
+わざマシン19
+TM20s
+わざマシン20
+TM21s
+わざマシン21
+TM22s
+わざマシン22
+TM23s
+わざマシン23
+TM24s
+わざマシン24
+TM25s
+わざマシン25
+TM26s
+わざマシン26
+TM27s
+わざマシン27
+TM28s
+わざマシン28
+TM29s
+わざマシン29
+TM30s
+わざマシン30
+TM31s
+わざマシン31
+TM32s
+わざマシン32
+TM33s
+わざマシン33
+TM34s
+わざマシン34
+TM35s
+わざマシン35
+TM36s
+わざマシン36
+TM37s
+わざマシン37
+TM38s
+わざマシン38
+TM39s
+わざマシン39
+TM40s
+わざマシン40
+TM41s
+わざマシン41
+TM42s
+わざマシン42
+TM43s
+わざマシン43
+TM44s
+わざマシン44
+TM45s
+わざマシン45
+TM46s
+わざマシン46
+TM47s
+わざマシン47
+TM48s
+わざマシン48
+TM49s
+わざマシン49
+TM50s
+わざマシン50
+TM51s
+わざマシン51
+TM52s
+わざマシン52
+TM53s
+わざマシン53
+TM54s
+わざマシン54
+TM55s
+わざマシン55
+TM56s
+わざマシン56
+TM57s
+わざマシン57
+TM58s
+わざマシン58
+TM59s
+わざマシン59
+TM60s
+わざマシン60
+TM61s
+わざマシン61
+TM62s
+わざマシン62
+TM63s
+わざマシン63
+TM64s
+わざマシン64
+TM65s
+わざマシン65
+TM66s
+わざマシン66
+TM67s
+わざマシン67
+TM68s
+わざマシン68
+TM69s
+わざマシン69
+TM70s
+わざマシン70
+TM71s
+わざマシン71
+TM72s
+わざマシン72
+TM73s
+わざマシン73
+TM74s
+わざマシン74
+TM75s
+わざマシン75
+TM76s
+わざマシン76
+TM77s
+わざマシン77
+TM78s
+わざマシン78
+TM79s
+わざマシン79
+TM80s
+わざマシン80
+TM81s
+わざマシン81
+TM82s
+わざマシン82
+TM83s
+わざマシン83
+TM84s
+わざマシン84
+TM85s
+わざマシン85
+TM86s
+わざマシン86
+TM87s
+わざマシン87
+TM88s
+わざマシン88
+TM89s
+わざマシン89
+TM90s
+わざマシン90
+TM91s
+わざマシン91
+TM92s
+わざマシン92
+TM93s
+わざマシン93
+TM94s
+わざマシン94
+TM95s
+わざマシン95
+TM96s
+わざマシン96
+TM97s
+わざマシン97
+TM98s
+わざマシン98
+TM99s
+わざマシン99
+TM100s
+わざマシン100
+HM01s
+ひでんマシン01
+HM02s
+ひでんマシン02
+HM03s
+ひでんマシン03
+HM04s
+ひでんマシン04
+HM05s
+ひでんマシン05
+HM06s
+ひでんマシン06
+Cheri Berries
+クラボのみ
+Chesto Berries
+カゴのみ
+Pecha Berries
+モモンのみ
+Rawst Berries
+チーゴのみ
+Aspear Berries
+ナナシのみ
+Leppa Berries
+ヒメリのみ
+Oran Berries
+オレンのみ
+Persim Berries
+キーのみ
+Lum Berries
+ラムのみ
+Sitrus Berries
+オボンのみ
+Figy Berries
+フィラのみ
+Wiki Berries
+ウイのみ
+Mago Berries
+マゴのみ
+Aguav Berries
+バンジのみ
+Iapapa Berries
+イアのみ
+Razz Berries
+ズリのみ
+Bluk Berries
+ブリーのみ
+Nanab Berries
+ナナのみ
+Wepear Berries
+セシナのみ
+Pinap Berries
+パイルのみ
+Pomeg Berries
+ザロクのみ
+Kelpsy Berries
+ネコブのみ
+Qualot Berries
+タポルのみ
+Hondew Berries
+ロメのみ
+Grepa Berries
+ウブのみ
+Tamato Berries
+マトマのみ
+Cornn Berries
+モコシのみ
+Magost Berries
+ゴスのみ
+Rabuta Berries
+ラブタのみ
+Nomel Berries
+ノメルのみ
+Spelon Berries
+ノワキのみ
+Pamtre Berries
+シーヤのみ
+Watmel Berries
+カイスのみ
+Durin Berries
+ドリのみ
+Belue Berries
+ベリブのみ
+Occa Berries
+オッカのみ
+Passho Berries
+イトケのみ
+Wacan Berries
+ソクノのみ
+Rindo Berries
+リンドのみ
+Yache Berries
+ヤチェのみ
+Chople Berries
+ヨプのみ
+Kebia Berries
+ビアーのみ
+Shuca Berries
+シュカのみ
+Coba Berries
+バコウのみ
+Payapa Berries
+ウタンのみ
+Tanga Berries
+タンガのみ
+Charti Berries
+ヨロギのみ
+Kasib Berries
+カシブのみ
+Haban Berries
+ハバンのみ
+Colbur Berries
+ナモのみ
+Babiri Berries
+リリバのみ
+Roseli Berries
+ロゼルのみ
+Chilan Berries
+ホズのみ
+Liechi Berries
+チイラのみ
+Ganlon Berries
+リュガのみ
+Salac Berries
+カムラのみ
+Petaya Berries
+ヤタピのみ
+Apicot Berries
+ズアのみ
+Lansat Berries
+サンのみ
+Starf Berries
+スターのみ
+Enigma Berries
+ナゾのみ
+Micle Berries
+ミクルのみ
+Custap Berries
+イバンのみ
+Jaboca Berries
+ジャポのみ
+Rowap Berries
+レンブのみ
+Kee Berries
+アッキのみ
+Maranga Berries
+タラプのみ
+Grass Mail
+グラスメール
+Flame Mail
+フレイムメール
+Bubble Mail
+ブルーメール
+Bloom Mail
+ブルームメール
+Tunnel Mail
+トンネルメール
+Steel Mail
+スチールメール
+Heart Mail
+ラブラブメール
+Snow Mail
+ブリザードメール
+Space Mail
+スペースメール
+Air Mail
+エアメール
+Mosaic Mail
+モザイクメール
+Brick Mail
+ブリックメール
+X Attacks
+プラスパワー
+X Attack 2s
+プラスパワー2
+X Attack 3s
+プラスパワー3
+X Attack 6s
+プラスパワー6
+X Defenses
+ディフェンダー
+X Defense 2s
+ディフェンダー2
+X Defense 3s
+ディフェンダー3
+X Defense 6s
+ディフェンダー6
+X Sp. Atks
+スペシャルアップ
+X Sp. Atk 2s
+SPアップ2
+X Sp. Atk 3s
+SPアップ3
+X Sp. Atk 6s
+SPアップ6
+X Sp. Defs
+スペシャルガード
+X Sp. Def 2s
+SPガード2
+X Sp. Def 3s
+SPガード3
+X Sp. Def 6s
+SPガード6
+X Speeds
+スピーダー
+X Speed 2s
+スピーダー2
+X Speed 3s
+スピーダー3
+X Speed 6s
+スピーダー6
+X Accuracies
+ヨクアタール
+X Accuracy 2s
+ヨクアタール2
+X Accuracy 3s
+ヨクアタール3
+X Accuracy 6s
+ヨクアタール6
+Max Mushrooms
+ダイキノコ
+Dire Hits
+クリティカット
+Dire Hit 2s
+クリティカット2
+Dire Hit 3s
+クリティカット3
+Guard Specs.
+エフェクトガード
+Reset Urges
+フラットコール
+Ability Urges
+スキルコール
+Item Urges
+アイテムコール
+Item Drops
+アイテムドロップ
+Blue Flutes
+あおいビードロ
+Yellow Flutes
+きいろビードロ
+Red Flutes
+あかいビードロ
+Poké Dolls
+ピッピにんぎょう
+Fluffy Tails
+エネコのシッポ
+Poké Toys
+ポケじゃらし
+Bicycles
+じてんしゃ
+Old Rods
+ボロのつりざお
+Good Rods
+いいつりざお
+Super Rods
+すごいつりざお
+Itemfinders
+ダウジングマシン
+Dowsing Machines
+ダウジングマシン
+Poké Radars
+ポケトレ
+Town Maps
+タウンマップ
+Escape Ropes
+あなぬけのヒモ
+Coin Cases
+コインケース
+Poké Flutes
+ポケモンのふえ
+Soot Sacks
+はいぶくろ
+Silph Scopes
+シルフスコープ
+Devon Scopes
+デボンスコープ
+Squirt Bottles
+ゼニガメじょうろ
+Sprayducks
+コダックじょうろ
+Wailmer Pails
+ホエルコじょうろ
+Sprinklotads
+ハスボーじょうろ
+Gracideas
+グラシデアのはな
+Reveal Glasses
+うつしかがみ
+Prison Bottles
+いましめのツボ
+Rotom Catalogs
+ロトムのカタログ
+Zygarde Cubes
+ジガルデキューブ
+DNA Splicers
+いでんしのくさび
+N-Solarizers
+ネクロプラスソル
+N-Lunarizers
+ネクロプラスルナ
+Reins of Unity
+キズナのタヅナ
+Oval Charms
+まるいおまもり
+Shiny Charms
+ひかるおまもり
+Catching Charms
+ゆれないおまもり
+Exp. Charms
+けいけんおまもり
+Mega Rings
+メガリング
+Aurora Tickets
+オーロラチケット
+Old Sea Maps
+ふるびたかいず

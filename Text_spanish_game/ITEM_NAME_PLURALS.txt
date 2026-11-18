@@ -10,6 +10,8 @@ Battle Candy Ms
 Caramelos Combate M
 Battle Candy Ls
 Caramelos Combate L
+Blood Balls
+Sangre Balls
 GS Balls
 GS Balls
 Plip Balls
@@ -210,6 +212,16 @@ Umbrellas
 Paraguas
 Flashlights
 Linternas
+Form Prisms
+Prismas Forma
+Exp. Alls
+Repartir Exp Total
+Blood Shards
+Fragmentos de Sangre
+Blood Ball Tops
+Mitades Superiores de Sangre Ball
+Blood Ball Bottoms
+Mitades Inferiores de Sangre Ball
 Repels
 Repelentes
 Super Repels

@@ -270,6 +270,24 @@ Ghost
 Ghost
 Ghostly
 Ghostly
+Shadow Lugia
+Shadow Lugia
+Demon
+Demônio
+Blood Mewtwo
+Mewtwo Sangrento
+Blood Celebi
+Celebi Sangrento
+Blood Meloetta
+Meloetta Sangrento
+Blood Deoxys
+Deoxys Sangrento
+Sapusaur
+Sapusaur
+Charcolt
+Charcolt
+Rainer
+Rainer
 Bulbasaur
 Bulbasaur
 Ivysaur

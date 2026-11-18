@@ -1,0 +1,360 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+イントロ
+New Bark Town
+ワカバタウン
+\PN's House
+\PNの いえ
+\PN's Room
+\PNの へや
+House 1
+いえ 1
+House 2
+いえ 2
+Elm's Pokémon Lab
+ウツギ ポケモン けんきゅうじょ
+Route 29
+29ばんどうろ
+Kurt's House
+ガンテツの いえ
+Goldenrod City
+コガネシティ
+PokéCom Center
+ポケコムセンター
+Pokémon Gym
+ポケモンジム
+Pokémon Institute
+ポケモン けんきゅうじょ
+Underground Path
+ちかつうろ
+Underground North Entrance
+ちかつうろ きた いりぐち
+Underground South Entrance
+ちかつうろ みなみ いりぐち
+Game Corner
+ゲームコーナー
+Goldenrod Dept. 1F
+コガネデパート 1かい
+Goldenrod Dept. 2F
+コガネデパート 2かい
+Goldenrod Dept. 3F
+コガネデパート 3かい
+Goldenrod Dept. 4F
+コガネデパート 4かい
+Goldenrod Dept. 5F
+コガネデパート 5かい
+Goldenrod Dept. 6F
+コガネデパート 6かい
+Goldenrod Dept. Elevator
+コガネデパート エレベーター
+Bike Shop
+じてんしゃや
+Goldenrod Station
+コガネ リニアえき
+Radio Tower
+ラジオとう
+Radio Tower 2F
+ラジオとう 2かい
+Ilex Forest
+ウバメのもり
+Ilex Forest South. Ent.
+ウバメのもり みなみ いりぐち
+Ilex Forest North Ent.
+ウバメのもり きた いりぐち
+Mahogany Town
+チョウジタウン
+Mahogany Poké Center
+チョウジ ポケモンセンター
+Mahogany Poké Mart
+チョウジ フレンドリィショップ
+Mahogany Fan Club
+チョウジ だいすきクラブ
+Pokémon Day Care
+ポケモン そだてや
+National Park
+しぜんこうえん
+Park Entrance
+こうえん いりぐち
+Park Pavillion
+こうえん ほんぶ
+Route 30
+30ばんどうろ
+Ice Path
+こおりのぬけみち
+Route 31
+31ばんどうろ
+Union Cave
+つながりのどうくつ
+Union Cave -1F
+つながりのどうくつ ちか1かい
+Dungeon
+ダンジョン
+Route 28
+28ばんどうろ
+Underwater
+すいちゅう
+Verd Falls
+ヴェルドたき
+Indigo Plateau Entrance
+セキエイこうげん いりぐち
+Indigo Plateau
+セキエイこうげん
+Pokémon League
+ポケモンリーグ
+Champion's Room
+チャンピオンの へや
+Hall of Fame
+でんどういり
+Battle Frontier
+バトルフロンティア
+Frontier Poké Center
+フロンティア ポケモンセンター
+Frontier Mart
+フロンティア ショップ
+Battle Tower
+バトルタワー
+Battle Tower Arena
+バトルタワー アリーナ
+Stadium Cup Lobby
+スタジアムカップ ロビー
+Battle Palace
+バトルパレス
+Battle Palace Arena
+バトルパレス アリーナ
+Battle Arena
+バトルアリーナ
+Battle Arena Arena
+バトルアリーナ かいじょう
+Battle Factory
+バトルファクトリー
+Battle Factory Corridor
+バトルファクトリー ろうか
+Battle Factory Arena
+バトルファクトリー アリーナ
+Battle Factory Corridor 2
+バトルファクトリー ろうか 2
+Battle Frontier Entrance
+バトルフロンティア いりぐち
+Saffron City
+ヤマブキシティ
+Saffron Poké Center
+ヤマブキ ポケモンセンター
+Saffron Mart
+ヤマブキ フレンドリィショップ
+Saffron Station
+ヤマブキ リニアえき
+Route 24
+24ばんどうろ
+Cycling Road Gate
+サイクリングロード ゲート
+Route 25
+25ばんどうろ
+Route 26
+26ばんどうろ
+Vermillion City
+クチバシティ
+Vermillion Poké Center
+クチバ ポケモンセンター
+Vermillion Mart
+クチバ フレンドリィショップ
+Oak's Pokémon Lab
+オーキド ポケモン けんきゅうじょ
+Harbour
+みなと
+Safari Zone
+サファリゾーン
+Safari Zone Gate
+サファリゾーン ゲート
+Route 27
+27ばんどうろ
+Daroxy Island
+ダロキシーとう
+Faraday Island
+ファラデーとう
+NEW BARK TOWN
+ワカバタウン
+ROUTE 29
+29ばんどうろ
+CHERRYGROVE CITY
+ヨシノシティ
+ROUTE 30
+30ばんどうろ
+ROUTE 31
+31ばんどうろ
+VIOLET CITY
+キキョウシティ
+ROUTE 32
+32ばんどうろ
+ROUTE 33
+33ばんどうろ
+AZALEA TOWN
+ヒワダタウン
+ROUTE 34
+34ばんどうろ
+GOLDENROD CITY
+コガネシティ
+GTS
+GTS
+ROUTE 35
+35ばんどうろ
+ROUTE 36
+36ばんどうろ
+ROUTE 37
+37ばんどうろ
+ECRUTEAK CITY
+エンジュシティ
+ROUTE 38
+38ばんどうろ
+ROUTE 39
+39ばんどうろ
+OLIVINE CITY
+アサギシティ
+ROUTE 40
+40ばんどうろ
+BATTLE TOWER
+バトルタワー
+ROUTE 41
+41ばんどうろ
+CIANWOOD CITY
+タンバシティ
+ROUTE 42
+42ばんどうろ
+MAHOGANY TOWN
+チョウジタウン
+ROUTE 43
+43ばんどうろ
+LAKE OF RAGE
+いかりのみずうみ
+ROUTE 44
+44ばんどうろ
+BLACKTHORN CITY
+フスベシティ
+ROUTE 45
+45ばんどうろ
+ROUTE 46
+46ばんどうろ
+ROUTE 27
+27ばんどうろ
+ROUTE 26
+26ばんどうろ
+VIRIDIAN CITY
+トキワシティ
+ROUTE 1
+1ばんどうろ
+ROUTE 22
+22ばんどうろ
+PALLET TOWN
+マサラタウン
+ROUTE 2
+2ばんどうろ
+VIRIDIAN FOREST
+トキワのもり
+PEWTER CITY
+ニビシティ
+ROUTE 3
+3ばんどうろ
+ROUTE 4
+4ばんどうろ
+CERULEAN CITY
+ハナダシティ
+ROUTE 24
+24ばんどうろ
+ROUTE 25
+25ばんどうろ
+ROUTE 9
+9ばんどうろ
+ROUTE 10
+10ばんどうろ
+LAVENDER TOWN
+シオンタウン
+ROUTE 8
+8ばんどうろ
+ROUTE 5
+5ばんどうろ
+SAFFRON CITY
+ヤマブキシティ
+ROUTE 7
+7ばんどうろ
+CELADON CITY
+タマムシシティ
+ROUTE 16
+16ばんどうろ
+ROUTE 12
+12ばんどうろ
+ROUTE 13
+13ばんどうろ
+ROUTE 6
+6ばんどうろ
+VERMILION CITY
+クチバシティ
+ROUTE 11
+11ばんどうろ
+ROUTE 14
+14ばんどうろ
+ROUTE 15
+15ばんどうろ
+FUCHSIA CITY
+セキチクシティ
+ROUTE 18
+18ばんどうろ
+ROUTE 17
+17ばんどうろ
+ALTERNATE
+べつの ばしょ
+ROUTE 21
+21ばんどうろ
+ROUTE 19
+19ばんどうろ
+RUINS OF ALPH
+アルフのいせき
+DARK CAVE
+くらやみのほらあな
+UNION CAVE
+つながりのどうくつ
+SLOWPOKE WELL
+ヤドンのいど
+ILEX FOREST
+ウバメのもり
+NATIONAL PARK
+しぜんこうえん
+ICE PATH
+こおりのぬけみち
+DRAGON'S DEN
+りゅうのあな
+ROUTE 28
+28ばんどうろ
+MT. SILVER
+シロガネやま
+INDIGO PLATEAU
+セキエイこうげん
+DIGLETT'S CAVE
+ディグダのあな
+MT. MOON
+おつきみやま
+CERULEAN CAVE
+ハナダのどうくつ
+ROCK TUNNEL
+イワヤマトンネル
+SAFARI ZONE
+サファリゾーン
+Hidden area!
+かくれた ばしょ!
+Calling Grotto
+よびごえの あな
+Wa Wa WaterWay
+ワワ ウォーターウェイ
+Secret Area
+ひみつの ばしょ
+Between map
+あいだの マップ
+MAP477
+MAP477
+MAP479
+MAP479
+Bills secret garden
+マサキの ひみつの にわ
+New Dimention
+あたらしい じげん

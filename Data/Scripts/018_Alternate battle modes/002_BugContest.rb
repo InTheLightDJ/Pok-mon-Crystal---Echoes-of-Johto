@@ -81,7 +81,7 @@ class BugContestState
   def expired?
     return false if !undecided?
     return false if TIME_ALLOWED <= 0
-    return System.uptime - timer_start >= TIME_ALLOWED
+    return System.unscaled_uptime - timer_start >= TIME_ALLOWED
   end
 
   def clear
@@ -284,7 +284,7 @@ end
     @otherparty = []
     @lastPokemon = nil
     @lastContest = nil
-    @timer_start = System.uptime
+    @timer_start = System.unscaled_uptime
     @places = []
     chosenpkmn = $player.party[@chosenPokemon]
     $player.party.length.times do |i|
@@ -366,7 +366,7 @@ class TimerDisplay # :nodoc:
   end
 
   def update
-    time_left = @max_time - (System.uptime - @start_time).to_i
+    time_left = @max_time - (System.unscaled_uptime - @start_time).to_i
     time_left = 0 if time_left < 0
     if @display_time != time_left
       @display_time = time_left

@@ -1,0 +1,200 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_DESCRIPTIONS]
+This pokemon is a bug boss!
+この ポケモンは むしボス!
+Goes to the pokemon that beat a bug boss pokemon!
+むしボスを たおした ポケモンに おくられる!
+A ribbon for collecting all bugs in a sigle bug contest!
+1かいの むしとりたいかいで ぜんしゅるいの むしを あつめた あかし!
+Johto Performance Hall Cool Category Normal Rank winner!
+ジョウトの パフォーマンスホール かっこよさぶもん ノーマルランクで ゆうしょう!
+Johto Performance Hall Cool Category Super Rank winner!
+ジョウトの パフォーマンスホール かっこよさぶもん スーパーランクで ゆうしょう!
+Johto Performance Hall Cool Category Hyper Rank winner!
+ジョウトの パフォーマンスホール かっこよさぶもん ハイパーランクで ゆうしょう!
+Johto Performance Hall Cool Category Master Rank winner!
+ジョウトの パフォーマンスホール かっこよさぶもん マスターランクで ゆうしょう!
+Johto Performance Hall Beauty Category Normal Rank winner!
+ジョウトの パフォーマンスホール うつくしさぶもん ノーマルランクで ゆうしょう!
+Johto Performance Hall Beauty Category Super Rank winner!
+ジョウトの パフォーマンスホール うつくしさぶもん スーパーランクで ゆうしょう!
+Johto Performance Hall Beauty Category Hyper Rank winner!
+ジョウトの パフォーマンスホール うつくしさぶもん ハイパーランクで ゆうしょう!
+Johto Performance Hall Beauty Category Master Rank winner!
+ジョウトの パフォーマンスホール うつくしさぶもん マスターランクで ゆうしょう!
+Johto Performance Hall Cute Category Normal Rank winner!
+ジョウトの パフォーマンスホール かわいさぶもん ノーマルランクで ゆうしょう!
+Johto Performance Hall Cute Category Super Rank winner!
+ジョウトの パフォーマンスホール かわいさぶもん スーパーランクで ゆうしょう!
+Johto Performance Hall Cute Category Hyper Rank winner!
+ジョウトの パフォーマンスホール かわいさぶもん ハイパーランクで ゆうしょう!
+Johto Performance Hall Cute Category Master Rank winner!
+ジョウトの パフォーマンスホール かわいさぶもん マスターランクで ゆうしょう!
+Johto Performance Hall Smart Category Normal Rank winner!
+ジョウトの パフォーマンスホール かしこさぶもん ノーマルランクで ゆうしょう!
+Johto Performance Hall Smart Category Super Rank winner!
+ジョウトの パフォーマンスホール かしこさぶもん スーパーランクで ゆうしょう!
+Johto Performance Hall Smart Category Hyper Rank winner!
+ジョウトの パフォーマンスホール かしこさぶもん ハイパーランクで ゆうしょう!
+Johto Performance Hall Smart Category Master Rank winner!
+ジョウトの パフォーマンスホール かしこさぶもん マスターランクで ゆうしょう!
+Johto Performance Hall Tough Category Normal Rank winner!
+ジョウトの パフォーマンスホール たくましさぶもん ノーマルランクで ゆうしょう!
+Johto Performance Hall Tough Category Super Rank winner!
+ジョウトの パフォーマンスホール たくましさぶもん スーパーランクで ゆうしょう!
+Johto Performance Hall Tough Category Hyper Rank winner!
+ジョウトの パフォーマンスホール たくましさぶもん ハイパーランクで ゆうしょう!
+Johto Performance Hall Tough Category Master Rank winner!
+ジョウトの パフォーマンスホール たくましさぶもん マスターランクで ゆうしょう!
+Hoenn Cool Contest Normal Rank winner!
+ホウエンの コンテスト かっこよさぶもん ノーマルランクで ゆうしょう!
+Hoenn Cool Contest Super Rank winner!
+ホウエンの コンテスト かっこよさぶもん スーパーランクで ゆうしょう!
+Hoenn Cool Contest Hyper Rank winner!
+ホウエンの コンテスト かっこよさぶもん ハイパーランクで ゆうしょう!
+Hoenn Cool Contest Master Rank winner!
+ホウエンの コンテスト かっこよさぶもん マスターランクで ゆうしょう!
+Hoenn Beauty Contest Normal Rank winner!
+ホウエンの コンテスト うつくしさぶもん ノーマルランクで ゆうしょう!
+Hoenn Beauty Contest Super Rank winner!
+ホウエンの コンテスト うつくしさぶもん スーパーランクで ゆうしょう!
+Hoenn Beauty Contest Hyper Rank winner!
+ホウエンの コンテスト うつくしさぶもん ハイパーランクで ゆうしょう!
+Hoenn Beauty Contest Master Rank winner!
+ホウエンの コンテスト うつくしさぶもん マスターランクで ゆうしょう!
+Hoenn Cute Contest Normal Rank winner!
+ホウエンの コンテスト かわいさぶもん ノーマルランクで ゆうしょう!
+Hoenn Cute Contest Super Rank winner!
+ホウエンの コンテスト かわいさぶもん スーパーランクで ゆうしょう!
+Hoenn Cute Contest Hyper Rank winner!
+ホウエンの コンテスト かわいさぶもん ハイパーランクで ゆうしょう!
+Hoenn Cute Contest Master Rank winner!
+ホウエンの コンテスト かわいさぶもん マスターランクで ゆうしょう!
+Hoenn Smart Contest Normal Rank winner!
+ホウエンの コンテスト かしこさぶもん ノーマルランクで ゆうしょう!
+Hoenn Smart Contest Super Rank winner!
+ホウエンの コンテスト かしこさぶもん スーパーランクで ゆうしょう!
+Hoenn Smart Contest Hyper Rank winner!
+ホウエンの コンテスト かしこさぶもん ハイパーランクで ゆうしょう!
+Hoenn Tough Contest Normal Rank winner!
+ホウエンの コンテスト たくましさぶもん ノーマルランクで ゆうしょう!
+Hoenn Tough Contest Super Rank winner!
+ホウエンの コンテスト たくましさぶもん スーパーランクで ゆうしょう!
+Hoenn Tough Contest Hyper Rank winner!
+ホウエンの コンテスト たくましさぶもん ハイパーランクで ゆうしょう!
+Hoenn Tough Contest Master Rank winner!
+ホウエンの コンテスト たくましさぶもん マスターランクで ゆうしょう!
+Super Contest Cool Category Normal Rank winner!
+スーパーコンテスト かっこよさぶもん ノーマルランクで ゆうしょう!
+Super Contest Cool Category Great Rank winner!
+スーパーコンテスト かっこよさぶもん グレートランクで ゆうしょう!
+Super Contest Cool Category Ultra Rank winner!
+スーパーコンテスト かっこよさぶもん ウルトラランクで ゆうしょう!
+Super Contest Cool Category Master Rank winner!
+スーパーコンテスト かっこよさぶもん マスターランクで ゆうしょう!
+Super Contest Beauty Category Normal Rank winner!
+スーパーコンテスト うつくしさぶもん ノーマルランクで ゆうしょう!
+Super Contest Beauty Category Great Rank winner!
+スーパーコンテスト うつくしさぶもん グレートランクで ゆうしょう!
+Super Contest Beauty Category Ultra Rank winner!
+スーパーコンテスト うつくしさぶもん ウルトラランクで ゆうしょう!
+Super Contest Beauty Category Master Rank winner!
+スーパーコンテスト うつくしさぶもん マスターランクで ゆうしょう!
+Super Contest Cute Category Normal Rank winner!
+スーパーコンテスト かわいさぶもん ノーマルランクで ゆうしょう!
+Super Contest Cute Category Great Rank winner!
+スーパーコンテスト かわいさぶもん グレートランクで ゆうしょう!
+Super Contest Cute Category Ultra Rank winner!
+スーパーコンテスト かわいさぶもん ウルトラランクで ゆうしょう!
+Super Contest Cute Category Master Rank winner!
+スーパーコンテスト かわいさぶもん マスターランクで ゆうしょう!
+Super Contest Smart Category Normal Rank winner!
+スーパーコンテスト かしこさぶもん ノーマルランクで ゆうしょう!
+Super Contest Smart Category Great Rank winner!
+スーパーコンテスト かしこさぶもん グレートランクで ゆうしょう!
+Super Contest Smart Category Ultra Rank winner!
+スーパーコンテスト かしこさぶもん ウルトラランクで ゆうしょう!
+Super Contest Tough Category Normal Rank winner!
+スーパーコンテスト たくましさぶもん ノーマルランクで ゆうしょう!
+Super Contest Tough Category Great Rank winner!
+スーパーコンテスト たくましさぶもん グレートランクで ゆうしょう!
+Super Contest Tough Category Ultra Rank winner!
+スーパーコンテスト たくましさぶもん ウルトラランクで ゆうしょう!
+Super Contest Tough Category Master Rank winner!
+スーパーコンテスト たくましさぶもん マスターランクで ゆうしょう!
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 50 challenge.
+ホウエンの バトルタワー レベル50の ちょうせんを クリアした あかしの リボン。
+Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 100 challenge.
+ホウエンの バトルタワー レベル100の ちょうせんを クリアした あかしの リボン。
+A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.
+バトルタワーで タワータイクーンに かった あかしの リボン。
+A Ribbon awarded for completing the Battle Tower Double challenge.
+バトルタワーの ダブルバトルを クリアした あかしの リボン。
+A Ribbon awarded for completing the Battle Tower Multi challenge.
+バトルタワーの マルチバトルを クリアした あかしの リボン。
+A Ribbon awarded for completing the Battle Tower Link Multi challenge.
+バトルタワーの つうしんマルチバトルを クリアした あかしの リボン。
+A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.
+Wi-Fi バトルタワーを クリアした あかしの リボン。
+Ribbon for clearing the Pokémon League and entering the Hall of Fame in another region.
+ほかの ちほうで ポケモンリーグを せいはし でんどういりした あかしの リボン。
+Ribbon awarded for beating the Sinnoh Champion and entering the Hall of Fame.
+シンオウの チャンピオンに かち でんどういりした あかしの リボン。
+A Ribbon awarded for setting an incredible record.
+すばらしい きろくを たてた あかしの リボン。
+Pokémon Event Participation Ribbon.
+ポケモンイベントに さんかした きねんの リボン。
+A Ribbon awarded for setting a legendary record.
+でんせつの きろくを たてた あかしの リボン。
+An extraordinarily gorgeous and extravagant Ribbon.
+とても ゴージャスで ぜいたくな リボン。
+An incredibly regal Ribbon with an air of nobility.
+けだかく きひんに あふれた リボン。
+A gorgeous and regal Ribbon that is the peak of fabulous.
+ゴージャスで けだかい さいこうの リボン。
+A Ribbon for recalling an invigorating event that created life energy.
+いのちの ちからが わいた しゃきっとした できごとを おもいだす リボン。
+A Ribbon for recalling a thrilling event that made life more exciting.
+じんせいを ドキドキさせた できごとを おもいだす リボン。
+A Ribbon for recalling feelings of sadness that added spice to life.
+じんせいに あじを そえた かなしい きもちを おもいだす リボン。
+A Ribbon for recalling a careless error that helped steer life decisions.
+じんせいの みちを きめた うっかりミスを おもいだす リボン。
+A Ribbon for recalling a refreshing event that added sparkle to life.
+じんせいを かがやかせた すっきりした できごとを おもいだす リボン。
+A Ribbon for recalling a deep slumber that made life soothing.
+じんせいを いやした ぐっすりねむりを おもいだす リボン。
+A Ribbon for recalling that smiles enrich the quality of life.
+えがおが じんせいを ゆたかにすることを おもいだす リボン。
+A Ribbon awarded to a Pokémon deemed to have a top-quality footprint.
+すばらしい あしあとの ポケモンに おくられる リボン。
+Ribbon awarded for being chosen as a super sketch model in Hoenn.
+ホウエンで スーパーモデルに えらばれた あかしの リボン。
+Ribbon awarded for being an exceptionally hard worker.
+とても がんばりやな ポケモンに おくられる リボン。
+A special Ribbon for a special day.
+とくべつな ひの とくべつな リボン。
+A Ribbon that proclaims love for Pokémon.
+ポケモンへの あいを しめす リボン。
+Special Holiday Ribbon.
+とくべつな やすみの リボン。
+A Ribbon to cherish a special memory.
+とくべつな おもいでを だいじにする リボン。
+A Ribbon said to make your wish come true.
+ねがいが かなうと いわれる リボン。
+A Ribbon awarded for overcoming all difficult challenges.
+すべての むずかしい ちょうせんを のりこえた あかしの リボン。
+Pokémon League Champion Ribbon.
+ポケモンリーグ チャンピオンの リボン。
+Battle Competition Champion Ribbon.
+バトルたいかい チャンピオンの リボン。
+Pokémon World Championships Regional Champion Ribbon.
+ポケモン ワールドチャンピオンシップス ちくたいかい チャンピオンの リボン。
+A Ribbon awarded for winning 100 matches in a row.
+100れんしょうした あかしの リボン。
+Pokémon World Championships National Champion Ribbon.
+ポケモン ワールドチャンピオンシップス ぜんこくたいかい チャンピオンの リボン。
+Pokémon World Championships World Champion Ribbon.
+ポケモン ワールドチャンピオンシップス せかいたいかい チャンピオンの リボン。

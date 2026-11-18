@@ -1,0 +1,1648 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MOVE_DESCRIPTIONS]
+The user may critically hit with its ruinous claws. May also leave the target poisoned, paralyzed, or asleep.
+わざわいの ツメで きゅうしょに あたりやすい。 あいてを どく まひ ねむりに することが ある。
+The user wraps winds of fierce emotion around opponents. This may lower their Attack stats.
+はげしい かんじょうの かぜで あいてを つつみこむ。 こうげきを さげることが ある。
+The user rampages around spewing flames for two to three turns. The user then becomes confused.
+2〜3ターンの あいだ ほのおを はきながら あばれまわる。 あばれたあとは こんらんする。
+The user shrouds itself in water and slams into the target. This also damages the user.
+みずを まとって あいてに ぶつかる。 じぶんも ダメージを うける。
+The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.
+ためた ようりょくそを うちだして こうげきする。 じぶんも ダメージを うける。
+The user hurls giant chunks of ice at the target. This may also make the target flinch.
+おおきな こおりの かたまりを あいてに なげつける。 ひるませることが ある。
+The user rams into the target in a full-body tackle. This lowers the user’s Defense and Sp. Def stats.
+からだごと あいてに ぶつかる。 じぶんの ぼうぎょと とくぼうが さがる。
+Fires toxic barbs which may poison the target. Power is doubled if the target is poisoned.
+どくの トゲを うちこむ。 どくに することが ある。 あいてが どくなら いりょくが 2ばいに なる。
+The user slashes with aura-enriched wings which boosts its Speed stat. Critical hits land more easily.
+オーラを まとった つばさで きりつけて すばやさを あげる。 きゅうしょに あたりやすい。
+The user attacks the target with spine-chilling resentment. This also lowers the target’s Attack stat.
+ぞっとする うらみで こうげきする。 あいての こうげきを さげる。
+The user fires arrows which may lower the target’s Defense or make it flinch. Critical hits land more easily.
+やを はなって こうげきする。 ぼうぎょを さげたり ひるませることが ある。 きゅうしょに あたりやすい。
+The user attacks with cold winds that cause opposing Pokémon to tremble. This may lower their Speed stats.
+あいてを ふるえあがらせる つめたい かぜで こうげきする。 すばやさを さげることが ある。
+The user attacks opposing Pokémon with a thunderous tempest. This may also leave them paralyzed.
+かみなりの あらしで あいてを こうげきする。 まひさせることが ある。
+The user wraps fierce winds and hot sand around opponents. This may leave them with a burn.
+はげしい かぜと ねっさで あいてを つつみこむ。 やけどに することが ある。
+The user is blessed by the moon, restoring HP and curing status conditions of itself and allies.
+つきの めぐみを うけて じぶんと みかたの HPを かいふくし じょうたいいじょうを なおす。
+Cloaking itself in psychic energy, the user slams into the target. This raises the user’s Defense.
+サイコパワーを まとって あいてに ぶつかる。 じぶんの ぼうぎょが あがる。
+The user swaps its Attack and Defense stats.
+じぶんの こうげきと ぼうぎょを いれかえる。
+The user swings at the opponent with its stone axes. May leave floating rocks around the target.
+いわの オノで きりかかる。 あいての まわりに ういた いわを のこすことが ある。
+The user attacks by emitting a mysterious power. This also boosts the user’s Sp. Atk stat.
+ふしぎな ちからを はなって こうげきする。 じぶんの とくこうが あがる。
+The user performs an intense dance to usher in victory, raising its Attack, Defense, and Speed.
+しょうりを よびこむ はげしい おどりで こうげき ぼうぎょ すばやさが あがる。
+The user makes its skin as hard as an iron shield, sharply boosting its Defense stat.
+はだを てつの たてのように かたくして ぼうぎょを ぐーんと あげる。
+Hurls fireballs which may cause burns. Power is doubled if the target has a status condition.
+ひのたまを なげつける。 やけどに することが ある。 あいてが じょうたいいじょうなら いりょくが 2ばい。
+The user slashes the opponent with its shell blade. May leave spikes around the target.
+からの やいばで きりつける。 あいての まわりに まきびしを のこすことが ある。
+The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats.
+きもちを たかめて じょうたいいじょうを なおし とくこうと とくぼうを あげる。
+The user expels pressurized water to cut at the target like a blade. Critical hits land more easily.
+いきおいよく みずを ふきだし やいばのように きりつける。 きゅうしょに あたりやすい。
+The user attacks the target using light and fluid dance steps. This also boosts the user’s Speed stat.
+かろやかな ステップで こうげきする。 じぶんの すばやさが あがる。
+The user shoots its own armor out as blazing projectiles. This lowers the user’s Defense and Sp. Def.
+じぶんの よろいを もえる だんがんにして うちだす。 じぶんの ぼうぎょと とくぼうが さがる。
+Performs a downward kick which may confuse the target. The user takes damage if it misses.
+うえから けりおろす。 こんらんさせることが ある。 はずすと じぶんが ダメージを うける。
+A spiteful slashing attack. The user’s HP is restored by up to half the damage taken by the target.
+いじわるに きりつける。 あたえた ダメージの はんぶんまで じぶんの HPを かいふくする。
+This move is only used by a Starmobile. It may leave the target with a burn.
+スターモービルだけが つかえる わざ。 やけどに することが ある。
+The user showers the target with frigid water. This also lowers the target's Attack stat.
+つめたい みずを あいてに あびせる。 あいての こうげきを さげる。
+The user tells a chillingly bad joke and switches out. This summons a snowstorm lasting five turns.
+さむい ダジャレを いって ひっこむ。 5ターンの あいだ ゆきを ふらせる。
+A massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit.
+こだいの だいばくはつ。 こうかばつぐんなら いつもより いりょくが あがる。
+This move is only used by a Starmobile. It may paralyze the target.
+スターモービルだけが つかえる わざ。 まひさせることが ある。
+The user retaliates with much greater force against the opponent that last inflicted damage on it.
+わざを だすまえに さいごに うけた わざの ダメージを おおきくして だした あいてに かえす。
+The user captures a quick sketch, changing the Abilities of the user and its allies to the target's.
+すばやく スケッチして じぶんと みかたの とくせいを あいてと おなじにする。
+The user attacks by discharging all of its electricity. The user will no longer be Electric type.
+でんきを ぜんぶ はなって こうげきする。 じぶんは でんきタイプで なくなる。
+A futuristic electric strike. This move’s power is boosted more than usual if it’s a supereffective hit.
+みらいの でんげき。 こうかばつぐんなら いつもより いりょくが あがる。
+The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.
+じぶんの HPを けずって こうげき とくこう すばやさを ぐーんと あげる。
+The user throws a rigged bouquet of flowers at the target, which always hits and lands a critical hit.
+しかけの ある はなたばを なげつける。 かならず あたり かならず きゅうしょに あたる。
+The user attacks with its huge hammer. This move can’t be used twice in a row.
+おおきな ハンマーで こうげきする。 2かい つづけて だせない。
+The user becomes highly vulnerable to attacks until its next turn after using this move.
+つかうと つぎの じぶんの ターンまで こうげきを うけやすくなる。
+The user spins the pointed part of its body at high speed to pierce the target, ignoring protections.
+とがった からだを こうそくで かいてんさせて つらぬく。 まもりを むしする。
+The user spins into the target with feet covered in thin ice. This also destroys the terrain.
+うすい こおりを まとった あしで かいてんしながら ぶつかる。 フィールドを こわす。
+The user summons a torrent around its fist and punches at blinding speed. Always goes first.
+こぶしに うずを まとって めにも とまらぬ はやさで なぐる。 かならず せんせいできる。
+The user kowtows to make the target lower its guard, then slashes. This attack never misses.
+どげざして ゆだんさせてから きりつける。 かならず あたる。
+The user attacks to avenge its allies. The move’s power increases for each defeated ally.
+たおれた なかまの かたきを うつ。 たおれた なかまが おおいほど いりょくが あがる。
+The user attacks by unleashing a peculiar, mind-bending light that harshly lowers the target’s Sp. Def.
+ふしぎな ひかりを はなって こうげきする。 あいての とくぼうを がくっと さげる。
+This move is only used by a Starmobile. It may confuse the target.
+スターモービルだけが つかえる わざ。 こんらんさせることが ある。
+The user throws out a huge mass of coins, lowering its Sp. Atk stat. Money is earned after the battle.
+たくさんの コインを なげつける。 じぶんの とくこうが さがる。 バトルの あとで おかねが もらえる。
+Performs a spin that eliminates certain traps and hazards. This also poisons opposing Pokémon.
+かいてんして ワナや しかけを とりのぞく。 あいてを どくに する。
+This move is only used by a Starmobile. It may poison the target.
+スターモービルだけが つかえる わざ。 どくに することが ある。
+If used when the user has a Tatsugiri in its mouth, a boost occurs based on its form.
+くちのなかに シャリタツが いると その すがたに あわせて のうりょくが あがる。
+The user’s fellows gather in droves to perform a combo attack that hits one to ten times in a row.
+なかまが たくさん あつまって 1〜10かい つづけて こうげきする。
+The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
+あいてに とびかかって こうげきする。 あいての すばやさを さげる。
+The user converts its rage into energy to attack. The move’s power increases every time the user is hit.
+いかりを ちからに かえて こうげきする。 こうげきを うけるたびに いりょくが あがる。
+The user charges and destroys enemy barriers. This move’s type depends on the user’s form.
+とっしんして かべを こわす。 すがたによって わざの タイプが かわる。
+The user revives a party Pokémon that has fainted and restores half their max HP.
+ひんしの なかまを 1ぴき いきかえらせて HPを はんぶん かいふくする。
+The user summons a ruinous disaster. This cuts the target’s HP in half.
+わざわいを よびおこして あいての HPを はんぶんにする。
+The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage.
+しおづけにして まいターン ダメージを あたえる。 はがねと みずタイプには おおきな ダメージ。
+The user creates a substitute and switches places with a party Pokémon in waiting.
+みがわりを だして ひかえの ポケモンと いれかわる。
+User spins a silken trap to protect itself. Lowers the Speed of any that make direct contact.
+いとの ワナで みを まもる。 ふれた あいては すばやさが さがる。
+Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
+5ターンの あいだ ゆきを ふらせる。 こおりタイプの ぼうぎょが あがる。
+Emits a spicy extract which raises the target’s Attack and lowers Defense by two stages each.
+からい エキスを だして あいての こうげきを ぐーんと あげ ぼうぎょを がくっと さげる。
+The user inflicts damage on the target with a furious spin. This harshly lowers the user’s Speed.
+はげしく かいてんして ダメージを あたえる。 じぶんの すばやさが がくっと さがる。
+Clears hazards and substitutes from the field. This also boosts the user’s Attack and Speed.
+ワナや みがわりを ふきとばす。 じぶんの こうげきと すばやさが あがる。
+The user blows out raging flames as if singing a song. This also boosts the user’s Sp. Atk stat.
+うたうように ほのおを ふく。 じぶんの とくこうが あがる。
+The user attacks suddenly as if leaping out from tall grass. This boosts the user's Speed stat.
+くさむらから とびだすように いきなり こうげきする。 じぶんの すばやさが あがる。
+The user performs a perfectly timed triple dive, hitting the target three times in a row.
+タイミングを あわせて 3かい つづけて とびこみ こうげきする。
+The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+めから ふしぎな ビームを うつ。 2かい つづけて あたる。
+This move is only used by a Starmobile. It may put the target to sleep.
+スターモービルだけが つかえる わざ。 ねむらせることが ある。
+The user blasts the target with boiling-hot water whose power is boosted in harsh sunlight.
+ねっとうを あいてに ふきつける。 ひざしが つよいと いりょくが あがる。
+The user rends the target with an ethereal blade whose power is boosted on Electric Terrain.
+まぼろしの やいばで きりさく。 エレキフィールドだと いりょくが あがる。
+The user unleashes the full brunt of its spirit from a blood moon. This move can't be used twice in a row.
+あかい つきの もとで ちからを ときはなつ。 2かい つづけて だせない。
+Blasts opponents with hot tea. Heals the user by half the damage dealt and may also burn targets.
+あつい おちゃを あびせる。 あたえた ダメージの はんぶん かいふくし やけどに することが ある。
+An explosion of sticky candy syrup, which drop the target's Speed stat each turn for three turns.
+ねばねばの あめが ばくはつする。 3ターンの あいだ まいターン すばやさを さげる。
+An ivy-wrapped cudgel strike with a high critical-hit ratio. Type changes based on the user's Mask.
+ツタを まいた こんぼうで なぐる。 きゅうしょに あたりやすい。 おめんで タイプが かわる。
+A two-turn attack. The user boosts its Sp. Atk and then fires a high-voltage shot.
+2ターンで こうげきする。 とくこうを あげてから こうでんあつの たまを うつ。
+When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon.
+ステラフォルムの テラパゴスが つかうと あいて ぜんいんに ダメージ。
+Sometimes all of the user's heads shoot beams in unison, doubling this move's power.
+ときどき ぜんぶの くびが いっせいに ビームを うち いりょくが 2ばいに なる。
+Protects the user from attacks. Also burns any attacker that makes contact with the user.
+こうげきを ふせぐ。 ふれた あいてを やけどに する。
+The user cleaves the target. This move hits even if the target protects itself.
+あいてを きりさく。 まもっていても あたる。
+The user attacks by launching particle blades at the target twice in a row. This attack never misses.
+りゅうしの やいばを 2かい つづけて とばす。 かならず あたる。
+The user raises its allies’ critical hit ratio with a draconic cry. This rouses Dragon types more.
+りゅうの さけびで みかたを きゅうしょに あてやすくする。 ドラゴンタイプは もっと ふるいたつ。
+Attacks using an angelic voice. This confuses the target if its stats have been raised this turn.
+てんしの こえで こうげきする。 このターン のうりょくが あがった あいてを こんらんさせる。
+The user drops onto the target with its electrified body. If it misses, the user is hurt instead.
+でんきを まとった からだで のしかかる。 はずすと じぶんが ダメージを うける。
+Attacks the target with unpleasant sound waves. Prevents the target from healing for two turns.
+いやな おとで こうげきする。 2ターンの あいだ あいては かいふくできない。
+An attack that hits first and makes the target flinch. Fails if the target isn't using a high priority move.
+せんせいで こうげきして ひるませる。 あいてが せんせいわざを つかわないと しっぱい。
+Wraps the target in a toxic, corrosive chain. This may also leave the target badly poisoned.
+どくの くさりで しめつける。 もうどくに することが ある。
+Causes the sun to shine as well as does damage to the opponent!
+ひざしを つよくして あいてに ダメージを あたえる!
+The target is infested by crawling horrors and unable to flee for four to five turns.
+はいまわる おそろしい ものが とりつく。 4〜5ターンの あいだ にげられない。
+Has a 1/3 chance to turn the target into a shambling zombie.
+3ぶんの 1の かくりつで あいてを ゾンビに する。
+Slaps the target 1-10 times. The first slap barely hurts, but each slap after that hits twice as hard as the last.
+1〜10かい ビンタする。 さいしょは いたくないが 1かいごとに いりょくが 2ばいに なる。
+Doubles the power of the user's next move and halves the power of the target's next two moves.
+じぶんの つぎの わざの いりょくを 2ばいにして あいての つぎの 2かいの わざを はんぶんにする。
+The user vanishes into its lair on the first turn, dodging all non-Psychic moves, then attacks on the next turn.
+1ターンめに すみかに かくれて エスパーいがいの わざを よけ 2ターンめに こうげきする。
+Costs the user 100 HP to use. Any target it hits faints instantly, but it often misses.
+HPを 100 つかう。 あたった あいては すぐ ひんしに なるが よく はずれる。
+Drains 20 HP from the target, healing the user 30 HP, and lowers the target's accuracy by one stage.
+あいてから HPを 20 すいとり じぶんは 30 かいふくする。 あいての めいちゅうりつを さげる。
+Using its tough and impressive horn, the user rams into the target with no letup.
+かたくて りっぱな つので おもいっきり あいてを つきさして こうげきする。
+The user calls out its underlings to pummel the target. Critical hits land more easily.
+しもべを よびだして あいてに むかって こうげき させる。 きゅうしょに あたりやすい。
+The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+しんどうで おんぱを おこして こうげきする。あいての とくぼうを さげることが ある。
+Although this move has great power, it only works the first turn the user is in battle.
+いりょくが たかい わざ だが せんとうに でたら すぐに ださないと せいこう しない。
+Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
+てきには ばくはつする だんごを つかって こうげき。 みかたには かいふくする だんごを あたえる。
+The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+ちを すいとって あいてを こうげきする。 あたえた ダメージの はんぶんの HPを かいふく できる。
+The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat.
+ぜんりょくで あいてに とびかかって こうげき。 あいての こうげきを さげる。
+The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
+カマや ツメを ハサミのように こうさ させながら あいてを きりさく。
+The user attacks with a sinister beam of light. It may also confuse the target.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+はいごから はいより こうげきする。 あいての とくこうを さげる。
+After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+こうげきした あと ものすごい スピードで もどってきて ひかえの ポケモンと いれかわる。
+The user crushes its foes by rolling over them. This attack may make the target flinch.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
+かみついて こうげきする。 あいてが きのみを もっている とき たべて きのみの こうかを うけられる。
+The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+When the user knocks out a target with this move, the user's Attack stat rises drastically.
+この わざを つかって あいてを たおすと こうげきが ぐぐーんと あがる。
+While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.
+ていこう して あいてを こうげきする。 あいての とくこうを さげる。
+The target is slashed with scythes or claws. Its power increases if it hits in succession.
+カマや ツメ などで あいてを きりつけて こうげきする。 れんぞくで あてると いりょくが あがる。
+Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+するどい ハリを あいてに はっしゃして こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The foe is stabbed twice by a pair of stingers. It may also poison the target.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is infested and unable to flee for four to five turns.
+4ー5ターンの あいだ あいてに まとわりついて こうげきする。 そのあいだ あいては にげられない。
+The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.
+しもべを よびだして じぶんの からだに おおい つかせる。ぼうぎょと とくぼうを あげることが できる。
+The user calls out its underlings to heal it. The user regains up to half of its max HP.
+しもべを よびだして きずを なおす。 さいだい HPの はんぶん じぶんの HPを かいふく する。
+The target is covered in a powder that explodes and damages it if it uses a Fire-type move.
+ふんじんを あびせた あいてが ほのおわざを つかうと ばくはつして ダメージを あたえる。
+The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.
+しんぴてきで うつくしい まいを かろやかに おどる。 じぶんの とくこうと とくぼうと すばやさを あげる。
+The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.
+イライラさせる こなを じぶんに ふりかけて ちゅういを ひく。 あいての こうげきを すべて じぶんに むける。
+The user ensnares the target with thin, gooey silk so it can't flee from battle.
+ネバネバした ほそい いとを グルグルと からませて あいてを せんとうから にげられなく する。
+Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in.
+あいての まわりに ねばねばした ネットを はりめぐらせ こうたいで でてきた あいての すばやさを さげる。
+The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed.
+くちから ふきだした いとを まきつけて あいての すばやさを がくっと さげる。
+The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.
+てんめつする ひかりを ながめて じぶんの せいしんを とういつし とくこうを ぐぐーんと あげる。
+Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls.
+たくさんの うでで まもるや みきり などを むしした れんぞくこうげき。 じぶんの ぼうぎょが さがる。
+The user turns the foe's power against it. It does more damage the higher the target's Attack stat.
+あいての ちからを りようする。 たたかっている あいての こうげきが たかいほど ダメージが あがる。
+The user transforms its wrath into a fire-like aura to attack. This may also make foes flinch.
+いかりを ほのおの ような オーラに かえて こうげきする。 あいてを ひるませる ことが ある。
+The user swings both arms and hits the target. Ignores the target's stat changes.
+りょううでを まわし あいてに あてる。 あいての のうりょく へんかに かんけいなく ダメージを あたえる。
+The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.
+あんこくの しょうげきはを とばして あいてを こうげきする。 めいちゅうりつを さげることが ある。
+The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+するどい はで あいてを かみくだいて こうげきする。あいての ぼうぎょを さげることが ある。
+The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+からだから あくいに みちた おそろしい オーラを はっする。 あいてを ひるませる ことが ある。
+The user pretends to bow its head, but then it stabs the target with its disheveled hair. Never misses.
+あたまを さげる ふりを しながら ふりみだした かみのけを つきさす。 こうげきは かならず めいちゅうする。
+This move prevents the user and the target from switching out until either of them faints.
+おたがい ひんしに なるまで こうたいが できなくなる。 どちらかの ポケモンが いなくなると こうかはきえる。
+The user attacks the target's throat. The target cannot use sound-based moves for two turns.
+この わざを うけた あいては じごくの くるしみから 2ターンのあいだ おとの わざを だすことが できなくなる。
+Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit.
+あくの かたを きわめし きょうれつな いちげき。 かならず きゅうしょに あたる。
+The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn.
+あいてへの いらだちを ぶつけて こうげき。 そのターンに のうりょくを さげられていると わざの いりょくが 2ばいに なる。
+The user slashes the target the instant an opportunity arises. Critical hits land more easily.
+いっしゅんの すきを ついて あいてを きりはらう。 きゅうしょに あたりやすい。
+This move enables the user to attack first. It fails if the target is not readying an attack, however.
+あいてより さきに こうげき できる。 あいてが だすわざが こうげきわざ でないと しっぱい する。
+The user slaps down the target's held item, preventing that item from being used in the battle.
+あいての もちものを はたき おとして せんとうが おわるまで つかえなくする。 ものをもつ あいてには ダメージがます。
+If the target has already taken some damage in the same turn, this attack's power is doubled.
+そのターンに あいてが すでに ダメージを うけて いたら わざの いりょくは 2ばいに なる。
+The target is bitten with viciously sharp fangs. It may make the target flinch.
+するどく とがった はで かみついて こうげきする。 あいてを ひるませる ことが ある。
+The user swings its body around violently to inflict damage on everything in its vicinity.
+じぶんの からだを ぶんまわして あいてに ダメージを あたえる。
+The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+こうげきと どうじに どうぐを ぬすむ。 じぶんが どうぐを もっている ばあいは ぬすめない。
+The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.
+まくしたてる ように どなりつけて あいての とくこうを さげる。
+If the user moves after the target, this attack's power will be doubled.
+ためこんで こうげきする。 あいてより あとに こうげき できると わざの いりょくは 2ばいに なる。
+An attack move that inflicts double damage if used on a target that is switching out of battle.
+あいて ポケモンが いれかわる ときに わざを だしていると ばいの いりょくで こうげき できる。
+The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.
+みかた ぜんいんで こうげきする。 なかまの ポケモンが おおいほど わざの こうげきかいすうが ふえる。
+The user flings its held item at the target to attack. Its power and effects depend on the item.
+もたせた どうぐを すばやく なげつけて こうげきする。 どうぐで いりょくと こうかが かわる。
+The user boasts of its strength. Power increases the more the user's stats are raised.
+じぶんの つよさを はなたかだかに こうげきする。じぶんの のうりょくが あがって いるほど いりょくが あがる。
+This attack's power increases the more the target has powered up with stat changes.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+Opposing Pokémon are dragged into a world of total darkness that makes them sleep.
+あんこくの せかいに ひきずり おとして あいてを ねむり じょうたいに する。
+It prevents the target from using its held item. Its Trainer is also prevented from using items on it.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.
+ないた ふりをして なみだを ながす。 こまらせる ことで あいての とくぼうを がくっと さげる。
+Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.
+あいてを おだてて こんらん させる。 どうじに あいての とくこうも あげて しまう。
+The user sharpens its claws to boost its Attack stat and accuracy.
+ツメを みがいて するどく する。 じぶんの こうげきと めいちゅうりつを あげる。
+The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.
+じぶんは ひんしに なるが そのかわりに あいての こうげきと とくこうを がくっと さげる。
+The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
+わるいことを かんがえて あたまを かっせいか させる。 じぶんの とくこうを ぐーんと あげる。
+The user protects itself from all attacks. Direct contact lowers the attacker's Defense.
+あいての こうげきを まったく うけない。 れんぞくで だすと しっぱい しやすい。 ふれると ぼうぎょが がくっと さがる。
+With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out.
+すてゼリフで あいてを いかくし こうげきと とくこうを さげたのち ひかえの ポケモンと いれかわる。
+The user suppresses the target and makes its move go last.
+あいてを おさえつけて こうどうの じゅんばんを さいごに する。
+The user steals the effects of any healing or stat-changing move the foe attempts to use.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user trades held items with the target faster than the eye can follow.
+めにも とまらぬ はやさで じぶんと あいての もちものを こうかんする。
+The target is taunted into a rage that allows it to use only attack moves for three turns.
+あいてを おこらせる。 3ターンの あいだ あいては ダメージを あたえる わざしか だせなく なる。
+All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.
+あいてに かかっている すべての のうりょくへんかを ひっくりかえして ぎゃくにする。
+The user torments and enrages the foe, making it incapable of using the same move twice in a row.
+あいてに いちゃもんを つけて おなじ わざを 2かい れんぞくで だせなくする。
+This is Eternatus's most powerful attack in its original form. The user can't move on the next turn.
+ほんらいの すがたと なった ムゲンダイナ さいだいの こうげき。 つぎの ターンは うごけなくなる。
+Converts life-force into power to attack. The lower the user's HP, the lower the move's power.
+せいめいりょくを パワーに かえ あいてを こうげきする。 じぶんの HPが すくないほど わざの いりょくは さがる。
+The user blasts the target with power that distorts even time. The user must rest on the next turn.
+じかんが ゆがむほどの ちからを うちだして あいてを こうげきする。 つぎの ターンは うごけなく なる。
+Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.
+てんくうから いんせきを あいてに おとす。つかうと はんどうで じぶんの とくこうが がくっと さがる。
+The user rampages and attacks for two to three turns. It then becomes confused, however.
+2ー3ターンの あいだ あばれまくって こうげきする。 あばれた あとは こんらん する。
+The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat.
+ぜんしんの うろこを こすり おおきな おとを だして こうげきする。 こうげきご じぶんの ぼうぎょが さがる。
+If the target has already moved this turn, the effect of its Ability is negated.
+ダメージを あたえた あいてが すでに こうどうを おえて いたら あいての とくせいを けして しまう。
+The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+すさまじい さっきで いあつ しながら たいあたりする。 あいてを ひるませる ことが ある。
+The user unleashes a strong beam from its core.
+コアから ビームを はなって こうげき。 あいてが ダイマックス していると ダメージは 2ばいに なる。
+The user tears the target along with the space around it. Critical hits land more easily.
+まわりの くうかんごと あいてを ひきさき ダメージを あたえる。 きゅうしょに あたりやすい。
+The user uses its body like a hammer to attack the target and inflict damage.
+からだを ハンマーのように つかって あいてに おそいかかり ダメージを あたえる。
+The target is attacked with a shock wave generated by the user's gaping mouth.
+おおきな くちから しょうげきはを まきおこして あいてを こうげきする。
+The user slashes the target with huge, sharp claws.
+するどく とがった きょだいな ツメで あいてを きりさいて こうげきする。
+The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats.
+きょうじんな しっぽを はげしく ふりはらって あいてを こうげきする。 あいての こうげきを さげる。
+The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis.
+ものすごい いきを あいてに ふきつけて こうげきする。 まひ じょうたいに することが ある。
+The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.
+あいてを はじきとばして ひかえの ポケモンを ひきずりだす。 やせいの ばあいは せんとうが おわる。
+The user attacks twice using Dreepy. If there are two targets, this move hits each one once.
+ドラメシヤで 2かい こうげき。 あいてが 2ひき いるときは それぞれに 1かいずつ こうげきする。
+The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
+からだの かたいぶぶんで あいてを たたいて こうげきする。2かい れんぞくで ダメージを あたえる。
+The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.
+たつまきを おこして あいてを まきこみ こうげきする。 あいてを ひるませる ことが ある。
+Attacks by shooting scales two to five times in a row. Boosts the user's Speed but lowers its Defense.
+ウロコを うちだして こうげきする。 2ー5かいの あいだ れんぞくで だす。 すばやさが あがるが ぼうぎょが さがる。
+This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.
+いかりの しょうげきはを あいてに ぶつけて こうげきする。 40の ダメージを きまって あたえる。
+The user raises all its stats by using some of its HP.
+じぶんの HPを すこし けずって すべての のうりょくを あげる。
+The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.
+しんぴてきで ちからづよい まいを はげしく おどる。 じぶんの こうげきと すばやさを あげる。
+The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed.
+ぼうだいな でんきを みに まとって あいてに とっしんして こうげきする。 まひ じょうたいに することが ある。
+The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.
+でんきを まとって とっしんする。 じぶんも かなり ダメージを うける。 まひ じょうたいに することが ある。
+The user fires an electric blast like a cannon to inflict damage and cause paralysis.
+たいほうの ような でんきを はっしゃして こうげきする。 あいてを まひの じょうたいに する。
+Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form.
+ほほぶくろに ためた エネルギーで こうげきし じぶんの すばやさを あげる。 モルペコの すがたで タイプが かわる。
+A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.
+はげしい かみなりを あいてに おとして こうげきする。 まひ じょうたいに することが ある。
+The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame.
+きょだいな いかずちを たたきつける。 きょだいな ほのおの えいきょうをうけ わざの いりょくが あがる。
+The user attacks with electrically charged fists. Normal-type moves become Electric-type.
+でんきを まとった こぶしで こうげき。 ノーマルタイプの わざを でんきタイプに してしまう。
+A strong electric blast is loosed at the target. It may also leave the target with paralysis.
+つよい でんげきを あいてに あびせて こうげきする。 まひ じょうたいに することが ある。
+The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.
+でんきを まとって あいてに ぶつかって こうげきする。 じぶんも すこし ダメージを うける。
+Stabs the target with an electrified beak. Power is doubled if the user attacks first.
+でんきを まとった くちばしで さす。 あいてより さきに こうげきできると わざの いりょくは 2ばいに なる。
+A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.
+まばゆい でんげきで じぶんの まわりに いるものを こうげきする。 まひ じょうたいに することが ある。
+The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration.
+ギターや ベースを かきならして はげしく ひびく おおきな しんどうを あいてに あたえて こうげきする。
+The user traps the target in a cage of sparking electricity for four to five turns.
+ほとばしる でんきの おりの なかに 4ー5ターンの あいだ あいてを とじこめて こうげきする。
+A strong electric blast crashes down on the target. This may also make the target flinch.
+あいてに ぶつかって きょうりょくな でんきをあびせ びりびりちくちく させる。 あいてを ひるませる ことが ある。
+The target is punched with an electrified fist. It may also leave the target with paralysis.
+でんげきを こめた パンチで あいてを こうげきする。 まひ じょうたいに することが ある。
+The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain.
+じめんから たちのぼる でんげきで こうげき。 あいてが エレキフィールドに いるとき わざの いりょくが 2ばいに なる。
+The user attacks everything around it. The user's HP is restored by half the damage dealt.
+まわりにいる ポケモン ぜんいんに ダメージ。 あたえた ダメージの はんぶんを じぶんが かいふくする。
+The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.
+でんきを まとい あいてに とっしんして こうげきする。 まひ じょうたいに することが ある。
+The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.
+でんきを ためた キバで かみつく。 あいてを ひるませたり まひ じょうたいに することが ある。
+The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.
+でんげきを すばやく あいてに あびせる。 こうげきは かならず めいちゅう する。
+The user captures and attacks foes by using an electric net, which lowers their Speed stat.
+でんきの ネットで あいてを つかまえて こうげきする。 あいての すばやさを さげる。
+The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
+でんげきの たばを あいてに はっしゃする。でんきを ためて じぶんの とくこうを あげることが ある。
+A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.
+でんきの しげきを あいてに あびせて こうげきする。 まひ じょうたいに することが ある。
+The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis.
+でんきを おびた ほっぺを すりつけて こうげき。 あいてを まひ じょうたいに する。
+The user hurls an electric orb at the foe. It does more damage the faster the user is.
+でんきの かたまりを あいてに ぶつける。あいてより すばやさが はやいほど いりょくが あがる。
+The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.
+つぎの ターンに だす でんきタイプの わざの いりょくを あげる。 じぶんの とくぼうも あがる。
+The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat.
+からだから かいでんぱを はなち あいてに あびせる ことによって とくこうを がくっと さげる。
+The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep.
+5ターンのあいだ エレキフィールドにする。 じめんにいる ポケモンは ねむらない。 でんきタイプの いりょくが あがる。
+If the target uses a move after being electrified, that move becomes Electric-type.
+あいてが わざを だすまえに そうでん すると そのターン あいての わざは でんきタイプになる。
+The user disperses electrically charged particles. Normal-type moves become Electric-type.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user levitates using electrically generated magnetism for five turns.
+でんきで つくった じりょくの ちからで ちゅうに うかぶ。 5ターンの あいだ ふゆう できる。
+Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities.
+じばを そうさ することによって とくせい プラスと マイナスの ぼうぎょ とくぼうが あがる。
+A weak electric charge is launched at the target. It causes paralysis if it hits.
+よわい でんげきを あびせる ことで あいてを まひ じょうたいに する。
+Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.
+えいえんのはな の パワーを かりて きょうりょくな こうせんを うちだす。 じぶんも かなりの ダメージを うける。
+The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
+きょうりょくな ビームを はなったあと じぶんの とくこうが がくっと さがる。
+The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.
+じぶんの まわりに いる すべてを こうげき するが つかうと ひんしになる。 ミストフィールドで いりょくが あがる。
+The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.
+つきの パワーを かりて あいてを こうげきする。 あいての とくこうを さげる ことがある。
+The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+あいてに じゃれついて こうげきする。 あいての こうげきを さげる ことがある。
+The user attacks the target by emitting steam. This may also confuse the target.
+けむりを ふんしゅつして あいてを こうげき。 こんらん させることが ある。
+The user damages opposing Pokémon by emitting a powerful flash.
+きょうりょくな ひかりを はなち あいてに ダメージを あたえる。
+The user attacks the target with immense force. This also lowers the target's Sp. Atk stat.
+くらうと くじけるほどの いきおいで こうげき。 あいての とくこうを さげる。
+The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt.
+キッスによって あいてから HPを すいとる。 あたえた ダメージの はんぶんいじょう HPを かいふくする。
+Letting out a charming cry, the user does emotional damage to foes. This attack never misses.
+みわくの なきごえを だして あいてに せいしんてきな ダメージを あたえる。 こうげきは かならず めいちゅう する。
+The user stirs up a fairy wind and strikes the target with it.
+ようせいのかぜを おこし あいてに ふきつけて こうげきする。
+The user hits the target with the force of nature. It halves the target's HP.
+しぜんの いかりを あいてに ぶつける。 あいての HPは はんぶんに なる。
+The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.
+ふしぎな アロマの かおりによって みかたの とくぼうを あげる。
+The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first.
+つぶらなひとみで あいてを みつめて こうげきを さげる。 かならず せんせい こうげき できる。
+The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.
+かわいく みつめて ゆだんを さそい あいての こうげきを がくっと さげる。
+The user protects itself and its allies from status moves with a mysterious power.
+ふしぎな ちからを つかって みかたへの へんかわざを ふせぐ。 ダメージわざは うけてしまう。
+The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.
+かざりつけを することで あいての こうげきと とくこうを ぐーんと あげる。
+By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.
+ロックを かけることによって つぎのターン すべての ポケモンを にげられなくする。
+The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.
+さいだい HPの はんぶん あいての HPを かいふく する。 グラスフィールドのとき こうかが あがる。
+The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.
+ふしぎな ちからを つかって ばにいる くさタイプの ポケモン ぜんいんの ぼうぎょを あげる。
+The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
+1ターンめで エネルギーを きゅうしゅうし 2ターンめに とくこう とくぼう すばやさを ぐーんと あげる。
+The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions.
+5ターンのあいだ じめんにいると じょうたいいじょうに ならず ドラゴン わざの ダメージも はんぶんになる。
+The user restores its own HP. The amount of HP regained varies with the weather.
+じぶんの HPを かいふく する。 てんきに よって かいふくの りょうが へんか する。
+The user kisses the target with a sweet, angelic cuteness that causes confusion.
+てんしのように かわいく キスして あいてを こんらん させる。
+The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
+せいしんを たかめて パンチを くりだす。 わざを だす までに こうげきを うけると しっぱい する。
+The user attacks wildly with its thick leek. The user can't move on the next turn.
+ふとい クキを ふりまわして こうげき。 ただし じぶんも よろめいてしまうため つぎの ターンは うごけなくなる。
+The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+ジャンプからの ひざげりで あいてを こうげきする。 はずすと じぶんが ダメージを うける。
+The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.
+まもりを すてて あいての ふところに とつげきする。 じぶんの ぼうぎょと とくぼうが さがる。
+The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
+きあいを たかめて こんしんの ちからを ほうしゅつする。あいての とくぼうを さげることが ある。
+The user attacks the target with great power. However, it also lowers the user's Attack and Defense.
+すごい ちからを はっきして あいてを こうげきする。じぶんの こうげきと ぼうぎょが さがる。
+The user delivers a double chop with its forearms crossed. Critical hits land more easily.
+りょうて チョップを あいてに たたきつけて こうげきする。 きゅうしょに あたりやすい。
+The user punches the target with full, concentrated power. It confuses the target if it hits.
+こんしんの ちからで パンチを くりだして こうげきする。 あいてを かならず こんらん させる。
+The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
+くうちゅうから あいてに ダイブする。 このわざは かくとうタイプと どうじに ひこうタイプでも ある。
+The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.
+つよくて おもい こぶしを ふるって ダメージを あたえる。 じぶんの すばやさが さがる。
+The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
+たかい ジャンプからの キックで あいてを こうげきする。 はずすと じぶんが ダメージを うける。
+The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
+ながい つので きりつけ こうげきする。 あいての のうりょく へんかに かんけいなく ダメージを あたえる。
+Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat.
+かみなりの ような うごきで あいてを ほんろう しながら キックする。 あいての ぼうぎょを さげる。
+The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
+ながい つので きりつけ こうげきする。 つのが まとった ふしぎな ちからは ぶつりてきな ダメージを あたえる。
+The user attacks the target with an uppercut thrown skyward with force.
+そらに むかうような たかい アッパーで あいてを つきあげて こうげきする。
+The user looses a blast of aura power from deep within its body. This move is certain to hit.
+からだの おくから はどうの ちからを あいてに うちはなつ。 こうげきは かならず めいちゅう する。
+The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.
+からだを ぶつけて こうげき。 ぼうぎょが たかいほど あたえる ダメージが ふえる。
+The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.
+じめんに じぶんごと あいてを なげつけて こうげきする。 じぶんも すこし ダメージを うける。
+The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.
+しゅとうを いきおいよく ふりおろして あいてを こうげきする。 ひかりのかべや リフレクター なども はかいできる。
+An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+こぶしから あいての ちからを すいとる。 あたえた ダメージの はんぶんの HPを かいふく できる。
+The user attacks last. In return, this throw move is guaranteed not to miss.
+あいてより あとに こうげきする。 そのかわり じぶんの こうげきは かならず めいちゅうする。
+This attack inflicts big damage on a sleeping target. It also wakes the target up, however.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user attacks the target's legs swiftly, reducing the target's Speed stat.
+すばやい うごきで あいての あしを ねらって こうげきする。 あいての すばやさを さげる。
+The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.
+あいてを なげとばして ひかえの ポケモンを ひきずりだす。 やせいの ばあいは せんとうが おわる。
+The target is attacked with a shock wave. It may also leave the target with paralysis.
+あいての からだに しょうげきはを あてて こうげきする。 まひ じょうたいに することが ある。
+An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+あいてから わざを うけていると その あいてに たいして あたえる ダメージが 2ばいに なる。
+The user lashes out with a quick, spinning kick. It may also make the target flinch.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user strikes the target with a fierce blow. This attack always results in a critical hit.
+きょうれつな いちげきを あいてに くりだす。こうげきは かならず きゅうしょに あたる。
+The target is attacked with a sharp chop. Critical hits land more easily.
+するどい チョップで あいてを たたいて こうげきする。 きゅうしょに あたりやすい。
+The user throws a punch at blinding speed. It is certain to strike first.
+めにも とまらぬ ものすごい はやさで パンチを くりだす。 かならず せんせい こうげき できる。
+Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.
+くりかえし うつことで だんだん こぶしが かたくなる。 あいてに あてると こうげきが あがる。
+The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
+パンチで こうげき。 あいての ぼうぎょを さげる ことが ある。
+The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.
+こぶしを ふって しんくうの なみを まきおこす。 かならず せんせい こうげき できる。
+The target is quickly kicked twice in succession using both feet.
+2ほんの あしで あいてを けとばして こうげきする。 2かい れんぞくで ダメージを あたえる。
+The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.
+ひらいた りょうてで あいてを つっぱって こうげきする。 2ー5かいの あいだ れんぞくで だす。
+A consecutive three-kick attack that becomes more powerful with each successive hit.
+3かい れんぞくで キックを くりだして こうげきする。 わざが あたる たびに いりょくは あがる。
+A retaliation move that counters any physical attack, inflicting double the damage taken.
+あいてから うけた ぶつり こうげきの ダメージを 2ばいに して おなじ あいてに かえす。
+The user risks all to attack the foe. The user faints but does damage equal to its HP.
+いのちがけで あいてを こうげきする。 じぶんは ひんしに なるが あいてに HPぶんの ダメージを あたえる。
+A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
+あしを つよく けり あいてを ころばせて こうげきする。あいてが おもいほど いりょくが あがる。
+An all-out attack that becomes more powerful the less HP the user has.
+ちからを ふりしぼり こうげきする。 じぶんの HPが すくないほど わざの いりょくは あがる。
+The target is thrown using the power of gravity. It inflicts damage equal to the user's level.
+いんりょくを つかい なげとばす。 じぶんの レベルと おなじ ダメージを あいてに あたえる。
+The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
+からだに ちからを こめて きんにくを ぶあつく することで じぶんの こうげきと ぼうぎょを あげる。
+The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.
+てきかくな しどうを おこなうことで みかた ぜんいんの こうげきと ぼうぎょを あげる。
+It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+あいての こうげきを まったく うけない。 れんぞくで だすと しっぱい しやすい。
+Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.
+かえした タタミを たてにして じぶんや みかたへの わざの ダメージを ふせぐ。 へんかわざは ふせぐことが できない。
+This move raises all the user's stats but prevents the user from switching out or fleeing.
+じぶんの すべての のうりょくが あがるが こうたい したり にげることが できなくなる。
+Locks the target in and prevents it from fleeing. Also lowers the target's Defense and Sp. Def each turn.
+あいてを にげられなくする。 かためられた あいては まいターン ぼうぎょと とくぼうが さがる。
+The user protects itself and its allies from priority moves. If may fail if used in succession.
+じぶんと みかたを あいての せんせい こうげきから まもる。
+With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.
+しゃくねつの ほのおを ひたいから はっせいさせて すてみの たいあたり。 ぼうぎょ とくぼう すばやさが さがる。
+The target is razed by a fiery explosion. The user must rest on the next turn, however.
+ばくはつの ほのおで あいてを やきつくして こうげきする。 つぎの ターンは うごけなく なる。
+The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.
+いかりを ばくはつ させて あいてを こうげきする。 じぶんの HPが すくない ほど わざの いりょくは さがる。
+The user attacks everything by causing its own head to explode. This also damages the user.
+じぶんの あたまを ばくはつ させて まわりの すべてを こうげきする。 じぶんも ダメージを うけてしまう。
+The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurt the attacker.
+こうらの トラップを しかける。 あいてが ぶつり わざを だすと ばくはつして ダメージを あたえる。
+The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe.
+うつくしくも はげしい あおいほのおで あいてを つつみこんで こうげきする。 やけど じょうたいに することが ある。
+To inflict massive damage, the user burns itself out. The user will no longer be Fire type.
+ぜんしんの ほのおを すべて もやして だいダメージを あたえる。 じぶんの ほのおタイプが なくなる。
+The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+フルパワーで あいてを こうげきする。 つかうと はんどうで じぶんの とくこうが がくっと さがる。
+The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target.
+ほのおを まとって とっしんする。 じぶんも かなり ダメージを うける。 やけど じょうたいに することが ある。
+Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target.
+こいしを もやした ほのおの ボールで あいてを こうげきする。 やけど じょうたいに することが ある。
+The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
+だいのじの ほのおで あいてを やきつくす。 やけど じょうたいに することが ある。
+The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
+きょだいな ほのおを たたきつける。 きょだいな いかずちの えいきょうをうけ わざの いりょくが あがる。
+The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
+はげしい ほのおで あいてを つつみこみ こうげきする。 やけど じょうたいに する。
+The target becomes trapped within a maelstrom of fire that rages for four to five turns.
+はげしく もえたぎる ほのおの なかに 4ー5ターンの あいだ あいてを とじこめて こうげきする。
+The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.
+しんぴの ほのおで あいてを やきつくして こうげきする。 やけど じょうたいに することが ある。
+An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn.
+まっかな ほのおで じぶんの まわりに いるものを こうげきする。 やけど じょうたいに することが ある。
+The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
+あつい いきを あいてに ふきつけて こうげきする。 やけど じょうたいに することが ある。
+The target is scorched with an intense blast of fire. It may also leave the target with a burn.
+はげしい ほのおを あいてに はっしゃして こうげきする。 やけど じょうたいに することが ある。
+The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.
+こうげきした あいてを やけど じょうたいに することが ある。 きゅうしょにも あたりやすい。
+Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.
+ほのおを まとい はばたいて あいてを こうげきする。じぶんの とくこうが あがることが ある。
+The user strikes the target with a burning lash. This also lowers the target's Defense stat.
+やけたムチで あいてを うちつける。 こうげきを うけた あいては ぼうぎょが さがる。
+A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.
+ほのおの はしらで こうげきする。 くさと くみあわせると いりょくが あがって あたりが ひの うみに なる。
+An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.
+まっかな ほのおで じぶんの まわりに いるものを こうげきする。 やけど じょうたいに することが ある。
+The target is punched with a fiery fist. It may leave the target with a burn.
+ほのおを こめた パンチで あいてを こうげきする。 やけど じょうたいに することが ある。
+The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
+くちから はきだす とくべつ あつい ほのおで こうげきする。 あいての とくこうを さげる。
+The user attacks with energy from jealousy. This burns all foes that had their stats boosted this turn.
+しっとの エネルギーで あいてを こうげき。 そのターン のうりょくが あがった ポケモンを やけどの じょうたいに する。
+The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.
+ほのおを まとった キバで かみつく。 あいてを ひるませたり やけど じょうたいに することが ある。
+The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
+ほのおを まとい あいてに とっしんして こうげきする。 やけど じょうたいに することが ある。
+The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.
+ほのおで あいてを こうげきする。 あいてが きのみなどを もっている とき もやして つかえなく する。
+The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.
+ほのおを まとい あいてを こうげきする。ちからを ためて じぶんの すばやさを あげる。
+The target is attacked with small flames. It may also leave the target with a burn.
+ちいさな ほのおを あいてに はっしゃして こうげきする。 やけど じょうたいに することが ある。
+The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+はげしく うずをまく ほのおの なかに 4ー5ターンの あいだ あいてを とじこめて こうげきする。
+The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
+もえる からだで あいてに ぶつかって こうげきする。 じぶんが あいてより おもいほど いりょくが あがる。
+The user intensifies the sun for five turns, powering up Fire-type moves.
+5ターンの あいだ ひざしを つよくして ほのおタイプの わざの いりょくを あげる。
+The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+ぶきみで あやしい ほのおを はなって あいてを やけどの じょうたいに する。
+A second-turn attack move where critical hits land more easily. It may also make the target flinch.
+2ターンめに あいてを こうげきする。 たまに ひるませる。 きゅうしょにも あたりやすい。
+The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+はねを おりたたみ ていくう ひこうで とつげきする。 じぶんも かなり ダメージを うける。
+The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered.
+おおぞらから きゅうそくらっか して あいてを こうげきする。 じぶんの ぼうぎょと とくぼうが さがる。
+The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe.
+きょうれつな かぜで あいてを つつみこんで こうげきする。 あいてを こんらん させることが ある。
+A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
+くうきの うずを はっしゃして こうげきする。 きゅうしょに あたりやすい。
+The user heats up its beak before attacking. Making contact in this time results in a burn.
+さいしょに クチバシを かねつしてから こうげきを くりだす。 かねつちゅうに さわると やけどする。
+The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.
+1ターンめで そらへ とび 2ターンめに あいてを こうげきする。
+The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.
+そらたかく とびはねて 2ターンめに あいてを こうげきする。 まひ じょうたいに することが ある。
+A corkscrewing attack with the sharp beak acting as a drill.
+かいてん しながら とがった くちばしを あいてに つきさして こうげきする。
+The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt.
+ねらいを さだめた あいてから HPを すいとる。 あたえた ダメージの はんぶんいじょう HPを かいふくする。
+The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
+そらをも きりさく くうきの やいばで こうげきする。 あいてを ひるませる ことが ある。
+The user attacks using a sound wave based on words it has learned. It may also confuse the target.
+とても うるさい おしゃべりの おんぱで あいてを こうげきする。 あいてを こんらん させる。
+The user confounds the foe with speed, then slashes. The attack lands without fail.
+すばやい うごきで あいてを ほんろうして きりつける。 こうげきは かならず めいちゅう する。
+The user launches razor-like wind to slash the opposing team. Critical hits land more easily.
+するどい かぜで あいてを きりつけて こうげきする。 きゅうしょに あたりやすい。
+The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+くちばしで こうげき。 あいてが きのみを もっている とき たべて きのみの こうかを うけられる。
+The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is struck with large, imposing wings spread wide to inflict damage.
+おおきく ひろげた りっぱな つばさを あいてに ぶつけて こうげきする。
+The user nimbly strikes the foe. This attack does more damage if the user is not holding an item.
+かろやかに あいてを こうげきする。 じぶんが どうぐを もっていない とき おおきな ダメージを あたえる。
+The user slams the target with its wings. The target is hit twice in a row.
+つばさを あいてに ぶつけて こうげきする。 2かい れんぞくで ダメージを あたえる。
+A gust of wind is whipped up by wings and launched at the target to inflict damage.
+つばさで おこした はげしい かぜを あいてに ぶつけて こうげきする。
+The target is jabbed with a sharply pointed beak or horn.
+するどく とがった くちばしや つので あいてを つついて こうげきする。
+A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.
+つよいかぜで あいての リフレクターや ひかりのかべ などを はらいのける。 かいひりつも さげる。
+The user covers the target's body with a mass of down that harshly lowers its Attack stat.
+うもうを ふりまいて あいての からだに からませる。 あいての こうげきを がくっと さげる。
+The user counters the target by mimicking the target's last move.
+あいての つかった わざを まねして じぶんも おなじ わざを つかう。
+The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+じめんに おりて からだを やすめる。 さいだい HPの はんぶんの HPを かいふく する。
+The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
+はげしく ふきあれる かぜのうずを つくり 4ターンの あいだ みかた ぜんいんの すばやさを あげる。
+The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
+たくさんの ちいさな れいたいを あいてに ぶつけて こうげきする。
+The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.
+1ターンめで すがたを けして 2ターンめに あいてを こうげきする。 まもっていても こうげきは あたる。
+Attacks the target by controlling its item. The move fails if the target doesn't have an item.
+あいての もちものを あやつって こうげき。 あいてが どうぐを もっていない ばあいは しっぱい する。
+The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
+あやしい こうせんを はなって こうげきする。あいての とくせいを むしして こうげき することが できる。
+The user vanishes somewhere, then strikes on the next turn. Hits through protections.
+1ターンめで どこかに きえて 2ターンめに あいてを こうげきする。 まもりを むしして こうげきできる。
+The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
+あいての かげに もぐりこみ あいての のうりょく アップを うばって こうげきする。
+The user beats the target with a bone containing a spirit. May lower the target's Defense stat.
+たましいの やどった ホネで あいてを なぐりつけて こうげきする。 あいての ぼうぎょを さげる ことがある。
+The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
+くろいかげの かたまりを なげつけて こうげきする。 あいての とくぼうを さげることが ある。
+The user attacks while also stitching the target's shadow to the ground to prevent it fleeing.
+こうげきと どうじに あいての かげを ぬいつけて にげられなくする。
+The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+かげから つくった するどい ツメで あいてを きりさく。 きゅうしょに あたりやすい。
+This relentless attack does massive damage to a target affected by status problems.
+たたみかける ように こうげきする。 じょうたい いじょうの あいてに おおきな ダメージを あたえる。
+The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user throws a punch from the shadows. The punch lands without fail.
+かげに まぎれて パンチを くりだす。 こうげきは かならず めいちゅう する。
+The user extends its shadow and attacks the target from behind. This move always goes first.
+かげを のばして あいての はいごから こうげきする。 かならず せんせい こうげき できる。
+The user attacks the target while shouting in a startling fashion. It may also make the target flinch.
+おおきな こえなどで ふいに おどろかして こうげきする。 あいてを ひるませる ことが ある。
+The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.
+ながい したで あいてを なめまわして こうげきする。 まひ じょうたいに することが ある。
+The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.
+おそろしい まぼろしを みせて じぶんの レベルと おなじ だけの ダメージを あいてに あたえる。
+The target is exposed to a sinister ray that triggers confusion.
+あやしい ひかりを あいてに みせて まどわせる。 あいてを こんらん させる。
+A move that works differently for the Ghost type than for all the other types.
+つかう ポケモンが ゴーストタイプと それいがい とでは こうかが かわる。
+When this move is used, if the user faints, the foe that landed the knockout hit also faints.
+わざのあと あいての こうげきで ひんしに なると こうげき あいても ひんしにする。 れんぞくして だすと しっぱいする。
+If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out.
+あいての わざで ひんしに されたとき おんねんを かけて そのわざの PPを 0に する。
+A sleeping target sees a nightmare that inflicts some damage every turn.
+ねむり じょうたいの あいてに あくむを みせて まいターン すこしずつ HPを へらしていく。
+The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
+あいてが さいごに つかった わざに うらみを いだいて そのわざの PPを 4だけ へらす。
+The user takes the target trick-or-treating. This adds Ghost type to the target's type.
+あいてを ハロウィンに さそう。 あいての タイプに ゴーストタイプが ついかされる。
+The user slams the target with an enormous tree. The user can't move on the next turn.
+おおきな じゅもくで あいてを たたきつけて こうげきする。 つぎの ターンは うごけなく なる。
+A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.
+とがった はっぱで あいてに あらしを おこす。つかうと はんどうで じぶんの とくこうが がくっと さがる。
+The user gathers light energy into a blade, attacking the target on the next turn.
+1ターンめに ひかりを いっぱいに あつめ 2ターンめに そのちからを けんに こめて こうげきする。
+The user attacks by scattering petals for two to three turns. The user then becomes confused.
+2ー3ターンの あいだ はなを まきちらして あいてを こうげきする。 まきちらした あとは こんらん する。
+The user violently whirls its vines or tentacles to harshly lash the target.
+ツタや しょくしゅを はげしく ふるって あいてを たたきつけ こうげきする。
+The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def.
+からだの なかから しょうげきはを はっせい させる。あいての とくぼうを がくっと さげることが ある。
+A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
+1ターンめに ひかりを いっぱいに あつめ 2ターンめに ひかりの たばを はっしゃして こうげきする。
+The user slams its rugged body into the target to attack. The user also sustains serious damage.
+かたい どうたいを あいてに たたきつけて こうげきする。 じぶんも かなり ダメージを うける。
+The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.
+しぜんから あつめた いのちの ちからを はっしゃする。 あいての とくぼうを さげることがある。
+The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.
+はっぱを つるぎのように あやつり あいてを きりつけて こうげきする。 きゅうしょに あたりやすい。
+The user stirs up a violent petal blizzard and attacks everything around it.
+はげしい はなふぶきを おこし まわりに いるものに こうげきして ダメージを あたえる。
+Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def.
+すっぱい りんごから つくりだした さんせいの えきたいで こうげき。 あいての とくぼうを さげる。
+The user plays its drum, controlling roots to attack. This also lowers the target's Speed stat.
+ドラムの ねっこを ドラミングで コントロールして こうげき することで あいての すばやさを さげる。
+A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp.
+くさの はしらで こうげきする。 みずと くみあわせると いりょくが あがって あたりが しつげんに なる。
+The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense.
+たかいところから りんごを おとして ダメージを あたえる。 あいての ぼうぎょを さげる。
+The user slams a barrage of hard-shelled seeds down on the target from above.
+かたい からを もつ おおきな タネを うえから たたきつけて あいてを こうげきする。
+A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+ようぶんを すいとり こうげきする。 あたえた ダメージの はんぶんの HPを かいふく できる。
+The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted.
+つのを つきさして あいての ようぶんを すいとる。 あたえた ダメージの はんぶんの HPを かいふく できる。
+Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.
+じめんを すべるように あいてを こうげき。 グラスフィールドの とき かならず せんせい こうげき できる。
+The user lands an intense tropical kick on the target. This also lowers the target's Attack stat.
+なんごく ゆらいの あつい キックを あいてに あびせる。 あいての こうげきを さげる。
+The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy.
+するどい はっぱで あいてを つつみこんで こうげきする。 めいちゅうりつを さげることが ある。
+The user scatters curious leaves that chase the target. This attack will not miss.
+あいてを ついせきする ふしぎな はっぱを まきちらす。 こうげきは かならず めいちゅう する。
+The user attacks by wildly swinging its thorny arms. It may also make the target flinch.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.
+はっぱを とばして あいてを きりつけて こうげきする。 きゅうしょに あたりやすい。
+The target is struck with slender, whiplike vines to inflict damage.
+ムチのように しなる ほそながい つるで あいてを たたきつけて こうげきする。
+The user attacks the target by poking it with a sharply pointed branch.
+するどく とがった えだで あいてを つついて こうげきする。
+The user attacks by pelting the target with leaves.
+はっぱを あいてに あてて こうげきする。
+The user snares the target in a snap trap for four to five turns.
+トラバサミで とらえて 4－5ターンの あいだ あいてを はさんで こうげきする。
+The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
+タネを いきおいよく あいてに はっしゃして こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The user snares the target with grass and trips it. The heavier the target, the greater the damage.
+くさを からませて あいてを ころばせる。あいてが おもいほど いりょくが あがる。
+The user releases a soothing scent that heals all status problems affecting the user's party.
+ここちよい やすらぐ かおりを かがせて みかた ぜんいんの じょうたい いじょうを かいふく する。
+The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat.
+フワフワの わたげで じぶんの からだを つつみこんで まもる。 ぼうぎょを ぐぐーんと あげる。
+The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.
+わたのような フワフワの ほうしを まとわり つかせて あいての すばやさを がくっと さげる。
+The user puts a forest curse on the target. The target is now Grass type as well.
+あいてに もりののろいを かける。 のろいを かけられた あいては タイプに くさタイプが ついかされる。
+The user plays a pleasant melody that lulls the target into a deep sleep.
+ここちよい ふえの ねいろを きかせて あいてを ねむりの じょうたいに する。
+The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn.
+5ターンのあいだ グラスフィールドにする。 じめんにいると まいターン かいふくする。 くさタイプの いりょくが あがる。
+The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.
+だいちに ねを はり まいターン じぶんの HPを かいふく する。 ねを はっているので いれかえられない。
+The user becomes one with the jungle, and restores HP and cures status conditions of itself and allies.
+ジャングルと いったいか して じぶんと ばにいる みかたの HPと じょうたいを かいふくする。
+A seed is planted on the target. It steals some HP from the target every turn.
+うえつけた あいての HPを まいターン すこしだけ すいとり じぶんの HPを かいふく する。
+The user scatters a big cloud of sleep-inducing dust around the target.
+ねむくなる こなを たくさん ふりまいて あいてを ねむり じょうたいに する。
+Protects the user from attacks. Also damages attackers that make contact with the user.
+あいての こうげきを ふせぐと どうじに ふれた あいての たいりょくを けずって しまう。
+The user scatters bursts of spores that induce sleep.
+さいみん こうかの ある ほうしを パラパラと ふりまき あいてを ねむり じょうたいに する。
+The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat.
+あいての こうげきりょくと おなじだけ じぶんの HPを かいふくする。 そして あいての こうげきを さげる。
+The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.
+しびれる こなを たくさん ふりまいて あいてを まひ じょうたいに する。
+A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.
+こころを なやませる タネを うえつける。 あいてを ねむれなく して とくせいを ふみんに する。
+The user attacks its foes by manifesting the power of the land in fearsome blades of stone.
+だいちの ちからを やいばに かえて あいてを こうげきする。
+The user sets off an earthquake that strikes every Pokémon around it.
+じしんの しょうげきで じぶんの まわりに いるものを こうげきする。
+The user fiercely attacks the target using its entire body.
+ぜんしんを つかって あいてに もうアタックする。
+The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
+あいての あしもとへ だいちの ちからを ほうしゅつする。あいての とくぼうを さげることが ある。
+The user gathers the energy of the land and focuses that power on foes to damage them.
+だいちの パワーを あつめ ちからを あいてに しゅうちゅう させて ダメージを あたえる。
+This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
+ういている ポケモンにも あたる。 ういていた あいては うちおとされて じめんに おちる。
+The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle.
+ちをはう なみによって こうげき。 なみに まきこまれた あいては せんとうから にげられなくなる。
+The user burrows, then attacks on the second turn. It can also be used to exit dungeons.
+1ターンめに もぐり 2ターンめで あいてを こうげきする。
+The user crashes into its target while rotating its body like a drill. Critical hits land more easily.
+ドリルのように からだを かいてん しながら あいてに たいあたりする。 きゅうしょに あたりやすい。
+The user attacks driven by frustration. Power increases if the user's previous move failed.
+くやしさを バネにして こうげきする。 まえの ターンに わざを はずしていると いりょくが ばいに なる。
+The user throws scorching sand at the target to attack. This may also burn the target.
+あつく やけた すなを あいてに ぶつけて こうげきする。 やけど じょうたいに することが ある。
+The user clubs the target with a bone. It may also make the target flinch.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
+じめんを ふみならして じぶんの まわりに いるものを こうげきする。 あいての すばやさを さげる。
+The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.
+どろの かたまりを あいてに なげつけて こうげきする。 どうじに あいての すばやさを さげる。
+The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
+てに もった ホネを あいてに なげつけ いきと かえりで 2かい れんぞくで ダメージを あたえる。
+The user traps the target inside a harshly raging sandstorm for four to five turns.
+はげしく ふきあれる すなあらしの なかに 4ー5ターンの あいだ あいてを とじこめて こうげきする。
+The user strikes the target with a hard bone two to five times in a row.
+かたい ホネで あいてを なぐりつけて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The user hurls mud in the target's face to inflict damage and lower its accuracy.
+あいての かおなどに ドロを なげつけて こうげきする。 めいちゅうりつを さげる。
+The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.
+じわれの さけめに あいてを おとして こうげきする。 あたれば いちげきで ひんしに する。
+The user looses a ground-shaking quake affecting everyone around the user. Its power varies.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user tills the soil to encourage plant growth. This raises the Attack and Sp. Atk of Grass types.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+Sand is hurled in the target's face, reducing its accuracy.
+あいての かおに すなを かけて めいちゅうりつを さげる。
+The user regains up to half of its max HP. It restores more HP in a sandstorm.
+さいだい HPの はんぶん じぶんの HPを かいふく する。 すなあらしのときは おおく かいふく。
+The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.
+あいての あしもとに まきびしを しかける。こうたいで でてきた あいての ポケモンに ダメージを あたえる。
+On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe.
+でんきを まとった こおりの かたまりで 2ターンめに あいてを たたきつける。 まひ じょうたいに することが ある。
+On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn.
+すべてを こおらせる はげしい れいきで 2ターンめに あいてを つつみこむ。 やけど じょうたいに することが ある。
+The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
+ふぶきを まとった こおりの やりを あいてに なげつけて こうげきする。
+A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
+はげしい ふぶきを あいてに ふきつけて こうげきする。 こおり じょうたいに することが ある。
+The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.
+つよくて おもい こぶしを ふるって ダメージを あたえる。 じぶんの すばやさが さがる。
+The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
+こごえる ビームを あいてに はっしゃして こうげきする。 こおり じょうたいに することが ある。
+The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch.
+おおきな つららを はげしく ぶつけて こうげきする。 あいてを ひるませる ことが ある。
+The target is punched with an icy fist. It may also leave the target frozen.
+れいきを こめた パンチで あいてを こうげきする。 こおり じょうたいに することが ある。
+The user rapidly cools the target. This may freeze the target. Is super-effective on Water types.
+あいてを きゅうげきに ひやして こおり じょうたいに することが ある。 みずタイプにも こうかばつぐんに なる。
+The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
+にじいろの ビームを あいてに はっしゃして こうげきする。 こうげきを さげる ことが ある。
+The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat.
+こごえる ような れいきを あいてに ふきつけて こうげきする。 あいての すばやさを さげる。
+The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.
+れいきを ひめた キバで かみつく。 あいてを ひるませたり こおり じょうたいに することが ある。
+The user blows a cold breath on the target. This attack always results in a critical hit.
+つめたい いきを あいてに ふきつけて こうげきする。 かならず きゅうしょに あたる。
+The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
+つめたい れいきを あいてに ふきつけて こうげきする。 あいての すばやさを さげる。
+The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
+こおりの かたまりを いっしゅんで つくり あいてに すばやく はなつ。 かならず せんせい こうげき できる。
+The user attacks with a chilling gust of powdery snow. It may also freeze the targets.
+つめたい こなゆきを あいてに ふきつけて こうげきする。 こおり じょうたいに することが ある。
+The user continually rolls into the target over five turns. It becomes stronger each time it hits.
+5ターンの あいだ ころがりつづけて あいてを こうげきする。わざが あたるたび いりょくが あがる。
+The user launches sharp icicles at the target. It strikes two to five times in a row.
+するどい つららを あいてに はっしゃして こうげきする。 2ー5かいの あいだ れんぞくで だす。
+A consecutive three-kick attack that becomes more powerful with each successful hit.
+3かい れんぞくで キックを くりだして こうげきする。 わざが あたる たびに いりょくは あがる。
+The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.
+あいてを いちげきで ひんしに する。 こおりタイプ いがいの ポケモンが つかうと あたりにくい。
+This move reduces damage from attacks for five turns. This can be used only in a hailstorm.
+5ターンの あいだ ぶつりと とくしゅの ダメージを よわめる。 あられの ときしか だすことが できない。
+The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.
+5ターンの あいだ あられを ふらして こおりタイプで ない ポケモン ぜんいんに ダメージを あたえる。
+The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+くろいきりを だして せんとうに でている ポケモン ぜんいんの のうりょく へんかを もとに もどす。
+The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.
+しろいきりで からだを おおう。 5ターンの あいだ あいてに のうりょくを さげられなく なる。
+The user explodes to inflict damage on those around it. The user faints upon using this move.
+おおきな ばくはつで じぶんの まわりに いるものを こうげきする。 つかった あとに ひんしに なる。
+The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.
+ばくはつを おこして じぶんの まわりに いるものを こうげきする。 つかった あとに ひんしに なる。
+The user charges at the target using every bit of its power. The user must rest on the next turn.
+もてる ちからを すべて つかって あいてに とつげきする。 つぎの ターンは うごけなく なる。
+The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+つよい こうせんを あいてに はっしゃして こうげきする。 つぎの ターンは うごけなく なる。
+The user attacks everything around it with the destructive power of a terrible, explosive sound.
+すさまじい ばくおんの はかいりょくに よって まわりに いるものを こうげきする。
+This move can be used only after the user has used all the other moves it knows in the battle.
+せんとうちゅうに おぼえている わざを すべて つかうと はじめて だせる とっておきの わざ。
+The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.
+1ターンめに あたまを ひっこめて ぼうぎょを あげる。 2ターンめに あいてを こうげきする。
+A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.
+いのちを かけて あいてに とっしんして こうげきする。 じぶんも かなり ダメージを うける。
+The user charges its head into the foe, using its powerful guard hair. The user also takes damage.
+すごい アフロの あたまで あいてに とっしんして こうげきする。 じぶんも すこし ダメージを うける。
+The target is attacked by a kick launched with muscle-packed power.
+ものすごい ちからを こめた キックで あいてを けとばして こうげきする。
+Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory.
+たかい エネルギーを まといつつ あいてに ぶつかって こうげきする。 メモリに より タイプが かわる。
+The user fires a beam of light at its target. The type changes depending on the Drive the user holds.
+こうだんを あいてに ほうしゅつする。じぶんの もつ カセットに より タイプが かわる。
+A large egg is hurled at the target with maximum force to inflict damage.
+おおきな タマゴを ちから いっぱい あいてに なげつけて こうげきする。
+The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.
+むすうの こうだんを あいてに ほうしゅつする。じぶんの もつ プレートに より タイプが かわる。
+The user lets loose a horribly echoing shout with the power to inflict damage.
+うるさく ひびく おおきな しんどうを あいてに あたえて こうげきする。
+The user attacks the target by dancing very hard. The user's type determines the type of this move.
+ぜんりょくで おどって こうげきする。 この わざの タイプは じぶんの タイプと おなじに なる。
+The user attacks the target by smashing into it with incredible force. It may also confuse the target.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.
+すごい いきおいで あいてに ぶつかって こうげきする。 じぶんも すこし ダメージを うける。
+The user attacks in an uproar for three turns. Over that time, no one can fall asleep.
+3ターンの あいだ さわいで あいてを こうげきする。 そのあいだは だれも ねむれなく なる。
+The user drops onto the target with its full body weight. It may leave the target with paralysis.
+からだ ぜんたいで あいてに のしかかり こうげきする。 まひ じょうたいに することが ある。
+The user charges the target at blinding speed. This attack always goes before any other move.
+めにも とまらぬ ものすごい はやさで あいてに とっしんして こうげきする。 かならず せんせい こうげき できる。
+The user bites hard on the target with its sharp front fangs. It may also make the target flinch.
+するどい まえばで つよく かみついて こうげきする。 あいてを ひるませる ことが ある。
+The target is slugged by a punch thrown with muscle-packed power.
+ちからを こめた パンチで あいてを こうげきする。
+A two-turn attack. Blades of wind hit the foe on the second turn. Critical hits land more easily.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is slammed with a long tail, vines, etc., to inflict damage.
+ながい しっぽや つるなどを つかい あいてを たたきつけて こうげきする。
+The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.
+こんしんの ちからで あいてを なぐりつけて こうげきする。
+The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.
+3つの こうせんで こうげきする。 まひか やけどか こおりじょうたいの どれかに することが ある。
+The user slashes the target with hard and sharp claws. It may also lower the target's Defense.
+かたく するどい ツメで きりさいて こうげきする。あいての ぼうぎょを さげることが ある。
+An ancient song appeals to the hearts of those listening. It may also induce sleep.
+いにしえのうたを あいてに きかせて こころに うったえて こうげきする。 ねむり じょうたいに することが ある。
+Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is hit with rhythmically launched punches that may also leave it confused.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+An attack move that doubles its power if the user is poisoned, burned, or has paralysis.
+じぶんが どく まひ やけど じょうたいの とき あいてに くりだすと わざの いりょくが 2ばいに なる。
+The user sticks out its head and attacks by charging into the foe. It may also make the target flinch.
+あたまを つきだして まっすぐ つっこんで こうげきする。 あいてを ひるませる ことが ある。
+Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.
+たおれた みかたの かたきを うつ。 まえの ターンに みかたが たおされて いると いりょくが あがる。
+The user attacks with a secret power. Its added effects vary depending on the user's environment.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is attacked with a slash of claws or blades. Critical hits land more easily.
+ツメや カマ などで あいてを きりさいて こうげきする。 きゅうしょに あたりやすい。
+This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is jabbed with a sharply pointed horn to inflict damage.
+するどく とがった つので あいてを こうげきする。
+The target is stomped with a big foot. It may also make the target flinch.
+おおきな あしで あいてを ふみつけて こうげきする。 あいてを ひるませる ことが ある。
+The user endearingly approaches the target, then steals the target's held item.
+かわいく あまえながら あいてに ちかづき もっている どうぐを うばう。
+A unique attack that varies in type and intensity depending on the Pokémon using it.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user attacks with a song. Others can join in the Round and make the attack do greater damage.
+うたで あいてを こうげきする。 みんなで りんしょう すると つづけて だすことが でき いりょくも あがる。
+Star-shaped rays are shot at the opposing team. This attack never misses.
+ほしがたの ひかりを はっしゃして あいてを こうげきする。 こうげきは かならず めいちゅう する。
+The target is gripped and squeezed from both sides to inflict damage.
+あいてを りょうがわから はさんで ダメージを あたえる。
+The target is cut with a scythe or a claw. It can also be used to cut down thin trees.
+カマや ツメなどで あいてを きりつけて こうげきする。
+A spin attack that raises the user's Speed and eliminates the effects of Bind, Spikes, etc.
+かいてんして あいてを こうげきする。 しめつける まきつく やどりぎのタネ など ふきとばす。じぶんの すばやさも あがる。
+An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.
+じぶんが ねている ときに ざつおんを だして こうげきする。 あいてを ひるませる ことが ある。
+Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.
+フィールドの ちからを かりて こうげき。 つかったときの フィールドのじょうたいに よって わざの タイプと いりょくが かわる。
+An attack move that varies in power and type depending on the weather.
+つかった ときの てんきに よって わざの タイプと いりょくが かわる。
+The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.
+ひびく こえで あいてを こうげきする。 まいターン だれかが わざを つかい つづけると いりょくが あがる。
+An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
+せんせい こうげきで あいてを ひるませる。せんとうに でたら すぐに ださないと せいこう しない。
+A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+あいての HPが かならず 1だけ のこる ように てかげん して こうげきする。
+The user holds back when it attacks, and the target is left with at least 1 HP.
+てかげん した こうげきで あいての HPを かならず 1だけ のこす。
+Numerous coins are hurled at the target to inflict damage. Money is earned after battle.
+あいての からだに こばんを なげつけて こうげきする。 せんとうの あとで おかねが もらえる。
+The target is physically pounded with a long tail or a foreleg, etc.
+ながい しっぽや てなどを つかって あいてを はたいて こうげきする。
+The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
+めにも とまらぬ ものすごい はやさで あいてに つっこむ。 かならず せんせい こうげき できる。
+Hard, pointed, and sharp claws rake the target to inflict damage.
+かたく とがった するどい ツメで あいてを ひっかいて こうげきする。
+A physical attack in which the user charges and slams into the target with its whole body.
+あいてに むかって からだ ぜんたいで ぶつかって いき こうげきする。
+The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.
+しっぽなどを つかい あいてを たたいて こうげきする。 2かい れんぞくで ダメージを あたえる。
+An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.
+まもるや みきり などを している あいてに こうげきが できる。 まもりの こうかを かいじょ させる。
+The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row.
+かたい しっぽで あいてを たたいて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+As long as this move is in use, the user's Attack rises each time the user is hit in battle.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is hit with a flurry of punches that strike two to five times in a row.
+どとうの パンチで あいてを なぐりつけて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The target is raked with sharp claws or scythes for two to five times in quick succession.
+ツメや カマなどで あいてを ひっかいて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+Round objects are hurled at the target to strike two to five times in a row.
+まるい ものを あいてに なげつけて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.
+ながい からだや つるなどを つかい 4ー5ターンの あいだ あいてを しめつけて こうげきする。
+The target is slapped repeatedly, back and forth, two to five times in a row.
+おうふく ビンタで あいてを たたいて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The target is jabbed repeatedly with a horn or beak two to five times in a row.
+つのや くちばしで あいてを つついて こうげきする。 2ー5かいの あいだ れんぞくで だす。
+A long body or vines are used to wrap and squeeze the target for four to five turns.
+ながい からだや つるなどを つかって 4ー5ターンの あいだ あいてに まきついて こうげきする。
+The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user endures attacks for two turns, then strikes back to cause double the damage taken.
+2ターンの あいだ こうげきに たえて うけた ダメージを 2ばいに して あいてに かえす。
+The target is crushed with great force. The attack is more powerful the more HP the target has left.
+すさまじい ちからで あいてを にぎり つぶす。あいての HPが のこっている ほど いりょくが あがる。
+An attack move that cuts down the target's HP to equal the user's HP.
+あいての HPが じぶんの HPと おなじ くらいに なるように ダメージを あたえる。
+The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
+じたばた あばれて こうげきする。 じぶんの HPが すくないほど わざの いりょくは あがる。
+A full-power attack that grows more powerful the less the user likes its Trainer.
+ふまんを はらすため ぜんりょくで あいてを こうげきする。なついて いないほど いりょくは あがる。
+A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
+おおきな ハサミで あいてを きりさいて こうげきする。 あたれば いちげきで ひんしに する。
+The user stabs the foe with a horn that rotates like a drill. If it hits, the target faints instantly.
+かいてんする つのを あいてに つきさして こうげきする。 あたれば いちげきで ひんしに する。
+The user draws power to attack by using its held Berry. The Berry determines its type and power.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.
+わなを しかけた はこを あいてに わたして こうげきする。HPが かいふくして しまうことも ある。
+A full-power attack that grows more powerful the more the user likes its Trainer.
+トレーナーの ために ぜんりょくで あいてを こうげきする。 なついて いるほど いりょくは あがる。
+The target is hit with a destructive shock wave that always inflicts 20 HP damage.
+しょうげきはを あいてに ぶつけて こうげきする。 20の ダメージを きまって あたえる。
+The power stored using the move Stockpile is released all at once in an attack.
+たくわえた ちからを あいてに ぶつけて こうげきする。たくわえて いるほど いりょくが あがる。
+The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.
+するどい まえばで はげしく かみついて こうげきする。 あいての HPは はんぶんに なる。
+The fewer PP this move has, the greater its attack power.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user applies pressure to stress points, sharply boosting one of its stats.
+つぼおしで からだを かっせいか させる。 のうりょくの どれか 1つを ぐーんと あげる。
+The user helps the target and makes it use its move right after the user.
+あいての こうどうを サポートして じぶんの こうどうの あとに つづけて うごけるように する。
+The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
+おおいそぎで かたの たすけを かりて ひかえの ポケモンが おぼえている わざを どれか 1つ つかう。
+If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+♂なら♀を ♀なら♂を ゆうわくして メロメロに する。 あいては わざが だしにくく なる。
+The user switches places with a party Pokémon in waiting, passing along any stat changes.
+ひかえの ポケモンと いれかわる。 のうりょく へんかは かわった ポケモンが そのまま うけつぐ。
+The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+じぶんの HPを さいだい HPの はんぶん へらして じぶんの こうげきを さいだいに あげる。
+The user passes its held item to the target when the target isn't holding an item.
+あいてが どうぐを もっていない とき じぶんが もっている どうぐを あいてに わたす。
+The user blocks the target's way with arms spread wide to prevent escape.
+りょうてを ひろげて たちはだかり あいての にげみちを ふさいで にげられなく する。
+The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.
+みずべや くさむら どうくつなど いる ばしょに あわせて じぶんの タイプを かえる。
+If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The Pokémon congratulates you on your special day!
+ポケモンが とっても ハッピーな あなたのことを おいわい してくれる。
+The user tells the target a secret. The target loses focus and its Sp. Atk stat is lowered.
+ないしょばなしを することで あいての しゅうちゅうりょくを うしなわせ あいての とくこうを さげる。
+The user changes its type to become the same type as one of its moves.
+じぶんの タイプを おぼえている わざで いちばん うえの わざと おなじ タイプに する。
+The user changes its type to make itself resistant to the type of the attack the opponent used last.
+あいてが さいごに つかった わざに ていこう できる ように じぶんの タイプを へんか させる。
+The user mimics the move used immediately before it. The move fails if no other move has been used yet.
+ちょくぜんに でた わざを まねして おなじ わざを だす。 わざが でていないと しっぱい する。
+With its mysterious power, the user swaps the effects on either side of the field.
+ふしぎな ちからで おたがいの ばの こうかを いれかえる。
+The user curls up to conceal weak spots and raise its Defense stat.
+からだを まるめて ちぢこまり じぶんの ぼうぎょを あげる。
+For four turns, this move prevents the target from using the move it last used.
+あいての うごきを とめて ちょくぜんに だしていた わざを 4ターンの あいだ つかえなく する。
+By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
+すばやい うごきで ぶんしんを つくり あいてを まどわせて かいひりつを あげる。
+The user compels the target to keep using only the move it last used for three turns.
+あいてが さいごに つかった わざを 3ターンの あいだ ずっと ださせる。
+The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+こうげきを うけても HPを かならず 1だけ のこせる。 れんぞくで だすと しっぱい しやすい。
+The user dances to compel the target to mimic it, making the target's Ability the same as the user's.
+ふしぎな リズムで おどる。 うごきを まねさせて じぶんと あいての とくせいを おなじに する。
+The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user takes a deep breath and focuses so that critical hits land more easily.
+ふかく いきを すい きあいを こめる。 じぶんの こうげきが きゅうしょに あたりやすく なる。
+The user draws attention to itself, making all targets take aim only at the user.
+じぶんに ちゅうもく させて あいてからの こうげきを すべて じぶんに むけさせる。
+Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user intimidates the target with the pattern on its belly to cause paralysis.
+おなかの もようで おびえさせて あいてを まひの じょうたいに する。
+The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered.
+かわいい なきごえを きかせて きを ひき ゆだんを させて あいての こうげきを さげる。
+The user's body grows all at once, raising the Atk and Sp. Atk stats.
+からだを いっきに おおきく せいちょう させて こうげきと とくこうを あげる。
+Using Happy Hour doubles the amount of prize money received after battle.
+ハッピータイムの わざを つかうと せんとうの あとで もらえる おかねが ばいになる。
+The user stiffens all the muscles in its body to raise its Defense stat.
+ぜんしんに ちからを こめて からだを かたくして じぶんの ぼうぎょを あげる。
+The user makes a soothing bell chime to heal the status problems of all the party Pokémon.
+ここちよい すずの ねいろを きかせて みかた ぜんいんの じょうたい いじょうを かいふく する。
+The user assists an ally by boosting the power of its attack.
+なかまを たすける。 てだすけ された ポケモンの わざの いりょくは いつもより おおきく なる。
+The user and an ally hold hands. This makes them very happy.
+みかたの ポケモン どうしが てをつなぐ。 とっても しあわせな きもちに なれる。
+The user howls loudly to raise the spirit of itself and allies, boosting their Attack stats.
+おおごえで ほえて きあいを たかめ じぶんと みかたの こうげきを あげる。
+The user focuses intensely. The attack on the next turn always results in a critical hit.
+せいしんを しゅうちゅうして つぎの こうげきを かならず きゅうしょに あてる。
+The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced.
+するどい めつきで おびえさせて あいての ぼうぎょを さげる。
+The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.
+しょうじゅんを しっかり あわせて つぎの こうげきが かならず あいてに あたるように する。
+With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep.
+おそろしい かおで キスを せまる。 あいてを ねむり じょうたいに する。
+The user chants an incantation toward the sky, preventing the foe from landing critical hits.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user pins the target with a dark, arresting look. The target becomes unable to flee.
+すいこまれる ような くろい まなざしで じっと みつめて あいてを せんとうから にげられなく する。
+The user waggles a finger and stimulates its brain into randomly using nearly any move.
+ゆびをふり じぶんの のうを しげきして すべての わざの なかから どれか 1つを くりだす。
+The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+さいだい HPの はんぶん じぶんの HPを かいふく する。
+The user copies the move last used by the foe. The move can be used until the user is switched out.
+あいてが さいごに つかった わざを せんとうの あいだ じぶんの わざに することが できる。
+The user senses the foe's movements with its mind to ensure its next attack does not miss the foe.
+あいての うごきを こころで かんじて つぎの こうげきが かならず あいてに あたるように する。
+The user compresses its body to make itself look smaller, which sharply raises its evasiveness.
+からだを ちぢめて ちいさく みせて じぶんの かいひりつを ぐーんと あげる。
+An attack that makes use of nature's power. Its effects vary depending on the user's environment.
+しぜんの ちからで こうげきする。 つかう ばしょで でてくる わざが へんかする。
+Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk.
+おたけびを あげて あいてを いかくし あいての こうげきと とくこうを さげる。
+Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user adds its HP to the target's HP, then equally shares the combined HP with the target.
+じぶんの HPと あいての HPを あわせて それを じぶんと あいてで なかよく わける。
+Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
+うたを きいた ポケモンは 3ターン たつと ひんしに なる。 こうたいすると こうかは なくなる。
+The user and target become friends. The target loses its will to fight, lowering its Attack stat.
+あいてと なかよくなって たたかう きりょくを うしなわせ あいての こうげきを さげる。
+The user hypnotizes itself into copying any stat change made by the target.
+じぶんに あんじを かけることで のうりょく へんかの じょうたいを あいてと おなじにする。
+Restoring its own cells, the user restores its own HP by half of its max HP.
+さいぼうを さいせい させて じぶんの さいだい HPの はんぶんの HPを かいふく する。
+The user recycles a held item that has been used in battle so it can be used again.
+せんとうちゅうに つかって なくなった じぶんの もちものを さいせい させて つかえるように する。
+The user reflects the target's type, making it the same type as the target.
+あいての タイプを はんしゃして じぶんも おなじ タイプに なる。
+The user rests to cure itself of a poisoning, burn, or paralysis.
+からだを やすめて じぶんが おっている どく まひ やけどの じょうたい いじょうを なおす。
+The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.
+あいてを にがして ひかえの ポケモンを ひきずりだす。 やせいの ばあいは せんとうが おわる。
+The user creates a protective field that prevents status problems for five turns.
+5ターンの あいだ ふしぎな ちからに まもられて じょうたい いじょうに ならなくなる。
+The user frightens the target with a scary face to harshly reduce its Speed stat.
+おそろしい かおで にらみ おびえさせて あいての すばやさを がくっと さげる。
+An earsplitting screech harshly reduces the target's Defense stat.
+おもわず みみを ふさぎたくなる いやなおとを だして あいての ぼうぎょを がくっと さげる。
+The user reduces its polygon count to make itself more jagged, raising the Attack stat.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user breaks its shell, lowering its defenses but sharply raising attacking and Speed stats.
+からを やぶって じぶんの ぼうぎょ とくぼうを さげるが こうげき とくこう すばやさを ぐーんと あげる。
+The user's mysterious psychic wave changes the target's Ability to Simple.
+なぞの ねんぱを あいてに おくる。 ねんぱを うけとった あいては とくせいが たんじゅんに なる。
+A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.
+ここちよい きれいな うたごえを きかせて あいてを ねむり じょうたいに する。
+It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
+あいてが つかった わざを じぶんの ものに する。 1かい つかうと スケッチは きえる。
+The user slacks off, restoring its own HP by up to half of its maximum HP.
+なまけて やすむ。 じぶんの HPを さいだい HPの はんぶん かいふく する。
+While it is asleep, the user randomly uses one of the moves it knows.
+じぶんが おぼえている わざの うち どれか 1つを くりだす。 じぶんが ねている ときだけ つかえる。
+The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.
+けむりや スミなどを ふきかけて あいての めいちゅうりつを さげる。
+The user just flops and splashes around to no effect at all...
+こうげきも せずに ピョン ピョンと はねるだけで なにも おこらない……。
+The user shines a spotlight on the target so that only it will be attacked during the turn.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.
+ちからを たくわえて じぶんの ぼうぎょと とくぼうを あげる。 さいだい 3かいまで たくわえられる。
+The user eats its held Berry, then sharply raises its Defense stat.
+もっている きのみを たべて ぼうぎょを ぐーんと あげる。
+The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+じぶんの HPを すこし けずって ぶんしんを だす。 ぶんしんは じぶんの みがわりに なる。
+The user generates odd sound waves from its body. It may confuse the target.
+とくしゅな おんぱを からだから はっして あいてを こんらん させる。
+The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.
+あいてを おこらせて こんらん させる。 いかりで あいての こうげきは ぐーんと あがってしまう。
+The power stored using the move Stockpile is absorbed by the user to heal its HP.
+たくわえた ちからを のみこんで じぶんの HPを かいふく する。 たくわえて いるほど かいふく する。
+A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc.
+かおりで あいての かいひりつを がくっと さげる。
+A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
+たたかいのまいを はげしく おどって きあいを たかめる。 じぶんの こうげきを ぐーんと あげる。
+The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.
+しっぽを さゆうに かわいく ふって ゆだんを さそう。 あいての ぼうぎょを さげる。
+Gets teary eyed to make the target lose its will to fight. Lowers the target's Attack and Sp. Atk.
+なみだめに なって あいての せんりょくを そうしつさせる。 あいての こうげきと とくこうが さがる。
+The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.
+おちゃかいを ひらいて ばにいる ポケモンが それぞれ もっている きのみを たべる。
+The user performs a wobbly dance that confuses the Pokémon around it.
+フラフラと ダンスを おどって じぶんの まわりに いるものを こんらん じょうたいに させる。
+The user tickles the target into laughing, reducing its Attack and Defense stats.
+からだを くすぐり わらわせる ことで あいての こうげきと ぼうぎょを さげる。
+The user transforms into a copy of the target right down to having the same move set.
+あいての ポケモンに へんしん することで あいてと まったく おなじ わざが つかえる。
+The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.
+あいてを ふきとばして ひかえの ポケモンを ひきずりだす。 やせいの ばあいは せんとうが おわる。
+One turn after this move is used, the target's HP is restored by half the user's maximum HP.
+つぎの ターンに じぶん もしくは いれかわった ポケモンの HPを さいだい HPの はんぶん かいふくする。
+The user is roused, and its Attack and Sp. Atk stats increase.
+じぶんを ふるいたてて こうげきと とくこうを あげる。
+The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
+おおきな あくびで ねむけを さそう。 つぎの ターンに あいてを ねむり じょうたいに する。
+The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.
+あいてに むかって ゲップを あびせて ダメージを あたえる。 きのみを たべないと だせない。
+The user shoots filthy garbage at the target to attack. It may also poison the target.
+きたない ゴミを あいてに ぶつけて こうげきする。 どく じょうたいに することが ある。
+It swamps the area around the user with a giant sludge wave. It may also poison those hit.
+ヘドロの なみで じぶんの まわりに いるものを こうげきする。 どく じょうたいに することが ある。
+Inflicts physical or special damage, whichever will be more effective. May also poison the target.
+ぶつりか とくしゅか よりおおく ダメージを あたえられる のうりょくで こうげきする。 どく じょうたいに することが ある。
+Unsanitary sludge is hurled at the target. It may also poison the target.
+きたない ヘドロを あいてに なげつけて こうげきする。 どく じょうたいに することが ある。
+The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.
+どくに そまった しょくしゅや うでで あいてを つきさす。 どく じょうたいに することが ある。
+A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.
+どくの やいばで あいてを きりさく。 どく じょうたいに することが あり きゅうしょにも あたりやすい。
+The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
+とくしゅな どくえきを あびせかける。 どく じょうたいの あいてには いりょくが 2ばいに なる。
+The user attacks by throwing a clump of special mud. All status changes are returned to normal.
+とくしゅな どろの かたまりを あいてに なげつけて こうげきする。 のうりょく へんかを もとに もどす。
+The user bites the target with toxic fangs. It may also leave the target badly poisoned.
+どくの ある キバで あいてに かみついて こうげきする。 もうどくを おわせる ことが ある。
+The user hits the target with its tail. It may also poison the target. Critical hits land more easily.
+しっぽで たたく。 どく じょうたいに することが あり きゅうしょにも あたりやすい。
+The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.
+つよい さんを あいてに かけて こうげきする。 あいての とくぼうを さげることが ある。
+The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.
+あいてを とかす えきたいを はきだして こうげきする。 あいての とくぼうを がくっと さげる。
+The target is attacked with a discharge of filthy gases. It may also poison the target.
+よごれた ガスを あいてに ふきつけて こうげきする。 どく じょうたいに することが ある。
+The user stabs the target with a poisonous stinger. This may also poison the target.
+どくの ある ハリを あいてに つきさして こうげきする。 どく じょうたいに することが ある。
+The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.
+さいぼうの へんかで えきじょうに なり じぶんの ぼうぎょを ぐーんと あげる。
+Protects the user from attacks. Also poisons any attacker that makes contact with the user.
+あいての こうげきを ふせぐと どうじに ふれた あいてに どくを あたえて しまう。
+The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.
+とぐろを まいて しゅうちゅう する。 じぶんの こうげきと ぼうぎょと めいちゅうりつを あげる。
+The user surrounds everything around it with highly acidic gas and melts away items they hold.
+つよい さんせいの ガスで まわりに いるものを つつみこみ もっている どうぐを とかしてしまう。
+The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
+いえきを あいての からだに はきつける。 ついた いえきは あいての とくせいの こうかを けす。
+A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.
+どくガスを あいての かおに ふきかけて どくの じょうたいに する。
+The user scatters a cloud of poisonous dust on the target. It may poison the target.
+どくの ある こなを たくさん ふりまいて あいてを どく じょうたいに する。
+The user heals the target's status condition. If so, it also restores the user's own HP.
+あいての じょうたいいじょうを なおす。 なおすと じぶんは HPを かいふく することが できる。
+A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+あいてを もうどくの じょうたいに する。 ターンが すすむほど どくの ダメージが ふえていく。
+The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.
+あいての あしもとに どくびしを しかける。 こうたいで でてきた あいての ポケモンに どくを おわせる。
+The user shoots poisonous threads to poison the target and lower the target's Speed stat.
+どくの まじった いとを ふきつける。 あいてを どくにして すばやさを さげる。
+Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon.
+とくしゅな どくえきを あびせかける。 どく じょうたいの あいては こうげき とくこう すばやさが さがる。
+The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
+プリズムの ちからで きょうりょくな こうせんを はっしゃする。 つぎの ターンは うごけなくなる。
+The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+Two turns after this move is used, a hunk of psychic energy attacks the target.
+わざを つかった 2ターン あとに あいてに ねんりきの かたまりを おくって こうげきする。
+Using an odd shock wave, the user damages any Pokémon of the same type as the user.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP.
+ねている あいての ゆめを たべて こうげきする。 ダメージの はんぶんの HPを かいふく する。
+The user attacks with a pillar of light. This move the higher of the user's Attack or Sp. Atk stat.
+ひかりの はしらで こうげきする。 こうげきと とくこうを くらべて たかいほうで ダメージを あたえる。
+The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+ふしぎな ねんぱを じったいかして あいてを こうげきする。 ぶつりてきな ダメージを あたえる。
+The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.
+りょうめから サイコパワーを うちだして こうげきする。 こおり じょうたいに することが ある。
+The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
+つよい ねんりきを あいてに おくって こうげきする。 あいての とくぼうを さげることが ある。
+The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.
+サイコパワーで かみついて あいてを こうげきする。 ひかりのかべや リフレクター なども はかいできる。
+The user attacks with tremendous psychic power. This also removes 3 PP from the target's last move.
+きょうりょくな サイコパワーで こうげき。 あいてが さいごに つかった わざの PPを 3だけ へらす。
+The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain.
+サイコパワーで あいてを こうげきする。 サイコフィールドの とき いりょくが あがり すべての あいてに ダメージを あたえる。
+The user attacks with an odd, unseeable power. It may also make the target flinch.
+みえない ふしぎな ちからを おくって こうげきする。 あいてを ひるませる ことが ある。
+Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections.
+いじげんホールで とつぜん あいての まよこに あらわれ こうげきする。 まもるや みきり なども むし できる。
+The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.
+しねんの ちからを ひたいに あつめて こうげきする。 あいてを ひるませる ことが ある。
+The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.
+まばゆい ひかりを ときはなって こうげきする。 あいての とくぼうを さげることが ある。
+A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.
+きりじょうの うもうで つつみこみ こうげきする。 あいての とくこうを さげることが ある。
+The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+じったいか させた こころの やいばで あいてを きりさく。 きゅうしょに あたりやすい。
+The target is attacked with a peculiar ray. It may also cause confusion.
+ふしぎな こうせんを あいてに はっしゃして こうげきする。 こんらん させることが ある。
+The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is hit by a weak telekinetic force. It may also leave the target confused.
+よわい ねんりきを あいてに おくって こうげきする。 あいてを こんらん させることが ある。
+The user attacks with stored power. The more the user's stats are raised, the greater the damage.
+ちくせき された パワーで あいてを こうげきする。じぶんの のうりょくが あがって いるほど いりょくが あがる。
+A retaliation move that counters any special attack, inflicting double the damage taken.
+あいてから うけた とくしゅ こうげきの ダメージを 2ばいに して そのあいてに かえす。
+The target is attacked with an odd psychic wave. The attack varies in intensity.
+ふしぎな ねんぱを あいてに はっしゃして こうげきする。 つかう たびに ダメージが かわる。
+The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
+ちからを ぬいて からだを かるくして こうそくで うごく。 じぶんの すばやさを ぐーんと あげる。
+The user teleports using a strange power and switches its place with one of its allies.
+ふしぎな ちからで テレポートして じぶんと みかたの いばしょを いれかえる。
+The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
+あたまを からにして いっしゅん なにかを わすれる ことで じぶんの とくぼうを ぐーんと あげる。
+The user throws up a sturdy wall that sharply raises its Defense stat.
+がんじょうな かべを つくって じぶんの ぼうぎょを ぐーんと あげる。
+The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+しずかに せいしんを とういつし こころを しずめる ことで じぶんの とくこうと とくぼうを あげる。
+The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+うちゅう から しんぴの ちからを とりこむ ことで じぶんの ぼうぎょと とくぼうを あげる。
+Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.
+5ターンのあいだ ふゆうや ひこうタイプに じめんタイプの わざが あたるようになる。 くうちゅうに とぶ わざも つかえない。
+The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.
+ちょうのうりょくで じぶんと あいての ぼうぎょと とくぼうを たして はんぶんに わける。
+The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.
+ちょうのうりょくで じぶんと あいての ぼうぎょと とくぼうの のうりょく へんかを いれかえる。
+For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user emits a healing pulse which restores the target's HP by up to half of its max HP.
+いやしのはどうを とばして さいだい HPの はんぶん あいての HPを かいふく する。
+The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
+じぶんは ひんしに なるが ひかえから でてくる ポケモンの じょうたい いじょうと HPを かいふく する。
+The user employs its psychic power to switch stat changes with the target.
+ちょうのうりょくで じぶんと あいてに かかっている のうりょく へんかを いれかえる。
+The user employs hypnotic suggestion to make the target fall into a deep sleep.
+ねむけを さそう あんじを かけて あいてを ねむり じょうたいに する。
+If the foe knows any move also known by the user, the foe is prevented from using it.
+あいてが じぶんと おなじ わざを おぼえていたら あいてだけ そのわざを つかえなく する。
+The user instructs the target to use the target's last move again.
+あいてが だした わざを しじして もういちど ださせる ことが できる。
+The user distracts the target by bending a spoon. It lowers the target's accuracy.
+スプーンを まげて ちゅういを ひき あいての めいちゅうりつを さげる。
+A wondrous wall of light is put up to suppress damage from special attacks for five turns.
+5ターンの あいだ ふしぎな かべで あいてから うける とくしゅ こうげきの ダメージを よわめる。
+The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
+じぶんは ひんしに なるが ひかえから でてくる ポケモンの すべての じょうたいを かいふく する。
+A barrier reflects back to the target moves like Leech Seed and moves that damage status.
+じょうたい いじょうに なる ワザや やどりぎのタネ などを だされたとき あいてに はねかえす。
+The user scatters a cloud of magic powder that changes the target to Psychic type.
+まほうのこなを あびせて あいてを エスパータイプに へんかさせる。
+The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
+まかふしぎな くうかんを つくる。 5ターンのあいだ すべてのポケモンの どうぐの こうかが なくなる。
+The user meditates to awaken the power deep within its body and raise its Attack stat.
+ねむっている ちからを からだの おくから ひきだして じぶんの こうげきを あげる。
+Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.
+ちょうのうりょくで じぶんと あいての こうげきと とくこうを たして はんぶんに わける。
+The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.
+ちょうのうりょくで じぶんと あいての こうげきと とくこうの のうりょく へんかを いれかえる。
+The user employs its psychic power to switch its Attack with its Defense stat.
+ちょうのうりょくで じぶんの こうげきと ぼうぎょの ちからを こうかん する。
+Protects grounded Pokémon from priority moves and powers up Psychic-type moves for five turns.
+5ターンの あいだ じめんにいると せんせいわざを うけない。 エスパータイプの いりょくが あがる。
+Using its psychic power of suggestion, the user transfers its status problems to the target.
+ちょうのうりょくで あんじを かけて じぶんの うけている じょうたい いじょうを あいてに うつす。
+A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
+5ターンの あいだ ふしぎな かべで あいてから うける ぶつり こうげきの ダメージを よわめる。
+The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+2ターンの あいだ ねむり つづける。 じぶんの HPと じょうたいいじょうを すべて かいふく する。
+The user mimics the target completely, copying the target's natural Ability.
+あいてに なりきって じぶんも あいてと おなじ とくせいに へんかする。
+The user employs its psychic power to exchange Abilities with the target.
+ちょうのうりょくで じぶんの とくせいと あいての とくせいを いれかえる。
+The user exchanges Speed stats with the target.
+あいての すばやさと じぶんの すばやさを いれかえて しまう。
+The user makes the target float with its psychic power. The target is easier to hit for three turns.
+ちょうのうりょくで あいてを うかせる。 3ターンの あいだ こうげきが あいてに あたりやすく なる。
+The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited.
+ひかえの ポケモンが いるときに つかうと いれかわる。 やせいの ポケモンは にげてしまう。
+The user catches the target off guard and swaps its held item with its own.
+あいての すきを ついて じぶんと あいての もちものを こうかんする。
+The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+まかふしぎな くうかんを つくる。 5ターンの あいだ おそい ポケモンから こうどう できる。
+The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns.
+まかふしぎな くうかんを つくる。 5ターンのあいだ すべてのポケモンの ぼうぎょと とくぼうが いれかわる。
+The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.
+いのちを かけて こんしんの ちからで あいてに ずつきを する。 じぶんも ものすごい ダメージを うける。
+The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
+きょだいな いわを あいてに はっしゃして こうげきする。 つぎの ターンは うごけなく なる。
+Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn.
+1ターンめに うちゅうの ちからを あつめることで とくこうが あがり 2ターンめに あいてを こうげきする。
+The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat.
+ダイヤの あらしを まきおこし ダメージを あたえる。 じぶんの ぼうぎょを ぐーんと あげることが ある。
+The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
+とがった いわを あいてに つきさして こうげきする。 きゅうしょに あたりやすい。
+The user attacks with a ray of light that sparkles as if it were made of gemstones.
+ほうせきの ように きらめく ひかりを はっしゃして あいてを こうげきする。
+Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
+おおきな いわを はげしく ぶつけて こうげきする。 あいてを ひるませる ことが ある。
+The user attacks with a prehistoric power. It may also raise all the user's stats at once.
+げんしの ちからで こうげきする。 じぶんの すべての のうりょくが あがることが ある。
+Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
+がんせきを なげつけて こうげきする。 あいての うごきを ふうじることで すばやさを さげる。
+The user picks up and throws a small rock at the target to attack.
+ちいさな いわを もちあげて あいてに なげつけて こうげきする。
+The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit.
+いしや たまを なげて とんでいる あいてを こうげきする。 あいては うちおとされて じめんに おちる。
+The user smashes into the target at high speed. This move always goes first.
+すばやい スピードで あいてに ぶつかって こうげきする。 かならず せんせい こうげき できる。
+The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.
+かたい がんせきを あいてに はっしゃして こうげきする。 2ー5かいの あいだ れんぞくで だす。
+The user polishes its body to reduce drag. It can sharply raise the Speed stat.
+じぶんの からだを みがいて くうきの ていこうを すくなくする。すばやさを ぐーんと あげることが できる。
+Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types.
+5ターンの あいだ すなあらしで いわ じめん はがねタイプ いがいに ダメージ。 いわタイプの とくぼうが あがる。
+The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
+あいての まわりに むすうの いわを うかべて こうたいで でてきた あいての ポケモンに ダメージを あたえる。
+Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves.
+ねばねばの タールを あびせて あいての すばやさを さげる。 あいては ほのおが じゃくてんに なる。
+The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession.
+みかた ぜんいんに あたる こうげきを 1ターンの あいだ ふせぐ。
+Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
+わざを つかった 2ターン あとに むすうの ひかりの たばで あいてを こうげきする。
+The user fires a beam of steel that it collected from its entire body. This also damages the user.
+ぜんしんから あつめた はがねを ビームとして はげしく うちだす。 じぶんも ダメージを うけてしまう。
+The user attacks while destroying the terrain. This move fails when the ground isn't a terrain.
+フィールドを はかい しながら こうげき。 なんらかの フィールドじょうたいに かわって いないと わざは しっぱいする。
+The user becomes a gigantic shield and slams into the target.
+きょだいな たてとなり ぶつかる。 あいてが ダイマックス していると ダメージは 2ばいに なる。
+The user becomes a gigantic sword and cuts the target.
+きょだいな けんとなり きりかかる。 あいてが ダイマックス していると ダメージは 2ばいに なる。
+The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.
+かたい しっぽで あいてを たたきつけて こうげきする。 あいての ぼうぎょを さげることが ある。
+The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
+りゅうせいの ような いきおいで とっしんする。 あいての とくせいを むしして こうげき することが できる。
+The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.
+すいせいの ごとく パンチを くりだして あいてを こうげきする。 じぶんの こうげきが あがることが ある。
+The user entangles the target with its anchor chain. The target becomes unable to flee.
+アンカーを あいてに からませて こうげきする。 あいては にげることが できなくなる。
+The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
+からだの ひかりを いってんに あつめて ちからを はなつ。あいての とくぼうを さげることが ある。
+The foe slams the target with its steel-hard head. It may also make the target flinch.
+はがねの ような かたい あたまで こうげきする。 あいてを ひるませる ことが ある。
+The user stabs the target with a sharp horn. This attack never misses.
+とがった つので あいてを つきさして こうげきする。 こうげきは かならず めいちゅう する。
+The target is hit with wings of steel. It may also raise the user's Defense stat.
+かたい つばさを あいてに たたきつけて こうげきする。 じぶんの ぼうぎょが あがることが ある。
+The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.
+むねの ナットを じくに かいてんして 2かい つづけて うでを たたきつける。 あいてを ひるませる ことが ある。
+The user looses a flash of energy from its polished body. It may also lower the target's accuracy.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user launches steel bombs that stick to the target. This attack will not miss.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user attacks by throwing two steel gears at its target.
+こうてつの ギアを あいてに なげつけて こうげきする。2かい れんぞくで ダメージを あたえる。
+The target is raked with steel claws. It may also raise the user's Attack stat.
+こうてつの ツメで あいてを きりさいて こうげきする。 じぶんの こうげきが あがることが ある。
+The user strikes the target with tough punches as fast as bullets. This move always goes first.
+だんがんの ような はやくて かたい パンチを あいてに くりだす。 かならず せんせい こうげき できる。
+The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
+からだを こうそくに かいてん させて たいあたりする。あいてより すばやさが ひくいほど つよい。
+The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
+おもたい からだで あいてに ぶつかって こうげきする。 じぶんが あいてより おもいほど いりょくが あがる。
+The user retaliates with much greater power against the target that last inflicted damage on it.
+わざを だすまえに さいごに うけた わざの ダメージを おおきくして だした あいてに かえす。
+The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+からだの ムダな ぶぶんを けずる。 じぶんの すばやさを ぐーんと あげて たいじゅうも かるく なる。
+The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
+ギアを いれる ことによって とくせい プラスと マイナスの こうげきと とくこうが あがる。
+The user hardens its body's surface like iron, sharply raising its Defense stat.
+ひふを てつのように かたくする ことで じぶんの ぼうぎょを ぐーんと あげる。
+Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.
+あいての こうげきを ふせぐと どうじに ぼうぎょたいせいになる。 ふれた あいての こうげきを さげる。
+A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.
+きんぞくを こすって でるような いやな おとを きかせる。 あいての とくぼうを がくっと さげる。
+The user rotates its gears, raising its Attack and sharply raising its Speed.
+はぐるまを まわして じぶんの こうげきを あげる だけでなく すばやさも ぐーんと あげる。
+The target is hit with a watery blast. The user must rest on the next turn, however.
+みずの たいほうを あいてに はっしゃして こうげきする。 つぎの ターンは うごけなく なる。
+The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes.
+しおを ふきつけて こうげきする。 じぶんの HPが すくないほど わざの いりょくは さがる。
+The target is blasted by a huge volume of water launched under great pressure.
+たいりょうの みずを はげしい いきおいで あいてに はっしゃして こうげきする。
+The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
+あおく かがやく むすうの こうせんで あいてを こうげきする。
+The user immerses the target in superheated steam. This may also leave the target with a burn.
+ものすごく あつい じょうきを あいてに あびせる。 あいては やけどする ことがある。
+The target is hammered with a large pincer. Critical hits land more easily.
+おおきな ハサミを あいてに たたきつけて こうげきする。 きゅうしょに あたりやすい。
+The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
+はげしく あれくるう あらなみの ように おおきな しっぽを ふって あいてを こうげきする。
+The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.
+にごった みずを あいてに はっしゃして こうげきする。 めいちゅうりつを さげることが ある。
+The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.
+うたうことによって たくさんの バルーンを ほうしゅつする。 わざを うけると やけどが なおる。
+It swamps the area around the user with a giant wave. It can also be used for crossing water.
+おおきな なみで じぶんの まわりに いるものを こうげきする。
+The user rends the target with its hard gills. Power doubles if the user moves first.
+かたい エラで かみつく。 あいてより さきに こうげきできると わざの いりょくは 2ばいに なる。
+The user slams into the target using a full-force blast of water. May lower the target's Defense.
+みずの ちからで あいてに ぶつかって こうげきする。 あいての ぼうぎょを さげる ことがある。
+Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean.
+1ターンめで もぐり 2ターンめに うきあがって こうげきする。
+The user shoots boiling hot water at its target. It may also leave the target with a burn.
+あつく にえたぎる みずを あいてに はっしゃして こうげきする。 やけど じょうたいに することが ある。
+The user ignores any effects that redirect moves, allowing this move to hit the chosen target.
+あいての わざを ひきうける とくせいや わざの えいきょうを むしして えらんだ あいてを こうげき できる。
+A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.
+みずの はしらで こうげきする。 ほのおと くみあわせると いりょくが あがって そらに にじが かかる。
+The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+すごい いきおいで あいてに つっこむ。 あいてを ひるませる ことが ある。
+The user cuts the foe with sharp shells. It may also lower the target's Defense stat.
+するどい かいがらで きりつけて こうげきする。 あいての ぼうぎょを さげることが ある。
+If the target's HP is down to about half, this attack will hit with double the power.
+あいてが HPの はんぶん くらい きずを おっていると わざの いりょくが 2ばいに なる。
+A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
+あわを いきおいよく あいてに はっしゃして こうげきする。 すばやさを さげる ことが ある。
+The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.
+あいての かおなどに すみを ふきかけて こうげきする。 めいちゅうりつを さげることが ある。
+The user attacks the target with a pulsing blast of water. It may also confuse the target.
+みずの しんどうを あいてに あたえて こうげきする。 あいてを こんらん させることが ある。
+A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The target is blasted with a forceful shot of water.
+みずを いきおいよく あいてに はっしゃして こうげきする。
+The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.
+とても がんじょうな ぶあつい からに 4ー5ターンの あいだ あいてを はさんで こうげきする。
+Traps foes in a violent swirling whirlpool for four to five turns.
+はげしく うずをまく みずの なかに 4ー5ターンの あいだ あいてを とじこめて こうげきする。
+Hits three times in a row with mastery of the Water style. This attack always deals critical hits.
+みずの かたを きわめし ながれるような 3かいの れんげき。 かならず きゅうしょに あたる。
+The user hits the target with throwing stars 2-5 times in a row. This move always goes first.
+ねんえきで できた しゅりけんを 2ー5かいの あいだ れんぞくで だす。 かならず せんせい こうげき できる。
+The user envelops itself in a veil made of water. It regains some HP on every turn.
+じぶんの からだの まわりを みずで つくった ベールで おおう。 まいターン HPを かいふく する。
+The user scatters mysterious water around and restores the HP of itself and its allies.
+ふしぎな みずを ふりまいて じぶんと ばにいる みかたの HPを かいふくする。
+The user summons a heavy rain that falls for five turns, powering up Water-type moves.
+5ターンの あいだ あめを ふらせて ずタイプの わざの いりょくを あげる。
+The user shoots a torrent of water at the target and changes the target's type to Water.
+たくさんの みずを あびせかけて あいてを みずタイプに する。
+The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.
+このわざは つかえません おもいだすことが できなくなりますが わざを わすれることを おすすめします
+The user withdraws its body into its hard shell, raising its Defense stat.
+からに もぐりこんで みをまもり じぶんの ぼうぎょを あげる。

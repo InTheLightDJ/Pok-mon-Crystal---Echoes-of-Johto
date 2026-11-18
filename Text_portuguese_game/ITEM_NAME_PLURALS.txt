@@ -10,6 +10,8 @@ Battle Candy Ms
 Doces de Batalha M
 Battle Candy Ls
 Doces de Batalha G
+Blood Balls
+Sangue Bolas
 GS Balls
 GS Balls
 Plip Balls
@@ -210,6 +212,16 @@ Umbrellas
 Guarda-chuvas
 Flashlights
 Lanternas
+Form Prisms
+Prismas de Forma
+Exp. Alls
+Compartilhadores Totais
+Blood Shards
+Fragmentos de Sangue
+Blood Ball Tops
+Topos de Sangue Bola
+Blood Ball Bottoms
+Bases de Sangue Bola
 Repels
 Repelentes
 Super Repels

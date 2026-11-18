@@ -10,6 +10,8 @@ Battle Candy M
 Doce de Batalha M
 Battle Candy L
 Doce de Batalha G
+Blood Ball
+Sangue Bola
 GS Ball
 GS Ball
 Plip Ball
@@ -210,6 +212,16 @@ Umbrella
 Guarda-chuva
 Flashlight
 Lanterna
+Form Prism
+Prisma de Forma
+Exp. All
+Compartilhador Total
+Blood Shard
+Fragmento de Sangue
+Blood Ball Top
+Topo de Sangue Bola
+Blood Ball Bottom
+Base de Sangue Bola
 Repel
 Repelente
 Super Repel

@@ -1,7 +1,7 @@
 #==============================================================================
 # Rhythm Game - playing a song: one track of 4 lanes in front of the puzzle
 # background, notes falling to the line near the bottom.
-# The clock is System.uptime from when the music was started (the music and
+# The clock is System.unscaled_uptime from when the music was started (the music and
 # the clock both run in real time, so they stay together); AUDIO_OFFSET
 # covers the sound output's lag.
 #==============================================================================
@@ -113,7 +113,7 @@ module RhythmGame
       @shake = [0, 0]
       @judge_at = nil
       @hud_key = nil
-      @base = System.uptime + LEAD_IN    # the clock reads 0 when the music starts
+      @base = System.unscaled_uptime + LEAD_IN    # the clock reads 0 when the music starts
       @music = false
       draw_hud(true)
     end
@@ -157,7 +157,7 @@ module RhythmGame
     end
 
     #--------------------------------------------------------------------------
-    def clock = System.uptime - @base
+    def clock = System.unscaled_uptime - @base
 
     # where the song is, as heard
     def song_time = clock - AUDIO_OFFSET
@@ -175,16 +175,16 @@ module RhythmGame
         misses(now)
         fire_tier = [multiplier - 3, 0].max   # 1 at x4, 2 at x5
         light_fire(fire_tier)
-        @fire.update(fire_tier == 1, System.uptime)
-        @blue_fire.update(fire_tier >= 2, System.uptime)
+        @fire.update(fire_tier == 1, System.unscaled_uptime)
+        @blue_fire.update(fire_tier >= 2, System.unscaled_uptime)
         tremble(*(@blue_fire.shake == [0, 0] ? @fire.shake : @blue_fire.shake))
         draw_notes(now)
-        @dancers.each_with_index { |d, row| d.update(fire_tier > row, System.uptime) }
+        @dancers.each_with_index { |d, row| d.update(fire_tier > row, System.unscaled_uptime) }
         perfect = perfect_half?
-        @wave.update(perfect, System.uptime)
-        @igglybuffs.update(perfect, System.uptime)
+        @wave.update(perfect, System.unscaled_uptime)
+        @igglybuffs.update(perfect, System.unscaled_uptime)
         update_effects
-        @background.update(System.uptime)
+        @background.update(System.unscaled_uptime)
         draw_hud
         return finish if now >= @end_time
       end
@@ -225,9 +225,9 @@ module RhythmGame
       if at > 0
         pos = [at - 1.0, 0].max
         start_music(pos)
-        @base = System.uptime - pos
+        @base = System.unscaled_uptime - pos
       else
-        @base = System.uptime - at
+        @base = System.unscaled_uptime - at
       end
       true
     end
@@ -235,10 +235,10 @@ module RhythmGame
     # the background moves on the beat
     def beats(now)
       while @next_beat < @beats.length && @beats[@next_beat] <= now
-        @background.beat(System.uptime)
+        @background.beat(System.unscaled_uptime)
         @dancers.each(&:beat)
         @next_beat += 1
-        @background.change_picture(System.uptime) if @next_beat == @beats.length / 2
+        @background.change_picture(System.unscaled_uptime) if @next_beat == @beats.length / 2
       end
     end
 
@@ -306,7 +306,7 @@ module RhythmGame
       @score += pts * multiplier
       @points += pts
       judge(kind)
-      @flash_until[lane] = System.uptime + 0.12
+      @flash_until[lane] = System.unscaled_uptime + 0.12
       remove(n)
     end
 
@@ -332,7 +332,7 @@ module RhythmGame
 
     def judge(kind)
       @counts[kind] += 1
-      @judge_at = System.uptime
+      @judge_at = System.unscaled_uptime
       b = @judge.bitmap
       b.clear
       texts = [[_INTL(JUDGEMENT_NAMES[kind]), TRACK_W / 2, 2, :center, JUDGE_COLORS[kind], SHADOW, :outline]]
@@ -341,7 +341,7 @@ module RhythmGame
     end
 
     def update_effects
-      t = System.uptime
+      t = System.unscaled_uptime
       LANES.times do |l|
         r = @receptors[l]
         r.zoom_x = r.zoom_y = [r.zoom_x + 0.02, 1.0].min
@@ -446,7 +446,7 @@ module RhythmGame
       loop do
         Graphics.update
         Input.update
-        @background.update(System.uptime)
+        @background.update(System.unscaled_uptime)
         break if Input.trigger?(Input::USE) || Input.trigger?(Input::BACK)
       end
       pbPlayDecisionSE

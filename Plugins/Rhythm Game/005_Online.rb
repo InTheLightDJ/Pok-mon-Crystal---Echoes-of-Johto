@@ -51,12 +51,75 @@ module RhythmGame
       @board && @board[song[:file]]&.first
     end
 
+    #--------------------------------------------------------------------------
+    # Results: kept (and saved to PENDING_FILE) until the server says it has
+    # them (rhythm_result_ok). A tunnel drop can swallow a message without the
+    # game noticing, so a result with no answer after RESEND_AFTER seconds goes
+    # out again, and every one goes out again after a reconnect. The server
+    # counts each result id once. Offline results wait for the next login
+    # (also after closing the game).
+    #--------------------------------------------------------------------------
+    PENDING_FILE = "RhythmPending.dat"
+    RESEND_AFTER = 20      # seconds without an answer
+    SLOW_AFTER   = 10      # sends; after that, only every SLOW_RESEND seconds
+    SLOW_RESEND  = 300     # (never dropped: a server that doesn't answer may be an old one, updated later)
+
+    def pending_path = File.join((RTP.getSaveFolder rescue nil) || ".", PENDING_FILE)
+
+    # [{ msg:, sends:, sent_at:, conn: }]
+    def pending
+      return @pending if @pending
+      @pending = (File.exist?(pending_path) ? Marshal.load(File.binread(pending_path)) : []) rescue []
+      @pending = [] unless @pending.is_a?(Array)
+      @pending.each { |p| p[:conn] = nil }   # not sent on this game's connection yet
+      @pending
+    end
+
+    def save_pending
+      if pending.empty?
+        File.delete(pending_path) if File.exist?(pending_path)
+      else
+        File.binwrite(pending_path, Marshal.dump(pending.map { |p| { msg: p[:msg], sends: p[:sends] } }))
+      end
+    rescue StandardError => e
+      puts "[Rhythm] couldn't save pending results: #{e.message}"
+    end
+
     def report(song, difficulty, score)
-      return unless online? && score > 0
-      NetworkClient.send_msg({ action: "rhythm_result", song: song[:file], difficulty: difficulty.to_s, score: score })
+      return unless score > 0 && defined?(NetworkClient)
+      id = "#{Time.now.to_i.to_s(36)}#{rand(36**6).to_s(36)}"
+      pending << { msg: { action: "rhythm_result", song: song[:file], difficulty: difficulty.to_s, score: score, id: id },
+                   sends: 0, sent_at: nil, conn: nil }
+      save_pending
+      send_pending
       @board_dirty = true
-    rescue StandardError
-      nil
+    rescue StandardError => e
+      puts "[Rhythm] report: #{e.message}"
+    end
+
+    # (every frame on the map, and right after a song)
+    def send_pending
+      return if pending.empty? || !online?
+      conn = NetworkClient.instance_variable_get(:@socket)&.object_id
+      now = System.unscaled_uptime
+      changed = false
+      pending.delete_if do |p|
+        wait = p[:sends] >= SLOW_AFTER ? SLOW_RESEND : RESEND_AFTER
+        next false if p[:conn] == conn && p[:sent_at] && now - p[:sent_at] < wait
+        NetworkClient.send_msg(p[:msg])
+        p[:sends] += 1
+        p[:sent_at] = now
+        p[:conn] = conn
+        changed = true
+        false
+      end
+      save_pending if changed
+    end
+
+    def result_ok(d)
+      before = pending.length
+      pending.reject! { |p| p[:msg][:id] == d["id"].to_s }
+      save_pending if pending.length != before
     end
 
     def days_left
@@ -132,4 +195,8 @@ module RhythmGame
   end
 end
 
-NetworkClient.on("rhythm_board") { |d| RhythmGame.receive_board(d) } if defined?(NetworkClient)
+if defined?(NetworkClient)
+  NetworkClient.on("rhythm_board") { |d| RhythmGame.receive_board(d) }
+  NetworkClient.on("rhythm_result_ok") { |d| RhythmGame.result_ok(d) }
+  EventHandlers.add(:on_frame_update, :rhythm_pending, proc { RhythmGame.send_pending rescue nil })
+end

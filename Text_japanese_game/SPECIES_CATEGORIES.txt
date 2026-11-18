@@ -1,0 +1,1486 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[SPECIES_CATEGORIES]
+Axe
+まさかり
+Peat
+でいたん
+Big Fish
+おおうお
+Free Climb
+クライミング
+Pin Cluster
+けんざん
+Love-Hate
+あいぞう
+Grass Cat
+くさねこ
+Magician
+マジシャン
+Fire Croc
+ほのおワニ
+Singer
+シンガー
+Duckling
+こがも
+Practicing
+レッスン
+Dancer
+ダンサー
+Hog
+ぶた
+String Ball
+いとだま
+Grasshopper
+バッタ
+Hands-On
+てあて
+Couple
+カップル
+Family
+ファミリー
+Olive
+オリーブ
+Parrot
+インコ
+Rock Salt
+がんえん
+Fire Child
+ひのこ
+Fire Warrior
+ひのせんし
+Fire Blades
+ひのけんし
+EleTadpole
+でんきおたま
+EleFrog
+でんきがえる
+Storm Petrel
+うみつばめ
+Frigatebird
+ぐんかんどり
+Rascal
+わかぞう
+Boss
+おやぶん
+Toxic Mouse
+どくねずみ
+Toxic Monkey
+どくざる
+Tumbleweed
+ころがりぐさ
+Woodear
+きくらげ
+Ambush
+まちぶせ
+Spicy Pepper
+ハバネロ
+Rolling
+ころがし
+Frill
+フリル
+Ostrich
+ダチョウ
+Metalsmith
+かなうち
+Hammer
+ハンマー
+Garden Eel
+あなご
+Item Drop
+おとしもの
+Dolphin
+イルカ
+Single-Cyl
+たんきとう
+Multi-Cyl
+たきとう
+Earthworm
+ミミズ
+Ghost Dog
+おばけいぬ
+Synchronize
+シンクロ
+Terra Whale
+りくくじら
+Jettison
+きりはなし
+Big Catfish
+おおなまず
+Mimicry
+ぎたい
+Rage Monkey
+ふんどざる
+Spiny Fish
+とげうお
+Big Blade
+だいとう
+Paradox
+パラドックス
+Ice Fin
+こおりビレ
+Ice Dragon
+ひょうりゅう
+Coin Chest
+たからばこ
+Coin Entity
+たからもの
+Ruinous
+さいやく
+Candy Apple
+りんごあめ
+Matcha
+まっちゃ
+Retainer
+けらい
+Mask
+おめん
+Apple Hydra
+りんごオロチ
+Tera
+テラスタル
+Subjugation
+しはい
+Entombed
+うまった
+Corrupted
+こわれた
+Misdug
+ほりそこね
+Reanimated
+よみがえり
+???
+???
+Nameless
+ななし
+Vengeful
+うらみ
+Demon
+あくま
+Bloodsoaked
+ちまみれ
+God
+かみ
+Sphere
+きゅうたい
+Ghost Flame
+おにび
+Poison Fish
+どくうお
+Spinning
+かいてん
+Mellow
+まろやか
+Spiteful Fox
+いじわるぎつね
+Baneful Fox
+わざわいぎつね
+Battle Cry
+ときのこえ
+Shell Bunker
+からごもり
+Hero
+ヒーロー
+Coin Hunter
+コインあつめ
+Seed
+たね
+Lizard
+とかげ
+Flame
+かえん
+Tiny Turtle
+かめのこ
+Turtle
+かめ
+Shellfish
+こうら
+Worm
+いもむし
+Cocoon
+さなぎ
+Butterfly
+ちょうちょ
+Hairy Bug
+けむし
+Poison Bee
+どくばち
+Tiny Bird
+ことり
+Bird
+とり
+Mouse
+ねずみ
+Beak
+くちばし
+Snake
+へび
+Cobra
+コブラ
+Poison Pin
+どくばり
+Drill
+ドリル
+Fairy
+ようせい
+Fox
+きつね
+Balloon
+ふうせん
+Bat
+こうもり
+Weed
+ざっそう
+Flower
+フラワー
+Mushroom
+きのこ
+Insect
+こんちゅう
+Poison Moth
+どくが
+Mole
+もぐら
+Scratch Cat
+ばけねこ
+Classy Cat
+シャムネコ
+Duck
+あひる
+Pig Monkey
+ぶたざる
+Puppy
+こいぬ
+Legendary
+でんせつ
+Tadpole
+おたま
+Psi
+ねんりき
+Superpower
+かいりき
+Flycatcher
+ハエとり
+Jellyfish
+くらげ
+Rock
+がんせき
+Megaton
+メガトン
+Fire Horse
+ひのうま
+Dopey
+まぬけ
+Hermit Crab
+やどかり
+Magnet
+じしゃく
+Wild Duck
+かるがも
+Twin Bird
+ふたごどり
+Triple Bird
+みつごどり
+Sea Lion
+あしか
+Sludge
+ヘドロ
+Bivalve
+2まいがい
+Gas
+ガスじょう
+Shadow
+シャドー
+Rock Snake
+いわへび
+Hypnosis
+さいみん
+River Crab
+さわがに
+Pincer
+はさみ
+Ball
+ボール
+Egg
+たまご
+Coconut
+やしのみ
+Lonely
+こどく
+Bone Keeper
+ほねずき
+Kicking
+キック
+Punching
+パンチ
+Licking
+なめまわし
+Poison Gas
+どくガス
+Spikes
+とげとげ
+Vine
+ツルじょう
+Parent
+おやこ
+Dragon
+ドラゴン
+Goldfish
+きんぎょ
+Star Shape
+ほしがた
+Mysterious
+なぞの
+Barrier
+バリアー
+Mantis
+かまきり
+Human Shape
+ひとがた
+Electric
+でんげき
+Spitfire
+ひふき
+Stag Beetle
+くわがた
+Wild Bull
+あばれうし
+Fish
+さかな
+Atrocious
+きょうあく
+Transport
+のりもの
+Transform
+へんしん
+Evolution
+しんか
+Bubble Jet
+あわはき
+Lightning
+かみなり
+Virtual
+バーチャル
+Spiral
+うずまき
+Fossil
+かせき
+Sleeping
+いねむり
+Freeze
+れいとう
+Genetic
+いでんし
+New Species
+しんしゅ
+Leaf
+はっぱ
+Herb
+ハーブ
+Fire Mouse
+ひねずみ
+Volcano
+かざん
+Big Jaw
+おおあご
+Scout
+みはり
+Long Body
+どうなが
+Owl
+ふくろう
+Five Star
+いつつぼし
+String Spit
+いとはき
+Long Leg
+あしなが
+Angler
+あんこう
+Light
+ライト
+Tiny Mouse
+こねずみ
+Spike Ball
+はりたま
+Happiness
+しあわせ
+Mystic
+せいれい
+Wool
+わたげ
+Aqua Mouse
+みずねずみ
+Aqua Rabbit
+みずうさぎ
+Imitation
+まね
+Frog
+かえる
+Cottonweed
+わたくさ
+Long Tail
+おなが
+Sun
+たいよう
+Clear Wing
+うすばね
+Water Fish
+みずうお
+Moonlight
+げっこう
+Darkness
+くらやみ
+Royal
+おうじゃ
+Screech
+よなき
+Symbol
+シンボル
+Patient
+がまん
+Long Neck
+くびなが
+Bagworm
+みのむし
+Land Snake
+つちへび
+Fly Scorpion
+とびさそり
+Iron Snake
+てつへび
+Mold
+はっこう
+Single Horn
+1ぽんヅノ
+Sharp Claw
+かぎづめ
+Little Bear
+こぐま
+Hibernator
+とうみん
+Lava
+ようがん
+Pig
+いのぶた
+Swine
+いのしし
+Coral
+さんご
+Jet
+ふんしゃ
+Delivery
+はこびや
+Kite
+カイト
+Armor Bird
+よろいどり
+Dark
+ダーク
+Long Nose
+ながはな
+Armor
+よろい
+Big Horn
+おおツノ
+Painter
+えかき
+Scuffle
+けんか
+Handstand
+さかだち
+Kiss
+くちづけ
+Live Coal
+ひだね
+Milk Cow
+ちちうし
+Thunder
+いかずち
+Aurora
+オーロラ
+Rock Skin
+いわはだ
+Hard Shell
+だんがん
+Diving
+せんすい
+Rainbow
+にじいろ
+Time Travel
+ときわたり
+Wood Gecko
+もりトカゲ
+Forest
+みつりん
+Chick
+ひよこ
+Young Fowl
+わかどり
+Blaze
+もうか
+Mud Fish
+ぬまうお
+Bite
+かみつき
+Tiny Raccoon
+まめだぬき
+Rushing
+とっしん
+Water Weed
+うきくさ
+Jolly
+ようき
+Carefree
+のうてんき
+Acorn
+どんぐり
+Wily
+いじわる
+Wicked
+よこしま
+Tiny Swallow
+こツバメ
+Swallow
+ツバメ
+Seagull
+うみねこ
+Water Bird
+みずどり
+Feeling
+きもち
+Emotion
+かんじょう
+Embrace
+ほうよう
+Pond Skater
+あめんぼ
+Eyeball
+めだま
+Slacker
+なまけもの
+Wild Monkey
+あばれザル
+Lazy
+ものぐさ
+Trainee
+したづみ
+Ninja
+しのび
+Shed
+ぬけがら
+Whisper
+ささやき
+Big Voice
+おおごえ
+Loud Noise
+そうおん
+Guts
+こんじょう
+Arm Thrust
+つっぱり
+Polka Dot
+みずたま
+Compass
+コンパス
+Kitten
+こねこ
+Prim
+おすまし
+Deceiver
+あざむき
+Iron Armor
+てつヨロイ
+Meditate
+めいそう
+Discharge
+ほうでん
+Cheering
+おうえん
+Firefly
+ほたる
+Thorn
+いばら
+Stomach
+いぶくろ
+Poison Bag
+どくぶくろ
+Savage
+どうもう
+Brutal
+きょうぼう
+Ball Whale
+たまくじら
+Float Whale
+うきくじら
+Numb
+どんかん
+Eruption
+ふんか
+Coal
+せきたん
+Bounce
+とびはね
+Manipulate
+あやつり
+Spot Panda
+ぶちパンダ
+Ant Pit
+ありじごく
+Vibration
+しんどう
+Cactus
+サボテン
+Scarecrow
+カカシぐさ
+Cotton Bird
+わたどり
+Humming
+ハミング
+Cat Ferret
+ネコイタチ
+Fang Snake
+キバへび
+Meteorite
+いんせき
+Whiskers
+ひげうお
+Ruffian
+ごろつき
+Rogue
+ならずもの
+Clay Doll
+どぐう
+Sea Lily
+ウミユリ
+Barnacle
+いわつぼ
+Old Shrimp
+むかしエビ
+Plate
+かっちゅう
+Tender
+いつくしみ
+Weather
+てんき
+Color Swap
+いろへんげ
+Puppet
+にんぎょう
+Marionette
+ぬいぐるみ
+Requiem
+おむかえ
+Beckon
+てまねき
+Fruit
+フルーツ
+Wind Chime
+ふうりん
+Disaster
+わざわい
+Bright
+ほがらか
+Snow Hat
+ゆきかさ
+Face
+がんめん
+Clap
+てたたき
+Ball Roll
+たままわし
+Ice Break
+こおりわり
+Deep Sea
+しんかい
+South Sea
+なんかい
+Longevity
+ちょうじゅ
+Rendezvous
+ランデブー
+Rock Head
+いしあたま
+Endurance
+にんたい
+Iron Ball
+てっきゅう
+Iron Claw
+てつツメ
+Iron Leg
+てつあし
+Rock Peak
+いわやま
+Iceberg
+ひょうざん
+Iron
+くろがね
+Eon
+むげん
+Sea Basin
+かいてい
+Continent
+たいりく
+Sky High
+てんくう
+Wish
+ねがいごと
+DNA
+DNA
+Tiny Leaf
+わかば
+Grove
+こだち
+Chimp
+こざる
+Playful
+やんちゃ
+Penguin
+ペンギン
+Emperor
+こうてい
+Starling
+むくどり
+Predator
+もうきん
+Plump Mouse
+まるねずみ
+Beaver
+ビーバー
+Cricket
+こおろぎ
+Flash
+せんこう
+Spark
+でんこう
+Gleam Eyes
+がんこう
+Bud
+つぼみ
+Bouquet
+ブーケ
+Head Butt
+ずつき
+Shield
+シールド
+Moth
+ミノガ
+Tiny Bee
+はちのこ
+Beehive
+はちのす
+EleSquirrel
+でんきりす
+Sea Weasel
+うみイタチ
+Cherry
+さくらんぼ
+Blossom
+サクラ
+Sea Slug
+ウミウシ
+Blimp
+ききゅう
+Rabbit
+うさぎ
+Magical
+マジカル
+Big Boss
+おおボス
+Catty
+ねこかぶり
+Tiger Cat
+とらねこ
+Bell
+すず
+Skunk
+スカンク
+Bronze
+せいどう
+Bronze Bell
+どうたく
+Bonsai
+ぼんさい
+Mime
+マイム
+Playhouse
+ままごと
+Music Note
+おんぷ
+Forbidden
+ふういん
+Land Shark
+りくザメ
+Cave
+ほらあな
+Mach
+マッハ
+Big Eater
+おおぐい
+Emanation
+はもん
+Aura
+はどう
+Hippo
+カバ
+Heavyweight
+じゅうりょう
+Scorpion
+さそり
+Ogre Scorpion
+ばけさそり
+Toxic Mouth
+どくづき
+Bug Catcher
+むしとり
+Wing Fish
+はねうお
+Neon
+ネオン
+Frost Tree
+じゅひょう
+Magnet Area
+じば
+Thunderbolt
+らいでん
+Blast
+ばくえん
+Jubilee
+しゅくふく
+Ogre Darner
+オニトンボ
+Verdant
+しんりょく
+Fresh Snow
+しんせつ
+Fang Scorpion
+キバさそり
+Twin Tusk
+2ほんキバ
+Blade
+やいば
+Gripper
+てづかみ
+Snow Land
+ゆきぐに
+Plasma
+プラズマ
+Knowledge
+ちしき
+Willpower
+いし
+Temporal
+じかん
+Spatial
+くうかん
+Lava Dome
+かこう
+Colossal
+きょだい
+Renegade
+はんこつ
+Lunar
+みかづき
+Sea Drifter
+かいよう
+Seafaring
+かいゆう
+Pitch-Black
+あんこく
+Gratitude
+かんしゃ
+Alpha
+そうぞう
+Victory
+しょうり
+Grass Snake
+くさへび
+Regal
+ロイヤル
+Fire Pig
+ひぶた
+Mega Fire Pig
+おおひぶた
+Sea Otter
+ラッコ
+Discipline
+しゅぎょう
+Formidable
+かんろく
+Lookout
+けいかい
+Loyal Dog
+ちゅうけん
+Big-Hearted
+かんだい
+Devious
+しょうわる
+Cruel
+れいこく
+Grass Monkey
+くさざる
+Thorn Monkey
+とげざる
+High Temp
+こうおん
+Ember
+ひのこ
+Spray
+みずかけ
+Geyser
+ほうすい
+Dream Eater
+ゆめくい
+Drowsing
+ゆめうつつ
+Tiny Pigeon
+こばと
+Wild Pigeon
+のばと
+Proud
+プライド
+Electrified
+たいでん
+Mantle
+マントル
+Ore
+こうせき
+Compressed
+こうあつ
+Courting
+きゅうあい
+Subterrene
+ちてい
+Hearing
+ヒヤリング
+Muscular
+きんこつ
+Judo
+じゅうどう
+Karate
+からて
+Sewing
+さいほう
+Leaf-Wrapped
+はごもり
+Nurturing
+こそだて
+Centipede
+ムカデ
+Curlipede
+まゆムカデ
+Megapede
+メガムカデ
+Cotton Puff
+わたたま
+Windveiled
+かぜかくれ
+Bulb
+ねっこ
+Flowering
+はなかざり
+Hostile
+らんぼう
+Desert Croc
+さばくワニ
+Intimidation
+いかく
+Zen Charm
+だるま
+Blazing
+えんじょう
+Rock Inn
+いしやど
+Stone Home
+いわやど
+Shedding
+だっぴ
+Hoodlum
+あくとう
+Avianoid
+とりもどき
+Spirit
+たましい
+Coffin
+かんおけ
+Prototurtle
+こだいがめ
+First Bird
+さいこどり
+Trash Bag
+ゴミぶくろ
+Trash Heap
+ゴミすてば
+Tricky Fox
+わるぎつね
+Illusion Fox
+ばけぎつね
+Chinchilla
+チンチラ
+Scarf
+スカーフ
+Fixation
+ぎょうし
+Astral Body
+てんたい
+Cell
+さいぼう
+Mitosis
+ぶんかつ
+Multiplying
+ぞうふく
+White Bird
+しらとり
+Icy Snow
+ひょうせつ
+Snowstorm
+ブリザード
+Season
+きせつ
+Sky Squirrel
+モモンガ
+Clamping
+かぶりつき
+Cavalry
+きへい
+Floating
+ふゆう
+Caring
+かいほう
+Attaching
+くっつき
+EleSpider
+でんきグモ
+Thorn Seed
+とげのみ
+Thorn Pod
+とげだま
+Gear
+はぐるま
+EleFish
+でんきうお
+Cerebral
+ブレイン
+Candle
+ろうそく
+Lamp
+ランプ
+Luring
+いざない
+Tusk
+キバ
+Axe Jaw
+あごオノ
+Chill
+ひょうけつ
+Freezing
+とうけつ
+Crystallizing
+けっしょう
+Snail
+マイマイ
+Shell Out
+からぬけ
+Trap
+トラップ
+Martial Arts
+ぶじゅつ
+Automaton
+ゴーレム
+Sharp Blade
+はもの
+Sword Blade
+とうじん
+Bash Buffalo
+ずつきうし
+Eaglet
+ヒナわし
+Valiant
+ゆうもう
+Diapered
+おむつ
+Bone Vulture
+ほねわし
+Anteater
+アリクイ
+Iron Ant
+てつアリ
+Irate
+そぼう
+Torch
+たいまつ
+Iron Will
+てっしん
+Cavern
+がんくつ
+Grassland
+そうげん
+Cyclone
+せんぷう
+Bolt Strike
+らいげき
+Vast White
+はくよう
+Deep Black
+こくいん
+Abundance
+ほうじょう
+Boundary
+きょうかい
+Colt
+わかごま
+Melody
+せんりつ
+Paleozoic
+こせいだい
+Spiny Nut
+いがぐり
+Spiny Armor
+とげよろい
+Bubble Frog
+あわがえる
+Digging
+あなほり
+Tiny Robin
+コマドリ
+Scorching
+れっか
+Scatterdust
+こなふき
+Scale
+りんぷん
+Lion Cub
+わかじし
+Single Bloom
+いちりん
+Garden
+ガーデン
+Mount
+ライド
+Daunting
+こわもて
+Poodle
+プードル
+Restraint
+じせい
+Constraint
+よくせい
+Sword
+とうけん
+Royal Sword
+おうけん
+Perfume
+こうすい
+Fragrance
+ほうこう
+Cotton Candy
+わたあめ
+Meringue
+ホイップ
+Revolving
+かいてん
+Overturning
+ぎゃくてん
+Two-Handed
+ふたて
+Collective
+しゅうごう
+Mock Kelp
+クサモドキ
+Water Gun
+みずでっぽう
+Howitzer
+ランチャー
+Generator
+はつでん
+Royal Heir
+ようくん
+Despot
+ぼうくん
+Tundra
+ツンドラ
+Intertwining
+むすびつき
+Wrestling
+レスリング
+Antenna
+アンテナ
+Jewel
+ほうせき
+Soft Tissue
+なんたい
+Key Ring
+かぎたば
+Stump
+きりかぶ
+Elder Tree
+ろうぼく
+Pumpkin
+かぼちゃ
+Ice Chunk
+ひょうかい
+Sound Wave
+おんぱ
+Life
+せいめい
+Destruction
+はかい
+Order
+ちつじょ
+Mischief
+いたずら
+Steam
+スチーム
+Grass Quill
+くさばね
+Blade Quill
+はばね
+Arrow Quill
+やばね
+Fire Cat
+ひねこ
+Heel
+ヒール
+Pop Star
+アイドル
+Soloist
+ソリスト
+Woodpecker
+きつつき
+Bugle Beak
+ラッパぐち
+Cannon
+おおづつ
+Loitering
+うろつき
+Stakeout
+はりこみ
+Larva
+ようちゅう
+Battery
+バッテリー
+Boxing
+けんとう
+Woolly Crab
+けがに
+Dancing
+ダンス
+Bee Fly
+ツリアブ
+Wolf
+オオカミ
+Small Fry
+こざかな
+Brutal Star
+ヒトデナシ
+Donkey
+うさぎうま
+Draft Horse
+ばんば
+Water Bubble
+すいほう
+Sickle Grass
+かまくさ
+Bloom Sickle
+はなかま
+Illuminating
+はっこう
+Toxic Lizard
+どくトカゲ
+Flailing
+じたばた
+Strong Arm
+ごうわん
+Posy Picker
+はなつみ
+Sage
+けんじゃ
+Teamwork
+れんけい
+Turn Tail
+そうこう
+Hard Scale
+そうこう
+Sand Heap
+すなやま
+Sand Castle
+すなのしろ
+Sea Cucumber
+なまこ
+Synthetic
+じんこう
+Meteor
+ながれぼし
+Blast Turtle
+ばくはつがめ
+Roly-Poly
+まるまり
+Disguise
+ばけのかわ
+Gnash Teeth
+はぎしり
+Placid
+ゆうゆう
+Sea Creeper
+もくず
+Scaly
+うろこ
+Land Spirit
+とちがみ
+Nebula
+せいうん
+Protostar
+げんしせい
+Sunne
+にちりん
+Moone
+がちりん
+Parasite
+きせい
+Swollen
+ぼうちょう
+Lissome
+えんび
+Glowing
+でんしょく
+Launch
+うちあげ
+Drawn Sword
+ばっとう
+Junkivore
+あくじき
+Prism
+プリズム
+Artificial
+じんぞう
+Gloomdweller
+かげすみ
+Rampart
+いしがき
+Fireworks
+はなび
+Thunderclap
+じんらい
+Hex Nut
+ナット
+Beat
+ビート
+Drummer
+ドラマー
+Striker
+ストライカー
+Water Lizard
+みずとかげ
+Secret Agent
+エージェント
+Cheeky
+ほおばり
+Greedy
+よくばり
+Raven
+カラス
+Radome
+レドーム
+Seven Spot
+ななほし
+Cotton Bloom
+わたかざり
+Sheep
+ひつじ
+Snapping
+くいつき
+Dog
+いぬ
+Apple Core
+りんごぐらし
+Apple Wing
+りんごはね
+Apple Nectar
+りんごじる
+Sand Snake
+すなへび
+Gulp
+うのみ
+Rush
+とつげき
+Skewer
+くしざし
+Baby
+あかご
+Punk
+パンク
+Radiator
+はつねつ
+Tantrum
+だだっこ
+Jujitsu
+じゅうじゅつ
+Black Tea
+こうちゃ
+Calm
+おだやか
+Serene
+せいしゅく
+Silent
+せいじゃく
+Bulk Up
+ビルドアップ
+Blocking
+ていし
+Viking
+バイキング
+Comedian
+コメディアン
+Grudge
+おんねん
+Cream
+クリーム
+Formation
+じんけい
+Sea Urchin
+うに
+Frost Moth
+こおりが
+Big Rock
+きょせき
+Two-Sided
+にめん
+Copperderm
+どうぞう
+Alloy
+ごうきん
+Lingering
+うらめし
+Caretaker
+せわやく
+Stealth
+ステルス
+Warrior
+つわもの
+Gigantic
+キョダイ
+Wushu
+けんぽう
+Rogue Monkey
+わるざる
+Electron
+エレクトロン
+Dragon Orb
+りゅうぎょく
+Wild Horse
+あばれうま
+Swift Horse
+しゅんば
+King
+キング
+Unique Horn
+ユニークホーン
+Strong Legs
+つよいあし
+Malevolent
+じゃあく
+Hexpert
+のろいし
+High King
+だいおう

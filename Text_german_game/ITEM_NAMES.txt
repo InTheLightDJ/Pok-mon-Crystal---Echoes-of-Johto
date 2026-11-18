@@ -10,6 +10,8 @@ Battle Candy M
 Kampfbonbon M
 Battle Candy L
 Kampfbonbon L
+Blood Ball
+Blutball
 GS Ball
 GS-Ball
 Plip Ball
@@ -210,6 +212,16 @@ Umbrella
 Schirm
 Flashlight
 Taschenlampe
+Form Prism
+Formprisma
+Exp. All
+EP-Teiler Team
+Blood Shard
+Blutsplitter
+Blood Ball Top
+Blutball-Oberteil
+Blood Ball Bottom
+Blutball-Unterteil
 Repel
 Schutz
 Super Repel

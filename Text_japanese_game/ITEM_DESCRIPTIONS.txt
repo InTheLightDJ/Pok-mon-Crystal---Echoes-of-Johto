@@ -1,0 +1,1518 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_DESCRIPTIONS]
+Repels weak κΜ for 100 steps.
+つかうと すこしの あいだ よわい やせいの ポケモンが まったく でて こなくなる。
+Repels weak κΜ for 200 steps.
+よわい やせいの ポケモンが まったく でて こなくなる。 むしよけスプレーより ながく きく。
+Repels weak κΜ for 250 steps.
+よわい やせいの ポケモンが まったく でて こなくなる。 シルバースプレーより ながく きく。
+A black flute that keeps away wild κΜ.
+くろいガラスで できた ふえ。 つかった ばしょで つよいポケモンと そうぐう しやすくなる。
+A glass flute that lures wild κΜ.
+しろいガラスで できた ふえ。 つかった ばしょで よわいポケモンと そうぐう しやすくなる。
+Attracts wild κΜ when used in grass or caves.
+ポケモンが あつめた あまい においが する ミツ。 ショップで やすく うれる。
+A small red shard. Sell low.
+あかい ちいさな かけら。 むかしに つくられた なにかの どうぐの いちぶ らしい。
+A small yellow shard. Sell low.
+きいろい ちいさな かけら。 むかしに つくられた なにかの どうぐの いちぶ らしい。
+A small blue shard. Sell low.
+あおい ちいさな かけら。 むかしに つくられた なにかの どうぐの いちぶ らしい。
+A small green shard. Sell low.
+みどりの ちいさな かけら。 むかしに つくられた なにかの どうぐの いちぶ らしい。
+An orange stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 だいだいいろを している。
+A bright stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 いなずまの もようが ある。
+A blue stone that makes certain κΜ evolve.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 すんだ みずいろを している。
+A green stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 はっぱの もようが ある。
+A black stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 よぞらのように くろい。
+A red stone that makes certain κΜ evolve.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 たいようのように あかい。
+A dark stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 やみのように くらい。
+A spark stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 ひとみのように まばゆい。
+A shiny stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 ひかりのように まぶしい。
+A frozen stone that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな いし。 ゆきの もようが ある。
+A sweet apple that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな りんご。 とにかく あまい。
+A tart apple that makes certain κΜ evolve.
+ある とくていの ポケモンを しんかさせる ふしぎな りんご。 とにかく すっぱい。
+A cracked teapot that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな ポット。 われているが おちゃは おいしくなる。
+A chipped teapot that evolves certain κΜ.
+ある とくていの ポケモンを しんかさせる ふしぎな ポット。 かけているが おちゃは おいしくなる。
+A cuff that makes G-Slowpoke very happy.
+ガラナツのえだを あみこんだ ブレスレット。 ガラルちほうの ヤドンに つけてあげると よろこぶ。
+A wreath that makes G-Slowpoke very happy.
+ガラナツのえだを あみこんだ かんむり。 ガラルちほうの ヤドンに かぶせてあげると よろこぶ。
+A red Apricorn.
+あかい ぼんぐり。 つーんと はなにくる においがする。
+A yellow Apricorn.
+きいろの ぼんぐり。 さわやかな かおりが する。
+A blue Apricorn.
+あおい ぼんぐり。 すこし あおくさい かおりがする。
+A green Apricorn.
+みどりの ぼんぐり。 ふしぎと こうばしい かおりがする。
+A pink Apricorn.
+ももいろの ぼんぐり。 あまそうな いい においがする。
+A white Apricorn.
+しろい ぼんぐり。 なんの においも しない。
+A black Apricorn.
+くろい ぼんぐり。 なんともいえない においがする。
+A purple Apricorn.
+むらさきいろの ぼんぐり。
+A seashell fossil of an ancient κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキ。 かいがらの いちぶ らしい。
+A shell fossil of an ancient κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキ。 こうらの いちぶ らしい。
+Contains the genes of an ancient κΜ.
+こだい ポケモンの いでんしが とじこめられている コハク。 あかみを おびて すけている。
+A plant root fossil of an ancient κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキ。 ねっこの いちぶ らしい。
+A claw fossil of an ancient κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキ。 ツメの いちぶ らしい。
+A head fossil from a prehistoric κΜ.
+おおむかし ちじょうで くらした こだい ポケモンの カセキ。 あたまの いちぶ らしい。
+A collar fossil from a prehistoric κΜ.
+おおむかし ちじょうで くらした こだい ポケモンの カセキ。 えりかざりの いちぶ らしい。
+A fossil from the back of an ancient κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキ。 せなかの いちぶ らしい。
+A wing fossil of an ancient κΜ.
+とりポケモンの そせんと いわれる こだい ポケモンの カセキ。 つばさの いちぶ らしい。
+A large jaw fossil from a prehistoric κΜ.
+おおむかし ちじょうで くらした こだい ポケモンの カセキ。 おおきな アゴの いちぶ らしい。
+A skin sail fossil from a prehistoric κΜ.
+おおむかし ちじょうで くらした こだい ポケモンの カセキ。 くびの ヒレの いちぶ らしい。
+A fossil of an ancient flying κΜ.
+おおむかし そらを とんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+A fossil of an ancient κΜ that lived in the sea.
+おおむかし うみに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+A fossil of an ancient dragon κΜ.
+おおむかし りくに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+A fossil of an ancient dinousaur κΜ.
+おおむかし うみに すんでいた こだい ポケモンの カセキの いちぶ。 どんな すがた だったのかは なぞ。
+A regular feather with no effect.
+きれいなだけで なんの こうかもない ごくごく ふつうの ハネ。
+An ordinary mushroom. Sell low.
+ちいさな めずらしい キノコ。 いちぶの マニアの あいだでは けっこう にんきが たかい。
+A large and rare mushroom. Sell high.
+おおきな めずらしい キノコ。 いちぶの マニアの あいだでは とても にんきが たかい。
+A rare, aromatic mushroom. Sell very high.
+あたりいったいに いい かおりが ひろがる めずらしい キノコ。 ショップで たかく うれる。
+A beautiful pearl. Sell low.
+きれいな ぎんいろに ひかる すこし ちいさめの しんじゅ。 ショップで やすく うれる。
+A big, beautiful pearl. Sell high.
+きれいな ぎんいろに ひかる かなり おおつぶの しんじゅ。 ショップで たかく うれる。
+Sparkling and beautiful pearls. Sell very high.
+きれいな ぎんいろに ひかる とても おおつぶの しんじゅ。 ショップで たかく うれる。
+Pretty, red sand. Sell high.
+てざわりが サラサラの あかくて きれいな すな。 ショップで やすく うれる。
+A hunk of red gem. Sell very high.
+キラキラと あかく ひかる きれいな ほうせきの かけら。 ショップで たかく うれる。
+A shard from a fallen comet. Sell very high.
+すいせいが ちかづいたとき ちひょうに おちた かけら。 ショップで たかく うれる。
+Made of pure gold. Sell high.
+キラキラと きんいろに ひかる じゅんきん せいの たま。 ショップで たかく うれる。
+A big nugget of pure gold. Sell very high.
+キラキラと きんいろに ひかる じゅんきんせいの おおきな たま。 ショップで たかく うれる。
+A lovely scale. It is coveted by collectors.
+きれいな ハートの かたちの とても めずらしい ウロコ。 わたすと よろこぶ ひともいる。
+A very tasty tail of something. Sell high.
+とても おいしい なにかの しっぽ。 ショップで たかく うれる。
+A valuable bone for archeologists. Sell high.
+ポケモンこうこがくの うえで とても きちょうな ホネ。 ショップで たかく うれる。
+An ancient copper coin desired by maniacs.
+3000ねんほど むかしの ぶんめいで つかわれた どうか。
+An ancient silver coin desired by maniacs.
+3000ねんほど むかしの ぶんめいで つかわれた ぎんか。
+An ancient golden coin desired by maniacs.
+3000ねんほど むかしの ぶんめいで つかわれた きんか。
+An ancient vase desired by maniacs.
+3000ねんほど むかしの ぶんめいで つくられた ツボ。
+An ancient bracelet desired by maniacs.
+3000ねんほど むかしの ぶんめいで つくられた うでわ。
+An ancient stone figure desired by maniacs.
+3000ねんほど むかしの ぶんめいで つくられた せきぞう。
+An ancient crown desired by maniacs.
+3000ねんほど むかしの ぶんめいで つくられた おうかん。
+A fertilizer for soft soil. Sell high.
+きのみを そだてるときの ひりょう。 しかし ホウエンちほうの つちには まるで なじまないので こうかが ない。
+Salt from Shoal Cave. High price sell.
+あさせのほらあなで みつけた しお。
+Seashell from Shoal Cave. High price sell.
+あさせのほらあなで みつけた かいがら。
+Keeps a stone tower from collapsing.
+これがないと いしのとうが くずれてしまう だいじないし。 ときどき いしから こえがきこえる。
+Changes the form of a certain κΜ.
+ウラウラのはなぞので てにいれた はなのミツ。 とくていの ポケモンの すがたを かえる。
+Immune to ground-type moves until hit.
+ポケモンに もたせると ポケモンが ちゅうに うく。 こうげきを うけると われてしまう。
+Lowers the opponent's accuracy. (Hold)
+キラキラ ひかるこな。 もたせると ひかりが あいてを まどわして わざが めいちゅう しにくくなる。
+Raises defenses if the holder can still evolve.
+しんかの ふしぎな かたまり。 もたせると しんかまえ ポケモンの ぼうぎょと とくぼうが あがる。
+Reduces the holder's weight.
+とても かるい いし。 もたせると ポケモンの たいじゅうが かるくなる。
+If infatuated, so does the foe. (Hold)
+ほそくて ながい まっかな いと。 もたせると メロメロに なったとき あいても メロメロに できる。
+Damages when contact the holder.
+ポケモンに もたせると だげきわざを うけたとき あいてにも ダメージを あたえる。
+Raises Spcl. Def but disallow status moves.
+こうげきてきに なる チョッキ。 もたせると とくぼうが あがるが へんかわざを だせなくなる。
+Protects from weather and powder-moves.
+てんこうの ダメージだけでなく こなを だす わざの こうかも ふせげる ゴーグル。
+Protects the holder from contact effects.
+こうげき する あいてに さわって うける こうかを うけないように する。
+Prevent the effects of traps. (Hold)
+あしばに しかけられた わななどの えいきょうを うけなくなる。
+Protects the holder from weather effects.
+もたせた ポケモンは あめと ひざしがつよいときの えいきょうを うけなくなる。
+If the holder is hit, it switches out.
+もたせて わざを うけると せんとうから だっしゅつして てもちと いれかわる ことができる。
+If stats are lowered, it'll be switched out.
+もたせた ポケモンの のうりょくが さがると てもちと いれかわる。
+When struck by a foe, the attacker goes out.
+ふしぎな ちからのある カード。 もたせると わざをつかってきた あいてを たいじょう させることが できる。
+Always lets the holder switch out.
+じょうぶで かたい ぬけがら。 もたせた ポケモンは ひかえの ポケモンと かならず いれかわれる。
+Escape from wild Pokémon. (Hold)
+もたせた ポケモンは やせいの ポケモンとの せんとうから ぜったいに にげられる。
+Earns extra Exp. Points. (Hold)
+しあわせが つまった タマゴ。 もたせた ポケモンは もらえる けいけんちが すこし ふえる。
+Shares battle Exp. Points. (Hold)
+スイッチを いれると てもちの ポケモン すべてが けいけんちを もらえる そうち。
+Doubles monetary earnings. (Hold)
+もたせた ポケモンが いちどでも せんとうに かおを だすと おかねが 2ばい もらえる。
+Calms spirits and fosters friendship. (Hold)
+ここちよい ねいろの すず。 もたせた ポケモンは こころが やすらぎ なかよく なりやすくなる。
+Helps repel wild Pokémon. (Hold)
+いちばん まえの ポケモンに もたせると やせいポケモンが でて きにくくなる。
+Boosts Attack, but allows just one move.
+ちょっと こだわった ハチマキ。 もたせると こうげきは あがるが おなじ わざしか だせなくなる。
+Boosts Spcl. Atk, but allows just one move.
+ちょっと こだわった メガネ。 もたせると とくこうは あがるが おなじ わざしか だせなくなる。
+Boosts Speed, but allows just one move.
+ちょっと こだわった スカーフ。 もたせると すばやさは あがるが おなじ わざしか だせなくなる。
+Extends the duration of Sunny Day.
+もたせた ポケモンが にほんばれを つかうと いつもより はれの じかんが ながくなる。
+Extends the duration of Rain Dance.
+もたせた ポケモンが あまごいを つかうと いつもより あめの じかんが ながくなる。
+Extends the duration of Sandstorm.
+もたせた ポケモンが すなあらしを つかうと いつもより すなあらしの じかんが ながくなる。
+Extends the duration of Hail.
+もたせた ポケモンが あられを つかうと いつもより あられの じかんが ながくなる。
+Extends the duration of the terrain invoked.
+もたせた ポケモンが わざや とくせいで フィールドを はったとき いつもよりも ながく のこる。
+Extends the duration of barrier moves.
+もたせた ポケモンが ひかりのかべや リフレクターを つかったとき いつもよりも ながく のこる。
+Extends the duration of multiturn attacks.
+もたせると しめつける まきつくなど ダメージを あたえつづける わざの ターンすうが ふえる。
+Increases the power of binding moves.
+しめつけるわざを ほじょする バンド。 もたせると しめつけるわざの いりょくが つよく なる。
+Boosts the power of HP-stealing moves.
+もたせると HPを すいとる わざで いつもより おおく じぶんの HPを かいふくできる。
+Inflicts damage on non Poison Pokémon.
+もたせると どくタイプの ポケモンは すこしずつ HPを かいふくする。 それいがいは HPが へってしまう。
+Restores HP during battle. (Hold)
+もたせると ポケモンの HPが せんとうの あいだ すこしずつ かいふくする。
+Restores HP upon striking the foe. (Hold)
+もたせた ポケモンが こうげきして あいてに ダメージを あたえたとき HPを すこし かいふく できる。
+Snaps Pokémon out of infatuation. (Hold)
+もたせた ポケモンが じゆうに わざを だせなくなったときに いちどだけ かいふくする。
+Restores any lowered stat. (Hold)
+もたせた ポケモンの のうりょくが さがったとき いちどだけ もとの じょうたいに もどす。
+Allows the immediate use of a move. (Hold)
+もたせた ポケモンは いちどだけ 1ターンめに ちからを ためるわざを すぐに つかうことが できる。
+Raises Spcl. Atk if hit with water-type moves.
+つかいすての きゅうこん。 もたせて みずの わざを うけると とくこうが あがる。
+Raises Attack if hit by electric-type moves.
+つかいすての じゅうでんち。 もたせて でんきの わざを うけると こうげきが あがる。
+Boosts Spcl. Def when captures water.
+つかいすての ひかりごけ。 もたせて みずの わざを うけると とくぼうが あがる。
+If hit by an ice-type move, boosts Attack.
+つかいすての ゆきだま。 もたせて こおりの わざを うけると こうげきが あがる。
+Raises attacks if hit by a supereffective move.
+じゃくてんを つかれたとき こうげきと とくこうが それぞれ ぐーんと あがる。
+Sharply raises Speed when misses a move.
+めいちゅうりつに よって わざが はずれたとき すばやさが ぐーんと あがる。
+Raises Spcl. Atk when a sound move is used.
+おとに かんする わざを つかうと とくこうが あがる。
+Boosts Speed when intimidated.
+ポケモンに もたせると いかくを うけたとき すばやさが あがる。
+Lowers Speed if Trick Room is active.
+ポケモンに もたせると トリックルームのときに つかって すばやさが さがる。
+Boosts Defense on an Electric Terrain.
+ポケモンに もたせると エレキフィールドのときに つかって ぼうぎょが あがる。
+Boosts Defense on a Grassy Terrain.
+ポケモンに もたせると グラスフィールドのときに つかって ぼうぎょが あがる。
+Boosts Spcl. Def on a Misty Terrain.
+ポケモンに もたせると ミストフィールドのときに つかって とくぼうが あがる。
+Boosts Spcl. Def on a Psychic Terrain.
+ポケモンに もたせると サイコフィールドのときに つかって とくぼうが あがる。
+Boosts the power of moves, but loses HP.
+もたせると こうげきする たびに HPが すこし へってしまうが わざの いりょくが あがる。
+Boosts the power of supereffective moves.
+つかいこまれた くろい おび。 もたせると こうかばつぐんの とき わざの いりょくが すこし あがる。
+Boosts a move used consecutively.
+もたせると おなじわざを れんぞくで つかったとき いりょくが あがる。 やめると いりょくは もどる。
+Boosts physical moves a little.
+ちからが わいてくる ハチマキ。 もたせると ぶつりわざの いりょくが すこし あがる。
+Slightly boosts the power of special moves.
+ぶあつい レンズの ついた メガネ。 もたせると とくしゅわざの いりょくが すこし あがる。
+Ups the holder's critical-hit ratio.
+するどく とがった ツメ。 もたせると わざが きゅうしょに あたりやすくなる。
+Boosts the holder's critical-hit ratio.
+じゃくてんが みえる レンズ。 もたせた ポケモンの わざが きゅうしょに あたりやすくなる。
+Slightly boosts the accuracy of moves.
+ものが おおきく みえる レンズ。 もたせると わざの めいちゅうりつが すこし あがる。
+Increases accuracy when it's slower.
+もたせた ポケモンが あいてよりも こうどうするのが おそいとき わざが めいちゅう しやすくなる。
+May flinch the target if makes damage.
+もたせると こうげきして ダメージを あたえたときに あいてを ひるませることが ある。
+May flinch foes and allies.
+するどく とがった キバ。 もたせると ダメージを あたえたとき ひるませることが ある。
+Makes the holder move slower than usual.
+とても おもたい なにかの しっぽ。 もたせると いつもより こうどうが おそくなる。
+Lets the bearer move first occasionally.
+かるくて するどい ツメ。 もたせると あいてより さきに こうどう できることが ある。
+May endure a potential KO attack.
+もたせると ひんしに なりそうな わざを うけても HPを 1だけ のこして たえることが ある。
+If full HP, the holder will endure OHKO.
+もたせると HPが まんたんのとき ひんしになりそうな わざを うけても HP1で いちどだけ たえる。
+Inflicts a burn on the holder in battle.
+さわると ねつをだす ふしぎなたま。 もたせると せんとうちゅうに やけどの じょうたいに なる。
+Badly poisons the holder in battle.
+さわると どくをだす ふしぎなたま。 もたせると せんとうちゅうに もうどくの じょうたいに なる。
+Damages the holder on every turn.
+もたせると まいターン ダメージを うける。 じぶんに ふれてきた あいてに くっつくことも ある。
+Cuts Speed and makes weak to ground moves.
+もたせると すばやさが さがる。 ひこうタイプや ふゆう ポケモンは じめんわざが あたって しまう。
+Removes holder's type-immunities.
+ポケモンの タイプの あいしょうで むこう だった わざが あたるように なってしまう。
+Grows strong but lowers Speed.
+かたくて おもい ギプス。 もたせると すばやさは さがるが ふつうより つよく そだちやすい。
+HP grows but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの HPが たかく そだちやすい。
+Attack grows but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの こうげきが たかく そだちやすい。
+Defense grows but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの ぼうぎょが たかく そだちやすい。
+Spcl. Atk grows but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの とくこうが たかく そだちやすい。
+Spcl. Def grows but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの とくぼうが たかく そだちやすい。
+Speed grows better but lowers Speed.
+もたせると すばやさが さがるが ふつうよりも ポケモンの すばやさが たかく そだちやすい。
+May make attacks miss the holder.
+もたせると おこうの ふしぎな かおりが あいてを まどわせて わざが めいちゅう しにくくなる。
+Makes the holder slower.
+ふしぎな かおりの おこう。 もたせた ポケモンは いつもより こうどうが おそくなる。
+Doubles a battle's prize money.
+もたせた ポケモンが いちどでも せんとうに かおを だすと おかねが 2ばい もらえる。
+Helps to keep wild Pokémon away.
+いちばん まえの ポケモンに もたせると やせいポケモンが でて きにくくなる。
+Boosts water-type moves.
+ふしぎな かおりの おこう。 もたせると みずタイプの わざの いりょくが あがる。
+Boosts the power of water-type moves.
+ふしぎな かおりの おこう。 もたせると みずタイプの わざの いりょくが あがる。
+Boosts the power of grass-type moves.
+ふしぎな かおりの おこう。 もたせると くさタイプの わざの いりょくが あがる。
+Boosts psychic-type moves.
+ふしぎな かおりの おこう。 もたせると エスパータイプの わざの いりょくが あがる。
+Boosts rock-type moves.
+ふしぎな かおりの おこう。 もたせると いわタイプの わざの いりょくが あがる。
+Powers up fire-type moves. (Hold)
+ものを もやす ねんりょう。 もたせると ほのおタイプの わざの いりょくが あがる。
+Powers up water-type moves. (Hold)
+しずくの かたちの ほうせき。 もたせると みずタイプの わざの いりょくが あがる。
+Boosts electric-type moves. (Hold)
+きょうりょくな じしゃく。 もたせると でんきタイプの わざの いりょくが あがる。
+Powers up grass-type moves. (Hold)
+せいめいが やどる タネ。 もたせると くさタイプの わざの いりょくが あがる。
+Powers up ice-type moves. (Hold)
+ねつを よせつけない こおり。 もたせると こおりタイプの わざの いりょくが あがる。
+Boosts fighting-type moves. (Hold)
+きが ひきしまる おび。 もたせると かくとうタイプの わざの いりょくが あがる。
+Powers up poison-type moves. (Hold)
+どくのある ちいさな ハリ。 もたせると どくタイプの わざの いりょくが あがる。
+Powers up ground-type moves. (Hold)
+さわると サラサラする すな。 もたせると じめんタイプの わざの いりょくが あがる。
+Powers up flying-type moves. (Hold)
+ながく とがった くちばし。 もたせると ひこうタイプの わざの いりょくが あがる。
+Powers up psychic-type moves. (Hold)
+ねんりきを こめた スプーン。 もたせると エスパータイプの わざの いりょくが あがる。
+Powers up bug-type moves. (Hold)
+ぎんいろに かがやく こな。 もたせると むしタイプの わざの いりょくが あがる。
+Powers up rock-type moves. (Hold)
+ぜったいに われない いし。 もたせると いわタイプの わざの いりょくが あがる。
+Powers up ghost-type moves. (Hold)
+あやしくて ぶきみな おふだ。 もたせると ゴーストタイプの わざの いりょくが あがる。
+Powers up dragon-type moves. (Hold)
+かたくて するどい キバ。 もたせると ドラゴンタイプの わざの いりょくが あがる。
+Powers up dark-type moves. (Hold)
+あやしく みえる メガネ。 もたせると あくタイプの わざの いりょくが あがる。
+Powers up steel-type moves. (Hold)
+とくしゅな きんぞくの まく。 もたせると はがねタイプの わざの いりょくが あがる。
+Powers up normal-type moves. (Hold)
+はだざわりの よい スカーフ。 もたせると ノーマルタイプの わざの いりょくが あがる。
+Boosts fire-type moves.
+ほのおの タイプの せきばん。 もたせると ほのおタイプの わざの いりょくが つよまる。
+Boosts electric-type moves.
+でんきの タイプの せきばん。 もたせると でんきタイプの わざの いりょくが つよまる。
+Boosts grass-type moves.
+くさの タイプの せきばん。 もたせると くさタイプの わざの いりょくが つよまる。
+Boosts ice-type moves.
+こおりの タイプの せきばん。 もたせると こおりタイプの わざの いりょくが つよまる。
+Boosts fighting-type moves.
+かくとうの タイプの せきばん。 もたせると かくとうタイプの わざの いりょくが つよまる。
+Boosts poison-type moves.
+どくの タイプの せきばん。 もたせると どくタイプの わざの いりょくが つよまる。
+Boosts ground-type moves.
+じめんの タイプの せきばん。 もたせると じめんタイプの わざの いりょくが つよまる。
+Boosts flying-type moves.
+ひこうの タイプの せきばん。 もたせると ひこうタイプの わざの いりょくが つよまる。
+Boosts bug-type moves.
+むしの タイプの せきばん。 もたせると むしタイプの わざの いりょくが つよまる。
+Boosts ghost-type moves.
+ゴーストの タイプの せきばん。 もたせると ゴーストタイプの わざの いりょくが つよまる。
+Boosts dragon-type moves.
+ドラゴンの タイプの せきばん。 もたせると ドラゴンタイプの わざの いりょくが つよまる。
+Boosts dark-type moves.
+あくの タイプの せきばん。 もたせると あくタイプの わざの いりょくが つよまる。
+Boosts steel-type moves.
+はがねの タイプの せきばん。 もたせると はがねタイプの わざの いりょくが つよまる。
+Boosts fairy-type moves.
+フェアリーの タイプの せきばん。 もたせると フェアリータイプの わざの いりょくが つよまる。
+Strengthens a fire-type move once.
+ほのおの タイプの ジュエル。 もたせると いちどだけ ほのおの わざの いりょくが つよまる。
+Strengthens a water-type move once.
+みずの タイプの ジュエル。 もたせると いちどだけ みずの わざの いりょくが つよまる。
+Strengthens an electric-type move once.
+でんきの タイプの ジュエル。 もたせると いちどだけ でんきの わざの いりょくが つよまる。
+Strengthens a grass-type move once.
+くさの タイプの ジュエル。 もたせると いちどだけ くさの わざの いりょくが つよまる。
+Strengthens an ice-type move once.
+こおりの タイプの ジュエル。 もたせると いちどだけ こおりの わざの いりょくが つよまる。
+Strengthens a fighting-type move once.
+かくとうの タイプの ジュエル。 もたせると いちどだけ かくとうの わざの いりょくが つよまる。
+Strengthens a poison-type move once.
+どくの タイプの ジュエル。 もたせると いちどだけ どくの わざの いりょくが つよまる。
+Strengthens a ground-type move once.
+じめんの タイプの ジュエル。 もたせると いちどだけ じめんの わざの いりょくが つよまる。
+Strengthens a flying-type move once.
+ひこうの タイプの ジュエル。 もたせると いちどだけ ひこうの わざの いりょくが つよまる。
+Strengthens a psychic-type move once.
+エスパーの タイプの ジュエル。 もたせると いちどだけ エスパーの わざの いりょくが つよまる。
+Strengthens a bug-type move once.
+むしの タイプの ジュエル。 もたせると いちどだけ むしの わざの いりょくが つよまる。
+Strengthens a rock-type move once.
+いわの タイプの ジュエル。 もたせると いちどだけ いわの わざの いりょくが つよまる。
+Strengthens a ghost-type move once.
+ゴーストの タイプの ジュエル。 もたせると いちどだけ ゴーストの わざの いりょくが つよまる。
+Strengthens a dragon-type move once.
+ドラゴンの タイプの ジュエル。 もたせると いちどだけ ドラゴンの わざの いりょくが つよまる。
+Strengthens a dark-type move once.
+あくの タイプの ジュエル。 もたせると いちどだけ あくの わざの いりょくが つよまる。
+Strengthens a steel-type move once.
+はがねの タイプの ジュエル。 もたせると いちどだけ はがねの わざの いりょくが つよまる。
+Strengthens a fairy-type move once.
+フェアリーの タイプの ジュエル。 もたせると いちどだけ フェアリーの わざの いりょくが つよまる。
+Strengthens a normal-type move once.
+ノーマルの タイプの ジュエル。 もたせると いちどだけ ノーマルの わざの いりょくが つよまる。
+An odd, electrical orb. Boosts Pikachu's stats.
+ピカチュウに もたせると こうげきと とくこうの いりょくが あがる ふしぎな たま。
+Ups critical hit ratio of Chansey.
+こううんを よぶ グローブ。 ラッキーに もたせると わざが きゅうしょに あたりやすくなる。
+Raises Ditto's Defense. (Hold)
+メタモンに もたせると ぼうぎょが あがる ふしぎなこな。 とても こまかくて かたい。
+Raises Ditto's Speed. (Hold)
+メタモンに もたせると すばやさが あがる ふしぎなこな。 とても こまかくて かたい。
+A bone of some sort. Sell low.
+なにかの かたい ホネ。 カラカラ または ガラガラに もたせると こうげきが あがる。
+An ordinary stick. Sell low.
+とても ながくて かたい クキ。 カモネギに もたせると わざが きゅうしょに あたりやすくなる。
+Boosts Latios & Latias stab moves.
+ラティオスや ラティアスに もたせると エスパーと ドラゴンタイプの わざの いりょくが あがる ふしぎな たま。
+Raises Clamperl's Spcl. Atk.
+パールルに もたせると とくこうが あがる キバ。 するどく ぎんいろに ひかる。
+Raises Clamperl's Spcl. Def.
+パールルに もたせると とくぼうが あがる ウロコ。 うすい ピンクいろに ひかる。
+Boosts dragon and steel-type moves.
+ディアルガに もたせると ドラゴンと はがねタイプの わざの いりょくが あがる ひかり かがやく たま。
+Boosts dragon and water-type moves.
+パルキアに もたせると ドラゴンと みずタイプの わざの いりょくが あがる うつくしく かがやく たま。
+Boosts dragon and ghost-type moves.
+ギラティナに もたせると ドラゴンと ゴーストタイプの わざの いりょくが あがる ひかり かがやく たま。
+Changes Zacian's form.
+おおむかしの えいゆうが さいやくを うちはらったと つたえられる けん だが いまは さびて ボロボロに なっている。
+Changes Zamazenta's form.
+おおむかしの えいゆうが さいやくを うちはらったと つたえられる たて だが いまは さびて ボロボロに なっている。
+Changes Techno Blast to water-type.
+ゲノセクトに もたせると テクノバスターという わざが みずタイプになる カセット。
+Changes Techno Blast to electric-type.
+ゲノセクトに もたせると テクノバスターという わざが でんきタイプになる カセット。
+Changes Techno Blast to fire-type.
+ゲノセクトに もたせると テクノバスターという わざが ほのおタイプになる カセット。
+Changes Techno Blast to ice-type.
+ゲノセクトに もたせると テクノバスターという わざが こおりタイプになる カセット。
+Changes the holder to fire-type.
+ほのおタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to water-type.
+みずタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to electric-type.
+でんきタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to grass-type.
+くさタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to ice-type.
+こおりタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to fighting-type.
+かくとうタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to poison-type.
+どくタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to ground-type.
+じめんタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to flying-type.
+ひこうタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to psychic-type.
+エスパータイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to bug-type.
+むしタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to rock-type.
+いわタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to ghost-type.
+ゴーストタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to dragon-type.
+ドラゴンタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to dark-type.
+あくタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to steel-type.
+はがねタイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Changes the holder to fairy-type.
+フェアリータイプの データが はいった メモリ。 とくていの ポケモンが もつと タイプが かわる。
+Prevents from evolution. (Hold)
+ポケモンに もたせると そのあいだ しんか しなくなる ふしぎな いし。
+A rare dragon-type item.
+かたくて じょうぶな ウロコ。 ドラゴンタイプの ポケモンが もっていることが ある。
+A mysterious box made by Silph Co.
+なかに いろんな じょうほうが つまった とうめいな きかい。 シルフ カンパニーせい。
+A mysterious disc which producer is unknown.
+なかに あやしい じょうほうが つまった とうめいな きかい。 せいさくしゃは ふめい。
+Evolves certain kinds of Pokémon.
+なにかの プロテクター。 とても かたくて おもい。 ある ポケモンが このんでいる。
+A fluffy sweet loved by a certain Pokémon.
+ふんわり ふわふわに あわだてた ほんのり あまい クリーム。 ある ポケモンが このんでいる。
+A scented sachet loved by a certain Pokémon.
+ちょっと きつめの かおりをだす こうりょうを つめた ふくろ。 ある ポケモンが このんでいる。
+A strawberry sweet. Evolves Milcery.
+いちごの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A heart-shaped sweet. Evolves Milcery.
+ハートの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A berry-shaped sweet. Evolves Milcery.
+ベリーの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A clover-shaped sweet. Evolves Milcery.
+よつばの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A flower-shaped sweet. Evolves Milcery.
+おはなの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A star-shaped sweet. Evolves Milcery.
+スターの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+A ribbon-shaped sweet. Evolves Milcery.
+リボンの かたちを した アメざいく。 マホミルに もたせてあげると くるくる まわって よろこぶ。
+Mega evolves Venusaur.
+フシギバナに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Charizard to X form.
+リザードンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Charizard to Y form.
+リザードンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Blastoise.
+カメックスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Beedrill.
+スピアーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Pidgeot.
+ピジョットに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Alakazam.
+フーディンに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Slowbro.
+ヤドランに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Gengar.
+ゲンガーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Kangaskhan.
+ガルーラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Pinsir.
+カイロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Gyarados.
+ギャラドスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Aerodactyl.
+プテラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Mewtwo to X form.
+ミュウツーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Mewtwo to Y form.
+ミュウツーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Ampharos.
+デンリュウに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Steelix.
+ハガネールに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Scizor.
+ハッサムに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Heracross.
+ヘラクロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Houndoom.
+ヘルガーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Tyranitar.
+バンギラスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Sceptile.
+ジュカインに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Blaziken.
+バシャーモに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Swampert.
+ラグラージに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Gardevoir.
+サーナイトに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Sableye.
+ヤミラミに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Mawile.
+クチートに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Aggron.
+ボスゴドラに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Medicham.
+チャーレムに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Manectric.
+ライボルトに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Sharpedo.
+サメハダーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Camerupt.
+バクーダに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Altaria.
+チルタリスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Banette.
+ジュペッタに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Absol.
+アブソルに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Glalie.
+オニゴーリに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Salamence.
+ボーマンダに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Metagross.
+メタグロスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Latias.
+ラティアスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Latios.
+ラティオスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Lopunny.
+ミミロップに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Garchomp.
+ガブリアスに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Lucario.
+ルカリオに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Abomasnow.
+ユキノオーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Gallade.
+エルレイドに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Audino.
+タブンネに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Mega evolves Diancie.
+ディアンシーに もたせておくと たたかいのとき メガシンカが できる ふしぎな メガストーンの いっしゅ。
+Returns Groudon to its original form.
+ホウエンちほうの でんせつと ふかい かかわりが あると いわれる あかく かがやく たま。
+Returns Kyogre to its original form.
+ホウエンちほうの でんせつと ふかい かかわりが あると いわれる あおく かがやく たま。
+Restores Pokémon HP by 20.
+スプレーしきの キズぐすり。 ポケモン 1ひきの HPを 20だけ かいふくする。
+Restores Pokémon HP by 50.
+スプレーしきの キズぐすり。 ポケモン 1ひきの HPを 60だけ かいふくする。
+Restores Pokémon HP by 120.
+スプレーしきの キズぐすり。 ポケモン 1ひきの HPを 120だけ かいふくする。
+Restores all Pokémon HP.
+スプレーしきの キズぐすり。 ポケモン 1ひきの HPを すべて かいふくする。
+Fully restores HP and status.
+ポケモン 1ひきの HPと じょうたい いじょうを すべて かいふくする。
+Fully revives all fainted Pokémon.
+ひんしに なってしまった ポケモン ぜんいんの HPを すべて かいふくする。
+Awakens sleeping Pokémon.
+スプレーしきの くすり。 ポケモン 1ひきの ねむりの じょうたいを かいふくする。
+Cures poisoned Pokémon.
+スプレーしきの くすり。 ポケモン 1ひきの どくの じょうたいを かいふくする。
+Heals burned Pokémon.
+スプレーしきの くすり。 ポケモン 1ひきの やけどの じょうたいを かいふくする。
+Heals paralyzed Pokémon.
+スプレーしきの くすり。 ポケモン 1ひきの まひの じょうたいを かいふくする。
+Defrosts frozen Pokémon.
+スプレーしきの くすり。 ポケモン 1ひきの こおりの じょうたいを かいふくする。
+Eliminates all status problems.
+スプレーしきの くすり。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+From Pewter City. Heals status conditions.
+ニビめいぶつの あられ。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Cures all status conditions.
+チョウジめいぶつの まんじゅう。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Heals all the status problems.
+フエンめいぶつの せんべい。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Heals all the status alterations.
+ハクタイの かくれた めいぶつ。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Heals all the status conditions.
+ヒウンシティの めいぶつアイス。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Heals all status conditions.
+ミアレシティで にんきの おかし。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Heals all status problems.
+シャラシティ めいぶつの サブレ。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Revives a fainted Pokémon to 1/2 HP.
+ひんしに なった ポケモン 1ひきを げんきに したうえで HPを はんぶんまで かいふくする。
+Fully restores a fainted Pokémon.
+ひんしに なった ポケモン 1ひきを げんきに したうえで HPを すべて かいふくする。
+Restores Pokémon HP by 30.
+ミネラル たっぷりの みず。 ポケモン 1ひきの HPを 30だけ かいふくする。
+Restores Pokémon HP by 70.
+とても あまい ジュース。 ポケモン 1ひきの HPを 70だけ かいふくする。
+Restores Pokémon HP by 100.
+えいよう まんてんの ミルク。 ポケモン 1ひきの HPを 100だけ かいふくする。
+Restores Pokémon HP by 60. Bitter.
+とても にがい こなぐすり。 ポケモン 1ひきの HPを 60だけ かいふくする。
+Restores Pokémon HP by 120. Bitter.
+とても にがい ねっこ。 ポケモン 1ひきの HPを 120だけ かいふくする。
+Cures all status problems. Bitter.
+とても にがい こなぐすり。 ポケモン 1ひきの じょうたいの いじょうを すべて かいふくする。
+Revives a fainted Pokémon. Bitter.
+とても にがい やくそう。 ひんしの ポケモン 1ひきの HPを すべて かいふくする。
+It has the same effect as a Max Revive.
+ダイマックスした ビークインが つくる ミツ。 ダイスープに いれると まろやかになる。 げんきのかたまりと おなじ こうかも ある。
+Restores PP of one move by 10.
+ポケモンが おぼえている わざのうち 1つの PPを 10だけ かいふくする。
+Fully restores PP of one move.
+ポケモンが おぼえている わざのうち 1つの PPを すべて かいふくする。
+Restores PP of all moves by 10.
+ポケモンが おぼえている 4つの わざの PPを 10ずつ かいふくする。
+Fully restores the PP of one Pokémon.
+ポケモンが おぼえている 4つの わざの PPを すべて かいふくする。
+Raises max PP of a selected move.
+ポケモンが おぼえている わざのうち 1つの PPの さいだいちを すこし あげる。
+Raises move's PP to its max. points.
+おぼえている わざのうち 1つの PPの さいだいちを さいこうまで あげる。
+Raises the HP of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの HPの きそポイントを あげる。
+Raises Attack of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの こうげきの きそポイントを あげる。
+Raises Defense of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの ぼうぎょの きそポイントを あげる。
+Raises Spcl. Atk of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの とくこうの きそポイントを あげる。
+Raises Spcl. Def of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの とくぼうの きそポイントを あげる。
+Raises Speed of one Pokémon.
+ポケモンの えいようドリンク。 ポケモン 1ひきの すばやさの きそポイントを あげる。
+Boosts Pokémon's HP EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの HPの きそポイントを ちょっと あげる。
+Boosts Pokémon's Attack EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの こうげきの きそポイントを ちょっと あげる。
+Boosts Pokémon's Defense EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの ぼうぎょの きそポイントを ちょっと あげる。
+Boosts Pokémon's Spcl. Atk EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの とくこうの きそポイントを ちょっと あげる。
+Boosts Pokémon's Spcl. Def EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの とくぼうの きそポイントを ちょっと あげる。
+Boosts Pokémon's Speed EV's.
+ポケモンに つかう どうぐ。 ポケモン 1ひきの すばやさの きそポイントを ちょっと あげる。
+Attack grows better, Defense slower.
+ポケモンに かおりを かがせると こうげきが あがりやすく なるが ぼうぎょは あがりにくくなる ミント。
+Attack grows better, Spcl. Atk slower.
+ポケモンに かおりを かがせると こうげきが あがりやすく なるが とくこうは あがりにくくなる ミント。
+Attack grows better, Spcl. Def slower.
+ポケモンに かおりを かがせると こうげきが あがりやすく なるが とくぼうは あがりにくくなる ミント。
+Attack grows better, Speed slower.
+ポケモンに かおりを かがせると こうげきが あがりやすく なるが すばやさは あがりにくくなる ミント。
+Defense grows better, Attack slower.
+ポケモンに かおりを かがせると ぼうぎょが あがりやすく なるが こうげきは あがりにくくなる ミント。
+Defense grows better, Spcl. Atk slower.
+ポケモンに かおりを かがせると ぼうぎょが あがりやすく なるが とくこうは あがりにくくなる ミント。
+Defense grows better, Spcl. Def slower.
+ポケモンに かおりを かがせると ぼうぎょが あがりやすく なるが とくぼうは あがりにくくなる ミント。
+Defense grows better, Speed slower.
+ポケモンに かおりを かがせると ぼうぎょが あがりやすく なるが すばやさは あがりにくくなる ミント。
+Spcl. Atk grows better, Attack slower.
+ポケモンに かおりを かがせると とくこうが あがりやすく なるが こうげきは あがりにくくなる ミント。
+Spcl. Atk grows better, Defense slower.
+ポケモンに かおりを かがせると とくこうが あがりやすく なるが ぼうぎょは あがりにくくなる ミント。
+Spcl. Atk grows better, Spcl. Def slower.
+ポケモンに かおりを かがせると とくこうが あがりやすく なるが とくぼうは あがりにくくなる ミント。
+Spcl. Atk grows better, Speed slower.
+ポケモンに かおりを かがせると とくこうが あがりやすく なるが すばやさは あがりにくくなる ミント。
+Spcl. Def grows better, Attack slower.
+ポケモンに かおりを かがせると とくぼうが あがりやすく なるが こうげきは あがりにくくなる ミント。
+Spcl. Def grows better, Defense slower.
+ポケモンに かおりを かがせると とくぼうが あがりやすく なるが ぼうぎょは あがりにくくなる ミント。
+Spcl. Def grows better, Spcl. Atk slower.
+ポケモンに かおりを かがせると とくぼうが あがりやすく なるが とくこうは あがりにくくなる ミント。
+Spcl. Def grows better, Speed slower.
+ポケモンに かおりを かがせると とくぼうが あがりやすく なるが すばやさは あがりにくくなる ミント。
+Speed grows better, Attack slower.
+ポケモンに かおりを かがせると すばやさが あがりやすく なるが こうげきは あがりにくくなる ミント。
+Speed grows better, Defense slower.
+ポケモンに かおりを かがせると すばやさが あがりやすく なるが ぼうぎょは あがりにくくなる ミント。
+Speed grows better, Spcl. Atk slower.
+ポケモンに かおりを かがせると すばやさが あがりやすく なるが とくこうは あがりにくくなる ミント。
+Speed grows better, Spcl. Def slower.
+ポケモンに かおりを かがせると すばやさが あがりやすく なるが とくぼうは あがりにくくなる ミント。
+All stats will grow at an equal rate.
+ポケモンに かおりを かがせると こうげき ぼうぎょ すばやさ とくぼう とくこうが まんべんなく そだつ ミント。
+Allows to switch abilities in a Pokémon.
+2しゅるいの とくせいを もつ ポケモンに つかうと いまとはちがう とくせいに かえられる カプセル。
+Allows a Pokémon to have its rare ability.
+つうじょうの とくせいを もつ ポケモンに つかうと めずらしい とくせいに かえられる パッチ。
+Gives a very small amount of Exp. Points.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの けいけんちが ほんのすこし ふえる。
+Gives a small amount of Exp. Points.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの けいけんちが すこし ふえる。
+Gives a moderate amount of Exp. Points.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの けいけんちが ふえる。
+Gives a large amount of Exp. Points.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの けいけんちが かなり ふえる。
+Gives a very large amount of Exp. Points.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの けいけんちが とても ふえる。
+Raises level of a Pokémon by one.
+エネルギーの つまった アメ。 あたえると ポケモン 1ひきの レベルが 1だけ あがる。
+Temporarily raises a Pokémon's level by 1 for the rest of the battle.
+バトルの あいだ ポケモンの レベルを 1 あげる。
+Temporarily raises a Pokémon's level by 3 for the rest of the battle.
+バトルの あいだ ポケモンの レベルを 3 あげる。
+Temporarily raises a Pokémon's level by 5 for the rest of the battle.
+バトルの あいだ ポケモンの レベルを 5 あげる。
+The best Ball. It never misses.
+やせいの ポケモンを かならず つかまえることが できる さいこう せいのうの ボール。
+A Ball with a high rate of success.
+スーパーボールよりも さらに ポケモンを つかまえやすくなった すごく せいのうのいい ボール。
+A Ball with a decent success rate.
+モンスターボールよりも さらに ポケモンを つかまえやすくなった すこし せいのうのいい ボール。
+An item for catching Pokémon.
+やせいの ポケモンに なげて つかまえる ための ボール。 カプセルしきに なっている。
+A ball soaked in blood. The only ball that can hold Blood Mewtwo.
+ちに ぬれた ボール。 ちのミュウツーを とらえられる ただ ひとつの ボール。
+A Ball used in the Safari Zone.
+カントーちほうの サファリゾーンや シンオウちほうの だいしつげんで つかわれていた とくべつな ボール。
+The Bug-Catching Contest Ball.
+ジョウトちほうの むしとりたいかいで つかわれていた とくべつな ボール。
+Works well on water- and bug-type Pokémon.
+みずタイプと むしタイプの ポケモンが つかまえやすくなる ちょっと かわった ボール。
+Works better on marine Pokémon.
+みずの せかいで くらしている ポケモンが つかまえやすくなる ちょっと かわった ボール。
+For catching weaker Pokémon.
+つかまえる やせいの ポケモンが よわいほど つかまえやすくなる ちょっと かわった ボール。
+Works better on species caught before.
+つかまえたことの ある ポケモンが つかまえやすくなる ちょっと かわった ボール。
+Better if more turns are taken in battle.
+ターンすうが かかれば かかるほど ポケモンが つかまえやすくなる ちょっと かわった ボール。
+A cozy Ball that makes Pokémon more friendly.
+つかまえた やせいポケモンが とても なかよく なりやすくなる いごこちの いい ボール。
+A rare Ball made for some special event.
+なにかの きねんの しなとして とくべつに つくられた ちょっと めずらしい ボール。
+Works better at night or at dark places.
+よるや どうくつなど くらいところで ポケモンが つかまえやすくなる ちょっと かわった ボール。
+Heals HP and all status problems.
+つかまえた ポケモンの HPと じょうたい いじょうを かいふくする ちょっと やさしい ボール。
+Better catch rate if used at the beginning.
+せんとうが はじまって すぐに つかうと つかまえやすくなる ちょっと かわった ボール。
+A Ball with no additional effects.
+なにかの きねんの しなとして とくべつに つくられた かなり めずらしい ボール。
+A Ball for catching fast Pokémon.
+にげあしの はやい ポケモンが つかまえやすくなる ちょっと かわった ボール。
+A Ball for lower-level Pokémon.
+じぶんの ポケモンより レベルが ひくいほど つかまえやすくなる ちょっと かわった ボール。
+A Ball for Pokémon hooked by a rod.
+つりざおで つりあげた ポケモンだと つかまえやすくなる ちょっと かわった ボール。
+A Ball for catching heavy Pokémon.
+たいじゅうの おもい ポケモンが つかまえやすくなる ちょっと かわった ボール。
+For catching the opposite gender.
+じぶんの ポケモンと せいべつが ちがうと つかまえやすくなる ちょっと かわった ボール。
+A Ball that makes Pokémon friendly.
+つかまえた やせいポケモンが すぐに なついて くれる ちょっと かわった ボール。
+A Ball for Moon Stone evolvers.
+つきのいしで しんかする ポケモンが つかまえやすくなる ちょっと かわった ボール。
+Works well on asleep Pokémon.
+ねむり じょうたいの ポケモンが つかまえやすくなる ちょっと かわった ボール。
+A special Ball designed to catch U-Beasts.
+ポケモンが つかまえにくい ちょっと かわった ボール。
+A special Ball designed to catch Bugs.
+むしポケモンを つかまえるための とくべつな ボール。
+This ball was designed by a talking Fox.
+しゃべる キツネが つくった ボール。
+This ball works well on pokemon with teleport, flee, or run away.
+テレポートや にげあしを もつ ポケモンに よく きく ボール。
+1st turn: Focus; 2nd turn: Attack.
+1ターンめ ためる 2ターンめ こうげき。
+Slashes the target with huge sharp claws.
+おおきな するどい ツメで きりさく。
+Generates an ultrasonic wave that may confuse.
+ちょうおんぱで こんらんさせることが ある。
+Raises special stats by focusing the mind.
+こころを しずめて とくしゅの のうりょくを あげる。
+Scares wild foes to end battle.
+やせいの ポケモンを おどして にがす。
+A poison move with increasing damage.
+だんだん ダメージが ふえる どくの わざ。
+Inflicts damage every turn except Ice-type.
+こおりタイプ いがいに まいターン ダメージ。
+Boosts both Attack and Defense.
+こうげきと ぼうぎょを あげる。
+Shoots 2 to 5 seeds in a row.
+タネを 2〜5かい つづけて うつ。
+Increases Attack and Spcl. Atk stats.
+こうげきと とくこうを あげる。
+Boosts fire-type moves for 5 turns.
+5ターン ほのおの わざを つよくする。
+Forces the foe to only use attack moves.
+あいては こうげきわざしか つかえなくなる。
+An attack that may freeze the foe.
+こおらせることが ある こうげき。
+Strong ice-attack that may freeze the foe.
+こおらせることが ある つよい こおりの こうげき。
+1st turn: Attack; 2nd turn: Rest.
+1ターンめ こうげき 2ターンめ やすむ。
+Ups Spcl. Def with a wall of light.
+ひかりの かべで とくぼうを あげる。
+Foils attack that turn. It may fail.
+その ターンの こうげきを ふせぐ。 しっぱいすることも ある。
+Boosts water-type moves for 5 turns.
+5ターン みずの わざを つよくする。
+Steals 1/2 of the damage inflicted.
+あたえた ダメージの はんぶんを すいとる。
+Prevents all status problems.
+じょうたいいじょうを ふせぐ。
+Damages opposing κΜ by emitting a flash.
+ひかりを はなって あいての κΜに ダメージ。
+1st turn: Prepare; 2nd turn: Attack.
+1ターンめ じゅんび 2ターンめ こうげき。
+An attack that may reduce Defense.
+ぼうぎょを さげることが ある こうげき。
+An attack that may cause paralysis.
+まひさせることが ある こうげき。
+Strong electric-attack that may paralyze.
+まひさせることが ある つよい でんきの こうげき。
+Tough but useless vs. flying foes.
+つよいが ひこうタイプには きかない。
+Attacks target's legs and reduces its Speed.
+あしを ねらって すばやさを さげる。
+1st turn: Burrow; 2nd turn: Attack.
+1ターンめ もぐる 2ターンめ こうげき。
+An attack that may lower Spcl. Def.
+とくぼうを さげることが ある こうげき。
+Destroys barriers and causes damage.
+かべを こわして ダメージを あたえる。
+Heightens evasiveness.
+かいひりつを あげる。
+Raises Defense with a barrier.
+バリアで ぼうぎょを あげる。
+Zaps the target with a jolt that never misses.
+かならず あたる でんげきを あびせる。
+An attack that may inflict a burn.
+やけどに することが ある こうげき。
+An attack that may poison the foe.
+どくに することが ある こうげき。
+Inflicts damage every turn.
+まいターン ダメージを あたえる。
+A powerful fire-attack that may cause a burn.
+やけどに することが ある つよい ほのおの こうげき。
+Lowers foe's Speed by using rocks.
+いわで あいての すばやさを さげる。
+A fast attack that can't be avoided.
+よけられない すばやい こうげき。
+The foe can't use the same move in a row.
+あいては おなじ わざを つづけて だせなくなる。
+Raises Attack if has a status problem.
+じょうたいいじょうだと こうげきが あがる。
+Hit and run (Electric-type).
+こうげきして ひっこむ (でんき)。
+Sleep for 2 turns to fully recover.
+2ターン ねむって HPを ぜんかいふく。
+Makes the opposite gender infatuated.
+ちがう せいべつの あいてを メロメロに する。
+An attack that may steal a held item.
+もちものを ぬすむことが ある こうげき。
+May raise user's Defense.
+じぶんの ぼうぎょが あがることが ある。
+Switches abilities with the foe.
+あいてと とくせいを いれかえる。
+Shots boiling hot water that may cause a burn.
+やけどに することが ある ねっとうを ふきかける。
+Powerful but sharply lowers the Spcl. Atk.
+つよいが とくこうが がくっと さがる。
+Lands and restores HP by half.
+じめんに おりて HPを はんぶん かいふく。
+May lower the foe's Spcl. Def.
+あいての とくぼうを さげることが ある。
+May lower the target's Spcl. Def.
+あいての とくぼうを さげることが ある。
+Leaves the foe with at least 1HP.
+あいての HPを かならず 1 のこす。
+More harmful when HP is down to about half.
+HPが はんぶんくらいだと いりょくが あがる。
+Flings its held item at the target to attack.
+もちものを なげつけて こうげきする。
+An electric charge that may raise its Spcl. Atk.
+とくこうが あがることが ある でんきの こうげき。
+Always leaves at least 1HP.
+HPが かならず 1 のこる。
+A shock and powerful wave.
+しょうげきの つよい なみ。
+An energy-draining punch.
+ちからを すいとる パンチ。
+Inflicts a burn on the foe with intense fire.
+はげしい ほのおで やけどに する。
+A sound wave that may lower Spcl. Def.
+とくぼうを さげることが ある おとの こうげき。
+Sharply raises the user's Spcl. Atk.
+じぶんの とくこうを ぐーんと あげる。
+Very powerful but makes user faint.
+とても つよいが じぶんは ひんしに なる。
+A sharp shadow claw. High critical hit ratio.
+するどい かげの ツメ。 きゅうしょに あたりやすい。
+Power doubled if hits after the foe.
+あいてより あとだと いりょくが 2ばい。
+Recycles an used item for one more use.
+つかった どうぐを もういちど つかえるようにする。
+Sharply raises the Speed stat.
+すばやさを ぐーんと あげる。
+Blinds the foe to reduce accuracy.
+めくらましで めいちゅうりつを さげる。
+Sharpened stones that usually makes critical hit.
+きゅうしょに あたりやすい とがった いし。
+Power doubled if hurt before the attack.
+こうげきの まえに ダメージを うけると いりょくが 2ばい。
+A weak jolt that paralyzes the foe.
+まひさせる よわい でんげき。
+Better if the user is slower than the foe.
+あいてより おそいほど つよい。
+A dance that increases Attack.
+こうげきを あげる おどり。
+Lays a trap of sharp stones.
+とがった いしの ワナを しかける。
+Copies the foe's stat changes.
+あいての のうりょくへんかを コピーする。
+Makes the target's Spcl. Atk decrease.
+あいての とくこうを さげる。
+A horrible aura that may flinch the target.
+ひるませることが ある おそろしい オーラ。
+An attack that may cause flinching.
+ひるませることが ある こうげき。
+Slashes at the target by crossing its claws.
+ツメを クロスさせて きりさく。
+Randomly attacks while asleep.
+ねむっているあいだ でたらめに こうげき。
+Lowers foe's Speed making the earth shake.
+じめんを ゆらして すばやさを さげる。
+A toxic hit that may poison the foe.
+どくに することが ある どくの こうげき。
+Steals HP from a sleeping victim.
+ねむっている あいてから HPを すいとる。
+Heavier target, the strong the move is.
+あいてが おもいほど つよい。
+Causes confusion and raises Attack.
+こんらんさせて こうげきを あげる。
+Eats foe's berry and gains its effects.
+あいての きのみを たべて その こうかを える。
+Hit and run (Bug-type)
+こうげきして ひっこむ (むし)。
+Makes a decoy with 1/4 user's max HP.
+さいだいHPの 4ぶんの 1で みがわりを だす。
+Slowest κΜ moves first for 5 turns.
+5ターン おそい κΜから うごく。
+Cuts using claws, scythes, etc.
+ツメや カマなどで きる。
+1st turn: Fly; 2nd turn: Attack.
+1ターンめ そらへ 2ターンめ こうげき。
+A strong water-type attack.
+つよい みずの こうげき。
+A powerful physical attack.
+つよい ぶつりこうげき。
+Reduces accuracy and quits field changes.
+めいちゅうりつを さげ フィールドを けす。
+An attack that may lower Defense.
+ぼうぎょを さげることが ある こうげき。
+An aquatic charge attack.
+みずを まとって とっしんする。
+May confuse the target. Climbs outside walls.
+こんらんさせることが ある。 そとの かべを のぼれる。
+May cause opponent to flinch, can be used on trees.
+ひるませることが ある。 きにも つかえる。
+May attract pokemon to you!
+ポケモンを ひきよせるかも!
+Move that powers up each turn it hits!
+あたるたびに つよくなる わざ!
+A powerful ghost type move!
+つよい ゴーストタイプの わざ!
+Brings out a pokemons hidden power!
+ポケモンの かくれた ちからを ひきだす!
+A defencive move I think...!
+まもる わざ… だと おもう…!
+Sleep to gain HP!
+ねむって HPを かいふく!
+1st turn: Dive; 2nd turn: Attack.
+1ターンめ もぐる 2ターンめ こうげき。
+Traps your enemys in a watery vortex.
+みずの うずに あいてを とじこめる。
+A self-cure for paralysis. (Hold)
+ポケモンに もたせると まひを かいふくする。
+A self-awakening for sleep. (Hold)
+ポケモンに もたせると ねむりを かいふくする。
+A self-cure for poison. (Hold)
+ポケモンに もたせると どくを かいふくする。
+A self-heal for a burn. (Hold)
+ポケモンに もたせると やけどを かいふくする。
+Defrosts a POKéMON. (Hold)
+ポケモンに もたせると こおりを かいふくする。
+A self-restore for PP. (10PP, Hold)
+ポケモンに もたせると PPを 10だけ かいふくする。
+A self-restore item. (10HP, Hold)
+ポケモンに もたせると HPを 10だけ かいふくする。
+A self-cure for confusion. (Hold)
+ポケモンに もたせると こんらんを かいふくする。
+Cures any status problem.
+ポケモンに もたせると すべての じょうたい いじょうを かいふくする。
+A self-restore item. (30HP, Hold)
+ポケモンに もたせると HPを すこしだけ かいふくする。
+Restores HP in a pinch, but will cause confusion.
+ポケモンに もたせると ピンチのとき HPを かいふくする。 きらいな あじだと こんらん する。
+Used for making Poffins.
+かっこよさに みがきを かける ための ポロックを つくるとき つかわれる。 あかいろの みは たべると からい。
+Makes the user friendly, but lowers HP.
+ポケモンに あげると とても なかよく なりやすくなるが HPの きそポイントは さがる。
+Increases friendship, lowers Attack.
+ポケモンに あげると とても なかよく なりやすくなるが こうげきの きそポイントは さがる。
+Increases friendship, lowers Defense.
+ポケモンに あげると とても なかよく なりやすくなるが ぼうぎょの きそポイントは さがる。
+Increases friendship, lowers Spcl. Atk.
+ポケモンに あげると とても なかよく なりやすくなるが とくこうの きそポイントは さがる。
+Increases friendship, lowers Spcl. Def.
+ポケモンに あげると とても なかよく なりやすくなるが とくぼうの きそポイントは さがる。
+Increases friendship, lowers Speed.
+ポケモンに あげると とても なかよく なりやすくなるが すばやさの きそポイントは さがる。
+Weakens fire-type attacks.
+ポケモンに もたせると こうかばつぐんの ほのお わざを うけたとき いりょくが よわまる。
+Weakens water-type attacks.
+ポケモンに もたせると こうかばつぐんの みず わざを うけたとき いりょくが よわまる。
+Weakens electric-type attacks.
+ポケモンに もたせると こうかばつぐんの でんき わざを うけたとき いりょくが よわまる。
+Weakens grass-type attacks.
+ポケモンに もたせると こうかばつぐんの くさ わざを うけたとき いりょくが よわまる。
+Weakens ice-type attacks.
+ポケモンに もたせると こうかばつぐんの こおり わざを うけたとき いりょくが よわまる。
+Weakens fighting-type attacks.
+ポケモンに もたせると こうかばつぐんの かくとう わざを うけたとき いりょくが よわまる。
+Weakens poison-type attacks.
+ポケモンに もたせると こうかばつぐんの どく わざを うけたとき いりょくが よわまる。
+Weakens ground-type attacks.
+ポケモンに もたせると こうかばつぐんの じめん わざを うけたとき いりょくが よわまる。
+Weakens flying-type attacks.
+ポケモンに もたせると こうかばつぐんの ひこう わざを うけたとき いりょくが よわまる。
+Weakens psychic-type attacks.
+ポケモンに もたせると こうかばつぐんの エスパー わざを うけたとき いりょくが よわまる。
+Weakens bug-type attacks.
+ポケモンに もたせると こうかばつぐんの むし わざを うけたとき いりょくが よわまる。
+Weakens rock-type attacks.
+ポケモンに もたせると こうかばつぐんの いわ わざを うけたとき いりょくが よわまる。
+Weakens ghost-type attacks.
+ポケモンに もたせると こうかばつぐんの ゴースト わざを うけたとき いりょくが よわまる。
+Weakens dragon-type attacks.
+ポケモンに もたせると こうかばつぐんの ドラゴン わざを うけたとき いりょくが よわまる。
+Weakens dark-type attacks.
+ポケモンに もたせると こうかばつぐんの あく わざを うけたとき いりょくが よわまる。
+Weakens steel-type attacks.
+ポケモンに もたせると こうかばつぐんの はがね わざを うけたとき いりょくが よわまる。
+Weakens fairy-type attacks.
+ポケモンに もたせると こうかばつぐんの フェアリー わざを うけたとき いりょくが よわまる。
+Weakens normal-type attacks.
+ポケモンに もたせると ノーマル わざを うけたとき いりょくが よわまる。
+Raises Attack in a pinch.
+ポケモンに もたせると ピンチのとき じぶんの こうげきが あがる。
+Raises Defense in a pinch.
+ポケモンに もたせると ピンチのとき じぶんの ぼうぎょが あがる。
+Raises Speed in a pinch.
+ポケモンに もたせると ピンチのとき じぶんの すばやさが あがる。
+Raises Spcl. Atk in a pinch.
+ポケモンに もたせると ピンチのとき じぶんの とくこうが あがる。
+Raises Spcl. Def in a pinch.
+ポケモンに もたせると ピンチのとき じぶんの とくぼうが あがる。
+Raises critical-hit ratio in a pinch.
+ポケモンに もたせると ピンチのとき こうげきが きゅうしょに あたりやすくなる。
+Sharply raises one stat in a pinch.
+ポケモンに もたせると ピンチのとき どれか 1つの のうりょくが ぐーんと あがる。
+Restores HP if hit by a supereffective attack.
+ポケモンに もたせると こうかばつぐんの わざを うけたとき HPを かいふくする。
+Raises the accuracy of a move in a pinch.
+ポケモンに もたせると ピンチのとき いちどだけ わざの めいちゅうりつが あがる。
+Gets to move first in a pinch.
+ポケモンに もたせると ピンチのとき いちどだけ こうどうが はやくなる。
+Damages the attacker if uses a physical move.
+ポケモンに もたせると ぶつりわざを うけたとき あいてにも ダメージを あたえる。
+Damages the attacker if uses a special move.
+ポケモンに もたせると とくしゅわざを うけたとき あいてにも ダメージを あたえる。
+Ups the Defense if hit by a physical move.
+ポケモンに もたせると ぶつりわざを うけたとき じぶんの ぼうぎょが あがる。
+Ups the Spcl. Def if hit by a special move.
+ポケモンに もたせると とくしゅわざを うけたとき じぶんの とくぼうが あがる。
+A mysterious berry that skips a whole day forward when eaten.
+たべると いちにち すすむ ふしぎな きのみ。
+Green field-print Mail (Hold).
+くさはら もようの メール (もたせる)。
+Flame-print Mail (Hold).
+ほのお もようの メール (もたせる)。
+Bubble-print Mail (Hold).
+あわ もようの メール (もたせる)。
+Floral-print Mail (Hold).
+はなもようの メール (もたせる)。
+Mine-print Mail (Hold).
+こうざん もようの メール (もたせる)。
+Steel-print Mail (Hold).
+はがね もようの メール (もたせる)。
+Heart-print Mail (Hold).
+ハート もようの メール (もたせる)。
+Snow-print Mail (Hold).
+ゆき もようの メール (もたせる)。
+Space-print Mail (Hold).
+うちゅう もようの メール (もたせる)。
+Air-print Mail (Hold).
+そら もようの メール (もたせる)。
+Rainbow-print Mail (Hold).
+にじ もようの メール (もたせる)。
+Bricks-print Mail (Hold).
+レンガ もようの メール (もたせる)。
+Raises Attack. (1 Btl)
+せんとうちゅうの ポケモンの こうげきを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises Attack x2. (1 Btl)
+せんとうちゅうの ポケモンの こうげきを それなりに あげる。 ひっこめると もとに もどる。
+Raises Attack x3. (1 Btl)
+せんとうちゅうの ポケモンの こうげきを かなり あげる。 ひっこめると もとに もどる。
+Raises Attack x6. (1 Btl)
+せんとうちゅうの ポケモンの こうげきを ものすごく あげる。 ひっこめると もとに もどる。
+Raises Defense. (1 Btl)
+せんとうちゅうの ポケモンの ぼうぎょを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises Defense x2. (1 Btl)
+せんとうちゅうの ポケモンの ぼうぎょを それなりに あげる。 ひっこめると もとに もどる。
+Raises Defense x3. (1 Btl)
+せんとうちゅうの ポケモンの ぼうぎょを かなり あげる。 ひっこめると もとに もどる。
+Raises Defense x6. (1 Btl)
+せんとうちゅうの ポケモンの ぼうぎょを ものすごく あげる。 ひっこめると もとに もどる。
+Raises Spcl. Atk (1 Btl)
+せんとうちゅうの ポケモンの とくこうを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises Spcl. Atk x2 (1 Btl)
+せんとうちゅうの ポケモンの とくこうを それなりに あげる。 ひっこめると もとに もどる。
+Raises Spcl. Atk x3 (1 Btl)
+せんとうちゅうの ポケモンの とくこうを かなり あげる。 ひっこめると もとに もどる。
+Raises Spcl. Atk x6 (1 Btl)
+せんとうちゅうの ポケモンの とくこうを ものすごく あげる。 ひっこめると もとに もどる。
+Raises Spcl. Def (1 Btl)
+せんとうちゅうの ポケモンの とくぼうを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises Spcl. Def x2 (1 Btl)
+せんとうちゅうの ポケモンの とくぼうを それなりに あげる。 ひっこめると もとに もどる。
+Raises Spcl. Def x3 (1 Btl)
+せんとうちゅうの ポケモンの とくぼうを かなり あげる。 ひっこめると もとに もどる。
+Raises Spcl. Def x6 (1 Btl)
+せんとうちゅうの ポケモンの とくぼうを ものすごく あげる。 ひっこめると もとに もどる。
+Raises Speed (1 Btl)
+せんとうちゅうの ポケモンの すばやさを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises Speed x2 (1 Btl)
+せんとうちゅうの ポケモンの すばやさを それなりに あげる。 ひっこめると もとに もどる。
+Raises Speed x3 (1 Btl)
+せんとうちゅうの ポケモンの すばやさを かなり あげる。 ひっこめると もとに もどる。
+Raises Speed x6 (1 Btl)
+せんとうちゅうの ポケモンの すばやさを ものすごく あげる。 ひっこめると もとに もどる。
+Raises accuracy. (1 Btl)
+せんとうちゅうの ポケモンの めいちゅうを おおきく あげる どうぐ。 ひっこめると もとに もどる。
+Raises accuracy x2. (1 Btl)
+せんとうちゅうの ポケモンの めいちゅうを それなりに あげる。 ひっこめると もとに もどる。
+Raises accuracy x3. (1 Btl)
+せんとうちゅうの ポケモンの めいちゅうを かなり あげる。 ひっこめると もとに もどる。
+Raises accuracy x6. (1 Btl)
+せんとうちゅうの ポケモンの めいちゅうを ものすごく あげる。 ひっこめると もとに もどる。
+Boost all stats of a κΜ during battle.
+ダイマックスの すがたを かえる ちからを もった キノコ。 せんとうちゅう ポケモンの すべての のうりょくを あげる。
+Ups critical hit ratio. (1 Btl)
+きゅうしょりつが おおきく あがる。 いちどしか つかうことが できない。 ひっこめると もとに もどる。
+Ups critical hit ratio x2. (1 Btl)
+きゅうしょりつが あがる。 つかうたびに こうかが アップする。 ひっこめると もとに もどる。
+Ups critical hit ratio x3. (1 Btl)
+きゅうしょりつが おおきく あがる。 つかうたびに こうかが アップする。 ひっこめると もとに もどる。
+Prevents stats reduction. (1 Btl)
+せんとうちゅう 5ターンの あいだ みかたの のうりょくを さげられなくする どうぐ。
+Restores stat changes of an ally.
+つかうと みかたの ポケモンの のうりょく へんかが もとにもどる。
+Activates the ability of an ally Pokémon.
+つかうと みかたの ポケモンの とくせいを はつどう させる。
+Causes an ally Pokémon to use its held item.
+つかうと みかたの ポケモンが もっている どうぐを すぐつかう。
+Causes an ally Pokémon to drop a held item.
+つかうと みかたの ポケモンが もっている どうぐを なくす。
+Snaps Pokémon out of confusion.
+きいろのガラスで できた ふえ。 こんらん じょうたいを かいふくする。
+Snaps Pokémon out of attraction.
+あかいガラスで できた ふえ。 メロメロ じょうたいを かいふくする。
+Use to escape from a wild Pokémon.
+ポケモンの きを ひかせる どうぐ。 やせいポケモンとの せんとうから ぜったいに にげられる。
+Use to flee from wild battles.
+ポケモンの きを ひかせる どうぐ。 やせいポケモンとの せんとうから ぜったいに にげられる。
+A collapsible bike for fast movement.
+ランニングシューズ よりも はやく はしることが できる おりたたみしきの じてんしゃ。
+Use by water to fish for Pokémon.
+ふるくて ボロい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+A good Rod for fishing Pokémon.
+あたらしくて いい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+The best Rod for fishing Pokémon.
+さいしんの すごい つりざお。 みずの ある ばしょで つかうと ポケモンが つれる。
+Checks for unseen items in the area.
+まわりに おちている どうぐを さがす。
+Looks for unseen items in the area.
+みえない どうぐに はんのうして ばしょを おしえてくれる さいしんの きかい。あたまに つけて つかう。
+A tool that can search out hidden Pokémon.
+くさむらに かくれている ポケモンを さがしだせる どうぐ。 あるくと でんちが たまる。
+Shows your present location.
+いつでも てがるに みることが できる べんりな ちず。 じぶんの ばしょも わかる。
+Opens locked Doors!
+ラジオきょくの シャッターを あける カードしきの カギ。
+Might be important!
+こころ やすまる ねいろが きける とても ふるめかしい スズ。
+Use for escaping from caves or dungeons.
+ながくて じょうぶな ヒモ。どうくつや ダンジョンから ぬけだすことが できる。 なんどでも つかえる。
+Holds up to 99,999 game coins.
+ゲームコーナーで てにいれた コインを 50000まい まで いれることが できる ケース。
+Rouses Pokémon from sleep.
+ねむっている ポケモンも おもわず めざめるほど すばらしい ねいろを かなでる ふえ。
+Makes unseeable Pokémon visible.
+ひとの めに みえない ものを みることが できる スコープ。 シルフカンパニーせい。
+Signals any unseeable Pokémon.
+みえない ポケモンに はんのうして おとをだす デボンの とくせいひん。
+A bottle used for watering plants.
+みずを かける どうぐ。 きのみプランターの きのみを すくすく そだてる。
+A can used for watering plants.
+みずを かける どうぐ。 ふかふかのつちに うめた きのみを すくすく そだてる。
+A pail used for watering plants.
+みずを かける どうぐ。 つちに うめた きのみを すくすく そだてる。
+A flower offered in sign of gratitude.
+たんじょうびや きねんび などに かんしゃの きもちを つたえるため ブーケにして おくることが ある。
+Returns Pokémon to its original shape.
+しんじつを うつしだすことで ポケモンを ほんらいの すがたに かえてしまう ふしぎな かがみ。
+Seals away the power of a legendary κΜ.
+おおむかしに とある ポケモンの ちからを ふうじこめたと される ツボ。
+Used to change Rotom forms.
+ロトムが すきな かでんが のっている。 カタログを つかうことで ロトムを かでんに いれたり だすことが できる。
+Stores Zygarde Cores and Cells.
+ポケモン ジガルデの コアと セルが あつまった どうぐ。 ジガルデの すがたを かえることが できる。
+Fuses Kyurem and a certain Pokémon.
+もとは ひとつだったと いわれる キュレムと あるポケモンを がったいさせる いっついの くさび。
+Separates Kyurem and a certain Pokémon.
+もとは ひとつだったと いわれる キュレムと あるポケモンを がったいさせる いっついの くさび。
+Fuses Necrozma and Solgaleo.
+ひかりを ひつようと する ネクロズマと ソルガレオを がったい させるための マシン。
+Separates Necrozma from Solgaleo.
+ひかりを ひつようと する ネクロズマと ソルガレオを がったい させるための マシン。
+Fuses Necrozma and Lunala.
+ひかりを ひつようと する ネクロズマと ルナアーラを がったい させるための マシン。
+Separates Necrozma from Lunala.
+ひかりを ひつようと する ネクロズマと ルナアーラを がったい させるための マシン。
+Allows Calyrex to connect with its steed.
+ひとが おうに けんじょうしていた タヅナ。 ほうじょうの ちからを ぞうふくし バドレックスと あいばを がったい させる。
+Separates Calyrex and its beloved steed.
+ひとが おうに けんじょうしていた タヅナ。 ほうじょうの ちからを ぞうふくし バドレックスと あいばを がったい させる。
+More eggs could be found at the D. Care.
+もっていると あずかりやさんで タマゴが みつかりやすくなる ふしぎで とてもまるい おまもり。
+Ups Shiny Pokémon appearance rate.
+もっていると ひかる ポケモンと であいやすくなる といわれる ふしぎで ひかりかがやく おまもり。
+Critical catch is more common.
+もっていると ほかくクリティカルが はっせい しやすくなる ふしぎで あまりゆれない おまもり。
+Increases the Exp. Points obtained.
+もっていると ポケモンが えられる けいけんちが ふえる おまもり。 きかいのような ものが はいっている。
+Enables the use of Mega Stones on κΜ.
+メガストーンを もったまま たたかう ポケモンを メガシンカさせる みちのパワーを ひめた リング。
+Allows you to access the κΜ storage system.
+κΜの あずかりシステムを つかえる。
+Lets go to Daroxy Island.
+ダロキシーとうへ いける。
+Shows the way to a certain island.
+ある しまへの みちを しめす。
+A glassy black stone that produces a sharp cutting edge when split. It’s loved by a certain Pokémon.
+わると するどい はが できる くろい いし。 ある ポケモンが すきらしい。
+A block of muddy material that is for fuel. It’s loved by a certain Pokémon.
+ねんりょうに なる どろの かたまり。 ある ポケモンが すきらしい。
+A string exuding a mysterious energy of connection. It’s loved by certain Pokémon.
+ふしぎな つながりの ちからが でている ひも。 ある ポケモンが すきらしい。
+When held by Dialga, this large, glowing gem wells with power and allows the Pokémon to change form.
+ディアルガに もたせると ちからが あふれ フォルムが かわる かがやく たま。
+When held by Palkia, this large, glowing orb wells with power and allows the Pokémon to change form.
+パルキアに もたせると ちからが あふれ フォルムが かわる かがやく たま。
+A stone tablet to be held by a certain Pokémon. It the holder the power of every type there is.
+ある ポケモンに もたせる いしの プレート。 すべての タイプの ちからが やどる。
+An item to be held by a Pokémon. It is a stone tablet that boosts the power of Normal-type moves.
+もたせると ノーマルタイプの わざが つよくなる いしの プレート。
+A Berry that can be fed to a Pokémon to restore its PP.
+ポケモンに たべさせると PPが かいふくする きのみ。
+When held by Giratina, this large, glowing gem wells with power and allows the Pokémon to change form.
+ギラティナに もたせると ちからが あふれ フォルムが かわる かがやく たま。
+A mysterious ball that can be thrown at wild Pokémon in order to catch them.
+やせいの ポケモンに なげて つかまえる ための ボール。 カプセルしきに なっている。
+A mysterious ball that provides a higher success catch rate than a standard Poké Ball.
+モンスターボールよりも さらに ポケモンを つかまえやすくなった すこし せいのうのいい ボール。
+A mysterious ball that provides an even higher success catch rate than a Great Ball does.
+スーパーボールよりも さらに ポケモンを つかまえやすくなった すごく せいのうのいい ボール。
+A ball that flies fast and true ideal for catching nimble Pokémon or Pokémon that fly high in the air.
+まっすぐ とぶ ボール。 すばやい ポケモンや たかく とぶ ポケモンに よい。
+An improvement on the original Feather Ball design. It has a higher success rate than the Feather Ball.
+フェザーボールを よくした ボール。 フェザーボールより つかまえやすい。
+The ultimate iteration of the Feather Ball. It has an even higher success rate than the Wing Ball does.
+フェザーボールの さいこうけっさく。 ウイングボールより もっと つかまえやすい。
+A ball that is too heavy to throw, but it is highly effective to an unsuspecting Pokémon.
+たいじゅうの おもい ポケモンが つかまえやすくなる ちょっと かわった ボール。
+An improvement on the original Heavy Ball design. It has a higher success rate than the Heavy Ball.
+ヘビーボールを よくした ボール。 ヘビーボールより つかまえやすい。
+The ultimate iteration of the Heavy Ball. It has an even higher success rate than the Leaden Ball does.
+ヘビーボールの さいこうけっさく。 メガトンボールより もっと つかまえやすい。
+An irreplicable Poké Ball that was once used to catch the frenzied Pokémon at the Temple of Sinnoh.
+むかし シンオウしんでんで あばれた ポケモンを つかまえた ふたつとない ボール。
+A strange looking Poke Ball that arrived from the past Sinnoh.
+むかしの シンオウから きた ふしぎな かたちの ボール。
+A peculiar set of armor that can make a certain Pokémon evolve. Auspicious wishes live within it.
+ある ポケモンを しんかさせる ふしぎな よろい。 めでたい ねがいが こもっている。
+A peculiar set of armor that can make a certain Pokémon evolve. Malicious will lurks within it.
+ある ポケモンを しんかさせる ふしぎな よろい。 わるい いしが ひそんでいる。
+A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of darkness.
+ある ポケモンを しんかさせる まきもの。 あくの みちの ひでんが かかれている。
+A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of water.
+ある ポケモンを しんかさせる まきもの。 みずの みちの ひでんが かかれている。
+A shard of what appears to be an old blade of some sort. It is held only by a head of certain Pokémon group.
+ふるい やいばの かけらの ようだ。 ある ポケモンの むれの かしらだけが もつ。
+An item to be held by Pokémon with certain Abilities. It boosts the strength of the Pokémon.
+ある とくせいの ポケモンに もたせると つよくなる どうぐ。
+An item to be held by a Pokémon. This shield protects the holder from having its Ability changed by others.
+もたせると あいてに とくせいを かえられなくなる たて。
+An item to be held by a Pokémon. It protects the holder from having its stats lowered.
+もたせると のうりょくが さがらなくなる。
+An item to be held by a Pokémon. This herb will allow the holder to mirror an opponent's stat increases once.
+もたせると あいての のうりょくアップを いちどだけ まねできる ハーブ。
+An item to be held by a Pokémon. It boosts the holder's punching moves and prevents direct contact.
+もたせると パンチわざが つよくなり あいてに ふれなくなる。
+An item to be held by a Pokémon. It conceals the holder, protecting it from move's additional effects.
+もたせると すがたを かくし わざの ついかこうかを うけなくなる。
+An item to be held by a Pokémon. It ensures the holder's multistrike moves hit more times.
+もたせると れんぞくわざが あたる かいすうが ふえる。
+An item that accidentally dropped by a Pokémon. It seems that Gimmighoul treasure and hoard these.
+ポケモンが おとした どうぐ。 コレクレーが あつめているらしい。
+A small and rare bamboo shoot. It's quite popular with a certain class of gourmands.
+ちいさくて めずらしい タケノコ。 ある グルメたちに にんきが ある。
+A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands.
+おおきくて めずらしい タケノコ。 ある グルメたちに だいにんき。
+The latest model of smartphone. A Rotom lives within it, and it can be used to run all sorts of handy apps.
+さいしんの スマホ。 ロトムが はいっていて いろいろな アプリが つかえる。
+A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Sada" written on it.
+パルデアの だいくうどうの たんけんきろく。 「オーリム」と なまえが かいてある。
+A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Turo" written on it.
+パルデアの だいくうどうの たんけんきろく。 「フトゥー」と なまえが かいてある。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.
+きのみを ねりこんだ もち。 ポケモンの HPの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.
+きのみを ねりこんだ もち。 ポケモンの こうげきの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.
+きのみを ねりこんだ もち。 ポケモンの ぼうぎょの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.
+きのみを ねりこんだ もち。 ポケモンの とくこうの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.
+きのみを ねりこんだ もち。 ポケモンの とくぼうの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.
+きのみを ねりこんだ もち。 ポケモンの すばやさの きそポイントが ふえる。
+A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points.
+きのみを ねりこんだ もち。 ポケモンの きそポイントが ぜんぶ なくなる。
+An item to be held by a Pokémon. It boosts the power of the holder's Fairy-type moves.
+もたせると フェアリータイプの わざが つよくなる。
+A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
+ある ポケモンを しんかさせる ふしぎな りんご。 とても あまい。
+A peculiar cracked teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+ある ポケモンを しんかさせる ひびの はいった ちゃわん。 おいしい おちゃが できる。
+A peculiar chipped teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+ある ポケモンを しんかさせる かけた ちゃわん。 おいしい おちゃが できる。
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Water type during battle.
+オーガポンに もたせる きの おめん。 バトルで みずタイプの ちからを つかえる。
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Fire type during battle.
+オーガポンに もたせる きの おめん。 バトルで ほのおタイプの ちからを つかえる。
+A carved wooden mask to be held by Ogerpon. It allows Ogerpon to wield the Rock type during battle.
+オーガポンに もたせる きの おめん。 バトルで いわタイプの ちからを つかえる。
+A teal mask patterned after the face of an ogre. Dropped by Ogerpon after visiting the Festival of Masks.
+おにの かおを かたどった みどりの おめん。 おめんまつりの あと オーガポンが おとした。
+A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.
+ある ポケモンを しんかさせる ふしぎな きんぞく。 なんそうにも かさなっている。
+A mysterious disk with an indigo shine to it, given by the Top Champion. It seems to be tied to Area Zero.
+トップチャンピオンから もらった あいいろに かがやく えんばん。 エリアゼロと かんけいが あるらしい。
+A Pecha Berry of the highest quality. It's one of every a few years berry that carefully tended by an expert.
+さいこうの モモンのみ。 めいじんが そだてた なんねんかに いちどの きのみ。
+A device that synchronizes your mind and feelings with your Pokémon's as one. It's still a prototype—hence.
+ポケモンと こころを ひとつに する そうち。 まだ しさくひん。
+A rock that fell to earth from space. It allows a certain species of Pokémon to change forms.
+もともとは りゅうせいのたきに おちていた いんせき。 えんとつやまで てにいれた。
+A proof copy of the exploration notes, along with Briar's thoughts covering the Area Zero Underdepths.
+ブライアの エリアゼロ さいしんぶの たんけんノートの みほん。
+A booster pack for Triple Triad game. Contains 3 cards.
+トリプルトライアドの カードパック。 カードが 3まい はいっている。
+A special booster pack for Triple Triad. Contains 3 cards, with the last one guaranteed to be a Legendary Pokémon!
+トリプルトライアドの とくべつな カードパック。 3まいめは かならず でんせつの ポケモン!
+A shiny red scale from Gyarados
+いかりのみずうみに あらわれた あかい ギャラドスの ウロコ。 ほのおのように あかく かがやく。
+A Pokéblock that slightly raises a Pokémon's Cool condition.
+ポケモンの かっこよさが すこし あがる ポロック。
+A Pokéblock that raises a Pokémon's Cool condition.
+ポケモンの かっこよさが あがる ポロック。
+A Pokéblock that greatly raises a Pokémon's Cool condition.
+ポケモンの かっこよさが ぐーんと あがる ポロック。
+A Pokéblock that slightly raises a Pokémon's Beauty condition.
+ポケモンの うつくしさが すこし あがる ポロック。
+A Pokéblock that raises a Pokémon's Beauty condition.
+ポケモンの うつくしさが あがる ポロック。
+A Pokéblock that greatly raises a Pokémon's Beauty condition.
+ポケモンの うつくしさが ぐーんと あがる ポロック。
+A Pokéblock that slightly raises a Pokémon's Cute condition.
+ポケモンの かわいさが すこし あがる ポロック。
+A Pokéblock that raises a Pokémon's Cute condition.
+ポケモンの かわいさが あがる ポロック。
+A Pokéblock that greatly raises a Pokémon's Cute condition.
+ポケモンの かわいさが ぐーんと あがる ポロック。
+A Pokéblock that slightly raises a Pokémon's Smart condition.
+ポケモンの かしこさが すこし あがる ポロック。
+A Pokéblock that raises a Pokémon's Smart condition.
+ポケモンの かしこさが あがる ポロック。
+A Pokéblock that greatly raises a Pokémon's Smart condition.
+ポケモンの かしこさが ぐーんと あがる ポロック。
+A Pokéblock that slightly raises a Pokémon's Tough condition.
+ポケモンの たくましさが すこし あがる ポロック。
+A Pokéblock that raises a Pokémon's Tough condition.
+ポケモンの たくましさが あがる ポロック。
+A Pokéblock that greatly raises a Pokémon's Tough condition.
+ポケモンの たくましさが ぐーんと あがる ポロック。
+High-performance shoes that let the wearer sprint faster than standard running shoes. Equip them and they work automatically.
+ランニングシューズより はやく はしれる くつ。 はくと かってに はたらく。
+Heavy-duty gloves that let you smash rocks and push boulders without a Pokémon's help.
+ポケモンなしで いわを くだき おおいわを うごかせる じょうぶな てぶくろ。
+A sharp blade for cutting through overgrown trees and brush.
+しげった きや くさを きりひらく するどい なた。
+A sturdy board that lets you ride across the surface of water.
+みずの うえを すすめる じょうぶな ボード。
+An aerodynamic suit that lets you soar to any location you've visited before.
+いったことの ある ばしょへ とんで いける スーツ。
+Inflatable arm bands that let you push through fierce whirlpools while surfing.
+なみのりで はげしい うずしおも とおれる うきわ。
+A dense stone weight that anchors you to the seafloor, allowing deep-sea diving.
+うみの そこに しずんで もぐれる おもい いし。
+A tough umbrella that can batter trees to shake out hidden Pokémon, or help you scale waterfalls.
+きを たたいて ポケモンを おとしたり たきを のぼれる じょうぶな かさ。
+A bright torch that illuminates dark caves.
+くらい どうくつを てらす あかるい ライト。
+A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.
+きらきら ひかる プリズム。 ほかの すがたを もつ ポケモンに つかうと その どれかに ランダムで すがたを かえる。
+Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+てもちの ポケモン すべてが たたかわなくても けいけんちを もらえる そうち。 オンと オフを きりかえられる。
+A shard of crystallized blood, still warm. Fused with both halves of a Blood Ball, it makes a whole one.
+まだ あたたかい ちの けっしょうの かけら。 ブラッドボールの うえと したと あわせると ブラッドボールが できる。
+The top half of a Blood Ball. Fused with the bottom half and a Blood Shard, it makes a whole one.
+ブラッドボールの うえ はんぶん。 したの はんぶんと ちのかけらと あわせると ブラッドボールが できる。
+The bottom half of a Blood Ball. Fused with the top half and a Blood Shard, it makes a whole one.
+ブラッドボールの した はんぶん。 うえの はんぶんと ちのかけらと あわせると ブラッドボールが できる。
+A sack used to gather and hold volcanic ash.
+つもった かざんばいを あつめるための ふくろ。

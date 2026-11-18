@@ -790,6 +790,8 @@ A Ball with a decent success rate.
 Ein Ball mit ordentlicher Erfolgsquote.
 An item for catching Pokémon.
 Ein Item zum Fangen von Pokémon.
+A ball soaked in blood. The only ball that can hold Blood Mewtwo.
+Ein in Blut getränkter Ball. Der einzige Ball, der Blut-Mewtu halten kann.
 A Ball used in the Safari Zone.
 Ein Ball für die Safari-Zone.
 The Bug-Catching Contest Ball.
@@ -1502,5 +1504,15 @@ A tough umbrella that can batter trees to shake out hidden Pokémon, or help you
 Ein robuster Schirm, mit dem du gegen Bäume schlagen kannst, um versteckte Pokémon herauszuschütteln, oder Wasserfälle erklimmst.
 A bright torch that illuminates dark caves.
 Eine helle Fackel, die dunkle Höhlen erleuchtet.
+A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.
+Ein schimmerndes Prisma. Verwende es bei einem Pokémon mit anderen Formen, um es in eine zufällige davon zu verwandeln.
+Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+Gibt allen Pokémon im Team Erfahrungspunkte aus Kämpfen, auch wenn sie nicht gekämpft haben. Lässt sich ein- und ausschalten.
+A shard of crystallized blood, still warm. Fused with both halves of a Blood Ball, it makes a whole one.
+Ein Splitter aus kristallisiertem Blut, noch warm. Mit beiden Hälften eines Blutballs verschmolzen ergibt er einen ganzen.
+The top half of a Blood Ball. Fused with the bottom half and a Blood Shard, it makes a whole one.
+Die obere Hälfte eines Blutballs. Mit der unteren Hälfte und einem Blutsplitter verschmolzen ergibt sie einen ganzen.
+The bottom half of a Blood Ball. Fused with the top half and a Blood Shard, it makes a whole one.
+Die untere Hälfte eines Blutballs. Mit der oberen Hälfte und einem Blutsplitter verschmolzen ergibt sie einen ganzen.
 A sack used to gather and hold volcanic ash.
 Eine Tasche, mit der du herabgerieselte Vulkanasche aufsammeln kannst.

@@ -790,6 +790,8 @@ A Ball with a decent success rate.
 Une Ball avec un taux de réussite correct.
 An item for catching Pokémon.
 Un objet pour attraper des Pokémon.
+A ball soaked in blood. The only ball that can hold Blood Mewtwo.
+Une Ball trempée de sang. La seule qui puisse retenir Mewtwo Sanglant.
 A Ball used in the Safari Zone.
 Une Ball utilisée au Parc Safari.
 The Bug-Catching Contest Ball.
@@ -1502,5 +1504,15 @@ A tough umbrella that can batter trees to shake out hidden Pokémon, or help you
 Un parapluie solide pour secouer les arbres et en faire tomber des Pokémon cachés, ou pour remonter les cascades.
 A bright torch that illuminates dark caves.
 Une lampe puissante qui éclaire les grottes sombres.
+A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.
+Un prisme scintillant. Utilise-le sur un Pokémon qui a d'autres formes pour qu'il prenne l'une d'elles au hasard.
+Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+Donne des points d'Exp. à tous les Pokémon de l'équipe, même ceux qui n'ont pas combattu. Peut être activé ou désactivé.
+A shard of crystallized blood, still warm. Fused with both halves of a Blood Ball, it makes a whole one.
+Un éclat de sang cristallisé, encore chaud. Fusionné avec les deux moitiés d'une Sang Ball, il en forme une entière.
+The top half of a Blood Ball. Fused with the bottom half and a Blood Shard, it makes a whole one.
+La moitié haute d'une Sang Ball. Fusionnée avec la moitié basse et un Éclat de Sang, elle en forme une entière.
+The bottom half of a Blood Ball. Fused with the top half and a Blood Shard, it makes a whole one.
+La moitié basse d'une Sang Ball. Fusionnée avec la moitié haute et un Éclat de Sang, elle en forme une entière.
 A sack used to gather and hold volcanic ash.
 Un sac utilisé pour ramasser les cendres volcaniques accumulées au sol.

@@ -3242,6 +3242,10 @@ Elm's Aid: Choose This Pokemon?
 Assistant d'Orme : Choisir ce Pokémon ?
 Here why dont you rest a while!
 Tiens, pourquoi ne te reposerais-tu pas un peu ?
+You just unlocked a new skin!
+Tu viens de débloquer un nouveau look !
+Check it out in the wardrob downstairs!
+Va le voir dans la garde-robe en bas !
 Oh... Are you all right? Well, you'll have better luck this time.
 Oh... Ça va ? Bon, tu auras plus de chance cette fois-ci.
 Take
@@ -4476,10 +4480,10 @@ I said... This area is off limits!
 J'ai dit... L'accès à cette zone est interdit !
 This area is off limits and your dumb!
 L'accès à cette zone est interdit et t'es bête !
-Open the player market?
-Ouvrir le marché des joueurs ?
 The door is locked!
 La porte est fermée à clé !
+Open the player market?
+Ouvrir le marché des joueurs ?
 Hey why dont you purchase something!
 Hé, pourquoi tu n'achèterais pas quelque chose !
 Hey Im a gambler and Id like to make a bet with you!
@@ -5350,6 +5354,18 @@ Please dont throw any balls at me!
 S'il te plaît, ne me lance pas de balls !
 (he faded from this world passing through you as he did)
 (il s'est effacé de ce monde en passant à travers toi)
+Kelly: Oh its you again?
+Kelly : Oh, c'est encore vous ?
+Hmm... I have been searching for a use for this key i found over there in the water, but i cant seem to find any door it fits...
+Hmm... Je cherche à quoi peut servir cette clé que j'ai trouvée là-bas, dans l'eau, mais je ne trouve aucune porte qui lui corresponde...
+Maybe its old... but here you can have it for now!
+Elle est peut-être vieille... mais tenez, gardez-la pour l'instant !
+(You obtained the secret key)
+(Vous avez obtenu la clé secrète)
+Ok well Im off to investigate an issue here in kanto!
+Bon, je m'en vais enquêter sur un problème ici, à Kanto !
+ALAKAZAM TELEPORT!
+ALAKAZAM, TÉLÉPORT !
 #-------------------------------
 [Map160]
 KEKEKEKEKEKE!
@@ -5625,6 +5641,12 @@ Je crois que je suis perdu !?
 (he faded from this world passin through you as he did)
 (il s'est effacé de ce monde en passant à travers toi)
 #-------------------------------
+[Map189]
+Door is locked!
+La porte est verrouillée !
+You used the secret key on this door and it unlocks!
+Vous utilisez la clé secrète sur cette porte et elle se déverrouille !
+#-------------------------------
 [Map190]
 (Is this a pokemon?)
 (C'est un pokémon ?)
@@ -5702,6 +5724,10 @@ Reviens demain !
 \G\CNNon ?\nReviens jouer un de ces jours !
 The jackpot maxes out at 99,999 so no ones tokens get added to it after that... That must be how the house makes its money!
 Le jackpot plafonne à 99 999, donc après ça, plus aucun jeton n'y est ajouté... C'est sûrement comme ça que la maison gagne de l'argent !
+This side is the blue table, the other side is the red table!
+Ce côté-ci, c'est la table bleue, l'autre côté, c'est la table rouge !
+Make sure your playing the right tables!
+Assurez-vous de jouer sur la bonne table !
 Why not try some cards!
 Pourquoi ne pas essayer les cartes !
 Im on a luckey streak!
@@ -5808,6 +5834,16 @@ Non
 500 jetons [10 000$]
 Exit
 Sortie
+TM107 - 4000 coins
+CT107 - 4000 jetons
+TM105 - 3500 coins
+CT105 - 3500 jetons
+TM103 - 4000 coins
+CT103 - 4000 jetons
+TM60 - 4500 coins
+CT60 - 4500 jetons
+TM57 - 4000 coins
+CT57 - 4000 jetons
 ABRA - 280 COINS
 ABRA - 280 JETONS
 CLEFAIRY - 500 COINS
@@ -7338,6 +7374,12 @@ Only trainers who prove their worth can enter the Tower!
 Seuls les dresseurs qui ont prouvé leur valeur peuvent entrer dans la Tour !
 Some people believe that the Ancient ones were once the 3 stone evolutions of Eevee but we of Ecruteak know the truth!
 Certains croient que les Anciens étaient autrefois les 3 évolutions par pierre d'Évoli, mais nous, à Rosalia, connaissons la vérité !
+Lets have a duel
+Faisons un duel
+Duel
+Duel
+No
+Non
 #-------------------------------
 [Map239]
 Is there anything better than hunting treasure?
@@ -8736,6 +8778,8 @@ An empty can!
 Une canette vide !
 Are you here to fulfill the pokemon request Oak made?
 Tu viens pour répondre à la demande de pokémon de Chen ?
+come out charizard!
+sors, dracaufeu !
 Yes
 Oui
 No
@@ -9298,44 +9342,50 @@ NO
 NON
 #-------------------------------
 [Map395]
-Welcome to the bald heads club!
-Bienvenue au club des chauves !
 Dont ever bet 1!
 Ne parie jamais 1 !
+Welcome to the bald heads club!
+Bienvenue au club des chauves !
+Theres a switch behind this poster! Press it?
+Il y a un interrupteur derrière cette affiche ! Appuyer ?
+Who wouldnt?
+Qui ne le ferait pas ?
 Im the head of this club! Lets have a battle!
 Je suis le chef de ce club ! Combattons !
 Better Luck next time!
 Plus de chance la prochaine fois !
+always bet on black!
+parie toujours sur le noir !
+Ready to join?
+Prêt à nous rejoindre ?
 There isnt anything in here!
 Il n'y a rien là-dedans !
 This is empty!
 C'est vide !
 An empty can!
 Une canette vide !
-Ready to join?
-Prêt à nous rejoindre ?
-always bet on black!
-parie toujours sur le noir !
 Dont listen to anyone who says we eat pokemon!
 N'écoute pas ceux qui disent qu'on mange des pokémon !
-Why not try some cards!
-Pourquoi ne pas essayer les cartes !
 I heard the bald heads club across the street eats pokemon!
 J'ai entendu dire que le club des chauves d'en face mange des pokémon !
+Why not try some cards!
+Pourquoi ne pas essayer les cartes !
 All balmen play next to eachother!
 Tous les chauves jouent les uns à côté des autres !
-Mr. Game: Show me how you playt!
-Mr. Game : Montre-moi comment tu joues !
 We dont serve kids!
 On ne sert pas les gamins !
-If you let us shave your head you can join our cult!
-Si tu nous laisses te raser la tête, tu peux rejoindre notre secte !
+Mr. Game: Show me how you playt!
+Mr. Game : Montre-moi comment tu joues !
 Never sit in an outside chair!
 Ne t'assieds jamais sur une chaise dehors !
-Duel
-Duel
+If you let us shave your head you can join our cult!
+Si tu nous laisses te raser la tête, tu peux rejoindre notre secte !
+Yes
+Oui
 No
 Non
+Duel
+Duel
 #-------------------------------
 [Map396]
 You cant win this!
@@ -9402,6 +9452,12 @@ Buy
 Acheter
 Sell
 Vendre
+#-------------------------------
+[Map402]
+This ship is meant to go to hoenn but its broken right now...
+Ce bateau devrait aller à Hoenn, mais il est en panne pour l'instant...
+That abra can tak you tho!
+Mais cet Abra peut t'y emmener !
 #-------------------------------
 [Map404]
 You cant win this!
@@ -10303,10 +10359,6 @@ Non
 Gave up...
 Abandon...
 #-------------------------------
-[Map470]
-Im an event for later!
-Je suis un événement pour plus tard !
-#-------------------------------
 [Map471]
 I am Will of the Elite four!
 Je suis Clément du Conseil 4 !
@@ -10406,12 +10458,6 @@ Non
 [Map477]
 Come back here when your ready!
 Reviens ici quand tu seras prêt !
-Im gonna tell you a secret so listen close!
-Je vais te confier un secret, alors écoute bien !
-This area isnt done but it will contain something \rMega cool!
-Cette zone n'est pas finie, mais elle contiendra quelque chose de \rMéga cool !
-Dont forget it!
-Ne l'oublie pas !
 #-------------------------------
 [Map478]
 Oh hey, yeah this is my place, the inside looks better than the outside!
@@ -10800,3 +10846,49 @@ I hope you have a great journey, its time to part ways!
 Je te souhaite un beau voyage. Il est temps de se dire au revoir !
 Looks like you just dont have the skill... come back another time!
 On dirait que tu n'as pas encore le niveau... Reviens une autre fois !
+#-------------------------------
+[Map503]
+You just unlocked a new skin!
+Tu viens de débloquer un nouveau look !
+#-------------------------------
+[Map505]
+Theres a switch here press it?
+Il y a un interrupteur ici. Appuyer dessus ?
+Who Wouldnt!
+Qui ne le ferait pas !
+Who Would!
+Qui le ferait !
+Yes
+Oui
+No
+Non
+#-------------------------------
+[Map506]
+Theres a switch here press it?
+Il y a un interrupteur ici. Appuyer dessus ?
+Who Wouldnt!
+Qui ne le ferait pas !
+Who Would!
+Qui le ferait !
+Yes
+Oui
+No
+Non
+#-------------------------------
+[Map507]
+Press buttons?
+Appuyer sur les boutons ?
+You press all the buttons!
+Vous appuyez sur tous les boutons !
+Creature: After Years of that prison I am finally able to wreck havoc on this whole World!!!
+Créature : Après des années dans cette prison, je peux enfin semer le chaos dans le monde entier !!!
+Theres a switch here press it?
+Il y a un interrupteur ici. Appuyer dessus ?
+Who Wouldnt!
+Qui ne le ferait pas !
+Who Would!
+Qui le ferait !
+Yes
+Oui
+No
+Non

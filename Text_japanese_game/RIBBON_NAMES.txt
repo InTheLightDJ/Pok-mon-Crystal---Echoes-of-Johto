@@ -1,0 +1,186 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[RIBBON_NAMES]
+Bug Boss Ribbon
+むしボスリボン
+Bug Boss Beater
+むしボスキラー
+Bug Collection Ribbon
+むしコレクションリボン
+Cool Performance Ribbon
+かっこよさステージリボン
+Cool Performance Ribbon Super
+かっこよさステージリボン スーパー
+Cool Performance Ribbon Hyper
+かっこよさステージリボン ハイパー
+Cool Performance Ribbon Master
+かっこよさステージリボン マスター
+Beauty Performance Ribbon
+うつくしさステージリボン
+Beauty Performance Ribbon Super
+うつくしさステージリボン スーパー
+Beauty Performance Ribbon Hyper
+うつくしさステージリボン ハイパー
+Beauty Performance Ribbon Master
+うつくしさステージリボン マスター
+Cute Performance Ribbon
+かわいさステージリボン
+Cute Performance Ribbon Super
+かわいさステージリボン スーパー
+Cute Performance Ribbon Hyper
+かわいさステージリボン ハイパー
+Cute Performance Ribbon Master
+かわいさステージリボン マスター
+Smart Performance Ribbon
+かしこさステージリボン
+Smart Performance Ribbon Super
+かしこさステージリボン スーパー
+Smart Performance Ribbon Hyper
+かしこさステージリボン ハイパー
+Smart Performance Ribbon Master
+かしこさステージリボン マスター
+Tough Performance Ribbon
+たくましさステージリボン
+Tough Performance Ribbon Super
+たくましさステージリボン スーパー
+Tough Performance Ribbon Hyper
+たくましさステージリボン ハイパー
+Tough Performance Ribbon Master
+たくましさステージリボン マスター
+Cool Ribbon
+かっこよさリボン
+Cool Ribbon Super
+かっこよさリボン スーパー
+Cool Ribbon Hyper
+かっこよさリボン ハイパー
+Cool Ribbon Master
+かっこよさリボン マスター
+Beauty Ribbon
+うつくしさリボン
+Beauty Ribbon Super
+うつくしさリボン スーパー
+Beauty Ribbon Hyper
+うつくしさリボン ハイパー
+Beauty Ribbon Master
+うつくしさリボン マスター
+Cute Ribbon
+かわいさリボン
+Cute Ribbon Super
+かわいさリボン スーパー
+Cute Ribbon Hyper
+かわいさリボン ハイパー
+Cute Ribbon Master
+かわいさリボン マスター
+Smart Ribbon
+かしこさリボン
+Smart Ribbon Super
+かしこさリボン スーパー
+Smart Ribbon Hyper
+かしこさリボン ハイパー
+Tough Ribbon
+たくましさリボン
+Tough Ribbon Super
+たくましさリボン スーパー
+Tough Ribbon Hyper
+たくましさリボン ハイパー
+Tough Ribbon Master
+たくましさリボン マスター
+Cool Ribbon Great
+かっこよさリボン グレート
+Cool Ribbon Ultra
+かっこよさリボン ウルトラ
+Beauty Ribbon Great
+うつくしさリボン グレート
+Beauty Ribbon Ultra
+うつくしさリボン ウルトラ
+Cute Ribbon Great
+かわいさリボン グレート
+Cute Ribbon Ultra
+かわいさリボン ウルトラ
+Smart Ribbon Great
+かしこさリボン グレート
+Smart Ribbon Ultra
+かしこさリボン ウルトラ
+Tough Ribbon Great
+たくましさリボン グレート
+Tough Ribbon Ultra
+たくましさリボン ウルトラ
+Winning Ribbon
+ウイニングリボン
+Victory Ribbon
+ビクトリーリボン
+Ability Ribbon
+アビリティリボン
+Great Ability Ribbon
+グレートアビリティリボン
+Double Ability Ribbon
+ダブルアビリティリボン
+Multi Ability Ribbon
+マルチアビリティリボン
+Pair Ability Ribbon
+ペアアビリティリボン
+World Ability Ribbon
+ワールドアビリティリボン
+Champion Ribbon
+チャンピオンリボン
+Sinnoh Champ Ribbon
+シンオウチャンプリボン
+Record Ribbon
+レコードリボン
+Event Ribbon
+イベントリボン
+Legend Ribbon
+レジェンドリボン
+Gorgeous Ribbon
+ゴージャスリボン
+Royal Ribbon
+ロイヤルリボン
+Gorgeous Royal Ribbon
+ゴージャスロイヤルリボン
+Alert Ribbon
+しゃきっとリボン
+Shock Ribbon
+どっきりリボン
+Downcast Ribbon
+しょんぼりリボン
+Careless Ribbon
+うっかりリボン
+Relax Ribbon
+すっきりリボン
+Snooze Ribbon
+ぐっすりリボン
+Smile Ribbon
+にっこりリボン
+Footprint Ribbon
+あしあとリボン
+Artist Ribbon
+ブロマイドリボン
+Effort Ribbon
+がんばリボン
+Special Ribbon
+スペシャルリボン
+Classic Ribbon
+クラシックリボン
+Premier Ribbon
+プレミアリボン
+Souvenir Ribbon
+きねんリボン
+Wishing Ribbon
+ウィッシュリボン
+National Ribbon
+ナショナルリボン
+Country Ribbon
+カントリーリボン
+Battle Champion Ribbon
+バトルチャンプリボン
+Regional Champion Ribbon
+エリアチャンプリボン
+Earth Ribbon
+アースリボン
+World Ribbon
+ワールドリボン
+National Champion Ribbon
+ナショナルチャンプリボン
+World Champion Ribbon
+ワールドチャンプリボン

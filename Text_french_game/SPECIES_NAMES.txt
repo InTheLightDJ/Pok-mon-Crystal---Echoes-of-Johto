@@ -270,6 +270,24 @@ Ghost
 Spectre
 Ghostly
 Spectral
+Shadow Lugia
+Lugia Obscur
+Demon
+Démon
+Blood Mewtwo
+Mewtwo Sanglant
+Blood Celebi
+Celebi Sanglant
+Blood Meloetta
+Meloetta Sanglant
+Blood Deoxys
+Deoxys Sanglant
+Sapusaur
+Sapusaur
+Charcolt
+Charcolt
+Rainer
+Rainer
 Bulbasaur
 Bulbizarre
 Ivysaur

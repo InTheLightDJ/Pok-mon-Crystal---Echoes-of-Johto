@@ -35,6 +35,8 @@ module PinballGBC
   ROM_FILE  = "Data/Pinball_GBC_Rom.rxdata"
   SAVE_NAME = "PokemonPinball.sav"
   QUIT_HOLD_FRAMES = 120
+  # scroll view: most game frames run at once while a Field changes halves
+  STAGE_CHANGE_MAX_FRAMES = 120
   # High Scores only: how long the title waits for the server's boards
   BOARD_WAIT_FRAMES = 180
 
@@ -267,6 +269,7 @@ module PinballGBC
       start_server_board
       Sound.install(@machine)
       @screen = Screen.new
+      @holiday = PinballGBC.holiday_boards
       @viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
       @viewport.z = 200_000   # over every menu it may be opened from (the debug menu is 99_999)
       @back = Sprite.new(@viewport)
@@ -280,6 +283,17 @@ module PinballGBC
       @sprite.y = (Graphics.height - 144 * zoom) / 2
       @sprite.z = 1
       @sprite.visible = !@high_scores   # the boot and title stay black
+      # the scroll view of the Fields (Options > Pinball View) and its
+      # message bar, over the bottom of the view
+      if PinballGBC.scroll_view?
+        @scroll = ScrollView.new(@screen)
+        @hud = Sprite.new(@viewport)
+        @hud.bitmap = @scroll.hud
+        @hud.zoom_x = @hud.zoom_y = zoom
+        @hud.x = @sprite.x
+        @hud.z = 2
+        @hud.visible = false
+      end
       $game_system.bgm_memorize rescue nil
       pbBGMStop rescue nil
       @machine.start
@@ -288,6 +302,8 @@ module PinballGBC
       save_sram
       NetworkClient.remove("pinball_board", @board_cb) if @board_cb
       @sprite&.dispose
+      @hud&.dispose
+      @scroll&.dispose
       @back&.bitmap&.dispose
       @back&.dispose
       @screen&.dispose
@@ -318,9 +334,7 @@ module PinballGBC
         @machine.buttons = btn
         @machine.step_frame
         update_server_board
-        # while the game has the LCD off (loading a table half, a new screen)
-        # the last picture stays, like the blank LCD hides the loading
-        @screen.draw(@machine) if @machine.lcd_on?
+        draw_screen
         save_sram if @machine.sram_dirty && @machine.frames % 300 == 0
         hold = Input.press?(Input::BACK) ? hold + 1 : 0
         if hold >= QUIT_HOLD_FRAMES
@@ -328,6 +342,55 @@ module PinballGBC
           break if confirm_quit
         end
       end
+    end
+
+    # while the game has the LCD off (loading a table half, a new screen)
+    # the last picture stays, like the blank LCD hides the loading
+    def draw_screen
+      m = @machine
+      if @scroll && m.leaving_stage
+        # the frame the ball leaves a half on: keep that half's picture
+        @screen.recolor = PinballGBC.holiday_half(@holiday, m.leaving_stage)
+        @scroll.snapshot(m, m.leaving_stage) if m.lcd_on?
+        m.leaving_stage = nil
+      end
+      # the game's loading of the other half (~20 frames with the LCD off)
+      # runs at once: the scroll view shows both halves already, so the
+      # ball goes on without a pause
+      if @scrolling
+        n = 0
+        while m.changing_stage && n < STAGE_CHANGE_MAX_FRAMES
+          m.step_frame
+          n += 1
+        end
+        return if m.changing_stage
+      end
+      return unless m.lcd_on?
+      # today's holiday colours on its table (007_HolidayBoards)
+      field = ScrollView.field?(m)
+      @screen.recolor = field ? PinballGBC.holiday_half(@holiday, m.wram[CURRENT_STAGE_WRAM]) : nil
+      if @scroll && field
+        @scroll.draw(m, !@scrolling)
+        @scrolling = true
+        show(@scroll.world, @scroll.view_x, @scroll.view_y)
+        if (wy = @scroll.hud_y)
+          @hud.src_rect.set(0, 0, Screen::W, Screen::H - wy)
+          @hud.y = @sprite.y + wy * @sprite.zoom_y
+          @hud.visible = @sprite.visible
+        else
+          @hud.visible = false
+        end
+      else
+        @scrolling = false
+        @screen.draw(m)
+        show(@screen.bitmap, 0, 0)
+        @hud.visible = false if @hud
+      end
+    end
+
+    def show(bitmap, x, y)
+      @sprite.bitmap = bitmap unless @sprite.bitmap.equal?(bitmap)
+      @sprite.src_rect.set(x, y, Screen::W, Screen::H)
     end
 
     # the screen is hidden while the message box is up (it sits under it)

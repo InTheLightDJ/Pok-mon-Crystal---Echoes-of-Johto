@@ -10,6 +10,8 @@ Battle Candy Ms
 Caramelle Lotta M
 Battle Candy Ls
 Caramelle Lotta L
+Blood Balls
+Sangue Ball
 GS Balls
 GS Ball
 Plip Balls
@@ -210,6 +212,16 @@ Umbrellas
 Ombrelli
 Flashlights
 Torce
+Form Prisms
+Prismi Forma
+Exp. Alls
+Condividi esp. tot.
+Blood Shards
+Frammenti di Sangue
+Blood Ball Tops
+Metà Superiori di Sangue Ball
+Blood Ball Bottoms
+Metà Inferiori di Sangue Ball
 Repels
 Repellenti
 Super Repels

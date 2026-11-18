@@ -49,8 +49,23 @@ module System
     alias_method :unscaled_uptime, :uptime unless method_defined?(:unscaled_uptime)
   end
 
+  # The sped-up clock runs SPEEDUP_STAGES[$GameSpeed] times faster than real
+  # time. Changing the speed only changes how fast it runs from then on: it
+  # used to be speed x real time, so pressing Q made it jump forwards or
+  # backwards, which stretched or skipped every timer. Timers that must run in
+  # real time (contests, online events, the rhythm game) use unscaled_uptime.
+  @speed_clock    = nil
+  @speed_clock_at = nil
+
   def self.uptime
-    return SPEEDUP_STAGES[$GameSpeed] * unscaled_uptime
+    now = unscaled_uptime
+    if @speed_clock.nil?
+      @speed_clock = now
+    else
+      @speed_clock += (now - @speed_clock_at) * (SPEEDUP_STAGES[$GameSpeed] || 1)
+    end
+    @speed_clock_at = now
+    return @speed_clock
   end
 end
 #===============================================================================#
@@ -138,12 +153,6 @@ class Game_Map
   def update
     if $RefreshEventsForTurbo
       echoln "UNSCALED #{System.unscaled_uptime} * #{SPEEDUP_STAGES[$GameSpeed]} - #{$GameSpeed}"
-      if $game_map&.events
-        $game_map.events.each_value { |event| event.pbResetInterpreterWaitCount }
-      end
-
-      @scroll_timer_start = System.uptime/SPEEDUP_STAGES[SPEEDUP_STAGES.size-1] if (@scroll_distance_x || 0) != 0 || (@scroll_distance_y || 0) != 0
-
       $CurrentMsgWindow.pbResetWaitCounter if $game_temp.message_window_showing && $CurrentMsgWindow 
 
       $RefreshEventsForTurbo = false

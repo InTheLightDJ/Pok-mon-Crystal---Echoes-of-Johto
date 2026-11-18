@@ -66,7 +66,7 @@ class LakeFishingState
 
   def expired?
     return false unless @active
-    System.uptime - @start_time >= LakeFishingMinigame::SESSION_SECONDS
+    System.unscaled_uptime - @start_time >= LakeFishingMinigame::SESSION_SECONDS
   end
 end
 
@@ -171,7 +171,7 @@ module LakeFishingMinigame
   def self.start
     state.clear
     state.active     = true
-    state.start_time = System.uptime
+    state.start_time = System.unscaled_uptime
     state.gyarados_tiles = _pick_gyarados_tiles
 
     $game_switches[104] = true
@@ -373,7 +373,7 @@ class Scene_FishingBar
     @fish_target = @fish_y
     @fish_wait   = 0
     result       = nil
-    start_time   = System.uptime
+    start_time   = System.unscaled_uptime
 
     loop do
       Graphics.update
@@ -389,9 +389,9 @@ class Scene_FishingBar
         result = :failure
       elsif Input.trigger?(Input::BACK)
         result = :failure
-      elsif System.uptime - start_time > MAX_SECONDS
+      elsif System.unscaled_uptime - start_time > MAX_SECONDS
         result = :failure
-      elsif deadline && System.uptime >= deadline
+      elsif deadline && System.unscaled_uptime >= deadline
         result = :failure
       end
       break if result

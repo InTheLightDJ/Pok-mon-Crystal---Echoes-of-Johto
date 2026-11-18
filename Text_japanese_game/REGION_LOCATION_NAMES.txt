@@ -1,0 +1,150 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_NAMES]
+New Bark Town
+ワカバタウン
+CHERRYGROVE CITY
+ヨシノシティ
+VIOLET CITY
+キキョウシティ
+AZALEA TOWN
+ヒワダタウン
+GOLDENROD CITY
+コガネシティ
+ECRUTEAK CITY
+エンジュシティ
+OLIVINE CITY
+アサギシティ
+CIANWOOD CITY
+タンバシティ
+MAHOGANY TOWN
+チョウジタウン
+BLACKTHORN CITY
+フスベシティ
+Route 29
+29ばんどうろ
+Route 30
+30ばんどうろ
+Route 31
+31ばんどうろ
+Ruins Of Alph
+アルフのいせき
+Route 32
+32ばんどうろ
+Union Cave
+つながりのどうくつ
+Route 33
+33ばんどうろ
+Ilex Forrest
+ウバメのもり
+Route 34
+34ばんどうろ
+Route 35
+35ばんどうろ
+National Park
+しぜんこうえん
+Route 37
+37ばんどうろ
+Route 36
+36ばんどうろ
+Route 38
+38ばんどうろ
+Route 39
+39ばんどうろ
+Route 40
+40ばんどうろ
+Route 41
+41ばんどうろ
+Seafoam Islands
+ふたごじま
+Route 42
+42ばんどうろ
+Route 43
+43ばんどうろ
+Route 44
+44ばんどうろ
+Route 45
+45ばんどうろ
+Route 46
+46ばんどうろ
+Route 22
+22ばんどうろ
+Viridian City
+トキワシティ
+Route 1
+1ばんどうろ
+Pallet Town
+マサラタウン
+Route 2
+2ばんどうろ
+Viridian Forrest
+トキワのもり
+Pewter City
+ニビシティ
+Route 3
+3ばんどうろ
+Mt Moon
+おつきみやま
+Route 4
+4ばんどうろ
+Cerulean City
+ハナダシティ
+Route 24
+24ばんどうろ
+Route 25
+25ばんどうろ
+Route 5
+5ばんどうろ
+Route 6
+6ばんどうろ
+Vermillion City
+クチバシティ
+Route 9
+9ばんどうろ
+Rock Tunnel
+イワヤマトンネル
+Route 10
+10ばんどうろ
+Lavender Town
+シオンタウン
+Route 8
+8ばんどうろ
+Saffron City
+ヤマブキシティ
+Route 7
+7ばんどうろ
+Celadon City
+タマムシシティ
+Route 16
+16ばんどうろ
+Route 17
+17ばんどうろ
+Route 18
+18ばんどうろ
+Fuchsia City
+セキチクシティ
+Route 12
+12ばんどうろ
+Route 11
+11ばんどうろ
+Route 13
+13ばんどうろ
+Route 14
+14ばんどうろ
+Route 15
+15ばんどうろ
+Route 19
+19ばんどうろ
+Cinnabar Island
+グレンじま
+Route 21
+21ばんどうろ
+Pokemon League
+ポケモンリーグ
+Mt Silver
+シロガネやま
+Victory Road
+チャンピオンロード
+Route 27
+27ばんどうろ

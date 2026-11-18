@@ -1,0 +1,86 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[PHONE_MESSAGES]
+Hello. This is \TN.
+もしもし。 \TNです。
+Good day, \PN! Hi. This is \TN.
+こんにちは \PN! \TNです。
+How are you doing? \PN, howdy! This is \TN. Isn't it nice out?
+げんき? \PN やあ! \TNだよ。 いい てんきだね?
+\PN, good day! It's me, \TN. Got a minute?
+\PN こんにちは! \TNだよ。 いま ちょっと いい?
+Hello, \PN. This is \TN. How are things?
+もしもし \PN。 \TNです。 そっちは どう?
+Good morning, \PN. This is \TN. Did I wake you?
+おはよう \PN。 \TNです。 おこしちゃった?
+Good afternoon, \PN! It's \TN here.
+こんにちは \PN! \TNだよ。
+\PN, good evening! Hi. This is \TN.
+\PN こんばんは! \TNです。
+How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!\mOh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
+ポケモンは げんき?\mぼくの \TPは げんきすぎて てに おえないよ!\mそうそう てごわい \TEに かったんだ。\mもっと パーティを つよく しなきゃ。
+My \TP's looking really awesome. I wish I could show you.\mHey, listen! I almost caught a \TE the other day.\mOh, it was sooooooo close, too!
+ぼくの \TP すごく かっこいいんだ。 きみにも みせたいな。\mねえ きいて! このまえ \TEを もうすこしで つかまえるところ だったんだ。\mほんとに おしかったんだよー!
+How are your Pokémon doing?\mMy \TP's really energetic. It's a handful!
+ポケモンは げんき?\mぼくの \TPは げんきすぎて てに おえないよ!
+How are your Pokémon doing?\mI always keep my \TP in top shape by going to Pokémon Centers.
+ポケモンは げんき?\mぼくは ポケモンセンターに かよって \TPを いつも ぜっこうちょうに してるよ。
+My \TP's looking really awesome. I wish I could show you.
+ぼくの \TP すごく かっこいいんだ。 きみにも みせたいな。
+I dressed my \TP and it looks even cuter than before.
+\TPに ふくを きせたら まえより もっと かわいく なったよ。
+Oh yeah, I managed to beat a tough \TE.\mI need to make my party stronger.
+そうそう てごわい \TEに かったんだ。\mもっと パーティを つよく しなきゃ。
+You have to hear this! I battled \TE the other day.\mIt was easy! I had a type advantage.
+きいてよ! このまえ \TEと たたかったんだ。\mらくしょう だった! タイプの あいしょうが よかったからね。
+Hey, listen! I almost caught \TE the other day.\mOh, it was sooooooo close, too!
+ねえ きいて! このまえ \TEを もうすこしで つかまえるところ だったんだ。\mほんとに おしかったんだよー!
+Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not very good at this.
+このまえ なにが あったと おもう? また \TEを つかまえそこねたんだ。\mぼく へたなのかな。
+Want to battle? It's not going to be a repeat of the last time we met.\mI'll be waiting for you around \TM.
+バトルしない? こんどは まえみたいには いかないよ。\m\TMの あたりで まってるね。
+Do you want to battle? I'm going to win this time!\mI'll be waiting for you around \TM.\mLook for me, OK? My \TP will be expecting you.
+バトルしない? こんどこそ かつよ!\m\TMの あたりで まってるね。\mさがしてね! \TPも まってるよ。
+Hello. This is \TN...\mHow's it going, \PN?
+もしもし。 \TNです…\mげんき \PN?
+My \TP is looking more and more like me. It's getting cuter!
+わたしの \TP どんどん わたしに にてきたの。 かわいく なってきたわ!
+And you know? Now we can KO \TE easily.\mI should challenge the Cedolan Gym.
+それにね いまでは \TEも かんたんに たおせるの。\mセドランジムに いどもうかな。
+And you know? We just failed to beat \TE by a tiny margin.\mI'm guessing my Pokémon's levels aren't high enough yet...
+それにね さっき \TEに ほんの すこしの さで かてなかったの。\mまだ ポケモンの レベルが たりないのかな…
+You must be a lot better now, huh?\mHow about showing me your technique in a real battle with me?\mI'll be waiting on \TM.
+もう ずっと つよく なったんでしょ?\mほんきの バトルで わざを みせてくれない?\m\TMで まってるわ。
+Where are you? Let's have our battle soon!\mI'll be waiting on \TM.
+どこに いるの? はやく バトルしようよ!\m\TMで まってるわ。
+See you later!
+また あとでね!
+This is \TN!
+\TNだよ!
+Hi, this is \TN!
+やあ \TNだよ!
+This is \TN! Good morning, \PN!
+\TNだよ! おはよう \PN!
+Hi, this is \TN! Good morning, \PN!
+やあ \TNだよ! おはよう \PN!
+This is \TN! Good afternoon, \PN!
+\TNだよ! こんにちは \PN!
+Hi, this is \TN! Good afternoon, \PN!
+やあ \TNだよ! こんにちは \PN!
+This is \TN! Good evening, \PN!
+\TNだよ! こんばんは \PN!
+Hi, this is \TN! Good evening, \PN!
+やあ \TNだよ! こんばんは \PN!
+My \TP and I are getting more in sync with each other.
+ぼくと \TPは どんどん いきが あってきたよ。
+We battled a wild \TE and managed to beat it in a close match.\mWe're getting into the groove!
+やせいの \TEと たたかって ぎりぎりで かったんだ。\mちょうしが でてきたよ!
+But, you know what? I still haven't caught \TE.\mIt's getting beyond frustrating...
+でもね まだ \TEを つかまえてないんだ。\mもう くやしくて たまらないよ…
+Would you be my practice partner again sometime?\mI'll be waiting on \TM...\mCould you take it a little easier on me next time?
+また れんしゅうあいてに なってくれる?\m\TMで まってるね…\mこんどは もうすこし てかげん してね?
+How soon can I expect to see you?\mDon't forget, \TM!
+いつ ごろ あえそう?\m\TMを わすれないでね!
+Bye! Let's chat again!
+じゃあね! また はなそう!

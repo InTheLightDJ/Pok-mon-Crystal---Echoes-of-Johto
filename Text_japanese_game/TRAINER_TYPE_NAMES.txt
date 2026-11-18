@@ -1,0 +1,710 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_TYPE_NAMES]
+Boarder
+スノーボーダー
+Firebreather
+ひふきやろう
+Guitarist
+ギタリスト
+Kimono Girl
+まいこはん
+Medium
+100まんタイプ
+Officer
+おまわりさん
+Pokéfan
+だいすきクラブ
+Sage
+おぼうさん
+School Boy
+じゅくがえり
+Skier
+スキーヤー
+Scuba Diver
+ダイバー
+Free Diver
+フリーダイバー
+Teacher
+せんせい
+Rocket Exec.
+ロケットだん かんぶ
+Mystical Man
+ミステリアスマン
+Champ
+チャンピオン
+Detective
+たんてい
+Rocket Leader
+ロケットだん リーダー
+Adeleine
+アドレーヌ
+Ansem
+アンセム
+Baby Luigi
+ベビィルイージ
+Baby Mario
+ベビィマリオ
+Chiaki
+チアキ
+Chun-Li
+チュンリー
+Bandana Dee
+バンダナワドルディ
+Dante
+ダンテ
+Darth Vader
+ダース・ベイダー
+Diana
+ダイアナ
+Donald Duck
+ドナルドダック
+Eggman
+エッグマン
+Eusine
+ミナキ
+Flygon
+フライゴン
+Ganondorf
+ガノンドロフ
+Gehenna
+ゲヘナ
+Goofy
+グーフィー
+Grovyle
+ジュプトル
+Heihachi
+ヘイハチ
+Homura
+ホムラ
+Honoka
+ホノカ
+Jenny
+ジェニー
+Jin
+ジン
+Jirachi
+ジラーチ
+Joker
+ジョーカー
+Kairi
+カイリ
+KOS-MOS
+コスモス
+Birdo
+キャサリン
+Lear
+リア
+Link
+リンク
+Lucario
+ルカリオ
+Luffy
+ルフィ
+Lum
+ラム
+Boo
+テレサ
+Marisa
+マリサ
+Megumin
+めぐみん
+Meowth
+ニャース
+Meta Knight
+メタナイト
+Mewtwo
+ミュウツー
+Mickey Mouse
+ミッキーマウス
+Miku
+ミク
+Monika
+モニカ
+Morrigan
+モリガン
+Nakoruru
+ナコルル
+Namine
+ナミネ
+Natsuki
+ナツキ
+Omega
+オメガ
+Polka
+ポルカ
+Pyra
+ホムラ
+Rimururu
+リムルル
+Rouge
+ルージュ
+Roxas
+ロクサス
+Ruby Rose
+ルビー・ローズ
+Sakuya
+サクヤ
+Sayori
+サヨリ
+Sephiroth
+セフィロス
+Shadow
+シャドウ
+Skull Kid
+スタルキッド
+Sonar
+ソナー
+Sonic
+ソニック
+Sora
+ソラ
+Teto
+テト
+Tifa
+ティファ
+Venti
+ウェンティ
+Vivi
+ビビ
+Xion
+シオン
+Yuri
+ユリ
+Waluigi
+ワルイージ
+Bowser Jr
+クッパJr.
+CC Template
+CC Template
+Unknown_72
+Unknown_72
+Agumon
+アグモン
+Amy
+エミー
+Artoria
+アルトリア
+Ash
+サトシ
+Ash V4
+サトシ V4
+Blaze
+ブレイズ
+Bowser
+クッパ
+Cloud
+クラウド
+Gammamon
+ガンマモン
+Gohan Teen
+ティーンの ごはん
+Goku
+ごくう
+Greninja
+ゲッコウガ
+Guilmon
+ギルモン
+Ichigo
+いちご
+Kirei
+キレイ
+Lara Croft
+ララ・クロフト
+Leaf
+リーフ
+Lich King
+リッチキング
+Looker
+ハンサム
+Madoka
+まどか
+Master Chief
+マスターチーフ
+Naruto
+ナルト
+Neku
+ネク
+Palutena
+パルテナ
+Peach
+ピーチ
+Reimu
+レイム
+Riku
+リク
+Rosalina
+ロゼッタ
+Roy
+ロイ
+Sabrina
+ナツメ
+Sailor Moon
+セーラームーン
+Takato
+タカト
+The Knight
+ナイト
+Veemon
+ブイモン
+Wario
+ワリオ
+Wingull
+キャモメ
+Yugi
+ゆうぎ
+Zelda ALTTP
+ゼルダ (かみトラ)
+Zelda TP
+ゼルダ (トワプリ)
+Zero Suit Samus
+ゼロスーツサムス
+Daisy
+デイジー
+Dark Samus
+ダークサムス
+Dedede
+デデデ
+Bugs
+バッグス
+Pokemon
+ポケモン
+Diddy Kong
+ディディーコング
+Red
+あか
+Sygna Red
+シグナ レッド
+Picclo
+ピッコロ
+Unknown_127
+Unknown_127
+Dixie Kong
+ディクシーコング
+Donkey Kong Jr
+ドンキーコングJr.
+Unknown_130
+Unknown_130
+Vegeta
+ベジータ
+Wes
+ウェス
+Dawn
+ヒカリ
+Donkey Kong
+ドンキーコング
+Dry Bones
+カロン
+Geno
+ジーノ
+Iggy
+イギー
+King Bob-omb
+キングボムへい
+King Boo
+キングテレサ
+King K. Rool
+キングクルール
+Kirby
+カービィ
+Koopa
+ノコノコ
+Larry Koopa
+ラリー
+Lemmy
+レミー
+Link (Time)
+リンク (ときオカ)
+Toon Link
+トゥーンリンク
+Link (Twilight)
+リンク (トワプリ)
+Link (Wild)
+リンク (ブレワイ)
+Ludwig
+ルドウィッグ
+Luigi
+ルイージ
+Mallow
+マロ
+Mario
+マリオ
+Marx
+マルク
+Morton
+モートン
+Paratroopa
+パタパタ
+Pauline
+ポリーン
+Petey Piranha
+ボスパックン
+Piranha Plant
+パックンフラワー
+Ridley
+リドリー
+Roy Koopa
+ロイ (クッパ7にん)
+Samus
+サムス
+Sheik
+シーク
+Shy Guy
+ヘイホー
+Toad
+キノピオ
+Toadette
+キノピコ
+Waddle Doo
+ワドルドゥ
+Wendy
+ウェンディ
+Yoshi
+ヨッシー
+Blastoise
+カメックス
+Captain Falcon
+キャプテン・ファルコン
+Charizard
+リザードン
+Claus
+クラウス
+Falco
+ファルコ
+Fox
+フォックス
+Mr. Game and Watch
+Mr.ゲーム&ウォッチ
+Popo
+ポポ
+Nana
+ナナ
+Incineroar
+ガオガエン
+Lucas
+リュカ
+Ness
+ネス
+Ninten
+ニンテン
+Raichu
+ライチュウ
+Wolf
+ウルフ
+AI
+アイ
+ALEX
+アレックス
+ASRIEL
+アズリエル
+BANJO KAZOOIE
+バンジョー&カズーイ
+BARK
+バーク
+BART
+バート
+BASS
+バス
+BEAN
+ビーン
+BIG
+ビッグ
+BOMBERMAN
+ボンバーマン
+BYLETH
+ベレト
+CHAOS
+カオス
+CHARMY
+チャーミー
+CHROM
+クロム
+CLASSIC SONIC
+クラシックソニック
+CONAN
+コナン
+CONKER
+コンカー
+CORRIN
+カムイ
+CRASH
+クラッシュ
+CREAM
+クリーム
+CRONO
+クロノ
+CUPHEAD
+カップヘッド
+DAFFY DUCK
+ダフィー・ダック
+DARWIN
+ダーウィン
+DAVIS
+デイビス
+DEKU
+デク
+DOOMGUY
+ドゥームガイ
+DORAEMON
+ドラえもん
+DUCK HUNT
+ダックハント
+EDWARD
+エドワード
+EIGHT
+エイト
+ENDERMAN
+エンダーマン
+ERDRICK
+ロト
+ESPIO
+エスピオ
+FANG
+ファング
+FINN
+フィン
+FREDDY
+フレディ
+GANGLE
+ギャングル
+GHOST BLINKY
+アカベイ
+GHOST CLYDE
+オトボケ
+GHOST INKY
+アオスケ
+GHOST PINKY
+ピンキー
+GUMBALL
+ガムボール
+IKE
+アイク
+INKLING BOY
+インクリング ボーイ
+INKLING GIRL
+インクリング ガール
+ISAAC
+アイザック
+ISABELLE
+しずえ
+JACK FROST
+ジャックフロスト
+JAKE
+ジェイク
+JAX
+ジャックス
+JET
+ジェット
+KAZUYA
+カズヤ
+KEN
+ケン
+KINGER
+キンガー
+KIRYU
+きりゅう
+KLONOA
+クロノア
+LIP
+リップ
+LITTLE MAC
+リトル・マック
+LUCINA
+ルキナ
+LUMINARY
+ゆうしゃ
+LUZ
+ルス
+MARTH
+マルス
+MEGA MAN
+ロックマン
+METABEE
+メタビー
+METAL SONIC
+メタルソニック
+MIGHTY
+マイティ
+MIN MIN
+ミェンミェン
+MORGANA
+モルガナ
+MUGMAN
+マグマン
+MYTHRA
+ヒカリ (ゼノブレ)
+NIGHTS
+ナイツ
+NINTENDOG
+ニンテンドッグス
+OLIMAR
+オリマー
+PAC-MAN
+パックマン
+PHOENIX
+フェニックス
+PIT
+ピット
+PITTOO
+ブラックピット
+POMNI
+ポムニ
+PROTO MAN
+ブルース
+RAGATHA
+ラガサ
+RAY
+レイ
+RAYMAN
+レイマン
+RENA
+レナ
+ROB
+ロボット
+ROBIN
+ルフレ
+ROLL
+ロール
+ROY
+ロイ
+RYU
+リュウ
+SAKURA
+さくら
+SANTA CLAUS
+サンタクロース
+SEVERA
+セベラ
+SHANTAE
+シャンティ
+SHOVEL KNIGHT
+ショベルナイト
+SHULK
+シュルク
+SIMON TTGL
+シモン
+SNAKE
+スネーク
+SOLO
+ソロ
+SPIDER-MAN
+スパイダーマン
+SPIKE
+スパイク
+SPYRO
+スパイロ
+STEVE
+スティーブ
+STEVEN
+スティーブン
+TAI
+タイチ
+TAILS
+テイルス
+TERRY
+テリー
+TIKAL
+ティカル
+TOMBA
+トンバ
+VECTOR
+ベクター
+VERGIL
+バージル
+VILLAGER BOY
+むらびと (おとこのこ)
+VILLAGER GIRL
+むらびと (おんなのこ)
+WII FIT TRAINER
+Wii Fitトレーナー
+ZERO
+ゼロ
+ZOMBIE
+ゾンビ
+ZOOBLE
+ズーブル
+LEAF SYGNA
+リーフ シグナ
+FEM RANGER
+レンジャー (おんな)
+KAREN
+カリン
+WHITNEY
+アカネ
+GhostGuy
+GhostGuy
+CALLIE
+アオリ
+COYOTE
+コヨーテ
+KILLUA
+キルア
+KRIS
+クリス
+MARIE
+ホタル
+ROCK VOLNUTT
+ロック・ヴォルナット
+GHOST ADMIN
+ゴースト アドミン
+GHOST MOD
+ゴースト モッド
+Pokémon Trainer
+ポケモントレーナー
+Rival
+ライバル
+Beauty
+うつくしさ
+Biker
+ぼうそうぞく
+Bird Keeper
+とりつかい
+Bug Catcher
+むしとりしょうねん
+Burglar
+どろぼう
+Fisherman
+つりびと
+Gambler
+ギャンブラー
+Gentleman
+ジェントルマン
+Hiker
+やまおとこ
+Poké Maniac
+ポケマニア
+Professor
+はかせ
+Sailor
+ふなのり
+Scientist
+けんきゅういん
+Super Nerd
+りかけいのおとこ
+Black Belt
+からておう
+Camper
+キャンプボーイ
+Picnicker
+ピクニックガール
+Cool Trainer
+エリートトレーナー
+Youngster
+たんパンこぞう
+Lass
+ミニスカート
+Psychic
+サイコ
+Swimmer
+スイマー
+Twins
+ふたごちゃん
+Team Rocket
+ロケットだん
+Gym Leader
+ジムリーダー
+Elite Four
+してんのう
+Champion
+チャンピオン

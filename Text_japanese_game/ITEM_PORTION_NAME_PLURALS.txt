@@ -1,0 +1,206 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAME_PLURALS]
+sets of Auspicious Armor
+イワイノヨロイ
+sets of Malicious Armor
+ノロイノヨロイ
+capsules of Booster Energy
+ブーストエナジー
+hunks of Metal Alloy
+ふくごうきんぞく
+jars of Honey
+あまいミツ
+bags of Stardust
+ほしのすな
+Relic Copper coins
+こだいのどうか
+Relic Silver coins
+こだいのぎんか
+Relic Gold coins
+こだいのきんか
+bags of Growth Mulch
+すくすくこやし
+bags of Damp Mulch
+じめじめこやし
+bags of Stable Mulch
+ながながこやし
+bags of Gooey Mulch
+ねばねばこやし
+piles of Shoal Salt
+あさせのしお
+jars of Red Nectar
+くれないのミツ
+jars of Yellow Nectar
+やまぶきのミツ
+jars of Pink Nectar
+うすもものミツ
+jars of Purple Nectar
+むらさきのミツ
+bags of Bright Powder
+ひかりのこな
+pairs of Safety Goggles
+ぼうじんゴーグル
+sets of Protective Pads
+ぼうごパット
+pairs of Heavy-Duty Boots
+あつぞこブーツ
+pairs of Choice Specs
+こだわりメガネ
+lumps of Light Clay
+ひかりのねんど
+blobs of Black Sludge
+くろいヘドロ
+servings of Leftovers
+たべのこし
+clumps of Luminous Moss
+ひかりごけ
+bottles of Throat Spray
+のどスプレー
+vouchers for Room Service
+ルームサービス
+pairs of Wise Glasses
+ものしりメガネ
+jars of Lax Incense
+のんきのおこう
+jars of Full Incense
+まんぷくおこう
+jars of Luck Incense
+こううんのおこう
+jars of Pure Incense
+きよめのおこう
+jars of Sea Incense
+うしおのおこう
+jars of Wave Incense
+さざなみのおこう
+jars of Rose Incense
+おはなのおこう
+jars of Odd Incense
+あやしいおこう
+jars of Rock Incense
+がんせきおこう
+pieces of Charcoal
+もくたん
+pieces of Never-Melt Ice
+とけないこおり
+bags of Soft Sand
+やわらかいすな
+piles of Silver Powder
+ぎんのこな
+pairs of Black Glasses
+くろいメガネ
+bags of Metal Powder
+メタルパウダー
+bags of Quick Powder
+スピードパウダー
+scraps of Reaper Cloth
+れいかいのぬの
+dollops of Whipped Dream
+ホイップポップ
+bags of Sacred Ash
+せいなるはい
+bags of Pewter Crunchies
+ニビあられ
+cups of Berry Juice
+きのみジュース
+bottles of Fresh Water
+おいしいみず
+bottles of Soda Pop
+サイコソーダ
+cans of Lemonade
+ミックスオレ
+bottles of Moomoo Milk
+モーモーミルク
+doses of Energy Powder
+ちからのこな
+doses of Heal Powder
+ばんのうごな
+combs of Max Honey
+ダイミツ
+bottles of PP Up
+ポイントアップ
+bottles of PP Max
+ポイントマックス
+bottles of HP Up
+マックスアップ
+bottles of Protein
+タウリン
+bottles of Iron
+ブロムヘキシン
+bottles of Calcium
+リゾチウム
+bottles of Zinc
+キトサン
+bottles of Carbos
+インドメタシン
+sprigs of Lonely Mint
+さみしがりミント
+sprigs of Adamant Mint
+いじっぱりミント
+sprigs of Naughty Mint
+やんちゃミント
+sprigs of Brave Mint
+ゆうかんミント
+sprigs of Bold Mint
+ずぶといミント
+sprigs of Impish Mint
+わんぱくミント
+sprigs of Lax Mint
+のうてんきミント
+sprigs of Relaxed Mint
+のんきミント
+sprigs of Modest Mint
+ひかえめミント
+sprigs of Mild Mint
+おっとりミント
+sprigs of Rash Mint
+うっかりやミント
+sprigs of Quiet Mint
+れいせいミント
+sprigs of Calm Mint
+おだやかミント
+sprigs of Gentle Mint
+おとなしいミント
+sprigs of Careful Mint
+しんちょうミント
+sprigs of Sassy Mint
+なまいきミント
+sprigs of Timid Mint
+おくびょうミント
+sprigs of Hasty Mint
+せっかちミント
+sprigs of Jolly Mint
+ようきミント
+sprigs of Naive Mint
+むじゃきミント
+sprigs of Serious Mint
+まじめミント
+pieces of Grass Mail
+グラスメール
+pieces of Flame Mail
+フレイムメール
+pieces of Bubble Mail
+ブルーメール
+pieces of Bloom Mail
+ブルームメール
+pieces of Tunnel Mail
+トンネルメール
+pieces of Steel Mail
+スチールメール
+pieces of Heart Mail
+ラブラブメール
+pieces of Snow Mail
+ブリザードメール
+pieces of Space Mail
+スペースメール
+pieces of Air Mail
+エアメール
+pieces of Mosaic Mail
+モザイクメール
+pieces of Brick Mail
+ブリックメール
+clusters of Max Mushrooms
+ダイキノコ
+sets of Reins of Unity
+キズナのタヅナ

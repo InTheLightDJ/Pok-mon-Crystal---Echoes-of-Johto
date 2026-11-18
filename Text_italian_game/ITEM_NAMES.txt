@@ -10,6 +10,8 @@ Battle Candy M
 Caramella Lotta M
 Battle Candy L
 Caramella Lotta L
+Blood Ball
+Sangue Ball
 GS Ball
 GS Ball
 Plip Ball
@@ -210,6 +212,16 @@ Umbrella
 Ombrello
 Flashlight
 Torcia
+Form Prism
+Prisma Forma
+Exp. All
+Condividi esp. tot.
+Blood Shard
+Frammento di Sangue
+Blood Ball Top
+Metà Superiore di Sangue Ball
+Blood Ball Bottom
+Metà Inferiore di Sangue Ball
 Repel
 Repellente
 Super Repel

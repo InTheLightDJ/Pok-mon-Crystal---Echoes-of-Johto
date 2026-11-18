@@ -1,0 +1,1684 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MOVE_NAMES]
+Dire Claw
+フェイタルクロー
+Springtide Storm
+はるのあらし
+Raging Fury
+だいふんげき
+Wave Crash
+ウェーブタックル
+Chloroblast
+クロロブラスト
+Mountain Gale
+ひょうざんおろし
+Headlong Rush
+ぶちかまし
+Barb Barrage
+どくばりセンボン
+Esper Wing
+オーラウイング
+Bitter Malice
+うらみつらみ
+Triple Arrows
+3ぼんのや
+Bleakwind Storm
+こがらしあらし
+Wildbolt Storm
+かみなりあらし
+Sandsear Storm
+ねっさのあらし
+Lunar Blessing
+みかづきのいのり
+Psyshield Bash
+バリアーラッシュ
+Power Shift
+パワーシフト
+Stone Axe
+がんせきアックス
+Mystical Power
+しんぴのちから
+Victory Dance
+しょうりのまい
+Shelter
+たてこもる
+Infernal Parade
+ひゃっきやこう
+Ceaseless Edge
+ひけん・ちえなみ
+Take Heart
+ブレイブチャージ
+Aqua Cutter
+アクアカッター
+Aqua Step
+アクアステップ
+Armor Cannon
+アーマーキャノン
+Axe Kick
+かかとおとし
+Bitter Blade
+むねんのつるぎ
+Blazing Torque
+バーンアクセル
+Chilling Water
+ひやみず
+Chilly Reception
+さむいギャグ
+Collision Course
+アクセルブレイク
+Combat Torque
+ファイトアクセル
+Comeuppance
+ほうふく
+Doodle
+うつしえ
+Double Shock
+でんこうそうげき
+Electro Drift
+イナズマドライブ
+Fillet Away
+みをけずる
+Flower Trick
+トリックフラワー
+Gigaton Hammer
+デカハンマー
+Glaive Rush
+きょけんとつげき
+Hyper Drill
+ハイパードリル
+Ice Spinner
+アイススピナー
+Jet Punch
+ジェットパンチ
+Kowtow Cleave
+ドゲザン
+Last Respects
+おはかまいり
+Lumina Crash
+ルミナコリジョン
+Magical Torque
+マジカルアクセル
+Make It Rain
+ゴールドラッシュ
+Mortal Spin
+キラースピン
+Noxious Torque
+ポイズンアクセル
+Order Up
+いっちょうあがり
+Population Bomb
+ネズミざん
+Pounce
+とびつく
+Rage Fist
+ふんどのこぶし
+Raging Bull
+レイジングブル
+Revival Blessing
+さいきのいのり
+Ruination
+カタストロフィ
+Salt Cure
+しおづけ
+Shed Tail
+しっぽきり
+Silk Trap
+スレッドトラップ
+Snowscape
+ゆきげしき
+Spicy Extract
+ハバネロエキス
+Spin Out
+ホイールスピン
+Tidy Up
+おかたづけ
+Torch Song
+フレアソング
+Trailblaze
+くさわけ
+Triple Dive
+トリプルダイブ
+Twin Beam
+ツインビーム
+Wicked Torque
+ダークアクセル
+Hydro Steam
+ハイドロスチーム
+Psyblade
+サイコブレイド
+Blood Moon
+ブラッドムーン
+Matcha Gotcha
+シャカシャカほう
+Syrup Bomb
+みずあめボム
+Ivy Cudgel
+ツタこんぼう
+Electro Shot
+エレクトロビーム
+Tera Starstorm
+テラクラスター
+Fickle Beam
+きまぐレーザー
+Burning Bulwark
+かえんのまもり
+Thunderclap
+じんらい
+Mighty Cleave
+パワフルエッジ
+Tachyon Cutter
+タキオンカッター
+Hard Press
+ハードプレス
+Dragon Cheer
+ドラゴンエール
+Alluring Voice
+みわくのボイス
+Temper Flare
+やけっぱち
+Supercell Slam
+サンダーダイブ
+Psychic Noise
+サイコノイズ
+Upper Hand
+はやてがえし
+Malignant Chain
+じゃどくのくさり
+InTheLight
+ひかりのなかへ
+Creepy Crawl
+ぞわぞわ
+Zombify
+ゾンビにする
+Slaphappy
+うかれビンタ
+Vast Void
+むげんのくうはく
+Secret Lair
+ひみつのすみか
+End Times
+おわりのとき
+Perfect Dark
+まっくらやみ
+Megahorn
+メガホーン
+Attack Order
+こうげきしれい
+Bug Buzz
+むしのさざめき
+First Impression
+であいがしら
+Pollen Puff
+かふんだんご
+Leech Life
+きゅうけつ
+Lunge
+とびかかる
+X-Scissor
+シザークロス
+Signal Beam
+シグナルビーム
+Skitter Smack
+はいよるいちげき
+U-turn
+とんぼがえり
+Steamroller
+ハードローラー
+Bug Bite
+むしくい
+Silver Wind
+ぎんいろのかぜ
+Fell Stinger
+とどめばり
+Struggle Bug
+むしのていこう
+Fury Cutter
+れんぞくぎり
+Pin Missile
+ミサイルばり
+Twineedle
+ダブルニードル
+Infestation
+まとわりつく
+Defend Order
+ぼうぎょしれい
+Heal Order
+かいふくしれい
+Powder
+ふんじん
+Quiver Dance
+ちょうのまい
+Rage Powder
+いかりのこな
+Spider Web
+クモのす
+Sticky Web
+ねばねばネット
+String Shot
+いとをはく
+Tail Glow
+ほたるび
+Hyperspace Fury
+いじげんラッシュ
+Foul Play
+イカサマ
+Fiery Wrath
+もえあがるいかり
+Darkest Lariat
+DDラリアット
+Night Daze
+ナイトバースト
+Crunch
+かみくだく
+Dark Pulse
+あくのはどう
+False Surrender
+どげざつき
+Jaw Lock
+くらいつく
+Throat Chop
+じごくづき
+Wicked Blow
+あんこくきょうだ
+Lash Out
+うっぷんばらし
+Night Slash
+つじぎり
+Sucker Punch
+ふいうち
+Knock Off
+はたきおとす
+Assurance
+ダメおし
+Bite
+かみつく
+Brutal Swing
+ぶんまわす
+Feint Attack
+だましうち
+Thief
+どろぼう
+Snarl
+バークアウト
+Payback
+しっぺがえし
+Pursuit
+おいうち
+Beat Up
+ふくろだたき
+Fling
+なげつける
+Power Trip
+つけあがる
+Punishment
+おしおき
+Dark Void
+ダークホール
+Embargo
+さしおさえ
+Fake Tears
+うそなき
+Flatter
+おだてる
+Hone Claws
+つめとぎ
+Memento
+おきみやげ
+Nasty Plot
+わるだくみ
+Obstruct
+ブロッキング
+Parting Shot
+すてゼリフ
+Quash
+さきおくり
+Snatch
+よこどり
+Switcheroo
+すりかえ
+Taunt
+ちょうはつ
+Topsy-Turvy
+ひっくりかえす
+Torment
+いちゃもん
+Eternabeam
+ムゲンダイビーム
+Dragon Energy
+ドラゴンエナジー
+Roar of Time
+ときのほうこう
+Draco Meteor
+りゅうせいぐん
+Outrage
+げきりん
+Clanging Scales
+スケイルノイズ
+Core Enforcer
+コアパニッシャー
+Dragon Rush
+ドラゴンダイブ
+Dynamax Cannon
+ダイマックスほう
+Spacial Rend
+あくうせつだん
+Dragon Hammer
+ドラゴンハンマー
+Dragon Pulse
+りゅうのはどう
+Dragon Claw
+ドラゴンクロー
+Breaking Swipe
+ワイドブレイカー
+Dragon Breath
+りゅうのいぶき
+Dragon Tail
+ドラゴンテール
+Dragon Darts
+ドラゴンアロー
+Dual Chop
+ダブルチョップ
+Twister
+たつまき
+Scale Shot
+スケイルショット
+Dragon Rage
+りゅうのいかり
+Clangorous Soul
+ソウルビート
+Dragon Dance
+りゅうのまい
+Bolt Strike
+らいげき
+Volt Tackle
+ボルテッカー
+Zap Cannon
+でんじほう
+Aura Wheel
+オーラぐるま
+Thunder
+かみなり
+Fusion Bolt
+クロスサンダー
+Plasma Fists
+プラズマフィスト
+Thunderbolt
+10まんボルト
+Wild Charge
+ワイルドボルト
+Bolt Beak
+でんげきくちばし
+Discharge
+ほうでん
+Overdrive
+オーバードライブ
+Thunder Cage
+サンダープリズン
+Zing Zap
+びりびりちくちく
+Thunder Punch
+かみなりパンチ
+Rising Voltage
+ライジングボルト
+Volt Switch
+ボルトチェンジ
+Parabolic Charge
+パラボラチャージ
+Spark
+スパーク
+Thunder Fang
+かみなりのキバ
+Shock Wave
+でんげきは
+Electroweb
+エレキネット
+Charge Beam
+チャージビーム
+Thunder Shock
+でんきショック
+Nuzzle
+ほっぺすりすり
+Electro Ball
+エレキボール
+Charge
+じゅうでん
+Eerie Impulse
+かいでんぱ
+Electric Terrain
+エレキフィールド
+Electrify
+そうでん
+Ion Deluge
+プラズマシャワー
+Magnet Rise
+でんじふゆう
+Magnetic Flux
+じばそうさ
+Thunder Wave
+でんじは
+Light of Ruin
+はめつのひかり
+Fleur Cannon
+フルールカノン
+Misty Explosion
+ミストバースト
+Moonblast
+ムーンフォース
+Play Rough
+じゃれつく
+Strange Steam
+ワンダースチーム
+Dazzling Gleam
+マジカルシャイン
+Spirit Break
+ソウルクラッシュ
+Draining Kiss
+ドレインキッス
+Disarming Voice
+チャームボイス
+Fairy Wind
+ようせいのかぜ
+Nature's Madness
+しぜんのいかり
+Aromatic Mist
+アロマミスト
+Baby-Doll Eyes
+つぶらなひとみ
+Charm
+あまえる
+Crafty Shield
+トリックガード
+Decorate
+デコレーション
+Fairy Lock
+フェアリーロック
+Floral Healing
+フラワーヒール
+Flower Shield
+フラワーガード
+Geomancy
+ジオコントロール
+Misty Terrain
+ミストフィールド
+Moonlight
+つきのひかり
+Sweet Kiss
+てんしのキッス
+Focus Punch
+きあいパンチ
+Meteor Assault
+スターアサルト
+High Jump Kick
+とびひざげり
+Close Combat
+インファイト
+Focus Blast
+きあいだま
+Superpower
+ばかぢから
+Cross Chop
+クロスチョップ
+Dynamic Punch
+ばくれつパンチ
+Flying Press
+フライングプレス
+Hammer Arm
+アームハンマー
+Jump Kick
+とびげり
+Sacred Sword
+せいなるつるぎ
+Thunderous Kick
+らいめいげり
+Secret Sword
+しんぴのつるぎ
+Sky Uppercut
+スカイアッパー
+Aura Sphere
+はどうだん
+Body Press
+ボディプレス
+Submission
+じごくぐるま
+Brick Break
+かわらわり
+Drain Punch
+ドレインパンチ
+Vital Throw
+あてみなげ
+Wake-Up Slap
+めざましビンタ
+Low Sweep
+ローキック
+Circle Throw
+ともえなげ
+Force Palm
+はっけい
+Revenge
+リベンジ
+Rolling Kick
+まわしげり
+Storm Throw
+やまあらし
+Karate Chop
+からてチョップ
+Mach Punch
+マッハパンチ
+Power-Up Punch
+グロウパンチ
+Rock Smash
+いわくだき
+Vacuum Wave
+しんくうは
+Double Kick
+にどげり
+Arm Thrust
+つっぱり
+Triple Kick
+トリプルキック
+Counter
+カウンター
+Final Gambit
+いのちがけ
+Low Kick
+けたぐり
+Reversal
+きしかいせい
+Seismic Toss
+ちきゅうなげ
+Bulk Up
+ビルドアップ
+Coaching
+コーチング
+Detect
+みきり
+Mat Block
+たたみがえし
+No Retreat
+はいすいのじん
+Octolock
+たこがため
+Quick Guard
+ファストガード
+V-create
+Vジェネレート
+Blast Burn
+ブラストバーン
+Eruption
+ふんか
+Mind Blown
+ビックリヘッド
+Shell Trap
+トラップシェル
+Blue Flare
+あおいほのお
+Burn Up
+もえつきる
+Overheat
+オーバーヒート
+Flare Blitz
+フレアドライブ
+Pyro Ball
+かえんボール
+Fire Blast
+だいもんじ
+Fusion Flare
+クロスフレイム
+Inferno
+れんごく
+Magma Storm
+マグマストーム
+Sacred Fire
+せいなるほのお
+Searing Shot
+かえんだん
+Heat Wave
+ねっぷう
+Flamethrower
+かえんほうしゃ
+Blaze Kick
+ブレイズキック
+Fiery Dance
+ほのおのまい
+Fire Lash
+ほのおのムチ
+Fire Pledge
+ほのおのちかい
+Lava Plume
+ふんえん
+Fire Punch
+ほのおのパンチ
+Mystical Fire
+マジカルフレイム
+Burning Jealousy
+しっとのほのお
+Flame Burst
+はじけるほのお
+Fire Fang
+ほのおのキバ
+Flame Wheel
+かえんぐるま
+Incinerate
+やきつくす
+Flame Charge
+ニトロチャージ
+Ember
+ひのこ
+Fire Spin
+ほのおのうず
+Heat Crash
+ヒートスタンプ
+Sunny Day
+にほんばれ
+Will-O-Wisp
+おにび
+Sky Attack
+ゴッドバード
+Brave Bird
+ブレイブバード
+Dragon Ascent
+ガリョウテンセイ
+Hurricane
+ぼうふう
+Aeroblast
+エアロブラスト
+Beak Blast
+くちばしキャノン
+Fly
+そらをとぶ
+Bounce
+とびはねる
+Drill Peck
+ドリルくちばし
+Oblivion Wing
+デスウイング
+Air Slash
+エアスラッシュ
+Chatter
+おしゃべり
+Aerial Ace
+つばめがえし
+Air Cutter
+エアカッター
+Pluck
+ついばむ
+Sky Drop
+フリーフォール
+Wing Attack
+つばさでうつ
+Acrobatics
+アクロバット
+Dual Wingbeat
+ダブルウイング
+Gust
+かぜおこし
+Peck
+つつく
+Defog
+きりばらい
+Feather Dance
+フェザーダンス
+Mirror Move
+オウムがえし
+Roost
+はねやすめ
+Tailwind
+おいかぜ
+Astral Barrage
+アストラルビット
+Shadow Force
+シャドーダイブ
+Poltergeist
+ポルターガイスト
+Moongeist Beam
+シャドーレイ
+Phantom Force
+ゴーストダイブ
+Spectral Thief
+シャドースチール
+Shadow Bone
+シャドーボーン
+Shadow Ball
+シャドーボール
+Spirit Shackle
+かげぬい
+Shadow Claw
+シャドークロー
+Hex
+たたりめ
+Ominous Wind
+あやしいかぜ
+Shadow Punch
+シャドーパンチ
+Shadow Sneak
+かげうち
+Astonish
+おどろかす
+Lick
+したでなめる
+Night Shade
+ナイトヘッド
+Confuse Ray
+あやしいひかり
+Curse
+のろい
+Destiny Bond
+みちづれ
+Grudge
+おんねん
+Nightmare
+あくむ
+Spite
+うらみ
+Trick-or-Treat
+ハロウィン
+Frenzy Plant
+ハードプラント
+Leaf Storm
+リーフストーム
+Solar Blade
+ソーラーブレード
+Petal Dance
+はなびらのまい
+Power Whip
+パワーウィップ
+Seed Flare
+シードフレア
+Solar Beam
+ソーラービーム
+Wood Hammer
+ウッドハンマー
+Energy Ball
+エナジーボール
+Leaf Blade
+リーフブレード
+Petal Blizzard
+はなふぶき
+Apple Acid
+りんごさん
+Drum Beating
+ドラムアタック
+Grass Pledge
+くさのちかい
+Grav Apple
+Gのちから
+Seed Bomb
+タネばくだん
+Giga Drain
+ギガドレイン
+Horn Leech
+ウッドホーン
+Grassy Glide
+グラススライダー
+Trop Kick
+トロピカルキック
+Leaf Tornado
+グラスミキサー
+Magical Leaf
+マジカルリーフ
+Needle Arm
+ニードルアーム
+Razor Leaf
+はっぱカッター
+Vine Whip
+つるのムチ
+Branch Poke
+えだづき
+Leafage
+このは
+Mega Drain
+メガドレイン
+Snap Trap
+トラバサミ
+Bullet Seed
+タネマシンガン
+Absorb
+すいとる
+Grass Knot
+くさむすび
+Aromatherapy
+アロマセラピー
+Cotton Guard
+コットンガード
+Cotton Spore
+わたほうし
+Forest's Curse
+もりののろい
+Grass Whistle
+くさぶえ
+Grassy Terrain
+グラスフィールド
+Ingrain
+ねをはる
+Jungle Healing
+ジャングルヒール
+Leech Seed
+やどりぎのタネ
+Sleep Powder
+ねむりごな
+Spiky Shield
+ニードルガード
+Spore
+キノコのほうし
+Strength Sap
+ちからをすいとる
+Stun Spore
+しびれごな
+Synthesis
+こうごうせい
+Worry Seed
+なやみのタネ
+Precipice Blades
+だんがいのつるぎ
+Earthquake
+じしん
+High Horsepower
+10まんばりき
+Earth Power
+だいちのちから
+Land's Wrath
+グランドフォース
+Thousand Arrows
+サウザンアロー
+Thousand Waves
+サウザンウェーブ
+Dig
+あなをほる
+Drill Run
+ドリルライナー
+Stomping Tantrum
+じだんだ
+Scorching Sands
+ねっさのだいち
+Bone Club
+ホネこんぼう
+Mud Bomb
+どろばくだん
+Bulldoze
+じならし
+Mud Shot
+マッドショット
+Bonemerang
+ホネブーメラン
+Sand Tomb
+すなじごく
+Bone Rush
+ボーンラッシュ
+Mud-Slap
+どろかけ
+Fissure
+じわれ
+Magnitude
+マグニチュード
+Mud Sport
+どろあそび
+Rototiller
+たがやす
+Sand Attack
+すなかけ
+Shore Up
+すなあつめ
+Spikes
+まきびし
+Freeze Shock
+フリーズボルト
+Ice Burn
+コールドフレア
+Glacial Lance
+ブリザードランス
+Blizzard
+ふぶき
+Ice Hammer
+アイスハンマー
+Ice Beam
+れいとうビーム
+Icicle Crash
+つららおとし
+Ice Punch
+れいとうパンチ
+Freeze-Dry
+フリーズドライ
+Aurora Beam
+オーロラビーム
+Glaciate
+こごえるせかい
+Ice Fang
+こおりのキバ
+Avalanche
+ゆきなだれ
+Frost Breath
+こおりのいぶき
+Icy Wind
+こごえるかぜ
+Ice Shard
+こおりのつぶて
+Powder Snow
+こなゆき
+Ice Ball
+アイスボール
+Icicle Spear
+つららばり
+Triple Axel
+トリプルアクセル
+Sheer Cold
+ぜったいれいど
+Aurora Veil
+オーロラベール
+Hail
+あられ
+Haze
+くろいきり
+Mist
+しろいきり
+Explosion
+だいばくはつ
+Self-Destruct
+じばく
+Giga Impact
+ギガインパクト
+Hyper Beam
+はかいこうせん
+Boomburst
+ばくおんぱ
+Last Resort
+とっておき
+Skull Bash
+ロケットずつき
+Double-Edge
+すてみタックル
+Head Charge
+アフロブレイク
+Mega Kick
+メガトンキック
+Multi-Attack
+マルチアタック
+Techno Blast
+テクノバスター
+Thrash
+あばれる
+Egg Bomb
+タマゴばくだん
+Judgment
+さばきのつぶて
+Hyper Voice
+ハイパーボイス
+Revelation Dance
+めざめるダンス
+Rock Climb
+ロッククライム
+Take Down
+とっしん
+Uproar
+さわぐ
+Body Slam
+のしかかり
+Extreme Speed
+しんそく
+Hyper Fang
+ひっさつまえば
+Mega Punch
+メガトンパンチ
+Razor Wind
+かまいたち
+Slam
+たたきつける
+Strength
+かいりき
+Tri Attack
+トライアタック
+Crush Claw
+ブレイククロー
+Relic Song
+いにしえのうた
+Chip Away
+なしくずし
+Dizzy Punch
+ピヨピヨパンチ
+Facade
+からげんき
+Headbutt
+ずつき
+Retaliate
+かたきうち
+Secret Power
+ひみつのちから
+Slash
+きりさく
+Smelling Salts
+きつけ
+Horn Attack
+つのでつく
+Stomp
+ふみつけ
+Covet
+ほしがる
+Hidden Power
+めざめるパワー
+Round
+りんしょう
+Swift
+スピードスター
+Vise Grip
+はさむ
+Cut
+いあいぎり
+Rapid Spin
+こうそくスピン
+Snore
+いびき
+Terrain Pulse
+だいちのはどう
+Weather Ball
+ウェザーボール
+Echoed Voice
+エコーボイス
+Fake Out
+ねこだまし
+False Swipe
+みねうち
+Hold Back
+てかげん
+Pay Day
+ネコにこばん
+Pound
+はたく
+Quick Attack
+でんこうせっか
+Scratch
+ひっかく
+Tackle
+たいあたり
+Double Hit
+ダブルアタック
+Feint
+フェイント
+Tail Slap
+スイープビンタ
+Rage
+いかり
+Spike Cannon
+とげキャノン
+Comet Punch
+れんぞくパンチ
+Fury Swipes
+みだれひっかき
+Barrage
+たまなげ
+Bind
+しめつける
+Double Slap
+おうふくビンタ
+Fury Attack
+みだれづき
+Wrap
+まきつく
+Constrict
+からみつく
+Bide
+がまん
+Crush Grip
+にぎりつぶす
+Endeavor
+がむしゃら
+Flail
+じたばた
+Frustration
+やつあたり
+Guillotine
+ハサミギロチン
+Horn Drill
+つのドリル
+Natural Gift
+しぜんのめぐみ
+Present
+プレゼント
+Return
+おんがえし
+Sonic Boom
+ソニックブーム
+Spit Up
+はきだす
+Super Fang
+いかりのまえば
+Trump Card
+きりふだ
+Wring Out
+しぼりとる
+Acupressure
+つぼをつく
+After You
+おさきにどうぞ
+Assist
+ねこのて
+Attract
+メロメロ
+Baton Pass
+バトンタッチ
+Belly Drum
+はらだいこ
+Bestow
+ギフトパス
+Block
+とおせんぼう
+Camouflage
+ほごしょく
+Captivate
+ゆうわく
+Celebrate
+おいわい
+Confide
+ないしょばなし
+Conversion
+テクスチャー
+Conversion 2
+テクスチャー2
+Copycat
+まねっこ
+Court Change
+コートチェンジ
+Defense Curl
+まるくなる
+Disable
+かなしばり
+Double Team
+かげぶんしん
+Encore
+アンコール
+Endure
+こらえる
+Entrainment
+なかまづくり
+Flash
+フラッシュ
+Focus Energy
+きあいだめ
+Follow Me
+このゆびとまれ
+Foresight
+みやぶる
+Glare
+へびにらみ
+Growl
+なきごえ
+Growth
+せいちょう
+Happy Hour
+ハッピータイム
+Harden
+かたくなる
+Heal Bell
+いやしのすず
+Helping Hand
+てだすけ
+Hold Hands
+てをつなぐ
+Howl
+とおぼえ
+Laser Focus
+とぎすます
+Leer
+にらみつける
+Lock-On
+ロックオン
+Lovely Kiss
+あくまのキッス
+Lucky Chant
+おまじない
+Me First
+さきどり
+Mean Look
+くろいまなざし
+Metronome
+ゆびをふる
+Milk Drink
+ミルクのみ
+Mimic
+ものまね
+Mind Reader
+こころのめ
+Minimize
+ちいさくなる
+Morning Sun
+あさのひざし
+Nature Power
+しぜんのちから
+Noble Roar
+おたけび
+Odor Sleuth
+かぎわける
+Pain Split
+いたみわけ
+Perish Song
+ほろびのうた
+Play Nice
+なかよくする
+Protect
+まもる
+Psych Up
+じこあんじ
+Recover
+じこさいせい
+Recycle
+リサイクル
+Reflect Type
+ミラータイプ
+Refresh
+リフレッシュ
+Roar
+ほえる
+Safeguard
+しんぴのまもり
+Scary Face
+こわいかお
+Screech
+いやなおと
+Sharpen
+かくばる
+Shell Smash
+からをやぶる
+Simple Beam
+シンプルビーム
+Sing
+うたう
+Sketch
+スケッチ
+Slack Off
+なまける
+Sleep Talk
+ねごと
+Smokescreen
+えんまく
+Soft-Boiled
+タマゴうみ
+Splash
+はねる
+Spotlight
+スポットライト
+Stockpile
+たくわえる
+Stuff Cheeks
+ほおばる
+Substitute
+みがわり
+Supersonic
+ちょうおんぱ
+Swagger
+いばる
+Swallow
+のみこむ
+Sweet Scent
+あまいかおり
+Swords Dance
+つるぎのまい
+Tail Whip
+しっぽをふる
+Tearful Look
+なみだめ
+Teatime
+おちゃかい
+Teeter Dance
+フラフラダンス
+Tickle
+くすぐる
+Transform
+へんしん
+Whirlwind
+ふきとばし
+Wish
+ねがいごと
+Work Up
+ふるいたてる
+Yawn
+あくび
+Belch
+ゲップ
+Gunk Shot
+ダストシュート
+Sludge Wave
+ヘドロウェーブ
+Shell Side Arm
+シェルアームズ
+Sludge Bomb
+ヘドロばくだん
+Poison Jab
+どくづき
+Cross Poison
+クロスポイズン
+Sludge
+ヘドロこうげき
+Venoshock
+ベノムショック
+Clear Smog
+クリアスモッグ
+Poison Fang
+どくどくのキバ
+Poison Tail
+ポイズンテール
+Acid
+ようかいえき
+Acid Spray
+アシッドボム
+Smog
+スモッグ
+Poison Sting
+どくばり
+Acid Armor
+とける
+Baneful Bunker
+トーチカ
+Coil
+とぐろをまく
+Corrosive Gas
+ふしょくガス
+Gastro Acid
+いえき
+Poison Gas
+どくガス
+Poison Powder
+どくのこな
+Purify
+じょうか
+Toxic
+どくどく
+Toxic Spikes
+どくびし
+Toxic Thread
+どくのいと
+Venom Drench
+ベノムトラップ
+Prismatic Laser
+プリズムレーザー
+Psycho Boost
+サイコブースト
+Future Sight
+みらいよち
+Synchronoise
+シンクロノイズ
+Dream Eater
+ゆめくい
+Photon Geyser
+フォトンゲイザー
+Psystrike
+サイコブレイク
+Freezing Glare
+いてつくしせん
+Psychic
+サイコキネシス
+Psychic Fangs
+サイコファング
+Eerie Spell
+ぶきみなじゅもん
+Expanding Force
+ワイドフォース
+Extrasensory
+じんつうりき
+Hyperspace Hole
+いじげんホール
+Psyshock
+サイコショック
+Zen Headbutt
+しねんのずつき
+Luster Purge
+ラスターパージ
+Mist Ball
+ミストボール
+Psycho Cut
+サイコカッター
+Psybeam
+サイケこうせん
+Heart Stamp
+ハートスタンプ
+Confusion
+ねんりき
+Stored Power
+アシストパワー
+Mirror Coat
+ミラーコート
+Psywave
+サイコウェーブ
+Agility
+こうそくいどう
+Ally Switch
+サイドチェンジ
+Amnesia
+ドわすれ
+Barrier
+バリアー
+Calm Mind
+めいそう
+Cosmic Power
+コスモパワー
+Gravity
+じゅうりょく
+Guard Split
+ガードシェア
+Guard Swap
+ガードスワップ
+Heal Block
+かいふくふうじ
+Heal Pulse
+いやしのはどう
+Healing Wish
+いやしのねがい
+Heart Swap
+ハートスワップ
+Hypnosis
+さいみんじゅつ
+Imprison
+ふういん
+Instruct
+さいはい
+Kinesis
+スプーンまげ
+Light Screen
+ひかりのかべ
+Lunar Dance
+みかづきのまい
+Magic Coat
+マジックコート
+Magic Powder
+まほうのこな
+Magic Room
+マジックルーム
+Meditate
+ヨガのポーズ
+Miracle Eye
+ミラクルアイ
+Power Split
+パワーシェア
+Power Swap
+パワースワップ
+Power Trick
+パワートリック
+Psychic Terrain
+サイコフィールド
+Psycho Shift
+サイコシフト
+Reflect
+リフレクター
+Rest
+ねむる
+Role Play
+なりきり
+Skill Swap
+スキルスワップ
+Speed Swap
+スピードスワップ
+Telekinesis
+テレキネシス
+Teleport
+テレポート
+Trick
+トリック
+Trick Room
+トリックルーム
+Wonder Room
+ワンダールーム
+Head Smash
+もろはのずつき
+Rock Wrecker
+がんせきほう
+Meteor Beam
+メテオビーム
+Diamond Storm
+ダイヤストーム
+Stone Edge
+ストーンエッジ
+Power Gem
+パワージェム
+Rock Slide
+いわなだれ
+Ancient Power
+げんしのちから
+Rock Tomb
+がんせきふうじ
+Rock Throw
+いわおとし
+Smack Down
+うちおとす
+Accelerock
+アクセルロック
+Rollout
+ころがる
+Rock Blast
+ロックブラスト
+Rock Polish
+ロックカット
+Sandstorm
+すなあらし
+Stealth Rock
+ステルスロック
+Tar Shot
+タールショット
+Wide Guard
+ワイドガード
+Doom Desire
+はめつのねがい
+Steel Beam
+てっていこうせん
+Steel Roller
+アイアンローラー
+Behemoth Bash
+きょじゅうだん
+Behemoth Blade
+きょじゅうざん
+Iron Tail
+アイアンテール
+Sunsteel Strike
+メテオドライブ
+Meteor Mash
+コメットパンチ
+Anchor Shot
+アンカーショット
+Flash Cannon
+ラスターカノン
+Iron Head
+アイアンヘッド
+Smart Strike
+スマートホーン
+Steel Wing
+はがねのつばさ
+Double Iron Bash
+ダブルパンツァー
+Mirror Shot
+ミラーショット
+Magnet Bomb
+マグネットボム
+Gear Grind
+ギアソーサー
+Metal Claw
+メタルクロー
+Bullet Punch
+バレットパンチ
+Gyro Ball
+ジャイロボール
+Heavy Slam
+ヘビーボンバー
+Metal Burst
+メタルバースト
+Autotomize
+ボディパージ
+Gear Up
+アシストギア
+Iron Defense
+てっぺき
+King's Shield
+キングシールド
+Metal Sound
+きんぞくおん
+Shift Gear
+ギアチェンジ
+Hydro Cannon
+ハイドロカノン
+Water Spout
+しおふき
+Hydro Pump
+ハイドロポンプ
+Origin Pulse
+こんげんのはどう
+Steam Eruption
+スチームバースト
+Crabhammer
+クラブハンマー
+Aqua Tail
+アクアテール
+Muddy Water
+だくりゅう
+Sparkling Aria
+うたかたのアリア
+Surf
+なみのり
+Fishious Rend
+エラがみ
+Liquidation
+アクアブレイク
+Dive
+ダイビング
+Scald
+ねっとう
+Snipe Shot
+ねらいうち
+Water Pledge
+みずのちかい
+Waterfall
+たきのぼり
+Razor Shell
+シェルブレード
+Brine
+しおみず
+Bubble Beam
+バブルこうせん
+Octazooka
+オクタンほう
+Flip Turn
+クイックターン
+Water Pulse
+みずのはどう
+Aqua Jet
+アクアジェット
+Bubble
+あわ
+Water Gun
+みずでっぽう
+Clamp
+からではさむ
+Whirlpool
+うずしお
+Surging Strikes
+すいりゅうれんだ
+Water Shuriken
+みずしゅりけん
+Aqua Ring
+アクアリング
+Life Dew
+いのちのしずく
+Rain Dance
+あまごい
+Soak
+みずびたし
+Water Sport
+みずあそび
+Withdraw
+からにこもる

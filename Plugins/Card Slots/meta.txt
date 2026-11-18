@@ -1,5 +1,0 @@
-Name       = Card Slots
-Version    = 1.0.0
-Essentials = 21.1
-Requires   = Pokemon TCG
-Credits    = InTheLight

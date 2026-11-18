@@ -10,6 +10,8 @@ Battle Candy Ms
 Bonbons Combat M
 Battle Candy Ls
 Bonbons Combat L
+Blood Balls
+Sang Balls
 GS Balls
 GS Balls
 Plip Balls
@@ -210,6 +212,16 @@ Umbrellas
 Parapluies
 Flashlights
 Lampes de poche
+Form Prisms
+Prismes Forme
+Exp. Alls
+Multi Exp Équipe
+Blood Shards
+Éclats de Sang
+Blood Ball Tops
+Hauts de Sang Ball
+Blood Ball Bottoms
+Bas de Sang Ball
 Repels
 Repousses
 Super Repels

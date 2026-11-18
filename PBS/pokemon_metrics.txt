@@ -6449,3 +6449,45 @@ BackSprite = 0,-8
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[BLOODCELEBI]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BLOODMELOETTA]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BLOODDEOXYS]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BLOODCRESSELIA]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[SAPUSAUR]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[CHARCOLT]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[RAINER]
+BackSprite = 0,-8
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 0

@@ -3242,6 +3242,10 @@ Elm's Aid: Choose This Pokemon?
 Ayudante de Elm: ¿Eliges este Pokémon?
 Here why dont you rest a while!
 ¡Toma, por qué no descansas un rato!
+You just unlocked a new skin!
+¡Acabas de desbloquear un aspecto nuevo!
+Check it out in the wardrob downstairs!
+¡Échale un vistazo en el armario de abajo!
 Oh... Are you all right? Well, you'll have better luck this time.
 Oh... ¿Estás bien? Bueno, esta vez tendrás más suerte.
 Take
@@ -4476,10 +4480,10 @@ I said... This area is off limits!
 He dicho... ¡que esta zona está prohibida!
 This area is off limits and your dumb!
 ¡Esta zona está prohibida y tú eres tonto!
-Open the player market?
-¿Abrir el mercado de jugadores?
 The door is locked!
 ¡La puerta está cerrada con llave!
+Open the player market?
+¿Abrir el mercado de jugadores?
 Hey why dont you purchase something!
 ¡Oye! ¿Por qué no compras algo?
 Hey Im a gambler and Id like to make a bet with you!
@@ -5350,6 +5354,18 @@ Please dont throw any balls at me!
 ¡Por favor, no me lances ninguna ball!
 (he faded from this world passing through you as he did)
 (se desvaneció de este mundo atravesándote al hacerlo)
+Kelly: Oh its you again?
+Kelly: ¿Oh, eres tú otra vez?
+Hmm... I have been searching for a use for this key i found over there in the water, but i cant seem to find any door it fits...
+Hmm... He estado buscando para qué sirve esta llave que encontré allí, en el agua, pero no consigo encontrar ninguna puerta en la que encaje...
+Maybe its old... but here you can have it for now!
+Quizás sea vieja... ¡pero toma, quédatela por ahora!
+(You obtained the secret key)
+(Has obtenido la llave secreta)
+Ok well Im off to investigate an issue here in kanto!
+¡Bueno, me voy a investigar un asunto aquí en Kanto!
+ALAKAZAM TELEPORT!
+¡ALAKAZAM, TELETRANSPORTE!
 #-------------------------------
 [Map160]
 KEKEKEKEKEKE!
@@ -5625,6 +5641,12 @@ I think Im lost!?
 (he faded from this world passin through you as he did)
 (se desvaneció de este mundo atravesándote al hacerlo)
 #-------------------------------
+[Map189]
+Door is locked!
+¡La puerta está cerrada con llave!
+You used the secret key on this door and it unlocks!
+¡Usaste la llave secreta en esta puerta y se abre!
+#-------------------------------
 [Map190]
 (Is this a pokemon?)
 (¿Esto es un pokémon?)
@@ -5702,6 +5724,10 @@ Come back tommorw!
 \G\CN¿No?\n¡Ven a jugar cuando quieras!
 The jackpot maxes out at 99,999 so no ones tokens get added to it after that... That must be how the house makes its money!
 El bote llega como máximo a 99.999, así que después de eso ya no se suman las fichas de nadie... ¡Así debe de ganar dinero la casa!
+This side is the blue table, the other side is the red table!
+¡Este lado es la mesa azul, el otro lado es la mesa roja!
+Make sure your playing the right tables!
+¡Asegúrate de jugar en la mesa correcta!
 Why not try some cards!
 ¡Por qué no pruebas con las cartas!
 Im on a luckey streak!
@@ -5808,6 +5834,16 @@ No
 500 fichas [10.000 $]
 Exit
 Salir
+TM107 - 4000 coins
+MT107 - 4000 fichas
+TM105 - 3500 coins
+MT105 - 3500 fichas
+TM103 - 4000 coins
+MT103 - 4000 fichas
+TM60 - 4500 coins
+MT60 - 4500 fichas
+TM57 - 4000 coins
+MT57 - 4000 fichas
 ABRA - 280 COINS
 ABRA - 280 FICHAS
 CLEFAIRY - 500 COINS
@@ -7338,6 +7374,12 @@ Only trainers who prove their worth can enter the Tower!
 ¡Solo los entrenadores que demuestren su valía pueden entrar en la Torre!
 Some people believe that the Ancient ones were once the 3 stone evolutions of Eevee but we of Ecruteak know the truth!
 Hay quien cree que los Antiguos fueron una vez las 3 evoluciones de Eevee con piedras, ¡pero los de Ciudad Iris conocemos la verdad!
+Lets have a duel
+Echemos un duelo
+Duel
+Duelo
+No
+No
 #-------------------------------
 [Map239]
 Is there anything better than hunting treasure?
@@ -8736,6 +8778,8 @@ An empty can!
 ¡Una lata vacía!
 Are you here to fulfill the pokemon request Oak made?
 ¿Vienes a cumplir el encargo de pokémon que hizo Oak?
+come out charizard!
+¡sal, charizard!
 Yes
 Sí
 No
@@ -9298,44 +9342,50 @@ NO
 NO
 #-------------------------------
 [Map395]
-Welcome to the bald heads club!
-¡Bienvenido al club de los calvos!
 Dont ever bet 1!
 ¡No apuestes nunca al 1!
+Welcome to the bald heads club!
+¡Bienvenido al club de los calvos!
+Theres a switch behind this poster! Press it?
+¡Hay un interruptor detrás de este póster! ¿Pulsarlo?
+Who wouldnt?
+¿Quién no lo haría?
 Im the head of this club! Lets have a battle!
 ¡Soy el jefe de este club! ¡Combatamos!
 Better Luck next time!
 ¡Más suerte la próxima vez!
+always bet on black!
+¡Apuesta siempre al negro!
+Ready to join?
+¿Listo para unirte?
 There isnt anything in here!
 ¡Aquí no hay nada!
 This is empty!
 ¡Está vacío!
 An empty can!
 ¡Una lata vacía!
-Ready to join?
-¿Listo para unirte?
-always bet on black!
-¡Apuesta siempre al negro!
 Dont listen to anyone who says we eat pokemon!
 ¡No hagas caso a quien diga que nos comemos a los pokémon!
-Why not try some cards!
-¡Por qué no pruebas con las cartas!
 I heard the bald heads club across the street eats pokemon!
 ¡He oído que el club de los calvos de enfrente se come a los pokémon!
+Why not try some cards!
+¡Por qué no pruebas con las cartas!
 All balmen play next to eachother!
 ¡Todos los calvos juegan uno al lado del otro!
-Mr. Game: Show me how you playt!
-Mr. Game: ¡Enséñame cómo juegas!
 We dont serve kids!
 ¡No servimos a niños!
-If you let us shave your head you can join our cult!
-¡Si nos dejas raparte la cabeza, puedes unirte a nuestra secta!
+Mr. Game: Show me how you playt!
+Mr. Game: ¡Enséñame cómo juegas!
 Never sit in an outside chair!
 ¡Nunca te sientes en una silla de fuera!
+If you let us shave your head you can join our cult!
+¡Si nos dejas raparte la cabeza, puedes unirte a nuestra secta!
+Yes
+Sí
+No
+No
 Duel
 Duelo
-No
-No
 #-------------------------------
 [Map396]
 You cant win this!
@@ -9402,6 +9452,12 @@ Buy
 Comprar
 Sell
 Vender
+#-------------------------------
+[Map402]
+This ship is meant to go to hoenn but its broken right now...
+Este barco debería ir a Hoenn, pero ahora mismo está averiado...
+That abra can tak you tho!
+¡Pero ese Abra puede llevarte!
 #-------------------------------
 [Map404]
 You cant win this!
@@ -10303,10 +10359,6 @@ No
 Gave up...
 Te rendiste...
 #-------------------------------
-[Map470]
-Im an event for later!
-¡Soy un evento para más adelante!
-#-------------------------------
 [Map471]
 I am Will of the Elite four!
 ¡Soy Mento, del Alto Mando!
@@ -10406,12 +10458,6 @@ No
 [Map477]
 Come back here when your ready!
 ¡Vuelve aquí cuando estés listo!
-Im gonna tell you a secret so listen close!
-Voy a contarte un secreto, ¡así que escucha con atención!
-This area isnt done but it will contain something \rMega cool!
-Esta zona no está terminada, pero contendrá algo \r¡Mega chulo!
-Dont forget it!
-¡No lo olvides!
 #-------------------------------
 [Map478]
 Oh hey, yeah this is my place, the inside looks better than the outside!
@@ -10800,3 +10846,49 @@ I hope you have a great journey, its time to part ways!
 Espero que tengas un gran viaje. ¡Es hora de separarnos!
 Looks like you just dont have the skill... come back another time!
 Parece que todavía no tienes la habilidad... ¡Vuelve en otro momento!
+#-------------------------------
+[Map503]
+You just unlocked a new skin!
+¡Acabas de desbloquear un aspecto nuevo!
+#-------------------------------
+[Map505]
+Theres a switch here press it?
+Aquí hay un interruptor. ¿Pulsarlo?
+Who Wouldnt!
+¡Quién no lo haría!
+Who Would!
+¡Quién lo haría!
+Yes
+Sí
+No
+No
+#-------------------------------
+[Map506]
+Theres a switch here press it?
+Aquí hay un interruptor. ¿Pulsarlo?
+Who Wouldnt!
+¡Quién no lo haría!
+Who Would!
+¡Quién lo haría!
+Yes
+Sí
+No
+No
+#-------------------------------
+[Map507]
+Press buttons?
+¿Pulsar los botones?
+You press all the buttons!
+¡Pulsas todos los botones!
+Creature: After Years of that prison I am finally able to wreck havoc on this whole World!!!
+Criatura: ¡Después de años en esa prisión, por fin puedo sembrar el caos en todo el mundo!
+Theres a switch here press it?
+Aquí hay un interruptor. ¿Pulsarlo?
+Who Wouldnt!
+¡Quién no lo haría!
+Who Would!
+¡Quién lo haría!
+Yes
+Sí
+No
+No

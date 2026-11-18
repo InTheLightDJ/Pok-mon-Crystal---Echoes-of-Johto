@@ -790,6 +790,8 @@ A Ball with a decent success rate.
 Poké Ball dalle ottime prestazioni: fornisce maggiori probabilità di cattura rispetto alla normale Poké Ball.
 An item for catching Pokémon.
 Strumento dotato di capsula usato per catturare Pokémon selvatici. Si lancia contro il bersaglio come una palla.
+A ball soaked in blood. The only ball that can hold Blood Mewtwo.
+Una Ball intrisa di sangue. L'unica che può trattenere Mewtwo Sanguinario.
 A Ball used in the Safari Zone.
 Poké Ball speciale usata in passato nella Zona Safari di Kanto e nella Gran Palude di Sinnoh.
 The Bug-Catching Contest Ball.
@@ -1502,5 +1504,15 @@ A tough umbrella that can batter trees to shake out hidden Pokémon, or help you
 Un ombrello resistente con cui scuotere gli alberi per far uscire i Pokémon nascosti, o per risalire le cascate.
 A bright torch that illuminates dark caves.
 Una torcia luminosa che illumina le grotte buie.
+A shimmering prism. Use it on a Pokémon that has other forms to change it into one of them at random.
+Un prisma scintillante. Usalo su un Pokémon che ha altre forme per trasformarlo in una di esse a caso.
+Gives every Pokémon in your party Exp. Points from battles, even ones that didn't fight. It can be turned on and off.
+Tutti i Pokémon della squadra ricevono Punti Esperienza dalle lotte, anche se non vi hanno partecipato. Si può accendere e spegnere.
+A shard of crystallized blood, still warm. Fused with both halves of a Blood Ball, it makes a whole one.
+Un frammento di sangue cristallizzato, ancora caldo. Fuso con le due metà di una Sangue Ball, ne forma una intera.
+The top half of a Blood Ball. Fused with the bottom half and a Blood Shard, it makes a whole one.
+La metà superiore di una Sangue Ball. Fusa con la metà inferiore e un Frammento di Sangue, ne forma una intera.
+The bottom half of a Blood Ball. Fused with the top half and a Blood Shard, it makes a whole one.
+La metà inferiore di una Sangue Ball. Fusa con la metà superiore e un Frammento di Sangue, ne forma una intera.
 A sack used to gather and hold volcanic ash.
 Sacco per raccogliere la cenere vulcanica.

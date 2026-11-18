@@ -117,7 +117,8 @@ module PinballGBC
       end
     end
 
-    # variant: bits 0-3 palette (8+ = OBJ), 4 xflip, 5 yflip, 6 color 0 transparent
+    # variant: bits 0-3 palette (8+ = OBJ), 4 xflip, 5 yflip, 6 color 0 transparent,
+    # 8+ a holiday board's colour set + 1 (its nil colours: the palette's)
     def tile_bitmap(m, slot, variant)
       h = (@cache[slot] ||= {})
       h[variant] ||= begin
@@ -125,6 +126,11 @@ module PinballGBC
         pal = variant & 15
         colors = pal >= 8 ? @obj_colors : @bg_colors
         cbase = (pal & 7) * 4
+        if variant >= 256
+          set = @recolor.colors[(variant >> 8) - 1]
+          colors = Array.new(4) { |c| set[c] || colors[cbase + c] }
+          cbase = 0
+        end
         xf = variant[4] == 1
         yf = variant[5] == 1
         clear0 = variant[6] == 1
@@ -184,6 +190,10 @@ module PinballGBC
           attr = vram[0x2000 + ti]
           slot = (attr[3] == 1 ? 384 : 0) + (unsigned ? tile : 256 + ((tile ^ 0x80) - 0x80))
           variant = (attr & 7) | ((attr & 0x60) >> 1)
+          # a holiday board's colours for this map cell (006b_HolidayBoards)
+          if (rc = @recolor) && map == rc.map && (id = rc.id(ti - map, attr & 7))
+            variant |= (id + 1) << 8
+          end
           sx = tx < x0 ? x0 - tx : 0
           sy = ty < y0 ? y0 - ty : 0
           w = (tx + 8 > x1 ? x1 - tx : 8) - sx

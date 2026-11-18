@@ -156,6 +156,12 @@ Nameless
 Sin Nombre
 Vengeful
 Vengativo
+Demon
+Demonio
+Bloodsoaked
+Ensangrentado
+God
+Dios
 Sphere
 Esfera
 Ghost Flame

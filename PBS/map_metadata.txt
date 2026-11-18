@@ -1286,8 +1286,15 @@ Bicycle = true
 Weather = Fog,20
 #-------------------------------
 [504]   # Bills secret garden
+Name = Bills secret garden
 Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Rain,10
+SnapEdges = true
+#-------------------------------
+[508]   # New Dimention
+Outdoor = true
+Bicycle = true
+Weather = Fog,100
 SnapEdges = true

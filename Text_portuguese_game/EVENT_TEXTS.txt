@@ -3242,6 +3242,10 @@ Elm's Aid: Choose This Pokemon?
 Assistente do Elm: Escolher este Pokémon?
 Here why dont you rest a while!
 Tome, por que você não descansa um pouco!
+You just unlocked a new skin!
+Você acabou de desbloquear um visual novo!
+Check it out in the wardrob downstairs!
+Confira no guarda-roupa lá embaixo!
 Oh... Are you all right? Well, you'll have better luck this time.
 Ah... Você está bem? Bom, você terá mais sorte desta vez.
 Take
@@ -4476,10 +4480,10 @@ I said... This area is off limits!
 Eu disse... Esta área é proibida!
 This area is off limits and your dumb!
 Esta área é proibida e você é burro!
-Open the player market?
-Abrir o mercado dos jogadores?
 The door is locked!
 A porta está trancada!
+Open the player market?
+Abrir o mercado dos jogadores?
 Hey why dont you purchase something!
 Ei, por que você não compra alguma coisa!
 Hey Im a gambler and Id like to make a bet with you!
@@ -5350,6 +5354,18 @@ Please dont throw any balls at me!
 Por favor, não jogue nenhuma bola em mim!
 (he faded from this world passing through you as he did)
 (ele sumiu deste mundo, atravessando você enquanto sumia)
+Kelly: Oh its you again?
+Kelly: Ah, é você de novo?
+Hmm... I have been searching for a use for this key i found over there in the water, but i cant seem to find any door it fits...
+Hmm... Estou procurando um uso para esta chave que encontrei ali na água, mas não consigo achar nenhuma porta em que ela sirva...
+Maybe its old... but here you can have it for now!
+Talvez seja velha... mas tome, pode ficar com ela por enquanto!
+(You obtained the secret key)
+(Você obteve a chave secreta)
+Ok well Im off to investigate an issue here in kanto!
+Bom, vou investigar um problema aqui em Kanto!
+ALAKAZAM TELEPORT!
+ALAKAZAM, TELETRANSPORTE!
 #-------------------------------
 [Map160]
 KEKEKEKEKEKE!
@@ -5625,6 +5641,12 @@ Acho que estou perdido!?
 (he faded from this world passin through you as he did)
 (ele sumiu deste mundo, atravessando você enquanto sumia)
 #-------------------------------
+[Map189]
+Door is locked!
+A porta está trancada!
+You used the secret key on this door and it unlocks!
+Você usou a chave secreta nesta porta e ela se destranca!
+#-------------------------------
 [Map190]
 (Is this a pokemon?)
 (Isso é um pokémon?)
@@ -5702,6 +5724,10 @@ Volte amanhã!
 \G\CNNão?\nVenha jogar qualquer hora!
 The jackpot maxes out at 99,999 so no ones tokens get added to it after that... That must be how the house makes its money!
 O jackpot vai no máximo até 99.999, então depois disso as fichas de ninguém entram nele... Deve ser assim que a casa ganha dinheiro!
+This side is the blue table, the other side is the red table!
+Este lado é a mesa azul, o outro lado é a mesa vermelha!
+Make sure your playing the right tables!
+Certifique-se de jogar na mesa certa!
 Why not try some cards!
 Por que não tenta as cartas!
 Im on a luckey streak!
@@ -5808,6 +5834,16 @@ Não
 500 fichas [$10.000]
 Exit
 Sair
+TM107 - 4000 coins
+MT107 - 4000 fichas
+TM105 - 3500 coins
+MT105 - 3500 fichas
+TM103 - 4000 coins
+MT103 - 4000 fichas
+TM60 - 4500 coins
+MT60 - 4500 fichas
+TM57 - 4000 coins
+MT57 - 4000 fichas
 ABRA - 280 COINS
 ABRA - 280 FICHAS
 CLEFAIRY - 500 COINS
@@ -7338,6 +7374,12 @@ Only trainers who prove their worth can enter the Tower!
 Só treinadores que provarem seu valor podem entrar na Torre!
 Some people believe that the Ancient ones were once the 3 stone evolutions of Eevee but we of Ecruteak know the truth!
 Algumas pessoas acreditam que os Antigos já foram as 3 evoluções por pedra do Eevee, mas nós, de Ecruteak, sabemos a verdade!
+Lets have a duel
+Vamos duelar
+Duel
+Duelar
+No
+Não
 #-------------------------------
 [Map239]
 Is there anything better than hunting treasure?
@@ -8736,6 +8778,8 @@ An empty can!
 Uma lata vazia!
 Are you here to fulfill the pokemon request Oak made?
 Você veio cumprir o pedido de pokémon que o Carvalho fez?
+come out charizard!
+apareça, charizard!
 Yes
 Sim
 No
@@ -9298,44 +9342,50 @@ NO
 NÃO
 #-------------------------------
 [Map395]
-Welcome to the bald heads club!
-Bem-vindo ao clube dos carecas!
 Dont ever bet 1!
 Nunca aposte no 1!
+Welcome to the bald heads club!
+Bem-vindo ao clube dos carecas!
+Theres a switch behind this poster! Press it?
+Tem um interruptor atrás deste pôster! Apertar?
+Who wouldnt?
+Quem não apertaria?
 Im the head of this club! Lets have a battle!
 Eu sou o chefe deste clube! Vamos batalhar!
 Better Luck next time!
 Mais sorte da próxima vez!
+always bet on black!
+sempre aposte no preto!
+Ready to join?
+Pronto para entrar?
 There isnt anything in here!
 Não tem nada aqui dentro!
 This is empty!
 Está vazio!
 An empty can!
 Uma lata vazia!
-Ready to join?
-Pronto para entrar?
-always bet on black!
-sempre aposte no preto!
 Dont listen to anyone who says we eat pokemon!
 Não dê ouvidos a ninguém que diga que comemos pokémon!
-Why not try some cards!
-Por que não tenta as cartas!
 I heard the bald heads club across the street eats pokemon!
 Ouvi dizer que o clube dos carecas do outro lado da rua come pokémon!
+Why not try some cards!
+Por que não tenta as cartas!
 All balmen play next to eachother!
 Todos os carecas jogam um do lado do outro!
-Mr. Game: Show me how you playt!
-Mr. Game: Me mostre como você joga!
 We dont serve kids!
 Não atendemos crianças!
-If you let us shave your head you can join our cult!
-Se você nos deixar raspar sua cabeça, pode entrar para nossa seita!
+Mr. Game: Show me how you playt!
+Mr. Game: Me mostre como você joga!
 Never sit in an outside chair!
 Nunca sente numa cadeira do lado de fora!
-Duel
-Duelar
+If you let us shave your head you can join our cult!
+Se você nos deixar raspar sua cabeça, pode entrar para nossa seita!
+Yes
+Sim
 No
 Não
+Duel
+Duelar
 #-------------------------------
 [Map396]
 You cant win this!
@@ -9402,6 +9452,12 @@ Buy
 Comprar
 Sell
 Vender
+#-------------------------------
+[Map402]
+This ship is meant to go to hoenn but its broken right now...
+Este navio deveria ir para Hoenn, mas está quebrado agora...
+That abra can tak you tho!
+Mas aquele Abra pode te levar!
 #-------------------------------
 [Map404]
 You cant win this!
@@ -10303,10 +10359,6 @@ Não
 Gave up...
 Desistiu...
 #-------------------------------
-[Map470]
-Im an event for later!
-Sou um evento para depois!
-#-------------------------------
 [Map471]
 I am Will of the Elite four!
 Eu sou o Will, da Elite dos Quatro!
@@ -10406,12 +10458,6 @@ Não
 [Map477]
 Come back here when your ready!
 Volte aqui quando estiver pronto!
-Im gonna tell you a secret so listen close!
-Vou contar um segredo, então escute com atenção!
-This area isnt done but it will contain something \rMega cool!
-Esta área não está pronta, mas vai conter algo \rMega legal!
-Dont forget it!
-Não esqueça!
 #-------------------------------
 [Map478]
 Oh hey, yeah this is my place, the inside looks better than the outside!
@@ -10800,3 +10846,49 @@ I hope you have a great journey, its time to part ways!
 Espero que você tenha uma ótima jornada. É hora de seguirmos caminhos diferentes!
 Looks like you just dont have the skill... come back another time!
 Parece que você ainda não tem habilidade... Volte outra hora!
+#-------------------------------
+[Map503]
+You just unlocked a new skin!
+Você acabou de desbloquear um visual novo!
+#-------------------------------
+[Map505]
+Theres a switch here press it?
+Tem um interruptor aqui. Apertar?
+Who Wouldnt!
+Quem não apertaria!
+Who Would!
+Quem apertaria!
+Yes
+Sim
+No
+Não
+#-------------------------------
+[Map506]
+Theres a switch here press it?
+Tem um interruptor aqui. Apertar?
+Who Wouldnt!
+Quem não apertaria!
+Who Would!
+Quem apertaria!
+Yes
+Sim
+No
+Não
+#-------------------------------
+[Map507]
+Press buttons?
+Apertar os botões?
+You press all the buttons!
+Você aperta todos os botões!
+Creature: After Years of that prison I am finally able to wreck havoc on this whole World!!!
+Criatura: Depois de anos naquela prisão, finalmente posso causar o caos no mundo inteiro!!!
+Theres a switch here press it?
+Tem um interruptor aqui. Apertar?
+Who Wouldnt!
+Quem não apertaria!
+Who Would!
+Quem apertaria!
+Yes
+Sim
+No
+Não
