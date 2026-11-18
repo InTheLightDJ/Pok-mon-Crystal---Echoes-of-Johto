@@ -1,0 +1,2210 @@
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RENDERPARAMS.HLSLI.RW.RULE
+setlocal
+clang -x c -E -P "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RenderParams.hlsli" -o "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RenderParams.hlsli.rw" "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RENDERPARAMS.HLSLI.RW.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RenderParams.hlsli.rw" RenderParamsText "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RenderParams.hlsli.rw.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RenderParams.hlsli.rw.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSLIBRARY.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -D LIBRARY -T lib_6_3 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibrary.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSLIBRARY.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibrary.hlsl.dxil" RasterPSLibraryBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibrary.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibrary.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSLIBRARYMS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -D LIBRARY -T lib_6_3 "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibraryMS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSLIBRARYMS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibraryMS.hlsl.dxil" RasterPSLibraryMSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibraryMS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSLibraryMS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSLIBRARY.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -D LIBRARY -T lib_6_3 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSLibrary.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSLIBRARY.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSLibrary.hlsl.dxil" RasterVSLibraryBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSLibrary.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSLibrary.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMIC.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D DYNAMIC_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMIC.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.dxil" RasterPSDynamicBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMIC.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D DYNAMIC_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMIC.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.spv" RasterPSDynamicBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamic.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMICMS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D DYNAMIC_RENDER_PARAMS" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMICMS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.dxil" RasterPSDynamicMSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMICMS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D DYNAMIC_RENDER_PARAMS" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSDYNAMICMS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.spv" RasterPSDynamicMSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSDynamicMS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANT.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SPEC_CONSTANT_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstant.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANT.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstant.hlsl.spv" RasterPSSpecConstantBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstant.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstant.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTMS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SPEC_CONSTANT_RENDER_PARAMS" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantMS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTMS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantMS.hlsl.spv" RasterPSSpecConstantMSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantMS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantMS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTFLAT.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SPEC_CONSTANT_RENDER_PARAMS" "-D VERTEX_FLAT_COLOR" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlat.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTFLAT.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlat.hlsl.spv" RasterPSSpecConstantFlatBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlat.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlat.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTFLATMS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SPEC_CONSTANT_RENDER_PARAMS" "-D VERTEX_FLAT_COLOR" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlatMS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERPSSPECCONSTANTFLATMS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlatMS.hlsl.spv" RasterPSSpecConstantFlatMSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlatMS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterPSSpecConstantFlatMS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSDYNAMIC.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "-D DYNAMIC_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSDYNAMIC.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.dxil" RasterVSDynamicBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSDYNAMIC.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "-D DYNAMIC_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSDYNAMIC.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.spv" RasterVSDynamicBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSDynamic.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSSPECCONSTANT.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "-D SPEC_CONSTANT_RENDER_PARAMS" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstant.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSSPECCONSTANT.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstant.hlsl.spv" RasterVSSpecConstantBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstant.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstant.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSSPECCONSTANTFLAT.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "-D SPEC_CONSTANT_RENDER_PARAMS" "-D VERTEX_FLAT_COLOR" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RasterVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstantFlat.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RASTERVSSPECCONSTANTFLAT.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstantFlat.hlsl.spv" RasterVSSpecConstantFlatBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstantFlat.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RasterVSSpecConstantFlat.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESCLEARCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesClearCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESCLEARCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.dxil" FbChangesClearCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESCLEARCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesClearCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESCLEARCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.spv" FbChangesClearCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesClearCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWCOLORPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesDrawColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWCOLORPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.dxil" FbChangesDrawColorPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWCOLORPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesDrawColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWCOLORPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.spv" FbChangesDrawColorPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawColorPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWDEPTHPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesDrawDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWDEPTHPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.dxil" FbChangesDrawDepthPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWDEPTHPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbChangesDrawDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBCHANGESDRAWDEPTHPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.spv" FbChangesDrawDepthPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbChangesDrawDepthPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYCHANGESCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReadAnyChangesCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYCHANGESCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.dxil" FbReadAnyChangesCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYCHANGESCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReadAnyChangesCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYCHANGESCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.spv" FbReadAnyChangesCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyChangesCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREINTERPRETCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReinterpretCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREINTERPRETCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.dxil" FbReinterpretCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREINTERPRETCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReinterpretCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREINTERPRETCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.spv" FbReinterpretCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReinterpretCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYFULLCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReadAnyFullCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYFULLCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.dxil" FbReadAnyFullCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYFULLCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbReadAnyFullCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBREADANYFULLCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.spv" FbReadAnyFullCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbReadAnyFullCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITECOLORCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteColorCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITECOLORCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.dxil" FbWriteColorCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITECOLORCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" -O0 "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteColorCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITECOLORCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.spv" FbWriteColorCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteColorCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteDepthCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.dxil" FbWriteDepthCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteDepthCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.spv" FbWriteDepthCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCSMS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteDepthCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCSMS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.dxil" FbWriteDepthCSMSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCSMS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FbWriteDepthCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FBWRITEDEPTHCSMS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.spv" FbWriteDepthCSMSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FbWriteDepthCSMS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\GAUSSIANFILTERRGB3X3CS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/GaussianFilterRGB3x3CS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\GAUSSIANFILTERRGB3X3CS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.dxil" GaussianFilterRGB3x3CSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\GAUSSIANFILTERRGB3X3CS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/GaussianFilterRGB3x3CS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\GAUSSIANFILTERRGB3X3CS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.spv" GaussianFilterRGB3x3CSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/GaussianFilterRGB3x3CS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BOXFILTERCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/BoxFilterCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BOXFILTERCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.dxil" BoxFilterCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BOXFILTERCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/BoxFilterCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BOXFILTERCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.spv" BoxFilterCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BoxFilterCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BICUBICSCALINGCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/BicubicScalingCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BICUBICSCALINGCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.dxil" BicubicScalingCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BICUBICSCALINGCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/BicubicScalingCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\BICUBICSCALINGCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.spv" BicubicScalingCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/BicubicScalingCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMAVERAGECS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramAverageCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMAVERAGECS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.dxil" HistogramAverageCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMAVERAGECS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramAverageCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMAVERAGECS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.spv" HistogramAverageCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramAverageCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMCLEARCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramClearCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMCLEARCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.dxil" HistogramClearCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMCLEARCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramClearCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMCLEARCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.spv" HistogramClearCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramClearCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMSETCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramSetCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMSETCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.dxil" HistogramSetCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMSETCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/HistogramSetCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\HISTOGRAMSETCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.spv" HistogramSetCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/HistogramSetCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IDLECS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/IdleCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IDLECS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.dxil" IdleCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IDLECS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/IdleCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IDLECS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.spv" IdleCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/IdleCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\LUMINANCEHISTOGRAMCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/LuminanceHistogramCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\LUMINANCEHISTOGRAMCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.dxil" LuminanceHistogramCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\LUMINANCEHISTOGRAMCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/LuminanceHistogramCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\LUMINANCEHISTOGRAMCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.spv" LuminanceHistogramCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/LuminanceHistogramCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISEADDPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D ADD_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISEADDPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.dxil" PostBlendDitherNoiseAddPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISEADDPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D ADD_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISEADDPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.spv" PostBlendDitherNoiseAddPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseAddPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SUB_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.dxil" PostBlendDitherNoiseSubPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SUB_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.spv" PostBlendDitherNoiseSubPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBNEGATIVEPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SUB_MODE" "-D NEGATIVE_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBNEGATIVEPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.dxil" PostBlendDitherNoiseSubNegativePSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBNEGATIVEPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SUB_MODE" "-D NEGATIVE_MODE" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostBlendDitherNoisePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTBLENDDITHERNOISESUBNEGATIVEPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.spv" PostBlendDitherNoiseSubNegativePSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostBlendDitherNoiseSubNegativePS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPMODIFYCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPModifyCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPMODIFYCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.dxil" RSPModifyCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPMODIFYCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPModifyCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPMODIFYCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.spv" RSPModifyCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPModifyCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPPROCESSCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPProcessCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPPROCESSCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.dxil" RSPProcessCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPPROCESSCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPProcessCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPPROCESSCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.spv" RSPProcessCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPProcessCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPWORLDCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPWorldCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPWORLDCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.dxil" RSPWorldCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPWORLDCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPWorldCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPWORLDCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.spv" RSPWorldCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPWorldCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPSMOOTHNORMALCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPSmoothNormalCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPSMOOTHNORMALCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.dxil" RSPSmoothNormalCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPSMOOTHNORMALCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPSmoothNormalCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPSMOOTHNORMALCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.spv" RSPSmoothNormalCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPSmoothNormalCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPVertexTestZCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.dxil" RSPVertexTestZCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPVertexTestZCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.spv" RSPVertexTestZCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCSMS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPVertexTestZCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCSMS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.dxil" RSPVertexTestZCSMSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCSMS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "-D MULTISAMPLING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RSPVertexTestZCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RSPVERTEXTESTZCSMS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.spv" RSPVertexTestZCSMSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RSPVertexTestZCSMS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTHPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTHPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.dxil" RtCopyColorToDepthPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTHPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTHPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.spv" RtCopyColorToDepthPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepthPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH2XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH2XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.dxil" RtCopyColorToDepth2XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH2XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH2XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.spv" RtCopyColorToDepth2XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth2XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH4XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH4XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.dxil" RtCopyColorToDepth4XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH4XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH4XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.spv" RtCopyColorToDepth4XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth4XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH8XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH8XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.dxil" RtCopyColorToDepth8XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH8XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyColorToDepthPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYCOLORTODEPTH8XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.spv" RtCopyColorToDepth8XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyColorToDepth8XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLORPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLORPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.dxil" RtCopyDepthToColorPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLORPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLORPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.spv" RtCopyDepthToColorPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColorPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR2XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR2XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.dxil" RtCopyDepthToColor2XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR2XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR2XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.spv" RtCopyDepthToColor2XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor2XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR4XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR4XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.dxil" RtCopyDepthToColor4XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR4XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR4XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.spv" RtCopyDepthToColor4XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor4XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR8XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR8XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.dxil" RtCopyDepthToColor8XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR8XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/RtCopyDepthToColorPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\RTCOPYDEPTHTOCOLOR8XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.spv" RtCopyDepthToColor8XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/RtCopyDepthToColor8XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURECOPYPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureCopyPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURECOPYPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.dxil" TextureCopyPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURECOPYPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureCopyPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURECOPYPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.spv" TextureCopyPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureCopyPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTUREDECODECS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureDecodeCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTUREDECODECS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.dxil" TextureDecodeCSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTUREDECODECS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E CSMain "-T cs_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureDecodeCS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTUREDECODECS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.spv" TextureDecodeCSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureDecodeCS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES2XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES2XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.dxil" TextureResolveSamples2XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES2XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_2X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES2XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.spv" TextureResolveSamples2XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples2XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES4XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES4XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.dxil" TextureResolveSamples4XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES4XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_4X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES4XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.spv" TextureResolveSamples4XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples4XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES8XPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES8XPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.dxil" TextureResolveSamples8XPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES8XPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D SAMPLES_8X" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/TextureResolvePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\TEXTURERESOLVESAMPLES8XPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.spv" TextureResolveSamples8XPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/TextureResolveSamples8XPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSREGULAR.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/VideoInterfacePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSREGULAR.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.dxil" VideoInterfacePSRegularBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSREGULAR.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/VideoInterfacePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSREGULAR.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.spv" VideoInterfacePSRegularBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSRegular.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSPIXEL.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D PIXEL_ANTIALIASING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/VideoInterfacePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSPIXEL.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.dxil" VideoInterfacePSPixelBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSPIXEL.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "-D PIXEL_ANTIALIASING" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/VideoInterfacePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\VIDEOINTERFACEPSPIXEL.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.spv" VideoInterfacePSPixelBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/VideoInterfacePSPixel.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FULLSCREENVS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FullScreenVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FULLSCREENVS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.dxil" FullScreenVSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FULLSCREENVS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/FullScreenVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\FULLSCREENVS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.spv" FullScreenVSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/FullScreenVS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DVS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/Im3DVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DVS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.dxil" Im3DVSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DVS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E VSMain "-T vs_6_3" -fvk-invert-y "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/Im3DVS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DVS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.spv" Im3DVSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DVS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\COMPOSEPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/ComposePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\COMPOSEPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.dxil" ComposePSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\COMPOSEPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/ComposePS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\COMPOSEPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.spv" ComposePSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/ComposePS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\DEBUGPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/DebugPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\DEBUGPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.dxil" DebugPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\DEBUGPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/DebugPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\DEBUGPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.spv" DebugPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/DebugPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/Im3DPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.dxil" Im3DPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/Im3DPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\IM3DPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.spv" Im3DPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/Im3DPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTPROCESSPS.HLSL.DXIL.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -Wno-ignored-attributes "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostProcessPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.dxil"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTPROCESSPS.HLSL.DXIL.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.dxil" PostProcessPSBlobDXIL "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.dxil.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.dxil.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTPROCESSPS.HLSL.SPV.RULE
+setlocal
+"D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\bin\x64\dxc.exe" -spirv -fspv-target-env=vulkan1.0 -fvk-use-dx-layout "-ID:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src" -E PSMain "-T ps_6_3" "D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/shaders/PostProcessPS.hlsl" /Fo "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.spv"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\CMAKEFILES\FF7D1255B6881158596FC6A12976EAF7\POSTPROCESSPS.HLSL.SPIRV.C.RULE
+setlocal
+..\Release\file_to_c.exe "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.spv" PostProcessPSBlobSPIRV "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.spirv.c" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/src/shaders/PostProcessPS.hlsl.spirv.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\TOOLS\ZELDA64RECOMP\LIB\RT64\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

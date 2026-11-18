@@ -1,0 +1,840 @@
+=== thread 21300
+  00007FF867896A64 ZwDelayExecution+0x14
+  00007FF867803194 RtlDelayExecution+0x34
+  00007FF864BACCA1 SleepEx+0x91
+  00007FF61E7B0753 recomp::start+0x2A3   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:987
+  00007FF61E7720E4 main+0x5B4   D:\created games\Pokemon-game\v21\Stadium-mod\port\src\main.cpp:221
+  00007FF61F4E2B38 __scrt_common_main_seh+0x10C   D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31600
+  00007FF86789A0B4 NtWaitForWorkViaWorkerFactory+0x14
+  00007FF867754D0E TpCallbackMayRunLong+0x1A0E
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 6028
+  00007FF86789A0B4 NtWaitForWorkViaWorkerFactory+0x14
+  00007FF867754D0E TpCallbackMayRunLong+0x1A0E
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35592
+  00007FF86789A0B4 NtWaitForWorkViaWorkerFactory+0x14
+  00007FF867754D0E TpCallbackMayRunLong+0x1A0E
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 36288
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EF1C2BC recomp::mods::ModContext::dirty_mod_configuration_thread_process+0x26C   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mods.cpp:750
+  00007FF61EF6797C std::thread::_Invoke<std::tuple<void (recomp::mods::ModContext::*)(),recomp::mods::ModContext *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 36988
+  00007FF86789A0B4 NtWaitForWorkViaWorkerFactory+0x14
+  00007FF867754D0E TpCallbackMayRunLong+0x1A0E
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 11892
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FFE7A7C798D SDL_DYNAPI_entry+0x12BDDD
+  00007FFE7A674C76 ?+0x0
+  00007FFE7A71A577 SDL_DYNAPI_entry+0x7E9C7
+  00007FFE7A7D49CE SDL_DYNAPI_entry+0x138E1E
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32824
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF86116CAF8 CoreUICreateEx+0xBDF8
+  00007FF86116C7D3 CoreUICreateEx+0xBAD3
+  00007FF86116C42E CoreUICreateEx+0xB72E
+  00007FF86116B47C CoreUICreateEx+0xA77C
+  00007FF86116AA07 CoreUICreateEx+0x9D07
+  00007FF86113F734 CoreUICallSend+0x95A4
+  00007FF86113F2CD CoreUICallSend+0x913D
+  00007FF86113E8D8 CoreUICallSend+0x8748
+  00007FF8611AB2D6 CoreUICallCreateEndpointHost+0x3766
+  00007FF8611A3CAF CoreUICreate+0x13EF
+  00007FF86117D75B CoreUICreateEx+0x1CA5B
+  00007FF83899BDE9 Ordinal2604+0x2FB9
+  00007FF83899BD29 Ordinal2604+0x2EF9
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32452
+  00007FF867896A64 ZwDelayExecution+0x14
+  00007FF867803194 RtlDelayExecution+0x34
+  00007FF864BACCA1 SleepEx+0x91
+  00007FF853C61F07 DllGetClassObject+0x472C7
+  00007FF853C6204C DllGetClassObject+0x4740C
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 34316
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61E7E4B02 moodycamel::LightweightSemaphore::waitWithPartialSpinning+0x72   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\concurrentqueue\lightweightsemaphore.h:295
+  00007FF61E7E27FA gfx_thread_func+0x21A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\events.cpp:370
+  00007FF61E7E768F std::thread::_Invoke<std::tuple<void (*)(unsigned char *, moodycamel::LightweightSemaphore *, ultramodern::renderer::WindowHandle),unsigned char *,moodycamel::LightweightSemaphore *,ultramodern::renderer::WindowHandle>,0,1,2,3>+0x2F   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35588
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61E7E22B9 task_thread_func+0x459   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\events.cpp:289
+  00007FF61E7E76F0 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, moodycamel::LightweightSemaphore *),unsigned char *,moodycamel::LightweightSemaphore *>,0,1,2>+0x20   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31764
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF86496B357 I_CryptWalkAllLruCacheEntries+0x147
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 29312
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF84B4C7D70 NVDEV_Thunk+0x245F0
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 25512
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 6940
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF84B52BA4F NVDEV_Thunk+0x882CF
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 37000
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF865363D2D std::time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::_Getcat+0xBBD
+  00007FF86535F4A9 Cnd_wait+0x19
+  00007FFE5A41698A ?+0x0
+  00007FFE5A47F564 D3D12GetInterface+0x23964
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31092
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF865363D2D std::time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::_Getcat+0xBBD
+  00007FF86535F4A9 Cnd_wait+0x19
+  00007FFE5A41698A ?+0x0
+  00007FFE5A47F564 D3D12GetInterface+0x23964
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 37720
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF865363D2D std::time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::_Getcat+0xBBD
+  00007FF86535F4A9 Cnd_wait+0x19
+  00007FFE5A41698A ?+0x0
+  00007FFE5A47F564 D3D12GetInterface+0x23964
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 33332
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF865363D2D std::time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::_Getcat+0xBBD
+  00007FF86535F4A9 Cnd_wait+0x19
+  00007FFE5A41698A ?+0x0
+  00007FFE5A47F564 D3D12GetInterface+0x23964
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31260
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 26056
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 23928
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31800
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 28940
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 36896
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 4716
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 23600
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 25272
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 37628
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19380
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 9980
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 34768
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 27328
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19724
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32180
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31884
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 16936
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 34240
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 37192
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31804
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35480
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 12360
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 36380
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 24884
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 26252
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 26500
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F0388A8 RT64::RasterShaderCache::CompilationThread::loop+0x138   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_raster_shader_cache.cpp:46
+  00007FF61F03ABCC std::thread::_Invoke<std::tuple<void (RT64::RasterShaderCache::CompilationThread::*)(),RT64::RasterShaderCache::CompilationThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19748
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFEE589 RT64::TextureCache::uploadThreadLoop+0x369   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:992
+  00007FF61F0275AC std::thread::_Invoke<std::tuple<void (RT64::TextureCache::*)(),RT64::TextureCache *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 13672
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 13180
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 33360
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19784
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31888
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 27008
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35356
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32332
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 25516
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 25248
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19180
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 37840
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 9456
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 16540
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32796
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84ACB2C36 NVAPI_DirectMethods+0x32D16
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 7060
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFECE89 RT64::TextureCache::StreamThread::loop+0x179   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_texture_cache.cpp:421
+  00007FF61F026E6C std::thread::_Invoke<std::tuple<void (RT64::TextureCache::StreamThread::*)(),RT64::TextureCache::StreamThread *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 25344
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 15916
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 6648
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 30264
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 26780
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFC494A RT64::WorkloadQueue::renderThreadLoop+0x27A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\hle\rt64_workload_queue.cpp:865
+  00007FF61EFCD90C std::thread::_Invoke<std::tuple<void (RT64::WorkloadQueue::*)(),RT64::WorkloadQueue *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 29684
+  00007FF867896A64 ZwDelayExecution+0x14
+  00007FF867803194 RtlDelayExecution+0x34
+  00007FF864BACCA1 SleepEx+0x91
+  00007FF61EFC66AA RT64::WorkloadQueue::idleThreadLoop+0xCA   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\hle\rt64_workload_queue.cpp:1170
+  00007FF61EFCD90C std::thread::_Invoke<std::tuple<void (RT64::WorkloadQueue::*)(),RT64::WorkloadQueue *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 20452
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61EFC13E2 RT64::PresentQueue::threadLoop+0x272   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\hle\rt64_present_queue.cpp:468
+  00007FF61EFC309C std::thread::_Invoke<std::tuple<void (RT64::PresentQueue::*)(),RT64::PresentQueue *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31080
+  00007FF86789A054 ZwWaitForAlertByThreadId+0x14
+  00007FF8677918EE RtlSleepConditionVariableSRW+0x1DE
+  00007FF864B3AE38 SleepConditionVariableSRW+0x38
+  00007FF848DB76EA Cnd_wait+0x2A
+  00007FF61F03CBB7 RT64::BufferUploader::threadLoop+0x107   D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\render\rt64_buffer_uploader.cpp:49
+  00007FF61F03D93C std::thread::_Invoke<std::tuple<void (RT64::BufferUploader::*)(),RT64::BufferUploader *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 32856
+  00007FF867896A64 ZwDelayExecution+0x14
+  00007FF867803194 RtlDelayExecution+0x34
+  00007FF864BACCA1 SleepEx+0x91
+  00007FF61E7E177C vi_thread_func+0x31C   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\events.cpp:213
+  00007FF61E7E7748 std::thread::_Invoke<std::tuple<void (*)()>,0>+0x18   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35624
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EF9D218 timer_thread+0x1D8   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\timer.cpp:109
+  00007FF61E7E092C std::thread::_Invoke<std::tuple<void (*)(unsigned char *),unsigned char *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 31316
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61E7E4B02 moodycamel::LightweightSemaphore::waitWithPartialSpinning+0x72   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\concurrentqueue\lightweightsemaphore.h:295
+  00007FF61EFA25CA thread_cleaner_func+0xBA   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:352
+  00007FF61E7E7748 std::thread::_Invoke<std::tuple<void (*)()>,0>+0x18   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35272
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61E7DF5BB saving_thread_func+0x14B   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\pi.cpp:149
+  00007FF61E7E092C std::thread::_Invoke<std::tuple<void (*)(unsigned char *),unsigned char *>,0,1>+0x1C   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 26588
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EF95F58 ultramodern::wait_for_external_message+0xA8   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:55
+  00007FF61F0F5108 pause_self+0x28   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\scheduling.cpp:36
+  00007FF61EA0DC97 Idle_ThreadEntry+0x177   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_4.c:7774
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 35760
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61EDA7FD3 crash_screen_thread_entry+0x113   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_28.c:7764
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 22328
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61EC56FBE thread20_rsp+0x10E   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_20.c:37782
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 19080
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61EA63779 func_80005194+0x1B9   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_6.c:5319
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 36328
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61ED7818D func_80004CF4+0x5D   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_27.c:6926
+  00007FF61EB6FE6B func_8000D3A8+0x32B   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_13.c:39804
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 33752
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61ED7818D func_80004CF4+0x5D   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_27.c:6926
+  00007FF61EA197F3 func_800015A8+0x1D3   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_4.c:16769
+  00007FF61E8FC03F func_8000183C+0x3DF   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_34.c:15955
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 18120
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61ED7818D func_80004CF4+0x5D   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_27.c:6926
+  00007FF61EB32301 SoftReset_Thread+0x1C1   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_12.c:21468
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 10496
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61EDB2680 func_80001B7C+0x50   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_28.c:16608
+  00007FF61EBAB9A6 func_80007778+0x56   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_16.c:11653
+  00007FF61E867BE0 func_82502F44+0x130   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_15.c:4856
+  00007FF61E9CCB07 func_82504370+0x337   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_2.c:32175
+  00007FF61EB84A16 func_825046AC+0x3D6   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_14.c:12753
+  00007FF61E7B7859 func_80029008+0x99   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_11.c:2957
+  00007FF61EECC345 func_8002F2A0+0x305   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_37.c:31918
+  00007FF61E8CE3C8 func_8002A670+0x38   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_33.c:22024
+  00007FF61EBD4BD8 Game_Thread+0x318   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_17.c:8055
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 4556
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF84B2CF562 OpenAdapter10+0x147262
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 24100
+  00007FF867896F34 ZwWaitForMultipleObjects+0x14
+  00007FF864B3AB53 WaitForMultipleObjectsEx+0x123
+  00007FF864B3AA21 WaitForMultipleObjects+0x11
+  00007FF84B527207 NVDEV_Thunk+0x83A87
+  00007FF84B6024DA NVDEV_Thunk+0x15ED5A
+  00007FF84BA1A2AA NVDEV_Thunk+0x576B2A
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C
+=== thread 29572
+  00007FF867896464 NtWaitForSingleObject+0x14
+  00007FF864B3427F WaitForSingleObjectEx+0xAF
+  00007FF61EFA18FB wait_for_resumed+0xBB   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:154
+  00007FF61EF962EA do_recv+0x4A   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:140
+  00007FF61EF965AD osRecvMesg+0x2D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp:216
+  00007FF61EA049C8 osRecvMesg_recomp+0x18   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp:53
+  00007FF61E7DC76C func_80019600+0x14C   D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\RecompiledFuncs\funcs_11.c:34591
+  00007FF61E7ACD14 run_thread_function+0x214   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp:491
+  00007FF61EFA20BD _thread_func+0x10D   D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp:225
+  00007FF61EFA2D23 std::thread::_Invoke<std::tuple<void (*)(unsigned char *, int, int, int, UltraThreadContext *),unsigned char *,int,int,int,UltraThreadContext *>,0,1,2,3,4,5>+0x33   C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\thread:61
+  00007FF86520CD30 wcsrchr+0x150
+  00007FF865CBDDA7 BaseThreadInitThunk+0x17
+  00007FF8677F9C5C RtlUserThreadStart+0x2C

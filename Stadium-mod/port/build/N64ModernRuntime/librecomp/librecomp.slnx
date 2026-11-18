@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6ad3f5b7-1c16-3608-b726-f579835eeaba" DefaultStartup="true">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="librecomp.vcxproj"/>
+		<BuildDependency Project="miniz/miniz.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="312cb608-13cc-39e9-8fcd-4924ac249a87">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="N64Recomp/LiveRecomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="19b6fb63-796b-3d72-b4a9-41294dac0ef8">
+		<BuildDependency Project="N64Recomp/N64Recomp.vcxproj"/>
+		<BuildDependency Project="N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64Recomp/rabbitizer.vcxproj"/>
+	</Project>
+	<Project Path="N64Recomp/N64Recomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dd2d1d3-52b2-3efa-b0c3-072d6e554c1c">
+		<BuildDependency Project="N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64Recomp/rabbitizer.vcxproj"/>
+	</Project>
+	<Project Path="N64Recomp/SymbolLists.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9f78a6bb-d9cf-371b-884d-15ff73228df0">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="eaf4df82-2e03-3087-bf23-f9fa5f5d0774"/>
+	<Project Path="N64Recomp/lib/fmt/fmt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a842285e-2552-3ca9-b55e-d395b7f5b600">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="librecomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="525f1774-a313-34f1-b6e3-e371d227b7c7">
+		<BuildDependency Project="N64Recomp/LiveRecomp.vcxproj"/>
+		<BuildDependency Project="N64Recomp/N64Recomp.vcxproj"/>
+		<BuildDependency Project="N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="miniz/miniz.vcxproj"/>
+		<BuildDependency Project="N64Recomp/rabbitizer.vcxproj"/>
+		<BuildDependency Project="../ultramodern/ultramodern.vcxproj"/>
+	</Project>
+	<Project Path="miniz/miniz.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="701a8c91-58a0-3173-a053-416275b0e4c4">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64Recomp/rabbitizer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="059e9902-fd4e-3a5b-8131-b6f5974456f3">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="../ultramodern/ultramodern.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a2e393a7-b074-3ea6-969e-a7074fe45a82">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+</Solution>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\cont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\config_option.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\dp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\eep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\euc-jp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\math_routines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mod_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mod_hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mod_manifest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\mod_config_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\overlays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\pak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\patcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\pi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\recomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\rsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\sp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_stubs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\ultra_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src\vi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\o1heap\o1heap\o1heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C5B634F-4838-3FD5-9549-D062003F138A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

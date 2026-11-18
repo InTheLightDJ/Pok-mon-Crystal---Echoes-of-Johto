@@ -1,0 +1,18 @@
+MSBuild version 18.4.0+6e61e96ac for .NET Framework
+
+  SymbolLists.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\Release\SymbolLists.lib
+  re-spirv.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\re-spirv\Release\re-spirv.lib
+  nfd.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\nativefiledialog-extended\src\Release\nfd.lib
+  fmt.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\lib\fmt\Release\fmt.lib
+  libzstd_static.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\Release\zstd_static.lib
+  Stadium1Funcs.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\Stadium1Funcs.lib
+  rabbitizer.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\Release\rabbitizer.lib
+  miniz.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz\Release\miniz.lib
+  file_to_c.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\file_to_c.exe
+  N64Recomp.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\Release\N64Recomp.lib
+  LiveRecomp.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\Release\LiveRecomp.lib
+  rt64.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\Release\rt64.lib
+  ultramodern.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\ultramodern\Release\ultramodern.lib
+  librecomp.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\Release\librecomp.lib
+lld-link : warning : found both wmain and main; using latter [D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Stadium1.vcxproj]
+  Stadium1.vcxproj -> D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\Stadium1.exe

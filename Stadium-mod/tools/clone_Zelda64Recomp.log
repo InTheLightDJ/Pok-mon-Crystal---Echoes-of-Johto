@@ -1,0 +1,175 @@
+Cloning into 'Zelda64Recomp'...
+Updating files:  70% (215/303)Updating files:  71% (216/303)Updating files:  72% (219/303)Updating files:  73% (222/303)Updating files:  74% (225/303)Updating files:  75% (228/303)Updating files:  76% (231/303)Updating files:  77% (234/303)Updating files:  78% (237/303)Updating files:  79% (240/303)Updating files:  80% (243/303)Updating files:  81% (246/303)Updating files:  82% (249/303)Updating files:  83% (252/303)Updating files:  84% (255/303)Updating files:  85% (258/303)Updating files:  86% (261/303)Updating files:  87% (264/303)Updating files:  88% (267/303)Updating files:  89% (270/303)Updating files:  90% (273/303)Updating files:  91% (276/303)Updating files:  92% (279/303)Updating files:  93% (282/303)Updating files:  94% (285/303)Updating files:  95% (288/303)Updating files:  96% (291/303)Updating files:  97% (294/303)Updating files:  98% (297/303)Updating files:  99% (300/303)Updating files: 100% (303/303)Updating files: 100% (303/303), done.
+Submodule 'Zelda64RecompSyms' (https://github.com/Zelda64Recomp/Zelda64RecompSyms) registered for path 'Zelda64RecompSyms'
+Submodule 'lib/N64ModernRuntime' (https://github.com/N64Recomp/N64ModernRuntime.git) registered for path 'lib/N64ModernRuntime'
+Submodule 'lib/RmlUi' (https://github.com/mikke89/RmlUi/) registered for path 'lib/RmlUi'
+Submodule 'lib/freetype-windows-binaries' (https://github.com/ubawurinna/freetype-windows-binaries) registered for path 'lib/freetype-windows-binaries'
+Submodule 'lib/lunasvg' (https://github.com/sammycage/lunasvg) registered for path 'lib/lunasvg'
+Submodule 'lib/mm-decomp' (https://github.com/zeldaret/mm) registered for path 'lib/mm-decomp'
+Submodule 'lib/rt64' (https://github.com/rt64/rt64) registered for path 'lib/rt64'
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/Zelda64RecompSyms'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/RmlUi'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/freetype-windows-binaries'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/lunasvg'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/mm-decomp'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64'...
+From https://github.com/Zelda64Recomp/Zelda64RecompSyms
+ * branch            a325f8fa5c48c925616bd43685ef14bbabc29537 -> FETCH_HEAD
+Submodule path 'Zelda64RecompSyms': checked out 'a325f8fa5c48c925616bd43685ef14bbabc29537'
+From https://github.com/N64Recomp/N64ModernRuntime
+ * branch            df7e820d8c55e4fcb4616c210cbb2c01b25cd48c -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime': checked out 'df7e820d8c55e4fcb4616c210cbb2c01b25cd48c'
+Submodule 'N64Recomp' (https://github.com/N64Recomp/N64Recomp) registered for path 'lib/N64ModernRuntime/N64Recomp'
+Submodule 'thirdparty/miniz' (https://github.com/richgel999/miniz) registered for path 'lib/N64ModernRuntime/thirdparty/miniz'
+Submodule 'thirdparty/o1heap' (https://github.com/N64Recomp/o1heap) registered for path 'lib/N64ModernRuntime/thirdparty/o1heap'
+Submodule 'thirdparty/xxHash' (https://github.com/Cyan4973/xxHash.git) registered for path 'lib/N64ModernRuntime/thirdparty/xxHash'
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/thirdparty/miniz'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/thirdparty/o1heap'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/thirdparty/xxHash'...
+From https://github.com/N64Recomp/N64Recomp
+ * branch            c1a6dc93bfa5977de0ea256562058be4f1b73353 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp': checked out 'c1a6dc93bfa5977de0ea256562058be4f1b73353'
+Submodule 'lib/ELFIO' (https://github.com/serge1/ELFIO) registered for path 'lib/N64ModernRuntime/N64Recomp/lib/ELFIO'
+Submodule 'lib/fmt' (https://github.com/fmtlib/fmt) registered for path 'lib/N64ModernRuntime/N64Recomp/lib/fmt'
+Submodule 'lib/rabbitizer' (https://github.com/Decompollaborate/rabbitizer) registered for path 'lib/N64ModernRuntime/N64Recomp/lib/rabbitizer'
+Submodule 'lib/sljit' (https://github.com/zherczeg/sljit) registered for path 'lib/N64ModernRuntime/N64Recomp/lib/sljit'
+Submodule 'lib/tomlplusplus' (https://github.com/marzer/tomlplusplus) registered for path 'lib/N64ModernRuntime/N64Recomp/lib/tomlplusplus'
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp/lib/ELFIO'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp/lib/fmt'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp/lib/rabbitizer'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp/lib/sljit'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/N64ModernRuntime/N64Recomp/lib/tomlplusplus'...
+From https://github.com/serge1/ELFIO
+ * branch            ad8b641f9682b6091ba8b9f7c8152255c1a2c803 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp/lib/ELFIO': checked out 'ad8b641f9682b6091ba8b9f7c8152255c1a2c803'
+From https://github.com/fmtlib/fmt
+ * branch            8e728044f673774160f43b44a07c6b185352310f -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp/lib/fmt': checked out '8e728044f673774160f43b44a07c6b185352310f'
+From https://github.com/Decompollaborate/rabbitizer
+ * branch            e0d8003047938e2ec3697eaf8d61a84d11d17b43 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp/lib/rabbitizer': checked out 'e0d8003047938e2ec3697eaf8d61a84d11d17b43'
+From https://github.com/zherczeg/sljit
+ * branch            f6326087b3404efb07c6d3deed97b3c3b8098c0c -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp/lib/sljit': checked out 'f6326087b3404efb07c6d3deed97b3c3b8098c0c'
+From https://github.com/marzer/tomlplusplus
+ * branch            1f7884e59165e517462f922e7b6de131bd9844f3 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/N64Recomp/lib/tomlplusplus': checked out '1f7884e59165e517462f922e7b6de131bd9844f3'
+From https://github.com/richgel999/miniz
+ * branch            8573fd7cd6f49b262a0ccc447f3c6acfc415e556 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/thirdparty/miniz': checked out '8573fd7cd6f49b262a0ccc447f3c6acfc415e556'
+Submodule path 'lib/N64ModernRuntime/thirdparty/o1heap': checked out 'a124b850791db2a33f7354d2b0aa7da821cef6f5'
+From https://github.com/Cyan4973/xxHash
+ * branch            ac3a25da3d957d9ef3e4114d9f8332d34ce83a46 -> FETCH_HEAD
+Submodule path 'lib/N64ModernRuntime/thirdparty/xxHash': checked out 'ac3a25da3d957d9ef3e4114d9f8332d34ce83a46'
+From https://github.com/mikke89/RmlUi
+ * branch            7a06f27db04fe5d13a5dacc19b2b4544673a4eca -> FETCH_HEAD
+Submodule path 'lib/RmlUi': checked out '7a06f27db04fe5d13a5dacc19b2b4544673a4eca'
+From https://github.com/ubawurinna/freetype-windows-binaries
+ * branch            d6fb49d11a9d0011bf4ecfe7e570beaaa189838a -> FETCH_HEAD
+Submodule path 'lib/freetype-windows-binaries': checked out 'd6fb49d11a9d0011bf4ecfe7e570beaaa189838a'
+From https://github.com/sammycage/lunasvg
+ * branch            4166d0cccfc059b39d5ecfc372524375e59448f9 -> FETCH_HEAD
+Submodule path 'lib/lunasvg': checked out '4166d0cccfc059b39d5ecfc372524375e59448f9'
+From https://github.com/zeldaret/mm
+ * branch            5607eec18bae68e4cd38ef6d1fa69d7f1d84bfc8 -> FETCH_HEAD
+Submodule path 'lib/mm-decomp': checked out '5607eec18bae68e4cd38ef6d1fa69d7f1d84bfc8'
+From https://github.com/rt64/rt64
+ * branch            23cab603c4f9f4a8b369b38e036f1aa484603878 -> FETCH_HEAD
+Submodule path 'lib/rt64': checked out '23cab603c4f9f4a8b369b38e036f1aa484603878'
+Submodule 'src/contrib/D3D12MemoryAllocator' (https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator) registered for path 'lib/rt64/src/contrib/D3D12MemoryAllocator'
+Submodule 'src/contrib/Vulkan-Headers' (https://github.com/KhronosGroup/Vulkan-Headers) registered for path 'lib/rt64/src/contrib/Vulkan-Headers'
+Submodule 'src/contrib/VulkanMemoryAllocator' (https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) registered for path 'lib/rt64/src/contrib/VulkanMemoryAllocator'
+Submodule 'src/contrib/ddspp' (https://github.com/redorav/ddspp.git) registered for path 'lib/rt64/src/contrib/ddspp'
+Submodule 'src/contrib/dxc' (https://github.com/rt64/dxc-bin) registered for path 'lib/rt64/src/contrib/dxc'
+Submodule 'src/contrib/hlslpp' (https://github.com/redorav/hlslpp) registered for path 'lib/rt64/src/contrib/hlslpp'
+Submodule 'src/contrib/im3d' (https://github.com/john-chapman/im3d) registered for path 'lib/rt64/src/contrib/im3d'
+Submodule 'src/contrib/imgui' (https://github.com/ocornut/imgui) registered for path 'lib/rt64/src/contrib/imgui'
+Submodule 'src/contrib/implot' (https://github.com/epezent/implot) registered for path 'lib/rt64/src/contrib/implot'
+Submodule 'src/contrib/mupen64plus-core' (https://github.com/mupen64plus/mupen64plus-core) registered for path 'lib/rt64/src/contrib/mupen64plus-core'
+Submodule 'src/contrib/mupen64plus-win32-deps' (https://github.com/mupen64plus/mupen64plus-win32-deps) registered for path 'lib/rt64/src/contrib/mupen64plus-win32-deps'
+Submodule 'src/contrib/nativefiledialog-extended' (https://github.com/btzy/nativefiledialog-extended) registered for path 'lib/rt64/src/contrib/nativefiledialog-extended'
+Submodule 'src/contrib/re-spirv' (https://github.com/rt64/re-spirv) registered for path 'lib/rt64/src/contrib/re-spirv'
+Submodule 'src/contrib/spirv-cross' (https://github.com/KhronosGroup/SPIRV-Cross.git) registered for path 'lib/rt64/src/contrib/spirv-cross'
+Submodule 'src/contrib/stb' (https://github.com/nothings/stb) registered for path 'lib/rt64/src/contrib/stb'
+Submodule 'src/contrib/volk' (https://github.com/zeux/volk) registered for path 'lib/rt64/src/contrib/volk'
+Submodule 'src/contrib/xxHash' (https://github.com/Cyan4973/xxHash) registered for path 'lib/rt64/src/contrib/xxHash'
+Submodule 'src/contrib/zstd' (https://github.com/facebook/zstd) registered for path 'lib/rt64/src/contrib/zstd'
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/D3D12MemoryAllocator'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/Vulkan-Headers'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/VulkanMemoryAllocator'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/ddspp'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/dxc'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/hlslpp'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/im3d'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/imgui'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/implot'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/mupen64plus-core'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/mupen64plus-win32-deps'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/nativefiledialog-extended'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/re-spirv'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/spirv-cross'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/stb'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/volk'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/xxHash'...
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd'...
+From https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator
+ * branch            55ad7acfdd69d33fa58150cbc79862fd17e98c0d -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/D3D12MemoryAllocator': checked out '55ad7acfdd69d33fa58150cbc79862fd17e98c0d'
+From https://github.com/KhronosGroup/Vulkan-Headers
+ * branch            fc6c06ac529e4b4b6e34c17cc650a8f62dee2eb0 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/Vulkan-Headers': checked out 'fc6c06ac529e4b4b6e34c17cc650a8f62dee2eb0'
+From https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+ * branch            98c4f3414b015432c6b040bdb53b5ba0c5d6c680 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/VulkanMemoryAllocator': checked out '98c4f3414b015432c6b040bdb53b5ba0c5d6c680'
+From https://github.com/redorav/ddspp
+ * branch            2bdf73882b9169ca9d7a307b24d65d6c4e196084 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/ddspp': checked out '2bdf73882b9169ca9d7a307b24d65d6c4e196084'
+From https://github.com/rt64/dxc-bin
+ * branch            cc15e715ee378a4f675b335bd1071ff105873fc8 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/dxc': checked out 'cc15e715ee378a4f675b335bd1071ff105873fc8'
+From https://github.com/redorav/hlslpp
+ * branch            6f5274c66132e8f951c400103d897582b8f21491 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/hlslpp': checked out '6f5274c66132e8f951c400103d897582b8f21491'
+From https://github.com/john-chapman/im3d
+ * branch            d03941725fd0bd08c78c46e3e5b0265526e9d060 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/im3d': checked out 'd03941725fd0bd08c78c46e3e5b0265526e9d060'
+From https://github.com/ocornut/imgui
+ * branch            277ae93c41314ba5f4c7444f37c4319cdf07e8cf -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/imgui': checked out '277ae93c41314ba5f4c7444f37c4319cdf07e8cf'
+From https://github.com/epezent/implot
+ * branch            f156599faefe316f7dd20fe6c783bf87c8bb6fd9 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/implot': checked out 'f156599faefe316f7dd20fe6c783bf87c8bb6fd9'
+From https://github.com/mupen64plus/mupen64plus-core
+ * branch            860fac3fbae94194a392c1d9857e185eda6d083e -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/mupen64plus-core': checked out '860fac3fbae94194a392c1d9857e185eda6d083e'
+From https://github.com/mupen64plus/mupen64plus-win32-deps
+ * branch            de8111fdcb89144abc16c85650ce4e21e028bfb5 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/mupen64plus-win32-deps': checked out 'de8111fdcb89144abc16c85650ce4e21e028bfb5'
+From https://github.com/btzy/nativefiledialog-extended
+ * branch            17b6e8ce219c0677f94b63636abb9296b28841ca -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/nativefiledialog-extended': checked out '17b6e8ce219c0677f94b63636abb9296b28841ca'
+From https://github.com/rt64/re-spirv
+ * branch            5d6b756ee62760f71b65d37e41a0b5a3dab90507 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/re-spirv': checked out '5d6b756ee62760f71b65d37e41a0b5a3dab90507'
+Submodule 'external/SPIRV-Headers' (https://github.com/KhronosGroup/SPIRV-Headers) registered for path 'lib/rt64/src/contrib/re-spirv/external/SPIRV-Headers'
+Cloning into 'D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/re-spirv/external/SPIRV-Headers'...
+From https://github.com/KhronosGroup/SPIRV-Headers
+ * branch            f013f08e4455bcc1f0eed8e3dd5e2009682656d9 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/re-spirv/external/SPIRV-Headers': checked out 'f013f08e4455bcc1f0eed8e3dd5e2009682656d9'
+From https://github.com/KhronosGroup/SPIRV-Cross
+ * branch            6173e24b31f09a0c3217103a130e74c4ddec14a6 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/spirv-cross': checked out '6173e24b31f09a0c3217103a130e74c4ddec14a6'
+From https://github.com/nothings/stb
+ * branch            ae721c50eaf761660b4f90cc590453cdb0c2acd0 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/stb': checked out 'ae721c50eaf761660b4f90cc590453cdb0c2acd0'
+From https://github.com/zeux/volk
+ * branch            466085407d5d2f50583fd663c1d65f93a7709d3e -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/volk': checked out '466085407d5d2f50583fd663c1d65f93a7709d3e'
+From https://github.com/Cyan4973/xxHash
+ * branch            1864a50c9b5cf8500d8e9e61ed92aa0dd3772750 -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/xxHash': checked out '1864a50c9b5cf8500d8e9e61ed92aa0dd3772750'
+From https://github.com/facebook/zstd
+ * branch            0ff651dd876823b99fa5c5f53292be28381aee9b -> FETCH_HEAD
+Submodule path 'lib/rt64/src/contrib/zstd': checked out '0ff651dd876823b99fa5c5f53292be28381aee9b'

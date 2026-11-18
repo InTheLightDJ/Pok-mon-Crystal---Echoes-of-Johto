@@ -1,0 +1,966 @@
+# N64Recomp config: Pokémon Stadium (US 1.0) -> C (first pass)
+# Run from Stadium-mod/:  tools/N64Recomp/build/Release/N64Recomp.exe recomp/stadium1/us.toml
+# Input: the matching decomp build's ELF (build/stadium1, md5 ed1378bc...).
+# The 77 fragments are the game's run-time loaded code (each relocated by the
+# game's own loader), so they're relocatable sections, as Zelda64Recomp's overlays.
+[input]
+entrypoint = 0x80000400
+# decomp ELF + the hidden (compressed) code fragments: tools/build_hidden_fragments.py
+elf_path = "../../build/stadium1/pokestadium-us-ext.elf"
+output_func_path = "../../build/stadium1/RecompiledFuncs"
+relocatable_sections_path = "relocatable_sections_ext.txt"
+functions_per_output_file = 200
+# Fragments keep their bss in a separate ".fragmentN_bss" section (right after code+data,
+# relocated together by the game). Pair them so references to bss variables are
+# relocated with the fragment instead of staying at the link address.
+bss_section_suffix = "_bss"
+
+# Unnamed static functions (no ELF symbol) N64Recomp mis-sizes. libultra env.c
+# after _ldexpf: _getRate / _getVol / one more; boundaries from tools/disasm_range.sh.
+# libultra sprintf.c: static proutSprintf (no symbol), passed by pointer to _Printf.
+[[input.manual_funcs]]
+name = "proutSprintf"
+section = ".text"
+vram = 0x8005E020
+size = 0x24
+
+[[input.manual_funcs]]
+name = "env_static_80061054"
+section = ".text"
+vram = 0x80061054
+size = 0x1E4
+
+[[input.manual_funcs]]
+name = "env_static_80061238"
+section = ".text"
+vram = 0x80061238
+size = 0x2C
+
+[[input.manual_funcs]]
+name = "env_static_80061264"
+section = ".text"
+vram = 0x80061264
+size = 0x84
+
+[patches]
+# Hardware-only code the PC port never runs (empty functions in the output):
+#   __LeoBootGame3: boots from the 64DD disk drive (cop0 TagLo)
+#   set_watch_lohi: sets the CPU's debug watchpoint (cop0 WatchLo/Hi)
+stubs = [
+    "func_812096A0",  # stub range
+    "func_81209870",  # stub range
+    "func_81209EB4",  # stub range
+    "func_8120A4F4",  # stub range
+    "func_8120A5A4",  # stub range
+    "func_8120A5F8",  # stub range
+    "func_8120A5FC",  # stub range
+    "func_8120A65C",  # stub range
+    "func_8120A660",  # stub range
+    "func_8120A69C",  # stub range
+    "func_8120A6A0",  # stub range
+    "func_8120B3F4",  # stub range
+    "func_8120B490",  # stub range
+    "func_8120C5FC",  # stub range
+    "func_8120C72C",  # stub range
+    "func_8120D5BC",  # stub range
+    "func_8120D60C",  # stub range
+    "func_8120D7C0",  # stub range
+    "func_8120D7C8",  # stub range
+    "__LeoBootGame3",
+    "set_watch_lohi",
+]
+ignored = []
+# game functions named like C library ones (would clash with <math.h>): get a _recomp suffix
+renamed = ["fabsf"]
+
+# Fragments: the game copies a fragment from ROM into a heap block and relocates
+# it there (Memmap_RelocateFragment -> Memmap_SetFragmentMap(id, ram, sizeInRam)),
+# and forgets it when the block is freed (Memmap_ClearFragmentMemmap(id)).
+# The port's runtime has to know which recompiled section now runs at that
+# address: port/src/fragments.cpp maps id (+ size) -> section -> load_overlays().
+# No 64DD disk drive on PC: the manager setup reports an error at once
+# (41 = LEO_ERROR_DEVICE_COMMUNICATION_FAILURE) instead of probing the drive's
+# registers (rsp.c func_800005C0 then leaves 64DD support off).
+[[patches.hook]]
+func = "LeoCJCreateLeoManager"
+text = "    ctx->r2 = 41; return;"
+
+# Game_DoCopyProtection reads ROM 0xE38 straight off the cartridge bus
+# (0xB0000E38, expects 0x828A). The port has already checked the whole ROM's hash,
+# so the original cartridge is there: return the state unchanged, as it would.
+# It's also the one place every game state passes through: port/src/boot.cpp
+# stadium_filter_state turns states the port doesn't offer (GB Tower) into Area Select.
+[[patches.hook]]
+func = "Game_DoCopyProtection"
+text = "    { extern int32_t stadium_filter_state(int32_t); ctx->r2 = (gpr)stadium_filter_state((int32_t)ctx->r4); return; }"
+
+# Quick boot (port/src/boot.cpp): func_800290E4(id) plays a demo/movie; id 0x12 is
+# the intro after the N64 logo. Skipped (returns 0 = not interrupted) unless --intro.
+[[patches.hook]]
+func = "func_800290E4"
+text = "    { extern int stadium_skip_demo(uint32_t); if (stadium_skip_demo((uint32_t)ctx->r4)) { ctx->r2 = 0; return; } }"
+
+# Quick boot: Menu Select (fragment57) shows the "Game Pak Check" screen first when
+# entered from the title (a1 != 0); left out on the quick boot's first arrival.
+[[patches.hook]]
+func = "func_82D06D0C"
+text = "    { extern int stadium_skip_gbcheck(void); if (stadium_skip_gbcheck()) ctx->r5 = 0; }"
+
+# Kids Club PVP (port/src/pvp.cpp). fragment2 func_87802F00(slot) = a slot won a
+# minigame: at 0x87802F20 v0 = &D_8780FA40[slot] (the wins array's run-time address).
+[[patches.hook]]
+func = "func_87802F00"
+before_vram = 0x87802F20
+text = "    { extern void stadium_pvp_win(uint8_t*, uint32_t, int32_t); stadium_pvp_win(rdram, (uint32_t)ctx->r2, (int32_t)ctx->r4); }"
+
+# func_87802F4C = "has someone reached the target?": the other players' wins go in first.
+[[patches.hook]]
+func = "func_87802F4C"
+text = "    { extern void stadium_pvp_sync(uint8_t*); stadium_pvp_sync(rdram); }"
+
+# fragment39 func_82503F00(&pick, t): the minigame roulette; t == 0 makes the final pick.
+[[patches.hook]]
+func = "func_82503F00"
+text = "    { extern void stadium_pvp_roulette(uint8_t*, int32_t); stadium_pvp_roulette(rdram, (int32_t)(int16_t)ctx->r5); }"
+
+# fragment2 func_878001E8(n) = random 0..n-1: the roulette's final pick follows the seed.
+[[patches.hook]]
+func = "func_878001E8"
+text = "    { extern int32_t stadium_pvp_random(int32_t); int32_t r_ = stadium_pvp_random((int32_t)ctx->r4); if (r_ >= 0) { ctx->r2 = (gpr)r_; return; } }"
+
+# Kids Club PVP: the other players' names on the Who's the Best scoreboard.
+[[patches.hook]]
+func = "func_87804AD0"
+before_vram = 0x87804E80
+text = "    { extern void stadium_pvp_names(uint8_t*, recomp_context*); stadium_pvp_names(rdram, ctx); }"
+
+# Kids Club PVP: picking the next game (fragment39 state 5, every frame) / a game chosen
+# (state 6) / COM level (state 4) and number of wins (state 3) screens.
+[[patches.hook]]
+func = "func_8250416C"
+text = "    { extern void stadium_pvp_choose(uint8_t*); stadium_pvp_choose(rdram); }"
+
+[[patches.hook]]
+func = "func_825042A4"
+text = "    { extern void stadium_pvp_chosen(uint8_t*); stadium_pvp_chosen(rdram); }"
+
+[[patches.hook]]
+func = "func_82503574"
+text = "    { extern void stadium_kc_state(uint8_t*, int32_t); stadium_kc_state(rdram, 4); }"
+
+[[patches.hook]]
+func = "func_825039AC"
+text = "    { extern void stadium_kc_state(uint8_t*, int32_t); stadium_kc_state(rdram, 3); }"
+
+# Kids Club PVP: no instruction screens. Each minigame's instruction loop tests
+# gPlayer1Controller->buttonPressed & 0x1000 (Start); in PVP the button's "pressed".
+[[patches.hook]]
+func = "func_86000FD4"
+before_vram = 0x86001194
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "func_8610197C"
+before_vram = 0x86101B40
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r3 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r3); }"
+
+[[patches.hook]]
+func = "func_862011E8"
+before_vram = 0x8620134C
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "func_86401B3C"
+before_vram = 0x86401B94
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "func_86501668"
+before_vram = 0x865016C0
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "func_86801700"
+before_vram = 0x8680176C
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "miniEkansTutoScreenControls"
+before_vram = 0x86C042D0
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "miniMetapodTutoScreenControls"
+before_vram = 0x86E029C0
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+[[patches.hook]]
+func = "func_86F0204C"
+before_vram = 0x86F02130
+text = "    { extern uint32_t stadium_pvp_skip_tutorial(uint32_t); ctx->r2 = (gpr)(int32_t)stadium_pvp_skip_tutorial((uint32_t)ctx->r2); }"
+
+# Kids Club PVP box (port/src/kidsclub.cpp): a 15th menu panel outside the game's pool.
+[[patches.hook]]
+func = "func_825024C4"
+before_vram = 0x825027E8
+text = "    { extern void stadium_kc_setup(uint8_t*, recomp_context*); stadium_kc_setup(rdram, ctx); }"
+
+[[patches.hook]]
+func = "func_825017F0"
+text = "    { extern int stadium_kc_alloc(recomp_context*); if (stadium_kc_alloc(ctx)) return; }"
+
+[[patches.hook]]
+func = "func_82501ED0"
+text = "    { extern void stadium_kc_update(uint8_t*); stadium_kc_update(rdram); }"
+
+[[patches.hook]]
+func = "func_82500020"
+text = "    { extern void stadium_kc_draw(uint8_t*, int32_t); stadium_kc_draw(rdram, (int32_t)ctx->r4); }"
+
+[[patches.hook]]
+func = "Memmap_GetSegmentVaddr"
+text = "    { extern int stadium_kc_segment(uint8_t*, recomp_context*); if (stadium_kc_segment(rdram, ctx)) return; }"
+
+[[patches.hook]]
+func = "func_82503020"
+text = "    { extern void stadium_kc_state(uint8_t*, int32_t); stadium_kc_state(rdram, 0); }"
+
+[[patches.hook]]
+func = "func_825032BC"
+text = "    { extern void stadium_kc_state(uint8_t*, int32_t); stadium_kc_state(rdram, 1); }"
+
+# Main Kids Club menu cursor: 3 boxes. Moving up from the first goes to index 2
+# (li t9,1 -> li t9,2); moving down wraps at 3 (slti at,v1,2 -> slti at,v1,3).
+[[patches.instruction]]
+func = "func_82503020"
+vram = 0x82503078
+value = 0x24190002
+
+[[patches.instruction]]
+func = "func_82503020"
+vram = 0x825030A8
+value = 0x28610003
+
+# The audio manager (3D140.c func_8003CADC) reads AI_LEN_REG (0xA4500004) directly.
+# The load becomes `or $v1, $zero, $zero` and a hook right after it puts the
+# runtime's queued audio length in $v1 (as osAiGetLength would).
+[[patches.instruction]]
+func = "func_8003CADC"
+vram = 0x8003CB28
+value = 0x00001825
+
+[[patches.hook]]
+func = "func_8003CADC"
+before_vram = 0x8003CB2C
+text = "    { extern uint32_t stadium_ai_len(void); ctx->r3 = (gpr)(int32_t)stadium_ai_len(); }"
+
+# func_800484E0 counts the sound voices still playing; the game busy-waits on it
+# (DDC0.c func_8000D2B4: leaving the title screen waits for the music to stop).
+# On the N64 the audio thread preempts that loop; the runtime schedules game
+# threads cooperatively, so the loop must yield or the audio thread never runs.
+[[patches.hook]]
+func = "func_800484E0"
+text = "    { extern void yield_self_1ms(uint8_t*); yield_self_1ms(rdram); }"
+
+# func_80001C90 (dp_intro.c) = "is the frame queue free?"; callers spin on it
+# (`while (func_80001C90() == 0) {}`: JPEG decode 3FB0.c, stage loader, 1AB70.c...).
+# Same as above: with cooperative game threads the spin must yield or the thread
+# that empties the queue never runs (froze entering a Stadium cup).
+[[patches.hook]]
+func = "func_80001C90"
+text = "    { extern void yield_self_1ms(uint8_t*); yield_self_1ms(rdram); }"
+
+# The game's RSP scheduler (5580.c) asks a running gfx task to yield when audio is
+# due (func_80004AB4 -> osSpTaskYield, state 2) and later resumes it. The runtime
+# runs gfx and audio on separate threads, ignores yields and reports gfx RSP-done at
+# once, so the yield/resume bookkeeping misattributes completions and gfx frames get
+# lost (battle screen froze: 388 gfx tasks started, ~90 rendered). Never yield: the
+# gfx task just finishes first (instantly here) and audio follows.
+# DISABLED (test) [[patches.hook]] func_80004AB4 ctx->r2 = 0; return;
+
+# Scheduler trace (port/src/trace.cpp, printed only with STADIUM_TRACE set):
+# 5580.c task submit / start / SP done / DP done. a0 = the task struct
+# (UnkStruct80001380: OSTask at +0, unk_1C state, unk_1E).
+[[patches.hook]]
+func = "func_800053B4"
+text = "    { extern void stadium_trace(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace(rdram, \"submit\", (uint32_t)ctx->r4, (uint32_t)ctx->r5); }"
+
+[[patches.hook]]
+func = "func_800049D4"
+text = "    { extern void stadium_trace(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace(rdram, \"start\", (uint32_t)ctx->r4, 0); }"
+
+[[patches.hook]]
+func = "func_80005084"
+text = "    { extern void stadium_trace(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace(rdram, \"sp_done\", MEM_W(0xA14, (gpr)(int32_t)0x800A62E0), 0); }"
+
+[[patches.hook]]
+func = "func_80005148"
+text = "    { extern void stadium_trace(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace(rdram, \"dp_done\", 0, 0); }"
+
+[[patches.hook]]
+func = "Memmap_SetFragmentMap"
+text = "    { extern void stadium_fragment_loaded(uint8_t*, uint32_t, uint32_t, uint32_t); stadium_fragment_loaded(rdram, (uint32_t)ctx->r4, (uint32_t)ctx->r5, (uint32_t)ctx->r6); }"
+
+[[patches.hook]]
+func = "Memmap_ClearFragmentMemmap"
+text = "    { extern void stadium_fragment_unloaded(uint8_t*, uint32_t); stadium_fragment_unloaded(rdram, (uint32_t)ctx->r4); }"
+
+# Model/animation loader trace (port/src/trace.cpp stadium_trace_loader, STADIUM_TRACE).
+[[patches.hook]]
+func = "func_80019484"
+text = "    { extern void stadium_trace_loader(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace_loader(rdram, \"req\", (uint32_t)ctx->r4, 0); }"
+
+[[patches.hook]]
+func = "func_80019514"
+text = "    { extern void stadium_trace_loader(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace_loader(rdram, \"req\", (uint32_t)ctx->r4, 0); }"
+
+[[patches.hook]]
+func = "func_80019204"
+text = "    { extern void stadium_trace_loader(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace_loader(rdram, \"get\", (uint32_t)ctx->r5, (uint32_t)ctx->r6); }"
+
+[[patches.hook]]
+func = "func_80019420"
+text = "    { extern void stadium_trace_loader(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace_loader(rdram, \"geo\", (uint32_t)ctx->r5, 0); }"
+
+[[patches.hook]]
+func = "func_80019484"
+before_vram = 0x800194CC
+text = "    { extern void stadium_trace_loader(uint8_t*, const char*, uint32_t, uint32_t); stadium_trace_loader(rdram, \"model\", (uint32_t)ctx->r2, 0); }"
+
+# --- generated by tools/gen_manual_funcs.py: 1 absolute symbols in code ---
+[[input.manual_funcs]]
+name = "osGbpakReadWrite"
+section = ".text"
+vram = 0x80065910
+size = 0x1C0
+
+# --- fragment entry stubs ---
+[[input.manual_funcs]]
+name = "fragment32_entry"
+section = ".fragment32"
+vram = 0x81100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment33_entry"
+section = ".fragment33"
+vram = 0x81300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment34_entry"
+section = ".fragment34"
+vram = 0x81400000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment35_entry"
+section = ".fragment35"
+vram = 0x82000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment36_entry"
+section = ".fragment36"
+vram = 0x82100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment37_entry"
+section = ".fragment37"
+vram = 0x82200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment38_entry"
+section = ".fragment38"
+vram = 0x82300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment39_entry"
+section = ".fragment39"
+vram = 0x82500000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment50_entry"
+section = ".fragment50"
+vram = 0x82600000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment52_entry"
+section = ".fragment52"
+vram = 0x82800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment53_entry"
+section = ".fragment53"
+vram = 0x82A00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment54_entry"
+section = ".fragment54"
+vram = 0x82B00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment56_entry"
+section = ".fragment56"
+vram = 0x82C00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment57_entry"
+section = ".fragment57"
+vram = 0x82D00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment60_entry"
+section = ".fragment60"
+vram = 0x82E00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment41_entry"
+section = ".fragment41"
+vram = 0x82F00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment55_entry"
+section = ".fragment55"
+vram = 0x83000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment40_entry"
+section = ".fragment40"
+vram = 0x83100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment66_entry"
+section = ".fragment66"
+vram = 0x83200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment42_entry"
+section = ".fragment42"
+vram = 0x83300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment43_entry"
+section = ".fragment43"
+vram = 0x83400000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment44_entry"
+section = ".fragment44"
+vram = 0x83500000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment45_entry"
+section = ".fragment45"
+vram = 0x83600000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment46_entry"
+section = ".fragment46"
+vram = 0x83700000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment47_entry"
+section = ".fragment47"
+vram = 0x83800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment48_entry"
+section = ".fragment48"
+vram = 0x83900000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment49_entry"
+section = ".fragment49"
+vram = 0x83A00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment58_entry"
+section = ".fragment58"
+vram = 0x84000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment59_entry"
+section = ".fragment59"
+vram = 0x84100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment61_entry"
+section = ".fragment61"
+vram = 0x84200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment62_entry"
+section = ".fragment62"
+vram = 0x84300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment64_entry"
+section = ".fragment64"
+vram = 0x84800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment65_entry"
+section = ".fragment65"
+vram = 0x84A00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment63_entry"
+section = ".fragment63"
+vram = 0x84B00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment6_entry"
+section = ".fragment6"
+vram = 0x86000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment7_entry"
+section = ".fragment7"
+vram = 0x86100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment8_entry"
+section = ".fragment8"
+vram = 0x86200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment9_entry"
+section = ".fragment9"
+vram = 0x86300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment10_entry"
+section = ".fragment10"
+vram = 0x86400000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment11_entry"
+section = ".fragment11"
+vram = 0x86500000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment12_entry"
+section = ".fragment12"
+vram = 0x86600000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment13_entry"
+section = ".fragment13"
+vram = 0x86700000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment14_entry"
+section = ".fragment14"
+vram = 0x86800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment15_entry"
+section = ".fragment15"
+vram = 0x86900000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment16_entry"
+section = ".fragment16"
+vram = 0x86A00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment17_entry"
+section = ".fragment17"
+vram = 0x86B00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment18_entry"
+section = ".fragment18"
+vram = 0x86C00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment19_entry"
+section = ".fragment19"
+vram = 0x86D00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment20_entry"
+section = ".fragment20"
+vram = 0x86E00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment21_entry"
+section = ".fragment21"
+vram = 0x86F00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment2_entry"
+section = ".fragment2"
+vram = 0x87800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment3_entry"
+section = ".fragment3"
+vram = 0x87900000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment4_entry"
+section = ".fragment4"
+vram = 0x87A00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment5_entry"
+section = ".fragment5"
+vram = 0x87B00000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment22_entry"
+section = ".fragment22"
+vram = 0x88000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment23_entry"
+section = ".fragment23"
+vram = 0x88200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment24_entry"
+section = ".fragment24"
+vram = 0x88300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment25_entry"
+section = ".fragment25"
+vram = 0x88400000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment26_entry"
+section = ".fragment26"
+vram = 0x88500000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment27_entry"
+section = ".fragment27"
+vram = 0x88600000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment28_entry"
+section = ".fragment28"
+vram = 0x88800000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment29_entry"
+section = ".fragment29"
+vram = 0x88900000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment67_entry"
+section = ".fragment67"
+vram = 0x8F000000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment68_entry"
+section = ".fragment68"
+vram = 0x8F100000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment69_entry"
+section = ".fragment69"
+vram = 0x8F200000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment70_entry"
+section = ".fragment70"
+vram = 0x8F300000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment71_entry"
+section = ".fragment71"
+vram = 0x8F400000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment72_entry"
+section = ".fragment72"
+vram = 0x8F500000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment73_entry"
+section = ".fragment73"
+vram = 0x8F600000
+size = 0x8
+
+[[input.manual_funcs]]
+name = "fragment75_entry"
+section = ".fragment75"
+vram = 0x8FA00000
+size = 0x8
+
+# --- 52 zero-sized FUNC symbols, sized to the next symbol ---
+[[input.function_sizes]]
+name = "entry_point"
+size = 0x60
+
+[[input.function_sizes]]
+name = "set_watch_lohi"
+size = 0x10
+
+[[input.function_sizes]]
+name = "trigger_fault"
+size = 0x10
+
+[[input.function_sizes]]
+name = "Yay0_Decompress"
+size = 0xB0
+
+[[input.function_sizes]]
+name = "fabsf"
+size = 0x10
+
+[[input.function_sizes]]
+name = "__LeoBootGame3"
+size = 0x60
+
+[[input.function_sizes]]
+name = "func_80048590"
+size = 0xEC
+
+[[input.function_sizes]]
+name = "func_80048684"
+size = 0xB4
+
+[[input.function_sizes]]
+name = "func_80048740"
+size = 0x1C4
+
+[[input.function_sizes]]
+name = "func_80048904"
+size = 0x154
+
+[[input.function_sizes]]
+name = "func_80048A58"
+size = 0xA4
+
+[[input.function_sizes]]
+name = "func_80048AFC"
+size = 0x18
+
+[[input.function_sizes]]
+name = "func_80048B14"
+size = 0x10
+
+[[input.function_sizes]]
+name = "func_80048B24"
+size = 0x18
+
+[[input.function_sizes]]
+name = "func_80048B3C"
+size = 0x54
+
+[[input.function_sizes]]
+name = "func_80050BA0"
+size = 0xB0
+
+[[input.function_sizes]]
+name = "fsin"
+size = 0x1C0
+
+[[input.function_sizes]]
+name = "sinf"
+size = 0x1C0
+
+[[input.function_sizes]]
+name = "_blkclr"
+size = 0x1A4
+
+[[input.function_sizes]]
+name = "blkclr"
+size = 0x1A4
+
+[[input.function_sizes]]
+name = "bzero"
+size = 0x1A4
+
+[[input.function_sizes]]
+name = "bcmp"
+size = 0x120
+
+[[input.function_sizes]]
+name = "bcopy"
+size = 0x310
+
+[[input.function_sizes]]
+name = "cosf"
+size = 0x170
+
+[[input.function_sizes]]
+name = "fcos"
+size = 0x170
+
+[[input.function_sizes]]
+name = "func_812096A0"
+size = 0x1D0
+
+[[input.function_sizes]]
+name = "func_81209870"
+size = 0x5A0
+
+[[input.function_sizes]]
+name = "func_81209EB4"
+size = 0x108
+
+[[input.function_sizes]]
+name = "func_8120A4F4"
+size = 0x90
+
+[[input.function_sizes]]
+name = "func_8120A5A4"
+size = 0x54
+
+[[input.function_sizes]]
+name = "func_8120A5F8"
+size = 0x4
+
+[[input.function_sizes]]
+name = "func_8120A5FC"
+size = 0x60
+
+[[input.function_sizes]]
+name = "func_8120A65C"
+size = 0x4
+
+[[input.function_sizes]]
+name = "func_8120A660"
+size = 0x3C
+
+[[input.function_sizes]]
+name = "func_8120A69C"
+size = 0x4
+
+[[input.function_sizes]]
+name = "func_8120A6A0"
+size = 0x78
+
+[[input.function_sizes]]
+name = "func_8120B3F4"
+size = 0x9C
+
+[[input.function_sizes]]
+name = "func_8120B490"
+size = 0x28
+
+[[input.function_sizes]]
+name = "func_8120C5FC"
+size = 0x1C
+
+[[input.function_sizes]]
+name = "func_8120C72C"
+size = 0x1C
+
+[[input.function_sizes]]
+name = "func_8120D5BC"
+size = 0x50
+
+[[input.function_sizes]]
+name = "func_8120D60C"
+size = 0x68
+
+[[input.function_sizes]]
+name = "func_8120D7C0"
+size = 0x8
+
+[[input.function_sizes]]
+name = "func_8120D7C8"
+size = 0x28
+
+[[input.function_sizes]]
+name = "func_A4000658"
+size = 0x8
+
+[[input.function_sizes]]
+name = "func_A4000660"
+size = 0x108
+
+[[input.function_sizes]]
+name = "func_A400076C"
+size = 0x108
+
+[[input.function_sizes]]
+name = "func_A4000874"
+size = 0x8C
+
+[[input.function_sizes]]
+name = "func_A4000900"
+size = 0x74
+
+[[input.function_sizes]]
+name = "func_A4000974"
+size = 0xC0
+
+[[input.function_sizes]]
+name = "func_A4000A34"
+size = 0x90
+
+[[input.function_sizes]]
+name = "func_A4000AC4"
+size = 0xAC
+

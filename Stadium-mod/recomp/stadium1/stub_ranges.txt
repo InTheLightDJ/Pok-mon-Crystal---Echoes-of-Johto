@@ -1,0 +1,5 @@
+# Address ranges whose functions are stubbed (empty) for now: start end reason
+# fragment1_code_asm: the Game Boy emulator's hand-written CPU core (GB Tower).
+# Its routines branch into each other, which N64Recomp can't split into C functions.
+# Later: rewrite it in C (or plug a C Game Boy core in) to get GB Tower running.
+0x812096A0 0x8122B1E0 GB Tower CPU core (hand-written asm)

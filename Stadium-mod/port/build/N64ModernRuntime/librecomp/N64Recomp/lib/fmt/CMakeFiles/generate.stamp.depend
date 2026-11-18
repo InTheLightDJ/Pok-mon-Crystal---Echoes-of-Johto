@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+D:/created games/Pokemon-game/v21/Stadium-mod/tools/N64ModernRuntime/N64Recomp/lib/fmt/CMakeLists.txt
+D:/created games/Pokemon-game/v21/Stadium-mod/tools/N64ModernRuntime/N64Recomp/lib/fmt/support/cmake/JoinPaths.cmake

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6ad3f5b7-1c16-3608-b726-f579835eeaba" DefaultStartup="true">
+		<BuildDependency Project="Stadium1.vcxproj"/>
+		<BuildDependency Project="Stadium1Funcs.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="rt64/src/tools/file_to_c/file_to_c.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/librecomp.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/miniz/miniz.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/nativefiledialog-extended/src/nfd.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/re-spirv/re-spirv.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/re-spirv/re-spirv-cli.vcxproj"/>
+		<BuildDependency Project="rt64/rt64.vcxproj"/>
+		<BuildDependency Project="rt64/src/tools/texture_hasher/texture_hasher.vcxproj"/>
+		<BuildDependency Project="rt64/src/tools/texture_packer/texture_packer.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/ultramodern/ultramodern.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/programs/zstd.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="312cb608-13cc-39e9-8fcd-4924ac249a87">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/N64Recomp/LiveRecomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="19b6fb63-796b-3d72-b4a9-41294dac0ef8">
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/N64Recomp.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/rabbitizer.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/N64Recomp/N64Recomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dd2d1d3-52b2-3efa-b0c3-072d6e554c1c">
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/rabbitizer.vcxproj"/>
+	</Project>
+	<Project Path="Stadium1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fa5e1a73-9e2b-33a0-9f93-25f81e280e07">
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/LiveRecomp.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/N64Recomp.vcxproj"/>
+		<BuildDependency Project="Stadium1Funcs.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/librecomp.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/miniz/miniz.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/nativefiledialog-extended/src/nfd.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/rabbitizer.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/re-spirv/re-spirv.vcxproj"/>
+		<BuildDependency Project="rt64/rt64.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/ultramodern/ultramodern.vcxproj"/>
+	</Project>
+	<Project Path="Stadium1Funcs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ee3d91ba-7a9b-3f4a-8974-07c3ae37e793">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/N64Recomp/SymbolLists.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9f78a6bb-d9cf-371b-884d-15ff73228df0">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="eaf4df82-2e03-3087-bf23-f9fa5f5d0774"/>
+	<Project Path="rt64/src/contrib/zstd/build/cmake/clean-all.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b5f60c39-caee-308d-99d2-74c24119b15c">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="rt64/src/tools/file_to_c/file_to_c.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cc6bacaa-8b9c-3269-8d1c-55c2d6a93242">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/N64Recomp/lib/fmt/fmt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a842285e-2552-3ca9-b55e-d395b7f5b600">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/librecomp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="525f1774-a313-34f1-b6e3-e371d227b7c7">
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/LiveRecomp.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/N64Recomp.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/SymbolLists.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/lib/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/miniz/miniz.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/librecomp/N64Recomp/rabbitizer.vcxproj"/>
+		<BuildDependency Project="N64ModernRuntime/ultramodern/ultramodern.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="354917e6-bf30-37d5-a085-048afae286ac">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/miniz/miniz.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="701a8c91-58a0-3173-a053-416275b0e4c4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/contrib/nativefiledialog-extended/src/nfd.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f48def60-f376-340c-8f7b-cfd78230ee12">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/librecomp/N64Recomp/rabbitizer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="059e9902-fd4e-3a5b-8131-b6f5974456f3">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/contrib/re-spirv/re-spirv.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1b74385a-6743-327e-b559-88ec2cc1ff04">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/contrib/re-spirv/re-spirv-cli.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c8c19fe0-d145-3fe0-92f6-2c7273ced952">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/re-spirv/re-spirv.vcxproj"/>
+	</Project>
+	<Project Path="rt64/rt64.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="80cb22ac-de22-3399-8fff-448449e676bf">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="rt64/src/tools/file_to_c/file_to_c.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/nativefiledialog-extended/src/nfd.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/re-spirv/re-spirv.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/tools/texture_hasher/texture_hasher.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8adb5f11-8147-3e47-9b71-1f88c0c011d4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/tools/texture_packer/texture_packer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dfe8bb1-9b87-3484-861e-675293c891db">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+	</Project>
+	<Project Path="N64ModernRuntime/ultramodern/ultramodern.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a2e393a7-b074-3ea6-969e-a7074fe45a82">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="rt64/src/contrib/zstd/build/cmake/lib/uninstall.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cd7e8a51-d5ac-35de-bdc2-fbccd9a2c242">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="rt64/src/contrib/zstd/build/cmake/programs/zstd.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8e7e9ec0-c616-3f69-8903-3c32e5f22d3b">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="rt64/src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+	</Project>
+</Solution>

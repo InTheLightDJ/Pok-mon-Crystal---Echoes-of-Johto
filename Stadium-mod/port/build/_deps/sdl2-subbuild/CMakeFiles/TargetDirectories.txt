@@ -1,0 +1,3 @@
+D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate.dir
+D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/ZERO_CHECK.dir

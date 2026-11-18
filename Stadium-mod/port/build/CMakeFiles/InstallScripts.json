@@ -1,0 +1,24 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/tools/file_to_c/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/re-spirv/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/nativefiledialog-extended/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/nativefiledialog-extended/src/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/lib/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/programs/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/tools/texture_hasher/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/tools/texture_packer/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/ultramodern/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/librecomp/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/librecomp/miniz/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/librecomp/N64Recomp/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/librecomp/N64Recomp/lib/fmt/cmake_install.cmake",
+		"D:/created games/Pokemon-game/v21/Stadium-mod/port/build/N64ModernRuntime/librecomp/N64Recomp/lib/tomlplusplus/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

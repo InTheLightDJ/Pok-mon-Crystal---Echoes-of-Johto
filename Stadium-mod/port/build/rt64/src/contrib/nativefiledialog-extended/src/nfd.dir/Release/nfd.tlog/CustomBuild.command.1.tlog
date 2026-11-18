@@ -1,0 +1,10 @@
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\TOOLS\ZELDA64RECOMP\LIB\RT64\SRC\CONTRIB\NATIVEFILEDIALOG-EXTENDED\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/nativefiledialog-extended/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

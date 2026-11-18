@@ -1,0 +1,15 @@
+# Stadium 1 audio microcode (aspMain, the game's &aspMainTextStart) -> C++
+# ROM offset: aspMainTextStart 0x80067420 - 0x80000400 + 0x1000 = 0x68020;
+# it runs up to njpgdspMain (0x68C80), so 0xC60 bytes.
+text_offset = 0x68020
+text_size = 0xC60
+text_address = 0x04001080
+rom_file_path = "../../../build/stadium1/pokestadium-us.z64"
+output_file_path = "../../../build/stadium1/rsp/aspMain.cpp"
+output_function_name = "aspMain"
+# Command dispatch table: the first 16 halfwords of aspMainData (ROM 0x7F670,
+# the game's aspMainDataStart 0x8007EA70); every handler is a jr target.
+extra_indirect_branch_targets = [
+    0x10EC, 0x139C, 0x119C, 0x1A64, 0x11C8, 0x17EC, 0x1208, 0x127C,
+    0x1348, 0x1248, 0x1C84, 0x12D4, 0x12B0, 0x1384,   # 0x12B0: table has 0x02B0 (12-bit PC)
+]

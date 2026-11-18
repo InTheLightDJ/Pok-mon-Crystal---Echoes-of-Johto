@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{354917E6-BF30-37D5-A085-048AFAE286AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libzstd_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzstd_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zstd_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzstd_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zstd_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libzstd_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zstd_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libzstd_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zstd_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything /clang:-Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -Qunused-arguments -Wa,--noexecstack</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/../../lib</AdditionalOptions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything /clang:-Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -Qunused-arguments -Wa,--noexecstack</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/../../lib</AdditionalOptions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything /clang:-Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -Qunused-arguments -Wa,--noexecstack</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/../../lib</AdditionalOptions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything /clang:-Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes -Qunused-arguments -Wa,--noexecstack</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZSTD_DISABLE_ASM;ZSTD_MULTITHREAD;ZSTD_HEAPMODE=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;HLSL_CPU;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/../../lib</AdditionalOptions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\CMakeModules\JoinPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib\cmake_uninstall.cmake.in;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\libzstd.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\CMakeModules\JoinPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib\cmake_uninstall.cmake.in;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\libzstd.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\CMakeModules\JoinPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib\cmake_uninstall.cmake.in;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\libzstd.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/tools/Zelda64Recomp/lib/rt64/src/contrib/zstd/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/rt64/src/contrib/zstd/build/cmake/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\CMakeModules\JoinPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\lib\cmake_uninstall.cmake.in;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\libzstd.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\debug.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\entropy_common.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\error_private.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\fse_decompress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\pool.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\threading.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\xxhash.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\zstd_common.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\fse_compress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\hist.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\huf_compress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_literals.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_sequences.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_superblock.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_double_fast.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_fast.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_lazy.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_ldm.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_opt.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstdmt_compress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\huf_decompress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_ddict.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_decompress.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_decompress_block.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\cover.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\divsufsort.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\fastcover.c" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\zdict.c" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\zdict.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\zstd.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\zstd_errors.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\allocations.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\bits.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\bitstream.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\compiler.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\cpu.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\debug.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\error_private.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\fse.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\huf.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\mem.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\pool.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\portability_macros.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\threading.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\xxhash.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\zstd_deps.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\zstd_internal.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\common\zstd_trace.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\clevels.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\hist.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_internal.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_literals.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_sequences.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_compress_superblock.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_cwksp.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_double_fast.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_fast.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_lazy.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_ldm.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_ldm_geartab.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstd_opt.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\compress\zstdmt_compress.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_ddict.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_decompress_block.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\decompress\zstd_decompress_internal.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\cover.h" />
+    <ClInclude Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\lib\dictBuilder\divsufsort.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\ZERO_CHECK.vcxproj">
+      <Project>{EAF4DF82-2E03-3087-BF23-F9FA5F5D0774}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

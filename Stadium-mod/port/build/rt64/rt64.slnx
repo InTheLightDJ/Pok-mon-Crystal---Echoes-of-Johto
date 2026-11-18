@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6ad3f5b7-1c16-3608-b726-f579835eeaba" DefaultStartup="true">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/tools/file_to_c/file_to_c.vcxproj"/>
+		<BuildDependency Project="src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+		<BuildDependency Project="src/contrib/nativefiledialog-extended/src/nfd.vcxproj"/>
+		<BuildDependency Project="src/contrib/re-spirv/re-spirv.vcxproj"/>
+		<BuildDependency Project="src/contrib/re-spirv/re-spirv-cli.vcxproj"/>
+		<BuildDependency Project="rt64.vcxproj"/>
+		<BuildDependency Project="src/tools/texture_hasher/texture_hasher.vcxproj"/>
+		<BuildDependency Project="src/tools/texture_packer/texture_packer.vcxproj"/>
+		<BuildDependency Project="src/contrib/zstd/build/cmake/programs/zstd.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="312cb608-13cc-39e9-8fcd-4924ac249a87">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="eaf4df82-2e03-3087-bf23-f9fa5f5d0774"/>
+	<Project Path="src/contrib/zstd/build/cmake/clean-all.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b5f60c39-caee-308d-99d2-74c24119b15c">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="src/tools/file_to_c/file_to_c.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cc6bacaa-8b9c-3269-8d1c-55c2d6a93242">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="354917e6-bf30-37d5-a085-048afae286ac">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="src/contrib/nativefiledialog-extended/src/nfd.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f48def60-f376-340c-8f7b-cfd78230ee12">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="src/contrib/re-spirv/re-spirv.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1b74385a-6743-327e-b559-88ec2cc1ff04">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="src/contrib/re-spirv/re-spirv-cli.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c8c19fe0-d145-3fe0-92f6-2c7273ced952">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/contrib/re-spirv/re-spirv.vcxproj"/>
+	</Project>
+	<Project Path="rt64.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="80cb22ac-de22-3399-8fff-448449e676bf">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/tools/file_to_c/file_to_c.vcxproj"/>
+		<BuildDependency Project="src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+		<BuildDependency Project="src/contrib/nativefiledialog-extended/src/nfd.vcxproj"/>
+		<BuildDependency Project="src/contrib/re-spirv/re-spirv.vcxproj"/>
+	</Project>
+	<Project Path="src/tools/texture_hasher/texture_hasher.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8adb5f11-8147-3e47-9b71-1f88c0c011d4">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="src/tools/texture_packer/texture_packer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dfe8bb1-9b87-3484-861e-675293c891db">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+	</Project>
+	<Project Path="src/contrib/zstd/build/cmake/lib/uninstall.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cd7e8a51-d5ac-35de-bdc2-fbccd9a2c242">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="src/contrib/zstd/build/cmake/programs/zstd.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8e7e9ec0-c616-3f69-8903-3c32e5f22d3b">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/contrib/zstd/build/cmake/lib/libzstd_static.vcxproj"/>
+	</Project>
+</Solution>

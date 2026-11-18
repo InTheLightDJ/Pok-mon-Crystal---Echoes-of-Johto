@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA5E1A73-9E2B-33A0-9F93-25F81E280E07}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Stadium1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Stadium1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Stadium1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Stadium1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Stadium1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Stadium1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Stadium1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Stadium1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Stadium1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything -march=nehalem -fno-strict-aliasing -fms-extensions</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;STADIUM1;RECOMP_FUNCS_DIR="D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;STADIUM1;RECOMP_FUNCS_DIR=\"D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs\";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/SDL2.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxil.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxcompiler.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Debug\Stadium1Funcs.lib;N64ModernRuntime\librecomp\Debug\librecomp.lib;N64ModernRuntime\ultramodern\Debug\ultramodern.lib;rt64\Debug\rt64.lib;SDL2.lib;Winmm.lib;N64ModernRuntime\librecomp\N64Recomp\Debug\LiveRecomp.lib;N64ModernRuntime\librecomp\N64Recomp\Debug\N64Recomp.lib;N64ModernRuntime\librecomp\N64Recomp\Debug\SymbolLists.lib;N64ModernRuntime\librecomp\N64Recomp\lib\fmt\Debug\fmtd.lib;N64ModernRuntime\librecomp\N64Recomp\Debug\rabbitizer.lib;N64ModernRuntime\librecomp\miniz\Debug\miniz.lib;rt64\src\contrib\re-spirv\Debug\re-spirv.lib;rt64\src\contrib\nativefiledialog-extended\src\Debug\nfd.lib;rt64\src\contrib\zstd\build\cmake\lib\Debug\zstd_static.lib;delayimp.lib;D3D12.lib;DXGI.lib;Shcore.lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\lib\x64\dxcompiler.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64;D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Debug/Stadium1.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Debug/Stadium1.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything -march=nehalem -fno-strict-aliasing -fms-extensions</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR="D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR=\"D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs\";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/SDL2.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxil.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxcompiler.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Release\Stadium1Funcs.lib;N64ModernRuntime\librecomp\Release\librecomp.lib;N64ModernRuntime\ultramodern\Release\ultramodern.lib;rt64\Release\rt64.lib;SDL2.lib;Winmm.lib;N64ModernRuntime\librecomp\N64Recomp\Release\LiveRecomp.lib;N64ModernRuntime\librecomp\N64Recomp\Release\N64Recomp.lib;N64ModernRuntime\librecomp\N64Recomp\Release\SymbolLists.lib;N64ModernRuntime\librecomp\N64Recomp\lib\fmt\Release\fmt.lib;N64ModernRuntime\librecomp\N64Recomp\Release\rabbitizer.lib;N64ModernRuntime\librecomp\miniz\Release\miniz.lib;rt64\src\contrib\re-spirv\Release\re-spirv.lib;rt64\src\contrib\nativefiledialog-extended\src\Release\nfd.lib;rt64\src\contrib\zstd\build\cmake\lib\Release\zstd_static.lib;delayimp.lib;D3D12.lib;DXGI.lib;Shcore.lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\lib\x64\dxcompiler.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64;D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Release/Stadium1.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/Release/Stadium1.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything -march=nehalem -fno-strict-aliasing -fms-extensions</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR="D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR=\"D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs\";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/SDL2.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxil.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxcompiler.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\Stadium1Funcs.lib;N64ModernRuntime\librecomp\MinSizeRel\librecomp.lib;N64ModernRuntime\ultramodern\MinSizeRel\ultramodern.lib;rt64\MinSizeRel\rt64.lib;SDL2.lib;Winmm.lib;N64ModernRuntime\librecomp\N64Recomp\MinSizeRel\LiveRecomp.lib;N64ModernRuntime\librecomp\N64Recomp\MinSizeRel\N64Recomp.lib;N64ModernRuntime\librecomp\N64Recomp\MinSizeRel\SymbolLists.lib;N64ModernRuntime\librecomp\N64Recomp\lib\fmt\MinSizeRel\fmt.lib;N64ModernRuntime\librecomp\N64Recomp\MinSizeRel\rabbitizer.lib;N64ModernRuntime\librecomp\miniz\MinSizeRel\miniz.lib;rt64\src\contrib\re-spirv\MinSizeRel\re-spirv.lib;rt64\src\contrib\nativefiledialog-extended\src\MinSizeRel\nfd.lib;rt64\src\contrib\zstd\build\cmake\lib\MinSizeRel\zstd_static.lib;delayimp.lib;D3D12.lib;DXGI.lib;Shcore.lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\lib\x64\dxcompiler.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64;D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/MinSizeRel/Stadium1.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/MinSizeRel/Stadium1.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Wno-everything -march=nehalem -fno-strict-aliasing -fms-extensions</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR="D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;STADIUM1;RECOMP_FUNCS_DIR=\"D:/created games/Pokemon-game/v21/Stadium-mod/port/../build/stadium1/RecompiledFuncs\";NOMINMAX;HLSL_CPU;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\created games\Pokemon-game\v21\Stadium-mod\port\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\build\stadium1\RecompiledFuncs;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\N64ModernRuntime\N64Recomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\rhi;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\render;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\hlslpp\include;D:\created games\Pokemon-game\v21\Stadium-mod\port\..\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\inc;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\_deps\sdl2-src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\src;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\librecomp\..\thirdparty\o1heap;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\thirdparty\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\concurrentqueue;D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\..\thirdparty\sse2neon;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\re-spirv\external\SPIRV-Headers\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\nativefiledialog-extended\src\include;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\zstd\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/SDL2.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxil.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/../tools/Zelda64Recomp/lib/rt64/src/contrib/dxc/bin/x64/dxcompiler.dll" "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\Stadium1Funcs.lib;N64ModernRuntime\librecomp\RelWithDebInfo\librecomp.lib;N64ModernRuntime\ultramodern\RelWithDebInfo\ultramodern.lib;rt64\RelWithDebInfo\rt64.lib;SDL2.lib;Winmm.lib;N64ModernRuntime\librecomp\N64Recomp\RelWithDebInfo\LiveRecomp.lib;N64ModernRuntime\librecomp\N64Recomp\RelWithDebInfo\N64Recomp.lib;N64ModernRuntime\librecomp\N64Recomp\RelWithDebInfo\SymbolLists.lib;N64ModernRuntime\librecomp\N64Recomp\lib\fmt\RelWithDebInfo\fmt.lib;N64ModernRuntime\librecomp\N64Recomp\RelWithDebInfo\rabbitizer.lib;N64ModernRuntime\librecomp\miniz\RelWithDebInfo\miniz.lib;rt64\src\contrib\re-spirv\RelWithDebInfo\re-spirv.lib;rt64\src\contrib\nativefiledialog-extended\src\RelWithDebInfo\nfd.lib;rt64\src\contrib\zstd\build\cmake\lib\RelWithDebInfo\zstd_static.lib;delayimp.lib;D3D12.lib;DXGI.lib;Shcore.lib;D:\created games\Pokemon-game\v21\Stadium-mod\tools\Zelda64Recomp\lib\rt64\src\contrib\dxc\lib\x64\dxcompiler.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64;D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-src/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/RelWithDebInfo/Stadium1.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/created games/Pokemon-game/v21/Stadium-mod/port/build/RelWithDebInfo/Stadium1.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/port/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCXXCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeRCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/port/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCXXCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeRCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/port/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCXXCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeRCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/created games/Pokemon-game/v21/Stadium-mod/port/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build" --check-stamp-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-LLD.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeCXXCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeRCCompiler.cmake;D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\4.4.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\created games\Pokemon-game\v21\Stadium-mod\port\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\main.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\render.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\input.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\audio.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\register_overlays.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\fragments.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\ultra_stubs.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\transfer_pak.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\boot.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\pvp.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\kidsclub.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\crash.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\src\trace.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\rsp\aspMain.cpp" />
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\build\stadium1\rsp\njpgdspMain.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\ZERO_CHECK.vcxproj">
+      <Project>{EAF4DF82-2E03-3087-BF23-F9FA5F5D0774}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\LiveRecomp.vcxproj">
+      <Project>{19B6FB63-796B-3D72-B4A9-41294DAC0EF8}</Project>
+      <Name>LiveRecomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\N64Recomp.vcxproj">
+      <Project>{4DD2D1D3-52B2-3EFA-B0C3-072D6E554C1C}</Project>
+      <Name>N64Recomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Stadium1Funcs.vcxproj">
+      <Project>{EE3D91BA-7A9B-3F4A-8974-07C3AE37E793}</Project>
+      <Name>Stadium1Funcs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\SymbolLists.vcxproj">
+      <Project>{9F78A6BB-D9CF-371B-884D-15FF73228DF0}</Project>
+      <Name>SymbolLists</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\lib\fmt\fmt.vcxproj">
+      <Project>{A842285E-2552-3CA9-B55E-D395B7F5B600}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\librecomp.vcxproj">
+      <Project>{525F1774-A313-34F1-B6E3-E371D227B7C7}</Project>
+      <Name>librecomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\zstd\build\cmake\lib\libzstd_static.vcxproj">
+      <Project>{354917E6-BF30-37D5-A085-048AFAE286AC}</Project>
+      <Name>libzstd_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\miniz\miniz.vcxproj">
+      <Project>{701A8C91-58A0-3173-A053-416275B0E4C4}</Project>
+      <Name>miniz</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\nativefiledialog-extended\src\nfd.vcxproj">
+      <Project>{F48DEF60-F376-340C-8F7B-CFD78230EE12}</Project>
+      <Name>nfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\librecomp\N64Recomp\rabbitizer.vcxproj">
+      <Project>{059E9902-FD4E-3A5B-8131-B6F5974456F3}</Project>
+      <Name>rabbitizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\src\contrib\re-spirv\re-spirv.vcxproj">
+      <Project>{1B74385A-6743-327E-B559-88EC2CC1FF04}</Project>
+      <Name>re-spirv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\rt64\rt64.vcxproj">
+      <Project>{80CB22AC-DE22-3399-8FFF-448449E676BF}</Project>
+      <Name>rt64</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\created games\Pokemon-game\v21\Stadium-mod\port\build\N64ModernRuntime\ultramodern\ultramodern.vcxproj">
+      <Project>{A2E393A7-B074-3EA6-969E-A7074FE45A82}</Project>
+      <Name>ultramodern</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

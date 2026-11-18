@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/d3b6639800c2962185ffc8103a88cff7/sdl2-populate.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/2e5cc0d4334724f37de104c1ee33d896/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/CMakeFiles/0c5fbdc64b5161e6e70ab86a96d44b0f/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

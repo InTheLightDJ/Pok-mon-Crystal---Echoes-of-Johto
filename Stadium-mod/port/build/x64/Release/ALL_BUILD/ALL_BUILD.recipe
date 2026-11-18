@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\file_to_c.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\Stadium1.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\re-spirv-cli.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\texture_hasher.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\texture_packer.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\Release\zstd.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\created games\Pokemon-game\v21\Stadium-mod\port\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

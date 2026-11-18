@@ -1,0 +1,10 @@
+^D:\CREATED GAMES\POKEMON-GAME\V21\STADIUM-MOD\PORT\BUILD\_DEPS\SDL2-SUBBUILD\CMAKEFILES\D3B6639800C2962185FFC8103A88CFF7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild" "-BD:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/created games/Pokemon-game/v21/Stadium-mod/port/build/_deps/sdl2-subbuild/sdl2-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\error_handling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\mesgqueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\misc_ultra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\renderer_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\rsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\scheduling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\task_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threadqueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\threads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\src\ultrainit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\created games\Pokemon-game\v21\Stadium-mod\tools\N64ModernRuntime\ultramodern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C5B634F-4838-3FD5-9549-D062003F138A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

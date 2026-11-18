@@ -1,0 +1,4 @@
+# Zero-sized FUNC symbols tools/gen_manual_funcs.py must NOT size (they aren't real
+# functions: data, or case blocks of a bigger function). One name per line.
+func_8004867C   # data (decodes to scd)
+func_80048738   # auto: [WARN] Unpaired LO16 reloc index 2228 in section .fragment1 referencing symbol 3

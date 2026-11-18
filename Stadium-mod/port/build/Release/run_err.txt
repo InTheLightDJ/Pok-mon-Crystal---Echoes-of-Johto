@@ -1,0 +1,26 @@
+[tpak] player 1: "POKEMON YELLOW" MBC5, 1024 KB ROM, 32 KB save
+[gfx] microcode text 0x80066090 data 0x8007E650 (size 0x1000)
+[input] 16 scripted presses from STADIUM_INPUT
+[input] 7.02s: 0x8000
+[input] 13.02s: 0x0400
+[input] 15.00s: 0x8000
+[input] 22.00s: 0x0400
+[input] 24.00s: 0x0400
+[input] 26.00s: 0x8000
+[kidsclub] PVP chosen
+[pvp] -> enter
+[input] 32.00s: 0x0400
+[input] 34.00s: 0x8000
+[pvp] -> start
+[input] 38.02s: 0x8000
+[pvp] -> level 1
+[pvp] round 1: game 6 (seed 777)
+[input] 112.00s: 0x8000
+[input] 118.00s: 0x8000
+[pvp] -> done 1 0 6
+[input] 124.02s: 0x8000
+[input] 130.02s: 0x8000
+[input] 136.02s: 0x8000
+[pvp] round 2: no picker from the server, picking here
+[input] 170.00s: 0x8000
+[input] 175.00s: 0x8000

@@ -1,0 +1,8 @@
+# Stadium 1 JPEG microcode (njpgdspMain) -> C++. Same size as Zelda64Recomp's.
+# ROM offset: njpgdspMainTextStart 0x80068080 - 0x80000400 + 0x1000 = 0x68C80
+text_offset = 0x68C80
+text_size = 0xAF0
+text_address = 0x04001080
+rom_file_path = "../../../build/stadium1/pokestadium-us.z64"
+output_file_path = "../../../build/stadium1/rsp/njpgdspMain.cpp"
+output_function_name = "njpgdspMain"

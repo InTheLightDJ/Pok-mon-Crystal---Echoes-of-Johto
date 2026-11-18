@@ -1,12 +1,5 @@
 # Never in the public repo:
-# the Pokémon Stadium port (ROM-derived: recompiled code, ROMs, builds) and its decompilations
-Stadium-mod/
-Stadium/
-*.z64
-*.n64
-*.v64
-*.gb
-*.gbc
+
 # personal / debug files
 Screenshots/
 hangwatch.txt

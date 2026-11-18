@@ -1,0 +1,18 @@
+[WARN] Unpaired LO16 reloc index 2228 in section .fragment1 referencing symbol 3312 with offset 0x8120B40C
+[Stadium-mod] Skipping bad static 0x8000B7D0 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x8000B7D0
+[Stadium-mod] Skipping bad static 0x8000B7F0 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x8000B7F0
+[Stadium-mod] Skipping bad static 0x8000BD10 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x8000BD10
+[Stadium-mod] Skipping bad static 0x80048590 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x80048590
+[Stadium-mod] Skipping bad static 0x80048684 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x80048684
+[Stadium-mod] Skipping bad static 0x80048904 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x80048904
+[Stadium-mod] Skipping bad static 0x80050BA0 in section .text (0x80000400+0x7E980, rom 0x1000), end 0x80050BA0
+[Stadium-mod] Skipping bad static 0x8000B7F0 in section .fragment1 (0x81200000+0x2B1E0, rom 0x7F980), end 0x81200000
+[Stadium-mod] Skipping bad static 0x812096A0 in section .fragment1 (0x81200000+0x2B1E0, rom 0x7F980), end 0x812096A0
+[Stadium-mod] Skipping bad static 0x81209870 in section .fragment1 (0x81200000+0x2B1E0, rom 0x7F980), end 0x81209870
+[Stadium-mod] Skipping bad static 0x81209EB4 in section .fragment1 (0x81200000+0x2B1E0, rom 0x7F980), end 0x81209EB4
+[Stadium-mod] Skipping bad static 0x8000B8A0 in section .fragment40 (0x83100000+0x1EE0, rom 0x285DC0), end 0x83100000
+[Stadium-mod] Skipping bad static 0x8000B8A0 in section .fragment62 (0x84300000+0x8E440, rom 0x2EA8C0), end 0x84300000
+Function count: 14238
+Working dir: D:\created games\Pokemon-game\v21\Stadium-mod\recomp\stadium1
+[Info] Indirect tail call in recomp_entrypoint
+Tail call in env_static_80061238 to 0x80061264
