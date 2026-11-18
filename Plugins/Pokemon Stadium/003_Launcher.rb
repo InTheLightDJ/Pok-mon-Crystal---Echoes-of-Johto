@@ -17,6 +17,7 @@ module PokemonStadium
   # Stadium1.exe, relative to the game folder (first one found)
   EXE_PATHS = [
     "Stadium/Stadium1.exe",
+    "Stadium-mod/port/build/Release/Stadium1.exe",
     "../Stadium-mod/port/build/Release/Stadium1.exe"
   ]
   # where a Gen 1 cart image can be found if tpak/p1.gb isn't there yet
